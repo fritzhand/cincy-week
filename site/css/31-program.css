@@ -1,0 +1,17 @@
+/* ======================================================================
+   site/css/31-program.css · OWNER: Agent G (home, programs & info)
+   Program page head (plate underline) and the day-by-day themes list.
+   From the final "Interchange" design (design/final/css). Partials are concatenated in lexical
+   order into docs/assets/site.css. Read only tokens (var(--…)); no color literal may appear here
+   (the build fails on one). Prefix new classes with your domain (see CLAUDE.md).
+   ====================================================================== */
+/* program page head: the name in display type, plate-underlined in its ink */
+.prog-head { padding-top: var(--sp-4); }
+.prog-head h1 { font-size: var(--fs-2xl); max-width: 18ch; }
+.prog-head .kicker { color: var(--ink-text); }
+.themes { list-style: none; padding: 0; border-top: var(--rule-mid) solid var(--rule-ink); }
+.themes li { display: grid; grid-template-columns: 92px minmax(0, 1fr); gap: 4px 16px; padding: 12px 0; border-bottom: 1px solid var(--border); }
+.themes time { font-weight: 700; font-variant-numeric: tabular-nums; }
+.themes time small { display: block; font-size: var(--fs-label); font-weight: var(--wght-strong); color: var(--text-faint); letter-spacing: var(--track-label); text-transform: uppercase; }
+.themes b { font-family: var(--font-display); font-weight: var(--wght-head); font-size: var(--fs-md); }
+.themes p { font-size: var(--fs-sm); color: var(--text-muted); }

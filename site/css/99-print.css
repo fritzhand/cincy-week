@@ -1,0 +1,24 @@
+/* ======================================================================
+   site/css/99-print.css · OWNER: Agent A (core engine)
+   Print and reduced motion. Kept last so it wins the cascade.
+   From the final "Interchange" design (design/final/css). Partials are concatenated in lexical
+   order into docs/assets/site.css. Read only tokens (var(--…)); no color literal may appear here
+   (the build fails on one). Prefix new classes with your domain (see CLAUDE.md).
+   ====================================================================== */
+/* ---------- print: the plan and the schedule print as a timetable ---------- */
+@media print {
+  .topbar, .sidebar, .dock, .scrim, .to-top, .toast, .sched-bar, .filter-row, .star, .map-zoom, .ticker, .modal { display: none !important; }
+  .layout { display: block; background: none; }
+  .content { max-width: none; padding: 0; }
+  body { background: none; color: var(--text); font-size: 11pt; }
+  .ev, .plan-item { break-inside: avoid; }
+  details.earlier { display: none; }
+  a { text-decoration: none; }
+}
+
+/* ---------- reduced motion: nothing moves by itself; the live ring shows as a static ring ---------- */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
+  .dot-live::after, .pin.is-live::after { opacity: 1; transform: none; animation: none; }
+}

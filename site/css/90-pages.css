@@ -1,0 +1,35 @@
+/* ======================================================================
+   site/css/90-pages.css · OWNER: Agent A (core engine)
+   Footer (river rule, motto, author block) and the 404 page.
+   From the final "Interchange" design (design/final/css). Partials are concatenated in lexical
+   order into docs/assets/site.css. Read only tokens (var(--…)); no color literal may appear here
+   (the build fails on one). Prefix new classes with your domain (see CLAUDE.md).
+   ====================================================================== */
+/* ---------- footer: the river rule on top, the city motto in the colophon ---------- */
+.footer { background: var(--sidebar-bg); border-top: 1px solid var(--border); }
+@media (min-width: 1024px) { .footer { padding-left: var(--sidebar-w); } :root.rail-collapsed .footer { padding-left: 0; } }
+.footer-inner { max-width: var(--content-max); margin: 0 auto; padding: 0 var(--gutter) var(--sp-7); }
+.footer .river .rr { height: 30px; }
+.footer-grid { display: grid; gap: var(--sp-6); grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr) minmax(0, 1fr); padding-top: var(--sp-5); }
+@media (max-width: 859px) { .footer-grid { grid-template-columns: minmax(0, 1fr); } }
+.footer .wm { width: 180px; height: auto; color: var(--text); }
+.motto { margin-top: var(--sp-3); font-family: var(--font-display); font-size: var(--fs-md); line-height: var(--lh-snug); }
+.motto em { font-style: italic; }
+.motto-note { margin-top: 4px; font-size: var(--fs-xs); color: var(--text-muted); }
+.footer h2 { font-family: var(--font-body); font-size: var(--fs-label); font-weight: var(--wght-strong); letter-spacing: var(--track-label); text-transform: uppercase; color: var(--text-muted); margin-bottom: var(--sp-2); }
+.footer ul { list-style: none; padding: 0; }
+.footer li a { display: flex; align-items: center; gap: 8px; min-height: var(--tap); color: var(--text); font-size: var(--fs-sm); }
+.footer-author { display: flex; align-items: center; gap: 12px; margin-top: var(--sp-5); font-size: var(--fs-sm); }
+.footer-author .avatar { --av: 44px; }
+.footer-author a { display: inline-flex; align-items: center; min-height: var(--tap); margin-right: 12px; }
+.footer-base { display: flex; flex-wrap: wrap; justify-content: space-between; gap: var(--sp-2) var(--sp-5); margin-top: var(--sp-6); padding-top: var(--sp-3); border-top: 1px solid var(--border); font-size: var(--fs-xs); color: var(--text-muted); }
+@media (max-width: 1023px) { .footer-inner { padding-bottom: calc(var(--dock-h) + var(--sp-6)); } }
+
+/* ---------- 404: "This stop isn't on the line" ---------- */
+.nf { max-width: 640px; }
+.nf .nf-line { display: flex; align-items: center; margin: var(--sp-5) 0; height: 32px; }
+.nf .nf-line i { height: var(--line-w); flex: 1; background: var(--rule-ink); }
+.nf .nf-line i.gap { flex: 0 0 72px; height: 0; border-top: 3px dashed var(--border-strong); background: none; }
+.nf .nf-line b { width: 22px; height: 22px; flex: none; border-radius: 50%; border: 4px solid var(--rule-ink); background: var(--bg); }
+.nf .nf-line b.missing { border-style: dashed; border-color: var(--border-strong); }
+.nf h1 { font-size: var(--fs-2xl); }

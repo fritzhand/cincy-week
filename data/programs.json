@@ -1,0 +1,443 @@
+[
+  {
+    "id": "caw",
+    "slug": "art-week",
+    "name": "Cincinnati Art Week",
+    "short_name": "CAW",
+    "tagline": "A CELEBRATION OF ART & IDEAS & CREATIVE COMMUNITY",
+    "edition": null,
+    "dates": {
+      "start": "2026-10-03",
+      "end": "2026-10-10"
+    },
+    "description": "From October 3–10 2026, Cincinnati Art Week brings exhibitions, pop-up galleries, social gatherings, and special programming to Over-the-Rhine.\n\nCincinnati is an art city. It’s home to one of the Midwest's most vibrant creative communities. Cincinnati Art Week invites you to experience it.\n\nDesigned by artists, the week connects residents and visitors with exhibitions, conversations, creative experiences, public programming and the people shaping Cincinnati’s cultural landscape.\n\nCincinnati Art Week begins in Over-the-Rhine and grows from there. Each year, we'll expand into new neighborhoods, strengthening connections between artists, organizations, and the communities they call home.",
+    "organizers": [
+      {
+        "name": "Cincy Nice",
+        "url": "https://www.cincynice.com/",
+        "org_id": "cincy-nice"
+      },
+      {
+        "name": "No Standing",
+        "url": "https://www.nostandingonlydancing.com/",
+        "org_id": null
+      }
+    ],
+    "url": "https://cincinnatiartweek.com/",
+    "hub_venue_id": "caw-art-market-hq-1417-main",
+    "tickets": [],
+    "daily_themes": [
+      {
+        "date": "2026-10-03",
+        "theme": "OPENING DAY",
+        "highlights": [
+          "Exhibitions + Art Market",
+          "Meet the Artists",
+          "CAW Offsite Opening Celebration"
+        ]
+      },
+      {
+        "date": "2026-10-04",
+        "theme": "MAKE IT",
+        "highlights": [
+          "Exhibitions + Art Market",
+          "MAKE IT",
+          "Meet the Artists"
+        ]
+      },
+      {
+        "date": "2026-10-05",
+        "theme": "TAKE IT EASY",
+        "highlights": [
+          "Exhibitions + Art Market"
+        ]
+      },
+      {
+        "date": "2026-10-06",
+        "theme": "NEIGHBOR NITE",
+        "highlights": [
+          "Exhibitions + Art Market",
+          "Meet the Artists",
+          "Neighborhood Programming"
+        ]
+      },
+      {
+        "date": "2026-10-07",
+        "theme": "WELCOME + NO GRID",
+        "highlights": [
+          "Exhibitions + Art Market",
+          "Visiting Artist Welcome",
+          "CAW Happy Hour",
+          "Meet the Artists",
+          "NO GRID"
+        ]
+      },
+      {
+        "date": "2026-10-08",
+        "theme": "BLINK BEGINS",
+        "highlights": [
+          "Exhibitions + Art Market",
+          "Meet the Artists",
+          "CAW Offsite"
+        ]
+      },
+      {
+        "date": "2026-10-09",
+        "theme": "FRIDAY FREEDOM",
+        "highlights": [
+          "Exhibitions + Art Market",
+          "Meet the Artists"
+        ]
+      },
+      {
+        "date": "2026-10-10",
+        "theme": "CLOSING DAY",
+        "highlights": [
+          "Final Day of Exhibitions + Art Market",
+          "Final Meet the Artists"
+        ]
+      }
+    ],
+    "hours": "SAT 10/3 4–7 PM; SUN 10/4 12–6 PM; MON 10/5 4–7 PM; TUE 10/6 - SAT 10/10 12–7 PM",
+    "hashtags": [],
+    "social": {
+      "instagram": null,
+      "x": null,
+      "facebook": null,
+      "linkedin": null,
+      "tiktok": null
+    },
+    "contact": {
+      "email": null,
+      "phone": null
+    },
+    "history": [],
+    "stats": [],
+    "logo": null,
+    "brand": null,
+    "source_url": "https://cincinnatiartweek.com/"
+  },
+  {
+    "id": "scw",
+    "slug": "startupcincy-week",
+    "name": "StartupCincy Week",
+    "short_name": "SUCW",
+    "tagline": "Ten Years of Bold Bets",
+    "edition": "2026",
+    "dates": {
+      "start": "2026-10-05",
+      "end": "2026-10-08"
+    },
+    "description": "StartupCincy Week 2026 marks a decade of backing founders who refused to play it safe, building companies that didn't ask permission, and proving Cincinnati is where bold bets belong.",
+    "organizers": [
+      {
+        "name": "StartupCincy",
+        "url": "https://startupcincy.com/",
+        "org_id": null
+      },
+      {
+        "name": "Cintrifuse",
+        "url": "https://cintrifuse.com/",
+        "org_id": "cintrifuse"
+      }
+    ],
+    "url": "https://startupcincyweek.com/",
+    "hub_venue_id": "union-hall",
+    "tickets": [],
+    "daily_themes": [
+      {
+        "date": "2026-10-05",
+        "theme": "Kick-off",
+        "highlights": [
+          "Opening Keynote",
+          "Community Lunch",
+          "Upskilling Sessions"
+        ]
+      },
+      {
+        "date": "2026-10-06",
+        "theme": "Capital",
+        "highlights": [
+          "Cintrifuse AGM",
+          "Venture Panels",
+          "Best of Demo Night"
+        ]
+      },
+      {
+        "date": "2026-10-07",
+        "theme": "Growth",
+        "highlights": [
+          "10th Anniversary Party",
+          "Workshops & Panels",
+          "Breakout Sessions"
+        ]
+      },
+      {
+        "date": "2026-10-08",
+        "theme": "Students",
+        "highlights": [
+          "Fellows Lounge",
+          "Speaker Series",
+          "Founder Panels"
+        ]
+      }
+    ],
+    "hours": null,
+    "hashtags": [
+      "#StartupCincy"
+    ],
+    "social": {
+      "instagram": null,
+      "x": null,
+      "facebook": null,
+      "linkedin": null,
+      "tiktok": null
+    },
+    "contact": {
+      "email": null,
+      "phone": null
+    },
+    "history": [],
+    "stats": [],
+    "logo": null,
+    "brand": null,
+    "source_url": "https://startupcincyweek.com/"
+  },
+  {
+    "id": "blink",
+    "slug": "blink",
+    "name": "BLINK",
+    "short_name": "BLINK",
+    "tagline": "BLINK® illuminated by ArtsWave, is the nation’s largest public light and art event.",
+    "edition": "2026",
+    "dates": {
+      "start": "2026-10-08",
+      "end": "2026-10-11"
+    },
+    "description": "Started in 2017, BLINK is a biennial celebration of public art and light that spans the urban core of Cincinnati and Northern Kentucky. The massive four-day event features 80+ large-scale projection mappings against some of the city’s most iconic architecture, interactive light-based installations in its public spaces and expansive murals across its buildings, all by renowned local, national and international artists. The largest of its kind in the country, the festival’s mission is to nurture a sense of community, connection and inspiration through the medium of public art. In 2024, BLINK spanned 30+ city blocks, crossing the Ohio River into Covington, Kentucky and was experienced by over 2 million people. BLINK is by the artists, for the people. Executive producing partners are the Cincinnati Regional Chamber, AGAR and the Haile Foundation. We welcome all to Cincinnati, Ohio to experience the magic and wonder of BLINK once again October 8-11, 2026.",
+    "organizers": [
+      {
+        "name": "Cincinnati Regional Chamber",
+        "url": "https://www.cincinnatichamber.com/",
+        "org_id": null
+      },
+      {
+        "name": "AGAR",
+        "url": "https://theagar.com/",
+        "org_id": null
+      },
+      {
+        "name": "Carol Ann & Ralph V. Haile, Jr. Foundation (Haile Foundation)",
+        "url": "https://www.hailefoundation.org/",
+        "org_id": null
+      },
+      {
+        "name": "ArtsWave",
+        "url": "https://artswave.org/",
+        "org_id": null
+      }
+    ],
+    "url": "https://www.blinkcincinnati.com/",
+    "hub_venue_id": null,
+    "tickets": [],
+    "daily_themes": [
+      {
+        "date": "2026-10-08",
+        "theme": "Opening night: Ready. Set. BLINK! Opening Ceremony, then BLINK lights on",
+        "highlights": [
+          "Ready. Set. BLINK! Opening Ceremony, 4:00-9:00 p.m., Central Parkway between Liberty Street and West 14th Street (TQL Stadium)",
+          "Flip the Switch at sunset (approximately 7:00 p.m.), followed by a light and drone show with pyrotechnics",
+          "Drone show \"First Sight\" over TQL Stadium at 8:30 p.m.",
+          "BLINK installations 7:00-11:00 p.m.",
+          "Asianati Night Market on Court Street Plaza, 5-11 p.m. (hours per FOX19)"
+        ]
+      },
+      {
+        "date": "2026-10-09",
+        "theme": "BLINK night 2",
+        "highlights": [
+          "BLINK installations 7:00-11:00 p.m.",
+          "Drone show \"Dimensions of Wonder\" over the Ohio River at 8 p.m. and 10 p.m.",
+          "Asianati Night Market on Court Street Plaza, 5-11 p.m. (hours per FOX19)",
+          "TANK Park & Ride from NKU runs Friday and Saturday only",
+          "Harper Alive at The Mercantile Immersive from 6:00 PM (BLINK Around Town)"
+        ]
+      },
+      {
+        "date": "2026-10-10",
+        "theme": "BLINK night 3",
+        "highlights": [
+          "BLINK installations 7:00-11:00 p.m.",
+          "Drone show \"Dimensions of Wonder\" over the Ohio River at 8 p.m. and 10 p.m.",
+          "Asianati Night Market on Court Street Plaza, 5-11 p.m. (hours per FOX19)",
+          "Fall Cov Craft makers market, 10 a.m.-4 p.m., Sixth Street Promenade, MainStrasse Village, Covington (sponsored by BLINK)",
+          "Harper Alive at The Mercantile Immersive from 1:00 PM (BLINK Around Town)",
+          "TANK Park & Ride from NKU runs Friday and Saturday only"
+        ]
+      },
+      {
+        "date": "2026-10-11",
+        "theme": "BLINK final night",
+        "highlights": [
+          "BLINK installations 7:00-11:00 p.m.",
+          "Drone show \"Dimensions of Wonder\" over the Ohio River at 8 p.m. and 10 p.m.",
+          "Asianati Night Market on Court Street Plaza, 5-10 p.m. (hours per FOX19)",
+          "Harper Alive at The Mercantile Immersive at 3:00 PM (BLINK Around Town)"
+        ]
+      }
+    ],
+    "hours": "October 8-11 From 7:00PM to 11:00PM",
+    "hashtags": [],
+    "social": {
+      "instagram": null,
+      "x": null,
+      "facebook": null,
+      "linkedin": null,
+      "tiktok": null
+    },
+    "contact": {
+      "email": null,
+      "phone": null
+    },
+    "history": [],
+    "stats": [],
+    "logo": null,
+    "brand": null,
+    "source_url": "https://www.blinkcincinnati.com/about-blink"
+  },
+  {
+    "id": "fotofocus",
+    "slug": "fotofocus",
+    "name": "FotoFocus Biennial",
+    "short_name": "FotoFocus",
+    "tagline": "The Long View",
+    "edition": "2026: The Long View",
+    "dates": {
+      "start": "2026-09-30",
+      "end": "2026-11-01"
+    },
+    "description": "An ambitious collaboration between FotoFocus and the region’s museums, galleries, universities, and alternative spaces, the Biennial is a month-long celebration of photography that unites artists, curators, and participants from around the world. Now in its eighth iteration, the 2026 Biennial encompasses 74 exhibitions at 65 Biennial Venues across Greater Cincinnati, Dayton, Columbus, and Northern Kentucky—the largest of its kind in America.\n\nBiennial venues present a wide range of original exhibitions and reflective programs, all centered around the theme, The Long View, which considers aspects of time and perspective in photography and film, and how these mediums shape our understanding of the world. The 2026 Biennial presents six Featured Exhibitions that embody the theme of The Long View. This includes artists who examine the crossroads of technology and philosophy (Trevor Paglen at FotoFocus Center); consider concepts of time and challenge linear narratives (group exhibitions at Contemporary Arts Center and The Carnegie); reimagine portraiture through a Black, queer lens (Paul Mpagi Sepuya at Alice F. and Harris K. Weston Art Gallery); explore Haitian identity and the Black diaspora (Widline Cadet at Contemporary Arts Center); and a major retrospective exploring the life, work, and archive of Nancy Rexroth (Cincinnati Art Museum).\n\nThe Biennial Opening Program (Wednesday, September 30–Saturday, October 3, 2026) constitutes the core of the Biennial, establishing the theme and dialogues that unite the broader programming. Featuring a keynote lecture, artist talks, curator tours, and receptions, the Opening Program inspires conversations about the world through photography and lens-based art. Biennial Events continue throughout the month of October.\n\nWhile many venues are free and open to the public, the official Biennial Pass offers access to Biennial Events during the month of October; invitations to members-only events; and entry into the Opening Program. Free registration for the Pass begins in August.\n\nDirector’s Statement Curator’s Statement Biennial History Sponsors 2024 FotoFocus Biennial: Chip Thomas and the Painted Desert Project at the Contemporary Arts Center. Photo by Emily Akil The largest of its kind in America, the Biennial is a month-long celebration of photography and lens-based art. Launched in October 2012, the Biennial is held throughout the Greater Cincinnati, Dayton, Columbus, and Northern Kentucky region every two years. Over 3,500 artists and participants have been featured in more than 800 exhibitions and programs throughout its history. Each iteration centers around a unifying theme and is realized through the cooperation of museums, galleries, universities, and alternative spaces that connect artists, curators, and creatives. Cumulatively, the Biennial has welcomed over one million visitors since its inception. The Biennial Opening Program features special events and programs, establishing the theme and dialogues that unite the broader programming. Biennial Events continue at venues throughout the month and include artist and curator talks, tours, performances, screenings, and receptions. 2026 BIENNIAL The Long View Jump to... About the Biennial Theme Director’s Statement Curator’s Statement Biennial History Sponsors ENGAGE Facebook Instagram Join the Mailing List The Lens CONTACT info@fotofocus.org (513) 400-4027 PRESS & MEDIA Press Contact Press Releases Media Coverage Theme Each Biennial is structured around a unifying theme. The 2026 Biennial theme, The Long View, considers aspects of time and perspective in photography and film, and how these mediums shape our understanding of the world. “The long view” is a phrase used to invoke a broader perspective. It suggests both distance and duration, i.e., looking far into the distance and/or looking for a long period of time. As an attitude toward history, the long view suggests a wise and measured perspective, one that takes into consideration the distant past as well as the distant future. The long view also describes in literal terms two primary functions of photography: photographic lenses enable both long-distance vision and long-duration viewing. The Long View acknowledges the semiquincentennial of the United States, encouraging a posture of reflection in regards to the grand sweep of our country’s history, its past, present, and future. Photography can show us many moments from that history but it can also serve as a metaphor for how we understand our past and decide to shape it over time.",
+    "organizers": [
+      {
+        "name": "FotoFocus",
+        "url": "https://www.fotofocus.org/",
+        "org_id": "fotofocus"
+      }
+    ],
+    "url": "https://www.fotofocus.org/biennial/2026/",
+    "hub_venue_id": null,
+    "tickets": [],
+    "daily_themes": [
+      {
+        "date": "2026-09-30",
+        "theme": "Opening Program: The Carnegie",
+        "highlights": [
+          "Natural Fictions Opening Reception, 5–8pm (Covington)"
+        ]
+      },
+      {
+        "date": "2026-10-01",
+        "theme": "Opening Program: Cincinnati Art Museum",
+        "highlights": [
+          "Nancy Rexroth: Secrets of My Power reception 5pm, lecture with Nathaniel M. Stein 6pm, book signing with Nancy Rexroth 7pm"
+        ]
+      },
+      {
+        "date": "2026-10-02",
+        "theme": "Opening Program: Contemporary Arts Center + Weston Art Gallery",
+        "highlights": [
+          "In the Interest of Time gallery tour 5pm (CAC)",
+          "Paul Mpagi Sepuya: Compressed Tenses opening reception 6pm (Weston)",
+          "Widline Cadet conversation 7pm and opening receptions 8pm (CAC)"
+        ]
+      },
+      {
+        "date": "2026-10-03",
+        "theme": "Opening Program: Memorial Hall + FotoFocus Center",
+        "highlights": [
+          "Artist talks 1–4pm and keynote lecture by Daniel Immerwahr 5pm (Memorial Hall)",
+          "Trevor Paglen: the most merciful thing in the world reception 6pm (FotoFocus Center)"
+        ]
+      },
+      {
+        "date": "2026-10-16",
+        "theme": "Dayton Spotlight Weekend (Oct 16–18)",
+        "highlights": [
+          "Spotlight Bus Tour: Dayton, Oct 17"
+        ]
+      },
+      {
+        "date": "2026-10-23",
+        "theme": "Columbus Spotlight Weekend (Oct 23–25)",
+        "highlights": [
+          "Spotlight Bus Tour: Columbus, Oct 24"
+        ]
+      },
+      {
+        "date": "2026-10-30",
+        "theme": "Cincinnati Spotlight Weekend (Oct 30–Nov 1)",
+        "highlights": [
+          "Spotlight Bus Tour: Greater Cincinnati, Oct 31"
+        ]
+      }
+    ],
+    "hours": "FotoFocus Center (228 E Liberty St): Thursday and Friday 11am–6pm, Saturday 11am–5pm; reopens Thursday, October 1 with Trevor Paglen: the most merciful thing in the world. Other venues: see venues.json notes.",
+    "hashtags": [
+      "#FotoFocus",
+      "#TheLongView",
+      "#FotoFocus2026"
+    ],
+    "social": {
+      "instagram": null,
+      "x": null,
+      "facebook": null,
+      "linkedin": null,
+      "tiktok": null
+    },
+    "contact": {
+      "email": null,
+      "phone": null
+    },
+    "history": [],
+    "stats": [],
+    "logo": null,
+    "brand": null,
+    "source_url": "https://www.fotofocus.org/biennial/2026/"
+  },
+  {
+    "id": "also",
+    "slug": null,
+    "name": "More happenings",
+    "short_name": "More",
+    "tagline": null,
+    "edition": null,
+    "dates": {
+      "start": "2026-10-03",
+      "end": "2026-10-11"
+    },
+    "description": null,
+    "organizers": [],
+    "url": null,
+    "hub_venue_id": null,
+    "tickets": [],
+    "daily_themes": [],
+    "hours": null,
+    "hashtags": [],
+    "social": {
+      "instagram": null,
+      "x": null,
+      "facebook": null,
+      "linkedin": null,
+      "tiktok": null
+    },
+    "contact": {
+      "email": null,
+      "phone": null
+    },
+    "history": [],
+    "stats": [],
+    "logo": null,
+    "brand": null,
+    "source_url": "https://artswave.org/what-is-artswave/the-artswave-app/"
+  }
+]

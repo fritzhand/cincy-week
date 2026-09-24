@@ -1,0 +1,24 @@
+/* ======================================================================
+   site/css/41-plan.css · OWNER: Agent D (schedule & plan)
+   My Plan: days, items, walking gap hints.
+   From the final "Interchange" design (design/final/css). Partials are concatenated in lexical
+   order into docs/assets/site.css. Read only tokens (var(--…)); no color literal may appear here
+   (the build fails on one). Prefix new classes with your domain (see CLAUDE.md).
+   ====================================================================== */
+/* ---------- My Plan: by day, overlaps with their length, walking gaps ---------- */
+.plan-day { margin-top: var(--sp-5); }
+.plan-day > h3 { display: flex; align-items: baseline; gap: 10px; padding-bottom: 6px; border-bottom: var(--rule-mid) solid var(--rule-ink); }
+.plan-list { list-style: none; padding: 0; }
+.plan-item { display: grid; grid-template-columns: 74px minmax(0, 1fr) var(--tap); gap: 2px 12px; align-items: start; padding: 12px 0; border-bottom: 1px solid var(--border); }
+.plan-item time { font-weight: 700; font-variant-numeric: tabular-nums; text-align: right; line-height: 1.35; }
+.plan-item time small { display: block; font-size: var(--fs-label); color: var(--text-faint); font-weight: var(--wght-strong); }
+.plan-item .t { font-family: var(--font-display); font-weight: var(--wght-head); font-size: var(--fs-md); line-height: var(--lh-snug); }
+.plan-item .t a { color: var(--text); text-decoration: none; }
+.plan-item .t a:hover { text-decoration: underline; }
+.plan-item .m { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; margin-top: 4px; font-size: var(--fs-xs); color: var(--text-muted); }
+.plan-item.is-past { background: var(--past-bg); }
+.plan-item .ev-conflict { grid-column: 2 / -1; margin-right: 0; }
+.gap-hint { display: flex; align-items: center; gap: 8px; padding: 8px 0 8px 86px; font-size: var(--fs-xs); color: var(--text-muted); border-bottom: 1px solid var(--border); }
+.gap-hint .i { width: 16px; height: 16px; }
+.gap-hint.long { color: var(--warning); }
+@media (max-width: 559px) { .plan-item { grid-template-columns: 58px minmax(0, 1fr) var(--tap); } .gap-hint { padding-left: 70px; } }

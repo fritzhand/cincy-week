@@ -1,0 +1,19 @@
+{
+  "name": "cincy-week",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Cincy Week: Cincinnati Art Week, StartupCincy Week, BLINK and the FotoFocus Biennial in one static guide.",
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "build": "node build.mjs",
+    "dev": "node build.mjs && node scripts/serve.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "images": "python3 scripts/fetch-images.py",
+    "basemap": "node scripts/build-basemap.mjs",
+    "og": "node scripts/og.mjs",
+    "shots": "node scripts/shots.mjs",
+    "news": "python3 scripts/fetch-cincy-news.py"
+  },
+  "license": "MIT"
+}

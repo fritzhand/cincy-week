@@ -1,0 +1,29 @@
+/* ======================================================================
+   site/css/70-visit.css · OWNER: Agent E (map, venues & visit)
+   Stays with room blocks, walking matrix, neighborhood band.
+   From the final "Interchange" design (design/final/css). Partials are concatenated in lexical
+   order into docs/assets/site.css. Read only tokens (var(--…)); no color literal may appear here
+   (the build fails on one). Prefix new classes with your domain (see CLAUDE.md).
+   ====================================================================== */
+
+/* ---------- 70 · visit: where to stay, getting around, neighborhoods ---------- */
+.stays { display: grid; gap: var(--sp-4); grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr)); }
+.stay { position: relative; display: flex; flex-direction: column; padding: var(--sp-4); background: var(--surface); border: 1px solid var(--border); }
+.stay h3 { font-size: var(--fs-lg); }
+.stay .addr { margin-top: 2px; font-size: var(--fs-sm); color: var(--text-muted); font-variant-numeric: tabular-nums; }
+.dist { display: flex; flex-wrap: wrap; gap: 6px; margin-top: var(--sp-3); }
+.dist span { display: inline-flex; align-items: center; gap: 5px; height: 28px; padding: 0 8px; border: 1px solid var(--border); border-radius: var(--radius-xs); font-size: var(--fs-xs); color: var(--text-muted); font-variant-numeric: tabular-nums; }
+.dist span b { color: var(--text); font-weight: var(--wght-strong); }
+.dist .i { width: 14px; height: 14px; }
+.block { margin-top: var(--sp-4); padding: 12px 14px; background: var(--ink-tint); border-left: var(--rule-heavy) solid var(--ink-fill); }
+.block .bh { display: flex; align-items: center; gap: 8px; color: var(--ink-text); }
+.block dl { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 4px 12px; margin-top: 8px; font-size: var(--fs-sm); }
+.block dt { color: var(--text-muted); }
+.block dd { font-weight: var(--wght-strong); font-variant-numeric: tabular-nums; }
+.stay .acts { margin-top: auto; padding-top: var(--sp-4); display: flex; flex-wrap: wrap; gap: var(--sp-2); }
+/* walking matrix: minutes between hubs */
+table.data.walk td.num b { font-size: var(--fs-base); }
+.walk-note { font-size: var(--fs-xs); color: var(--text-faint); }
+/* neighborhood band: a hood, what's on there this week, and its doors */
+.hood { padding: var(--sp-4) 0; border-top: var(--rule-mid) solid var(--rule-ink); }
+.hood-counts { display: flex; flex-wrap: wrap; gap: var(--sp-2); margin-top: var(--sp-3); }

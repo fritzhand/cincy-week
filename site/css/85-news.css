@@ -1,0 +1,7 @@
+/* ======================================================================
+   site/css/85-news.css · OWNER: Agent G (home, programs & info)
+   News page (placeholder: add .news-* classes here).
+   From the final "Interchange" design (design/final/css). Partials are concatenated in lexical
+   order into docs/assets/site.css. Read only tokens (var(--…)); no color literal may appear here
+   (the build fails on one). Prefix new classes with your domain (see CLAUDE.md).
+   ====================================================================== */

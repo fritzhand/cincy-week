@@ -1,0 +1,77 @@
+# Refreshes the news feed: fetches vetted headlines, rebuilds docs/, commits data/news.json + docs/
+# to main, and deploys gh-pages itself (SIG's workflow). OWNER: Agent A; the fetcher
+# (scripts/fetch-cincy-news.py) is Agent G's.
+#
+# Why deploy here instead of letting deploy-pages.yml do it: pushes made with the default
+# GITHUB_TOKEN do NOT trigger other workflows (GitHub's loop prevention).
+# Schedule: daily in September, every 6 hours Oct 1–12 (the week), then daily for the rest of October.
+name: Refresh news
+
+on:
+  schedule:
+    - cron: "0 10 * 9 *"
+    - cron: "0 */6 1-12 10 *"
+    - cron: "0 10 13-31 10 *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-news
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch latest vetted headlines
+        id: fetch
+        run: |
+          if [ ! -f scripts/fetch-cincy-news.py ]; then
+            echo "scripts/fetch-cincy-news.py has not landed yet: nothing to do."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            python3 scripts/fetch-cincy-news.py
+          fi
+
+      - name: Rebuild site
+        if: steps.fetch.outputs.skip != 'true'
+        run: node build.mjs
+
+      - name: Commit refreshed news + site
+        id: commit
+        if: steps.fetch.outputs.skip != 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/news.json docs
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No news changes: nothing to publish."
+          else
+            git commit -m "chore(news): refresh news feed [skip ci]"
+            git push origin HEAD:main
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Deploy docs/ to gh-pages
+        if: steps.commit.outputs.changed == 'true'
+        run: |
+          TREE=$(git rev-parse HEAD:docs)
+          COMMIT=$(git -c user.name="github-actions[bot]" \
+                       -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+                       commit-tree "$TREE" -m "Deploy site (news refresh $(git rev-parse --short HEAD))")
+          git push --force origin "$COMMIT":refs/heads/gh-pages

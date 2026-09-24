@@ -1,0 +1,68 @@
+[
+  {
+    "id": "cintrifuse",
+    "name": "Cintrifuse",
+    "roles": [
+      {
+        "program": "scw",
+        "relationship": "sponsor",
+        "tier": "Title Sponsor",
+        "tier_rank": 1
+      },
+      {
+        "program": "scw",
+        "relationship": "organizer",
+        "tier": null,
+        "tier_rank": null
+      }
+    ],
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840219992026-sucw-sponsor-logos-achievers-png1784021999.png",
+    "url": "https://cintrifuse.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page"
+  },
+  {
+    "id": "artswave",
+    "name": "ArtsWave",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "presenting sponsor",
+        "tier": "Illuminated by",
+        "tier_rank": 1
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/arts-wave2.jpg",
+    "url": "https://artswave.org/",
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
+    "id": "cincy-nice",
+    "name": "Cincy Nice",
+    "roles": [
+      {
+        "program": "caw",
+        "relationship": "organizer",
+        "tier": "Creator",
+        "tier_rank": 1
+      }
+    ],
+    "logo_url": "https://freight.cargo.site/t/original/i/S3055232852103793472565861195130/CN_logo-01-1.png",
+    "url": "https://www.cincynice.com/",
+    "source_url": "https://cincinnatiartweek.com/meet-the-team"
+  },
+  {
+    "id": "fotofocus",
+    "name": "FotoFocus",
+    "roles": [
+      {
+        "program": "fotofocus",
+        "relationship": "organizer",
+        "tier": null,
+        "tier_rank": null
+      }
+    ],
+    "logo_url": null,
+    "url": "https://www.fotofocus.org/",
+    "source_url": "https://www.fotofocus.org/biennial/2026/"
+  }
+]

@@ -1,0 +1,78 @@
+/* ======================================================================
+   site/css/60-directory.css · OWNER: Agent F (directory: people, art, partners)
+   People rows and featured mugs, artwork cards, partner logo walls.
+   From the final "Interchange" design (design/final/css). Partials are concatenated in lexical
+   order into docs/assets/site.css. Read only tokens (var(--…)); no color literal may appear here
+   (the build fails on one). Prefix new classes with your domain (see CLAUDE.md).
+   ====================================================================== */
+
+/* ---------- 60 · directory: people ---------- */
+/* directory row (500+ people): a 64×80 mug beside the name; the whole card is the link */
+.people { display: grid; gap: var(--sp-3); grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); }
+.person {
+  position: relative; display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 4px 14px; align-items: start;
+  padding: 10px 12px 10px 10px; background: var(--surface); border: 1px solid var(--border); color: var(--text); text-decoration: none;
+}
+.person:hover { border-color: var(--border-strong); color: var(--text); }
+.person:hover .per-name { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 0.16em; }
+.person .avatar { grid-row: span 3; }
+.person .avatar::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: var(--rule-heavy); background: var(--ink-fill); }
+.per-name { font-family: var(--font-display); font-weight: var(--wght-head); font-size: var(--fs-md); line-height: var(--lh-snug); }
+.per-role { font-size: var(--fs-xs); color: var(--text-muted); line-height: 1.4; }
+.per-foot { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; margin-top: 4px; color: var(--ink-text); }
+@media (min-width: 1100px) { .person .avatar { --av: 80px; } }
+/* featured person ("mug"): 4:5 portrait from the 320×400 crop, program rule and bullet on the photo */
+.people-feature { display: grid; gap: var(--sp-5) var(--sp-4); grid-template-columns: repeat(auto-fill, minmax(min(46%, 168px), 1fr)); }
+.person-feature { position: relative; display: block; color: var(--text); text-decoration: none; }
+.person-feature .photo { display: block; position: relative; aspect-ratio: 4 / 5; overflow: hidden; background: var(--ink-tint); border-bottom: var(--rule-heavy) solid var(--ink-fill); }
+[data-prog="fotofocus"].person-feature .photo { border-bottom-color: var(--ink-edge); }
+.person-feature .photo img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 28%; filter: var(--photo-filter); }
+.person-feature .photo .bullet { position: absolute; left: 8px; bottom: 8px; }
+.person-feature .photo .mono { position: absolute; inset: 0; display: grid; place-items: center; font-family: var(--font-display); font-style: italic; font-weight: 500; font-size: 3rem; color: var(--ink-text); }
+.person-feature .per-name, .person-feature .per-role, .person-feature .per-foot { display: block; }
+.person-feature .per-name { margin-top: 10px; }
+.person-feature .per-role { margin-top: 2px; }
+.person-feature:hover .per-name { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 0.16em; }
+.person-feature .per-foot { margin-top: 4px; font-size: var(--fs-label); font-weight: var(--wght-strong); letter-spacing: var(--track-label); text-transform: uppercase; }
+
+/* ---------- art: artwork card ---------- */
+.works { display: grid; gap: var(--sp-5) var(--sp-4); grid-template-columns: repeat(auto-fill, minmax(min(46%, 250px), 1fr)); }
+@media (max-width: 559px) { .works { gap: var(--sp-5) var(--sp-3); } .work h3 { font-size: var(--fs-base); } }
+.work { position: relative; display: flex; flex-direction: column; }
+.work .photo { position: relative; aspect-ratio: 4 / 3; overflow: hidden; background: var(--ink-tint); }
+.work .photo img { width: 100%; height: 100%; object-fit: cover; }             /* artwork is never filtered */
+.work { min-width: 0; }
+.work .credit { margin-top: 5px; color: var(--text-faint); overflow-wrap: anywhere; }
+.work .wk-kicker { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; margin-top: 10px; color: var(--ink-text); overflow-wrap: anywhere; }
+.work h3 { margin-top: 6px; font-size: var(--fs-md); }
+.work h3 a { color: var(--text); text-decoration: none; }
+.work h3 a::after { content: ""; position: absolute; inset: 0; }
+.work h3 a:hover { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 0.16em; }
+.work .by { font-size: var(--fs-sm); color: var(--text-muted); margin-top: 2px; }
+.work .zone { display: flex; align-items: center; gap: 6px; margin-top: 4px; font-size: var(--fs-xs); color: var(--text-muted); }
+.work .zone .i { width: 14px; height: 14px; }
+.work .star.floating { z-index: 2; }
+.photo-missing { position: absolute; inset: 0; display: grid; place-content: center; justify-items: center; gap: 8px; color: var(--ink-text); text-align: center; }
+.photo-missing .i { width: 32px; height: 32px; }
+
+/* ---------- partners: logo walls grouped by program, then tier; logos unaltered on light plates ---------- */
+.wall-group + .wall-group { margin-top: var(--sp-7); }
+.wall-head { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; padding-bottom: var(--sp-2); border-bottom: var(--rule-mid) solid var(--rule-ink); }
+.wall-head h3 { font-size: var(--fs-lg); }
+.wall-head .cap { margin-left: auto; color: var(--text-faint); }
+@media (max-width: 559px) { .wall-head .cap { display: none; } }
+.tier { margin: var(--sp-4) 0 var(--sp-2); color: var(--text-muted); }
+.plates { display: grid; gap: var(--sp-2); grid-template-columns: repeat(auto-fill, minmax(min(46%, 150px), 1fr)); }
+.plates.lg { grid-template-columns: repeat(auto-fill, minmax(min(46%, 220px), 1fr)); }
+.plate {
+  position: relative; display: grid; place-items: center; aspect-ratio: 3 / 2; padding: 14px;
+  background: var(--plate); border: 1px solid var(--plate-border); color: var(--plate-ink); text-decoration: none;
+}
+.plate[data-tone="dark"] { background: var(--plate-dark); color: var(--plate-dark-ink); }
+.plate img { max-width: 100%; max-height: 56px; width: auto; height: auto; object-fit: contain; }
+.plates.lg .plate img { max-height: 76px; }
+.plate:hover { border-color: var(--text); }
+.plate .ext { position: absolute; top: 6px; right: 6px; width: 14px; height: 14px; color: var(--plate-ink); opacity: 0; transition: opacity var(--speed) var(--ease); }
+.plate[data-tone="dark"] .ext { color: var(--plate-dark-ink); }
+.plate:hover .ext, .plate:focus-visible .ext { opacity: 1; }
+.plate-text { font-family: var(--font-body); font-weight: 720; font-size: var(--fs-sm); line-height: 1.2; text-align: center; text-wrap: balance; }

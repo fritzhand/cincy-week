@@ -1,0 +1,88 @@
+/* ======================================================================
+   site/css/50-map.css · OWNER: Agent E (map, venues & visit)
+   Map box, basemap, labels, pins, clusters, edge chip, selection panel, mini-map.
+   From the final "Interchange" design (design/final/css). Partials are concatenated in lexical
+   order into docs/assets/site.css. Read only tokens (var(--…)); no color literal may appear here
+   (the build fails on one). Prefix new classes with your domain (see CLAUDE.md).
+   ====================================================================== */
+
+/* ---------- 50 · map: a token-themed OSM basemap with an HTML pin overlay ---------- */
+.map-box { border: 1px solid var(--border-strong); background: var(--surface); }
+.map-bar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--sp-2); padding: 4px 4px 4px 12px; border-bottom: 1px solid var(--border); }
+.map-bar .label { color: var(--text-muted); }
+.map-view { position: relative; overflow: hidden; aspect-ratio: var(--map-ratio, 600 / 641); background: var(--map-bg); touch-action: pan-y; }
+.map-view:focus-visible { outline-offset: -3px; }
+.map-base { position: absolute; inset: 0; width: 100%; height: 100%; }
+.map-labels, .map-pins { position: absolute; inset: 0; }
+.map-labels { pointer-events: none; }
+.map-label {
+  position: absolute; transform: translate(-50%, -50%); white-space: nowrap;
+  font-size: var(--fs-label); font-weight: var(--wght-strong); letter-spacing: var(--track-label); text-transform: uppercase; color: var(--map-label);
+  text-shadow: 0 0 2px var(--map-label-halo), 0 0 3px var(--map-label-halo), 0 0 4px var(--map-label-halo);
+}
+.map-label.water { font-family: var(--font-display); font-style: italic; font-size: var(--fs-sm); font-weight: 500; letter-spacing: 0.02em; text-transform: none; }
+.map-label.state { font-size: var(--fs-label); color: var(--text-faint); }
+/* pins: HTML buttons; the visible mark is small, the hit area is always 44px */
+.pin {
+  position: absolute; z-index: 1; display: grid; place-items: center; transform: translate(-50%, -50%);
+  width: var(--tap); height: var(--tap); border-radius: 50%; color: var(--map-pin-ink);
+}
+.pin:hover, .pin:focus-visible { z-index: 3; }
+.pin-venue > span {                                  /* the station: a disc ringed in the program ink, numbered like its list row */
+  display: grid; place-items: center; width: var(--map-pin); height: var(--map-pin); border-radius: 50%;
+  background: var(--map-pin-bg); border: 3px solid var(--ink-edge); box-shadow: var(--shadow-1);
+  font-size: var(--fs-label); font-weight: 750; font-variant-numeric: tabular-nums; line-height: 1;
+}
+.pin-venue[data-prog2] > span { border-color: transparent; background: linear-gradient(var(--map-pin-bg), var(--map-pin-bg)) padding-box, conic-gradient(var(--ink-edge) 0 50%, var(--ink-fill-2) 0 100%) border-box; }
+.pin-venue:hover > span, .pin[aria-pressed="true"] > span { background: var(--primary); color: var(--primary-contrast); border-color: var(--primary); }
+.pin-work > span {                                   /* a BLINK work: the program's own shape, a diamond */
+  width: 16px; height: 16px; transform: rotate(45deg); background: var(--ink-fill); border: 2px solid var(--map-pin-bg); box-shadow: 0 0 0 1px var(--ink-edge);
+}
+.pin-work:hover > span, .pin-work[aria-pressed="true"] > span { background: var(--primary); box-shadow: 0 0 0 2px var(--primary); }
+.pin.is-live::after {                                /* live: a river ring that pulses outward (static under reduced motion) */
+  content: ""; position: absolute; inset: 4px; border-radius: 50%; border: 3px solid var(--live);
+  animation: cw-pulse var(--pulse) var(--ease-out) infinite; pointer-events: none;
+}
+.pin-cluster > span {                                /* count on a ring split by program share (--a --s --b --f are counts) */
+  --tot: calc(var(--a, 0) + var(--s, 0) + var(--b, 0) + var(--f, 0));
+  --pa: calc(var(--a, 0) / var(--tot) * 100%); --ps: calc(var(--pa) + var(--s, 0) / var(--tot) * 100%); --pb: calc(var(--ps) + var(--b, 0) / var(--tot) * 100%);
+  display: grid; place-items: center; width: 38px; height: 38px; border-radius: 50%; border: 5px solid transparent; color: var(--primary-contrast);
+  background:
+    linear-gradient(var(--primary), var(--primary)) padding-box,
+    conic-gradient(var(--prog-caw) 0 var(--pa), var(--prog-scw) 0 var(--ps), var(--prog-blink) 0 var(--pb), var(--prog-fotofocus-edge) 0 100%) border-box;
+  font-size: var(--fs-label); font-weight: 750; font-variant-numeric: tabular-nums; box-shadow: var(--shadow-1);
+}
+.pin-cluster:hover > span { background: linear-gradient(var(--accent-strong), var(--accent-strong)) padding-box, conic-gradient(var(--prog-caw) 0 var(--pa), var(--prog-scw) 0 var(--ps), var(--prog-blink) 0 var(--pb), var(--prog-fotofocus-edge) 0 100%) border-box; color: var(--accent-contrast); }
+.pin-you > span { width: 16px; height: 16px; border-radius: 50%; background: var(--focus); box-shadow: 0 0 0 4px var(--map-pin-bg), 0 0 0 5px var(--focus); }
+/* the edge chip: what lies beyond the frame, counted, one tap away */
+.map-edge {
+  position: absolute; z-index: 2; left: 50%; bottom: 10px; transform: translateX(-50%);
+  display: inline-flex; align-items: center; gap: 8px; min-height: var(--tap); max-width: calc(100% - 20px); padding: 0 12px;
+  background: var(--surface); color: var(--text); border: 1px solid var(--border-strong); border-radius: var(--radius-md); box-shadow: var(--shadow-2);
+  font-size: var(--fs-xs); font-weight: var(--wght-strong); white-space: nowrap;
+}
+.map-edge:hover { border-color: var(--text); }
+.map-zoom { position: absolute; z-index: 2; top: 10px; right: 10px; display: flex; flex-direction: column; background: var(--surface); border: 1px solid var(--border-strong); border-radius: var(--radius-md); box-shadow: var(--shadow-1); }
+.map-zoom button { display: grid; place-items: center; width: var(--tap); height: var(--tap); color: var(--text); }
+.map-zoom button + button { border-top: 1px solid var(--border); }
+.map-zoom button:hover { background: var(--surface-alt); }
+.map-legend { display: flex; flex-wrap: wrap; align-items: center; gap: 2px var(--sp-4); padding: 6px 12px; border-top: 1px solid var(--border); font-size: var(--fs-xs); color: var(--text-muted); }
+.map-legend > span { display: inline-flex; align-items: center; gap: 6px; min-height: 28px; }
+.lg-station { width: 14px; height: 14px; border-radius: 50%; border: 3px solid var(--rule-ink); background: var(--map-pin-bg); }
+.lg-work { width: 10px; height: 10px; transform: rotate(45deg); background: var(--prog-blink); }
+.lg-live { width: 14px; height: 14px; border-radius: 50%; border: 3px solid var(--live); }
+.lg-cluster { width: 16px; height: 16px; border-radius: 50%; background: var(--primary); box-shadow: 0 0 0 3px var(--prog-blink); }
+.lg-tram { width: 22px; height: 0; border-top: 2px dashed var(--map-rail); }
+.map-attrib { margin-left: auto; display: inline-flex; align-items: center; min-height: var(--tap); color: var(--text-muted); font-size: var(--fs-label); }
+/* the selection panel (desktop side) / sheet (phone): see 80 · dialogs for .sheet */
+.map-layout { display: grid; gap: var(--sp-5); grid-template-columns: minmax(0, 1fr); }
+@media (min-width: 1100px) {
+  .map-layout { grid-template-columns: minmax(0, 1fr) minmax(360px, 440px); align-items: start; }
+  .map-layout > .map-box { position: sticky; top: calc(var(--topbar-h) + var(--sp-4)); order: 2; }
+}
+.map-panel { padding: var(--sp-3) var(--sp-4) var(--sp-4); border-top: var(--rule-heavy) solid var(--rule-ink); }
+.map-panel h3 { font-size: var(--fs-lg); }
+/* mini-map on venue pages and in the event dialog: a crop of the same basemap (<use href="…#bm">) + one pin */
+.mini-map { position: relative; aspect-ratio: 4 / 3; overflow: hidden; border: 1px solid var(--border-strong); background: var(--map-bg); }
+.mini-map svg { width: 100%; height: 100%; }
+.mini-map .pin { pointer-events: none; }

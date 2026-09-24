@@ -1,0 +1,23 @@
+# Runs the build and the test suite on every push and pull request. OWNER: Agent A.
+# The build fails loudly (and never writes docs/) on bad data, broken links or color literals.
+name: Build and test
+
+on:
+  push:
+    branches-ignore: [gh-pages]   # gh-pages holds only the built site (deploy-pages.yml)
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - run: node build.mjs
+      - run: npm test
+      - name: docs/ is up to date with the sources (new, changed or deleted files; about.html's date excluded)
+        run: |
+          CHANGES=$(git status --porcelain -- docs ':!docs/about.html')
+          if [ -n "$CHANGES" ]; then echo "$CHANGES" | head -30; echo "Run node build.mjs and commit docs/."; exit 1; fi

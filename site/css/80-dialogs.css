@@ -1,0 +1,68 @@
+/* ======================================================================
+   site/css/80-dialogs.css · OWNER: Agent A (core engine)
+   The one modal component, search palette, sheet, switches.
+   From the final "Interchange" design (design/final/css). Partials are concatenated in lexical
+   order into docs/assets/site.css. Read only tokens (var(--…)); no color literal may appear here
+   (the build fails on one). Prefix new classes with your domain (see CLAUDE.md).
+   ====================================================================== */
+
+/* ---------- 80 · dialogs: one modal component (focus trap, inert page, focus returns) ---------- */
+body.modal-open { overflow: hidden; }
+.modal { position: fixed; inset: 0; z-index: var(--z-modal); display: none; }
+.modal.open { display: block; }
+.modal-backdrop { position: absolute; inset: 0; background: var(--scrim); }
+.modal-panel {
+  position: absolute; left: 50%; top: 6vh; transform: translateX(-50%);
+  width: min(720px, calc(100vw - 2 * var(--gutter))); max-height: 88vh; overflow: auto; overscroll-behavior: contain;
+  background: var(--surface); border-top: var(--rule-heavy) solid var(--rule-ink); box-shadow: var(--shadow-3); border-radius: 0 0 var(--radius-md) var(--radius-md);
+}
+.modal-head { position: sticky; top: 0; z-index: 1; display: flex; align-items: center; gap: var(--sp-2); padding: 8px 8px 8px var(--sp-4); background: var(--surface); border-bottom: 1px solid var(--border); }
+.modal-head .icon-btn { margin-left: auto; }
+.modal-body { padding: var(--sp-4) var(--sp-5) var(--sp-5); }
+@media (max-width: 699px) {
+  .modal-panel { top: auto; bottom: 0; left: 0; right: 0; transform: none; width: 100%; max-height: 92dvh; border-radius: var(--radius-lg) var(--radius-lg) 0 0; }
+  .modal-body { padding: var(--sp-4); }
+}
+/* ---------- search palette (⌘K, Ctrl+K, /) ---------- */
+.search-modal .modal-panel { width: min(640px, calc(100vw - 2 * var(--gutter))); top: 10vh; max-height: min(76vh, 640px); display: flex; flex-direction: column; overflow: hidden; }
+@media (max-width: 699px) { .search-modal .modal-panel { top: 0; bottom: auto; left: 0; right: 0; transform: none; width: 100%; max-height: 100dvh; height: 100dvh; border-radius: 0; } }
+.search-field { display: flex; align-items: center; gap: 10px; padding: 0 8px 0 16px; border-bottom: var(--rule-mid) solid var(--rule-ink); }
+.search-field input { flex: 1; min-height: 56px; border: 0; background: transparent; font-size: 1.125rem; outline: none; }
+.search-field input::placeholder { color: var(--text-faint); opacity: 1; }
+.search-results { flex: 1; overflow: auto; padding: 4px 0 var(--sp-2); }
+.sr-group { padding: 12px 16px 4px; color: var(--text-faint); display: flex; justify-content: space-between; }
+.sr-hit { display: grid; grid-template-columns: 30px minmax(0, 1fr) auto; align-items: center; gap: 2px 12px; min-height: 52px; padding: 6px 16px; color: var(--text); text-decoration: none; cursor: pointer; }
+.sr-hit .avatar.s { --av: 26px; }
+.sr-hit .t { font-weight: var(--wght-strong); line-height: 1.3; }
+.sr-hit .m { display: block; font-size: var(--fs-xs); color: var(--text-faint); font-variant-numeric: tabular-nums; }
+.sr-hit mark { background: var(--accent-tint); color: var(--text); padding: 0 1px; border-radius: 1px; }
+.sr-hit[aria-selected="true"], .sr-hit:hover { background: var(--surface-alt); box-shadow: inset 3px 0 0 var(--accent); }
+.sr-hit .i { color: var(--text-faint); }
+.sr-all { display: flex; align-items: center; gap: 6px; min-height: var(--tap); padding: 0 16px 0 58px; font-size: var(--fs-sm); font-weight: var(--wght-strong); }
+.search-foot { display: flex; flex-wrap: wrap; gap: 4px 16px; padding: 8px 16px; border-top: 1px solid var(--border); font-size: var(--fs-xs); color: var(--text-faint); }
+@media (max-width: 699px) { .search-foot { display: none; } }
+
+/* ---------- sheet: bottom sheet on phones (filters, map selection, share); a side panel ≥ 1024px ---------- */
+.sheet .modal-panel {
+  top: auto; bottom: 0; left: 0; right: 0; transform: none; width: 100%; max-height: 86dvh;
+  border-top: var(--rule-heavy) solid var(--rule-ink); border-radius: var(--radius-lg) var(--radius-lg) 0 0; display: flex; flex-direction: column;
+}
+.sheet .grip { width: 44px; height: 4px; margin: 8px auto 0; border-radius: 2px; background: var(--border-strong); }
+@media (min-width: 1024px) {
+  .sheet .modal-panel { top: 0; left: auto; right: 0; bottom: 0; width: 420px; max-height: none; border-radius: 0; border-top: 0; border-left: var(--rule-heavy) solid var(--rule-ink); }
+  .sheet .grip { display: none; }
+}
+.sheet-body { flex: 1; overflow: auto; padding: var(--sp-2) var(--sp-4) var(--sp-4); }
+.sheet fieldset { border: 0; padding: 0; margin: var(--sp-4) 0 0; }
+.sheet legend { padding: 0; margin-bottom: var(--sp-2); color: var(--text-muted); }
+.sheet-foot { display: flex; gap: var(--sp-2); padding: var(--sp-3) var(--sp-4) calc(var(--sp-3) + env(safe-area-inset-bottom)); border-top: 1px solid var(--border); background: var(--surface); }
+.sheet-foot .btn-primary { flex: 1; }
+.switch { display: flex; align-items: center; justify-content: space-between; gap: var(--sp-3); min-height: var(--tap); font-size: var(--fs-sm); }
+.switch [role="switch"] { position: relative; width: 48px; height: 28px; flex: none; border-radius: var(--radius-pill); background: var(--surface-sunken); border: 2px solid var(--border-strong); }
+.switch [role="switch"]::after { content: ""; position: absolute; top: 2px; left: 2px; width: 20px; height: 20px; border-radius: 50%; background: var(--text-muted); transition: transform var(--speed) var(--ease); }
+.switch [role="switch"][aria-checked="true"] { background: var(--accent); border-color: var(--accent); }
+.switch [role="switch"][aria-checked="true"]::after { transform: translateX(20px); background: var(--accent-contrast); }
+
+/* ---------- engine additions (Agent A): org logos as search thumbnails, on the white logo plate ---------- */
+.sr-hit .sr-logo { display: grid; place-items: center; width: 30px; height: 26px; background: var(--plate); border: 1px solid var(--plate-border); border-radius: var(--radius-xs); }
+.sr-hit .sr-logo img { max-width: 26px; max-height: 20px; width: auto; height: auto; object-fit: contain; }

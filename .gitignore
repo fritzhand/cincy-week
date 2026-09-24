@@ -1,0 +1,5 @@
+.cache/
+docs.tmp/
+docs.old/
+node_modules/
+.DS_Store

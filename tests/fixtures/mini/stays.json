@@ -1,0 +1,42 @@
+[
+  {
+    "id": "kinley-cincinnati-downtown",
+    "name": "Kinley Cincinnati Downtown, a Tribute Portfolio Hotel",
+    "kind": "hotel",
+    "address": "636 Race Street, Cincinnati, OH 45202",
+    "hood": "downtown-cbd",
+    "lat": 39.103249,
+    "lng": -84.514992,
+    "url": "https://www.kinleycincinnati.com/",
+    "room_block": {
+      "program": "scw",
+      "group_code": "SUC",
+      "rate": "$209.00 per night (same group rate for every room type in the block)",
+      "dates": "2026-10-04 to 2026-10-09 (Marriott page: \"Rates displayed below are based on availability 10/04/2026 - 10/09/2026\")",
+      "deadline": "2026-09-04",
+      "booking_url": "https://app.marriott.com/reslink?id=1773189076451&key=GRP&app=resvlink"
+    },
+    "notes": null,
+    "source_url": "https://startupcincyweek.com/"
+  },
+  {
+    "id": "cincinnatis-fidelity-hotel",
+    "name": "Cincinnati's Fidelity Hotel",
+    "kind": "hotel",
+    "address": "210 East 6th Street, Cincinnati, OH 45202",
+    "hood": "downtown-cbd",
+    "lat": 39.1031136,
+    "lng": -84.5096173,
+    "url": "https://www.fidelityhotels.com/cincinnati/",
+    "room_block": {
+      "program": "scw",
+      "group_code": "CINTRIFUSEOCT",
+      "rate": null,
+      "dates": "The SCW BOOK NOW link pre-fills arrive 2026-10-04, depart 2026-10-06 (block dates not published)",
+      "deadline": null,
+      "booking_url": "https://be.synxis.com/?adult=2&arrive=2026-10-04&chain=19403&child=0&currency=USD&depart=2026-10-06&group=CINTRIFUSEOCT&hotel=98848&level=hotel&locale=en-US&productcurrency=USD&rooms=1"
+    },
+    "notes": null,
+    "source_url": "https://startupcincyweek.com/"
+  }
+]

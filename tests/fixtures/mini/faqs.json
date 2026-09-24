@@ -1,0 +1,34 @@
+[
+  {
+    "id": "blink-when-and-where",
+    "program": "blink",
+    "topic": "Dates and places",
+    "q": "When and Where is BLINK?",
+    "a": "BLINK® will take place October 8-11, 2026. BLINK spans 30+ city blocks from Findlay Market in Cincinnati to Covington in Northern Kentucky.",
+    "source_url": "https://www.blinkcincinnati.com/faqs"
+  },
+  {
+    "id": "blink-what-is-it",
+    "program": "blink",
+    "topic": "About",
+    "q": "What is BLINK?",
+    "a": "BLINK® is the nation’s largest immersive event. This awe-inspiring free, public art event takes place over four nights in the urban core of Cincinnati and Northern Kentucky with large-scale projection mapping, media light, interactive light sculptures, murals, and more by local, national and international artists.",
+    "source_url": "https://www.blinkcincinnati.com/faqs"
+  },
+  {
+    "id": "scw-who-is-startupcincy-week-for",
+    "program": "scw",
+    "topic": null,
+    "q": "Who is StartupCincy Week for?",
+    "a": "Honestly, everyone! From super seasoned founders and investors to folks just looking to get a little of that startup magic and inspo - there truly is something here for everyone. Our flexible programming allows you to write your own StartupCincy story and pick the path that makes the most sense for you!",
+    "source_url": "https://startupcincyweek.com/en/faq-page"
+  },
+  {
+    "id": "caw-what-is-cincinnati-art-week",
+    "program": "caw",
+    "topic": null,
+    "q": "What is Cincinnati Art Week?",
+    "a": "Cincinnati Art Week is a new annual celebration of Cincinnati's creative community, bringing together artists, galleries, cultural spaces, neighborhoods, and visitors for one highly visible, energized week.",
+    "source_url": "https://cincinnatiartweek.com/faqs-2"
+  }
+]

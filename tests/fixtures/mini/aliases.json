@@ -1,0 +1,15 @@
+{
+  "venues": {
+    "union hall otr": "union-hall",
+    "cincinnati art week hq": "caw-art-market-hq-1417-main"
+  },
+  "hoods": {
+    "over the rhine": "over-the-rhine",
+    "otr": "over-the-rhine",
+    "downtown": "downtown-cbd",
+    "fountain district": "downtown-cbd",
+    "the banks": "the-banks",
+    "covington": "covington",
+    "west end": "west-end"
+  }
+}

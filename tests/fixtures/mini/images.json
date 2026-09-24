@@ -1,0 +1,65 @@
+{
+  "o/artswave": {
+    "file": "img/o/artswave.webp",
+    "w": 239,
+    "h": 160,
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/arts-wave2.jpg",
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  "o/cincy-nice": {
+    "file": "img/o/cincy-nice.webp",
+    "w": 320,
+    "h": 114,
+    "src": "https://freight.cargo.site/t/original/i/S3055232852103793472565861195130/CN_logo-01-1.png",
+    "source_url": "https://cincinnatiartweek.com/meet-the-team"
+  },
+  "o/cintrifuse": {
+    "file": "img/o/cintrifuse.webp",
+    "w": 320,
+    "h": 100,
+    "src": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840219992026-sucw-sponsor-logos-achievers-png1784021999.png",
+    "source_url": "https://startupcincyweek.com/en/partners-page"
+  },
+  "p/alex-yocum": {
+    "file": "img/p/alex-yocum.webp",
+    "w": 256,
+    "h": 256,
+    "src": "https://data-us.vfairs.com/V2/18090/users/swirleys-6_1789652963572.png",
+    "source_url": "https://startupcincyweek.com/en/agenda-page"
+  },
+  "p/chase-dawson": {
+    "file": "img/p/chase-dawson.webp",
+    "w": 256,
+    "h": 256,
+    "src": "https://data-us.vfairs.com/V2/18090/users/swirleys-3_1789652883955.png",
+    "source_url": "https://startupcincyweek.com/en/agenda-page"
+  },
+  "p/kara-willis": {
+    "file": "img/p/kara-willis.webp",
+    "w": 256,
+    "h": 256,
+    "src": "https://data-us.vfairs.com/V2/18090/users/1731011012881_1788267147762.jpg",
+    "source_url": "https://startupcincyweek.com/en/agenda-page"
+  },
+  "p/sarah-schmidt": {
+    "file": "img/p/sarah-schmidt.webp",
+    "w": 256,
+    "h": 256,
+    "src": "https://cdn.evbuc.com/images/1193474355/324262115413/1/original.20260914-182311",
+    "source_url": "https://www.eventbrite.com/e/no-grid-a-creative-conversation-series-tickets-2000523175671"
+  },
+  "w/blink-future-cities-no-1-2-and-3": {
+    "file": "img/w/blink-future-cities-no-1-2-and-3-480.webp",
+    "w": 480,
+    "h": 360,
+    "src": "https://blinkcincinnati.b-cdn.net/files/locations/original/ngp7564.jpg",
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/future-cities-no-1-2-and-3"
+  },
+  "w/blink-in-light-of-us": {
+    "file": "img/w/blink-in-light-of-us-480.webp",
+    "w": 480,
+    "h": 360,
+    "src": "https://blinkcincinnati.b-cdn.net/files/locations/original/inlightofus.png",
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/in-light-of-us"
+  }
+}

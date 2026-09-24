@@ -1,0 +1,48 @@
+[
+  {
+    "id": "blink-in-light-of-us",
+    "program": "blink",
+    "title": "In Light of Us",
+    "artists": [
+      "the-mz-icar-collective"
+    ],
+    "artist_text": null,
+    "medium": "light installation",
+    "category": "Light Installations",
+    "zone": "Fountain District",
+    "venue_id": "blink-zone-fountain-district",
+    "location_text": null,
+    "lat": 39.104086,
+    "lng": -84.513855,
+    "hours_text": null,
+    "description": "Mz.Icar Collective is an interdisciplinary group of artists creating bold, community-centered public art that blends storytelling, material culture, and speculative imagination. Their collaborative practice spans murals, sculptural installations, textiles, projection mapping, and immersive environments that invite audiences into experiences of joy, reflection, and belonging. Rooted in deep engagement with local communities and cultural histories, their work amplifies underrepresented voices while exploring how emerging technologies like augmented reality and interactive projection can support cultural storytelling and memory-making. Their projects have been installed across cities including Boston, Brooklyn, Cincinnati, Green Bay, and Philadelphia, and have been featured in collaborations with festivals and institutions such as BLINK and The Roots Picnic.",
+    "image_url": "https://blinkcincinnati.b-cdn.net/files/locations/original/inlightofus.png",
+    "sponsor": null,
+    "sponsor_org_id": null,
+    "year": 2026,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/in-light-of-us"
+  },
+  {
+    "id": "blink-future-cities-no-1-2-and-3",
+    "program": "blink",
+    "title": "Future Cities No. 1, 2, and 3",
+    "artists": [
+      "cedric-michael-cox-and-studio-181-brent-keltch"
+    ],
+    "artist_text": null,
+    "medium": "light installation",
+    "category": "Light Installations",
+    "zone": "The Banks",
+    "venue_id": "blink-zone-the-banks",
+    "location_text": null,
+    "lat": 39.096308,
+    "lng": -84.509396,
+    "hours_text": null,
+    "description": "Cedric Michael Cox creates vibrant paintings that fuse abstraction and recognizable imagery into rhythmic compositions inspired by music, nature, architecture, and art history, ranging from cubist geometric forms to surreal cityscapes and floral-like environments. Brent’s bio: Brent Keltch is a multifaceted Cincinnati-based visual artist, sculptor, and gallery owner. Operating out of Studio 181 at the historic Essex Studios colony in Walnut Hills, his work blends diverse artistic disciplines with community advocacy.\n\nCEDRIC: https://www.instagram.com/cedric_michael_cox?igsh=MW05Mm9rdmZjc2FsYg\n\nBRENT: https://www.facebook.com/share/1KgUCsgS97/",
+    "image_url": "https://blinkcincinnati.b-cdn.net/files/locations/original/ngp7564.jpg",
+    "sponsor": null,
+    "sponsor_org_id": null,
+    "year": 2026,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/future-cities-no-1-2-and-3"
+  }
+]

@@ -1,0 +1,33 @@
+/* ======================================================================
+   site/css/51-venues.css · OWNER: Agent E (map, venues & visit)
+   Venue rows with stall numbers, and the venue page (facts + mini-map, what's on by day).
+   From the final "Interchange" design (design/final/css). Partials are concatenated in lexical
+   order into docs/assets/site.css. Read only tokens (var(--…)); no color literal may appear here
+   (the build fails on one). Prefix new classes with your domain (see CLAUDE.md).
+   ====================================================================== */
+/* ---------- venues: numbered like market stalls, and the same number is on the map pin ---------- */
+.venues { list-style: none; padding: 0; border-top: var(--rule-mid) solid var(--rule-ink); }
+.venue { position: relative; display: grid; grid-template-columns: var(--tap) minmax(0, 1fr); gap: 4px 14px; padding: var(--sp-4) 0; border-bottom: 1px solid var(--border); }
+.stall {
+  grid-row: span 6; display: grid; place-items: center; width: var(--tap); height: var(--tap);
+  background: var(--primary); color: var(--primary-contrast); border-radius: var(--radius-xs); box-shadow: inset 0 calc(-1 * var(--rule-heavy)) 0 var(--ink-fill);
+  font-size: var(--fs-base); font-weight: 750; font-variant-numeric: tabular-nums; line-height: 1;
+}
+.stall.is-off { background: transparent; color: var(--text-muted); border: 2px dashed var(--border-strong); box-shadow: none; }
+.venue h3 { font-size: var(--fs-lg); }
+.venue h3 a { color: var(--text); text-decoration: none; }
+.venue h3 a::after { content: ""; position: absolute; inset: 0; }                   /* the whole row opens the venue page */
+.venue h3 a:hover { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 0.16em; }
+.venue .addr { font-size: var(--fs-sm); color: var(--text-muted); font-variant-numeric: tabular-nums; }
+.venue .roles { list-style: none; padding: 0; display: grid; gap: 4px; margin-top: 6px; font-size: var(--fs-sm); }
+.venue .roles li { display: flex; align-items: center; gap: 8px; }
+.venue .today { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; margin-top: 6px; font-size: var(--fs-sm); }
+.venue .today b { font-weight: var(--wght-strong); }
+.venue .acts { position: relative; z-index: 1; display: flex; flex-wrap: wrap; gap: var(--sp-2); margin-top: var(--sp-2); }
+.venue:hover .stall:not(.is-off) { background: var(--accent-strong); color: var(--accent-contrast); }
+
+/* venue page: facts + mini-map side by side; "What's on here, by day" */
+.vp-top { display: grid; gap: var(--sp-5); grid-template-columns: minmax(0, 1fr); }
+@media (min-width: 860px) { .vp-top { grid-template-columns: minmax(0, 1fr) 320px; } }
+.byday { margin-top: var(--sp-5); }
+.byday h3 { font-family: var(--font-body); font-size: var(--fs-label); font-weight: var(--wght-strong); letter-spacing: var(--track-label); text-transform: uppercase; color: var(--text-muted); padding: var(--sp-2) 0; border-bottom: var(--rule-mid) solid var(--rule-ink); }

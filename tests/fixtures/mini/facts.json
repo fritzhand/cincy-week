@@ -1,0 +1,18 @@
+[
+  {
+    "id": "blink-fact-1",
+    "program": "blink",
+    "label": "The first BLINK (Oct. 12-15, 2017) drew an estimated 1 million-plus people, per Cincinnati police estimates",
+    "value": "more than 1 million (2017)",
+    "as_of": "2017-10-16",
+    "source_url": "https://local12.com/news/local/estimated-one-million-people-attended-inaugural-blink-cincinnati"
+  },
+  {
+    "id": "blink-fact-2",
+    "program": "blink",
+    "label": "BLINK 2017 covered 20 city blocks with more than 100 artists, 60 of them from the Tri-State",
+    "value": "20 blocks; 100+ artists (60 local)",
+    "as_of": "2017-10-16",
+    "source_url": "https://local12.com/news/local/estimated-one-million-people-attended-inaugural-blink-cincinnati"
+  }
+]

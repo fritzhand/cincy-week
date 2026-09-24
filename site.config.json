@@ -1,0 +1,12 @@
+{
+  "siteName": "Cincy Week",
+  "siteTagline": "Art Week, StartupCincy Week and BLINK in one guide",
+  "siteBase": "https://fritzhand.github.io/cincy-week/",
+  "pathPrefix": "/cincy-week/",
+  "repo": "https://github.com/fritzhand/cincy-week",
+  "author": { "name": "Jeremy Fritzhand", "github": "https://github.com/fritzhand", "linkedin": "https://www.linkedin.com/in/fritzhand/" },
+  "timezone": "America/New_York",
+  "week": { "start": "2026-10-03", "end": "2026-10-11" },
+  "dataWindow": { "start": "2026-09-26", "end": "2026-10-18" },
+  "analyticsId": ""
+}

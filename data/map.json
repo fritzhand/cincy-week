@@ -1,0 +1,23 @@
+{
+  "bbox": {
+    "core": {
+      "s": 39.0905,
+      "n": 39.1195,
+      "w": -84.5335,
+      "e": -84.4985
+    }
+  },
+  "projection": {
+    "k": 0.7759913672648884,
+    "sx": 22091.55651213194,
+    "viewBox": [
+      600,
+      641
+    ]
+  },
+  "labels": [],
+  "transit": null,
+  "attribution": "© OpenStreetMap contributors",
+  "osm_timestamp": null,
+  "source_url": "https://www.openstreetmap.org/copyright"
+}
