@@ -146,6 +146,17 @@ export function load({ dataDir, siteDir, config, fail, warn }) {
   for (const v of db.venues) hoodOk("venues", v.id, v.hood);
   for (const s of db.stays) { hoodOk("stays", s.id, s.hood); }
   for (const p of db.places) hoodOk("places", p.id, p.hood);
+  // BLINK's official map (2026-09-24): a facility says which one it is; only facilities carry that; map numbers are positive
+  for (const p of db.places) {
+    if (p.kind === "facility" && !p.facility) fail(W("places", p.id, "facility"), `is required for kind "facility" (one of: ${SPECS.places.facility.values.join(", ")})`);
+    if (p.facility && p.kind !== "facility") fail(W("places", p.id, "facility"), `is only for kind "facility" (this place is a ${p.kind})`);
+    ref(B.program, "program", "places", p.id, "program", p.program);
+  }
+  for (const [file, arr] of [["works", db.works], ["places", db.places]]) for (const r of arr) if (r.map_no != null && Number.isInteger(r.map_no) && r.map_no < 1) fail(W(file, r.id, "map_no"), `must be 1 or more, got ${r.map_no}`);
+  for (const [file, arr] of [["works", db.works], ["places", db.places], ["venues", db.venues]]) for (const r of arr) {
+    if (r.approx_m != null && r.lat == null) fail(W(file, r.id, "approx_m"), "is set but the record has no coordinates");
+    if (r.approx_m != null && Number.isInteger(r.approx_m) && r.approx_m < 1) fail(W(file, r.id, "approx_m"), `must be 1 or more (meters), got ${r.approx_m}`);
+  }
   for (const f of db.faqs) ref(B.program, "program", "faqs", f.id, "program", f.program);
   for (const n of db.news) (n.programs || []).forEach((p) => ref(B.program, "program", "news", n.id, "programs", p));
   for (const f of db.facts) ref(B.program, "program", "facts", f.id, "program", f.program);

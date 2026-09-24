@@ -27,3 +27,16 @@
 /* verbatim texts can hold long bare URLs: let them wrap instead of widening the dialog or the page */
 #work-dialog .prose, .dp .prose, .wk-full .prose { overflow-wrap: anywhere; }
 .wd-zone-note { margin-top: 6px; font-size: var(--fs-xs); }   /* QA: a work shown at its zone says so */
+
+/* BLINK's official map number ("BLINK map No. 29", 2026-09-24): a small tag in the look of the dialog's stall numbers,
+   underlined in the program ink (identity only); the words carry the meaning, never the color */
+.mapno {
+  display: inline-flex; align-items: center; gap: 4px; padding: 1px 6px 0; min-height: 22px;
+  border: 1px solid var(--border-strong); border-bottom: 3px solid var(--ink-fill); border-radius: var(--radius-xs);
+  font-size: var(--fs-label); font-weight: var(--wght-strong); line-height: 1.2; color: var(--text); font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.work .wk-no { margin-top: 6px; }
+.wd-mapno { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; margin-top: var(--sp-2); font-size: var(--fs-xs); color: var(--text-muted); }
+.wd-mapno a { color: inherit; }
+.wd-approx { margin-top: 6px; font-size: var(--fs-xs); }

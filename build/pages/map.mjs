@@ -11,10 +11,12 @@
    ============================================================ */
 import { sortBy } from "../core/util.mjs";
 import { project, onMap } from "../../site/js/lib/geo.js";
+import { FACILITY_KINDS, FACILITY_LABEL, FACILITY_ICON } from "../core/schema.mjs";
 
 export const LAYERS = [
   { id: "venues", label: "Venues", icon: "pin", on: true },
   { id: "art", label: "Art", icon: "light", on: true },
+  { id: "facilities", label: "Facilities", icon: "wc", on: false },   // BLINK's restrooms, Oasis Stations, merch, hospitality, hikes, drone viewing
   { id: "stays", label: "Stays", icon: "bed", on: false },
   { id: "transit", label: "Transit", icon: "tram", on: false },
   { id: "food", label: "Food & drink", icon: "utensils", on: false },
@@ -34,8 +36,17 @@ export function mapItems(ctx) {
   const works = db.works.filter(on).map((w) => {
     const v = w.venue_id ? db.byId.venue.get(w.venue_id) : null;
     const artists = (w.artists || []).map((id) => db.byId.person.get(id)?.name).filter(Boolean);
+    const mn = w.map_no != null ? `${c.progName(w.program, true)} map No. ${w.map_no}` : "";
     return { kind: "work", layer: "art", id: w.id, rec: w, name: w.title, lat: w.lat, lng: w.lng, p: [w.program], h: v?.hood || "", days: progDays(w.program),
-      meta: [artists.length ? h_listJoin(artists) : w.artist_text, w.zone || v?.name].filter(Boolean).join(" · "), href: `art.html?w=${w.id}`, medium: w.medium };
+      meta: [mn, w.artist_text || (artists.length ? h_listJoin(artists) : ""), w.zone || v?.name, w.approx_m ? "approximate position" : ""].filter(Boolean).join(" · "), href: `art.html?w=${w.id}`, medium: w.medium, mn };
+  });
+  // BLINK's facilities (places kind "facility", 2026-09-24): on the program's nights, with the map's own numbers
+  const zoneRank = new Map();   // the map's zone order: a zone ranks by the first number printed in it
+  for (const w of db.works) if (w.map_no != null && w.zone) zoneRank.set(w.zone, Math.min(zoneRank.get(w.zone) ?? Infinity, w.map_no));
+  const facilities = sortBy(db.places.filter((p) => p.kind === "facility" && on(p)), (p) => FACILITY_KINDS.indexOf(p.facility), (p) => p.map_no ?? 1e9, (p) => zoneRank.get(p.zone) ?? 1e9, (p) => p.name, (p) => p.id).map((p) => {
+    const mn = p.map_no != null ? `${c.progName(p.program || "blink", true)} map No. ${p.map_no}` : "";
+    return { kind: "facility", layer: "facilities", id: p.id, rec: p, name: p.name, lat: p.lat, lng: p.lng, p: p.program ? [p.program] : [], h: p.hood || "", days: p.program ? progDays(p.program) : [],
+      meta: [FACILITY_LABEL[p.facility] !== p.name ? FACILITY_LABEL[p.facility] : "", mn, p.zone, p.details, p.approx_m ? "approximate position" : ""].filter(Boolean).join(" · "), href: `getting-around.html#${p.id}`, fac: p.facility, ic: FACILITY_ICON[p.facility], mn, fl: FACILITY_LABEL[p.facility] };
   });
   const stays = db.stays.filter(on).map((s) => ({
     kind: "stay", layer: "stays", id: s.id, rec: s, name: s.name, lat: s.lat, lng: s.lng, p: s.room_block ? [s.room_block.program] : [], h: s.hood || "", days: [],
@@ -47,7 +58,7 @@ export function mapItems(ctx) {
   const food = db.places.filter((p) => (p.kind === "food" || p.kind === "drink") && on(p)).map((p) => ({
     kind: "food", layer: "food", id: p.id, rec: p, name: p.name, lat: p.lat, lng: p.lng, p: [], h: p.hood || "", days: [], meta: [p.kind === "drink" ? "Drink" : "Food", p.address].filter(Boolean).join(" · "), href: `eat-drink.html#${p.id}`,
   }));
-  return { venues, works, stays, transit, food };
+  return { venues, works, facilities, stays, transit, food };
 }
 const h_listJoin = (a) => (a.length < 3 ? a.join(" and ") : `${a.slice(0, -1).join(", ")} and ${a[a.length - 1]}`);
 
@@ -56,7 +67,7 @@ export function pages(ctx) {
   const { esc, attr } = h;
   const meta = cards.meta;
   const items = mapItems(ctx);
-  const byLayer = { venues: items.venues, art: items.works, stays: items.stays, transit: items.transit, food: items.food };
+  const byLayer = { venues: items.venues, art: items.works, facilities: items.facilities, stays: items.stays, transit: items.transit, food: items.food };
   const offVenues = db.venues.filter((v) => !items.venues.some((x) => x.id === v.id));
   const offWorks = db.works.filter((w) => !items.works.some((x) => x.id === w.id));
   const offStays = db.stays.length - items.stays.length;
@@ -68,13 +79,15 @@ export function pages(ctx) {
     if (x.kind === "work") return `<span class="map-mk mk-work" data-prog="${x.p[0]}" aria-hidden="true"><i></i></span>`;
     if (x.kind === "stay") return `<span class="map-mk mk-stay"${x.p[0] ? ` data-prog="${x.p[0]}"` : ""} aria-hidden="true">${h.icon("bed")}</span>`;
     if (x.kind === "stop") return `<span class="map-mk mk-stop" aria-hidden="true"><i></i></span>`;
+    if (x.kind === "facility") return `<span class="map-mk mk-facility" aria-hidden="true">${h.icon(x.ic)}</span>`;
     return `<span class="map-mk mk-food" aria-hidden="true"><i></i></span>`;
   };
-  const row = (root, x) => `<li class="map-li" data-id="${x.kind}:${attr(x.id)}" data-kind="${x.kind}" data-layer="${x.layer}" data-ll="${x.lat},${x.lng}" data-p="${attr(x.p.join(" "))}" data-day="${x.days.join(" ")}" data-h="${attr(x.h)}"${x.n ? ` data-n="${x.n}"` : ""}>${marker(x)}<span class="map-li-b"><a class="t stretched" href="${root}${attr(x.href)}"${x.kind === "work" ? ` data-open-work="${attr(x.id)}"` : ""}>${x.n ? `<span class="sr-only">${x.n}. </span>` : ""}${esc(x.name)}</a>${x.meta ? `<span class="m">${esc(x.meta)}</span>` : ""}</span><button class="map-show js-only" type="button" data-map-show="${x.kind}:${attr(x.id)}" aria-label="Show ${attr(x.name)} on the map">${h.icon("locate")}</button></li>`;
+  const row = (root, x) => `<li class="map-li" data-id="${x.kind}:${attr(x.id)}" data-kind="${x.kind}" data-layer="${x.layer}" data-ll="${x.lat},${x.lng}" data-p="${attr(x.p.join(" "))}" data-day="${x.days.join(" ")}" data-h="${attr(x.h)}"${x.n ? ` data-n="${x.n}"` : ""}${x.mn ? ` data-mn="${attr(x.mn)}"` : ""}${x.ic ? ` data-ic="${attr(x.ic)}" data-fl="${attr(x.fl)}"` : ""}>${marker(x)}<span class="map-li-b"><a class="t stretched" href="${root}${attr(x.href)}"${x.kind === "work" ? ` data-open-work="${attr(x.id)}"` : ""}>${x.n ? `<span class="sr-only">${x.n}. </span>` : ""}${esc(x.name)}</a>${x.meta ? `<span class="m">${esc(x.meta)}</span>` : ""}</span><button class="map-show js-only" type="button" data-map-show="${x.kind}:${attr(x.id)}" aria-label="Show ${attr(x.name)} on the map">${h.icon("locate")}</button></li>`;
   const section = (root, l) => {
     const xs = byLayer[l.id];
     if (!xs.length) return "";
-    const sorted = l.id === "venues" ? sortBy(xs, (x) => x.n) : sortBy(xs, (x) => x.name.toLowerCase());
+    // venues by stall; facilities keep their KEY order (mapItems); art in its official map order where numbered, then by title
+    const sorted = l.id === "venues" ? sortBy(xs, (x) => x.n) : l.id === "facilities" ? xs : l.id === "art" ? sortBy(xs, (x) => x.rec.map_no ?? 1e9, (x) => x.name.toLowerCase()) : sortBy(xs, (x) => x.name.toLowerCase());
     return `<section class="map-sec" data-layer-sec="${l.id}" aria-labelledby="ml-${l.id}"><h2 class="map-sec-h" id="ml-${l.id}">${h.icon(l.icon)}<span>${esc(LAYER_TITLE[l.id])}</span><span class="label faint" data-sec-count>${xs.length}</span></h2><ul class="map-items">${sorted.map((x) => row(root, x)).join("")}</ul></section>`;
   };
 
@@ -89,12 +102,12 @@ export function pages(ctx) {
   };
 
   const homeRatio = meta ? (() => { const [x0, y0] = project(meta.home.n, meta.home.w, meta), [x1, y1] = project(meta.home.s, meta.home.e, meta); return `${(x1 - x0).toFixed(1)} / ${(y1 - y0).toFixed(1)}`; })() : "";
-  const legend = `<div class="map-legend" data-map-legend><span data-lg="venues"><i class="lg-station"></i>Venue, numbered as in the list</span><span data-lg="art" class="js-only"><i class="lg-work"></i>Artwork (BLINK diamond, Art Week square)</span><span data-lg="stays" hidden><i class="lg-stay"></i>Place to stay</span><span data-lg="transit" hidden><i class="lg-stop"></i>Streetcar stop or transit center</span><span data-lg="food" hidden><i class="lg-food"></i>Food and drink</span><span class="js-only"><i class="lg-live"></i>Live now</span><span class="js-only"><i class="lg-cluster"></i>Several places: tap to zoom</span><span><i class="lg-tram"></i>Connector streetcar line</span>${h.extLink("https://www.openstreetmap.org/copyright", "© OpenStreetMap contributors", "map-attrib")}</div>`;
+  const legend = `<div class="map-legend" data-map-legend><span data-lg="venues"><i class="lg-station"></i>Venue, numbered as in the list</span><span data-lg="art" class="js-only"><i class="lg-work"></i>Artwork (BLINK diamond, Art Week square)</span><span data-lg="facilities" hidden><i class="lg-facility">${h.icon("wc")}</i>BLINK facility: restrooms, Oasis Station, merch, hospitality zone, hike, drone viewing</span><span data-lg="stays" hidden><i class="lg-stay"></i>Place to stay</span><span data-lg="transit" hidden><i class="lg-stop"></i>Streetcar stop or transit center</span><span data-lg="food" hidden><i class="lg-food"></i>Food and drink</span><span class="js-only"><i class="lg-live"></i>Live now</span><span class="js-only"><i class="lg-cluster"></i>Several places: tap to zoom</span><span><i class="lg-tram"></i>Connector streetcar line</span>${h.extLink("https://www.openstreetmap.org/copyright", "© OpenStreetMap contributors", "map-attrib")}</div>`;
 
   return [{
     path: "map.html", nav: "map", title: "Map", features: ["map"], pageClass: "page-map",
-    description: `The guide's venues, artworks, places to stay, streetcar stops and places to eat on one map of Over-the-Rhine, downtown, The Banks and the Kentucky riverfront, with a list of the places beyond it.`,
-    body: (root) => `${c.pageHead({ num: 1, kicker: `Plan · ${items.venues.length} venues and ${items.works.length} works on the map`, title: "Map", lede: "Venues, art, hotels, the streetcar and places to eat, from Findlay Market to Covington. Venue numbers match the venue list." })}
+    description: `The guide's venues, artworks, BLINK's restrooms and Oasis Stations, places to stay, streetcar stops and places to eat on one map of Over-the-Rhine, downtown, The Banks and the Kentucky riverfront, with a list of the places beyond it.`,
+    body: (root) => `${c.pageHead({ num: 1, kicker: `Plan · ${items.venues.length} venues and ${items.works.length} works on the map`, title: "Map", lede: "Venues, art, BLINK's facilities, hotels, the streetcar and places to eat, from Findlay Market to Covington. Venue numbers match the venue list; BLINK works and facilities also carry BLINK's own map numbers." })}
 <div class="map-page" data-map-page>
 <div class="map-main">
 <div class="map-box" data-map-box>
@@ -123,7 +136,7 @@ ${LAYERS.map((l) => section(root, l)).join("\n")}
 <p class="source-line">${h.icon("info")}<span>Basemap © OpenStreetMap contributors (ODbL), data as of ${esc((db.map.osm_timestamp || "").slice(0, 10) || "the last basemap build")}. Places and positions come from the programs' listings and Visit Cincy; each list entry links to its source.</span></p>`,
   }];
 }
-const LAYER_TITLE = { venues: "Venues", art: "Art and installations", stays: "Places to stay", transit: "Streetcar and transit", food: "Food and drink" };
+const LAYER_TITLE = { venues: "Venues", art: "Art and installations", facilities: "BLINK facilities", stays: "Places to stay", transit: "Streetcar and transit", food: "Food and drink" };
 
 export function data(ctx) {
   const m = ctx.db.map || {};

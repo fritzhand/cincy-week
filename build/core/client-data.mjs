@@ -21,7 +21,10 @@
                   .ics exports load it on first use and set ev.d from it (events without a description are absent)
    works.json = { v, works: [{ id, x, p, t, a: [person ids], at: artist_text|null, m: medium, c: category|null,
                   z: zone|null, v: venue_id|null, lt: location_text|null, ll: [lat,lng]|null, ht: hours_text|null,
-                  sp: sponsor|null, d: description|null, i: image path|null, src }],
+                  sp: sponsor|null, d: description|null, i: image path|null, src,
+                  mn: map_no|null (the number on the program's official map), ak: [aliases] (other published titles),
+                  as: [also_sources], am: approx_m|null (the position is an estimate, ± meters) }],
+                  (mn, ak, as, am added 2026-09-24 for BLINK's official map)
                   people: { id: { n } } }
    Additive changes only (new keys); never rename a key other agents read.
    ============================================================ */
@@ -46,6 +49,7 @@ export function clientData(db, images) {
     id: w.id, x: db.code(w.id), p: w.program, t: w.title, a: w.artists || [], at: nz(w.artist_text), m: w.medium, c: nz(w.category), z: nz(w.zone),
     v: nz(w.venue_id), lt: nz(w.location_text), ll: w.lat != null ? [w.lat, w.lng] : null, ht: nz(w.hours_text), sp: nz(w.sponsor),
     d: nz(w.description), i: images.path("w", w.id), src: w.source_url,
+    mn: w.map_no ?? null, ak: w.aliases || [], as: w.also_sources || [], am: w.approx_m ?? null,
   }));
   const wp = new Set(db.works.flatMap((w) => w.artists || []));
   return {

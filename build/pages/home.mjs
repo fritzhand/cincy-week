@@ -122,7 +122,7 @@ ${days}
     const where = ev.venue ? esc(ev.venue.name) : ev.location_text && ev.location_text !== "Location not listed" ? esc(ev.location_text) : '<span class="unk">Location not listed</span>';
     return `<a class="nn-item" href="${root}schedule.html?e=${attr(ev.id)}#e-${attr(ev.id)}" data-open-event="${attr(ev.id)}" data-prog="${ev.program}" data-s="${x.s}" data-e="${x.e}"${x.endUnknown ? ' data-end-unknown="1"' : ""}>${bullet(ev.program)}<span class="t">${esc(ev.title)}</span><span class="m"><span class="p">${esc(c.progName(ev.program, true))}</span> · ${withDay ? `${esc(h.fmtDay(x.day))} · ` : ""}${esc(cards.whenText(x))} · ${where} <span class="nn-st" data-status></span></span></a>`;
   };
-  const counts = [[db.counts.events, "events"], [db.counts.people, "people"], [db.counts.venues, "venues"], [db.counts.works, "works of art"]];
+  const counts = [[db.counts.events, "events"], [db.counts.people, "people"], [db.counts.venues, "venues"], [db.counts.works, "works and attractions"]];   // BLINK's map lists attractions (a night market, a fashion show) with its art
   const ear = (root) => `<aside class="ear" aria-label="The week at a glance">
 <div data-show="before" data-ear="before">
 <div class="ear-head"><h2>Before the week</h2></div>
@@ -181,7 +181,7 @@ ${quote ? `<p class="pc-q">${esc(quote)}</p>` : ""}
     [db.counts.events, "events and exhibitions in the guide", "schedule.html"],
     [db.counts.people, "speakers, artists, curators and organizers", "people.html"],
     [db.counts.venues, "venues", "venues.html"],
-    [worksMapped, "works of art and installations", "art.html"],
+    [worksMapped, "artworks, installations and attractions", "art.html"],
   ];
   const facts = HOME_FACTS.map((id) => db.facts.find((f) => f.id === id)).filter(Boolean);
   const stats = (root) => `<div class="stats">${derived.map(([n, l, href]) => `<a class="stat" href="${root}${href}"><span class="n">${n}</span><span class="l">${esc(l)}</span></a>`).join("")}</div>

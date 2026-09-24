@@ -339,3 +339,32 @@ Also fixed outside data/: `site/js/lib/time.js` `fmtDateRange` names both years 
 - research/stay-move/places.json: 166 records
 - research/stay-move/venues.json: 7 records
 
+
+## BLINK official map (2026-09-24, hand maintenance after the merge)
+
+`node scripts/apply-blink-map.mjs` applied BLINK's printed 2026 folding map (research/blink-map/blink-map-2026.json) to these
+files by the maintenance rules in CLAUDE.md, not through the merge: re-running the merge drops these edits (re-run the script
+after it). Every edited record says what and why in `notes`, between `BLINK official map (2026-09-24):` and `[/BLINK map]`.
+- works: 73 BLINK works matched to the 92 printed entries (47 by title and credit, 17 by credit, 5 by title, 4 by location
+  only and flagged "PROBABLE MATCH, confirm with BLINK": Nos. 14, 29, 38, 42) got `map_no`; 37 took the printed title
+  verbatim (the online title is kept in `aliases` unless it differs only in case or punctuation; the map's generic "Mural"
+  and Nos. 38 and 46, whose bold line names a maker, keep the online title); `artist_text` is the printed credit verbatim
+  (the by-line) unless the linked people's names already read exactly so; No. 78 moved from The Banks to Covington with its
+  event; 13 works were added from the map (id `blink-<slug>`, source the PDF); 2 online works are not on the printed map
+  (Projection by Jason Snell, Kroger South).
+- Verification (2026-09-24, second pass): every entry was re-read off 4× renders of the PDF (not the extraction), and every
+  work, facility and venue position was projected onto the PDF with an independent inverse fit of the street intersections
+  (OSM streets overlaid to check the fit). All 92 numbers are present with the right KEY category and zone; every position
+  sits on the printed pin's block or the next one (the largest gaps, No. 38 at 96 m and restroom 760 at 124 m, are the
+  already-flagged ones). Fixed: 8 titles that differed from the print in spelling or typography only (Nos. 12, 19, 20, 60,
+  61, 64, 65, 68), 24 by-lines that were not the printed credit (names missing, e.g. No. 30's six, No. 47's three, No. 89's
+  Jessica Wolf; other spellings, e.g. No. 10 "Mariela Ajras", No. 48 "Dan Shields"), and the BLINK page's official-map
+  section, which counted works and facilities the printed map does not show.
+- places: 32 of kind `facility` (5 Oasis Stations, 15 restrooms, the merch shop, 4 hospitality zones, 5 Urban Hikers hike
+  departures, 2 drone show viewing areas); 19 existing records changed kind (accessibility or tip → facility), 13 were added.
+- venues: coordinates from the map for `blink-ohio-river-drone-show` and `court-street-plaza` (moved to the end of the file,
+  so no pin number changed) and `blink-ready-set-blink-central-parkway` (the ceremony strip on Central Pkwy); `approx_m`
+  says they are estimates.
+- events: the drone shows (Thu 8:30 PM; Fri, Sat, Sun 8 and 10 PM) and the opening ceremony (Thu 4–9 PM) match the map;
+  none added.
+- programs: BLINK's `maps` lists the PDF.

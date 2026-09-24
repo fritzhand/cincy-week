@@ -15,12 +15,13 @@
 import { sortBy } from "../core/util.mjs";
 import { haversine, walkMinutes, onMap } from "../../site/js/lib/geo.js";
 import { searchField, dirStatus, dirEmpty } from "./_directory.mjs";
+import { FACILITY_KINDS, FACILITY_LABEL, FACILITY_ICON } from "../core/schema.mjs";
 
 /** Which page lists each places.json kind (every kind in schema PLACE_KINDS appears once). */
 const PLACE_PAGES = {
   neighborhoods: ["neighborhood", "landmark"],
   "eat-drink": ["food", "drink"],
-  "getting-around": ["transit", "parking", "bike", "rideshare", "airport", "accessibility", "tip"],
+  "getting-around": ["transit", "parking", "bike", "rideshare", "airport", "accessibility", "tip", "facility"],
 };
 const PAGE_OF_KIND = Object.fromEntries(Object.entries(PLACE_PAGES).flatMap(([pg, ks]) => ks.map((k) => [k, pg])));
 
@@ -42,6 +43,7 @@ const GA_SECTIONS = [
   { id: "buses", title: "Buses and shuttles", icon: "tram" },
   { id: "bikes", title: "Bikes, scooters and carts", icon: "walk" },
   { id: "walking", title: "Walking", icon: "walk" },
+  { id: "blink-facilities", title: "BLINK restrooms, Oasis Stations and more", icon: "wc" },   // places kind "facility" (BLINK's map)
   { id: "parking", title: "Driving and parking", icon: "pin" },
   { id: "airport", title: "The airport and trains", icon: "map" },
   { id: "rides", title: "Rideshare and taxis", icon: "pin" },
@@ -50,6 +52,7 @@ const GA_SECTIONS = [
 ];
 function gaSection(p) {
   const id = p.id;
+  if (p.kind === "facility") return "blink-facilities";
   if (id.startsWith("connector-") || id === "blink-streetcar" || id === "accessibility-connector") return "streetcar";
   if (p.kind === "airport" || /(^|-)cvg(-|$)|airporter|amtrak/.test(id)) return "airport";
   if (p.kind === "parking") return "parking";
@@ -150,6 +153,30 @@ ${orderedGroups.map((g) => `<section class="section" id="${attr(g.id)}" aria-lab
 <p class="walk-note">Above 25 minutes (in italics), the streetcar, a bus or a ride may be quicker. Hubs are placed at their published addresses; The Banks and Covington at the average position of BLINK's mapped points in each zone.</p>`;
   const stationMap = (root) => cards.areaMap(root, stations.map((p) => ({ lat: p.lat, lng: p.lng, kind: "stop", n: Number(/station-(\d+)/.exec(p.id)[1]) })), { label: `Map of the Connector streetcar loop and its ${stations.length} stations`, minHalfM: 600, ratio: 3 / 4, cls: "ga-route" });
 
+  /* BLINK's facilities (places kind "facility", from BLINK's official folding map and its online map, 2026-09-24): grouped by
+     the map's KEY symbol, each with its map number, zone, directions and a link to it on map.html. A text shared by every place
+     in a group (the KEY's "Indoor restrooms and facilities", the Urban Hikers blurb) is printed once, under the group. */
+  const blinkMap = db.byId.program.get("blink")?.maps?.[0] || null;
+  const facMark = (k) => `<span class="fac-mk" aria-hidden="true">${h.icon(FACILITY_ICON[k])}</span>`;
+  const facGroupTitle = { "oasis-station": "Oasis Stations", restroom: "Restrooms", "merch-shop": "Official BLINK Merch Shop", "hospitality-zone": "Hospitality Zones", "hike-departure": "Hike departures (Urban Hikers)", "drone-viewing": "Drone Show Viewing Areas" };
+  function facilityBody(root, list) {
+    // zone by zone in the map's own order (a zone ranks by the first number printed in it), then by name
+    const zoneRank = new Map();
+    for (const w of db.works) if (w.map_no != null && w.zone) zoneRank.set(w.zone, Math.min(zoneRank.get(w.zone) ?? Infinity, w.map_no));
+    const groups = FACILITY_KINDS.map((k) => [k, sortBy(list.filter((p) => p.facility === k), (p) => p.map_no ?? 1e9, (p) => zoneRank.get(p.zone) ?? 1e9, (p) => p.name, (p) => p.id)]).filter(([, xs]) => xs.length);
+    const shared = (xs, f) => (xs.length > 1 && xs[0][f] && xs.every((x) => x[f] === xs[0][f]) ? xs[0][f] : null);
+    const item = (p, hide) => {
+      const meta = [p.map_no != null ? `${c.progName(p.program || "blink", true)} map No. ${p.map_no}` : "", p.zone, !hide.details && p.details ? p.details : "", p.address && p.address !== p.details ? p.address : ""].filter(Boolean);
+      return `<li class="fac" id="${attr(p.id)}">${facMark(p.facility)}<div class="fac-b"><p class="fac-t"><b>${esc(p.name)}</b>${meta.length ? ` <span class="fac-m">${esc(meta.join(" · "))}</span>` : ""}</p>${!hide.summary && p.summary && p.summary !== p.name ? `<p class="fac-s">${esc(p.summary)}</p>` : ""}${p.approx_m ? `<p class="fac-s faint">Approximate position (about ±${esc(p.approx_m)} m)</p>` : ""}<p class="acts">${p.lat != null ? dirLinks(p) : ""}${onMap(cards.meta, p.lat, p.lng) ? `<a class="btn btn-ghost btn-sm" href="${root}map.html?focus=facility:${attr(p.id)}">${h.icon("map")}On the map</a>` : ""}<span class="faint fac-src">Source: ${h.extLink(p.source_url, esc(h.hostOf(p.source_url)))}</span></p></div></li>`;
+    };
+    return `<p class="ga-fac-lede">Restrooms, Oasis Stations, the merch shop, hospitality zones, hike departures and the drone show viewing areas, from ${blinkMap ? h.extLink(blinkMap.url, esc(blinkMap.label)) : "BLINK's printed map"} and BLINK's online map. Numbers are the printed map's own.</p>
+<p class="btn-row"><a class="btn btn-secondary btn-sm" href="${root}map.html?layers=venues,art,facilities&amp;p=blink">${h.icon("map")}All of them on the map</a></p>
+${groups.map(([k, xs]) => {
+  const sum = shared(xs, "summary"), det = shared(xs, "details");
+  return `<h3 class="sub-h fac-h" id="fac-${k}">${facMark(k)}<span>${esc(facGroupTitle[k] || FACILITY_LABEL[k])}</span><span class="label faint">${xs.length}</span></h3>${sum ? `<p class="fac-gs">${k === "oasis-station" ? `“${esc(sum)}” <span class="faint">(the map's key)</span>` : esc(sum)}</p>` : ""}${det ? detailsBlock(det, facGroupTitle[k]) : ""}<ul class="fac-list">${xs.map((p) => item(p, { summary: !!sum, details: !!det })).join("")}</ul>`;
+}).join("\n")}`;
+  }
+
   const gaPage = {
     path: "getting-around.html", nav: "getting-around", title: "Getting around",
     description: "The free Connector streetcar, buses, bikes and scooters, parking, the airport and walking times between the week's hubs, from official sources.",
@@ -166,6 +193,7 @@ ${stations.length ? `<h3 class="sub-h">Stations, in loop order</h3><ol class="ga
 </div>${streetcarOther.filter((p) => p !== connector).length ? `<div class="gps">${streetcarOther.filter((p) => p !== connector).map((p) => placeCard(root, p)).join("")}</div>` : ""}` });
   }
   if (s.id === "walking") return c.section({ id: s.id, title: s.title, kicker: "Walking times are estimates", icon: s.icon, root, body: `${walkHubs.length > 1 ? matrix : ""}${secBody(root, s.id, list)}` });
+  if (s.id === "blink-facilities") return list.length ? c.section({ id: s.id, title: s.title, kicker: `${h.plural(list.length, "place")} · from BLINK's own maps`, icon: s.icon, root, body: facilityBody(root, list) }) : "";
   if (!list.length) return "";
   return c.section({ id: s.id, title: s.title, kicker: h.plural(list.length, "entry", "entries"), icon: s.icon, root, body: secBody(root, s.id, s.id === "parking" ? sortBy(list, (p) => (p.lat == null ? 1 : 0), (p) => p.name) : list) });
 }).join("\n")}`,
@@ -253,6 +281,6 @@ export function search(ctx) {
   const label = { neighborhood: "Neighborhood", landmark: "Landmark", food: "Food", drink: "Drink", transit: "Getting around", parking: "Parking", bike: "Bikes", rideshare: "Rides", airport: "Airport", accessibility: "Accessibility", tip: "Tip" };
   return [
     ...db.stays.map((s) => ({ k: "st", id: s.id, t: s.name, s: [s.room_block ? "Room block" : "Hotel", s.address].filter(Boolean).join(" · "), u: `stay.html#${s.id}`, p: s.room_block?.program })),
-    ...db.places.map((p) => ({ k: "pl", id: p.id, t: p.name, s: label[p.kind] || p.kind, u: `${PAGE_OF_KIND[p.kind] || "getting-around"}.html#${p.id}` })),
+    ...db.places.map((p) => ({ k: "pl", id: p.id, t: p.name, s: p.kind === "facility" ? [FACILITY_LABEL[p.facility], p.map_no != null ? `map No. ${p.map_no}` : "", p.zone].filter(Boolean).join(" · ") : label[p.kind] || p.kind, u: `${PAGE_OF_KIND[p.kind] || "getting-around"}.html#${p.id}`, ...(p.kind === "facility" ? { p: p.program || undefined, ...(p.facility === "restroom" || p.facility === "oasis-station" ? { g: "restroom bathroom toilet" } : {}) } : {}) })),
   ];
 }

@@ -8,7 +8,8 @@
    mountMap(el, { pins, fit, focus, onSelect, onList, onClear, onHover, wheel, title, nearMe }) → { update(pins), select(id, opts),
      highlight(id), fit(), home(), locate(), destroy(), el }
      el      an empty container (a .map-box is built in it) or a .map-box the build rendered (map.html)
-     pins    [{ id, kind: "venue"|"work"|"stay"|"stop"|"food", lat, lng, prog, prog2?, n?, label, live?, meta?, href?, h? }]
+     pins    [{ id, kind: "venue"|"work"|"facility"|"stay"|"stop"|"food", lat, lng, prog, prog2?, n?, label, live?, meta?, href?, h?,
+               mn? ("BLINK map No. 29": the program's own map number, read out with the pin), ic? (a facility's glyph) }]
      fit     true: open on the pins; else the home frame (data/map.json bbox.home)
      focus   a pin id to open on, zoomed in and selected
      onSelect(id, pin, { keyboard })   called on a pin; without it a small card in the map shows the pin
@@ -31,8 +32,8 @@ const I = (n, cls = "") => `<svg class="i${cls ? " " + cls : ""}" aria-hidden="t
 const still = () => matchMedia("(prefers-reduced-motion: reduce)").matches;
 const MAX_S = 6;             // px per basemap unit at the closest zoom (≈ 1 px per meter)
 const Z1 = 0.36;             // px per unit that counts as zoom level 1 for label minZoom (a phone showing the whole map)
-const KIND_ORDER = { venue: 0, work: 1, stay: 2, stop: 3, food: 4 };
-const KIND_WORD = { venue: ["venue", "venues"], work: ["artwork", "artworks"], stay: ["place to stay", "places to stay"], stop: ["transit stop", "transit stops"], food: ["place to eat or drink", "places to eat or drink"] };
+const KIND_ORDER = { venue: 0, work: 1, facility: 2, stay: 3, stop: 4, food: 5 };
+const KIND_WORD = { venue: ["venue", "venues"], work: ["artwork", "artworks"], facility: ["BLINK facility", "BLINK facilities"], stay: ["place to stay", "places to stay"], stop: ["transit stop", "transit stops"], food: ["place to eat or drink", "places to eat or drink"] };
 const LABEL_RANK = { hood: 0, water: 1, state: 2, park: 3, bridge: 4, street: 5 };
 const PROG_KEY = { caw: "a", scw: "s", blink: "b", fotofocus: "f", also: "f" };
 const cwApp = () => window.cw || null;
@@ -188,8 +189,8 @@ export function mountMap(el, opts = {}) {
     if (p.prog2) b.dataset.prog2 = p.prog2; else delete b.dataset.prog2;
     b.dataset.pin = p.id;
     b.setAttribute("aria-pressed", String(S.sel === p.id));
-    b.setAttribute("aria-label", `${p.n ? `${p.n}. ` : ""}${p.label}${p.live ? ", something on now" : ""}`);
-    const inner = p.kind === "venue" ? `<span>${esc(p.n || "")}</span>` : p.kind === "stay" ? `<span>${I("bed")}</span>` : "<span></span>";
+    b.setAttribute("aria-label", `${p.n ? `${p.n}. ` : ""}${p.label}${p.mn ? `, ${p.mn}` : ""}${p.live ? ", something on now" : ""}`);
+    const inner = p.kind === "venue" ? `<span>${esc(p.n || "")}</span>` : p.kind === "stay" ? `<span>${I("bed")}</span>` : p.kind === "facility" ? `<span>${I(p.ic || "info")}</span>` : "<span></span>";
     if (b.innerHTML !== inner) b.innerHTML = inner;
     return b;
   }
@@ -333,7 +334,7 @@ export function mountMap(el, opts = {}) {
   }
   function showCard(p, focus = false) {
     const d = directions(p.lat, p.lng);
-    card.innerHTML = `<button class="map-card-x" type="button" aria-label="Close">${I("x")}</button><p class="label faint">${esc(p.n ? `No. ${p.n}` : (KIND_WORD[p.kind] || ["Place"])[0])}</p><h3 tabindex="-1">${esc(p.label)}</h3>${p.meta ? `<p class="muted">${esc(p.meta)}</p>` : ""}<p class="btn-row">${p.href ? `<a class="btn btn-secondary btn-sm" href="${esc(p.href)}">Open${I("arrow-r")}</a>` : ""}${ext(d.apple, "Apple Maps", "btn btn-ghost btn-sm")}${ext(d.google, "Google Maps", "btn btn-ghost btn-sm")}</p>`;
+    card.innerHTML = `<button class="map-card-x" type="button" aria-label="Close">${I("x")}</button><p class="label faint">${esc(p.n ? `No. ${p.n}` : p.mn || (KIND_WORD[p.kind] || ["Place"])[0])}</p><h3 tabindex="-1">${esc(p.label)}</h3>${p.meta ? `<p class="muted">${esc(p.meta)}</p>` : ""}<p class="btn-row">${p.href ? `<a class="btn btn-secondary btn-sm" href="${esc(p.href)}">Open${I("arrow-r")}</a>` : ""}${ext(d.apple, "Apple Maps", "btn btn-ghost btn-sm")}${ext(d.google, "Google Maps", "btn btn-ghost btn-sm")}</p>`;
     card.hidden = false;
     if (focus) $("h3", card).focus();
   }
@@ -475,7 +476,7 @@ function mapPage(app) {
   const items = $$("li.map-li[data-id]", list).map((el) => {
     const [lat, lng] = el.dataset.ll.split(",").map(Number);
     const a = $("a.t", el);
-    return { el, id: el.dataset.id, kind: el.dataset.kind, layer: el.dataset.layer, lat, lng, p: (el.dataset.p || "").split(" ").filter(Boolean), days: (el.dataset.day || "").split(" ").filter(Boolean), h: el.dataset.h || "", n: el.dataset.n || "", label: a ? a.textContent.replace(/^\d+\.\s*/, "").trim() : "", meta: ($(".m", el) || {}).textContent || "", href: a ? a.getAttribute("href") : "" };
+    return { el, id: el.dataset.id, kind: el.dataset.kind, layer: el.dataset.layer, lat, lng, p: (el.dataset.p || "").split(" ").filter(Boolean), days: (el.dataset.day || "").split(" ").filter(Boolean), h: el.dataset.h || "", n: el.dataset.n || "", mn: el.dataset.mn || "", ic: el.dataset.ic || "", fl: el.dataset.fl || "", label: a ? a.textContent.replace(/^\d+\.\s*/, "").trim() : "", meta: ($(".m", el) || {}).textContent || "", href: a ? a.getAttribute("href") : "" };
   });
   const byId = new Map(items.map((x) => [x.id, x]));
   const layerBtns = $$("button[data-layer]", page), progBtns = $$("[data-mp]", page), daySel = $("[data-md]", page);
@@ -489,10 +490,12 @@ function mapPage(app) {
   if (st.focus && !st.layers.includes(byId.get(st.focus).layer)) st.layers.push(byId.get(st.focus).layer);
 
   let evData = null, live = new Set();
+  // program and day filters apply to what belongs to a program: venues, works and (BLINK's) facilities
+  const PROG_KINDS = new Set(["venue", "work", "facility"]);
   const visible = (x) => st.layers.includes(x.layer)
-    && (!st.p.length || !x.p.length || x.p.some((p) => st.p.includes(p)) || (x.kind !== "venue" && x.kind !== "work"))
-    && (!st.day || (x.kind !== "venue" && x.kind !== "work") || x.days.includes(st.day));
-  const pinOf = (x) => ({ id: x.id, kind: x.kind, lat: x.lat, lng: x.lng, prog: x.p[0] || (x.kind === "venue" ? "also" : ""), prog2: x.kind === "venue" ? x.p[1] : undefined, n: x.n, label: x.label, meta: x.meta, href: x.href, h: x.h, live: live.has(x.id) });
+    && (!st.p.length || !x.p.length || x.p.some((p) => st.p.includes(p)) || !PROG_KINDS.has(x.kind))
+    && (!st.day || !PROG_KINDS.has(x.kind) || x.days.includes(st.day));
+  const pinOf = (x) => ({ id: x.id, kind: x.kind, lat: x.lat, lng: x.lng, prog: x.p[0] || (x.kind === "venue" ? "also" : ""), prog2: x.kind === "venue" ? x.p[1] : undefined, n: x.n, mn: x.mn, ic: x.ic, label: x.label, meta: x.meta, href: x.href, h: x.h, live: live.has(x.id) });
 
   const map = mountMap(box, {
     pins: [], focus: st.focus, wheel: "always", title: "Map of Over-the-Rhine, downtown, The Banks and the Kentucky riverfront",
@@ -527,7 +530,7 @@ function mapPage(app) {
     if (dl === DEFAULT_LAYERS.join(",")) u.searchParams.delete("layers"); else u.searchParams.set("layers", dl);
     set("p", [...st.p].sort().join(","));
     set("day", st.day);
-    const f = st.sel && /^(venue|work|stay):/.test(st.sel) ? st.sel : "";
+    const f = st.sel && /^(venue|work|stay|facility):/.test(st.sel) ? st.sel : "";
     set("focus", f);
     try { history.replaceState(history.state, "", u.pathname + u.search + u.hash); } catch { /* sandboxed */ }
   }
@@ -568,12 +571,13 @@ function mapPage(app) {
     openPanel(keyboard);
   }
   const panelHead = (kicker, title, n = "") => `<div class="map-panel-top"><button class="map-panel-grip" type="button" data-panel-grow aria-expanded="false" aria-label="Expand">${I("chev-d")}</button><button class="map-panel-x" type="button" data-panel-close aria-label="Close">${I("x")}</button></div><p class="label faint">${esc(kicker)}</p><h2 tabindex="-1" data-panel-title>${n ? `<span class="stall s" aria-hidden="true">${esc(n)}</span>` : ""}${esc(title)}</h2>`;
-  const KLABEL = { venue: "Venue", work: "Artwork", stay: "Place to stay", stop: "Getting around", food: "Food and drink" };
+  const KLABEL = { venue: "Venue", work: "Artwork", facility: "BLINK facility", stay: "Place to stay", stop: "Getting around", food: "Food and drink" };
   function renderPanel(x) {
     const d = directions(x.lat, x.lng);
+    const meta = x.mn ? x.meta.split(" · ").filter((t) => t !== x.mn).join(" · ") : x.meta;   // the kicker already names the map number
     const extra = x.kind === "venue" ? `<div data-panel-events><p class="faint">Loading what's on here…</p></div>` : x.kind === "work" ? `<p class="btn-row"><button class="btn btn-secondary btn-sm" type="button" data-open-work="${esc(x.id.split(":")[1])}">${I("info")}Details and photo</button><button class="star" type="button" data-star="${esc(x.id.split(":")[1])}" data-star-kind="w" aria-pressed="false" aria-label="Add “${esc(x.label)}” to My Plan">${I("star")}</button></p>` : "";
-    panel.innerHTML = `${panelHead(`${KLABEL[x.kind] || "Place"}${x.kind === "venue" && x.p.length ? ` · ${x.p.map((p) => progName.get(p) || (evData && evData.programs[p] ? evData.programs[p].s : p)).join(", ")}` : ""}`, x.label, x.kind === "venue" ? x.n : "")}
-${x.meta ? `<p class="muted map-panel-meta">${esc(x.meta)}</p>` : ""}${extra}
+    panel.innerHTML = `${panelHead(`${(x.kind === "facility" && x.fl) || KLABEL[x.kind] || "Place"}${x.mn ? ` · ${x.mn}` : ""}${x.kind === "venue" && x.p.length ? ` · ${x.p.map((p) => progName.get(p) || (evData && evData.programs[p] ? evData.programs[p].s : p)).join(", ")}` : ""}`, x.label, x.kind === "venue" ? x.n : "")}
+${meta ? `<p class="muted map-panel-meta">${esc(meta)}</p>` : ""}${extra}
 <p class="btn-row map-panel-acts"><span class="acts-l">${I("walk")}Walk</span>${ext(d.apple, "Apple Maps", "btn btn-secondary btn-sm")}${ext(d.google, "Google Maps", "btn btn-secondary btn-sm")}${x.href && x.kind !== "work" ? `<a class="btn btn-ghost btn-sm" href="${esc(x.href)}">${x.kind === "venue" ? "Venue page" : "Details"}${I("arrow-r")}</a>` : ""}</p>`;
     if (x.kind === "work") app.plan.refresh();
     if (x.kind === "venue") venueEvents(x);

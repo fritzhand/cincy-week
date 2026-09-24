@@ -77,3 +77,4 @@
 .vp-near a > span:last-child { display: grid; gap: 1px; min-width: 0; }
 .vp-near b { font-weight: var(--wght-strong); overflow-wrap: anywhere; }
 .vp-near .faint { font-size: var(--fs-xs); font-variant-numeric: tabular-nums; }
+.vp-approx { margin-top: 6px; font-size: var(--fs-xs); }

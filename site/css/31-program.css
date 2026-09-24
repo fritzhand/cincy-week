@@ -67,3 +67,19 @@
 .prog-day[open] > summary { border-bottom: 0; }
 .prog-day[open] > .tonight { margin-bottom: var(--sp-4); }
 .prog-day + .sub-h { margin-top: var(--sp-6); }
+
+/* ---------- the program's official map (BLINK's folding map, 2026-09-24): numbers by zone, facilities, source ---------- */
+.prog-map-lede { max-width: var(--measure, 68ch); }
+.prog-mapzones { list-style: none; padding: 0; margin: var(--sp-3) 0 var(--sp-4); display: grid; gap: 0 var(--sp-5); grid-template-columns: repeat(auto-fill, minmax(min(100%, 250px), 1fr)); border-top: 1px solid var(--border); }
+.prog-mapzones a { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: baseline; gap: 2px 12px; min-height: var(--tap); padding: 8px 0; border-bottom: 1px solid var(--border); color: var(--text); text-decoration: none; }
+.prog-mapzones a:hover b { text-decoration: underline; text-underline-offset: 0.16em; }
+.prog-mapzones .tnum { font-size: var(--fs-sm); font-weight: var(--wght-strong); }
+.prog-mapzones .faint { grid-column: 1 / -1; font-size: var(--fs-xs); }
+.prog-fac { display: grid; gap: var(--sp-3) var(--sp-5); grid-template-columns: repeat(auto-fill, minmax(min(100%, 250px), 1fr)); margin: var(--sp-2) 0 var(--sp-3); }
+.prog-fac-g .sub-h { display: flex; align-items: center; gap: 8px; margin: 0 0 4px; }
+.prog-fac-g .sub-h .i { width: 18px; height: 18px; flex: none; }
+.prog-fac-g .sub-h .label { margin-left: auto; }
+.prog-fac-s { font-size: var(--fs-sm); color: var(--text-muted); margin: 0 0 4px; }
+.prog-fac-l { list-style: none; padding: 0; margin: 0; font-size: var(--fs-sm); }
+.prog-fac-l li { display: flex; flex-wrap: wrap; align-items: center; gap: 0 8px; min-height: var(--tap); border-bottom: 1px solid var(--border); }
+.prog-fac-l a { display: inline-flex; align-items: center; min-height: var(--tap); }

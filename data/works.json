@@ -6,7 +6,7 @@
     "artists": [
       "cedric-michael-cox-and-studio-181-brent-keltch"
     ],
-    "artist_text": null,
+    "artist_text": "Cedric Michael Cox, Studio 181 Brent Keltch",
     "medium": "light installation",
     "category": "Light Installations",
     "zone": "The Banks",
@@ -20,8 +20,12 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 66,
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/future-cities-no-1-2-and-3",
-    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography."
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography. BLINK official map (2026-09-24): No. 66 (Light Installations), printed \"Future Cities No. 1, 2, and 3\" / \"Cedric Michael Cox, Studio 181\" / \"Brent Keltch\". Credit \"Cedric Michael Cox, Studio 181 Brent Keltch\" as printed (the by-line); BLINK's online map credits Cedric Michael Cox & Studio 181 Brent Keltch (linked). [/BLINK map]"
   },
   {
     "id": "blink-in-light-of-us",
@@ -30,7 +34,7 @@
     "artists": [
       "mz-icar"
     ],
-    "artist_text": null,
+    "artist_text": "The Mz. Icar Collective",
     "medium": "light installation",
     "category": "Light Installations",
     "zone": "Fountain District",
@@ -44,8 +48,12 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 40,
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/in-light-of-us",
-    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography."
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography. BLINK official map (2026-09-24): No. 40 (Light Installations), printed \"In Light of Us\" / \"The Mz. Icar Collective\". Credit \"The Mz. Icar Collective\" as printed (the by-line); BLINK's online map credits Mz. Icar (linked). [/BLINK map]"
   },
   {
     "id": "blink-somnius",
@@ -68,8 +76,12 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 75,
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/somnius",
-    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography."
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography. BLINK official map (2026-09-24): No. 75 (Light Installations), printed \"SomniUs\" / \"illumaphonium\". [/BLINK map]"
   },
   {
     "id": "blink-mycelium-network",
@@ -92,13 +104,17 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 58,
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/mycelium-network",
-    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. Zone \"BLINK at Lytle Park\" is marked inactive (zone_status 0) in the site data but appears on the 2026 zone map (\"BLINK at Lytle Park with support from Western & Southern Financial Group\"). description_is_artist_bio: the published artwork text is the artist biography."
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. Zone \"BLINK at Lytle Park\" is marked inactive (zone_status 0) in the site data but appears on the 2026 zone map (\"BLINK at Lytle Park with support from Western & Southern Financial Group\"). description_is_artist_bio: the published artwork text is the artist biography. BLINK official map (2026-09-24): No. 58 (Light Installations), printed \"Mycelium Network\" / \"Custom Fibre Optics Ltd\". [/BLINK map]"
   },
   {
     "id": "blink-incandescent",
     "program": "blink",
-    "title": "Incandescent",
+    "title": "In-Can-Descent",
     "artists": [
       "keep-cincinnati-beautiful"
     ],
@@ -116,8 +132,15 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 12,
+    "aliases": [
+      "Incandescent"
+    ],
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/incandescent",
-    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography."
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography. BLINK official map (2026-09-24): No. 12 (Light Installations), printed \"In-Can-Descent\" / \"Keep Cincinnati Beautiful\". Title \"Incandescent\" (BLINK's online map, kept in aliases) → \"In-Can-Descent\" (as printed). [/BLINK map]"
   },
   {
     "id": "blink-connected",
@@ -126,7 +149,7 @@
     "artists": [
       "koros-design-studio"
     ],
-    "artist_text": null,
+    "artist_text": "Koros Design",
     "medium": "light installation",
     "category": "Light Installations",
     "zone": "Covington",
@@ -140,32 +163,44 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 83,
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/connected",
-    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography."
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography. BLINK official map (2026-09-24): No. 83 (Light Installations), printed \"Connected\" / \"Koros Design\". Credit \"Koros Design\" as printed (the by-line); BLINK's online map credits Koros Design Studio (linked). [/BLINK map]"
   },
   {
     "id": "blink-0h10m1ke-light-installation",
     "program": "blink",
-    "title": "0H10M1ke Light Installation",
+    "title": "L1ght Graff1t1 Make0vers",
     "artists": [
       "0h10m1ke"
     ],
     "artist_text": null,
     "medium": "light installation",
     "category": "Light Installations",
-    "zone": "The Banks",
-    "venue_id": "blink-zone-the-banks",
+    "zone": "Covington",
+    "venue_id": "blink-zone-covington",
     "location_text": null,
-    "lat": null,
-    "lng": null,
+    "lat": 39.087156,
+    "lng": -84.508612,
+    "approx_m": 50,
     "hours_text": null,
     "description": "0H10M1ke is a Brooklyn-based interdisciplinary artist known as “The One-Line Master,” recognized for creating more than 15,000 live portraits and light-based performances across cities including New York, Miami, Tokyo, Kyoto, and Berlin. Working at the intersection of drawing, performance, and light, he translates real-time gesture into luminous forms using a Wacom tablet and stylus, treating each mark as an immediate, unrepeatable response to the moment. His ongoing series L1ght Graff1t1 Make0vers transforms participants into vivid, reimagined identities through live digital light performance, blending street aesthetics, improvisation, and spectacle. Across international exhibitions at venues such as the Park Avenue Armory, the Guggenheim Museum, and the Museum of Graffiti, his work explores light as both medium and metaphor for connection, impermanence, and shared human presence.",
     "image_url": "https://blinkcincinnati.b-cdn.net/files/locations/original/0h10m1ke.jpg",
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 78,
+    "aliases": [
+      "0H10M1ke Light Installation"
+    ],
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/0h10m1ke-light-installation",
-    "notes": "No by-line on the artwork page; artist matched by the name in the title (\"0H10M1ke\"). The published artwork description is the artist biography (same text as the artist page), not an artwork statement. Not pinned on the BLINK map (no coordinates published); zone from the Art and Artists zone filter. The Art and Artists date filter lists this item only under 2026-10-09. description_is_artist_bio: the published artwork text is the artist biography."
+    "notes": "No by-line on the artwork page; artist matched by the name in the title (\"0H10M1ke\"). The published artwork description is the artist biography (same text as the artist page), not an artwork statement. Not pinned on the BLINK map (no coordinates published); zone from the Art and Artists zone filter. The Art and Artists date filter lists this item only under 2026-10-09. description_is_artist_bio: the published artwork text is the artist biography. BLINK official map (2026-09-24): No. 78 (Light Installations), printed \"L1ght Graff1t1 Make0vers\" / \"0H10M1ke\". Zone \"The Banks\" → \"Covington\" (the map lists No. 78 under Covington and pins it there); the event blink-2026-10-09-0h10m1ke-light-installation, which shows this work, moves with it (venue blink-zone-the-banks → blink-zone-covington); coordinates from the printed pin, georeferenced (research/blink-map; approximate, about ±50 m): BLINK's online map gives none; title \"0H10M1ke Light Installation\" (BLINK's online map, kept in aliases) → \"L1ght Graff1t1 Make0vers\" (as printed). [/BLINK map]"
   },
   {
     "id": "blink-lumifolia",
@@ -174,7 +209,7 @@
     "artists": [
       "paper-acorn"
     ],
-    "artist_text": null,
+    "artist_text": "Jessica Wolf, Paper Acorn",
     "medium": "light installation",
     "category": "Light Installations",
     "zone": "Covington",
@@ -188,8 +223,12 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 89,
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/lumifolia",
-    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography."
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography. BLINK official map (2026-09-24): No. 89 (Light Installations), printed \"Lumifolia\" / \"Jessica Wolf, Paper Acorn\". Credit \"Jessica Wolf, Paper Acorn\" as printed (the by-line); BLINK's online map credits Paper Acorn (linked). [/BLINK map]"
   },
   {
     "id": "blink-mural-by-ellna-lourens",
@@ -212,8 +251,12 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 86,
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/murals/mural-by-ellna-lourens",
-    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography."
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography. BLINK official map (2026-09-24): No. 86 (Murals), printed \"Mural\" / \"Elléna Lourens\". Printed title \"Mural\" (the map's generic \"Mural\"): online title kept. [/BLINK map]"
   },
   {
     "id": "blink-string-theory-for-dummies-20",
@@ -222,7 +265,7 @@
     "artists": [
       "daniel-shields"
     ],
-    "artist_text": null,
+    "artist_text": "Dan Shields",
     "medium": "light installation",
     "category": "Light Installations",
     "zone": "Fountain District",
@@ -236,8 +279,12 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 48,
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/string-theory-for-dummies-20",
-    "notes": "The published artwork description is a biography of the artist, not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography."
+    "notes": "The published artwork description is a biography of the artist, not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography. BLINK official map (2026-09-24): No. 48 (Light Installations), printed \"String Theory for Dummies 2.0\" / \"Dan Shields\". Credit \"Dan Shields\" as printed (the by-line); BLINK's online map credits Daniel Shields (linked). [/BLINK map]"
   },
   {
     "id": "blink-mural-by-gera-1",
@@ -246,7 +293,7 @@
     "artists": [
       "gera-1"
     ],
-    "artist_text": null,
+    "artist_text": "Gera 1",
     "medium": "mural",
     "category": "Murals",
     "zone": "Covington",
@@ -260,8 +307,12 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 76,
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/murals/mural-by-gera-1",
-    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography."
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography. BLINK official map (2026-09-24): No. 76 (Murals), printed \"Mural\" / \"Gera 1\". Printed title \"Mural\" (the map's generic \"Mural\"): online title kept; credit \"Gera 1\" as printed (the by-line); BLINK's online map credits GERA 1 (linked). [/BLINK map]"
   },
   {
     "id": "blink-light-falls",
@@ -284,8 +335,12 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 52,
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/light-falls",
-    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography."
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography. BLINK official map (2026-09-24): No. 52 (Light Installations), printed \"Light Falls\" / \"VIGAS\". [/BLINK map]"
   },
   {
     "id": "blink-spiral-bound",
@@ -294,7 +349,7 @@
     "artists": [
       "jp-jackson-and-brian-havener"
     ],
-    "artist_text": null,
+    "artist_text": "JP Jackson, Brian Havener",
     "medium": "light installation",
     "category": "Light Installations",
     "zone": "The Banks",
@@ -308,8 +363,12 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 72,
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/spiral-bound",
-    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography."
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography. BLINK official map (2026-09-24): No. 72 (Light Installations), printed \"Spiral Bound\" / \"JP Jackson, Brian Havener\". Credit \"JP Jackson, Brian Havener\" as printed (the by-line); BLINK's online map credits JP Jackson + Brian Havener (linked). [/BLINK map]"
   },
   {
     "id": "blink-dreamscape",
@@ -318,7 +377,7 @@
     "artists": [
       "lindsay-glatz-and-william-nemitoff"
     ],
-    "artist_text": null,
+    "artist_text": "Lindsay Glatz, William Nemitoff",
     "medium": "light installation",
     "category": "Light Installations",
     "zone": "The Banks",
@@ -332,8 +391,12 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 69,
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/dreamscape",
-    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography."
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography. BLINK official map (2026-09-24): No. 69 (Light Installations), printed \"Dreamscape\" / \"Lindsay Glatz, William Nemitoff\". Credit \"Lindsay Glatz, William Nemitoff\" as printed (the by-line); BLINK's online map credits Lindsay Glatz + William Nemitoff (linked). [/BLINK map]"
   },
   {
     "id": "blink-mural-by-medianeras",
@@ -342,7 +405,7 @@
     "artists": [
       "medianeras"
     ],
-    "artist_text": null,
+    "artist_text": "Medianeras",
     "medium": "mural",
     "category": "Murals",
     "zone": "Findlay Market",
@@ -356,8 +419,12 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 2,
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/murals/mural-by-medianeras",
-    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography."
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography. BLINK official map (2026-09-24): No. 2 (Murals), printed \"Mural\" / \"Medianeras\". Printed title \"Mural\" (the map's generic \"Mural\"): online title kept; credit \"Medianeras\" as printed (the by-line); BLINK's online map credits MEDIANERAS (linked). [/BLINK map]"
   },
   {
     "id": "blink-light-lane",
@@ -380,17 +447,21 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 81,
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/light-lane",
-    "notes": "No description published yet (2026-09-24)."
+    "notes": "No description published yet (2026-09-24). BLINK official map (2026-09-24): No. 81 (Light Installations), printed \"Light Lane\" / \"LeMonde Studio\". [/BLINK map]"
   },
   {
     "id": "blink-forealism",
     "program": "blink",
-    "title": "Forealism",
+    "title": "Light Ship",
     "artists": [
       "lawrence-malott-forealism"
     ],
-    "artist_text": null,
+    "artist_text": "Lawrence Malott FOREALISM",
     "medium": "light installation",
     "category": "Light Installations",
     "zone": "Findlay Market",
@@ -404,8 +475,15 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 6,
+    "aliases": [
+      "Forealism"
+    ],
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/forealism",
-    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography."
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography. BLINK official map (2026-09-24): No. 6 (Light Installations), printed \"Light Ship\" / \"Lawrence Malott FOREALISM\". Title \"Forealism\" (BLINK's online map, kept in aliases) → \"Light Ship\" (as printed); credit \"Lawrence Malott FOREALISM\" as printed (the by-line); BLINK's online map credits Lawrence Malott - FOREALISM (linked). [/BLINK map]"
   },
   {
     "id": "blink-interlace",
@@ -428,8 +506,12 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 71,
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/interlace",
-    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography."
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography. BLINK official map (2026-09-24): No. 71 (Light Installations), printed \"Interlace\" / \"Looking Up Arts\". [/BLINK map]"
   },
   {
     "id": "blink-geist",
@@ -452,13 +534,17 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 32,
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/geist",
-    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography."
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography. BLINK official map (2026-09-24): No. 32 (Light Installations), printed \"Geist\" / \"This is Loop\". [/BLINK map]"
   },
   {
     "id": "blink-yelled",
     "program": "blink",
-    "title": "Yelled",
+    "title": "Y.e.l.l.e.d",
     "artists": [
       "kemper-sauce-studios"
     ],
@@ -476,17 +562,24 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 65,
+    "aliases": [
+      "Yelled"
+    ],
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/yelled",
-    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography."
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography. BLINK official map (2026-09-24): No. 65 (Light Installations), printed \"Y.e.l.l.e.d\" / \"Kemper Sauce Studios\". Title \"Yelled\" (BLINK's online map, kept in aliases) → \"Y.e.l.l.e.d\" (as printed). [/BLINK map]"
   },
   {
     "id": "blink-interactive-projection",
     "program": "blink",
-    "title": "Interactive Projection",
+    "title": "muon : bloom",
     "artists": [
       "christo-squier-and-thomas-blackburn"
     ],
-    "artist_text": null,
+    "artist_text": "Christo Squier",
     "medium": "projection mapping",
     "category": "Projections",
     "zone": "Fountain District",
@@ -500,8 +593,15 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 33,
+    "aliases": [
+      "Interactive Projection"
+    ],
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/projections/interactive-projection",
-    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography."
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography. BLINK official map (2026-09-24): No. 33 (Projections), printed \"muon : bloom\" / \"Christo Squier\". Title \"Interactive Projection\" (BLINK's online map, kept in aliases) → \"muon : bloom\" (as printed); credit \"Christo Squier\" as printed (the by-line); BLINK's online map credits Christo Squier & Thomas Blackburn (linked). [/BLINK map]"
   },
   {
     "id": "blink-mural-by-wayne-horse",
@@ -524,15 +624,19 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 77,
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/murals/mural-by-wayne-horse",
-    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography."
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography. BLINK official map (2026-09-24): No. 77 (Murals), printed \"Mural\" / \"Wayne Horse\". Printed title \"Mural\" (the map's generic \"Mural\"): online title kept. [/BLINK map]"
   },
   {
     "id": "blink-bg-tv",
     "program": "blink",
-    "title": "B!g TV",
+    "title": "The B!G TV",
     "artists": [],
-    "artist_text": null,
+    "artist_text": "B!gArt",
     "medium": "light installation",
     "category": "Light Installations",
     "zone": "The Banks",
@@ -546,8 +650,15 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 60,
+    "aliases": [
+      "B!g TV"
+    ],
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/bg-tv",
-    "notes": "No description published yet (2026-09-24)."
+    "notes": "No description published yet (2026-09-24). BLINK official map (2026-09-24): No. 60 (Light Installations), printed \"The B!G TV\" / \"B!gArt\". Title \"B!g TV\" (BLINK's online map, kept in aliases) → \"The B!G TV\" (as printed); credit \"B!gArt\" as printed (BLINK's online map names no artist). [/BLINK map]"
   },
   {
     "id": "blink-mural-by-drew-merritt",
@@ -570,8 +681,12 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 15,
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/murals/mural-by-drew-merritt",
-    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography."
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography. BLINK official map (2026-09-24): No. 15 (Murals), printed \"Mural\" / \"Drew Merritt\". Printed title \"Mural\" (the map's generic \"Mural\"): online title kept. [/BLINK map]"
   },
   {
     "id": "blink-mural-by-chase-melendez",
@@ -594,8 +709,12 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 88,
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/murals/mural-by-chase-melendez",
-    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography."
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography. BLINK official map (2026-09-24): No. 88 (Murals), printed \"Mural\" / \"Chase Melendez\". Printed title \"Mural\" (the map's generic \"Mural\"): online title kept. [/BLINK map]"
   },
   {
     "id": "blink-allium",
@@ -618,8 +737,12 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 57,
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/allium",
-    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. Zone \"BLINK at Lytle Park\" is marked inactive (zone_status 0) in the site data but appears on the 2026 zone map (\"BLINK at Lytle Park with support from Western & Southern Financial Group\"). description_is_artist_bio: the published artwork text is the artist biography."
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. Zone \"BLINK at Lytle Park\" is marked inactive (zone_status 0) in the site data but appears on the 2026 zone map (\"BLINK at Lytle Park with support from Western & Southern Financial Group\"). description_is_artist_bio: the published artwork text is the artist biography. BLINK official map (2026-09-24): No. 57 (Light Installations), printed \"Allium\" / \"Everything Good Studio\". [/BLINK map]"
   },
   {
     "id": "blink-psychedelic-car-wash",
@@ -642,13 +765,17 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 39,
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/psychedelic-car-wash",
-    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography."
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography. BLINK official map (2026-09-24): No. 39 (Light Installations), printed \"Psychedelic Car Wash\" / \"Radius Concepts\". [/BLINK map]"
   },
   {
     "id": "blink-kinetic",
     "program": "blink",
-    "title": "Kinetic",
+    "title": "Kinetic Perspective",
     "artists": [
       "juan-fuentes"
     ],
@@ -666,8 +793,15 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 79,
+    "aliases": [
+      "Kinetic"
+    ],
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/kinetic",
-    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography."
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography. BLINK official map (2026-09-24): No. 79 (Light Installations), printed \"Kinetic Perspective\" / \"Juan Fuentes\". Title \"Kinetic\" (BLINK's online map, kept in aliases) → \"Kinetic Perspective\" (as printed). [/BLINK map]"
   },
   {
     "id": "blink-mural-by-polina-soloveichik",
@@ -690,13 +824,17 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 82,
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/murals/mural-by-polina-soloveichik",
-    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography."
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography. BLINK official map (2026-09-24): No. 82 (Murals), printed \"Mural\" / \"Polina Soloveichik\". Printed title \"Mural\" (the map's generic \"Mural\"): online title kept. [/BLINK map]"
   },
   {
     "id": "blink-maestro-musical-notes",
     "program": "blink",
-    "title": "Maestro Musical Notes",
+    "title": "Maestro",
     "artists": [
       "lemonde-studio"
     ],
@@ -714,8 +852,15 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 64,
+    "aliases": [
+      "Maestro Musical Notes"
+    ],
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/maestro-musical-notes",
-    "notes": "No description published yet (2026-09-24)."
+    "notes": "No description published yet (2026-09-24). BLINK official map (2026-09-24): No. 64 (Light Installations), printed \"Maestro\" / \"LeMonde Studio\". Title \"Maestro Musical Notes\" (BLINK's online map, kept in aliases) → \"Maestro\" (as printed). [/BLINK map]"
   },
   {
     "id": "blink-the-blinkatorium",
@@ -738,13 +883,17 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 24,
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/the-blinkatorium",
-    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography."
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography. BLINK official map (2026-09-24): No. 24 (Light Installations), printed \"The Blinkatorium\" / \"Scott Pennington\". [/BLINK map]"
   },
   {
     "id": "blink-lemonde-icebergs",
     "program": "blink",
-    "title": "LeMonde Icebergs",
+    "title": "Iceberg Trail",
     "artists": [
       "lemonde-studio"
     ],
@@ -762,8 +911,15 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 55,
+    "aliases": [
+      "LeMonde Icebergs"
+    ],
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/lemonde-icebergs",
-    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. Zone \"BLINK at Lytle Park\" is marked inactive (zone_status 0) in the site data but appears on the 2026 zone map (\"BLINK at Lytle Park with support from Western & Southern Financial Group\"). description_is_artist_bio: the published artwork text is the artist biography."
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. Zone \"BLINK at Lytle Park\" is marked inactive (zone_status 0) in the site data but appears on the 2026 zone map (\"BLINK at Lytle Park with support from Western & Southern Financial Group\"). description_is_artist_bio: the published artwork text is the artist biography. BLINK official map (2026-09-24): No. 55 (Light Installations), printed \"Iceberg Trail\" / \"LeMonde Studio\". Title \"LeMonde Icebergs\" (BLINK's online map, kept in aliases) → \"Iceberg Trail\" (as printed). [/BLINK map]"
   },
   {
     "id": "blink-mural-by-dulk",
@@ -786,13 +942,17 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 3,
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/murals/mural-by-dulk",
-    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography."
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography. BLINK official map (2026-09-24): No. 3 (Murals), printed \"Mural\" / \"Dulk\". Printed title \"Mural\" (the map's generic \"Mural\"): online title kept. [/BLINK map]"
   },
   {
     "id": "blink-millennial-pink",
     "program": "blink",
-    "title": "MILLENNIAL PINK",
+    "title": "Millennial Pink",
     "artists": [
       "mike-stasny"
     ],
@@ -810,13 +970,17 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 61,
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/millennial-pink",
-    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography."
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography. BLINK official map (2026-09-24): No. 61 (Light Installations), printed \"Millennial Pink\" / \"Mike Stasny\". Title \"MILLENNIAL PINK\" (BLINK's online map; the same words) → \"Millennial Pink\" (as printed). [/BLINK map]"
   },
   {
     "id": "blink-jacobs-wall",
     "program": "blink",
-    "title": "Jacob's Wall",
+    "title": "Jacob’s Wall",
     "artists": [
       "parker-heyl"
     ],
@@ -834,8 +998,12 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 19,
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/jacobs-wall",
-    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography."
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography. BLINK official map (2026-09-24): No. 19 (Light Installations), printed \"Jacob’s Wall\" / \"Parker Heyl\". Title \"Jacob's Wall\" (BLINK's online map; the same words) → \"Jacob’s Wall\" (as printed). [/BLINK map]"
   },
   {
     "id": "blink-mural-by-max-sansing",
@@ -858,8 +1026,12 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 9,
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/murals/mural-by-max-sansing",
-    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography."
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography. BLINK official map (2026-09-24): No. 9 (Murals), printed \"Mural\" / \"Max Sansing\". Printed title \"Mural\" (the map's generic \"Mural\"): online title kept. [/BLINK map]"
   },
   {
     "id": "blink-threaded-light",
@@ -882,8 +1054,12 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 23,
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/threaded-light",
-    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography."
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography. BLINK official map (2026-09-24): No. 23 (Light Installations), printed \"Threaded Light\" / \"Sew Valley\". [/BLINK map]"
   },
   {
     "id": "blink-mural-by-marie-ajras",
@@ -892,7 +1068,7 @@
     "artists": [
       "marie-ajras"
     ],
-    "artist_text": null,
+    "artist_text": "Mariela Ajras",
     "medium": "mural",
     "category": "Murals",
     "zone": "Findlay Market",
@@ -906,15 +1082,21 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 10,
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/murals/mural-by-marie-ajras",
-    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography."
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography. BLINK official map (2026-09-24): No. 10 (Murals), printed \"Mural\" / \"Mariela Ajras\". Printed title \"Mural\" (the map's generic \"Mural\"): online title kept; credit \"Mariela Ajras\" as printed (the by-line); BLINK's online map credits Marie AJRAS (linked). [/BLINK map]"
   },
   {
     "id": "blink-crescendo",
     "program": "blink",
     "title": "Crescendo",
-    "artists": [],
-    "artist_text": null,
+    "artists": [
+      "kyle-eli-ebersole"
+    ],
+    "artist_text": "Kyle Eli Ebersole, Ian Molitors",
     "medium": "light installation",
     "category": "Light Installations",
     "zone": "BLINK at Lytle Park",
@@ -928,8 +1110,12 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 56,
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/crescendo",
-    "notes": "Record carried over from BLINK 2024 (BLINK location id 192, record dated August 23; its photos are named blink2024-*). It is listed in the 2026 Art and Artists guide and pinned in the BLINK at Lytle Park zone. Zone \"BLINK at Lytle Park\" is marked inactive (zone_status 0) in the site data but appears on the 2026 zone map (\"BLINK at Lytle Park with support from Western & Southern Financial Group\")."
+    "notes": "Record carried over from BLINK 2024 (BLINK location id 192, record dated August 23; its photos are named blink2024-*). It is listed in the 2026 Art and Artists guide and pinned in the BLINK at Lytle Park zone. Zone \"BLINK at Lytle Park\" is marked inactive (zone_status 0) in the site data but appears on the 2026 zone map (\"BLINK at Lytle Park with support from Western & Southern Financial Group\"). BLINK official map (2026-09-24): No. 56 (Light Installations), printed \"Crescendo\" / \"Kyle Eli Ebersole, Ian Molitors\". Linked kyle-eli-ebersole (exact name in the printed credit); credit \"Kyle Eli Ebersole, Ian Molitors\" as printed (BLINK's online map names no artist). [/BLINK map]"
   },
   {
     "id": "blink-mural-by-james-bullough",
@@ -952,8 +1138,12 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 13,
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/murals/mural-by-james-bullough",
-    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography."
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography. BLINK official map (2026-09-24): No. 13 (Murals), printed \"Mural\" / \"James Bullough\". Printed title \"Mural\" (the map's generic \"Mural\"): online title kept. [/BLINK map]"
   },
   {
     "id": "blink-the-hive",
@@ -976,13 +1166,17 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 59,
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/the-hive",
-    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography."
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography. BLINK official map (2026-09-24): No. 59 (Light Installations), printed \"The Hive\" / \"Beamhacker\". [/BLINK map]"
   },
   {
     "id": "blink-flower-power",
     "program": "blink",
-    "title": "Flower Power",
+    "title": "FloWeR PoWeR",
     "artists": [
       "aerosculpture"
     ],
@@ -1000,17 +1194,21 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 68,
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/flower-power",
-    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography."
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography. BLINK official map (2026-09-24): No. 68 (Light Installations), printed \"FloWeR PoWeR\" / \"Aérosculpture\". Title \"Flower Power\" (BLINK's online map; the same words) → \"FloWeR PoWeR\" (as printed); the map: printed with a double space: \"FloWeR PoWeR\" (normalized to one space). [/BLINK map]"
   },
   {
     "id": "blink-sprayzers",
     "program": "blink",
-    "title": "Sprayzers",
+    "title": "Canvas",
     "artists": [
       "big-art"
     ],
-    "artist_text": null,
+    "artist_text": "Fifth Third Bank, B!gArt",
     "medium": "light installation",
     "category": "Light Installations",
     "zone": "Fountain District",
@@ -1024,13 +1222,20 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 51,
+    "aliases": [
+      "Sprayzers"
+    ],
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/sprayzers",
-    "notes": "The published artwork description is a biography of the artist, not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography."
+    "notes": "The published artwork description is a biography of the artist, not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography. BLINK official map (2026-09-24): No. 51 (Light Installations), printed \"Canvas\" / \"Fifth Third Bank, B!gArt\". Title \"Sprayzers\" (BLINK's online map, kept in aliases) → \"Canvas\" (as printed); credit \"Fifth Third Bank, B!gArt\" as printed (the by-line); BLINK's online map credits Big Art (linked). [/BLINK map]"
   },
   {
     "id": "blink-madison-theater",
     "program": "blink",
-    "title": "Madison Theater",
+    "title": "Madison Theater: Once and Future",
     "artists": [
       "miami-university"
     ],
@@ -1048,13 +1253,20 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 92,
+    "aliases": [
+      "Madison Theater"
+    ],
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/projections/madison-theater",
-    "notes": "No description published yet (2026-09-24)."
+    "notes": "No description published yet (2026-09-24). BLINK official map (2026-09-24): No. 92 (Projections), printed \"Madison Theater:\" / \"Once and Future\" / \"Miami University\". Title \"Madison Theater\" (BLINK's online map, kept in aliases) → \"Madison Theater: Once and Future\" (as printed). [/BLINK map]"
   },
   {
     "id": "blink-projection-by-inka-kendzia",
     "program": "blink",
-    "title": "Projection by Inka Kendzia",
+    "title": "Every Little Thing",
     "artists": [
       "inka-kendzia"
     ],
@@ -1072,8 +1284,15 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 87,
+    "aliases": [
+      "Projection by Inka Kendzia"
+    ],
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/projections/projection-by-inka-kendzia",
-    "notes": "No description published yet (2026-09-24)."
+    "notes": "No description published yet (2026-09-24). BLINK official map (2026-09-24): No. 87 (Projections), printed \"Every Little Thing\" / \"Inka Kendzia\". Title \"Projection by Inka Kendzia\" (BLINK's online map, kept in aliases) → \"Every Little Thing\" (as printed). [/BLINK map]"
   },
   {
     "id": "blink-funk-glasses",
@@ -1082,7 +1301,7 @@
     "artists": [
       "black-art-speaks"
     ],
-    "artist_text": null,
+    "artist_text": "Black Art Speaks, Michael A. Coppage, Chris Glenn",
     "medium": "light installation",
     "category": "Light Installations",
     "zone": "Fountain District",
@@ -1096,8 +1315,12 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 47,
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/funk-glasses",
-    "notes": "No description published yet (2026-09-24)."
+    "notes": "No description published yet (2026-09-24). BLINK official map (2026-09-24): No. 47 (Light Installations), printed \"Funk Glasses\" / \"Black Art Speaks, Michael A.\" / \"Coppage, Chris Glenn\". Credit \"Black Art Speaks, Michael A. Coppage, Chris Glenn\" as printed (the by-line); BLINK's online map credits Black Art Speaks (linked). [/BLINK map]"
   },
   {
     "id": "blink-mural-by-sofles",
@@ -1120,19 +1343,23 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 4,
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/murals/mural-by-sofles",
-    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography."
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography. BLINK official map (2026-09-24): No. 4 (Murals), printed \"Mural\" / \"Sofles\". Printed title \"Mural\" (the map's generic \"Mural\"): online title kept. [/BLINK map]"
   },
   {
     "id": "blink-3rd-st-wall",
     "program": "blink",
-    "title": "3rd St Wall",
+    "title": "Third St Experience",
     "artists": [
       "vince-fraser",
       "kasumi-art-studios",
       "the-great-paper-massacre"
     ],
-    "artist_text": null,
+    "artist_text": "The Great Paper Massacre, Vince Fraser, Kasumi",
     "medium": "projection mapping",
     "category": "Projections",
     "zone": "Fountain District",
@@ -1146,13 +1373,20 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 54,
+    "aliases": [
+      "3rd St Wall"
+    ],
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/projections/3rd-st-wall",
-    "notes": "No description published yet (2026-09-24)."
+    "notes": "No description published yet (2026-09-24). BLINK official map (2026-09-24): No. 54 (Projections), printed \"Third St Experience\" / \"The Great Paper Massacre,\" / \"Vince Fraser, Kasumi\". Title \"3rd St Wall\" (BLINK's online map, kept in aliases) → \"Third St Experience\" (as printed); credit \"The Great Paper Massacre, Vince Fraser, Kasumi\" as printed (the by-line); BLINK's online map credits Vince Fraser, Kasumi Art Studios, The Great Paper Massacre (linked). [/BLINK map]"
   },
   {
     "id": "blink-birds-mural",
     "program": "blink",
-    "title": "Birds Mural",
+    "title": "The Letter from Martha",
     "artists": [
       "decidekit"
     ],
@@ -1170,14 +1404,23 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 41,
+    "aliases": [
+      "Birds Mural"
+    ],
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/projections/birds-mural",
-    "notes": "No description published yet (2026-09-24)."
+    "notes": "No description published yet (2026-09-24). BLINK official map (2026-09-24): No. 41 (Projections), printed \"The Letter from Martha\" / \"DecideKit\". Title \"Birds Mural\" (BLINK's online map, kept in aliases) → \"The Letter from Martha\" (as printed). [/BLINK map]"
   },
   {
     "id": "blink-artswave-projection-aronoff-center",
     "program": "blink",
-    "title": "Artswave Projection Aronoff Center",
-    "artists": [],
+    "title": "A Century of “yes”",
+    "artists": [
+      "greg-damico"
+    ],
     "artist_text": null,
     "medium": "projection mapping",
     "category": "Projections",
@@ -1192,13 +1435,20 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 42,
+    "aliases": [
+      "Artswave Projection Aronoff Center"
+    ],
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/projections/artswave-projection-aronoff-center",
-    "notes": "No description published yet (2026-09-24)."
+    "notes": "No description published yet (2026-09-24). BLINK official map (2026-09-24): No. 42 (Projections), printed \"A Century of “yes”\" / \"Greg D’Amico\". PROBABLE MATCH, confirm with BLINK: location only: the online record names no artist; same zone and category, 24 m from the printed pin. Title \"Artswave Projection Aronoff Center\" (BLINK's online map, kept in aliases) → \"A Century of “yes”\" (as printed); linked greg-damico (exact name in the printed credit). [/BLINK map]"
   },
   {
     "id": "blink-neil-armstrong-mural",
     "program": "blink",
-    "title": "Neil Armstrong Mural",
+    "title": "Reality, Theory, and Everything in Between",
     "artists": [
       "justin-boh"
     ],
@@ -1216,19 +1466,26 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 50,
+    "aliases": [
+      "Neil Armstrong Mural"
+    ],
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/projections/neil-armstrong-mural",
-    "notes": "No description published yet (2026-09-24)."
+    "notes": "No description published yet (2026-09-24). BLINK official map (2026-09-24): No. 50 (Projections), printed \"Reality, Theory, and Everything\" / \"in Between – Justin Boh\". Title \"Neil Armstrong Mural\" (BLINK's online map, kept in aliases) → \"Reality, Theory, and Everything in Between\" (as printed). [/BLINK map]"
   },
   {
     "id": "blink-covenant-first",
     "program": "blink",
-    "title": "Covenant First",
+    "title": "The Shape of Becoming, Remembering",
     "artists": [
       "ana-tomashvili",
       "felix-frank",
       "mindscape-studio"
     ],
-    "artist_text": null,
+    "artist_text": "Felix Frank, Ana Tomashvili, Mindscape Studios",
     "medium": "projection mapping",
     "category": "Projections",
     "zone": "Fountain District",
@@ -1242,18 +1499,25 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 37,
+    "aliases": [
+      "Covenant First"
+    ],
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/projections/covenant-first",
-    "notes": "No description published yet (2026-09-24)."
+    "notes": "No description published yet (2026-09-24). BLINK official map (2026-09-24): No. 37 (Projections), printed \"The Shape of Becoming,\" / \"Remembering – Felix Frank, Ana\" / \"Tomashvili, Mindscape Studios\". Title \"Covenant First\" (BLINK's online map, kept in aliases) → \"The Shape of Becoming, Remembering\" (as printed); credit \"Felix Frank, Ana Tomashvili, Mindscape Studios\" as printed (the by-line); BLINK's online map credits Ana Tomashvili, Felix Frank, Mindscape Studio (linked). [/BLINK map]"
   },
   {
     "id": "blink-performance-stage",
     "program": "blink",
-    "title": "Performance Stage",
+    "title": "Inter-sect",
     "artists": [
       "spencer-sterling",
       "structurals"
     ],
-    "artist_text": null,
+    "artist_text": "Spencer Sterling, Structurals",
     "medium": "projection mapping",
     "category": "Projections",
     "zone": "Fountain District",
@@ -1267,13 +1531,20 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 31,
+    "aliases": [
+      "Performance Stage"
+    ],
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/projections/performance-stage",
-    "notes": "No description published yet (2026-09-24)."
+    "notes": "No description published yet (2026-09-24). BLINK official map (2026-09-24): No. 31 (Projections), printed \"Inter-sect\" / \"Spencer Sterling, Structurals\". Title \"Performance Stage\" (BLINK's online map, kept in aliases) → \"Inter-sect\" (as printed); credit \"Spencer Sterling, Structurals\" as printed (the by-line); BLINK's online map credits Spencer Sterling, Structurals (linked). [/BLINK map]"
   },
   {
     "id": "blink-projection-by-kyle-ebersole",
     "program": "blink",
-    "title": "Projection by Kyle Ebersole",
+    "title": "AfterImage",
     "artists": [
       "kyle-eli-ebersole"
     ],
@@ -1291,13 +1562,20 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 1,
+    "aliases": [
+      "Projection by Kyle Ebersole"
+    ],
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/projections/projection-by-kyle-ebersole",
-    "notes": "No by-line on the artwork page; artist matched by the name in the title (\"Kyle Ebersole\"). No description published yet (2026-09-24)."
+    "notes": "No by-line on the artwork page; artist matched by the name in the title (\"Kyle Ebersole\"). No description published yet (2026-09-24). BLINK official map (2026-09-24): No. 1 (Projections), printed \"AfterImage\" / \"Kyle Eli Ebersole\". Title \"Projection by Kyle Ebersole\" (BLINK's online map, kept in aliases) → \"AfterImage\" (as printed). [/BLINK map]"
   },
   {
     "id": "blink-scpa",
     "program": "blink",
-    "title": "SCPA",
+    "title": "Imagine",
     "artists": [
       "onda-studio"
     ],
@@ -1315,13 +1593,20 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 25,
+    "aliases": [
+      "SCPA"
+    ],
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/projections/scpa",
-    "notes": "No description published yet (2026-09-24)."
+    "notes": "No description published yet (2026-09-24). BLINK official map (2026-09-24): No. 25 (Projections), printed \"Imagine – Onda Studio\" / \"Awaken the Art – Giovanni\" / \"Weissman (School for Creative\" / \"and Performing Arts)\". Title \"SCPA\" (BLINK's online map, kept in aliases) → \"Imagine\" (as printed); the map: 2 works printed under one number. [/BLINK map]"
   },
   {
     "id": "blink-hannaford",
     "program": "blink",
-    "title": "Hannaford",
+    "title": "The Flipside",
     "artists": [
       "sean-van-praag"
     ],
@@ -1339,8 +1624,15 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 90,
+    "aliases": [
+      "Hannaford"
+    ],
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/projections/hannaford",
-    "notes": "No description published yet (2026-09-24)."
+    "notes": "No description published yet (2026-09-24). BLINK official map (2026-09-24): No. 90 (Projections), printed \"The Flipside\" / \"Sean Van Praag\". Title \"Hannaford\" (BLINK's online map, kept in aliases) → \"The Flipside\" (as printed). [/BLINK map]"
   },
   {
     "id": "blink-mural-by-jim-tucker-and-frank-young",
@@ -1349,7 +1641,7 @@
     "artists": [
       "jim-tucker-and-frank-young"
     ],
-    "artist_text": null,
+    "artist_text": "Jim Tucker, Frank Young",
     "medium": "mural",
     "category": "Murals",
     "zone": "Findlay Market",
@@ -1363,13 +1655,17 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 8,
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/murals/mural-by-jim-tucker-and-frank-young",
-    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography."
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography. BLINK official map (2026-09-24): No. 8 (Murals), printed \"Mural\" / \"Jim Tucker, Frank Young\". Printed title \"Mural\" (the map's generic \"Mural\"): online title kept; credit \"Jim Tucker, Frank Young\" as printed (the by-line); BLINK's online map credits Jim Tucker and Frank Young (linked). [/BLINK map]"
   },
   {
     "id": "blink-welcome-in",
     "program": "blink",
-    "title": "Welcome in",
+    "title": "Welcome In",
     "artists": [
       "xavier-university-art-department"
     ],
@@ -1387,19 +1683,23 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 20,
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/welcome-in",
-    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography."
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. description_is_artist_bio: the published artwork text is the artist biography. BLINK official map (2026-09-24): No. 20 (Light Installations), printed \"Welcome In\" / \"Xavier University Art Department\". Title \"Welcome in\" (BLINK's online map; the same words) → \"Welcome In\" (as printed). [/BLINK map]"
   },
   {
     "id": "blink-american-building",
     "program": "blink",
-    "title": "American Building",
+    "title": "The American Building Experience",
     "artists": [
       "susan-kosti",
       "filip-roca",
       "daniel-rossa"
     ],
-    "artist_text": null,
+    "artist_text": "Susan Kosti, Filip Roca, Daniel Rossa",
     "medium": "projection mapping",
     "category": "Projections",
     "zone": "Over the Rhine",
@@ -1413,14 +1713,23 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 27,
+    "aliases": [
+      "American Building"
+    ],
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/projections/american-building",
-    "notes": "No description published yet (2026-09-24)."
+    "notes": "No description published yet (2026-09-24). BLINK official map (2026-09-24): No. 27 (Projections), printed \"The American Building\" / \"Experience\" / \"Susan Kosti, Filip Roca,\" / \"Daniel Rossa\". Title \"American Building\" (BLINK's online map, kept in aliases) → \"The American Building Experience\" (as printed); credit \"Susan Kosti, Filip Roca, Daniel Rossa\" as printed (the by-line); BLINK's online map credits Susan Kosti, Filip Roca, Daniel Rossa (linked). [/BLINK map]"
   },
   {
     "id": "blink-payphone-mural-projection",
     "program": "blink",
-    "title": "\"Payphone\" Mural Projection",
-    "artists": [],
+    "title": "Desiderium",
+    "artists": [
+      "liv-cassinelli"
+    ],
     "artist_text": null,
     "medium": "projection mapping",
     "category": "Projections",
@@ -1435,8 +1744,15 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 14,
+    "aliases": [
+      "\"Payphone\" Mural Projection"
+    ],
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/projections/payphone-mural-projection",
-    "notes": "No description published yet (2026-09-24)."
+    "notes": "No description published yet (2026-09-24). BLINK official map (2026-09-24): No. 14 (Projections), printed \"Desiderium\" / \"Liv Cassinelli\". PROBABLE MATCH, confirm with BLINK: location only: the online record names no artist; same zone and category, 17 m from the printed pin. Title \"\"Payphone\" Mural Projection\" (BLINK's online map, kept in aliases) → \"Desiderium\" (as printed); linked liv-cassinelli (exact name in the printed credit). [/BLINK map]"
   },
   {
     "id": "blink-projection-by-jason-snell",
@@ -1460,7 +1776,7 @@
     "sponsor_org_id": null,
     "year": 2026,
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/projections/projection-by-jason-snell",
-    "notes": "No by-line on the artwork page; the title names \"Jason Snell\", who is the 2026 participating-artists list's \"SnellBeast\" (snellbeast.com, the link BLINK gives for SnellBeast, introduces \"Jason Snell\"). No description published yet (2026-09-24)."
+    "notes": "No by-line on the artwork page; the title names \"Jason Snell\", who is the 2026 participating-artists list's \"SnellBeast\" (snellbeast.com, the link BLINK gives for SnellBeast, introduces \"Jason Snell\"). No description published yet (2026-09-24). BLINK official map (2026-09-24): Not on BLINK's printed folding map as its own entry; the nearest printed pin is No. 76 \"Mural\" (Murals), 24 m away. Kept as BLINK's online map lists it. [/BLINK map]"
   },
   {
     "id": "blink-kroger-south",
@@ -1482,19 +1798,19 @@
     "sponsor_org_id": null,
     "year": 2026,
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/projections/kroger-south",
-    "notes": "No description published yet (2026-09-24)."
+    "notes": "No description published yet (2026-09-24). BLINK official map (2026-09-24): Not on BLINK's printed folding map as its own entry; the nearest printed pin is No. 29 \"Concrete Code\" (Projections), 52 m away. Kept as BLINK's online map lists it. [/BLINK map]"
   },
   {
     "id": "blink-music-hall",
     "program": "blink",
-    "title": "Music Hall",
+    "title": "Music Hall Experience",
     "artists": [
       "brett-bolton",
       "jonas-denzel",
       "silent-partners-studio",
       "strangeloop"
     ],
-    "artist_text": null,
+    "artist_text": "Jonas Denzel, Brett Bolton, Silent Partners Studio, Strangeloop",
     "medium": "projection mapping",
     "category": "Projections",
     "zone": "Over the Rhine",
@@ -1508,13 +1824,20 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 21,
+    "aliases": [
+      "Music Hall"
+    ],
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/projections/music-hall",
-    "notes": "No description published yet (2026-09-24)."
+    "notes": "No description published yet (2026-09-24). BLINK official map (2026-09-24): No. 21 (Projections), printed \"Music Hall Experience\" / \"Jonas Denzel, Brett Bolton,\" / \"Silent Partners Studio,\" / \"Strangeloop\". Title \"Music Hall\" (BLINK's online map, kept in aliases) → \"Music Hall Experience\" (as printed); credit \"Jonas Denzel, Brett Bolton, Silent Partners Studio, Strangeloop\" as printed (the by-line); BLINK's online map credits Brett Bolton, Jonas Denzel, Silent Partners Studio, Strangeloop (linked). [/BLINK map]"
   },
   {
     "id": "blink-ywca",
     "program": "blink",
-    "title": "YWCA",
+    "title": "Resonance",
     "artists": [
       "smash-studio"
     ],
@@ -1532,15 +1855,22 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 36,
+    "aliases": [
+      "YWCA"
+    ],
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/projections/ywca",
-    "notes": "No description published yet (2026-09-24)."
+    "notes": "No description published yet (2026-09-24). BLINK official map (2026-09-24): No. 36 (Projections), printed \"Resonance\" / \"Smash Studio\". Title \"YWCA\" (BLINK's online map, kept in aliases) → \"Resonance\" (as printed). [/BLINK map]"
   },
   {
     "id": "blink-kroger-north",
     "program": "blink",
-    "title": "Kroger North",
+    "title": "Concrete Code",
     "artists": [],
-    "artist_text": null,
+    "artist_text": "Derek Abbott",
     "medium": "projection mapping",
     "category": "Projections",
     "zone": "Fountain District",
@@ -1554,8 +1884,15 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 29,
+    "aliases": [
+      "Kroger North"
+    ],
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/projections/kroger-north",
-    "notes": "No description published yet (2026-09-24)."
+    "notes": "No description published yet (2026-09-24). BLINK official map (2026-09-24): No. 29 (Projections), printed \"Concrete Code\" / \"Derek Abbott\". PROBABLE MATCH, confirm with BLINK: location only: the online record names no artist; same zone and category, 6 m from the printed pin. Title \"Kroger North\" (BLINK's online map, kept in aliases) → \"Concrete Code\" (as printed); credit \"Derek Abbott\" as printed (BLINK's online map names no artist). [/BLINK map]"
   },
   {
     "id": "blink-mural-by-pastel",
@@ -1578,15 +1915,19 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 11,
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/murals/mural-by-pastel",
-    "notes": "No description published yet (2026-09-24)."
+    "notes": "No description published yet (2026-09-24). BLINK official map (2026-09-24): No. 11 (Murals), printed \"Mural\" / \"Pastel\". Printed title \"Mural\" (the map's generic \"Mural\"): online title kept. [/BLINK map]"
   },
   {
     "id": "blink-tobacco-alley-mural",
     "program": "blink",
-    "title": "Tobacco Alley Mural",
+    "title": "Tobacco Alley Mural Series",
     "artists": [],
-    "artist_text": null,
+    "artist_text": "10 Artists",
     "medium": "mural",
     "category": "Murals",
     "zone": "Covington",
@@ -1600,18 +1941,25 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 80,
+    "aliases": [
+      "Tobacco Alley Mural"
+    ],
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/murals/tobacco-alley-mural",
-    "notes": "No description published yet (2026-09-24)."
+    "notes": "No description published yet (2026-09-24). BLINK official map (2026-09-24): No. 80 (Murals), printed \"Tobacco Alley Mural Series\" / \"10 Artists\". Title \"Tobacco Alley Mural\" (BLINK's online map, kept in aliases) → \"Tobacco Alley Mural Series\" (as printed); credit \"10 Artists\" as printed (BLINK's online map names no artist). [/BLINK map]"
   },
   {
     "id": "blink-corner-map",
     "program": "blink",
-    "title": "Corner Map",
+    "title": "Corner Mapping Experience",
     "artists": [
       "chaske-haverkos",
       "ke-jyun-wu"
     ],
-    "artist_text": null,
+    "artist_text": "Chaske Haverkos, Ke Jyun Wu",
     "medium": "projection mapping",
     "category": "Projections",
     "zone": "Fountain District",
@@ -1625,15 +1973,22 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 49,
+    "aliases": [
+      "Corner Map"
+    ],
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/projections/corner-map",
-    "notes": "No description published yet (2026-09-24)."
+    "notes": "No description published yet (2026-09-24). BLINK official map (2026-09-24): No. 49 (Projections), printed \"Corner Mapping Experience\" / \"Chaske Haverkos, Ke Jyun Wu\". Title \"Corner Map\" (BLINK's online map, kept in aliases) → \"Corner Mapping Experience\" (as printed); credit \"Chaske Haverkos, Ke Jyun Wu\" as printed (the by-line); BLINK's online map credits Chaske Haverkos, Ke Jyun Wu (linked). [/BLINK map]"
   },
   {
     "id": "blink-insane-51-cool-lighting",
     "program": "blink",
-    "title": "Insane 51- cool lighting",
+    "title": "Insane 51 Mural - Illuminated",
     "artists": [],
-    "artist_text": null,
+    "artist_text": "4Wall Entertainment",
     "medium": "projection mapping",
     "category": "Projections",
     "zone": "Over the Rhine",
@@ -1647,18 +2002,25 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 18,
+    "aliases": [
+      "Insane 51- cool lighting"
+    ],
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/projections/insane-51-cool-lighting",
-    "notes": "No description published yet (2026-09-24)."
+    "notes": "No description published yet (2026-09-24). BLINK official map (2026-09-24): No. 18 (Projections), printed \"Insane 51 Mural - Illuminated\" / \"4Wall Entertainment\". Title \"Insane 51- cool lighting\" (BLINK's online map, kept in aliases) → \"Insane 51 Mural - Illuminated\" (as printed); credit \"4Wall Entertainment\" as printed (BLINK's online map names no artist). [/BLINK map]"
   },
   {
     "id": "blink-shahzia-sikander-mural-mapping",
     "program": "blink",
-    "title": "Shahzia Sikander mural mapping",
+    "title": "Commonality",
     "artists": [
       "chaske-haverkos",
       "1001-colors"
     ],
-    "artist_text": null,
+    "artist_text": "Chris Glenn, Bern Iseli, Josh Hill, Zach Parker, Chaske Haverkos, 1001 Colors",
     "medium": "projection mapping",
     "category": "Projections",
     "zone": "Fountain District",
@@ -1672,19 +2034,26 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 30,
+    "aliases": [
+      "Shahzia Sikander mural mapping"
+    ],
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/projections/shahzia-sikander-mural-mapping",
-    "notes": "No description published yet (2026-09-24). Projection mapping onto a mural by Shahzia Sikander (person id shahzia-sikander), who is in the 2026 artist list."
+    "notes": "No description published yet (2026-09-24). Projection mapping onto a mural by Shahzia Sikander (person id shahzia-sikander), who is in the 2026 artist list. BLINK official map (2026-09-24): No. 30 (Projections), printed \"Commonality – Chris Glenn,\" / \"Bern Iseli, Josh Hill, Zach Parker,\" / \"Chaske Haverkos, 1001 Colors\". Title \"Shahzia Sikander mural mapping\" (BLINK's online map, kept in aliases) → \"Commonality\" (as printed); credit \"Chris Glenn, Bern Iseli, Josh Hill, Zach Parker, Chaske Haverkos, 1001 Colors\" as printed (the by-line); BLINK's online map credits Chaske Haverkos, 1001 Colors (linked). [/BLINK map]"
   },
   {
     "id": "blink-mother-of-god",
     "program": "blink",
-    "title": "Mother of God",
+    "title": "Mother of God Church Experience",
     "artists": [
       "jeremie-bellot",
       "jeremy-oury",
       "leslie-epsztein"
     ],
-    "artist_text": null,
+    "artist_text": "Leslie Epsztein, Jérémie Bellot, Jérémy Oury",
     "medium": "projection mapping",
     "category": "Projections",
     "zone": "Covington",
@@ -1698,15 +2067,22 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 84,
+    "aliases": [
+      "Mother of God"
+    ],
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/projections/mother-of-god",
-    "notes": "No description published yet (2026-09-24)."
+    "notes": "No description published yet (2026-09-24). BLINK official map (2026-09-24): No. 84 (Projections), printed \"Mother of God Church\" / \"Experience\" / \"Leslie Epsztein, Jérémie Bellot,\" / \"Jérémy Oury\". Title \"Mother of God\" (BLINK's online map, kept in aliases) → \"Mother of God Church Experience\" (as printed); credit \"Leslie Epsztein, Jérémie Bellot, Jérémy Oury\" as printed (the by-line); BLINK's online map credits Jérémie Bellot, Jérémy Oury, Leslie Epsztein (linked). [/BLINK map]"
   },
   {
     "id": "blink-onenky-center",
     "program": "blink",
-    "title": "OneNKY Center",
+    "title": "OneNKY Center Lighting",
     "artists": [],
-    "artist_text": null,
+    "artist_text": "4Wall Entertainment",
     "medium": "projection mapping",
     "category": "Projections",
     "zone": "Covington",
@@ -1720,15 +2096,22 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 73,
+    "aliases": [
+      "OneNKY Center"
+    ],
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/projections/onenky-center",
-    "notes": "No description published yet (2026-09-24)."
+    "notes": "No description published yet (2026-09-24). BLINK official map (2026-09-24): No. 73 (Projections), printed \"OneNKY Center Lighting\" / \"4Wall Entertainment\". Title \"OneNKY Center\" (BLINK's online map, kept in aliases) → \"OneNKY Center Lighting\" (as printed); credit \"4Wall Entertainment\" as printed (BLINK's online map names no artist). [/BLINK map]"
   },
   {
     "id": "blink-garfield-place-lighting",
     "program": "blink",
     "title": "Garfield Place - Lighting",
     "artists": [],
-    "artist_text": null,
+    "artist_text": "4Wall Entertainment",
     "medium": "projection mapping",
     "category": "Projections",
     "zone": "Fountain District",
@@ -1742,8 +2125,12 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 38,
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/projections/garfield-place--lighting",
-    "notes": "No description published yet (2026-09-24)."
+    "notes": "No description published yet (2026-09-24). BLINK official map (2026-09-24): No. 38 (Projections), printed \"4Wall Entertainment\" / \"4Wall lighting\". PROBABLE MATCH, confirm with BLINK: location only: the online record names no artist; same zone and category, 96 m from the printed pin. The printed pin is 96 m from BLINK's online point (more than its ±55 m): online coordinates kept; printed title \"4Wall Entertainment\" not used: the bold line \"4Wall Entertainment\" names the lighting company, not the work; credit read as \"4Wall Entertainment\": the bold line names the maker (as the credit of Nos. 18 and 73); the medium line reads \"4Wall lighting\"; credit \"4Wall Entertainment\" as printed (BLINK's online map names no artist). [/BLINK map]"
   },
   {
     "id": "blink-tristan-eaton-lighting-show",
@@ -1757,7 +2144,7 @@
       "jack-walter",
       "sharon-huizinga"
     ],
-    "artist_text": null,
+    "artist_text": "UC CCM Lighting Design & Technology",
     "medium": "projection mapping",
     "category": "Projections",
     "zone": "Fountain District",
@@ -1771,13 +2158,17 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 46,
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/projections/tristan-eaton-lighting-show",
-    "notes": "BLINK lists no artist for this item. UC News (2026-08-08, https://www.uc.edu/news/articles/2026/06/ccm-students-create-installation-for-blink-2026.html) says CCM Lighting Design and Technology students are creating \"Echoes of Light\", a lighting display on Tristan Eaton's 2022 mural at Elm Street Plaza, which matches this map point and title. No description published yet (2026-09-24)."
+    "notes": "BLINK lists no artist for this item. UC News (2026-08-08, https://www.uc.edu/news/articles/2026/06/ccm-students-create-installation-for-blink-2026.html) says CCM Lighting Design and Technology students are creating \"Echoes of Light\", a lighting display on Tristan Eaton's 2022 mural at Elm Street Plaza, which matches this map point and title. No description published yet (2026-09-24). BLINK official map (2026-09-24): No. 46 (Projections), printed \"Tristan Eaton – UC CCM\" / \"Lighting Design & Technology\". Printed title \"Tristan Eaton\" not used: the bold line \"Tristan Eaton\" names the muralist whose 2022 mural the work lights (UC News), not the work; credit \"UC CCM Lighting Design & Technology\" as printed (the by-line); BLINK's online map credits The University of Cincinnati College-Conservatory of Music – Lighting Design & Technology, Jacob Kaplan, Lia Lubinsky, Lucy Dunn, Jack Walter, Sharon Huizinga (linked). [/BLINK map]"
   },
   {
     "id": "blink-hotel-covington",
     "program": "blink",
-    "title": "Hotel Covington",
+    "title": "Masquerade",
     "artists": [
       "vamos-animation"
     ],
@@ -1795,8 +2186,15 @@
     "sponsor": null,
     "sponsor_org_id": null,
     "year": 2026,
+    "map_no": 91,
+    "aliases": [
+      "Hotel Covington"
+    ],
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/projections/hotel-covington",
-    "notes": "No description published yet (2026-09-24)."
+    "notes": "No description published yet (2026-09-24). BLINK official map (2026-09-24): No. 91 (Projections), printed \"Masquerade\" / \"Vamos Animation\". Title \"Hotel Covington\" (BLINK's online map, kept in aliases) → \"Masquerade\" (as printed). [/BLINK map]"
   },
   {
     "id": "caw-mz-icar-experiential-piece",
@@ -1893,5 +2291,321 @@
     "year": 2026,
     "source_url": "https://www.instagram.com/p/Ddj-F4WtU0i/",
     "notes": "Medium as described: beer can label artwork (special-edition lager). Cincinnati Magazine: \"This Japanese-Style Rice Lager was made in collaboration with CAW for an evening of gallery-hopping.\" Can label art is by @baileyelderberry."
+  },
+  {
+    "id": "blink-alley-jam-mural-series",
+    "program": "blink",
+    "title": "Alley Jam Mural Series",
+    "artists": [],
+    "artist_text": "Multiple Artists",
+    "medium": "mural",
+    "category": "Murals",
+    "zone": "Findlay Market",
+    "venue_id": "blink-zone-findlay-market",
+    "location_text": null,
+    "lat": 39.115841,
+    "lng": -84.519712,
+    "approx_m": 55,
+    "hours_text": null,
+    "description": null,
+    "image_url": null,
+    "sponsor": null,
+    "sponsor_org_id": null,
+    "year": 2026,
+    "map_no": 5,
+    "source_url": "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf",
+    "notes": "BLINK official map (2026-09-24): Added from BLINK's official folding map: No. 5, KEY \"Murals\", Findlay Market zone list, printed \"Alley Jam Mural Series\" / \"Multiple Artists\". No BLINK online-map work matched (checked by title, credit, zone and distance). Coordinates: the printed pin, georeferenced (research/blink-map; approximate, about ±55 m). [/BLINK map]"
+  },
+  {
+    "id": "blink-ccad-x-natalia-rak",
+    "program": "blink",
+    "title": "CCAD X Natalia Rak",
+    "artists": [],
+    "artist_text": "Columbus College of Art & Design (CCAD)",
+    "medium": "projection mapping",
+    "category": "Projections",
+    "zone": "Findlay Market",
+    "venue_id": "blink-zone-findlay-market",
+    "location_text": null,
+    "lat": 39.114718,
+    "lng": -84.518523,
+    "approx_m": 65,
+    "hours_text": null,
+    "description": null,
+    "image_url": null,
+    "sponsor": null,
+    "sponsor_org_id": null,
+    "year": 2026,
+    "map_no": 7,
+    "source_url": "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf",
+    "notes": "BLINK official map (2026-09-24): Added from BLINK's official folding map: No. 7, KEY \"Projections\", Findlay Market zone list, printed \"CCAD X Natalia Rak\" / \"Columbus College of Art &\" / \"Design (CCAD)\". No BLINK online-map work matched (checked by title, credit, zone and distance). Coordinates: the printed pin, georeferenced (research/blink-map; approximate, about ±65 m). [/BLINK map]"
+  },
+  {
+    "id": "blink-cincinnati-skatepark-activation",
+    "program": "blink",
+    "title": "Cincinnati Skatepark Activation",
+    "artists": [],
+    "artist_text": null,
+    "medium": "other",
+    "category": "Unique Attractions",
+    "zone": "Over the Rhine",
+    "venue_id": "blink-zone-over-the-rhine",
+    "location_text": null,
+    "lat": 39.113027,
+    "lng": -84.519174,
+    "approx_m": 65,
+    "hours_text": null,
+    "description": null,
+    "image_url": null,
+    "sponsor": null,
+    "sponsor_org_id": null,
+    "year": 2026,
+    "map_no": 16,
+    "source_url": "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf",
+    "notes": "BLINK official map (2026-09-24): Added from BLINK's official folding map: No. 16, KEY \"Unique Attractions\", OTR zone list, printed \"Cincinnati Skatepark\" / \"Activation\". No BLINK online-map work matched (checked by title, credit, zone and distance). Coordinates: the printed pin, georeferenced (research/blink-map; approximate, about ±65 m). Medium \"other\": the map's KEY says only \"Unique Attractions\". [/BLINK map]"
+  },
+  {
+    "id": "blink-monster-energy-activation",
+    "program": "blink",
+    "title": "Monster Energy Activation",
+    "artists": [],
+    "artist_text": "Monster Energy",
+    "medium": "other",
+    "category": "Unique Attractions",
+    "zone": "Over the Rhine",
+    "venue_id": "blink-zone-over-the-rhine",
+    "location_text": null,
+    "lat": 39.112986,
+    "lng": -84.518605,
+    "approx_m": 70,
+    "hours_text": null,
+    "description": null,
+    "image_url": null,
+    "sponsor": null,
+    "sponsor_org_id": null,
+    "year": 2026,
+    "map_no": 17,
+    "source_url": "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf",
+    "notes": "BLINK official map (2026-09-24): Added from BLINK's official folding map: No. 17, KEY \"Unique Attractions\", OTR zone list, printed \"Monster Energy Activation\" / \"Monster Energy\". No BLINK online-map work matched (checked by title, credit, zone and distance). Coordinates: the printed pin, georeferenced (research/blink-map; approximate, about ±70 m). Medium \"other\": the map's KEY says only \"Unique Attractions\". [/BLINK map]"
+  },
+  {
+    "id": "blink-awaken-the-art",
+    "program": "blink",
+    "title": "Awaken the Art",
+    "artists": [],
+    "artist_text": "Giovanni Weissman (School for Creative and Performing Arts)",
+    "medium": "projection mapping",
+    "category": "Projections",
+    "zone": "Over the Rhine",
+    "venue_id": "blink-zone-over-the-rhine",
+    "location_text": null,
+    "lat": 39.107583,
+    "lng": -84.517027,
+    "approx_m": 60,
+    "hours_text": null,
+    "description": null,
+    "image_url": null,
+    "sponsor": null,
+    "sponsor_org_id": null,
+    "year": 2026,
+    "map_no": 25,
+    "source_url": "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf",
+    "notes": "BLINK official map (2026-09-24): Added from BLINK's official folding map: No. 25 (the second of 2 works printed under that number), KEY \"Projections\", OTR zone list, printed \"Imagine – Onda Studio\" / \"Awaken the Art – Giovanni\" / \"Weissman (School for Creative\" / \"and Performing Arts)\". No BLINK online-map work matched (checked by title, credit, zone and distance). Coordinates: the printed pin, georeferenced (research/blink-map; approximate, about ±60 m). [/BLINK map]"
+  },
+  {
+    "id": "blink-polka-dotober",
+    "program": "blink",
+    "title": "Polka-DOTober",
+    "artists": [],
+    "artist_text": "Art Academy",
+    "medium": "other",
+    "category": "Unique Attractions",
+    "zone": "Over the Rhine",
+    "venue_id": "blink-zone-over-the-rhine",
+    "location_text": null,
+    "lat": 39.108467,
+    "lng": -84.513998,
+    "approx_m": 60,
+    "hours_text": null,
+    "description": null,
+    "image_url": null,
+    "sponsor": null,
+    "sponsor_org_id": null,
+    "year": 2026,
+    "map_no": 26,
+    "source_url": "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf",
+    "notes": "BLINK official map (2026-09-24): Added from BLINK's official folding map: No. 26, KEY \"Unique Attractions\", OTR zone list, printed \"Polka-DOTober\" / \"Art Academy\". No BLINK online-map work matched (checked by title, credit, zone and distance). Coordinates: the printed pin, georeferenced (research/blink-map; approximate, about ±60 m). Medium \"other\": the map's KEY says only \"Unique Attractions\". [/BLINK map]"
+  },
+  {
+    "id": "blink-asianati-night-market",
+    "program": "blink",
+    "title": "Asianati Night Market",
+    "artists": [
+      "asianati"
+    ],
+    "artist_text": null,
+    "medium": "other",
+    "category": "Unique Attractions",
+    "zone": "Fountain District",
+    "venue_id": "court-street-plaza",
+    "location_text": null,
+    "lat": 39.106471,
+    "lng": -84.513022,
+    "approx_m": 60,
+    "hours_text": null,
+    "description": null,
+    "image_url": null,
+    "sponsor": null,
+    "sponsor_org_id": null,
+    "year": 2026,
+    "map_no": 34,
+    "source_url": "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf",
+    "notes": "BLINK official map (2026-09-24): Added from BLINK's official folding map: No. 34, KEY \"Unique Attractions\", Fountain zone list, printed \"Asianati Night Market\" / \"Asianati\". No BLINK online-map work matched (checked by title, credit, zone and distance). Coordinates: the printed pin, georeferenced (research/blink-map; approximate, about ±60 m). Venue: the Asianati Night Market's events are at Court Street Plaza (anm.asianati.com); the map pins No. 34 on Court St. Medium \"other\": the map's KEY says only \"Unique Attractions\". Linked asianati (exact name in the printed credit). The map: the map badge for this entry is printed \"35\" (numbers 34 and 35 are swapped on the map). [/BLINK map]"
+  },
+  {
+    "id": "blink-charlie-and-edie-harper-exhibit",
+    "program": "blink",
+    "title": "Charlie & Edie Harper Exhibit",
+    "artists": [],
+    "artist_text": null,
+    "medium": "other",
+    "category": "Unique Attractions",
+    "zone": "Fountain District",
+    "venue_id": "mercantile-immersive",
+    "location_text": null,
+    "lat": 39.101001,
+    "lng": -84.51065,
+    "approx_m": null,
+    "hours_text": null,
+    "description": "at the Mercantile Immsersive (Reservations Required)",
+    "image_url": null,
+    "sponsor": null,
+    "sponsor_org_id": null,
+    "year": 2026,
+    "map_no": 53,
+    "source_url": "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf",
+    "notes": "BLINK official map (2026-09-24): Added from BLINK's official folding map: No. 53, KEY \"Unique Attractions\", Fountain zone list, printed \"Charlie & Edie Harper Exhibit\" / \"at the Mercantile Immsersive\" / \"(Reservations Required)\". No BLINK online-map work matched (checked by title, credit, zone and distance). Coordinates: The Mercantile Immersive's (its published address); the printed pin is 66 m away. Venue: printed \"at the Mercantile Immsersive\" (sic): The Mercantile Immersive, 120 E 4th St. Medium \"other\": the map's KEY says only \"Unique Attractions\". The description is the entry's printed extra line. BLINK Around Town and The Mercantile Immersive spell the artist \"Charley\" (data/events.json blink-2026-10-09-harper-alive, \"Harper Alive\"); the title keeps the map's spelling. The map: printed \"Immsersive\" (sic); the venue is The Mercantile Immersive (data/venues.json mercantile-immersive). [/BLINK map]"
+  },
+  {
+    "id": "blink-voyage-to-atlantis-fashion-show",
+    "program": "blink",
+    "title": "Voyage to Atlantis Fashion Show",
+    "artists": [
+      "asha-ama"
+    ],
+    "artist_text": null,
+    "medium": "performance",
+    "category": "Unique Attractions",
+    "zone": "The Banks",
+    "venue_id": "blink-zone-the-banks",
+    "location_text": null,
+    "lat": 39.094838,
+    "lng": -84.513793,
+    "approx_m": 100,
+    "hours_text": null,
+    "description": null,
+    "image_url": null,
+    "sponsor": null,
+    "sponsor_org_id": null,
+    "year": 2026,
+    "map_no": 62,
+    "source_url": "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf",
+    "notes": "BLINK official map (2026-09-24): Added from BLINK's official folding map: No. 62, KEY \"Unique Attractions\", The Banks zone list, printed \"Voyage to Atlantis Fashion\" / \"Show – Asha AMA\". No BLINK online-map work matched (checked by title, credit, zone and distance). Coordinates: the printed pin, georeferenced (research/blink-map; approximate, about ±100 m). Medium \"performance\": a fashion show is a performance. Linked asha-ama (exact name in the printed credit). [/BLINK map]"
+  },
+  {
+    "id": "blink-sculpture",
+    "program": "blink",
+    "title": "BLINK Sculpture",
+    "artists": [],
+    "artist_text": null,
+    "medium": "light installation",
+    "category": "Light Installations",
+    "zone": "The Banks",
+    "venue_id": "blink-zone-the-banks",
+    "location_text": null,
+    "lat": 39.096289,
+    "lng": -84.512781,
+    "approx_m": 115,
+    "hours_text": null,
+    "description": null,
+    "image_url": null,
+    "sponsor": null,
+    "sponsor_org_id": null,
+    "year": 2026,
+    "map_no": 63,
+    "source_url": "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf",
+    "notes": "BLINK official map (2026-09-24): Added from BLINK's official folding map: No. 63, KEY \"Light Installations\", The Banks zone list, printed \"BLINK Sculpture\". No BLINK online-map work matched (checked by title, credit, zone and distance). Coordinates: the printed pin, georeferenced (research/blink-map; approximate, about ±115 m). [/BLINK map]"
+  },
+  {
+    "id": "blink-skate-downtown-cincy",
+    "program": "blink",
+    "title": "Skate Downtown Cincy",
+    "artists": [],
+    "artist_text": null,
+    "medium": "other",
+    "category": "Unique Attractions",
+    "zone": "The Banks",
+    "venue_id": "blink-zone-the-banks",
+    "location_text": null,
+    "lat": 39.095286,
+    "lng": -84.510423,
+    "approx_m": 70,
+    "hours_text": null,
+    "description": "(Roller Skaters)",
+    "image_url": null,
+    "sponsor": null,
+    "sponsor_org_id": null,
+    "year": 2026,
+    "map_no": 70,
+    "source_url": "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf",
+    "notes": "BLINK official map (2026-09-24): Added from BLINK's official folding map: No. 70, KEY \"Unique Attractions\", The Banks zone list, printed \"Skate Downtown Cincy\" / \"(Roller Skaters)\". No BLINK online-map work matched (checked by title, credit, zone and distance). Coordinates: the printed pin, georeferenced (research/blink-map; approximate, about ±70 m). Medium \"other\": the map's KEY says only \"Unique Attractions\". The description is the entry's printed extra line. [/BLINK map]"
+  },
+  {
+    "id": "blink-the-glow-pavilion",
+    "program": "blink",
+    "title": "The Glow Pavilion",
+    "artists": [],
+    "artist_text": "dEcORa",
+    "medium": "other",
+    "category": "Unique Attractions",
+    "zone": "Covington",
+    "venue_id": "blink-zone-covington",
+    "location_text": null,
+    "lat": 39.088059,
+    "lng": -84.509473,
+    "approx_m": 55,
+    "hours_text": null,
+    "description": null,
+    "image_url": null,
+    "sponsor": null,
+    "sponsor_org_id": null,
+    "year": 2026,
+    "map_no": 74,
+    "source_url": "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf",
+    "notes": "BLINK official map (2026-09-24): Added from BLINK's official folding map: No. 74, KEY \"Unique Attractions\", Covington zone list, printed \"The Glow Pavilion\" / \"dEcORa\". No BLINK online-map work matched (checked by title, credit, zone and distance). Coordinates: the printed pin, georeferenced (research/blink-map; approximate, about ±55 m). Medium \"other\": the map's KEY says only \"Unique Attractions\". [/BLINK map]"
+  },
+  {
+    "id": "blink-beyond-the-bridge",
+    "program": "blink",
+    "title": "Beyond the Bridge",
+    "artists": [],
+    "artist_text": "Northern Kentucky University",
+    "medium": "light installation",
+    "category": "Light Installations",
+    "zone": "Covington",
+    "venue_id": "blink-zone-covington",
+    "location_text": null,
+    "lat": 39.08462,
+    "lng": -84.511407,
+    "approx_m": 100,
+    "hours_text": null,
+    "description": null,
+    "image_url": null,
+    "sponsor": null,
+    "sponsor_org_id": null,
+    "year": 2026,
+    "map_no": 85,
+    "source_url": "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf",
+    "notes": "BLINK official map (2026-09-24): Added from BLINK's official folding map: No. 85, KEY \"Light Installations\", Covington zone list, printed \"Beyond the Bridge\" / \"Northern Kentucky University\". No BLINK online-map work matched (checked by title, credit, zone and distance). Coordinates: the printed pin, georeferenced (research/blink-map; approximate, about ±100 m). [/BLINK map]"
   }
 ]

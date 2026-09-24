@@ -15,3 +15,11 @@ What `scripts/merge-research.mjs` merged into `data/`. Kept for provenance, not 
 
 Paths inside the reports point at the research session's scratch folders and the raw page captures (about 640 MB),
 which were not kept.
+
+`blink-map/` was added after the snapshot (Sep 24, 2026): `blink-map-2026.json`, BLINK's official 2026 folding map (the PDF at
+https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf; the file itself stays in `.cache/blink-map/`) extracted
+by `scripts/extract-blink-map.py`: the 92 numbered entries as printed, their pins with georeferenced coordinates and an
+approximate radius, the KEY's facility symbols, zone sponsors and the match to BLINK's online map. `scripts/apply-blink-map.mjs`
+applied it to `data/` by hand-maintenance rules (it is not part of the merge). A second, independent verification pass
+(every entry re-read off the PDF, every position projected back onto it) is summarized in `data/README.md`, "BLINK official
+map".

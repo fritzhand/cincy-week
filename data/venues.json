@@ -414,8 +414,9 @@
     "zip": null,
     "neighborhood": "West End / Over-the-Rhine",
     "hood": "west-end",
-    "lat": 39.111179,
-    "lng": -84.522229,
+    "lat": 39.111731,
+    "lng": -84.520657,
+    "approx_m": 60,
     "programs": [
       "blink"
     ],
@@ -423,7 +424,7 @@
     "url": null,
     "accessibility": null,
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/ready-set-blink",
-    "notes": "\"The event will be held on Central Parkway between Liberty Street and West 14th Street, set against the iconic backdrop of TQL Stadium.\" The FAQ calls it \"an immersive, 5-block celebration surrounding TQL Stadium in the West End\"."
+    "notes": "\"The event will be held on Central Parkway between Liberty Street and West 14th Street, set against the iconic backdrop of TQL Stadium.\" The FAQ calls it \"an immersive, 5-block celebration surrounding TQL Stadium in the West End\". BLINK official map (2026-09-24): coordinates 39.111731, -84.520657 (was 39.111179, -84.522229): the midpoint of the map's opening-ceremony strip on Central Pkwy (\"OPENING CEREMONY ON CENTRAL PKWY 4-9 PM THURS 10/8\"); it replaces TQL Stadium's coordinates, which sat west of the street. Approximate (georeferenced; about ±60 m). [/BLINK map]"
   },
   {
     "id": "tql-stadium",
@@ -445,48 +446,6 @@
     "accessibility": null,
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/mystic-eye-drone-show",
     "notes": "\"First Sight\" drone show is flown over TQL Stadium. Street number from OpenStreetMap. Coordinates geocoded with OpenStreetMap Nominatim, not published by BLINK."
-  },
-  {
-    "id": "blink-ohio-river-drone-show",
-    "name": "Over the Ohio River (drone show)",
-    "aliases": [],
-    "address": null,
-    "city": "Cincinnati",
-    "state": "OH",
-    "zip": null,
-    "neighborhood": null,
-    "hood": null,
-    "lat": null,
-    "lng": null,
-    "programs": [
-      "blink"
-    ],
-    "kind": "other",
-    "url": null,
-    "accessibility": null,
-    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/mystic-eye-drone-show",
-    "notes": "BLINK gives only \"over the Ohio River\" (ICS LOCATION: \"Ohio River\"); no viewing spot is published."
-  },
-  {
-    "id": "court-street-plaza",
-    "name": "Court Street Plaza",
-    "aliases": [],
-    "address": "East Court Street, Cincinnati, Ohio 45202",
-    "city": "Cincinnati",
-    "state": "OH",
-    "zip": "45202",
-    "neighborhood": "Downtown",
-    "hood": "downtown-cbd",
-    "lat": null,
-    "lng": null,
-    "programs": [
-      "blink"
-    ],
-    "kind": "street",
-    "url": null,
-    "accessibility": null,
-    "source_url": "https://anm.asianati.com/",
-    "notes": "Home of the Asianati Night Market during BLINK (address as given on the market site). Not geocoded: OSM returns only the whole of East Court Street."
   },
   {
     "id": "elm-street-plaza",
@@ -2270,5 +2229,49 @@
     "accessibility": null,
     "source_url": "https://www.fotofocus.org/fotofocus-exhibition/elizabeth-mead-incidentals-objectsthings-sculpturephotographs/",
     "notes": "Phone: (937) 775-2973 | Hours: Tue–Sat 11am–4pm | Admission: Free to the Public"
+  },
+  {
+    "id": "blink-ohio-river-drone-show",
+    "name": "Over the Ohio River (drone show)",
+    "aliases": [],
+    "address": null,
+    "city": "Cincinnati",
+    "state": "OH",
+    "zip": null,
+    "neighborhood": null,
+    "hood": null,
+    "lat": 39.093246,
+    "lng": -84.511456,
+    "approx_m": 90,
+    "programs": [
+      "blink"
+    ],
+    "kind": "other",
+    "url": null,
+    "accessibility": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/mystic-eye-drone-show",
+    "notes": "BLINK gives only \"over the Ohio River\" (ICS LOCATION: \"Ohio River\"); no viewing spot is published. BLINK official map (2026-09-24): coordinates 39.093246, -84.511456: the map's dotted ring over the river labeled \"DRONE SHOWS FRI, SAT, SUN 8 PM & 10 PM\"; the two Drone Show Viewing Areas (No. 67) are facilities in data/places.json. Approximate (georeferenced; about ±90 m). Moved to the end of venues.json so no other venue's map number changes. [/BLINK map]"
+  },
+  {
+    "id": "court-street-plaza",
+    "name": "Court Street Plaza",
+    "aliases": [],
+    "address": "East Court Street, Cincinnati, Ohio 45202",
+    "city": "Cincinnati",
+    "state": "OH",
+    "zip": "45202",
+    "neighborhood": "Downtown",
+    "hood": "downtown-cbd",
+    "lat": 39.106471,
+    "lng": -84.513022,
+    "approx_m": 60,
+    "programs": [
+      "blink"
+    ],
+    "kind": "street",
+    "url": null,
+    "accessibility": null,
+    "source_url": "https://anm.asianati.com/",
+    "notes": "Home of the Asianati Night Market during BLINK (address as given on the market site). Not geocoded: OSM returns only the whole of East Court Street. BLINK official map (2026-09-24): coordinates 39.106471, -84.513022: the map pins No. 34, Asianati Night Market, on Court St between Vine and Walnut (the market's venue). Approximate (georeferenced; about ±60 m). Moved to the end of venues.json so no other venue's map number changes. [/BLINK map]"
   }
 ]

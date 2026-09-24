@@ -1214,6 +1214,13 @@
         "Ratio"
       ]
     },
+    "maps": [
+      {
+        "label": "BLINK 2026 folding map (PDF)",
+        "url": "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf",
+        "as_of": "2026-09-23"
+      }
+    ],
     "source_url": "https://www.blinkcincinnati.com/about-blink",
     "notes": "Name: BLINK's own short form (\"BLINK: A Festival of Light & Art\" in full). daily_themes left empty: BLINK publishes no daily themes (the research's per-night summaries are ours, not the organizer's). Edition from https://cincinnatichamber.com/blog/blink-a-festival-of-light-art-announces-exhibiting-artists-for-blink-2026-biennial/."
   },

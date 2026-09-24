@@ -195,6 +195,7 @@ export function init(app) {
     return items.filter((it) => !it.el.hidden && it.ll).map((it) => ({
       id: (it.el.id || "").replace(/^w-/, ""), kind: "work", lat: it.ll[0], lng: it.ll[1], prog: it.el.dataset.p || it.el.dataset.prog,
       label: ((it.el.querySelector("h2,h3,h4,.per-name") || {}).textContent || "").trim(),
+      mn: ((it.el.querySelector(".mapno") || {}).textContent || "").trim(),   // "BLINK map No. 29": read out with the pin, shown on its card
     }));
   }
   async function setView(v, write) {

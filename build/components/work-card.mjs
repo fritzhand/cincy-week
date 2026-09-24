@@ -11,7 +11,10 @@
        the whole work for its artist's page (engine §4.5: works have no pages, so the artist's page
        carries the full work for readers without JS and for search engines): 960w image, facts,
        the verbatim description, sponsor and source.
-     workMedium(work) → "Light installation" · workGlyph(work) → icon name · workArtists(work) → [names]
+     workMedium(work) → "Light installation" ("other" with a category: the category, "Unique Attraction")
+     workGlyph(work) → icon name · workArtists(work) → [names] · byLine(work) → the credit line (artist_text, the
+       credit as the organizers print it, when set; else the linked people)
+     mapNo(work) → "BLINK map No. 29" (the number on the program's official map; "" without one)
      zoneKey(work) → "over-the-rhine" (the art page's zone filter value; spellings of one zone share it)
    }
    Filter data on each card: data-p program · data-m medium (verbatim enum, "|"-separated list) ·
@@ -28,10 +31,14 @@ export const isArtistBio = (w) => /description_is_artist_bio/.test(w.notes || ""
 
 export function makeWorkCards(ctx) {
   const { db, img, h, c } = ctx;
-  const workGlyph = (w) => GLYPH[w.medium] || "brush";
-  const workMedium = (w) => (w.medium === "other" ? "Artwork" : w.medium.charAt(0).toUpperCase() + w.medium.slice(1));
+  // BLINK's "Unique Attractions" (activations, a fashion show, a night market…): a sparkle, not an artwork's brush
+  const workGlyph = (w) => (w.medium === "other" && /attraction/i.test(w.category || "") ? "spark" : GLYPH[w.medium] || "brush");
+  const workMedium = (w) => (w.medium === "other" ? (w.category ? w.category.replace(/s$/, "") : "Artwork") : w.medium.charAt(0).toUpperCase() + w.medium.slice(1));
   const workArtists = (w) => (w.artists || []).map((a) => db.byId.person.get(a)?.name).filter(Boolean);
-  const byLine = (w) => { const a = workArtists(w); return a.length ? h.listJoin(a) : w.artist_text || ""; };
+  // artist_text is the credit as printed (BLINK's map); it names people without a record too, so it wins when set
+  const byLine = (w) => w.artist_text || h.listJoin(workArtists(w));
+  const mapNo = (w) => (w.map_no != null ? `${c.progName(w.program, true)} map No. ${w.map_no}` : "");
+  const mapUrl = (w) => db.byId.program.get(w.program)?.maps?.[0]?.url || null;
   const zoneKey = (w) => (w.zone ? slugify(w.zone) : "");
   const hoodOf = (w) => (w.venue_id ? db.byId.venue.get(w.venue_id)?.hood || "" : "");
   const where = (w) => w.zone || w.location_text || (w.venue_id ? db.byId.venue.get(w.venue_id)?.name : "") || "";
@@ -48,8 +55,9 @@ export function makeWorkCards(ctx) {
     const by = byLine(w);
     const z = where(w);
     const H = `h${headingLevel}`;
-    const q = norm([w.title, by, w.artist_text, w.zone, w.location_text, w.medium, w.category, w.sponsor].filter(Boolean).join(" "));
-    return `<article class="work" data-prog="${w.program}"${anchor ? ` id="w-${attr(w.id)}"` : ""} data-p="${w.program}" data-m="${attr(w.medium)}"${w.category ? ` data-c="${attr(slugify(w.category))}"` : ""}${w.zone ? ` data-z="${attr(zoneKey(w))}"` : ""}${hoodOf(w) ? ` data-h="${attr(hoodOf(w))}"` : ""}${w.lat != null ? ` data-ll="${w.lat},${w.lng}"` : ""} data-q="${attr(q)}">${photoBlock(root, w)}<p class="wk-kicker label">${h.bullet(w.program)}${icon(workGlyph(w))}${esc(workMedium(w))}</p><${H}><a href="${root}art.html?w=${attr(w.id)}" data-open-work="${attr(w.id)}">${esc(w.title)}</a></${H}>${by ? `<p class="by">${esc(by)}</p>` : ""}${z ? `<p class="zone">${icon("pin")}${esc(z)}</p>` : ""}${c.starButton(w.id, w.title, { kind: "w", cls: "floating" })}</article>`;
+    const q = norm([w.title, by, w.artist_text, w.zone, w.location_text, w.medium, w.category, w.sponsor, ...(w.aliases || []), mapNo(w)].filter(Boolean).join(" "));
+    const mn = mapNo(w);
+    return `<article class="work" data-prog="${w.program}"${anchor ? ` id="w-${attr(w.id)}"` : ""} data-p="${w.program}" data-m="${attr(w.medium)}"${w.category ? ` data-c="${attr(slugify(w.category))}"` : ""}${w.zone ? ` data-z="${attr(zoneKey(w))}"` : ""}${hoodOf(w) ? ` data-h="${attr(hoodOf(w))}"` : ""}${w.lat != null ? ` data-ll="${w.lat},${w.lng}"` : ""} data-q="${attr(q)}">${photoBlock(root, w)}<p class="wk-kicker label">${h.bullet(w.program)}${icon(workGlyph(w))}${esc(workMedium(w))}</p><${H}><a href="${root}art.html?w=${attr(w.id)}" data-open-work="${attr(w.id)}">${esc(w.title)}</a></${H}>${by ? `<p class="by">${esc(by)}</p>` : ""}${z ? `<p class="zone">${icon("pin")}${esc(z)}</p>` : ""}${mn ? `<p class="wk-no"><span class="mapno">${esc(mn)}</span></p>` : ""}${c.starButton(w.id, w.title, { kind: "w", cls: "floating" })}</article>`;
   }
 
   /** The full work, for the artist's page: nothing here is shown only by JS. */
@@ -59,11 +67,15 @@ export function makeWorkCards(ctx) {
     const artists = (w.artists || []).map((a) => db.byId.person.get(a)).filter(Boolean);
     const facts = [
       ["Medium", esc(workMedium(w))],
+      ["Credit", w.artist_text && artists.length ? esc(w.artist_text) : null],
+      ["Official map", w.map_no != null ? `${esc(mapNo(w))}${mapUrl(w) ? ` · ${h.extLink(mapUrl(w), esc(db.byId.program.get(w.program).maps[0].label))}` : ""}` : null],
       ["Artists", artists.length > 1 ? artists.map((p) => `<a href="${root}people/${attr(p.id)}.html">${esc(p.name)}</a>`).join(", ") : null],
       ["Zone", w.zone && !(v && norm(v.name) === norm(w.zone)) ? esc(w.zone) : null],
       ["Where", v ? `<a href="${root}venues/${attr(v.id)}.html">${esc(v.name)}</a>` : w.location_text ? esc(w.location_text) : null],
+      ["Position", w.approx_m && w.lat != null ? esc(`Approximate (about ±${w.approx_m} m)`) : null],
       ["Hours", w.hours_text ? esc(w.hours_text) : null],
       ["Sponsor", w.sponsor ? (w.sponsor_org_id && db.byId.org.has(w.sponsor_org_id) ? `<a href="${root}partners.html#o-${attr(w.sponsor_org_id)}">${esc(w.sponsor)}</a>` : esc(w.sponsor)) : null],
+      ["Also listed as", (w.aliases || []).length ? esc(w.aliases.map((a) => `“${a}”`).join(", ")) : null],
     ];
     // BLINK sometimes publishes the artist's biography as the work's text: say so, and don't print it twice
     const same = bioShown && norm(bioShown) === norm(w.description || "");
@@ -72,8 +84,8 @@ export function makeWorkCards(ctx) {
       : isArtistBio(w) && same
         ? `<p class="wk-bio-note">The organizers publish the artist's biography (above) in place of a description of this work.</p>`
         : `${isArtistBio(w) ? `<p class="sub-h wk-note">The artist's biography, as the organizers publish it for this work</p>` : ""}<div class="prose">${paras(w.description)}</div>`;
-    return `<article class="wk-full" id="w-${attr(w.id)}" data-prog="${w.program}"><div class="wk-media">${photoBlock(root, w, { big: true })}</div><div class="wk-body"><p class="wk-kicker label">${h.bullet(w.program)}${icon(workGlyph(w))}${esc(workMedium(w))}</p><${H} class="wk-title"><a href="${root}art.html?w=${attr(w.id)}" data-open-work="${attr(w.id)}">${esc(w.title)}</a></${H}>${c.facts(root, facts)}${text}<p class="btn-row">${c.starButton(w.id, w.title, { kind: "w" })}${w.lat != null ? `<a class="btn btn-secondary btn-sm" href="${root}map.html?focus=work:${attr(w.id)}">${icon("map")}On the map</a>` : ""}</p>${c.sourceLine([w.source_url])}</div></article>`;
+    return `<article class="wk-full" id="w-${attr(w.id)}" data-prog="${w.program}"><div class="wk-media">${photoBlock(root, w, { big: true })}</div><div class="wk-body"><p class="wk-kicker label">${h.bullet(w.program)}${icon(workGlyph(w))}${esc(workMedium(w))}</p><${H} class="wk-title"><a href="${root}art.html?w=${attr(w.id)}" data-open-work="${attr(w.id)}">${esc(w.title)}</a></${H}>${c.facts(root, facts)}${text}<p class="btn-row">${c.starButton(w.id, w.title, { kind: "w" })}${w.lat != null ? `<a class="btn btn-secondary btn-sm" href="${root}map.html?focus=work:${attr(w.id)}">${icon("map")}On the map</a>` : ""}</p>${c.sourceLine([w.source_url, ...(w.also_sources || [])])}</div></article>`;
   }
 
-  return { workCard, workFull, workMedium, workGlyph, workArtists, zoneKey };
+  return { workCard, workFull, workMedium, workGlyph, workArtists, zoneKey, byLine, mapNo };
 }

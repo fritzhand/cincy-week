@@ -43,9 +43,16 @@ export const ROLE_LABEL = { speaker: "Speaker", artist: "Artist", curator: "Cura
 export const MEDIUMS = ["projection mapping", "mural", "sculpture", "interactive", "light installation", "drone show", "performance", "photography", "painting", "mixed media", "other"];
 export const VENUE_KINDS = ["venue", "zone", "gallery", "studio", "museum", "hotel", "park", "street", "bar", "restaurant", "outdoor", "other"];
 export const RELATIONSHIPS = ["presenting sponsor", "sponsor", "partner", "organizer", "founding partner", "media partner", "venue", "community partner", "funder"];
-export const PLACE_KINDS = ["neighborhood", "transit", "parking", "airport", "food", "drink", "landmark", "accessibility", "tip", "bike", "rideshare"];
+export const PLACE_KINDS = ["neighborhood", "transit", "parking", "airport", "food", "drink", "landmark", "accessibility", "tip", "bike", "rideshare", "facility"];
+/** places.facility (kind "facility" only): the symbol a program's own map uses for it (BLINK's KEY, 2026-09-24). */
+export const FACILITY_KINDS = ["oasis-station", "restroom", "merch-shop", "hospitality-zone", "hike-departure", "drone-viewing"];
+/** The glyph a facility shows on maps and lists (build/core/icons.mjs names). */
+export const FACILITY_ICON = { "oasis-station": "drop", restroom: "wc", "merch-shop": "bag", "hospitality-zone": "utensils", "hike-departure": "walk", "drone-viewing": "eye" };
+export const FACILITY_LABEL = { "oasis-station": "Oasis Station", restroom: "Restrooms", "merch-shop": "Official BLINK Merch Shop", "hospitality-zone": "Hospitality Zone", "hike-departure": "Hike Departure", "drone-viewing": "Drone Show Viewing Area" };
 export const STAY_KINDS = ["hotel", "inn", "hostel", "rental", "other"];
 
+/** approx_m (works, venues, places): the coordinates are an estimate (read off a schematic map), good to about this many
+ *  meters; pages say "Approximate position". Without it, coordinates are a published or geocoded point. */
 /** Coordinates outside REGION fail (swapped or mistyped); outside MAP_REGION warn ("not on the map").
  *  REGION is generous on purpose: FotoFocus venues reach Dayton and Columbus. */
 export const REGION = { s: 38.4, n: 40.4, w: -85.2, e: -82.4 };
@@ -75,6 +82,7 @@ export const SPECS = {
     stats: list(obj({ label: text(R), value: text(R), source_url: url(R) })),
     logo: obj({ url: url(), format: en(["svg", "png", "jpg", "webp"]), on: en(["light", "dark"]) }),
     brand: obj({ colors: list({ t: "str" }), fonts: list(text()) }),
+    maps: list(obj({ label: text(R), url: url(R), as_of: { t: "date" } })),   // the organizers' own published maps (BLINK's folding map)
     source_url: url(R),
   },
   events: {
@@ -98,12 +106,16 @@ export const SPECS = {
   works: {
     id: id(R), program: en(PROGRAM_IDS, R), title: text(R), artists: list(id()), artist_text: text(),
     medium: en(MEDIUMS, R), category: text(), zone: text(), venue_id: id(), location_text: text(),
-    lat: { t: "num" }, lng: { t: "num" }, hours_text: text(), description: text({ long: true }), image_url: url(),
-    sponsor: text(), sponsor_org_id: id(), year: { t: "int" }, source_url: url(R),
+    lat: { t: "num" }, lng: { t: "num" }, approx_m: { t: "int" }, hours_text: text(), description: text({ long: true }), image_url: url(),
+    sponsor: text(), sponsor_org_id: id(), year: { t: "int" },
+    map_no: { t: "int" },          // the number printed on the program's official map ("BLINK map No. 29"); two works may share one
+    aliases: list(text()),         // other titles the organizers publish for the same work (BLINK's online map), searchable
+    also_sources: list(url()),     // other pages facts came from (the official map PDF)
+    source_url: url(R),
   },
   venues: {
     id: id(R), name: text(R), aliases: list(text()), address: text(), city: text(), state: { t: "str" }, zip: { t: "str" },
-    neighborhood: text(), hood: id(), lat: { t: "num" }, lng: { t: "num" }, programs: list(en(PROGRAM_IDS)),
+    neighborhood: text(), hood: id(), lat: { t: "num" }, lng: { t: "num" }, approx_m: { t: "int" }, programs: list(en(PROGRAM_IDS)),
     kind: en(VENUE_KINDS, R), url: url(), accessibility: text({ long: true }), source_url: url(R),
   },
   orgs: {
@@ -119,7 +131,9 @@ export const SPECS = {
   },
   places: {
     id: id(R), kind: en(PLACE_KINDS, R), name: text(R), short_name: text(), summary: text({ long: true }), details: text({ long: true }),
-    address: text(), hood: id(), lat: { t: "num" }, lng: { t: "num" }, url: url(), source_url: url(R),
+    address: text(), hood: id(), lat: { t: "num" }, lng: { t: "num" }, approx_m: { t: "int" }, url: url(),
+    facility: en(FACILITY_KINDS), program: en(PROGRAM_IDS), zone: text(), map_no: { t: "int" },   // kind "facility" (BLINK's map)
+    also_sources: list(url()), source_url: url(R),
   },
   faqs: { id: id(R), program: en(PROGRAM_IDS), topic: text(), q: text(R), a: text({ req: true, long: true }), source_url: url(R) },
   news: {

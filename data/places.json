@@ -2425,14 +2425,14 @@
     "name": "BLINK maps: printable and dynamic",
     "short_name": null,
     "summary": "We offer two different Map Views. Choose whichever one works best for you!",
-    "details": "Printable 2026 zone map PDF: https://www.blinkcincinnati.com/files/assets/blinkmap2026zones2.pdf. Dynamic map: https://www.blinkcincinnati.com/map. Full 2026 Event Map Coming Soon!",
+    "details": "Full 2026 event map (folding map PDF, dated Sep 23): https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf. Printable 2026 zone map PDF: https://www.blinkcincinnati.com/files/assets/blinkmap2026zones2.pdf. Dynamic map: https://www.blinkcincinnati.com/map.",
     "address": null,
     "hood": null,
     "lat": null,
     "lng": null,
     "url": "https://www.blinkcincinnati.com/blink-event-guide/maps-guides",
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/maps-guides",
-    "notes": "As of 2026-09-24 the Maps & Guides page still says the full event map and individual zone maps are \"coming soon\"."
+    "notes": "As of 2026-09-24 the Maps & Guides page still says the full event map and individual zone maps are \"coming soon\". 2026-09-24: BLINK published the full folding map (PDF created 2026-09-23); the \"Full 2026 Event Map Coming Soon!\" line was replaced with its link. See research/blink-map/."
   },
   {
     "id": "blink-streetcar",
@@ -2670,7 +2670,7 @@
   },
   {
     "id": "blink-walk-hub-1",
-    "kind": "tip",
+    "kind": "facility",
     "name": "Urban Hikers BLINK walk: Hub 1",
     "short_name": null,
     "summary": "With five departure hubs throughout the BLINK footprint, you can start your walk where it’s most convenient for you.",
@@ -2680,12 +2680,18 @@
     "lat": 39.104081,
     "lng": -84.51259,
     "url": "https://urban-hikers.com/blink-walks",
+    "facility": "hike-departure",
+    "program": "blink",
+    "zone": "Fountain District",
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://urban-hikers.com/blink-walks",
-    "notes": "Hub addresses come from the Urban Hikers booking page (rendered). Hub 1 route preview: 1.1 miles."
+    "notes": "Hub addresses come from the Urban Hikers booking page (rendered). Hub 1 route preview: 1.1 miles. BLINK official map (2026-09-24): A Hike Departure symbol on the printed map (KEY: \"Book Paid Hike at: urban-hikers.com/blink-walks\") is 26 m from this hub's address (±75 m). Kind tip → facility; coordinates stay the geocoded hub address. [/BLINK map]"
   },
   {
     "id": "blink-walk-hub-2",
-    "kind": "tip",
+    "kind": "facility",
     "name": "Urban Hikers BLINK walk: Hub 2",
     "short_name": null,
     "summary": "With five departure hubs throughout the BLINK footprint, you can start your walk where it’s most convenient for you.",
@@ -2695,12 +2701,18 @@
     "lat": 39.099196,
     "lng": -84.509552,
     "url": "https://urban-hikers.com/blink-walks",
+    "facility": "hike-departure",
+    "program": "blink",
+    "zone": "Fountain District",
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://urban-hikers.com/blink-walks",
-    "notes": "Hub addresses come from the Urban Hikers booking page (rendered)."
+    "notes": "Hub addresses come from the Urban Hikers booking page (rendered). BLINK official map (2026-09-24): A Hike Departure symbol on the printed map (KEY: \"Book Paid Hike at: urban-hikers.com/blink-walks\") is 36 m from this hub's address (±40 m). Kind tip → facility; coordinates stay the geocoded hub address. [/BLINK map]"
   },
   {
     "id": "blink-walk-hub-3",
-    "kind": "tip",
+    "kind": "facility",
     "name": "Urban Hikers BLINK walk: Hub 3",
     "short_name": null,
     "summary": "With five departure hubs throughout the BLINK footprint, you can start your walk where it’s most convenient for you.",
@@ -2710,12 +2722,18 @@
     "lat": 39.104807,
     "lng": -84.508979,
     "url": "https://urban-hikers.com/blink-walks",
+    "facility": "hike-departure",
+    "program": "blink",
+    "zone": null,
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://urban-hikers.com/blink-walks",
-    "notes": "Hub addresses come from the Urban Hikers booking page (rendered)."
+    "notes": "Hub addresses come from the Urban Hikers booking page (rendered). BLINK official map (2026-09-24): A Hike Departure symbol on the printed map (KEY: \"Book Paid Hike at: urban-hikers.com/blink-walks\") is 33 m from this hub's address (±30 m; the farthest pair, matched as the one hub left). Kind tip → facility; coordinates stay the geocoded hub address. [/BLINK map]"
   },
   {
     "id": "blink-walk-hub-4",
-    "kind": "tip",
+    "kind": "facility",
     "name": "Urban Hikers BLINK walk: Hub 4",
     "short_name": null,
     "summary": "With five departure hubs throughout the BLINK footprint, you can start your walk where it’s most convenient for you.",
@@ -2725,12 +2743,18 @@
     "lat": 39.105316,
     "lng": -84.509117,
     "url": "https://urban-hikers.com/blink-walks",
+    "facility": "hike-departure",
+    "program": "blink",
+    "zone": null,
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://urban-hikers.com/blink-walks",
-    "notes": "Hub addresses come from the Urban Hikers booking page (rendered)."
+    "notes": "Hub addresses come from the Urban Hikers booking page (rendered). BLINK official map (2026-09-24): A Hike Departure symbol on the printed map (KEY: \"Book Paid Hike at: urban-hikers.com/blink-walks\") is 157 m from this hub's address (±55 m; the farthest pair, matched as the one hub left). Kind tip → facility; coordinates stay the geocoded hub address. [/BLINK map]"
   },
   {
     "id": "blink-walk-hub-5",
-    "kind": "tip",
+    "kind": "facility",
     "name": "Urban Hikers BLINK walk: Hub 5",
     "short_name": null,
     "summary": "With five departure hubs throughout the BLINK footprint, you can start your walk where it’s most convenient for you.",
@@ -2740,8 +2764,14 @@
     "lat": 39.098395,
     "lng": -84.51551,
     "url": "https://urban-hikers.com/blink-walks",
+    "facility": "hike-departure",
+    "program": "blink",
+    "zone": "Fountain District",
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://urban-hikers.com/blink-walks",
-    "notes": "Hub addresses come from the Urban Hikers booking page (rendered)."
+    "notes": "Hub addresses come from the Urban Hikers booking page (rendered). BLINK official map (2026-09-24): A Hike Departure symbol on the printed map (KEY: \"Book Paid Hike at: urban-hikers.com/blink-walks\") is 47 m from this hub's address (±45 m; the farthest pair, matched as the one hub left). Kind tip → facility; coordinates stay the geocoded hub address. [/BLINK map]"
   },
   {
     "id": "blink-accessible-dropoff-central-parkway-and-west-elder",
@@ -3085,7 +3115,7 @@
   },
   {
     "id": "blink-restroom-755",
-    "kind": "accessibility",
+    "kind": "facility",
     "name": "Restroom",
     "short_name": null,
     "summary": "Restroom",
@@ -3095,12 +3125,18 @@
     "lat": 39.101848,
     "lng": -84.512469,
     "url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/restrooms/restroom",
+    "facility": "restroom",
+    "program": "blink",
+    "zone": "Fountain District",
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/map",
-    "notes": "BLINK map category \"Restrooms\"; the Restroom detail page URL is shared by all restroom pins, so each pin's street text comes from the map data."
+    "notes": "BLINK map category \"Restrooms\"; the Restroom detail page URL is shared by all restroom pins, so each pin's street text comes from the map data. BLINK official map (2026-09-24): A Restrooms symbol on the printed map is 57 m from this online point (paired by proximity; ±80 m): BLINK's online coordinates kept. Kind accessibility → facility. [/BLINK map]"
   },
   {
     "id": "blink-restroom-761",
-    "kind": "accessibility",
+    "kind": "facility",
     "name": "Restroom",
     "short_name": null,
     "summary": "Restroom",
@@ -3110,42 +3146,62 @@
     "lat": 39.090255,
     "lng": -84.511932,
     "url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/restrooms/restroom",
+    "facility": "restroom",
+    "program": "blink",
+    "zone": "Covington",
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/map",
-    "notes": "BLINK map category \"Restrooms\"; the Restroom detail page URL is shared by all restroom pins, so each pin's street text comes from the map data."
+    "notes": "BLINK map category \"Restrooms\"; the Restroom detail page URL is shared by all restroom pins, so each pin's street text comes from the map data. BLINK official map (2026-09-24): A Restrooms symbol on the printed map is 42 m from this online point (paired by proximity; ±70 m): BLINK's online coordinates kept. Kind accessibility → facility. [/BLINK map]"
   },
   {
     "id": "blink-oasis-station-contemporary-art-center-bathrooms",
-    "kind": "accessibility",
-    "name": "Oasis Station - Contemporary Art Center (Bathrooms)",
+    "kind": "facility",
+    "name": "Oasis Station: Contemporary Arts Center",
     "short_name": null,
-    "summary": "Oasis Station",
+    "summary": "Indoor restrooms and facilities",
     "details": null,
     "address": null,
     "hood": "downtown-cbd",
     "lat": 39.102814,
     "lng": -84.512011,
     "url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/oasis-stations/oasis-station--contemporary-art-center-bathrooms",
+    "facility": "oasis-station",
+    "program": "blink",
+    "zone": "Fountain District",
+    "map_no": 44,
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/map",
-    "notes": "BLINK map category \"Oasis Stations\"."
+    "notes": "BLINK map category \"Oasis Stations\". BLINK official map (2026-09-24): No. 44, printed \"Oasis Station: Contemporary Arts Center\" (was \"Oasis Station - Contemporary Art Center (Bathrooms)\" on BLINK's online map); summary = the map's KEY for Oasis Station. Kind accessibility → facility. BLINK's online coordinates kept (the printed pin is 49 m away). [/BLINK map]"
   },
   {
     "id": "blink-oasis-station-music-hall-bathroom",
-    "kind": "accessibility",
-    "name": "Oasis Station - Music Hall (Bathroom)",
+    "kind": "facility",
+    "name": "Oasis Station: Music Hall",
     "short_name": null,
-    "summary": "Oasis Station",
+    "summary": "Indoor restrooms and facilities",
     "details": null,
     "address": null,
     "hood": "over-the-rhine",
     "lat": 39.10931,
     "lng": -84.51862,
     "url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/oasis-stations/oasis-station--music-hall-bathroom",
+    "facility": "oasis-station",
+    "program": "blink",
+    "zone": "Over the Rhine",
+    "map_no": 22,
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/map",
-    "notes": "BLINK map category \"Oasis Stations\"."
+    "notes": "BLINK map category \"Oasis Stations\". BLINK official map (2026-09-24): No. 22, printed \"Oasis Station: Music Hall\" (was \"Oasis Station - Music Hall (Bathroom)\" on BLINK's online map); summary = the map's KEY for Oasis Station. Kind accessibility → facility. BLINK's online coordinates kept (the printed pin is 23 m away). [/BLINK map]"
   },
   {
     "id": "blink-restroom-754",
-    "kind": "accessibility",
+    "kind": "facility",
     "name": "Restroom",
     "short_name": null,
     "summary": "Restroom",
@@ -3155,27 +3211,40 @@
     "lat": 39.096375,
     "lng": -84.510393,
     "url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/restrooms/restroom",
+    "facility": "restroom",
+    "program": "blink",
+    "zone": "The Banks",
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/map",
-    "notes": "BLINK map category \"Restrooms\"; the Restroom detail page URL is shared by all restroom pins, so each pin's street text comes from the map data."
+    "notes": "BLINK map category \"Restrooms\"; the Restroom detail page URL is shared by all restroom pins, so each pin's street text comes from the map data. BLINK official map (2026-09-24): A Restrooms symbol on the printed map is 19 m from this online point (paired by proximity; ±85 m): BLINK's online coordinates kept. Kind accessibility → facility. [/BLINK map]"
   },
   {
     "id": "blink-oasis-station-cincinnati-and-hamilton-county-public-library-bathrooms",
-    "kind": "accessibility",
-    "name": "Oasis Station - Cincinnati & Hamilton County Public Library (Bathrooms)",
+    "kind": "facility",
+    "name": "Oasis Station: Cincinnati & Hamilton County Public Library",
     "short_name": null,
-    "summary": "Oasis Station",
+    "summary": "Indoor restrooms and facilities",
     "details": null,
     "address": null,
     "hood": "downtown-cbd",
     "lat": 39.105111,
     "lng": -84.513649,
     "url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/oasis-stations/oasis-station--cincinnati-hamilton-county-public-library-bathrooms",
+    "facility": "oasis-station",
+    "program": "blink",
+    "zone": "Fountain District",
+    "map_no": 35,
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/map",
-    "notes": "BLINK map category \"Oasis Stations\"."
+    "notes": "BLINK map category \"Oasis Stations\". BLINK official map (2026-09-24): No. 35, printed \"Oasis Station: Cincinnati & Hamilton County Public Library\" (was \"Oasis Station - Cincinnati & Hamilton County Public Library (Bathrooms)\" on BLINK's online map); summary = the map's KEY for Oasis Station. Kind accessibility → facility. BLINK's online coordinates kept (the printed pin is 24 m away). The map: the map badge for this entry is printed \"34\" (numbers 34 and 35 are swapped on the map). [/BLINK map]"
   },
   {
     "id": "blink-restroom-757",
-    "kind": "accessibility",
+    "kind": "facility",
     "name": "Restroom",
     "short_name": null,
     "summary": "Restroom",
@@ -3185,12 +3254,15 @@
     "lat": 39.106914,
     "lng": -84.513153,
     "url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/restrooms/restroom",
+    "facility": "restroom",
+    "program": "blink",
+    "zone": "Fountain District",
     "source_url": "https://www.blinkcincinnati.com/map",
-    "notes": "BLINK map category \"Restrooms\"; the Restroom detail page URL is shared by all restroom pins, so each pin's street text comes from the map data."
+    "notes": "BLINK map category \"Restrooms\"; the Restroom detail page URL is shared by all restroom pins, so each pin's street text comes from the map data. BLINK official map (2026-09-24): On BLINK's online map but with no Restrooms symbol within 150 m on the printed map (the nearest is 239 m away): kept as the online map lists it. Kind accessibility → facility. [/BLINK map]"
   },
   {
     "id": "blink-restroom-756",
-    "kind": "accessibility",
+    "kind": "facility",
     "name": "Restroom",
     "short_name": null,
     "summary": "Restroom",
@@ -3200,12 +3272,18 @@
     "lat": 39.109367,
     "lng": -84.518306,
     "url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/restrooms/restroom",
+    "facility": "restroom",
+    "program": "blink",
+    "zone": "Over the Rhine",
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/map",
-    "notes": "BLINK map category \"Restrooms\"; the Restroom detail page URL is shared by all restroom pins, so each pin's street text comes from the map data."
+    "notes": "BLINK map category \"Restrooms\"; the Restroom detail page URL is shared by all restroom pins, so each pin's street text comes from the map data. BLINK official map (2026-09-24): A Restrooms symbol on the printed map is 35 m from this online point (paired by proximity; ±75 m): BLINK's online coordinates kept. Kind accessibility → facility. [/BLINK map]"
   },
   {
     "id": "blink-restroom-759",
-    "kind": "accessibility",
+    "kind": "facility",
     "name": "Restroom",
     "short_name": null,
     "summary": "Restroom",
@@ -3215,12 +3293,18 @@
     "lat": 39.087755,
     "lng": -84.508648,
     "url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/restrooms/restroom",
+    "facility": "restroom",
+    "program": "blink",
+    "zone": "Covington",
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/map",
-    "notes": "BLINK map category \"Restrooms\"; the Restroom detail page URL is shared by all restroom pins, so each pin's street text comes from the map data."
+    "notes": "BLINK map category \"Restrooms\"; the Restroom detail page URL is shared by all restroom pins, so each pin's street text comes from the map data. BLINK official map (2026-09-24): A Restrooms symbol on the printed map is 44 m from this online point (paired by proximity; ±55 m): BLINK's online coordinates kept. Kind accessibility → facility. [/BLINK map]"
   },
   {
     "id": "blink-restroom-760",
-    "kind": "accessibility",
+    "kind": "facility",
     "name": "Restroom",
     "short_name": null,
     "summary": "Restroom",
@@ -3230,12 +3314,18 @@
     "lat": 39.090993,
     "lng": -84.508886,
     "url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/restrooms/restroom",
+    "facility": "restroom",
+    "program": "blink",
+    "zone": "Covington",
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/map",
-    "notes": "BLINK map category \"Restrooms\"; the Restroom detail page URL is shared by all restroom pins, so each pin's street text comes from the map data."
+    "notes": "BLINK map category \"Restrooms\"; the Restroom detail page URL is shared by all restroom pins, so each pin's street text comes from the map data. BLINK official map (2026-09-24): A Restrooms symbol on the printed map is 124 m from this online point (paired by proximity; ±70 m): BLINK's online coordinates kept. Kind accessibility → facility. [/BLINK map]"
   },
   {
     "id": "blink-restroom-753",
-    "kind": "accessibility",
+    "kind": "facility",
     "name": "Restroom",
     "short_name": null,
     "summary": "Restroom",
@@ -3245,12 +3335,18 @@
     "lat": 39.096283,
     "lng": -84.511112,
     "url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/restrooms/restroom",
+    "facility": "restroom",
+    "program": "blink",
+    "zone": "The Banks",
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/map",
-    "notes": "BLINK map category \"Restrooms\"; the Restroom detail page URL is shared by all restroom pins, so each pin's street text comes from the map data."
+    "notes": "BLINK map category \"Restrooms\"; the Restroom detail page URL is shared by all restroom pins, so each pin's street text comes from the map data. BLINK official map (2026-09-24): A Restrooms symbol on the printed map is 29 m from this online point (paired by proximity; ±95 m): BLINK's online coordinates kept. Kind accessibility → facility. [/BLINK map]"
   },
   {
     "id": "blink-restroom-758",
-    "kind": "accessibility",
+    "kind": "facility",
     "name": "Restroom",
     "short_name": null,
     "summary": "Restroom",
@@ -3260,38 +3356,58 @@
     "lat": 39.097872,
     "lng": -84.510362,
     "url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/restrooms/restroom",
+    "facility": "restroom",
+    "program": "blink",
+    "zone": "The Banks",
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/map",
-    "notes": "BLINK map category \"Restrooms\"; the Restroom detail page URL is shared by all restroom pins, so each pin's street text comes from the map data."
+    "notes": "BLINK map category \"Restrooms\"; the Restroom detail page URL is shared by all restroom pins, so each pin's street text comes from the map data. BLINK official map (2026-09-24): A Restrooms symbol on the printed map is 30 m from this online point (paired by proximity; ±70 m): BLINK's online coordinates kept. Kind accessibility → facility. [/BLINK map]"
   },
   {
     "id": "blink-oasis-station-aronoff-center-bathrooms",
-    "kind": "accessibility",
-    "name": "Oasis Station - Aronoff Center (Bathrooms)",
+    "kind": "facility",
+    "name": "Oasis Station: Aronoff Center",
     "short_name": null,
-    "summary": "Oasis Station",
+    "summary": "Indoor restrooms and facilities",
     "details": null,
     "address": null,
     "hood": "downtown-cbd",
     "lat": 39.103533,
     "lng": -84.511708,
     "url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/oasis-stations/oasis-station--aronoff-center-bathrooms",
+    "facility": "oasis-station",
+    "program": "blink",
+    "zone": "Fountain District",
+    "map_no": 43,
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/map",
-    "notes": "BLINK map category \"Oasis Stations\". Shown on the map but not in the Art and Artists listing."
+    "notes": "BLINK map category \"Oasis Stations\". Shown on the map but not in the Art and Artists listing. BLINK official map (2026-09-24): No. 43, printed \"Oasis Station: Aronoff Center\" (was \"Oasis Station - Aronoff Center (Bathrooms)\" on BLINK's online map); summary = the map's KEY for Oasis Station. Kind accessibility → facility. BLINK's online coordinates kept (the printed pin is 26 m away). [/BLINK map]"
   },
   {
     "id": "blink-oasis-station-children-s-theater-bathrooms",
-    "kind": "accessibility",
-    "name": "Oasis Station - Children's Theater (Bathrooms)",
+    "kind": "facility",
+    "name": "Oasis Station: The Children’s Theatre of Cincinnati",
     "short_name": null,
-    "summary": "Oasis Station",
+    "summary": "Indoor restrooms and facilities",
     "details": null,
     "address": null,
     "hood": "over-the-rhine",
     "lat": 39.10805,
     "lng": -84.512915,
     "url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/oasis-stations/oasis-station--childrens-theater-bathrooms",
+    "facility": "oasis-station",
+    "program": "blink",
+    "zone": "Over the Rhine",
+    "map_no": 28,
+    "also_sources": [
+      "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf"
+    ],
     "source_url": "https://www.blinkcincinnati.com/map",
-    "notes": "BLINK map category \"Oasis Stations\". Shown on the map but not in the Art and Artists listing."
+    "notes": "BLINK map category \"Oasis Stations\". Shown on the map but not in the Art and Artists listing. BLINK official map (2026-09-24): No. 28, printed \"Oasis Station: The Children’s Theatre of Cincinnati\" (was \"Oasis Station - Children's Theater (Bathrooms)\" on BLINK's online map); summary = the map's KEY for Oasis Station. Kind accessibility → facility. BLINK's online coordinates kept (the printed pin is 19 m away). [/BLINK map]"
   },
   {
     "id": "blink-map-blm-mural",
@@ -3607,5 +3723,265 @@
     "url": null,
     "source_url": "https://www.openstreetmap.org/node/154192862",
     "notes": "Cincinnati neighborhood from OpenStreetMap (Nominatim \"Westwood, Cincinnati, Hamilton County, Ohio, 46211, United States\"); added because a guide venue sits in it. No summary: nothing sourced to quote."
+  },
+  {
+    "id": "blink-map-merch-shop",
+    "kind": "facility",
+    "name": "Official BLINK Merch Shop",
+    "short_name": null,
+    "summary": null,
+    "details": "at Contemporary Arts Center",
+    "address": null,
+    "hood": "downtown-cbd",
+    "lat": 39.102915,
+    "lng": -84.51204,
+    "approx_m": 85,
+    "url": null,
+    "facility": "merch-shop",
+    "program": "blink",
+    "zone": "Fountain District",
+    "map_no": 45,
+    "source_url": "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf",
+    "notes": "BLINK official map (2026-09-24): No. 45, KEY \"Official BLINK Merch Shop\", printed \"Official BLINK Merch Shop\" / \"at Contemporary Arts Center\". Coordinates: the printed pin, georeferenced (research/blink-map; approximate, about ±85 m); the Contemporary Arts Center is 10 m from it. [/BLINK map]"
+  },
+  {
+    "id": "blink-map-drone-show-viewing-area-the-banks",
+    "kind": "facility",
+    "name": "Drone Show Viewing Area",
+    "short_name": null,
+    "summary": null,
+    "details": "Shows Fri, Sat, Sun, 8 & 10 PM",
+    "address": null,
+    "hood": "the-banks",
+    "lat": 39.094402,
+    "lng": -84.512276,
+    "approx_m": 75,
+    "url": null,
+    "facility": "drone-viewing",
+    "program": "blink",
+    "zone": "The Banks",
+    "map_no": 67,
+    "source_url": "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf",
+    "notes": "BLINK official map (2026-09-24): No. 67 (KEY \"Unique Attractions\"), printed \"Drone Show Viewing Area\" / \"Shows Fri, Sat, Sun, 8 & 10 PM\" in both The Banks and Covington lists; this is the pin in The Banks. Coordinates: the printed pin, georeferenced (research/blink-map; approximate, about ±75 m). [/BLINK map]"
+  },
+  {
+    "id": "blink-map-drone-show-viewing-area-covington",
+    "kind": "facility",
+    "name": "Drone Show Viewing Area",
+    "short_name": null,
+    "summary": null,
+    "details": "Shows Fri, Sat, Sun, 8 & 10 PM",
+    "address": null,
+    "hood": "covington",
+    "lat": 39.090988,
+    "lng": -84.511549,
+    "approx_m": 105,
+    "url": null,
+    "facility": "drone-viewing",
+    "program": "blink",
+    "zone": "Covington",
+    "map_no": 67,
+    "source_url": "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf",
+    "notes": "BLINK official map (2026-09-24): No. 67 (KEY \"Unique Attractions\"), printed \"Drone Show Viewing Area\" / \"Shows Fri, Sat, Sun, 8 & 10 PM\" in both The Banks and Covington lists; this is the pin in Covington. Coordinates: the printed pin, georeferenced (research/blink-map; approximate, about ±105 m). [/BLINK map]"
+  },
+  {
+    "id": "blink-map-restrooms-otr-1",
+    "kind": "facility",
+    "name": "Restrooms",
+    "short_name": null,
+    "summary": null,
+    "details": null,
+    "address": null,
+    "hood": "over-the-rhine",
+    "lat": 39.112209,
+    "lng": -84.51896,
+    "approx_m": 70,
+    "url": null,
+    "facility": "restroom",
+    "program": "blink",
+    "zone": "Over the Rhine",
+    "map_no": null,
+    "source_url": "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf",
+    "notes": "BLINK official map (2026-09-24): A Restrooms symbol on the printed map (OTR zone) with no BLINK online-map restroom within 150 m. Coordinates: the printed pin, georeferenced (research/blink-map; approximate, about ±70 m). [/BLINK map]"
+  },
+  {
+    "id": "blink-map-restrooms-otr-2",
+    "kind": "facility",
+    "name": "Restrooms",
+    "short_name": null,
+    "summary": null,
+    "details": null,
+    "address": null,
+    "hood": "over-the-rhine",
+    "lat": 39.109232,
+    "lng": -84.516931,
+    "approx_m": 55,
+    "url": null,
+    "facility": "restroom",
+    "program": "blink",
+    "zone": "Over the Rhine",
+    "map_no": null,
+    "source_url": "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf",
+    "notes": "BLINK official map (2026-09-24): A Restrooms symbol on the printed map (OTR zone) with no BLINK online-map restroom within 150 m. Coordinates: the printed pin, georeferenced (research/blink-map; approximate, about ±55 m). [/BLINK map]"
+  },
+  {
+    "id": "blink-map-restrooms-otr-3",
+    "kind": "facility",
+    "name": "Restrooms",
+    "short_name": null,
+    "summary": null,
+    "details": null,
+    "address": null,
+    "hood": "over-the-rhine",
+    "lat": 39.108993,
+    "lng": -84.513835,
+    "approx_m": 55,
+    "url": null,
+    "facility": "restroom",
+    "program": "blink",
+    "zone": "Over the Rhine",
+    "map_no": null,
+    "source_url": "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf",
+    "notes": "BLINK official map (2026-09-24): A Restrooms symbol on the printed map (OTR zone) with no BLINK online-map restroom within 150 m. Coordinates: the printed pin, georeferenced (research/blink-map; approximate, about ±55 m). [/BLINK map]"
+  },
+  {
+    "id": "blink-map-restrooms-the-banks-1",
+    "kind": "facility",
+    "name": "Restrooms",
+    "short_name": null,
+    "summary": null,
+    "details": null,
+    "address": null,
+    "hood": "the-banks",
+    "lat": 39.095793,
+    "lng": -84.510186,
+    "approx_m": 75,
+    "url": null,
+    "facility": "restroom",
+    "program": "blink",
+    "zone": "The Banks",
+    "map_no": null,
+    "source_url": "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf",
+    "notes": "BLINK official map (2026-09-24): A Restrooms symbol on the printed map (The Banks zone) with no BLINK online-map restroom within 150 m. Coordinates: the printed pin, georeferenced (research/blink-map; approximate, about ±75 m). [/BLINK map]"
+  },
+  {
+    "id": "blink-map-restrooms-covington-1",
+    "kind": "facility",
+    "name": "Restrooms",
+    "short_name": null,
+    "summary": null,
+    "details": null,
+    "address": null,
+    "hood": "covington",
+    "lat": 39.086239,
+    "lng": -84.511532,
+    "approx_m": 65,
+    "url": null,
+    "facility": "restroom",
+    "program": "blink",
+    "zone": "Covington",
+    "map_no": null,
+    "source_url": "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf",
+    "notes": "BLINK official map (2026-09-24): A Restrooms symbol on the printed map (Covington zone) with no BLINK online-map restroom within 150 m. Coordinates: the printed pin, georeferenced (research/blink-map; approximate, about ±65 m). [/BLINK map]"
+  },
+  {
+    "id": "blink-map-restrooms-covington-2",
+    "kind": "facility",
+    "name": "Restrooms",
+    "short_name": null,
+    "summary": null,
+    "details": null,
+    "address": null,
+    "hood": "covington",
+    "lat": 39.083183,
+    "lng": -84.510456,
+    "approx_m": 55,
+    "url": null,
+    "facility": "restroom",
+    "program": "blink",
+    "zone": "Covington",
+    "map_no": null,
+    "source_url": "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf",
+    "notes": "BLINK official map (2026-09-24): A Restrooms symbol on the printed map (Covington zone) with no BLINK online-map restroom within 150 m. Coordinates: the printed pin, georeferenced (research/blink-map; approximate, about ±55 m). [/BLINK map]"
+  },
+  {
+    "id": "blink-map-hospitality-zone-otr",
+    "kind": "facility",
+    "name": "Hospitality Zone",
+    "short_name": null,
+    "summary": null,
+    "details": null,
+    "address": null,
+    "hood": "over-the-rhine",
+    "lat": 39.112859,
+    "lng": -84.518611,
+    "approx_m": 75,
+    "url": null,
+    "facility": "hospitality-zone",
+    "program": "blink",
+    "zone": "Over the Rhine",
+    "map_no": null,
+    "source_url": "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf",
+    "notes": "BLINK official map (2026-09-24): A \"HOSPITALITY ZONE\" label on the printed map (OTR zone; drawn as a yellow area). No Food & Drinks symbol is drawn with it. Coordinates: the printed pin, georeferenced (research/blink-map; approximate, about ±75 m). [/BLINK map]"
+  },
+  {
+    "id": "blink-map-hospitality-zone-fountain",
+    "kind": "facility",
+    "name": "Hospitality Zone",
+    "short_name": null,
+    "summary": "Food & Drinks",
+    "details": null,
+    "address": null,
+    "hood": "downtown-cbd",
+    "lat": 39.106125,
+    "lng": -84.514312,
+    "approx_m": 55,
+    "url": null,
+    "facility": "hospitality-zone",
+    "program": "blink",
+    "zone": "Fountain District",
+    "map_no": null,
+    "source_url": "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf",
+    "notes": "BLINK official map (2026-09-24): A \"HOSPITALITY ZONE\" label on the printed map (Fountain zone; drawn as a label only). The map's Food & Drinks symbol sits 88 m from it, so the summary quotes that KEY label. Coordinates: the printed pin, georeferenced (research/blink-map; approximate, about ±55 m). [/BLINK map]"
+  },
+  {
+    "id": "blink-map-hospitality-zone-the-banks",
+    "kind": "facility",
+    "name": "Hospitality Zone",
+    "short_name": null,
+    "summary": "Food & Drinks",
+    "details": null,
+    "address": null,
+    "hood": "the-banks",
+    "lat": 39.096996,
+    "lng": -84.511805,
+    "approx_m": 130,
+    "url": null,
+    "facility": "hospitality-zone",
+    "program": "blink",
+    "zone": "The Banks",
+    "map_no": null,
+    "source_url": "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf",
+    "notes": "BLINK official map (2026-09-24): A \"HOSPITALITY ZONE\" label on the printed map (The Banks zone; drawn as a yellow band along the street). The map's Food & Drinks symbol sits 72 m from it, so the summary quotes that KEY label. Coordinates: the printed pin, georeferenced (research/blink-map; approximate, about ±130 m). [/BLINK map]"
+  },
+  {
+    "id": "blink-map-hospitality-zone-covington",
+    "kind": "facility",
+    "name": "Hospitality Zone",
+    "short_name": null,
+    "summary": "Food & Drinks",
+    "details": null,
+    "address": null,
+    "hood": "covington",
+    "lat": 39.091298,
+    "lng": -84.508227,
+    "approx_m": 115,
+    "url": null,
+    "facility": "hospitality-zone",
+    "program": "blink",
+    "zone": "Covington",
+    "map_no": null,
+    "source_url": "https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf",
+    "notes": "BLINK official map (2026-09-24): A \"HOSPITALITY ZONE\" label on the printed map (Covington zone; drawn as a yellow area). The map's Food & Drinks symbol sits 61 m from it, so the summary quotes that KEY label. Coordinates: the printed pin, georeferenced (research/blink-map; approximate, about ±115 m). [/BLINK map]"
   }
 ]

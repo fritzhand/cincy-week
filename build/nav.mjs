@@ -98,7 +98,7 @@ export function paramValues(db) {
   const hoods = list(inSet(db.places.filter((p) => p.kind === "neighborhood").map((p) => p.id)));
   const days = (v) => v === "all" || db.days.some((d) => d.date === v);
   const one = (...vals) => inSet(vals);
-  const focus = (v) => { const [k, id] = v.split(":"); return (k === "venue" && db.byId.venue.has(id)) || (k === "work" && db.byId.work.has(id)) || (k === "stay" && db.byId.stay.has(id)); };
+  const focus = (v) => { const [k, id] = v.split(":"); return (k === "venue" && db.byId.venue.has(id)) || (k === "work" && db.byId.work.has(id)) || (k === "stay" && db.byId.stay.has(id)) || (k === "facility" && db.byId.place.get(id)?.kind === "facility"); };
   return {
     schedule: {
       day: days, p: progs, k: list(inSet([...new Set(Object.values(KIND_GROUP)), ...EVENT_KINDS])), t: list(inSet(Object.keys(BUCKETS))),
@@ -108,7 +108,7 @@ export function paramValues(db) {
     people: { q: any, r: list(inSet(PERSON_ROLES)), p: progs, l: (v) => /^[A-Z#]$/.test(v) },
     art: { q: any, p: progs, m: list(inSet(MEDIUMS)), c: any, z: any, h: hoods, view: one("grid", "map"), w: inSet(db.works.map((w) => w.id)) },
     venues: { q: any, p: progs, h: hoods, day: days, view: one("list", "map") },
-    map: { layers: list(inSet(["venues", "art", "stays", "transit", "food"])), p: progs, day: days, focus },
+    map: { layers: list(inSet(["venues", "art", "facilities", "stays", "transit", "food"])), p: progs, day: days, focus },
     partners: { p: progs, tier: any },
     faq: { p: progs, q: any },
     news: { p: progs },

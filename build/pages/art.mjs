@@ -30,12 +30,16 @@ export function pages(ctx) {
   const { db, c, h, cards } = ctx;
   // the program with the most works first (BLINK's 75 photographed installations lead), then program order
   const perProg = count0(db.works);
-  const works = sortBy(db.works, (w) => -perProg.get(w.program), (w) => PROGRAM_IDS.indexOf(w.program), (w) => w.title.toLowerCase());
+  // within a program, works follow its official map when it numbers them (BLINK: zone by zone, No. 1 to 92); a zone sorts
+  // by its first number, and an unnumbered work goes after the numbered ones of its zone; without numbers, by title
+  const zoneFirst = new Map();
+  for (const w of db.works) if (w.map_no != null) { const k = `${w.program}|${cards.zoneKey(w)}`; zoneFirst.set(k, Math.min(zoneFirst.get(k) ?? Infinity, w.map_no)); }
+  const works = sortBy(db.works, (w) => -perProg.get(w.program), (w) => PROGRAM_IDS.indexOf(w.program), (w) => zoneFirst.get(`${w.program}|${cards.zoneKey(w)}`) ?? 1e9, (w) => w.map_no ?? 1e9, (w) => w.title.toLowerCase());
   const byProg = groupBy(works, (w) => w.program);
   const count = (f) => { const m = new Map(); for (const w of works) for (const k of [].concat(f(w)).filter(Boolean)) m.set(k, (m.get(k) || 0) + 1); return m; };
 
   const progOpts = [...byProg.keys()].map((p) => ({ v: p, label: c.progName(p, true), prog: p, count: byProg.get(p).length }));
-  const medOpts = sortBy([...count((w) => w.medium)], ([, n]) => -n).map(([m, n]) => ({ v: m, label: cards.workMedium({ medium: m }), count: n }));
+  const medOpts = sortBy([...count((w) => w.medium)], ([, n]) => -n).map(([m, n]) => ({ v: m, label: m === "other" ? "Other" : cards.workMedium({ medium: m }), count: n }));
   // zones: one chip per spelling-insensitive zone, labeled with its most common spelling
   const zoneSpell = new Map();
   for (const w of works) if (w.zone) { const k = cards.zoneKey(w); const s = zoneSpell.get(k) || new Map(); s.set(w.zone, (s.get(w.zone) || 0) + 1); zoneSpell.set(k, s); }
@@ -46,12 +50,14 @@ export function pages(ctx) {
   const blink = db.byId.program.get("blink");
   const map = mapReady();
 
-  const lede = `Artworks and installations from ${h.listJoin([...byProg.keys()].map((p) => c.progName(p)))}, with who made each one and where to find it.`;
+  const lede = `Artworks, installations and attractions from ${h.listJoin([...byProg.keys()].map((p) => c.progName(p)))}, with who made each one and where to find it.`;
+  // programs whose own map numbers their works (BLINK's folding map): named, with the map, under the page
+  const mapped = db.programs.filter((p) => p.maps?.length && db.works.some((w) => w.program === p.id && w.map_no != null));
   // BLINK's own words for when its works are on (a quote with its source, never our paraphrase)
   const note = (p) => (p === "blink" && blink && blink.hours ? `<p class="art-note">BLINK lists its hours as “${esc(blink.hours)}”. <span class="faint">Source: ${h.extLink(blink.source_url || blink.url, esc(h.hostOf(blink.source_url || blink.url)))}</span></p>` : "");
   return [{
     path: "art.html", nav: "art", title: "Art & installations", features: ["directory"],
-    description: `The ${works.length} artworks and installations of BLINK and Cincinnati Art Week: projection mapping, light installations and murals, with their artists and locations.`,
+    description: `The ${works.length} artworks, installations and attractions of BLINK and Cincinnati Art Week: projection mapping, light installations and murals, with their artists and locations.`,
     body: (root) => `${c.pageHead({ num: 3, kicker: `Directory · ${works.length} works`, title: "Art & installations", lede })}
 <div class="dir-tools js-only" data-dir-tools>
 ${searchField("Search art", "Search by title, artist or zone")}
@@ -66,7 +72,8 @@ ${dirStatus(works.length, "works")}
 ${map ? `<div class="art-map" data-dir-map hidden></div>` : ""}
 ${[...byProg].map(([p, xs]) => `<section class="art-group" data-dir-group data-prog="${p}" aria-labelledby="art-${p}"><h2 class="art-head" id="art-${p}">${h.bullet(p, "lg")}<span>${esc(c.progName(p))}</span><span class="label faint" data-dir-count data-one="work" data-many="works">${xs.length} ${xs.length === 1 ? "work" : "works"}</span></h2>${note(p)}<div class="works" data-dir>${xs.map((w) => cards.workCard(root, w)).join("")}</div></section>`).join("\n")}
 ${dirEmpty(c, { title: "No works match these filters", glyph: "light" })}
-<p class="source-line">${h.icon("info")}<span>Titles, artists, locations and descriptions are as each program publishes them; ${withPhoto} of ${works.length} works have a published image. Open a work for its details and source.</span></p>`,
+<p class="source-line">${h.icon("info")}<span>Titles, artists, locations and descriptions are as each program publishes them; ${withPhoto} of ${works.length} works have a published image. Open a work for its details and source.</span></p>
+${mapped.map((p) => `<p class="source-line">${h.icon("map")}<span>${esc(c.progName(p.id))} works are in the order of ${h.extLink(p.maps[0].url, esc(p.maps[0].label))}${p.maps[0].as_of ? ` (dated ${esc(h.fmtDate(p.maps[0].as_of))})` : ""}, zone by zone, and carry its numbers (“${esc(c.progName(p.id, true))} map No. 29”). Titles and credits are as printed there, except where the printed title is just “Mural” or names the maker: those keep the online listing's title. When the online listing titles a work differently, the guide keeps that title under “Also listed as”.</span></p>`).join("")}`,
   }];
 }
 
@@ -103,14 +110,15 @@ export function data(ctx) {
       if (v) venues[v.id] = { n: v.name, st: v.stall || null, h: v.hood ? db.byId.place.get(v.hood)?.name || null : v.neighborhood || null };
     }
   }
-  const programs = Object.fromEntries(db.programs.map((p) => [p.id, { n: c.progName(p.id), dates: p.dates ? [p.dates.start, p.dates.end] : null }]));
+  // s: the short name ("BLINK map No. 29"); map: [label, url] of the program's own published map (BLINK's folding map)
+  const programs = Object.fromEntries(db.programs.map((p) => [p.id, { n: c.progName(p.id), s: c.progName(p.id, true), dates: p.dates ? [p.dates.start, p.dates.end] : null, ...(p.maps?.length ? { map: [p.maps[0].label, p.maps[0].url] } : {}) }]));
   return { "assets/data/art-extra.json": { v: 1, works, people, venues, programs } };
 }
 
 export function search(ctx) {
   const { db, cards } = ctx;
   return db.works.map((w) => {
-    const by = cards.workArtists(w).join(", ") || w.artist_text || "";
-    return { k: "wo", id: w.id, t: w.title, s: [by, w.zone || w.location_text].filter(Boolean).join(" · "), u: `art.html?w=${w.id}`, p: w.program, g: [w.medium, w.category, w.zone, w.sponsor].filter(Boolean).join(" ") };
+    const by = cards.byLine(w);
+    return { k: "wo", id: w.id, t: w.title, s: [by, w.zone || w.location_text, cards.mapNo(w)].filter(Boolean).join(" · "), u: `art.html?w=${w.id}`, p: w.program, g: [w.medium, w.category, w.zone, w.sponsor, ...(w.aliases || []), w.map_no != null ? `map ${w.map_no}` : ""].filter(Boolean).join(" ") };
   });
 }

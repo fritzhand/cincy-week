@@ -203,7 +203,7 @@ export function crawl({ out, pages, config, params, values = {}, navSlugs, searc
   };
   budget("assets/data/events.json", 600, 120);
   budget("assets/data/event-text.json", 700, 110);   // loaded only when a dialog opens or a calendar file is made
-  budget("assets/data/search.json", 400, 70);
+  budget("assets/data/search.json", 400, 76);   // 70 → 76 KB (2026-09-24): BLINK's map added 13 works and 13 facilities; loaded on first search
   budget("assets/site.css", null, 45);
   budget("assets/map/basemap.svg", null, 60);
   for (const f of files.filter((x) => /^assets\/js\/features\/[^/]+\.js$/.test(x))) budget(f, null, 20);

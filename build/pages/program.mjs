@@ -13,7 +13,7 @@
    Honest gaps: a program whose schedule comes from a draft page (tag draft-schedule) says so.
    ============================================================ */
 import { PROGRAM_PAGES } from "../nav.mjs";
-import { ROLE_LABEL } from "../core/schema.mjs";
+import { ROLE_LABEL, FACILITY_KINDS, FACILITY_LABEL, FACILITY_ICON } from "../core/schema.mjs";
 import { project, cluster } from "../../site/js/lib/geo.js";
 import { roomText } from "../../site/js/lib/text.js";
 import { newsCard, latestNews } from "./news.mjs";
@@ -91,7 +91,10 @@ export function pages(ctx) {
     const dateLine = `${h.fmtDowRange(p.dates.start, p.dates.end) ? `${h.fmtDowRange(p.dates.start, p.dates.end)}, ` : ""}${h.fmtDateRange(p.dates.start, p.dates.end)}`;
     const kickerHours = nightly ? ` · ${h.fmtRange(nightly.start, nightly.end)}` : "";
     const people = h.sortBy(db.people.filter((x) => x.programs.some((pr) => ids.includes(pr))), (x) => (img.has("p", x.id) ? 0 : 1), (x) => -x.events.length - x.works.length, (x) => (x.sort_name || x.name).toLowerCase());
-    const works = h.sortBy(db.works.filter((w) => ids.includes(w.program)), (w) => (img.has("w", w.id) ? 0 : 1), (w) => w.title.toLowerCase());
+    // photographed works lead; then the program's own map order when it numbers them (BLINK's folding map)
+    const works = h.sortBy(db.works.filter((w) => ids.includes(w.program)), (w) => (img.has("w", w.id) ? 0 : 1), (w) => w.map_no ?? 1e9, (w) => w.title.toLowerCase());
+    const maps = progs.flatMap((x) => (x.maps || []).map((m) => ({ ...m, prog: x.id })));
+    const facs = db.places.filter((x) => x.kind === "facility" && ids.includes(x.program));
     // venues with a stall number first, in stall order (they pair with the map), then the rest by activity
     const venues = h.sortBy(db.venues.filter((v) => v.programs.some((pr) => ids.includes(pr))), (v) => (v.stall ? 0 : 1), (v) => v.stall || 0, (v) => -v.events.filter((e) => ids.includes(e.program)).length, (v) => v.name.toLowerCase());
     const faqs = db.faqs.filter((f) => ids.includes(f.program));
@@ -114,6 +117,7 @@ export function pages(ctx) {
       ["Social", social || null],
       ["Contact", [p.contact?.email ? `<a href="mailto:${attr(p.contact.email)}">${esc(p.contact.email)}</a>` : "", p.contact?.phone ? esc(p.contact.phone) : ""].filter(Boolean).join(" · ") || null],
       ["Official site", p.url ? h.extLink(p.url, esc(h.hostOf(p.url))) : null],
+      ["Official map", maps.length ? maps.map((m) => `${h.extLink(m.url, esc(m.label))}${m.as_of ? ` <span class="faint">(${esc(h.fmtDate(m.as_of))})</span>` : ""}`).join("; ") : null],
     ];
 
     /* ---------- sections (built per root) ---------- */
@@ -177,6 +181,43 @@ export function pages(ctx) {
     });
 
     if (works.length) add("works", "Works", (root) => c.section({ id: "works", title: pid === "blink" ? "Art and installations" : "Works", kicker: h.plural(works.length, "work"), anchor: true, more: { href: `art.html?p=${q}`, label: `All ${works.length}` }, root, body: `<div class="works">${works.slice(0, MAX_WORKS).map((w) => cards.workCard(root, w)).join("")}</div>` }));
+
+    /* the program's own printed map (BLINK's folding map, 2026-09-24): its numbering by zone, its facilities, its source */
+    const numbered = [...db.works.filter((w) => ids.includes(w.program) && w.map_no != null), ...facs.filter((x) => x.map_no != null)];
+    // this section describes the printed map: only what it shows (a facility that cites it); the rest stay on getting-around
+    const onMap = (x) => maps.some((m) => x.source_url === m.url || (x.also_sources || []).includes(m.url));
+    const mapFacs = facs.filter(onMap);
+    if (maps.length && (numbered.length || mapFacs.length)) add("official-map", "Official map", (root) => {
+      const byZone = new Map();
+      for (const r of numbered) if (r.zone) { if (!byZone.has(r.zone)) byZone.set(r.zone, new Set()); byZone.get(r.zone).add(r.map_no); }
+      const runs = (set) => { const ns = [...set].sort((a, b) => a - b), out = []; for (const n of ns) { const last = out[out.length - 1]; if (last && n === last[1] + 1) last[1] = n; else out.push([n, n]); } return out.map(([a, b]) => (a === b ? `${a}` : `${a}–${b}`)).join(", "); };
+      const zones = [...byZone].sort((a, b) => Math.min(...a[1]) - Math.min(...b[1]));
+      // the works the map numbers in that zone (a work only BLINK's online map lists is on the art page, not counted here)
+      const zoneRow = ([z, set]) => { const k = h.slugify(z); const n = db.works.filter((w) => ids.includes(w.program) && w.map_no != null && w.zone && h.slugify(w.zone) === k).length; return `<li><a href="${root}art.html?p=${pid}&amp;z=${attr(k)}"><b>${esc(z)}</b><span class="tnum">Nos. ${esc(runs(set))}</span><span class="faint">${esc(h.plural(n, "work"))}</span></a></li>`; };
+      const groups = FACILITY_KINDS.map((k) => [k, h.sortBy(mapFacs.filter((x) => x.facility === k), (x) => x.map_no ?? 1e9, (x) => x.zone || "", (x) => x.name)]).filter(([, xs]) => xs.length);
+      // few places: each by name (the part after "Oasis Station: ", or its zone when they share a name) and number;
+      // many (restrooms): how many in each zone, linked to the group on getting-around.html
+      const zi = (z) => { const i = zones.findIndex(([n]) => n === z); return i < 0 ? 99 : i; };   // the map's zone order
+      const facList = (k, xs) => {
+        const alike = xs.every((x) => x.name === xs[0].name);   // same name (viewing areas): by zone; else by name (Hub 1…5)
+        xs = h.sortBy(xs, (x) => x.map_no ?? 1e9, (x) => (alike ? zi(x.zone) : 0), (x) => x.name);
+        if (xs.length > 6) {
+          const byZ = h.sortBy([...h.groupBy(xs, (x) => x.zone || "Outside the zones")], ([z]) => zi(z), ([z]) => z);
+          return byZ.map(([z, ys]) => `<li><a href="${root}getting-around.html#fac-${k}">${esc(z)}</a> <span class="faint tnum">${ys.length}</span></li>`).join("");
+        }
+        const sameName = xs.length > 1 && xs.every((x) => x.name === xs[0].name);
+        return xs.map((x) => `<li><a href="${root}getting-around.html#${attr(x.id)}">${esc(sameName ? x.zone || x.name : x.name.includes(": ") ? x.name.split(": ").slice(1).join(": ") : x.name)}</a>${x.map_no != null ? ` <span class="faint tnum">No. ${x.map_no}</span>` : ""}${x.details && x.facility === "merch-shop" ? ` <span class="faint">${esc(x.details)}</span>` : ""}</li>`).join("");
+      };
+      const GROUP = { "oasis-station": "Oasis Stations", restroom: "Restrooms", "merch-shop": "Official BLINK Merch Shop", "hospitality-zone": "Hospitality Zones", "hike-departure": "Hike departures", "drone-viewing": "Drone Show Viewing Areas" };
+      const facHtml = groups.map(([k, xs]) => `<div class="prog-fac-g"><h3 class="sub-h">${icon(FACILITY_ICON[k])}<span>${esc(GROUP[k] || FACILITY_LABEL[k])}</span><span class="label faint">${xs.length}</span></h3>${k === "oasis-station" && xs[0].summary && xs.every((y) => y.summary === xs[0].summary) ? `<p class="prog-fac-s">“${esc(xs[0].summary)}”</p>` : ""}<ul class="prog-fac-l">${facList(k, xs)}</ul></div>`).join("");
+      const m = maps[0];
+      const body = `<p class="prog-map-lede">${esc(c.progName(pid))}'s printed map numbers its ${esc(h.plural(new Set(numbered.map((r) => r.map_no)).size, "stop"))} (art, attractions, Oasis Stations and the merch shop) zone by zone. Each one carries the same number in this guide (“${esc(c.progName(pid, true))} map No. ${esc(String(Math.min(...numbered.map((r) => r.map_no))))}”).</p>
+${zones.length ? `<ol class="prog-mapzones">${zones.map(zoneRow).join("")}</ol>` : ""}
+${facHtml ? `<h3 class="prog-sub">Facilities on the map</h3><div class="prog-fac">${facHtml}</div>` : ""}
+<p class="btn-row">${facs.length ? `<a class="btn btn-secondary btn-sm" href="${root}map.html?layers=venues,art,facilities&amp;p=${pid}">${icon("map")}Facilities on the map</a><a class="btn btn-ghost btn-sm" href="${root}getting-around.html#blink-facilities">Every facility, with directions${icon("arrow-r")}</a>` : ""}</p>
+<p class="source-line">${icon("info")}<span>Source: ${h.extLink(m.url, esc(m.label))}, ${esc(h.hostOf(m.url))}${m.as_of ? `, dated ${esc(h.fmtDate(m.as_of))}, ${esc(m.as_of.slice(0, 4))}` : ""}. Positions read off the printed map are approximate and say so; where ${esc(c.progName(pid))}'s online map pins a spot, the guide uses that spot.</span></p>`;
+      return c.section({ id: "official-map", title: `${c.progName(pid, true)}'s official map`, kicker: `${h.plural(new Set(numbered.map((r) => r.map_no)).size, "numbered stop")}${mapFacs.length ? ` · ${h.plural(mapFacs.length, "facility", "facilities")}` : ""}`, anchor: true, root, body });
+    });
 
     if (venues.length) add("venues", "Venues", (root) => {
       const inArea = (v) => { if (!meta) return false; const [x, y] = project(v.lat, v.lng, meta); return x >= 0 && y >= 0 && x <= meta.W && y <= meta.H; };

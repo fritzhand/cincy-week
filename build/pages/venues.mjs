@@ -83,6 +83,8 @@ function venuePage(ctx, v) {
   const nearV = near.filter((x) => x.kind === "venue").slice(0, 8);
   const nearF = near.filter((x) => x.kind === "place" && ["food", "drink"].includes(x.rec.kind)).slice(0, 8);
   const nearS = near.filter((x) => x.kind === "stay").slice(0, 6);
+  // BLINK's restrooms, Oasis Stations, viewing areas and the like (places kind "facility", from BLINK's maps)
+  const nearB = near.filter((x) => x.kind === "place" && x.rec.kind === "facility").slice(0, 6);
   const hub = db.programs.filter((p) => p.hub_venue_id === v.id);
   const place = hood ? hood.name : v.neighborhood || [v.city, v.state].filter(Boolean).join(", ");
   const fullAddr = v.address ? [v.address, v.city, [v.state, v.zip].filter(Boolean).join(" ")].filter(Boolean).join(", ") : null;
@@ -118,7 +120,7 @@ ${v.address ? `<p class="lede tnum">${esc(v.address)}</p>` : `<p class="lede unk
 ])}
 ${w !== "on" ? `<p class="vp-status">${cards.placeStatus(v)}</p>` : ""}</div>
 <div class="vp-map">${w === "on" ? cards.miniMap(root, v.lat, v.lng, { prog, n: v.stall || "", label: `Map: ${v.name}${hood ? `, ${hood.name}` : ""}` }) : ""}
-${d ? `<p class="btn-row vp-dir"><span class="acts-l">${h.icon(d.walk ? "walk" : "pin")}${d.walk ? "Walking directions" : "Directions"}</span>${d.apple ? h.extLink(d.apple, "Apple Maps", "btn btn-secondary btn-sm") : ""}${h.extLink(d.google, "Google Maps", "btn btn-secondary btn-sm")}${w === "on" ? `<a class="btn btn-ghost btn-sm" href="${root}map.html?focus=venue:${attr(v.id)}">${h.icon("map")}On the map</a>` : ""}</p>` : ""}</div>
+${d ? `<p class="btn-row vp-dir"><span class="acts-l">${h.icon(d.walk ? "walk" : "pin")}${d.walk ? "Walking directions" : "Directions"}</span>${d.apple ? h.extLink(d.apple, "Apple Maps", "btn btn-secondary btn-sm") : ""}${h.extLink(d.google, "Google Maps", "btn btn-secondary btn-sm")}${w === "on" ? `<a class="btn btn-ghost btn-sm" href="${root}map.html?focus=venue:${attr(v.id)}">${h.icon("map")}On the map</a>` : ""}</p>` : ""}${v.approx_m && v.lat != null ? `<p class="faint vp-approx">Approximate position (about ±${esc(v.approx_m)} m)</p>` : ""}</div>
 </div>
 ${spans.length ? `<section class="vp-sec" aria-labelledby="vp-onview"><h2 class="sub-h" id="vp-onview">On view</h2><p class="faint vp-note">Exhibitions and other items that run over several days.</p><div class="grid">${sortBy(spans, (e) => e.date).map((e) => cards.eventCard(root, e, { anchor: false, headingLevel: 3, compact: true, here: v.id })).join("")}</div></section>` : ""}
 ${days.length ? `<section class="vp-sec byday" aria-labelledby="vp-byday"><h2 class="sub-h" id="vp-byday">What's on here, by day</h2>${days.map((day) => `<h3 class="vp-day">${esc(h.fmtDayLong(day))}</h3><div class="grid">${sortBy(byDay.get(day), (x) => x.s).map((x) => cards.eventCard(root, x, { anchor: false, headingLevel: 4, compact: true, here: v.id })).join("")}</div>`).join("")}</section>` : ""}
@@ -128,6 +130,7 @@ ${near.length ? `<section class="vp-sec" aria-labelledby="vp-nearby"><h2 class="
 ${nearList("Venues", "vp-near-v", nearV, (r) => `${root}venues/${attr(r.id)}.html`)}
 ${nearList("Food and drink", "vp-near-f", nearF, (r) => `${root}eat-drink.html#${attr(r.id)}`)}
 ${nearList("Places to stay", "vp-near-s", nearS, (r) => `${root}stay.html#${attr(r.id)}`)}
+${nearList("BLINK restrooms and facilities", "vp-near-b", nearB, (r) => `${root}getting-around.html#${attr(r.id)}`)}
 </div></section>` : ""}
 ${c.sourceLine([v.source_url, ...new Set(live.map((e) => e.source_url))].slice(0, 4))}`,
   };

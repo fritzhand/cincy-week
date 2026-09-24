@@ -272,7 +272,7 @@ app = {
   Don't import `../core/*`: use `app`.
 - **`features/map.js` (E)** also exports `mountMap(el, { pins, layers, focus, fit, onSelect, list })`,
   which returns `{ update(pins), select(id), highlight(id), fit(), destroy() }`. A pin is
-  `{ id, kind: "venue"|"work"|"stay"|"stop"|"food", lat, lng, prog, prog2?, n?, label, live? }`. Today it is
+  `{ id, kind: "venue"|"work"|"facility"|"stay"|"stop"|"food", lat, lng, prog, prog2?, n?, label, live?, mn?, ic? }`. Today it is
   a no-op stub. D's List/Map view imports it with `import("./map.js")`.
 - **`features/directory.js` (F)** already filters `[data-dir]` children by `input[data-filter-q]` and
   `select[data-filter=key]`. It keeps `?q=` and the select keys in the URL and updates `[data-result-count]`.
@@ -298,7 +298,7 @@ app = {
   `{ id, x, p, t, k, kg, v, r, lt, pp, pr, c, f, u, src, st, fe, tg, tr, tt, ht, wk, cr, i: [[day, s, e, flags]] }`.
   The flags are 1 endUnknown, 2 timeUnknown, 4 allDay, 8 ongoing and 16 lateNight. The descriptions live in
   **`assets/data/event-text.json`** `{ v, d: { eventId: text } }`, loaded on first use (see the Changelog).
-- **`assets/data/works.json`** is `{ v: 1, works: [{ id, x, p, t, a, at, m, c, z, v, lt, ll, ht, sp, d, i, src }], people: { id: { n } } }`.
+- **`assets/data/works.json`** is `{ v: 1, works: [{ id, x, p, t, a, at, m, c, z, v, lt, ll, ht, sp, d, i, src, mn, ak, as, am }], people: { id: { n } } }`.
 - **`assets/data/search.json`** is `{ v: 1, items: [...] }` (section 9).
 - **Storage keys** are listed in `site/js/core/store.js`: `cw-theme`, `cw-rail`,
   `cw-plan {v,e,w,t}`, `cw-prefs {scheduleView, hidePast, mapLayers}`, `cw-seen-shared` and `cw-debug`.
@@ -331,7 +331,7 @@ The client re-validates everything it reads from the URL. Only non-default value
 | people.html | `q` · `r` (roles) · `p` · `l` (`A`–`Z`, `#`) |
 | art.html | `q` · `p` · `m` (mediums) · `c` · `z` · `h` · `view=grid\|map` · `w` (work id) |
 | venues.html | `q` · `p` · `h` · `day` · `view=list\|map` |
-| map.html | `layers` (`venues art stays transit food`) · `p` · `day` · `focus=venue:<id>\|work:<id>\|stay:<id>` |
+| map.html | `layers` (`venues art facilities stays transit food`) · `p` · `day` · `focus=venue:<id>\|work:<id>\|stay:<id>\|facility:<place id>` |
 | partners.html | `p` · `tier` · faq.html `p` `q` · news.html `p` · eat-drink.html `h` |
 | plan.html | hash only: `#p=<code>,…;w=<code>,…` |
 
@@ -547,3 +547,31 @@ Additive changes to A-owned files made by domain agents (smallest possible, noth
     `QA_VENUE_NAME` (logged under "QA audit" in data/README.md). `scripts/fetch-cincy-news.py` (G) sorts like the merge
     (date desc, then title), so running one after the other no longer reshuffles `data/news.json`.
   - `site/css/20-content.css`: on phones a stacked `table.data` hides an empty `td` (no label with nothing after it).
+- **2026-09-24 · maintenance (BLINK's official folding map)** additive only; nothing renamed or removed; `npm test` green
+  (`tests/blink-map.test.mjs`). Source: https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf, extracted by
+  `scripts/extract-blink-map.py` into `research/blink-map/blink-map-2026.json` and applied by `scripts/apply-blink-map.mjs`
+  (idempotent; `--check` writes nothing).
+  - `build/core/schema.mjs`: `works.map_no` (int, the number printed on the program's own map; two works may share one),
+    `works.aliases` (other published titles, e.g. BLINK's online-map title when the printed one differs; searchable, shown as
+    "Also listed as"), `works.also_sources` (urls); `approx_m` (int, meters) on `works`, `venues` and `places`: the coordinates
+    are an estimate read off a schematic map, and pages say "Approximate position (about ±N m)". Places: new kind `facility`
+    with `facility` (`FACILITY_KINDS`: `oasis-station restroom merch-shop hospitality-zone hike-departure drone-viewing`;
+    `FACILITY_LABEL`, `FACILITY_ICON`), `program`, `zone`, `map_no`, `also_sources`. `programs.maps: [{ label, url, as_of }]`
+    (the organizers' own published maps).
+  - `build/core/load.mjs`: a `facility` place needs `facility` and only a facility may have one; `places.program` is checked;
+    `map_no` and `approx_m` must be ≥ 1; `approx_m` needs coordinates.
+  - `build/core/client-data.mjs`: `works.json` works gain `mn` (map_no|null), `ak` (aliases), `as` (also_sources), `am`
+    (approx_m|null). `art-extra.json` programs gain `s` (short name) and `map: [label, url]`.
+  - `build/nav.mjs`: map.html `layers` accepts `facilities`; `focus` accepts `facility:<place id>`.
+  - `build/core/icons.mjs`: icons `wc drop bag eye spark` (facility glyphs; `spark` marks BLINK's "Unique Attractions").
+  - `build/core/crawl.mjs`: `search.json` gzip budget 70 → 76 KB (13 works and 13 facilities more; loaded on first search).
+  - Components: `cards.byLine(work)` (the printed credit `artist_text` when set, else the linked people) and
+    `cards.mapNo(work)` ("BLINK map No. 29"); the work card adds `p.wk-no > span.mapno`; `workMedium` of an `other` work with a
+    category is the category ("Unique Attraction"). The work dialog shows `.wd-mapno` (the number and a link to the map),
+    "Also listed as", "Approximate position", and every source. `.mapno` is styled in `62-art.css`.
+  - Pages: art.html orders each program's works by its map (zone by zone, then number) and credits the map; program pages
+    get the "Official map" fact and, when the program has a map, the `#official-map` section (only what the printed map shows:
+    zones with their number ranges and numbered works, the facilities that cite the map, the source); getting-around.html gets `#blink-facilities` (every facility once, grouped `#fac-<facility>`);
+    map.html gets the Facilities layer (`li.map-li[data-kind="facility"][data-layer="facilities"][data-ic][data-fl]`,
+    `data-mn` on numbered works and facilities, `.pin-facility`, `.mk-facility`, `.lg-facility` in `50-map.css`); venue pages
+    list nearby BLINK facilities. `mountMap` pins accept `kind: "facility"`, `ic` (glyph) and `mn` (read out in the label).

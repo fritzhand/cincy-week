@@ -1032,6 +1032,22 @@ a.stat:hover .l { text-decoration: underline; }
 .prog-day[open] > summary { border-bottom: 0; }
 .prog-day[open] > .tonight { margin-bottom: var(--sp-4); }
 .prog-day + .sub-h { margin-top: var(--sp-6); }
+
+/* ---------- the program's official map (BLINK's folding map, 2026-09-24): numbers by zone, facilities, source ---------- */
+.prog-map-lede { max-width: var(--measure, 68ch); }
+.prog-mapzones { list-style: none; padding: 0; margin: var(--sp-3) 0 var(--sp-4); display: grid; gap: 0 var(--sp-5); grid-template-columns: repeat(auto-fill, minmax(min(100%, 250px), 1fr)); border-top: 1px solid var(--border); }
+.prog-mapzones a { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: baseline; gap: 2px 12px; min-height: var(--tap); padding: 8px 0; border-bottom: 1px solid var(--border); color: var(--text); text-decoration: none; }
+.prog-mapzones a:hover b { text-decoration: underline; text-underline-offset: 0.16em; }
+.prog-mapzones .tnum { font-size: var(--fs-sm); font-weight: var(--wght-strong); }
+.prog-mapzones .faint { grid-column: 1 / -1; font-size: var(--fs-xs); }
+.prog-fac { display: grid; gap: var(--sp-3) var(--sp-5); grid-template-columns: repeat(auto-fill, minmax(min(100%, 250px), 1fr)); margin: var(--sp-2) 0 var(--sp-3); }
+.prog-fac-g .sub-h { display: flex; align-items: center; gap: 8px; margin: 0 0 4px; }
+.prog-fac-g .sub-h .i { width: 18px; height: 18px; flex: none; }
+.prog-fac-g .sub-h .label { margin-left: auto; }
+.prog-fac-s { font-size: var(--fs-sm); color: var(--text-muted); margin: 0 0 4px; }
+.prog-fac-l { list-style: none; padding: 0; margin: 0; font-size: var(--fs-sm); }
+.prog-fac-l li { display: flex; flex-wrap: wrap; align-items: center; gap: 0 8px; min-height: var(--tap); border-bottom: 1px solid var(--border); }
+.prog-fac-l a { display: inline-flex; align-items: center; min-height: var(--tap); }
 /* ---- 40-schedule.css ---- */
 /* ======================================================================
    site/css/40-schedule.css · OWNER: Agent D (schedule & plan)
@@ -1401,6 +1417,12 @@ button.pin-stay:hover > span, .pin-stay[aria-pressed="true"] > span { background
 .pin-stop > span { width: 14px; height: 14px; border-radius: 50%; background: var(--map-pin-bg); border: 3px solid var(--map-rail); }
 .pin-food > span { width: 12px; height: 12px; border-radius: 50%; background: var(--text-muted); border: 2px solid var(--map-pin-bg); box-shadow: 0 0 0 1px var(--text-muted); }
 button.pin-stop:hover > span, .pin-stop[aria-pressed="true"] > span, button.pin-food:hover > span, .pin-food[aria-pressed="true"] > span { background: var(--primary); border-color: var(--primary); width: 18px; height: 18px; }
+/* a BLINK facility (restrooms, Oasis Station, merch, hospitality zone, hike departure, drone viewing): a dark square tag with
+   its glyph, like the printed map's black symbols; the glyph and the list row's words say which one it is */
+.pin-facility > span { display: grid; place-items: center; width: 24px; height: 24px; border-radius: var(--radius-sm); background: var(--primary); color: var(--primary-contrast); border: 2px solid var(--map-pin-bg); box-shadow: var(--shadow-1); }
+.pin-facility .i { width: 15px; height: 15px; }
+button.pin-facility:hover > span, .pin-facility[aria-pressed="true"] > span { background: var(--accent-strong); color: var(--accent-contrast); }
+.pin-facility[aria-pressed="true"] > span { width: 30px; height: 30px; }
 /* hovering a list row lights its pin */
 .pin.is-hi > span { outline: 3px solid var(--focus); outline-offset: 2px; }
 .pin.is-live::after {                                /* live: a river ring that pulses outward (static under reduced motion) */
@@ -1458,6 +1480,8 @@ button.pin-stop:hover > span, .pin-stop[aria-pressed="true"] > span, button.pin-
 .lg-stay { width: 12px; height: 12px; border-radius: var(--radius-xs); border: 2px solid var(--rule-ink); background: var(--map-pin-bg); }
 .lg-stop { width: 12px; height: 12px; border-radius: 50%; border: 3px solid var(--map-rail); background: var(--map-pin-bg); }
 .lg-food { width: 10px; height: 10px; border-radius: 50%; background: var(--text-muted); }
+.lg-facility { display: grid; place-items: center; width: 18px; height: 18px; border-radius: var(--radius-xs); background: var(--primary); color: var(--primary-contrast); }
+.lg-facility .i { width: 13px; height: 13px; }
 .lg-live { width: 14px; height: 14px; border-radius: 50%; border: 3px solid var(--live); }
 .lg-cluster { width: 16px; height: 16px; border-radius: 50%; background: var(--primary); box-shadow: 0 0 0 3px var(--prog-blink); }
 .lg-tram { width: 22px; height: 0; border-top: 2px dashed var(--map-rail); }
@@ -1569,6 +1593,8 @@ button.pin-stop:hover > span, .pin-stop[aria-pressed="true"] > span, button.pin-
 .mk-stay .i { width: 14px; height: 14px; }
 .mk-stop i { width: 14px; height: 14px; border-radius: 50%; border: 3px solid var(--map-rail); background: var(--map-pin-bg); }
 .mk-food i { width: 12px; height: 12px; border-radius: 50%; background: var(--text-muted); }
+.mk-facility { width: 26px; height: 26px; border-radius: var(--radius-sm); background: var(--primary); color: var(--primary-contrast); }
+.mk-facility .i { width: 16px; height: 16px; }
 
 /* ---------- mini-map on venue pages and in dialogs: a crop of the same basemap (<use href="…#bm">) + pins ---------- */
 .mini-map { position: relative; aspect-ratio: 4 / 3; overflow: hidden; border: 1px solid var(--border-strong); background: var(--map-bg); }
@@ -1661,6 +1687,7 @@ button.pin-stop:hover > span, .pin-stop[aria-pressed="true"] > span, button.pin-
 .vp-near a > span:last-child { display: grid; gap: 1px; min-width: 0; }
 .vp-near b { font-weight: var(--wght-strong); overflow-wrap: anywhere; }
 .vp-near .faint { font-size: var(--fs-xs); font-variant-numeric: tabular-nums; }
+.vp-approx { margin-top: 6px; font-size: var(--fs-xs); }
 /* ---- 60-directory.css ---- */
 /* ======================================================================
    site/css/60-directory.css · OWNER: Agent F (directory: people, art, partners)
@@ -1902,6 +1929,19 @@ a.plate[data-tone="dark"]:hover { color: var(--plate-dark-ink); }
 /* verbatim texts can hold long bare URLs: let them wrap instead of widening the dialog or the page */
 #work-dialog .prose, .dp .prose, .wk-full .prose { overflow-wrap: anywhere; }
 .wd-zone-note { margin-top: 6px; font-size: var(--fs-xs); }   /* QA: a work shown at its zone says so */
+
+/* BLINK's official map number ("BLINK map No. 29", 2026-09-24): a small tag in the look of the dialog's stall numbers,
+   underlined in the program ink (identity only); the words carry the meaning, never the color */
+.mapno {
+  display: inline-flex; align-items: center; gap: 4px; padding: 1px 6px 0; min-height: 22px;
+  border: 1px solid var(--border-strong); border-bottom: 3px solid var(--ink-fill); border-radius: var(--radius-xs);
+  font-size: var(--fs-label); font-weight: var(--wght-strong); line-height: 1.2; color: var(--text); font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.work .wk-no { margin-top: 6px; }
+.wd-mapno { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; margin-top: var(--sp-2); font-size: var(--fs-xs); color: var(--text-muted); }
+.wd-mapno a { color: inherit; }
+.wd-approx { margin-top: 6px; font-size: var(--fs-xs); }
 /* ---- 70-visit.css ---- */
 /* ======================================================================
    site/css/70-visit.css · OWNER: Agent E (map, venues & visit)
@@ -2010,6 +2050,24 @@ table.data.walk td.far b { font-style: italic; }
 .near .chip > span:not(.n):not(.stall) { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .near .chip .stall.s { width: 26px; height: 26px; font-size: var(--fs-label); }
 .eat .acts { margin-top: auto; padding-top: var(--sp-3); }
+
+/* ---------- getting-around.html#blink-facilities: BLINK's restrooms, Oasis Stations and more (its maps, 2026-09-24) ---------- */
+.ga-fac-lede { font-size: var(--fs-sm); color: var(--text-muted); max-width: 68ch; }
+.fac-h { display: flex; align-items: center; gap: 10px; margin-top: var(--sp-5); scroll-margin-top: calc(var(--topbar-h) + var(--sp-4)); }
+.fac-h .label { margin-left: auto; }
+.fac-gs { font-size: var(--fs-sm); color: var(--text-muted); margin: 0 0 var(--sp-2); }
+/* the glyph: a dark tag like the printed map's black symbols, the same mark as the map pin */
+.fac-mk { display: inline-grid; place-items: center; flex: none; width: 28px; height: 28px; border-radius: var(--radius-sm); background: var(--primary); color: var(--primary-contrast); }
+.fac-mk .i { width: 18px; height: 18px; }
+.fac-list { list-style: none; padding: 0; margin: 0; border-top: var(--rule-mid) solid var(--rule-ink); display: grid; gap: 0 var(--sp-6); grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); }
+.fac { display: grid; grid-template-columns: 28px minmax(0, 1fr); gap: 10px; padding: 10px 0; border-bottom: 1px solid var(--border); scroll-margin-top: calc(var(--topbar-h) + var(--sp-4)); overflow-wrap: anywhere; }
+.fac:target { box-shadow: inset 0 0 0 2px var(--accent); }
+.fac-b > p { margin: 0; }
+.fac-t { font-size: var(--fs-sm); }
+.fac-m { display: block; font-size: var(--fs-xs); color: var(--text-muted); }
+.fac-s { font-size: var(--fs-xs); margin-top: 2px !important; }
+.fac .acts { display: flex; flex-wrap: wrap; align-items: center; gap: 4px var(--sp-2); margin-top: 6px !important; }
+.fac-src { font-size: var(--fs-xs); }
 /* ---- 80-dialogs.css ---- */
 /* ======================================================================
    site/css/80-dialogs.css · OWNER: Agent A (core engine)

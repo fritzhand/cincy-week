@@ -22,7 +22,7 @@ export function pages(ctx) {
   const progLine = PROGRAM_PAGES.map((pp) => P.get(pp.programs[0])).filter(Boolean)
     .map((p) => `${c.progName(p.id)} (${h.fmtDateRange(p.dates.start, p.dates.end)})`);
   const counts = [
-    [db.counts.events, "events and exhibitions"], [db.counts.people, "people"], [db.counts.venues, "venues"], [db.counts.works, "works of art"],
+    [db.counts.events, "events and exhibitions"], [db.counts.people, "people"], [db.counts.venues, "venues"], [db.counts.works, "works and attractions"],
     [db.orgs.length, "sponsors and partners"], [db.stays.length, "places to stay"], [db.faqs.length, "questions and answers"], [db.news.length, "news stories"],
   ];
 

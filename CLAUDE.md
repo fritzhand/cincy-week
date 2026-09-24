@@ -133,6 +133,24 @@ prints "Address unconfirmed · not on the map" and gets a warning; that is corre
   (`build/pages/home.mjs`).
 - **Program pages** (`programs.json`): `tickets[].details` is shown (the organizer's words); `tickets[].notes` never is.
 
+### BLINK's official map (numbers and facilities)
+
+BLINK's printed folding map (https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf, dated Sep 23) numbers
+every stop zone by zone (Findlay Market 1–15 … Covington 73–92). `scripts/extract-blink-map.py` turned it into
+`research/blink-map/blink-map-2026.json` (a frozen extraction with a georeference; the PDF stays in `.cache/`), and
+`node scripts/apply-blink-map.mjs` applied it to `data/` (idempotent; `--check` writes nothing and exits 1 when data/ would
+change; every decision is logged and written into the records' `notes` between `BLINK official map (2026-09-24):` and
+`[/BLINK map]`, so write your own notes outside that span). Re-running it re-applies the map's values to the records it owns.
+- `works[].map_no` is the printed number (pages say "BLINK map No. 29"). The title is the printed title, verbatim (except the
+  map's generic "Mural" and the two entries in the script's `KEEP_TITLE`); `aliases` keeps BLINK's online-map title when it
+  differs by more than case or punctuation; `also_sources` cites the PDF. `artist_text`, when set, is the credit as printed
+  and is the by-line (the linked people are listed under it in the work dialog).
+- `approx_m` (works, venues, places): the coordinates were read off the schematic map, good to about that many meters; pages
+  print "Approximate position". Prefer a published or geocoded point and drop `approx_m` when you have one.
+- `places` kind `facility` with `facility` (`oasis-station restroom merch-shop hospitality-zone hike-departure drone-viewing`),
+  `program`, `zone`, `map_no`: listed on getting-around.html#blink-facilities, on the BLINK page and in map.html's Facilities layer.
+- `programs[].maps` lists the organizers' own maps (the BLINK page's "Official map" fact and source line).
+
 ### News
 
 `refresh-news.yml` runs `scripts/fetch-cincy-news.py` on a schedule (daily in September, every 6 hours Oct 1–12,
@@ -235,6 +253,7 @@ names its original owner.
 | **E · Map, venues & visit** | `scripts/build-basemap.mjs`, `site/map/*`, `data/map.json`, `site/js/lib/geo.js`, `site/js/features/map.js`, `build/components/venue-card.mjs`, `build/pages/{map,venues,visit}.mjs`, `site/css/{50-map,51-venues,70-visit}.css`, `tests/geo.test.mjs` |
 | **F · Directory** | `scripts/fetch-images.py`, `site/img/{p,o,w}/`, `data/images.json`, `build/core/images.mjs`*, `build/components/{person-card,work-card,org-logo}.mjs`, `build/pages/{people,art,partners,_directory}.mjs`, `site/js/features/directory.js`, `site/js/lib/directory.js`, `site/js/core/work-dialog.js`*, `site/css/{60-directory,61-person,62-art}.css`, `tests/directory.test.mjs` |
 | **G · Home, programs & info** | `build/pages/{home,program,news,faq,about}.mjs`, `site/js/features/{home,faq,news,progdays}.js`, `site/js/lib/{week,athour}.js`, `scripts/fetch-cincy-news.py`, `data/news.json`, `site/css/{30-home,31-program,85-news,86-faq}.css`, `tests/{home,week,athour}.test.mjs` |
+| **BLINK map pass** (Sep 24) | `scripts/extract-blink-map.py`, `research/blink-map/`, `scripts/apply-blink-map.mjs`, `tests/blink-map.test.mjs` (schema, pages, the script's idempotence) |
 | **QA passes** | `tests/qa-data.test.mjs` (data-accuracy audit), `tests/qa-ux.test.mjs` (UX audit); their write-ups are `.cache/qa-data.md` and `.cache/qa-ux.md` (local only) |
 
 \* lives under `core/` for path reasons. The CSS partials keep the design's numbering (00…99) and are concatenated
