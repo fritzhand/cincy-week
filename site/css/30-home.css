@@ -247,3 +247,38 @@ a.stat:hover .l { text-decoration: underline; }
 .door .i { width: 22px; height: 22px; }
 .door strong { font-family: var(--font-display); font-size: var(--fs-md); font-weight: var(--wght-head); line-height: 1.2; }
 .door span { display: block; font-size: var(--fs-xs); color: var(--text-muted); }
+
+/* ---------- G additions: ear details, program card lines, fact tiles, highlights ---------- */
+.ear .nn-st:empty { display: none; }
+.ear .nn-st { font-weight: var(--wght-strong); color: var(--text); }
+.ear [data-status="live"] .nn-st { color: var(--live-ink); }
+.ear [data-status="past"] .nn-st { color: var(--text-faint); }
+.ear [data-status="past"] .t { color: var(--text-muted); }
+.nn-item .progress { grid-column: 2; }
+.nn-more, .ear-more a { display: inline-flex; align-items: center; gap: 4px; min-height: var(--tap); font-size: var(--fs-sm); font-weight: var(--wght-strong); }
+.ear-more { margin-top: var(--sp-2); }
+.nn-none, .ear-note { font-size: var(--fs-sm); color: var(--text-muted); }
+.nn-onview { margin-top: var(--sp-3); font-size: var(--fs-sm); }
+.nn-onview a { font-weight: var(--wght-strong); }
+.nn-item > .i.bullet { width: 24px; height: 24px; color: var(--text-muted); }
+.ear-recap { list-style: none; padding: 0; margin: var(--sp-3) 0 var(--sp-4); display: grid; grid-template-columns: 1fr 1fr; border-top: 1px solid var(--border); }
+.ear-recap li { padding: 8px 0; border-bottom: 1px solid var(--border); font-size: var(--fs-sm); color: var(--text-muted); }
+.ear-recap b { display: block; font-family: var(--font-display); font-size: var(--fs-lg); font-weight: var(--wght-head); color: var(--text); line-height: 1.1; }
+.countdown { margin: var(--sp-2) 0 var(--sp-4); }
+.countdown .label { color: var(--text-muted); max-width: 16ch; }
+.ticker-item .ti-t { overflow: hidden; text-overflow: ellipsis; }
+.hero-search > span { flex: 1 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.prog-card .pc-ed { margin-top: 4px; font-size: var(--fs-xs); font-weight: var(--wght-strong); color: var(--text); }
+.prog-card .pc-q { font-family: var(--font-display); font-style: italic; font-size: var(--fs-sm); line-height: 1.45; }
+.stats-facts { margin-top: 0; border-top: 0; }
+.stats-facts .stat { display: flex; flex-direction: column; gap: 4px; }
+.stats-facts .n { font-size: 1.75rem; }
+.stats-facts .lp { display: flex; align-items: center; gap: 6px; font-size: var(--fs-xs); font-weight: var(--wght-strong); color: var(--ink-text); }
+.stats-facts .lp .bullet { width: 18px; height: 18px; }
+.stats-facts .src { margin-top: auto; font-size: var(--fs-label); color: var(--text-faint); }
+.stats-facts .src a { color: var(--text-muted); }
+.home-highlights { margin-top: var(--sp-2); }
+/* the new-tab note (.sr-only, absolutely positioned) must stay inside the scroller, or it widens the page */
+.ticker-viewport, .ticker-item { position: relative; }
+/* under the "Now" and "Open now" labels the word "Now" would repeat itself; "Started" (end time not listed) stays */
+.nn-group.is-now [data-status="live"] .nn-st, .nn-group.is-open [data-status="live"] .nn-st { display: none; }

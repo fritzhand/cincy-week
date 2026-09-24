@@ -1,34 +1,828 @@
 [
   {
-    "id": "blink-when-and-where",
-    "program": "blink",
-    "topic": "Dates and places",
-    "q": "When and Where is BLINK?",
-    "a": "BLINK® will take place October 8-11, 2026. BLINK spans 30+ city blocks from Findlay Market in Cincinnati to Covington in Northern Kentucky.",
-    "source_url": "https://www.blinkcincinnati.com/faqs"
-  },
-  {
-    "id": "blink-what-is-it",
-    "program": "blink",
-    "topic": "About",
-    "q": "What is BLINK?",
-    "a": "BLINK® is the nation’s largest immersive event. This awe-inspiring free, public art event takes place over four nights in the urban core of Cincinnati and Northern Kentucky with large-scale projection mapping, media light, interactive light sculptures, murals, and more by local, national and international artists.",
-    "source_url": "https://www.blinkcincinnati.com/faqs"
-  },
-  {
-    "id": "scw-who-is-startupcincy-week-for",
-    "program": "scw",
-    "topic": null,
-    "q": "Who is StartupCincy Week for?",
-    "a": "Honestly, everyone! From super seasoned founders and investors to folks just looking to get a little of that startup magic and inspo - there truly is something here for everyone. Our flexible programming allows you to write your own StartupCincy story and pick the path that makes the most sense for you!",
-    "source_url": "https://startupcincyweek.com/en/faq-page"
-  },
-  {
     "id": "caw-what-is-cincinnati-art-week",
     "program": "caw",
     "topic": null,
     "q": "What is Cincinnati Art Week?",
     "a": "Cincinnati Art Week is a new annual celebration of Cincinnati's creative community, bringing together artists, galleries, cultural spaces, neighborhoods, and visitors for one highly visible, energized week.",
     "source_url": "https://cincinnatiartweek.com/faqs-2"
+  },
+  {
+    "id": "caw-when-is-it",
+    "program": "caw",
+    "topic": null,
+    "q": "When is it?",
+    "a": "October 3 - October 10, 2026.",
+    "source_url": "https://cincinnatiartweek.com/faqs-2"
+  },
+  {
+    "id": "caw-where-does-it-take-place",
+    "program": "caw",
+    "topic": null,
+    "q": "Where does it take place?",
+    "a": "The inaugural week takes place throughout storefronts and cultural spaces across Over-the-Rhine. The full schedule and interactive map will be announced soon.",
+    "source_url": "https://cincinnatiartweek.com/faqs-2"
+  },
+  {
+    "id": "caw-is-it-free",
+    "program": "caw",
+    "topic": null,
+    "q": "Is it free?",
+    "a": "Most experiences are free to attend. Select special programs may require reservations or tickets. We also encourage visitors to support participating artists and local businesses whenever possible.",
+    "source_url": "https://cincinnatiartweek.com/faqs-2"
+  },
+  {
+    "id": "caw-what-can-i-expect",
+    "program": "caw",
+    "topic": null,
+    "q": "What can I expect?",
+    "a": "Expect exhibitions, pop-up galleries, artist talks, performances, happy hours, public programming, and opportunities to meet the people shaping Cincinnati's creative community.",
+    "source_url": "https://cincinnatiartweek.com/faqs-2"
+  },
+  {
+    "id": "caw-who-should-attend-cincinnati-art-week",
+    "program": "caw",
+    "topic": null,
+    "q": "Who should attend Cincinnati Art Week?",
+    "a": "Anyone with a sense of curiosity. We welcomes artists, galleries, collectors, students, visitors, neighborhood residents, and anyone interested in exploring creativity.",
+    "source_url": "https://cincinnatiartweek.com/faqs-2"
+  },
+  {
+    "id": "caw-where-can-i-find-the-schedule",
+    "program": "caw",
+    "topic": null,
+    "q": "Where can I find the schedule?",
+    "a": "The full schedule, participating venues, and interactive map will be announced closer to the week. Join our mailing list or follow along on Instagram for updates.",
+    "source_url": "https://cincinnatiartweek.com/faqs-2"
+  },
+  {
+    "id": "caw-is-it-connected-to-blink-or-fotofocus",
+    "program": "caw",
+    "topic": null,
+    "q": "Is it connected to BLINK or FotoFocus?",
+    "a": "Cincinnati Art Week is part of an extraordinary season for the arts. We are independent of BLINK and FotoFocus, but together hope to showcase the breadth of Cincinnati's creative community and make fall one of the best times to experience the city.",
+    "source_url": "https://cincinnatiartweek.com/faqs-2"
+  },
+  {
+    "id": "caw-who-s-behind-cincinnati-art-week",
+    "program": "caw",
+    "topic": null,
+    "q": "Who’s behind Cincinnati Art Week?",
+    "a": "Cincinnati Art Week is a project of Cincy Nice in partnership with No Standing. Led by a team of artists, organizers, and creative leaders with deep roots in Cincinnati's cultural community, the initiative builds on years of experience producing civic and cultural experiences across the city.",
+    "source_url": "https://cincinnatiartweek.com/faqs-2"
+  },
+  {
+    "id": "caw-how-can-i-collaborate-with-cincinnati-art-week",
+    "program": "caw",
+    "topic": null,
+    "q": "How can I collaborate with Cincinnati Art Week?",
+    "a": "Cincinnati Art Week grows through partnerships. Whether you're an artist, business, neighborhood partner, or creative from another city, we'd love to connect. Our inaugural year is focused on elevating and connecting existing creative activity, with room to grow new collaborations over time.",
+    "source_url": "https://cincinnatiartweek.com/faqs-2"
+  },
+  {
+    "id": "caw-why-was-the-week-created",
+    "program": "caw",
+    "topic": null,
+    "q": "Why was the week created?",
+    "a": "Cincinnati Art Week was created to celebrate the artists, galleries, and creative spaces that make Cincinnati an art city—and to make it easier for more people to discover them.",
+    "source_url": "https://cincinnatiartweek.com/faqs-2"
+  },
+  {
+    "id": "caw-how-can-i-contact-the-team",
+    "program": "caw",
+    "topic": null,
+    "q": "How can I contact the team?",
+    "a": "We'd love to hear from you. Send us a note at team@cincinnatiartweek.com or stop by our open office hours at 1417 Main St, Monday–Wednesday from 11 AM–3 PM.",
+    "source_url": "https://cincinnatiartweek.com/faqs-2"
+  },
+  {
+    "id": "scw-who-is-startupcincy-week-for",
+    "program": "scw",
+    "topic": "StartupCincy Week FAQ",
+    "q": "Who is StartupCincy Week for?",
+    "a": "Honestly, everyone! From super seasoned founders and investors to folks just looking to get a little of that startup magic and inspo - there truly is something here for everyone. Our flexible programming allows you to write your own StartupCincy story and pick the path that makes the most sense for you!",
+    "source_url": "https://startupcincyweek.com/en/faq-page"
+  },
+  {
+    "id": "scw-where-can-i-park-for-startupcincy-week-at-union-hall",
+    "program": "scw",
+    "topic": "StartupCincy Week FAQ",
+    "q": "Where can I park for StartupCincy Week at Union Hall?",
+    "a": "We recommend two convenient parking options near Union Hall: Mercer Commons Garage, located at 1310 Vine Street, Cincinnati, OH 45202, or Washington Park Garage, located at 1230 Elm Street, Cincinnati, OH 45202.\n\nBoth garages are within a short walking distance to Union Hall and offer convenient access for attendees. Please note: we do not offer parking validation.",
+    "source_url": "https://startupcincyweek.com/en/faq-page"
+  },
+  {
+    "id": "scw-can-i-attend-startupcincy-week-virtually",
+    "program": "scw",
+    "topic": "StartupCincy Week FAQ",
+    "q": "Can I attend StartupCincy Week virtually?",
+    "a": "At this time, StartupCincy Week is a fully live and in-person event. We’ve found that the real-time energy field and human connections of this week simply can’t be replicated over a screen. Feeling is believing!\n\nThat said, we will be doing our best to provide attendees with as much supplemental content post-week as we can!",
+    "source_url": "https://startupcincyweek.com/en/faq-page"
+  },
+  {
+    "id": "scw-when-will-the-agenda-for-startupcincy-week-be-released",
+    "program": "scw",
+    "topic": "StartupCincy Week FAQ",
+    "q": "When will the agenda for StartupCincy Week be released?",
+    "a": "The full agenda will be released around August. Be sure to subscribe to our newsletter so you’re the first to know when it drops, along with speaker announcements, session highlights, and more!",
+    "source_url": "https://startupcincyweek.com/en/faq-page"
+  },
+  {
+    "id": "scw-what-food-will-be-served-at-startupcincy-week",
+    "program": "scw",
+    "topic": "StartupCincy Week FAQ",
+    "q": "What food will be served at StartupCincy Week?",
+    "a": "We’ve got you covered (and caffeinated)! Each day of StartupCincy Week, we’ll provide light bites and coffee for breakfast to help you start strong. We’re also hosting one community lunch during the week to bring everyone together over great food and conversation.\n\nFor other meals, we encourage you to explore the amazing restaurants in the Over-the-Rhine (OTR) neighborhood—home to some of Cincinnati’s best spots. We’ll even have exclusive discounts at a few of our favorite local restaurants for attendees to enjoy.",
+    "source_url": "https://startupcincyweek.com/en/faq-page"
+  },
+  {
+    "id": "scw-how-can-i-get-involved-or-volunteer",
+    "program": "scw",
+    "topic": "StartupCincy Week FAQ",
+    "q": "How can I get involved or volunteer?",
+    "a": "Volunteering is a great way to engage with the community. You can find information about volunteer opportunities here.",
+    "source_url": "https://startupcincyweek.com/en/faq-page"
+  },
+  {
+    "id": "scw-where-do-i-go-to-check-in-for-startupcincy-week",
+    "program": "scw",
+    "topic": "StartupCincy Week FAQ",
+    "q": "Where do I go to check in for StartupCincy Week?",
+    "a": "All attendees should check in each day at Union Hall (1311 Vine Street) before heading to sessions or events at other locations.",
+    "source_url": "https://startupcincyweek.com/en/faq-page"
+  },
+  {
+    "id": "scw-i-really-want-to-attend-startupcincy-week-but-i-can-t-afford",
+    "program": "scw",
+    "topic": "StartupCincy Week FAQ",
+    "q": "I really want to attend StartupCincy Week, but I can’t afford it—what should I do?",
+    "a": "We never want cost to be a barrier for founders or entrepreneurs. If you're interested in attending but cost is holding you back, please reach out to us directly at info@startupcincy.com. We’ll do our best to work with you and find a way to get you plugged in.",
+    "source_url": "https://startupcincyweek.com/en/faq-page"
+  },
+  {
+    "id": "scw-do-you-offer-accommodations-for-guests-with-special-needs",
+    "program": "scw",
+    "topic": "StartupCincy Week FAQ",
+    "q": "Do you offer accommodations for guests with special needs?",
+    "a": "Yes! We want everyone to have a great experience at our events. If you or someone in your group has specific accessibility needs, we ask that you please reach out to us in advance.",
+    "source_url": "https://startupcincyweek.com/en/faq-page"
+  },
+  {
+    "id": "scw-i-m-visiting-from-out-of-town-do-you-recommend-a-place-to-st",
+    "program": "scw",
+    "topic": "StartupCincy Week FAQ",
+    "q": "I’m visiting from out of town. Do you recommend a place to stay?",
+    "a": "Yes! Head to the StartupCincy Week website and check out the “Plan Your Visit” section. You'll find recommendations for nearby Airbnbs and a special connection to our friends at The McKinley Hotel, all conveniently located close to the event.",
+    "source_url": "https://startupcincyweek.com/en/faq-page"
+  },
+  {
+    "id": "scw-what-is-startupcincy",
+    "program": "scw",
+    "topic": "About StartupCincy FAQ (startupcincy.com)",
+    "q": "What is StartupCincy?",
+    "a": "StartupCincy is a community and coalition of entrepreneurial support organizations that inspire and support startups at all stages of their journey, from idea to scale.",
+    "source_url": "https://startupcincy.com/about-startupcincy/"
+  },
+  {
+    "id": "scw-how-can-i-get-involved-with-startupcincy",
+    "program": "scw",
+    "topic": "About StartupCincy FAQ (startupcincy.com)",
+    "q": "How can I get involved with StartupCincy?",
+    "a": "You can get involved by attending events, exploring our Resource Hub, signing up for our newsletter and checking out our digital “Welcome to the Ecosystem” kit, or by signing up for our next “Welcome to the Ecosystem” session.",
+    "source_url": "https://startupcincy.com/about-startupcincy/"
+  },
+  {
+    "id": "scw-what-is-startupcincy-week",
+    "program": "scw",
+    "topic": "About StartupCincy FAQ (startupcincy.com)",
+    "q": "What is StartupCincy Week?",
+    "a": "StartupCincy Week is an annual event that brings together entrepreneurs, investors, and community leaders to celebrate and support the region’s startup ecosystem. Learn more here.",
+    "source_url": "https://startupcincy.com/about-startupcincy/"
+  },
+  {
+    "id": "scw-what-resources-are-available-to-startups-through-startupcinc",
+    "program": "scw",
+    "topic": "About StartupCincy FAQ (startupcincy.com)",
+    "q": "What resources are available to startups through StartupCincy?",
+    "a": "Our Resource Hub makes it easy to navigate the ecosystem and access key resources, including:\n\n- Resource Compass – A curated guide to accelerators, workshops, funding, and startup programs.\n- Ecosystem Calendar – A single place to find startup events, updated automatically.\n- Ecosystem Passport – Free access to coworking spaces, maker studios, and innovation hubs.\n- Startup Job Board – A direct connection between talent and hiring startups.\n- Slack Community – A real-time space for founders, investors, and ecosystem leaders.\n- Dealroom – A live dashboard showcasing Cincinnati’s top startups, funding rounds, and investment activity.",
+    "source_url": "https://startupcincy.com/about-startupcincy/"
+  },
+  {
+    "id": "scw-what-is-the-digital-front-door",
+    "program": "scw",
+    "topic": "About StartupCincy FAQ (startupcincy.com)",
+    "q": "What is the Digital Front Door?",
+    "a": "The Digital Front Door, aka our Resource Hub, is a curated collection of tools, events, and opportunities tailored to help startups and entrepreneurs find the right support at any stage of their journey.",
+    "source_url": "https://startupcincy.com/about-startupcincy/"
+  },
+  {
+    "id": "scw-how-do-i-get-started-with-my-startup-in-cincinnati",
+    "program": "scw",
+    "topic": "About StartupCincy FAQ (startupcincy.com)",
+    "q": "How do I get started with my startup in Cincinnati?",
+    "a": "Start by exploring the Resource Hub, attending local events, and connecting with StartupCincy’s network of support organizations, mentors, and funding opportunities to kickstart your journey.",
+    "source_url": "https://startupcincy.com/about-startupcincy/"
+  },
+  {
+    "id": "scw-what-kind-of-funding-opportunities-exist-in-cincinnati",
+    "program": "scw",
+    "topic": "About StartupCincy FAQ (startupcincy.com)",
+    "q": "What kind of funding opportunities exist in Cincinnati?",
+    "a": "The region boasts a strong network of local investors, access to national venture capital, and early-stage funding opportunities.",
+    "source_url": "https://startupcincy.com/about-startupcincy/"
+  },
+  {
+    "id": "scw-how-does-startupcincy-help-startups-connect-with-talent",
+    "program": "scw",
+    "topic": "About StartupCincy FAQ (startupcincy.com)",
+    "q": "How does StartupCincy help startups connect with talent?",
+    "a": "The ecosystem includes job boards, university partnerships, and a network of skilled professionals, helping startups find and retain the right team to grow.",
+    "source_url": "https://startupcincy.com/about-startupcincy/"
+  },
+  {
+    "id": "scw-how-can-i-learn-about-upcoming-events-in-the-ecosystem",
+    "program": "scw",
+    "topic": "About StartupCincy FAQ (startupcincy.com)",
+    "q": "How can I learn about upcoming events in the ecosystem?",
+    "a": "Check out the StartupCincy ecosystem calendar for details on events, workshops, and networking opportunities happening across the region.",
+    "source_url": "https://startupcincy.com/about-startupcincy/"
+  },
+  {
+    "id": "scw-can-non-tech-startups-thrive-in-cincinnati",
+    "program": "scw",
+    "topic": "About StartupCincy FAQ (startupcincy.com)",
+    "q": "Can non-tech startups thrive in Cincinnati?",
+    "a": "Absolutely. While tech startups are prominent, Cincinnati supports ventures across industries like consumer goods, healthcare, logistics, and creative services.",
+    "source_url": "https://startupcincy.com/about-startupcincy/"
+  },
+  {
+    "id": "scw-who-can-benefit-from-startupcincy",
+    "program": "scw",
+    "topic": "About StartupCincy FAQ (startupcincy.com)",
+    "q": "Who can benefit from StartupCincy?",
+    "a": "Entrepreneurs, startup founders, startups at any stage, small business owners, investors, and anyone interested in Cincinnati’s entrepreneurial ecosystem can benefit.",
+    "source_url": "https://startupcincy.com/about-startupcincy/"
+  },
+  {
+    "id": "scw-are-there-coworking-spaces-or-innovation-hubs-in-cincinnati",
+    "program": "scw",
+    "topic": "About StartupCincy FAQ (startupcincy.com)",
+    "q": "Are there coworking spaces or innovation hubs in Cincinnati?",
+    "a": "Yes, Cincinnati has several coworking spaces and innovation hubs, such as Union Hall and 1819 Innovation Hub, which serve as collaborative spaces for entrepreneurs and innovators. You can explore our ecosystem’s coworking spaces through the Ecosystem Passport.",
+    "source_url": "https://startupcincy.com/about-startupcincy/"
+  },
+  {
+    "id": "scw-how-do-i-find-mentors-or-advisors-in-the-startupcincy-networ",
+    "program": "scw",
+    "topic": "About StartupCincy FAQ (startupcincy.com)",
+    "q": "How do I find mentors or advisors in the StartupCincy network?",
+    "a": "You can connect with mentors and advisors through StartupCincy events, our online community Slack, or by reaching out to entrepreneurial support organizations in the region.",
+    "source_url": "https://startupcincy.com/about-startupcincy/"
+  },
+  {
+    "id": "scw-how-does-cincinnati-compare-to-other-startup-ecosystems",
+    "program": "scw",
+    "topic": "About StartupCincy FAQ (startupcincy.com)",
+    "q": "How does Cincinnati compare to other startup ecosystems?",
+    "a": "Cincinnati offers unique advantages like access to corporations, robust local and national investment networks, and a collaborative community of experienced founders and entrepreneur support organizations. With 9 Fortune 500 companies headquartered here, Cincinnati offers startups unique access to industry leaders for partnerships, pilots, and procurement opportunities. Cincinnati is also defined by its connections. From the willingness of experienced founders to mentor new entrepreneurs to its strategic position as a logistics hub, the city offers advantages that other ecosystems can’t match.",
+    "source_url": "https://startupcincy.com/about-startupcincy/"
+  },
+  {
+    "id": "scw-what-industries-thrive-in-cincinnati-s-startup-ecosystem",
+    "program": "scw",
+    "topic": "About StartupCincy FAQ (startupcincy.com)",
+    "q": "What industries thrive in Cincinnati’s startup ecosystem?",
+    "a": "Key industries include technology, consumer goods, healthcare innovation, and supply chain logistics, bolstered by the presence of major corporations and a skilled workforce.",
+    "source_url": "https://startupcincy.com/about-startupcincy/"
+  },
+  {
+    "id": "scw-do-i-need-prior-startup-experience-to-apply",
+    "program": "scw",
+    "topic": "Startup Fellows Program FAQ (Cintrifuse; the Student Pitch Competition prize is a Builder Fellows spot)",
+    "q": "Do I need prior startup experience to apply?",
+    "a": "No. Curiosity, initiative, and a willingness to learn are the most important factors. Many Fellows are exploring startups for the first time.",
+    "source_url": "https://cintrifuse.com/startup-fellows-program/"
+  },
+  {
+    "id": "scw-what-types-of-roles-do-startup-fellows-work-in",
+    "program": "scw",
+    "topic": "Startup Fellows Program FAQ (Cintrifuse; the Student Pitch Competition prize is a Builder Fellows spot)",
+    "q": "What types of roles do Startup Fellows work in?",
+    "a": "Roles vary by company, but common areas include marketing, product, design, software engineering, operations, customer research, and sales. We match based on your skills and interests.",
+    "source_url": "https://cintrifuse.com/startup-fellows-program/"
+  },
+  {
+    "id": "scw-what-if-i-don-t-have-a-fully-formed-business-idea-for-the-fo",
+    "program": "scw",
+    "topic": "Startup Fellows Program FAQ (Cintrifuse; the Student Pitch Competition prize is a Builder Fellows spot)",
+    "q": "What if I don’t have a fully formed business idea for the Founder Fellow track?",
+    "a": "That’s okay. You simply need a direction, concept, or problem you want to explore. The program helps you validate, test, and shape the idea.",
+    "source_url": "https://cintrifuse.com/startup-fellows-program/"
+  },
+  {
+    "id": "scw-how-does-the-matching-process-work",
+    "program": "scw",
+    "topic": "Startup Fellows Program FAQ (Cintrifuse; the Student Pitch Competition prize is a Builder Fellows spot)",
+    "q": "How does the matching process work?",
+    "a": "After reviewing applications, we identify strong student–startup matches. You’ll then interview with the company to assess skills, working style, and team fit before any placement is finalized.",
+    "source_url": "https://cintrifuse.com/startup-fellows-program/"
+  },
+  {
+    "id": "scw-are-fellows-paid",
+    "program": "scw",
+    "topic": "Startup Fellows Program FAQ (Cintrifuse; the Student Pitch Competition prize is a Builder Fellows spot)",
+    "q": "Are Fellows paid?",
+    "a": "Yes. Startup Fellows are paid $17+/hour for full-time summer work. Founder Fellows receive a $10,000 non-dilutive grant to support building their venture.",
+    "source_url": "https://cintrifuse.com/startup-fellows-program/"
+  },
+  {
+    "id": "scw-is-this-an-in-person-program",
+    "program": "scw",
+    "topic": "Startup Fellows Program FAQ (Cintrifuse; the Student Pitch Competition prize is a Builder Fellows spot)",
+    "q": "Is this an in-person program?",
+    "a": "Yes. Fellows work in-person in Cincinnati. The cohort experience—gatherings, workshops, founder talks—is designed to help you build lasting relationships in the StartupCincy community.",
+    "source_url": "https://cintrifuse.com/startup-fellows-program/"
+  },
+  {
+    "id": "blink-when-and-where-is-blink",
+    "program": "blink",
+    "topic": "Event Info",
+    "q": "When and Where is BLINK?",
+    "a": "BLINK® will take place October 8-11, 2026. BLINK spans 30+ city blocks from Findlay Market in Cincinnati to Covington in Northern Kentucky.",
+    "source_url": "https://www.blinkcincinnati.com/faqs"
+  },
+  {
+    "id": "blink-what-is-blink",
+    "program": "blink",
+    "topic": "Event Info",
+    "q": "What is BLINK?",
+    "a": "BLINK® is the nation’s largest immersive event. This awe-inspiring free, public art event takes place over four nights in the urban core of Cincinnati and Northern Kentucky with large-scale projection mapping, media light, interactive light sculptures, murals, and more by local, national and international artists.",
+    "source_url": "https://www.blinkcincinnati.com/faqs"
+  },
+  {
+    "id": "blink-when-and-where-is-the-parade",
+    "program": "blink",
+    "topic": "Event Info",
+    "q": "When and where is the Parade?",
+    "a": "Our opening parade is evolving into an immersive, 5-block celebration surrounding TQL Stadium in the West End! Join us on October 8th from 4:00 - 9:00 PM for live music, interactive light art, and local food vendors.\n\nAt sundown, we’ll officially launch the 2026 festival with a collective \"Turn The Lights On\" moment, capped off by a spectacular drone and light show!",
+    "source_url": "https://www.blinkcincinnati.com/faqs"
+  },
+  {
+    "id": "blink-is-each-night-the-same",
+    "program": "blink",
+    "topic": "Event Info",
+    "q": "Is each night the same?",
+    "a": "With a few exceptions, each night will feature the same shows and art installations. The unique attractions may vary each night.",
+    "source_url": "https://www.blinkcincinnati.com/faqs"
+  },
+  {
+    "id": "blink-are-tickets-needed",
+    "program": "blink",
+    "topic": "Event Info",
+    "q": "Are tickets needed?",
+    "a": "No - BLINK is completely free and open to the public!",
+    "source_url": "https://www.blinkcincinnati.com/faqs"
+  },
+  {
+    "id": "blink-are-pets-allowed",
+    "program": "blink",
+    "topic": "Event Info",
+    "q": "Are pets allowed?",
+    "a": "Trained Service Animals are welcome with their handlers at BLINK. Due to the large crowds, we encourage you to leave pets and all other animals at home.\n\nIf you have questions about bringing your service animal to BLINK, please please email our Accessibility Director, Holly Maniatty of ALL IN EVENTS at: Access@blinkcincinnati.com.",
+    "source_url": "https://www.blinkcincinnati.com/faqs"
+  },
+  {
+    "id": "blink-will-there-be-food-and-beverages-available",
+    "program": "blink",
+    "topic": "Food and Drink",
+    "q": "Will there be food and beverages available?",
+    "a": "Yes – food will be available in multiple locations.",
+    "source_url": "https://www.blinkcincinnati.com/faqs"
+  },
+  {
+    "id": "blink-will-there-be-alcoholic-beverages-available",
+    "program": "blink",
+    "topic": "Food and Drink",
+    "q": "Will there be alcoholic beverages available?",
+    "a": "Yes – wine, beer, and liquor will be available in multiple locations.",
+    "source_url": "https://www.blinkcincinnati.com/faqs"
+  },
+  {
+    "id": "blink-are-there-non-alcoholic-beverages-are-available",
+    "program": "blink",
+    "topic": "Food and Drink",
+    "q": "Are there non-alcoholic beverages are available?",
+    "a": "Yes – non-alcoholic beverages will be available in multiple locations.",
+    "source_url": "https://www.blinkcincinnati.com/faqs"
+  },
+  {
+    "id": "blink-can-i-pay-with-credit-card",
+    "program": "blink",
+    "topic": "Food and Drink",
+    "q": "Can I pay with credit card?",
+    "a": "All alcoholic and non-alcoholic beverages accept both cash and credit card payments. However, some food vendors may be cash only.",
+    "source_url": "https://www.blinkcincinnati.com/faqs"
+  },
+  {
+    "id": "blink-where-should-i-park",
+    "program": "blink",
+    "topic": "Getting Around",
+    "q": "Where should I park?",
+    "a": "All parking garages outside of the BLINK footprint will be open at event pricing.\n\nRides on METRO and TANK are also an option during BLINK.\n\nIn addition, this year we are partnering with LAZ Parking, which is offering RESERVED parking spaces at select locations. Please CLICK HERE to RESERVE your spot today! Once you purchase your reserved parking pass, there will be a button on the confirmation page to view your pass, as well as in a confirmation email that you will receive.\n\nPlease note that parking passes are location specific - depending on where you purchase the parking, the redemption instructions will be exclusive to that parking location. Please also note that if you stay longer than your reservation, you will be charged for additional time.\n\nFor a list of other parking options, we recommend visiting the below resources to help with planning!\n\nhttps://www.lazparking.com/\n\nhttps://www.visitcincy.com/plan-your-visit/transportation/parking/",
+    "source_url": "https://www.blinkcincinnati.com/faqs"
+  },
+  {
+    "id": "blink-how-should-i-navigate-between-each-installation",
+    "program": "blink",
+    "topic": "Getting Around",
+    "q": "How should I navigate between each installation?",
+    "a": "You can walk between installations. On the Cincinnati side, take the streetcar and exit at each stop to view installations. Streetcar ridership is free. Keep an eye out for our Event Map which will be released closer to the event, as we will be suggesting paths.",
+    "source_url": "https://www.blinkcincinnati.com/faqs"
+  },
+  {
+    "id": "blink-can-i-view-blink-via-automobile",
+    "program": "blink",
+    "topic": "Getting Around",
+    "q": "Can I view BLINK via automobile?",
+    "a": "No. City streets within the BLINK footprint are closed to automobiles. The best way to enjoy BLINK is by foot!\n\nWe encourage folks to enjoy strolling the event over multiple days. This year, we are suggesting walking paths which are noted on our event map.",
+    "source_url": "https://www.blinkcincinnati.com/faqs"
+  },
+  {
+    "id": "blink-are-there-hospitality-suites-or-open-public-businesses",
+    "program": "blink",
+    "topic": "Getting Around",
+    "q": "Are there hospitality suites or open public businesses?",
+    "a": "Yes, there will be open public restrooms throughout the footprint. Some business will choose to open their doors for guests as well. Please be respectful of individual businesses hours and rules.\n\nSome options:\n\nVisit the Music Hall Ballroom. Live music performed nightly on the 1927 Mighty Wurlitzer Organ 7-10 p.m. Music Hall botanical model on display. Free admission. Restrooms open and concessions available for purchase.",
+    "source_url": "https://www.blinkcincinnati.com/faqs"
+  },
+  {
+    "id": "blink-do-i-need-to-arrive-at-blink-at-a-certain-time-in-order-to-c",
+    "program": "blink",
+    "topic": "How it works",
+    "q": "Do I need to arrive at BLINK at a certain time in order to catch the shows?",
+    "a": "No. Most displays are between 3-8 mins in length and are on a continuous loop, so you can arrive at any time. Any specific showtime or presentation will be announced and shared as we get closer to the event.",
+    "source_url": "https://www.blinkcincinnati.com/faqs"
+  },
+  {
+    "id": "blink-do-i-need-to-start-at-a-specific-location",
+    "program": "blink",
+    "topic": "How it works",
+    "q": "Do I need to start at a specific location?",
+    "a": "You do not. Part of the magic of BLINK is discovering new corners of the city and choosing your own adventure. BLINK is divided into neighborhood zones. You can build your own curated experience by selecting which zone you'd like to start, and which zone you'd like to end.\n\nWe recommend taking your BLINK visit slower and visiting 1-2 zones during a visit and returning for more than one night!",
+    "source_url": "https://www.blinkcincinnati.com/faqs"
+  },
+  {
+    "id": "blink-is-there-a-map-available",
+    "program": "blink",
+    "topic": "How it works",
+    "q": "Is there a map available?",
+    "a": "Yes! We have two map viewing options available.\n\n1. PRINTABLE VIEWS are on our Maps and Guides page. This allows you to download and print the full BLINK map, covering all 80+ installations, as well as print each of our 6 neighborhood zone maps. PRO BLINK TIP --> download these files for easy reference on your phone during the event.\n\n2. DYNAMIC MAP VIEW (linked) is also an option. This view allows you to click into each zone, view details about each installation, get on our trailheads, and enjoy a more detailed view. PRO BLINK TIP --> use this view as you are walking the event.",
+    "source_url": "https://www.blinkcincinnati.com/faqs",
+    "notes": "The answer links to https://www.blinkcincinnati.com/plan-your-visit/maps-guides, which returns 404; the current page is https://www.blinkcincinnati.com/blink-event-guide/maps-guides."
+  },
+  {
+    "id": "blink-how-can-i-figure-out-the-best-route-to-see-the-installations",
+    "program": "blink",
+    "topic": "Accessibility - Experiencing BLINK",
+    "q": "How can I figure out the best route to see the installations that is best for me with accessibility and mobility in mind?",
+    "a": "BLINK utilizes our great and historic city of Cincinnati. This means that some of the streets have shown their age. Our Access Team has combed through the zones and designated a route that is the most accessible with mobility in mind. This means that it travels over closed streets, utilizes curb cuts and has wider areas for movement. You can see these paths of travel by looking at the Accessibility Maps that will be posted later this week.",
+    "source_url": "https://www.blinkcincinnati.com/faqs",
+    "notes": "The linked accessibility maps on the site are the 2024 files (blinkaccessiblemapsvertical101124rgb.pdf)."
+  },
+  {
+    "id": "blink-how-will-i-be-able-to-tell-if-i-am-on-one-of-the-accessible",
+    "program": "blink",
+    "topic": "Accessibility - Experiencing BLINK",
+    "q": "How will I be able to tell if I am on one of the accessible routes when I am at Blink?",
+    "a": "There will be signage, posted high, that will guide you along the path, look for signs with arrows to direct you.\n\nThey will have arrows directing you along the easiest path of travel in all directions.",
+    "source_url": "https://www.blinkcincinnati.com/faqs"
+  },
+  {
+    "id": "blink-if-i-use-a-mobility-device-or-aide-does-it-mean-that-i-can-o",
+    "program": "blink",
+    "topic": "Accessibility - Experiencing BLINK",
+    "q": "If I use a mobility device or aide does it mean that I can only use these routes?",
+    "a": "No. You can use whatever route or path you would like to view the art. These are designated as the “most accessible” and take advantage of the closed streets, best sidewalk conditions and curb cuts. Please make a decision that fits your needs best.\n\nThe Blink Access Team will also be posting signs for the general public to be mindful of keeping pathways clear and not blocking views. Additionally there will be chalk highlights on any surface of the Accessible Route that may pose a hazard - keep your eyes peeled.",
+    "source_url": "https://www.blinkcincinnati.com/faqs"
+  },
+  {
+    "id": "blink-what-will-the-access-team-escort-do-for-me-if-i-decide-to-ut",
+    "program": "blink",
+    "topic": "Accessibility - Experiencing BLINK",
+    "q": "What will the Access Team Escort do for me if I decide to utilize them?",
+    "a": "The Access Team Escort will walk in-front of you at a short distance to create a “bubble” of clear sidewalk space for you to proceed to the Accessible VIewing Areas at your own pace. Often this is helpful in crowded events.",
+    "source_url": "https://www.blinkcincinnati.com/faqs"
+  },
+  {
+    "id": "blink-if-there-is-not-an-accessible-viewing-area-at-an-installatio",
+    "program": "blink",
+    "topic": "Accessibility - Experiencing BLINK",
+    "q": "If there is not an Accessible Viewing Area at an installation does that mean that it is not accessible?",
+    "a": "No! BLINK has worked with the artists and engineers to ensure that the installations are accessible. This means that there will be space around the installation to navigate with a mobility device or aide. If the installation utilizes sound or flashing lights that is noted on the Accessibility Map and also there are signs in place indicating this at the installation.",
+    "source_url": "https://www.blinkcincinnati.com/faqs"
+  },
+  {
+    "id": "blink-if-i-am-sensitive-to-flashing-lights-does-that-mean-that-bli",
+    "program": "blink",
+    "topic": "Accessibility - Experiencing BLINK",
+    "q": "If I am sensitive to flashing lights does that mean that Blink is not for me?",
+    "a": "No. BLINK features light based installations, murals and projection pieces. Some of these will have flashing lights. They will be indicated with the installation information and on the BLINK maps. Please make a decision that is safe for you by looking at the maps prior to viewing the art. Approaching the installation you will see signs indicating flashing lights.",
+    "source_url": "https://www.blinkcincinnati.com/faqs"
+  },
+  {
+    "id": "blink-i-am-sensitive-to-loud-pulsating-sounds-does-that-mean-blink",
+    "program": "blink",
+    "topic": "Accessibility - Experiencing BLINK",
+    "q": "I am sensitive to loud/pulsating sounds, does that mean Blink is not for me?",
+    "a": "No. Some of the installations will have accompanying sound effects. Approaching the installation you will see signs that indicate loud or pulsating sounds that indicate this.",
+    "source_url": "https://www.blinkcincinnati.com/faqs"
+  },
+  {
+    "id": "blink-blink-is-so-spread-out-all-over-the-city-what-if-i-need-to-a",
+    "program": "blink",
+    "topic": "Accessibility - Experiencing BLINK",
+    "q": "BLINK is so spread out all over the city, what if I need to ask the Access Team a question?",
+    "a": "The Access Team is staffed by ALL IN EVENTS. We offer live patron support via text. If you have a question and need assistance while you are at BLINK, please text:\n\n“BLINK” to 844-556-6998. One of our staff members will answer you via text. This will be available on festival days from 6 pm to 11 pm.\n\nWe will also have members of the Access Team stationed in each zone. They will be in high-visibility vests and wearing a blinking teal light on their left shoulder.",
+    "source_url": "https://www.blinkcincinnati.com/faqs"
+  },
+  {
+    "id": "blink-what-if-i-want-to-request-an-asl-interpreter-for-one-of-the",
+    "program": "blink",
+    "topic": "Accessibility - Experiencing BLINK",
+    "q": "What if I want to request an ASL Interpreter for one of the events that is happening during BLINK?",
+    "a": "Please check our events lists, HERE. If there is something that you would like to have interpreted, please email: HOLLY@ALLINEVENTS.CO Please Note: we will need at least 72-hours notice.",
+    "source_url": "https://www.blinkcincinnati.com/faqs"
+  },
+  {
+    "id": "blink-are-the-restaurants-and-businesses-that-are-along-the-routes",
+    "program": "blink",
+    "topic": "Accessibility - Experiencing BLINK",
+    "q": "Are the restaurants and businesses that are along the routes accessible?",
+    "a": "We cannot guarantee that all the businesses and restaurants will be accessible, but in the OTR and FINDLAY zones keep an eye out for the walking/feet symbols, this will indicate our Access Team was able to do a quick walk-through for physical accessibility and it is compliant for entry/exit access and restroom access.",
+    "source_url": "https://www.blinkcincinnati.com/faqs"
+  },
+  {
+    "id": "blink-are-there-accessible-restrooms-at-blink",
+    "program": "blink",
+    "topic": "Accessibility - Experiencing BLINK",
+    "q": "Are there accessible restrooms at BLINK?",
+    "a": "Yes! At every location noted on the map where there are standard units there will also be accessible units at each end. Look for the signs.",
+    "source_url": "https://www.blinkcincinnati.com/faqs"
+  },
+  {
+    "id": "blink-how-will-i-know-where-to-find-all-these-accommodations",
+    "program": "blink",
+    "topic": "Accessibility - Experiencing BLINK",
+    "q": "How will I know where to find all these accommodations?",
+    "a": "Check out this helpful guide to Blink's Access Program signs; linked here.",
+    "source_url": "https://www.blinkcincinnati.com/faqs"
+  },
+  {
+    "id": "blink-are-tickets-required",
+    "program": "blink",
+    "topic": "Ready. Set. BLINK!",
+    "q": "Are tickets required?",
+    "a": "No: Ready. Set. BLINK! is completely free and open to the public.",
+    "source_url": "https://www.blinkcincinnati.com/faqs"
+  },
+  {
+    "id": "blink-are-pets-allowed-2",
+    "program": "blink",
+    "topic": "Ready. Set. BLINK!",
+    "q": "Are pets allowed?",
+    "a": "Trained Service Animals are welcome with their handlers at Ready. Set. BLINK!\n\nDue to the large crowds and event environment, we encourage attendees to leave pets and all other animals at home.\n\nIf you have questions about bringing your service animal to Ready. Set. BLINK!, please contact our Accessibility Director, Holly Maniatty of ALL IN EVENTS, at: Access@blinkcincinnati.com",
+    "source_url": "https://www.blinkcincinnati.com/faqs"
+  },
+  {
+    "id": "blink-what-is-the-event-schedule",
+    "program": "blink",
+    "topic": "Ready. Set. BLINK!",
+    "q": "What is the event schedule?",
+    "a": "Ready. Set. BLINK! begins at 4:00 p.m. with live music from local DJs and national performers, interactive and collaborative art installations, hands-on light art creation stations, and food and beverage vendors throughout the event footprint.\n\nAs the sun sets (approximately 7:00 p.m.), BLINK will officially begin with the Flip the Switch moment, launching a spectacular light and drone show featuring pyrotechnics.",
+    "source_url": "https://www.blinkcincinnati.com/faqs"
+  },
+  {
+    "id": "blink-how-can-i-be-involved-in-ready-set-blink",
+    "program": "blink",
+    "topic": "Ready. Set. BLINK!",
+    "q": "How can I be involved in Ready. Set. BLINK!",
+    "a": "We are seeking creatives of all kinds to help bring Ready. Set. BLINK! to light. Visit our Call for Participants for additional information and application details.",
+    "source_url": "https://www.blinkcincinnati.com/faqs"
+  },
+  {
+    "id": "blink-how-can-i-illuminate-myself",
+    "program": "blink",
+    "topic": "Ready. Set. BLINK!",
+    "q": "How can I illuminate myself?",
+    "a": "Ready. Set. BLINK! will feature Light Art Creation Stations where attendees can create their own wearable light art to carry into the festival experience.",
+    "source_url": "https://www.blinkcincinnati.com/faqs"
+  },
+  {
+    "id": "blink-will-there-be-food-and-beverages-be-available",
+    "program": "blink",
+    "topic": "Ready. Set. BLINK!",
+    "q": "Will there be food and beverages be available?",
+    "a": "Yes! Food truck vendors will be onsite throughout the duration of the event.\n\nAttendees will also find beverage booths offering both alcoholic and non-alcoholic beverages.",
+    "source_url": "https://www.blinkcincinnati.com/faqs"
+  },
+  {
+    "id": "blink-can-i-pay-with-credit-card-2",
+    "program": "blink",
+    "topic": "Ready. Set. BLINK!",
+    "q": "Can I pay with credit card?",
+    "a": "All beverage booths will be credit card only.\n\nIndividual food truck vendors may accept cash in addition to credit cards, though payment options may vary by vendor.",
+    "source_url": "https://www.blinkcincinnati.com/faqs"
+  },
+  {
+    "id": "blink-where-should-i-park-2",
+    "program": "blink",
+    "topic": "Ready. Set. BLINK!",
+    "q": "Where should I park?",
+    "a": "Several parking garages and surface lots are available near the Ready. Set. BLINK! footprint, including the Findlay Market North Garage, Washington Park Garage, and Memorial Hall Surface Lot.\n\nParking garages located outside of the BLINK footprint will operate at event pricing during the festival.\n\nWe are also partnering once again with LAZ Parking to offer reserved parking spaces at select locations. Additional information and reservation links will be available soon.\n\nPlease note:\n\nParking passes are location-specific.\n\nRedemption instructions may vary by location.\n\nGuests who exceed their reservation time may incur additional charges.",
+    "source_url": "https://www.blinkcincinnati.com/faqs"
+  },
+  {
+    "id": "blink-what-other-transportation-options-are-available",
+    "program": "blink",
+    "topic": "Ready. Set. BLINK!",
+    "q": "What other transportation options are available?",
+    "a": "Public transportation options include both METRO and TANK services.\n\nAdditional Park & Ride opportunities from locations throughout Greater Cincinnati and Northern Kentucky will be announced soon.",
+    "source_url": "https://www.blinkcincinnati.com/faqs"
+  },
+  {
+    "id": "blink-do-i-need-a-ticket-to-attend-blink-2026",
+    "program": "blink",
+    "topic": "Accessibility - Getting to Blink 2026",
+    "q": "Do I need a ticket to attend Blink 2026?",
+    "a": "No, Blink is a free event hosted by The Cincinnati Chamber of commerce to celebrate art and the beautiful city of Cincinnati, Ohio.",
+    "source_url": "https://www.blinkcincinnati.com/faqs"
+  },
+  {
+    "id": "blink-how-will-i-know-i-am-at-the-right-place-for-an-accessible-dr",
+    "program": "blink",
+    "topic": "Accessibility - Getting to Blink 2026",
+    "q": "How will I know I am at the right place for an Accessible Drop-Off and Pick-Up?",
+    "a": "You will see \"Accessible Drop-Off & Pick signs to direct you to the location, they will have arrows to follow.\n\nWhen you have reached the entrance to the drop off location you will see these signs that say \"Vehicles with Accessible Placecards & Plates Only\" or/and \"Accessible Drop-Off & Pick-Up Only\"\n\nIf you have any questions regarding these Accessible Drop-Off and Pick-Up locations please email our Accessibility Director, Holly Maniatty, HOLLY@ALLINEVENTS.CO",
+    "source_url": "https://www.blinkcincinnati.com/faqs"
+  },
+  {
+    "id": "blink-can-i-bring-my-service-animal-with-me-to-blink",
+    "program": "blink",
+    "topic": "Accessibility - Getting to Blink 2026",
+    "q": "Can I bring my Service Animal with me to Blink?",
+    "a": "BLINK is an exciting event that captures light, sound and movement to connect us all through the power of art. This means that there will be a lot happening at each installation and along the way. There will be a lot of people on the streets enjoying this event. We respectfully request that only service animals accompany our patrons at Blink. Please leave all pets at home.",
+    "source_url": "https://www.blinkcincinnati.com/faqs"
+  },
+  {
+    "id": "blink-are-there-service-animal-relief-areas-at-blink",
+    "program": "blink",
+    "topic": "Accessibility - Getting to Blink 2026",
+    "q": "Are there Service Animal Relief Areas at Blink?",
+    "a": "Yes, there will be service animal relief areas at BLINK. They will be indicated with a sign that says \"Service Animal Relief Area\".\n\nYour Service Animal is a trained professional and BLINK respects your decision on where to allow your animal relief. We do ask that you clean up after your animal.",
+    "source_url": "https://www.blinkcincinnati.com/faqs"
+  },
+  {
+    "id": "fotofocus-where-can-i-park",
+    "program": "fotofocus",
+    "topic": null,
+    "q": "Where can I park?",
+    "a": "Free and pay-to-park street parking is available on surrounding streets. Parking garages and lots are conveniently located within walking distance, including the Ziegler Park Garage at 1322 Sycamore Street.",
+    "source_url": "https://www.fotofocus.org/visit/#faq"
+  },
+  {
+    "id": "fotofocus-what-is-the-admission-cost",
+    "program": "fotofocus",
+    "topic": null,
+    "q": "What is the admission cost?",
+    "a": "Exhibitions and related programs at the FotoFocus Center are free and open to the public.",
+    "source_url": "https://www.fotofocus.org/visit/#faq"
+  },
+  {
+    "id": "fotofocus-what-are-the-hours",
+    "program": "fotofocus",
+    "topic": null,
+    "q": "What are the hours?",
+    "a": "The FotoFocus Center is open Thursday and Friday 11am–6pm, and Saturday 11am–5pm, excluding holidays. The FotoFocus Center may be closed between exhibitions for installation. Please confirm current open hours on the website.",
+    "source_url": "https://www.fotofocus.org/visit/#faq"
+  },
+  {
+    "id": "fotofocus-is-there-a-coat-check",
+    "program": "fotofocus",
+    "topic": null,
+    "q": "Is there a coat check?",
+    "a": "Complimentary lockers are located on the first floor.",
+    "source_url": "https://www.fotofocus.org/visit/#faq"
+  },
+  {
+    "id": "fotofocus-is-there-a-cafe",
+    "program": "fotofocus",
+    "topic": null,
+    "q": "Is there a cafe?",
+    "a": "Food is not available on-site at the FotoFocus Center; however, there are several local restaurants and coffee shops within walking distance.",
+    "source_url": "https://www.fotofocus.org/visit/#faq"
+  },
+  {
+    "id": "fotofocus-are-food-and-beverage-permitted",
+    "program": "fotofocus",
+    "topic": null,
+    "q": "Are food and beverage permitted?",
+    "a": "Outside food and drink are not permitted, except personal water bottles. Drinking fountains are located near the restrooms on both levels. Please do not eat or drink in the galleries.",
+    "source_url": "https://www.fotofocus.org/visit/#faq"
+  },
+  {
+    "id": "fotofocus-are-audio-tours-available",
+    "program": "fotofocus",
+    "topic": null,
+    "q": "Are audio tours available?",
+    "a": "Audio tours of exhibitions and the building are available for free through Bloomberg Connects. Download the application from Apple App Store or Google Play Store and bring headphones for audio guide content.",
+    "source_url": "https://www.fotofocus.org/visit/#faq"
+  },
+  {
+    "id": "fotofocus-is-there-free-wi-fi",
+    "program": "fotofocus",
+    "topic": null,
+    "q": "Is there free Wi-Fi?",
+    "a": "Free Wi-Fi is accessible through the “FotoFocus Guest” network.",
+    "source_url": "https://www.fotofocus.org/visit/#faq"
+  },
+  {
+    "id": "fotofocus-where-are-the-restrooms",
+    "program": "fotofocus",
+    "topic": null,
+    "q": "Where are the restrooms?",
+    "a": "Multi-stall, gendered restrooms are available on the first floor next to the elevator. First floor restrooms are ADA accessible with power assist doors. Single occupancy, universal restrooms are ADA accessible and located on the second floor.",
+    "source_url": "https://www.fotofocus.org/visit/#faq"
+  },
+  {
+    "id": "fotofocus-what-accessibility-accommodations-are-available",
+    "program": "fotofocus",
+    "topic": null,
+    "q": "What accessibility accommodations are available?",
+    "a": "The FotoFocus Center entrance is ADA accessible, with power assist doors at the main entrance and first-floor restrooms. The lobby elevator is available to access the second floor gallery. For more information about accessibility accommodations, special resources, or to request accommodation due to a medical condition or disability, please email info@fotofocus.org prior to your visit.",
+    "source_url": "https://www.fotofocus.org/visit/#faq"
+  },
+  {
+    "id": "fotofocus-what-are-the-visitor-policies",
+    "program": "fotofocus",
+    "topic": null,
+    "q": "What are the visitor policies?",
+    "a": "FotoFocus is committed to creating a welcoming and inclusive environment. During your visit, please follow instructions from FotoFocus staff, and note there is a zero-tolerance policy for individuals who engage in verbally abusive, harassing, discriminatory, or threatening statements or behavior. Conduct that poses any risk to the health or safety of other visitors and staff, or any risk to the artworks, or the building, is prohibited. Visitors may not engage in disruptive conduct that interferes with or detracts from the experience of other visitors. In this spirit, running, rough play, and distracting behavior such as the unauthorized playing of music and video; unauthorized performances; the use of sound amplification and noisemakers (except for assistive-listening devices); and charitable solicitations, leafleting, signature gathering, picketing, and press conferences by visitors are prohibited, as is any other activity deemed inappropriate at the discretion of the staff.",
+    "source_url": "https://www.fotofocus.org/visit/#faq"
+  },
+  {
+    "id": "fotofocus-is-photography-allowed",
+    "program": "fotofocus",
+    "topic": null,
+    "q": "Is photography allowed?",
+    "a": "Still photography for noncommercial, personal use is permitted, unless otherwise noted in the galleries. Flash photography is not permitted in any area of the FotoFocus Center. The use of tripods and camera extension poles is prohibited. Photographers and subjects must stand at least 3 feet away from artwork at all times. Do not touch artwork.",
+    "source_url": "https://www.fotofocus.org/visit/#faq"
+  },
+  {
+    "id": "fotofocus-are-service-animals-allowed",
+    "program": "fotofocus",
+    "topic": null,
+    "q": "Are service animals allowed?",
+    "a": "Yes, service animals are welcome.",
+    "source_url": "https://www.fotofocus.org/visit/#faq"
+  },
+  {
+    "id": "fotofocus-what-is-the-biennial-pass",
+    "program": "fotofocus",
+    "topic": null,
+    "q": "What is the Biennial Pass?",
+    "a": "The Biennial Pass is the free all-access ticket to the Biennial: Entry to Opening Program Events (September 30-October 3) Invitations to the free Spotlight Bus Tours–Full days of coordinated exhibition visits with curators, directors, and artists in Cincinnati, Dayton, and Columbus. Waived admission during the month of October to Biennial exhibitions at Venues that typically charge an entry fee. Behringer-Crawford Museum Contemporary Arts Center Cincinnati Museum Center Columbus Museum of Art Dayton Art Institute National Underground Railroad and Freedom Center Pyramid Hill Sculpture Park & Museum Taft Museum of Art Wexner (limited to one screening during the Unorthodocs film program) Woodward Theater",
+    "source_url": "https://www.fotofocus.org/biennial/2026/biennialpass"
+  },
+  {
+    "id": "fotofocus-how-do-i-get-a-biennial-pass",
+    "program": "fotofocus",
+    "topic": null,
+    "q": "How do I get a Biennial Pass?",
+    "a": "Get The Passport",
+    "source_url": "https://www.fotofocus.org/biennial/2026/biennialpass"
+  },
+  {
+    "id": "fotofocus-how-do-i-find-the-confirmation-email-in-my-inbox",
+    "program": "fotofocus",
+    "topic": null,
+    "q": "How do I find the confirmation email in my inbox?",
+    "a": "After submitting, it may take up to five minutes for your confirmation to appear in your inbox. Search for the subject line: “Biennial Pass Activated: Access Now.”",
+    "source_url": "https://www.fotofocus.org/biennial/2026/biennialpass"
+  },
+  {
+    "id": "fotofocus-how-do-i-add-the-biennial-pass-to-my-digital-wallet",
+    "program": "fotofocus",
+    "topic": null,
+    "q": "How do I add the Biennial Pass to my digital wallet?",
+    "a": "Once you receive the confirmation email, click the button that says “Add to Wallet” or screenshot your unique QR code. Codes will be checked at Opening Program events and at regularly ticketed venues for free entry to exhibitions during the month of October.",
+    "source_url": "https://www.fotofocus.org/biennial/2026/biennialpass"
+  },
+  {
+    "id": "fotofocus-how-do-i-use-my-biennial-pass",
+    "program": "fotofocus",
+    "topic": null,
+    "q": "How do I use my Biennial Pass?",
+    "a": "Once you have the pass downloaded to your mobile wallet or saved in your photos, you can explore our venue map and exhibitions page to plan your Biennial adventure. Your Pass will only be scanned upon entry during the Opening Program events. For access to Biennial exhibitions throughout October, simply show your Pass to staff when you visit the venue. Remember, your Pass is valid September 30th–October 31st.",
+    "source_url": "https://www.fotofocus.org/biennial/2026/biennialpass"
   }
 ]

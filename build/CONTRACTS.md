@@ -390,3 +390,77 @@ Everything in `CLAUDE.md` under "What the build rejects", plus:
 
 Run the build and read every line it prints. Each error names `data/<file>.json#<id>.<field>`,
 `build/pages/<module> → <path>` or `site/css/<file>:<line>`.
+
+## Changelog
+
+Additive changes to A-owned files made by domain agents (smallest possible, nothing renamed or removed).
+
+- **2026-09-24 · C (data)** `build/core/schema.mjs`:
+  - `events.credits: [{ role, names: [] }]` (optional). Plain-text credit lines for people **without** a person
+    record (the ~590 name-only FotoFocus artists, jurors, advisors). `role` is the source's own label when it has one
+    ("Artists", "Juror", "Advisors", "Visual Artists", "Filmmakers"), else a plural ("Artists", "Curators",
+    "Speakers"). A name is never in both `people` and `credits` of the same event. Render as text; search should index
+    the names (D: add them to the event's search `g` and the card's `data-q`).
+  - `stays.room_block.status` (optional text, e.g. "Closed: block full (checked Sep 24, 2026)").
+  - `stays.booking_portal: { program, url, label }` (optional): the hotel is listed on a program's hotel booking
+    portal (BLINK's Visit Cincy portal). It is **not** a room block: no code, no rate.
+  - `facts.source` (publication name) and `facts.quote` (the verbatim sentence the fact rests on), both optional.
+- **2026-09-24 · C (data)** `build/core/client-data.mjs`: events.json events gain `cr: [[role, [names]]]` (the
+  event's `credits`), so the event dialog can show them.
+- **2026-09-24 · D (schedule & plan)** no A-owned file changed. New interfaces other agents may use:
+  - `ctx.cards.eventCard(root, x, { …, compact })`: `compact: true` drops the people strip and tags (the schedule's
+    band). Passing an event **record** with several day instances now spans it automatically (`data-inst` +
+    `data-days`), so person, venue and program pages show the right live state for exhibitions and BLINK nights.
+    `data-q` now holds only words the card does not print (credits, extra people, orgs, extra tags); filters add
+    the card's visible text. `data-h` / `data-v` are omitted when empty. `ctx.cards.whenText(instance)` → plain text.
+  - `assets/data/schedule-extra.json` (from `build/pages/schedule.mjs`): `{ v, venues: { id: { mm, d: { apple,
+    google } } }, spans: { eventId: [firstDate, lastDate] } }`. `mm` is Agent E's mini-map HTML with the root
+    written as `{R}`; `spans` are the full runs of multi-day items (events.json only lists days inside the window).
+  - `site/js/lib/agenda.js` (pure, `tests/agenda.test.mjs`): `festivalToday`, `defaultDay`, `inWhen`,
+    `conflicts` / `conflictText`, `walkGap` / `gapText`, `dur`. `site/js/lib/ics.js` adds `eventItems(ev,
+    eventsJson, { base, span })`, `gcalUrl`, `icsFilename`.
+  - Event search entries (`k: "ev"`) now use `u: "schedule.html?e=<id>"` (the palette needs JS, and with JS `?e=`
+    opens the dialog over the card) and carry `st`/`en` only when hours are listed, so an exhibition with no
+    hours never shows under "Now and next".
+- **2026-09-24 · F (directory & images)** no A-owned file changed. New interfaces other agents may use:
+  - `data/images.json` (from `scripts/fetch-images.py`, 405 images): `p/<id>` = a 320×320 face-safe square plus
+    `sm: { file, w, h }` (96×96); `w/<id>` = the 480w file plus `lg` (960w) when the source is wider; `o/<id>` =
+    webp (transparency kept) or sanitized SVG, with `tone: "light"|"dark"` (the plate it needs); `o/prog-<program>`
+    = the official program marks. `ctx.img` adds `srcset(root, kind, id)`, `credit(kind, id)` ("BLINK" when the
+    image came from a program's own site, else the host), `SIZES` and `img(…, { big })` (a work's 960w file as
+    `src`); `img.mug()` now writes `srcset`/`sizes` for its size. The fixture's image files are never pruned.
+  - `ctx.cards`: `personFeature(root, person, { prog })` (the 4:5 featured mug for home and program pages),
+    `personCard(root, person, { prog, id })`, `personLetter`, `personSortKey`, `roleLine(person)` ("Speaker ·
+    2 sessions"), `workFull(root, work, { headingLevel, bioShown })` (a work in full: the artist's page),
+    `workMedium`, `workGlyph`, `workArtists`, `zoneKey`, `tierLabel(role)`. `logoWall(root, entries, seen,
+    { prog })` wraps each tier in `div.wall-tier[data-dir-group]` > `.plates[data-dir]` (plates carry `data-p`,
+    `data-tier`, `data-q`); `workCard` adds `data-c`, `data-h`, `data-ll` and an `anchor` option.
+  - `site/js/features/directory.js` is the full engine; its markup contract is in the headers of
+    `build/pages/_directory.mjs` (F's helper: `searchField`, `filterGroup`, `azNav`, `dirStatus`, `dirEmpty`,
+    `viewToggle`) and `site/js/lib/directory.js` (pure, `tests/directory.test.mjs`). The first version's contract
+    (`[data-dir]`, `input[data-filter-q]`, `select[data-filter]`, `[data-result-count]`) still works; a list whose
+    children have no `data-q` is matched on their text. Class prefix `.dir-*` (F, `60-directory.css`).
+  - `assets/data/art-extra.json` (from `build/pages/art.mjs`, fetched by the work dialog): `{ v, works: { id: { im:
+    [[src, w, h], [src960, w, h]?] | null, cr, ab?, so?, mm?, d? } }, people: { id: { i, t } }, venues: { id: { n,
+    st, h } }, programs: { id: { n, dates } } }` (`mm` = E's mini-map with the root as `{R}`).
+  - The art page's Grid/Map toggle appears by itself once `site/js/features/map.js` no longer carries the stub
+    marker "STUB landed by Agent A"; it calls `mountMap(el, { pins, fit, onSelect })` with `kind: "work"` pins.
+  - New partial `site/css/62-art.css` (art sections, the work dialog's `.wd-*`); the dialog body still reuses D's
+    `.evd` layout classes.
+- **2026-09-24 · G (home, programs & info)** no A-owned file changed (this entry only). New files in G's lane and
+  interfaces other agents may use:
+  - `site/js/lib/week.js` (pure, `tests/week.test.mjs`): `laneRun(lane, date, weekStart, weekEnd)` →
+    `start|mid|end|only|thru|null`, `interchangeDays`, `runNote` (" (opening night)"), `programLine` (the day's
+    screen-reader program list, the same words as D's day tabs) and `daySummary` (the week line's phone summary).
+  - `site/js/lib/athour.js` (pure, `tests/athour.test.mjs`): `items(eventsJson)`, `atThisHour(items, now)` →
+    `{ today, now, open, onView, next, tonight, … }`, `firstUp`, `countdown`, `kicker`, `hoursText`, `rel`. It reuses
+    D's `festivalToday` from `lib/agenda.js`.
+  - `site/js/features/news.js` (news.html filters: `?p=` chips + a source menu) next to `features/{home,faq}.js`.
+  - `build/pages/news.mjs` also exports `newsCard(ctx, root, item, { anchor, level })` (`article.news-card`, styled in
+    `85-news.css`) and `latestNews(db, n, { programs })` (this and last year's stories, background items left out).
+    `build/pages/home.mjs` exports `weekLanes(ctx)` and `HOME_FACTS` (the facts.json ids shown as stat tiles).
+  - Program pages carry section ids `#about #tickets #days #schedule #people #works #venues #sponsors #faq #news
+    #sources`; `details.faq` (question + verbatim answer + source line) is styled in `86-faq.css` for any page.
+  - `data/news.json` items added by `scripts/fetch-cincy-news.py` have `summary: null`, `kind: "news"`, a `gnId` and
+    `date_source: "google-news-pubdate"`; curated items are never changed. News search entries (`k: "nw"`) now leave
+    out background items (`kind: "history"`), which stay on news.html.

@@ -1,6 +1,12 @@
 {
   "bbox": {
     "core": {
+      "s": 39.075,
+      "n": 39.135,
+      "w": -84.545,
+      "e": -84.48
+    },
+    "home": {
       "s": 39.0905,
       "n": 39.1195,
       "w": -84.5335,
@@ -8,16 +14,702 @@
     }
   },
   "projection": {
+    "lat0": 39.105000000000004,
     "k": 0.7759913672648884,
-    "sx": 22091.55651213194,
+    "sx": 19825.755844219733,
+    "scale": 19825.755844219733,
     "viewBox": [
-      600,
-      641
+      1000,
+      1190
+    ],
+    "mPerUnit": 5.608617452330435
+  },
+  "labels": [
+    {
+      "text": "Over-the-Rhine",
+      "lat": 39.111504,
+      "lng": -84.514393,
+      "kind": "hood",
+      "minZoom": 1,
+      "id": "over-the-rhine"
+    },
+    {
+      "text": "Downtown",
+      "lat": 39.101484,
+      "lng": -84.5125,
+      "kind": "hood",
+      "minZoom": 1,
+      "id": "downtown-cbd"
+    },
+    {
+      "text": "The Banks",
+      "lat": 39.095734,
+      "lng": -84.509334,
+      "kind": "hood",
+      "minZoom": 1,
+      "id": "the-banks"
+    },
+    {
+      "text": "Findlay Market",
+      "lat": 39.115366,
+      "lng": -84.518981,
+      "kind": "hood",
+      "minZoom": 1,
+      "id": "findlay-market-district"
+    },
+    {
+      "text": "Pendleton",
+      "lat": 39.1105,
+      "lng": -84.507756,
+      "kind": "hood",
+      "minZoom": 1,
+      "id": "pendleton"
+    },
+    {
+      "text": "West End",
+      "lat": 39.109834,
+      "lng": -84.528863,
+      "kind": "hood",
+      "minZoom": 1,
+      "id": "west-end"
+    },
+    {
+      "text": "Covington",
+      "lat": 39.083171,
+      "lng": -84.510755,
+      "kind": "hood",
+      "minZoom": 1,
+      "id": "covington"
+    },
+    {
+      "text": "MainStrasse Village",
+      "lat": 39.081404,
+      "lng": -84.518122,
+      "kind": "hood",
+      "minZoom": 1,
+      "id": "mainstrasse-village"
+    },
+    {
+      "text": "Newport",
+      "lat": 39.088947,
+      "lng": -84.491952,
+      "kind": "hood",
+      "minZoom": 1,
+      "id": "newport"
+    },
+    {
+      "text": "Mount Adams",
+      "lat": 39.109227,
+      "lng": -84.496054,
+      "kind": "hood",
+      "minZoom": 1.6,
+      "id": "mount-adams"
+    },
+    {
+      "text": "Mount Auburn",
+      "lat": 39.118603,
+      "lng": -84.503341,
+      "kind": "hood",
+      "minZoom": 1.6,
+      "id": "mount-auburn"
+    },
+    {
+      "text": "Queensgate",
+      "lat": 39.10375,
+      "lng": -84.537719,
+      "kind": "hood",
+      "minZoom": 1.6,
+      "id": "queensgate"
+    },
+    {
+      "text": "University Heights",
+      "lat": 39.132324,
+      "lng": -84.52264,
+      "kind": "hood",
+      "minZoom": 1.6,
+      "id": "university-heights"
+    },
+    {
+      "text": "Walnut Hills",
+      "lat": 39.125689,
+      "lng": -84.493225,
+      "kind": "hood",
+      "minZoom": 1.6,
+      "id": "walnut-hills"
+    },
+    {
+      "text": "Ohio River",
+      "lat": 39.091554,
+      "lng": -84.527,
+      "kind": "water",
+      "minZoom": 1,
+      "angle": 24
+    },
+    {
+      "text": "Ohio River",
+      "lat": 39.108184,
+      "lng": -84.488,
+      "kind": "water",
+      "minZoom": 1.6,
+      "angle": -56
+    },
+    {
+      "text": "Kentucky",
+      "lat": 39.0795,
+      "lng": -84.531,
+      "kind": "state",
+      "minZoom": 1
+    },
+    {
+      "text": "Washington Park",
+      "lat": 39.109163,
+      "lng": -84.517433,
+      "kind": "park",
+      "minZoom": 2.2
+    },
+    {
+      "text": "Smale Riverfront Park",
+      "lat": 39.095765,
+      "lng": -84.510276,
+      "kind": "park",
+      "minZoom": 2.2
+    },
+    {
+      "text": "Lytle Park",
+      "lat": 39.100913,
+      "lng": -84.503773,
+      "kind": "park",
+      "minZoom": 2.2
+    },
+    {
+      "text": "Sawyer Point",
+      "lat": 39.101363,
+      "lng": -84.497603,
+      "kind": "park",
+      "minZoom": 2.2
+    },
+    {
+      "text": "Devou Park",
+      "lat": 39.080278,
+      "lng": -84.537165,
+      "kind": "park",
+      "minZoom": 2.2
+    },
+    {
+      "text": "Roebling Suspension Bridge",
+      "lat": 39.093455,
+      "lng": -84.510007,
+      "kind": "bridge",
+      "minZoom": 2.6,
+      "angle": 79
+    },
+    {
+      "text": "Purple People Bridge",
+      "lat": 39.097973,
+      "lng": -84.497684,
+      "kind": "bridge",
+      "minZoom": 2.6,
+      "angle": 53
+    },
+    {
+      "text": "Clay Wade Bailey Bridge",
+      "lat": 39.091922,
+      "lng": -84.519501,
+      "kind": "bridge",
+      "minZoom": 2.6,
+      "angle": 78
+    },
+    {
+      "text": "Taylor–Southgate Bridge",
+      "lat": 39.095772,
+      "lng": -84.501015,
+      "kind": "bridge",
+      "minZoom": 2.6,
+      "angle": 52
+    },
+    {
+      "text": "Central Parkway",
+      "lat": 39.127801,
+      "lng": -84.533416,
+      "kind": "street",
+      "minZoom": 3.2,
+      "angle": -78
+    },
+    {
+      "text": "Central Parkway",
+      "lat": 39.114956,
+      "lng": -84.521501,
+      "kind": "street",
+      "minZoom": 3.2,
+      "angle": 79
+    },
+    {
+      "text": "Central Parkway",
+      "lat": 39.110201,
+      "lng": -84.52016,
+      "kind": "street",
+      "minZoom": 3.2,
+      "angle": 79
+    },
+    {
+      "text": "Vine Street",
+      "lat": 39.105791,
+      "lng": -84.514144,
+      "kind": "street",
+      "minZoom": 3.2,
+      "angle": 79
+    },
+    {
+      "text": "Vine Street",
+      "lat": 39.120991,
+      "lng": -84.515825,
+      "kind": "street",
+      "minZoom": 3.2,
+      "angle": -57
+    },
+    {
+      "text": "Vine Street",
+      "lat": 39.089641,
+      "lng": -84.481465,
+      "kind": "street",
+      "minZoom": 3.2,
+      "angle": 36
+    },
+    {
+      "text": "Main Street",
+      "lat": 39.106829,
+      "lng": -84.51107,
+      "kind": "street",
+      "minZoom": 3.2,
+      "angle": 79
+    },
+    {
+      "text": "Main Street",
+      "lat": 39.082547,
+      "lng": -84.517512,
+      "kind": "street",
+      "minZoom": 3.2,
+      "angle": 89
+    },
+    {
+      "text": "Main Street",
+      "lat": 39.079364,
+      "lng": -84.488514,
+      "kind": "street",
+      "minZoom": 3.2,
+      "angle": -49
+    },
+    {
+      "text": "Elm Street",
+      "lat": 39.100303,
+      "lng": -84.516097,
+      "kind": "street",
+      "minZoom": 3.2,
+      "angle": 79
+    },
+    {
+      "text": "Elm Street",
+      "lat": 39.11276,
+      "lng": -84.51926,
+      "kind": "street",
+      "minZoom": 3.2,
+      "angle": 78
+    },
+    {
+      "text": "Race Street",
+      "lat": 39.107039,
+      "lng": -84.51614,
+      "kind": "street",
+      "minZoom": 3.2,
+      "angle": 79
+    },
+    {
+      "text": "Walnut Street",
+      "lat": 39.106219,
+      "lng": -84.512584,
+      "kind": "street",
+      "minZoom": 3.2,
+      "angle": 79
+    },
+    {
+      "text": "Sycamore Street",
+      "lat": 39.109187,
+      "lng": -84.510011,
+      "kind": "street",
+      "minZoom": 3.2,
+      "angle": 79
+    },
+    {
+      "text": "West Liberty Street",
+      "lat": 39.113427,
+      "lng": -84.524664,
+      "kind": "street",
+      "minZoom": 3.2,
+      "angle": 5
+    },
+    {
+      "text": "East Liberty Street",
+      "lat": 39.112431,
+      "lng": -84.509769,
+      "kind": "street",
+      "minZoom": 3.2,
+      "angle": 9
+    },
+    {
+      "text": "East Liberty Street",
+      "lat": 39.111913,
+      "lng": -84.506819,
+      "kind": "street",
+      "minZoom": 3.2,
+      "angle": 17
+    },
+    {
+      "text": "West 5th Street",
+      "lat": 39.085379,
+      "lng": -84.517338,
+      "kind": "street",
+      "minZoom": 3.2,
+      "angle": -1
+    },
+    {
+      "text": "West 5th Street",
+      "lat": 39.100719,
+      "lng": -84.516195,
+      "kind": "street",
+      "minZoom": 3.2,
+      "angle": -11
+    },
+    {
+      "text": "West 5th Street",
+      "lat": 39.090582,
+      "lng": -84.497569,
+      "kind": "street",
+      "minZoom": 3.2,
+      "angle": -35
+    },
+    {
+      "text": "West 5th Street",
+      "lat": 39.088207,
+      "lng": -84.500645,
+      "kind": "street",
+      "minZoom": 3.2,
+      "angle": -35
+    },
+    {
+      "text": "East 5th Street",
+      "lat": 39.10184,
+      "lng": -84.508491,
+      "kind": "street",
+      "minZoom": 3.2,
+      "angle": -11
+    },
+    {
+      "text": "East 5th Street",
+      "lat": 39.093431,
+      "lng": -84.492419,
+      "kind": "street",
+      "minZoom": 3.2,
+      "angle": -35
+    },
+    {
+      "text": "East 5th Street",
+      "lat": 39.086203,
+      "lng": -84.508319,
+      "kind": "street",
+      "minZoom": 3.2,
+      "angle": -11
+    },
+    {
+      "text": "West 12th Street",
+      "lat": 39.081544,
+      "lng": -84.492478,
+      "kind": "street",
+      "minZoom": 3.2,
+      "angle": -35
+    },
+    {
+      "text": "West 12th Street",
+      "lat": 39.107826,
+      "lng": -84.51796,
+      "kind": "street",
+      "minZoom": 3.2,
+      "angle": -11
+    },
+    {
+      "text": "West 12th Street",
+      "lat": 39.075486,
+      "lng": -84.521079,
+      "kind": "street",
+      "minZoom": 3.2,
+      "angle": -27
+    },
+    {
+      "text": "West Mehring Way",
+      "lat": 39.096474,
+      "lng": -84.529826,
+      "kind": "street",
+      "minZoom": 3.2,
+      "angle": 30
+    },
+    {
+      "text": "West Mehring Way",
+      "lat": 39.094428,
+      "lng": -84.519015,
+      "kind": "street",
+      "minZoom": 3.2,
+      "angle": 18
+    },
+    {
+      "text": "West Mehring Way",
+      "lat": 39.094138,
+      "lng": -84.514643,
+      "kind": "street",
+      "minZoom": 3.2,
+      "angle": -18
+    },
+    {
+      "text": "West Mehring Way",
+      "lat": 39.100583,
+      "lng": -84.541463,
+      "kind": "street",
+      "minZoom": 3.2,
+      "angle": 18
+    },
+    {
+      "text": "Madison Avenue",
+      "lat": 39.082542,
+      "lng": -84.509883,
+      "kind": "street",
+      "minZoom": 3.2,
+      "angle": 78
+    },
+    {
+      "text": "Gilbert Avenue",
+      "lat": 39.112558,
+      "lng": -84.500385,
+      "kind": "street",
+      "minZoom": 3.2,
+      "angle": -56
+    },
+    {
+      "text": "Gilbert Avenue",
+      "lat": 39.122902,
+      "lng": -84.492023,
+      "kind": "street",
+      "minZoom": 3.2,
+      "angle": -55
+    },
+    {
+      "text": "Gilbert Avenue",
+      "lat": 39.118359,
+      "lng": -84.496311,
+      "kind": "street",
+      "minZoom": 3.2,
+      "angle": -55
+    },
+    {
+      "text": "Gilbert Avenue",
+      "lat": 39.131094,
+      "lng": -84.488246,
+      "kind": "street",
+      "minZoom": 3.2,
+      "angle": -80
+    },
+    {
+      "text": "Reading Road",
+      "lat": 39.127638,
+      "lng": -84.500861,
+      "kind": "street",
+      "minZoom": 3.2,
+      "angle": -46
+    },
+    {
+      "text": "Reading Road",
+      "lat": 39.118579,
+      "lng": -84.500372,
+      "kind": "street",
+      "minZoom": 3.2,
+      "angle": -82
+    },
+    {
+      "text": "Reading Road",
+      "lat": 39.110521,
+      "lng": -84.504151,
+      "kind": "street",
+      "minZoom": 3.2,
+      "angle": -65
+    },
+    {
+      "text": "Reading Road",
+      "lat": 39.108539,
+      "lng": -84.508606,
+      "kind": "street",
+      "minZoom": 3.2,
+      "angle": -13
+    },
+    {
+      "text": "Eggleston Avenue",
+      "lat": 39.105054,
+      "lng": -84.504308,
+      "kind": "street",
+      "minZoom": 3.2,
+      "angle": 37
+    },
+    {
+      "text": "Eggleston Avenue",
+      "lat": 39.104616,
+      "lng": -84.503314,
+      "kind": "street",
+      "minZoom": 3.2,
+      "angle": 37
+    },
+    {
+      "text": "Ezzard Charles Drive",
+      "lat": 39.109396,
+      "lng": -84.53159,
+      "kind": "street",
+      "minZoom": 3.2,
+      "angle": 5
+    },
+    {
+      "text": "Ezzard Charles Drive",
+      "lat": 39.10923,
+      "lng": -84.52118,
+      "kind": "street",
+      "minZoom": 3.2,
+      "angle": -10
+    },
+    {
+      "text": "Ezzard Charles Drive",
+      "lat": 39.109257,
+      "lng": -84.527155,
+      "kind": "street",
+      "minZoom": 3.2,
+      "angle": 3
+    },
+    {
+      "text": "West Court Street",
+      "lat": 39.105334,
+      "lng": -84.522975,
+      "kind": "street",
+      "minZoom": 3.2,
+      "angle": 5
+    }
+  ],
+  "transit": {
+    "name": "Connector",
+    "stops": [
+      {
+        "ref": "1",
+        "name": "The Banks",
+        "lat": 39.098247,
+        "lng": -84.509744
+      },
+      {
+        "ref": "2",
+        "name": "4th & Main",
+        "lat": 39.100797,
+        "lng": -84.509492
+      },
+      {
+        "ref": "3",
+        "name": "6th & Main",
+        "lat": 39.103264,
+        "lng": -84.510198
+      },
+      {
+        "ref": "4",
+        "name": "8th & Main",
+        "lat": 39.105325,
+        "lng": -84.510709
+      },
+      {
+        "ref": "5",
+        "name": "Court & Main",
+        "lat": 39.107125,
+        "lng": -84.511161
+      },
+      {
+        "ref": "6",
+        "name": "Hanke Exchange",
+        "lat": 39.108465,
+        "lng": -84.511489
+      },
+      {
+        "ref": "7",
+        "name": "12th & Vine",
+        "lat": 39.108345,
+        "lng": -84.514627
+      },
+      {
+        "ref": "8",
+        "name": "14th & Elm",
+        "lat": 39.109906,
+        "lng": -84.5185
+      },
+      {
+        "ref": "9",
+        "name": "Liberty & Elm",
+        "lat": 39.112866,
+        "lng": -84.519253
+      },
+      {
+        "ref": "10",
+        "name": "Findlay Market–Elm",
+        "lat": 39.114971,
+        "lng": -84.519788
+      },
+      {
+        "ref": "11",
+        "name": "Brewery District",
+        "lat": 39.117226,
+        "lng": -84.520361
+      },
+      {
+        "ref": "12",
+        "name": "Findlay Market–Race",
+        "lat": 39.115645,
+        "lng": -84.518353
+      },
+      {
+        "ref": "13",
+        "name": "Liberty & Race",
+        "lat": 39.112616,
+        "lng": -84.517508
+      },
+      {
+        "ref": "14",
+        "name": "Washington Park",
+        "lat": 39.108469,
+        "lng": -84.516471
+      },
+      {
+        "ref": "15",
+        "name": "Central Parkway",
+        "lat": 39.107151,
+        "lng": -84.514104
+      },
+      {
+        "ref": "16",
+        "name": "Public Library",
+        "lat": 39.105329,
+        "lng": -84.51238
+      },
+      {
+        "ref": "17",
+        "name": "Aronoff Center",
+        "lat": 39.104093,
+        "lng": -84.512065
+      },
+      {
+        "ref": "18",
+        "name": "Fountain Square",
+        "lat": 39.100933,
+        "lng": -84.511295
+      }
     ]
   },
-  "labels": [],
-  "transit": null,
   "attribution": "© OpenStreetMap contributors",
-  "osm_timestamp": null,
+  "osm_timestamp": "2026-09-24T04:04:05Z",
   "source_url": "https://www.openstreetmap.org/copyright"
 }

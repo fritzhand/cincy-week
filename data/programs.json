@@ -5,7 +5,7 @@
     "name": "Cincinnati Art Week",
     "short_name": "CAW",
     "tagline": "A CELEBRATION OF ART & IDEAS & CREATIVE COMMUNITY",
-    "edition": null,
+    "edition": "2026 (inaugural)",
     "dates": {
       "start": "2026-10-03",
       "end": "2026-10-10"
@@ -15,17 +15,32 @@
       {
         "name": "Cincy Nice",
         "url": "https://www.cincynice.com/",
-        "org_id": "cincy-nice"
+        "org_id": "cincy-nice",
+        "role": "Creator"
       },
       {
         "name": "No Standing",
         "url": "https://www.nostandingonlydancing.com/",
-        "org_id": null
+        "org_id": "no-standing",
+        "role": "Partner"
       }
     ],
     "url": "https://cincinnatiartweek.com/",
-    "hub_venue_id": "caw-art-market-hq-1417-main",
-    "tickets": [],
+    "hub_venue_id": "caw-hub-1600-race",
+    "tickets": [
+      {
+        "name": "General (exhibitions, pop-up galleries, most programming)",
+        "price": "Free",
+        "url": "https://cincinnatiartweek.com/faqs-2",
+        "notes": "Most experiences are free to attend. Select special programs may require reservations or tickets. We also encourage visitors to support participating artists and local businesses whenever possible."
+      },
+      {
+        "name": "NO GRID: A Creative Conversation Series (Wed Oct 7) — free RSVP",
+        "price": "Free",
+        "url": "https://www.eventbrite.com/e/no-grid-a-creative-conversation-series-tickets-2000523175671",
+        "notes": "Free ticket via Eventbrite (organizer: Cincy Nice); sales open 2026-09-10, close 2026-10-07."
+      }
+    ],
     "daily_themes": [
       {
         "date": "2026-10-03",
@@ -101,21 +116,116 @@
     "hours": "SAT 10/3 4–7 PM; SUN 10/4 12–6 PM; MON 10/5 4–7 PM; TUE 10/6 - SAT 10/10 12–7 PM",
     "hashtags": [],
     "social": {
-      "instagram": null,
+      "instagram": "https://www.instagram.com/cincinnatiartweek",
       "x": null,
       "facebook": null,
       "linkedin": null,
-      "tiktok": null
+      "tiktok": null,
+      "youtube": null
     },
     "contact": {
-      "email": null,
+      "email": "team@cincinnatiartweek.com",
       "phone": null
     },
-    "history": [],
-    "stats": [],
-    "logo": null,
-    "brand": null,
-    "source_url": "https://cincinnatiartweek.com/"
+    "history": [
+      {
+        "year": 2026,
+        "fact": "Cincinnati Art Week is a new annual celebration of Cincinnati's creative community, bringing together artists, galleries, cultural spaces, neighborhoods, and visitors for one highly visible, energized week.",
+        "source_url": "https://cincinnatiartweek.com/faqs-2"
+      },
+      {
+        "year": 2026,
+        "fact": "2026 — PILOT YEAR Establish the platform, build recognition, and build key partnerships.",
+        "source_url": "https://docs.google.com/presentation/d/1_AFrLKzGofgz3-Dkjgfe6Psb_Q-v_fexPEAPVNIPoTo/edit?usp=sharing"
+      },
+      {
+        "year": 2027,
+        "fact": "2027 — EXPANSION Solidify and grow with more widespread activations and presence. (plan)",
+        "source_url": "https://docs.google.com/presentation/d/1_AFrLKzGofgz3-Dkjgfe6Psb_Q-v_fexPEAPVNIPoTo/edit?usp=sharing"
+      },
+      {
+        "year": 2028,
+        "fact": "2028 — CULTURAL MOMENTUM Expand into a citywide cultural moment with growing regional and national attention. (plan)",
+        "source_url": "https://docs.google.com/presentation/d/1_AFrLKzGofgz3-Dkjgfe6Psb_Q-v_fexPEAPVNIPoTo/edit?usp=sharing"
+      },
+      {
+        "year": 2036,
+        "fact": "2036 — INTERNATIONAL DESTINATION Recognized globally by visitors and major brands, activators, & satellite festivals. (plan)",
+        "source_url": "https://docs.google.com/presentation/d/1_AFrLKzGofgz3-Dkjgfe6Psb_Q-v_fexPEAPVNIPoTo/edit?usp=sharing"
+      },
+      {
+        "year": 2022,
+        "fact": "Cincy Nice founders Billy and Destinee Thomas previously served as co-producers of BLINK in 2022 and 2024, helping bring to life projects including the Cincy Nice Social House artist lounge, and several festival firsts including the Cincinnati Skate Park pop-up, Asha Ama’s fashion show, Brazilian artist VJ Suave’s moving tricycle projection and the Breonna’s Garden augmented reality experience.",
+        "source_url": "https://www.citybeat.com/arts/visual-arts/cincinnati-arts-week-launches-october/"
+      },
+      {
+        "year": 2019,
+        "fact": "During BLINK 2019 and again in BLINK 2022, we transformed retail space into a vibrant and ephemeral cultural hub and lounge co-created by 45+ artists and collaborators. (Cincy Nice Social House)",
+        "source_url": "https://www.cincynice.com/work/socialhouse"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Storefronts activated (plan, sponsorship deck)",
+        "value": "8",
+        "source_url": "https://docs.google.com/presentation/d/1_AFrLKzGofgz3-Dkjgfe6Psb_Q-v_fexPEAPVNIPoTo/edit?usp=sharing"
+      },
+      {
+        "label": "Local artists featured (plan, sponsorship deck)",
+        "value": "30+",
+        "source_url": "https://docs.google.com/presentation/d/1_AFrLKzGofgz3-Dkjgfe6Psb_Q-v_fexPEAPVNIPoTo/edit?usp=sharing"
+      },
+      {
+        "label": "Artists / storefront galleries (Founding Circle invitation)",
+        "value": "30+ artists, 8+ storefront galleries",
+        "source_url": "https://www.cincynice.com/founding-circle-rsvp"
+      },
+      {
+        "label": "Vacant storefronts transformed (CityBeat, Aug 4)",
+        "value": "six to eight",
+        "source_url": "https://www.citybeat.com/arts/visual-arts/cincinnati-arts-week-launches-october/"
+      },
+      {
+        "label": "Spaces (Cincinnati Magazine, Sep 23)",
+        "value": "over eight spaces",
+        "source_url": "https://www.cincinnatimagazine.com/article/cincinnati-art-week/"
+      },
+      {
+        "label": "Spaces in one walkable footprint (@cincinnatiartweek on Threads, Sep 15)",
+        "value": "10+",
+        "source_url": "https://www.threads.com/@cincinnatiartweek"
+      },
+      {
+        "label": "Self-guided Art Walks through Over-the-Rhine (CityBeat)",
+        "value": "two",
+        "source_url": "https://www.citybeat.com/arts/visual-arts/cincinnati-arts-week-launches-october/"
+      }
+    ],
+    "logo": {
+      "url": "https://freight.cargo.site/t/original/i/N3016534495316871470170954571130/CAW_FULL_DARK.svg",
+      "format": "svg",
+      "on": "light"
+    },
+    "brand": {
+      "colors": [
+        "#3d162a",
+        "#f5f4eb",
+        "#e00042",
+        "#f9f7ed",
+        "#26060e",
+        "#8b3a64",
+        "#e1e1d5"
+      ],
+      "fonts": [
+        "darker-grotesque (Adobe Fonts kit rrx7gee; weights 500, 800) — h1 800 / h2 500 at 48pt, line-height 0.8",
+        "Monument Grotesk Semi-Mono Variable (Cargo type) — body copy 14pt, captions, footer, buttons",
+        "Monument Grotesk Mono Variable (Cargo type) — .button-10",
+        "Diatype Variable (Cargo type) — shop/audio defaults",
+        "azeret-mono (Adobe Fonts kit rrx7gee; weight 400) — loaded in kit"
+      ]
+    },
+    "source_url": "https://cincinnatiartweek.com/",
+    "notes": "Edition: CAW's FAQ calls it \"a new annual celebration\" and \"the inaugural week\" (research/caw/faqs.json). Hub: Cincinnati Magazine (Sep 23, 2026) calls the Welcome Center at 1600 Race St. \"the main hub for the week\"."
   },
   {
     "id": "scw",
@@ -123,27 +233,66 @@
     "name": "StartupCincy Week",
     "short_name": "SUCW",
     "tagline": "Ten Years of Bold Bets",
-    "edition": "2026",
+    "edition": "10th annual",
     "dates": {
       "start": "2026-10-05",
       "end": "2026-10-08"
     },
-    "description": "StartupCincy Week 2026 marks a decade of backing founders who refused to play it safe, building companies that didn't ask permission, and proving Cincinnati is where bold bets belong.",
+    "description": "StartupCincy Week 2026 marks a decade of backing founders who refused to play it safe, building companies that didn't ask permission, and proving Cincinnati is where bold bets belong.\n\nStartupCincy Week 2026 is four days of bold ideas, meaningful connections, and the people building what’s next. Explore the sessions, find the conversations that matter to you, and start mapping out your week.",
     "organizers": [
       {
         "name": "StartupCincy",
         "url": "https://startupcincy.com/",
-        "org_id": null
+        "org_id": "startupcincy",
+        "role": null
       },
       {
         "name": "Cintrifuse",
         "url": "https://cintrifuse.com/",
-        "org_id": "cintrifuse"
+        "org_id": "cintrifuse",
+        "role": null
       }
     ],
     "url": "https://startupcincyweek.com/",
     "hub_venue_id": "union-hall",
-    "tickets": [],
+    "tickets": [
+      {
+        "name": "Startup Founder or Employee - General Admission",
+        "price": "$50.00",
+        "url": "https://startupcincyweek.com/en/registration-form",
+        "notes": "I founded or work for a venture-backable or high-growth potential startup. Includes: 4 days of programming, happy hours, and showcases."
+      },
+      {
+        "name": "Venture Capital Investor - Investor Admission",
+        "price": "$300.00",
+        "url": "https://startupcincyweek.com/en/registration-form",
+        "notes": "For individual or institutional venture capital investors. Includes: 4 days of programming, happy hours, and showcases."
+      },
+      {
+        "name": "Corporate Partner - Corporate Admission",
+        "price": "$250.00",
+        "url": "https://startupcincyweek.com/en/registration-form",
+        "notes": "I am a representative of an established organization seeking to connect with startups, explore collaboration opportunities, and stay informed on emerging technologies. Includes: 4 days of programming, happy hours, and showcases"
+      },
+      {
+        "name": "Entrepreneur or Small Business Owner - General Admission",
+        "price": "$50.00",
+        "url": "https://startupcincyweek.com/en/registration-form",
+        "notes": "I am a business owner, solopreneur, or employee focused on generating revenue, steady and long-term growth, and maintaining ownership. Includes: 4 days of programming, happy hours, and showcases."
+      },
+      {
+        "name": "General Ecosystem - General Admission",
+        "price": "$50.00",
+        "url": "https://startupcincyweek.com/en/registration-form",
+        "notes": "I work, volunteer, or mentor within the ecosystem, providing resources, programming, or mentorship to founders and business owners. Includes: 4 days of programming, happy hours, and showcases."
+      },
+      {
+        "name": "Student Admission - General Admission",
+        "price": "$0.00",
+        "url": "https://startupcincyweek.com/en/registration-form",
+        "notes": "This ticket is exclusively for current students interested in innovation, entrepreneurship, and startups. Included access to the Student Summit on Thursday, October 8"
+      }
+    ],
     "daily_themes": [
       {
         "date": "2026-10-05",
@@ -187,21 +336,204 @@
       "#StartupCincy"
     ],
     "social": {
-      "instagram": null,
-      "x": null,
-      "facebook": null,
-      "linkedin": null,
-      "tiktok": null
+      "instagram": "https://www.instagram.com/startupcincy/",
+      "x": "https://twitter.com/StartupCincy/",
+      "facebook": "https://www.facebook.com/StartupCincy/",
+      "linkedin": "https://www.linkedin.com/company/startupcincy/",
+      "tiktok": null,
+      "youtube": null
     },
     "contact": {
-      "email": null,
+      "email": "info@startupcincy.com",
       "phone": null
     },
-    "history": [],
-    "stats": [],
-    "logo": null,
-    "brand": null,
-    "source_url": "https://startupcincyweek.com/"
+    "history": [
+      {
+        "year": 2016,
+        "fact": "Precursor: Techstars FounderCon 2016 brought \"More than 1,000 of the nation's top business builders\" to Cincinnati, Oct. 18–20, 2016 — \"the first time in six years that Techstars is hosting their annual innovation event in a location outside of their traditional network of startup hubs\". (Not a StartupCincy Week.)",
+        "source_url": "https://prnewswire.com/news-releases/startup-elite-converge-in-cincinnati-drawing-national-attention-to-midwest-business-innovation-scene-300346697.html"
+      },
+      {
+        "year": 2017,
+        "fact": "First edition, \"Techstars Startup Week Cincinnati, held Oct. 9-13 in Union Hall and other Downtown and Over-the-Rhine locations.\" Results reported by WCPO: 118 events (goal 60); attendance 4,500 (goal 3,000, counting people attending more than one event); $59,000 in sponsorship (goal $30,000); 1,441 unique names collected; 34% minority and 33% female participation; more than 4 million social impressions; guests from 50 cities, 17 states and five foreign countries. An attendee noted the week was free.",
+        "source_url": "https://www.wcpo.com/news/insider/startups-2018-the-techstars-startup-week-in-october-shows-as-much-promise-for-the-future-as-its-attendees"
+      },
+      {
+        "year": 2017,
+        "fact": "Origin story (2026 retelling): \"What began as a grassroots movement and a Twitter hashtag\" (#StartupCincy). Abby Grimm: \"I think the first year of StartupCincy Week was maybe around 100 people, and this year we’re expecting 1500 people to come.\" (Conflicts with WCPO's 2017 attendance count of 4,500.)",
+        "source_url": "https://soapboxmedia.com/startupcincy-week-marks-a-decade-of-building-cincinnatis-startup-community/"
+      },
+      {
+        "year": 2022,
+        "fact": "Sixth annual StartupCincy Week, October 10–14, 2022: \"Union Hall welcomed over 1,000 people ... 35 events featuring over 150 speakers across four venues.\" Key partners: Alloy Development Co., Blue North, CincyTech, Cintrifuse, ECDI, Endeavor, Flywheel Social Enterprise Hub, Product Refinery, REDI Cincinnati, and Reversed Out Creative.",
+        "source_url": "https://startupcincy.com/spark-the-future/"
+      },
+      {
+        "year": 2023,
+        "fact": "StartupCincy Week 2023, October 23–26, theme \"Homegrown Hustle\": \"we welcomed over 1,000 dreamers to Union Hall ... 45 events featuring over 100 unique speakers.\" Planning committees: Alloy, Aviatra Accelerators, Blue North, CincyTech, Cintrifuse, ECDI, Flywheel Social Enterprise Hub, gener8tor, Gratitude Collective, Miami University, and the University of Cincinnati. First formal partnership with the Over-The-Rhine Chamber of Commerce (Movers & Makers).",
+        "source_url": "https://startupcincy.com/homegrown-hustle/"
+      },
+      {
+        "year": 2024,
+        "fact": "Eighth annual StartupCincy Week, October 7–10, 2024, in Over-the-Rhine, \"presented by Cintrifuse\" and \"sponsored by Fidelity Private Shares, P&G, and many other ecosystem partners\". Tickets: general admission ($50), corporate admission ($200), VC Investor ($300). Daily themes: Monday whole community, Tuesday high-growth tech founders and investors, Wednesday non-tech and early-stage founders, Thursday the region (Chamber Expo, small business and CPG workshops).",
+        "source_url": "https://www.cdomagazine.tech/others/startupcincy-week-2024-registration-open-for-eighth-annual-event"
+      },
+      {
+        "year": 2025,
+        "fact": "StartupCincy Week 2025, October 6–9, at Union Hall, Over-the-Rhine. New $200,000 live pitch competition, \"Organized by the nonprofit Cintrifuse and powered by Connetic Ventures\", with five finalists on Oct. 7 at Union Hall; judges Kirsten Moorefield (Cloverleaf), Somesh Saxena (Pantomath), Raf Garcia (Kernel). Organizers expected \"more than 70 venture capital investors\" and programming \"shaped by more than 20 ecosystem partners\".",
+        "source_url": "https://moversmakers.org/2025/09/08/200k-pitch-competition-to-anchor-startupcincy-week/"
+      },
+      {
+        "year": 2025,
+        "fact": "2025 day themes (leftover hidden text on startupcincyweek.com): MONDAY, OCT. 6: Kick off the week with founder stories, ecosystem content, and get plugged into everything Cincinnati has to offer. (Kick-Off & Keynote, Best of Demo Night, Founder Development); TUESDAY, OCT. 7: A deep dive into venture capital for startups scaling here in the Midwest. (Cintrifuse Annual Meeting, State of Venture Panel, Startup Pitch Competition); WEDNESDAY, OCT. 8: Calling all early-stage and non-tech founders, this day is all about getting started with confidence. (Speed Mentoring, Upskilling Workshops, Hard Rock Happy Hour); THURSDAY, OCT 9: Explore how our patchwork of businesses and collective action are making Cincinnati a great place to build, grow, and scale. (Small Biz & Creative Workshops, Food Truck Fair, Regional Chamber Expo)",
+        "source_url": "https://startupcincyweek.com/"
+      },
+      {
+        "year": 2025,
+        "fact": "2025 Title Sponsors: P&G, Cintrifuse (with Cintrifuse Capital) and Fidelity Investments. The Startup Clubhouse was hosted at Somerhaus. StartupCincy.com \"was launched in 2025 as what Grimm called a “digital front door” for the region’s startup ecosystem\" (Soapbox).",
+        "source_url": "https://startupcincyweek.com/en/sponsors-page"
+      },
+      {
+        "year": 2026,
+        "fact": "First-ever StartupCincy Awards, April 30, 2026, 5:30–7:30 pm at Union Hall: \"This event kicks off StartupCincy’s 10th anniversary, honoring a decade of work and the people behind it.\"",
+        "source_url": "https://luma.com/SUCAwards2026"
+      },
+      {
+        "year": 2026,
+        "fact": "10th StartupCincy Week, October 5–8, 2026, theme \"Ten Years of Bold Bets\": first-ever Student Pitch Competition and a full Student Day (Thursday); new city-building track; expected about 1,500 people.",
+        "source_url": "https://soapboxmedia.com/startupcincy-week-marks-a-decade-of-building-cincinnatis-startup-community/"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Panels, workshops & keynotes",
+        "value": "100+",
+        "source_url": "https://startupcincyweek.com/"
+      },
+      {
+        "label": "Sessions (agenda page)",
+        "value": "110+",
+        "source_url": "https://startupcincyweek.com/en/agenda-page"
+      },
+      {
+        "label": "Speakers (agenda page)",
+        "value": "75+",
+        "source_url": "https://startupcincyweek.com/en/agenda-page"
+      },
+      {
+        "label": "Expected attendance",
+        "value": "about 1,500",
+        "source_url": "https://soapboxmedia.com/startupcincy-week-marks-a-decade-of-building-cincinnatis-startup-community/"
+      },
+      {
+        "label": "Founders, funders, and builders (startupcincy.com promo)",
+        "value": "1,000+",
+        "source_url": "https://startupcincy.com/"
+      },
+      {
+        "label": "Edition",
+        "value": "10th annual",
+        "source_url": "https://startupcincyweek.com/en/agenda-page"
+      },
+      {
+        "label": "StartupCincy ecosystem: Startups",
+        "value": "397",
+        "source_url": "https://startupcincy.com/"
+      },
+      {
+        "label": "StartupCincy ecosystem: Ecosystem Value",
+        "value": "$8.2B",
+        "source_url": "https://startupcincy.com/"
+      },
+      {
+        "label": "StartupCincy ecosystem: Raised through venture funding in the last 5 years",
+        "value": "$1.68B",
+        "source_url": "https://startupcincy.com/"
+      },
+      {
+        "label": "StartupCincy ecosystem: raised through non-dilutive funding in the last 5 years",
+        "value": "$35.9M",
+        "source_url": "https://startupcincy.com/"
+      },
+      {
+        "label": "StartupCincy ecosystem: jobs associated with Cincy startups",
+        "value": "32.5K",
+        "source_url": "https://startupcincy.com/"
+      },
+      {
+        "label": "StartupCincy ecosystem: jobs created in the last 5 years",
+        "value": "9000",
+        "source_url": "https://startupcincy.com/"
+      },
+      {
+        "label": "StartupCincy coalition: Entrepreneur Support Organizations",
+        "value": "60+",
+        "source_url": "https://startupcincy.com/our-partners/"
+      },
+      {
+        "label": "StartupCincy coalition: Venture Capital Investors, Grantors, and other Funding Sources",
+        "value": "50+",
+        "source_url": "https://startupcincy.com/our-partners/"
+      },
+      {
+        "label": "StartupCincy coalition: Resources & Support Programs",
+        "value": "200+",
+        "source_url": "https://startupcincy.com/our-partners/"
+      },
+      {
+        "label": "StartupCincy coalition: Corporate Partners & Universities",
+        "value": "28",
+        "source_url": "https://startupcincy.com/our-partners/"
+      },
+      {
+        "label": "StartupCincy Slack members",
+        "value": "1500+",
+        "source_url": "https://startupcincy.com/resources/"
+      },
+      {
+        "label": "Fortune 500 companies headquartered in the region",
+        "value": "9",
+        "source_url": "https://startupcincy.com/about-startupcincy/"
+      },
+      {
+        "label": "STEM graduates annually",
+        "value": "over 33,000",
+        "source_url": "https://startupcincy.com/about-startupcincy/"
+      },
+      {
+        "label": "Cintrifuse Capital assets under management",
+        "value": "over $150 million",
+        "source_url": "https://cintrifuse.com/about-us/"
+      }
+    ],
+    "logo": {
+      "url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1767721253sucw2026-logo-1-png1767721253.png",
+      "format": "png",
+      "on": "light"
+    },
+    "brand": {
+      "colors": [
+        "#EB4840",
+        "#0B2734",
+        "#3C80BD",
+        "#63BEDC",
+        "#182A2C",
+        "#D9E7EF",
+        "#F6FAFD",
+        "#FFD600",
+        "#212121"
+      ],
+      "fonts": [
+        "Knockout",
+        "Knockout 27 Junior Bantamwt",
+        "Montserrat",
+        "Nunito Sans",
+        "Bebas Neue",
+        "Anton"
+      ]
+    },
+    "source_url": "https://startupcincyweek.com/",
+    "notes": "Description: homepage line + the agenda page's intro paragraph (both startupcincyweek.com). Edition from the agenda (\"the 10th Annual StartupCincy Week\"). Tickets verbatim from the registration form (prices as published)."
   },
   {
     "id": "blink",
@@ -209,7 +541,7 @@
     "name": "BLINK",
     "short_name": "BLINK",
     "tagline": "BLINK® illuminated by ArtsWave, is the nation’s largest public light and art event.",
-    "edition": "2026",
+    "edition": "Fifth edition",
     "dates": {
       "start": "2026-10-08",
       "end": "2026-10-11"
@@ -219,91 +551,654 @@
       {
         "name": "Cincinnati Regional Chamber",
         "url": "https://www.cincinnatichamber.com/",
-        "org_id": null
+        "org_id": "cincinnati-regional-chamber",
+        "role": "Executive producing partner"
       },
       {
         "name": "AGAR",
         "url": "https://theagar.com/",
-        "org_id": null
+        "org_id": "agar",
+        "role": "Executive producing partner"
       },
       {
         "name": "Carol Ann & Ralph V. Haile, Jr. Foundation (Haile Foundation)",
         "url": "https://www.hailefoundation.org/",
-        "org_id": null
+        "org_id": "carol-ann-and-ralph-v-haile-jr-foundation",
+        "role": "Executive producing partner"
       },
       {
         "name": "ArtsWave",
         "url": "https://artswave.org/",
-        "org_id": null
+        "org_id": "artswave",
+        "role": "Title sponsor"
       }
     ],
     "url": "https://www.blinkcincinnati.com/",
     "hub_venue_id": null,
-    "tickets": [],
-    "daily_themes": [
+    "tickets": [
       {
-        "date": "2026-10-08",
-        "theme": "Opening night: Ready. Set. BLINK! Opening Ceremony, then BLINK lights on",
-        "highlights": [
-          "Ready. Set. BLINK! Opening Ceremony, 4:00-9:00 p.m., Central Parkway between Liberty Street and West 14th Street (TQL Stadium)",
-          "Flip the Switch at sunset (approximately 7:00 p.m.), followed by a light and drone show with pyrotechnics",
-          "Drone show \"First Sight\" over TQL Stadium at 8:30 p.m.",
-          "BLINK installations 7:00-11:00 p.m.",
-          "Asianati Night Market on Court Street Plaza, 5-11 p.m. (hours per FOX19)"
-        ]
+        "name": "BLINK festival admission",
+        "price": "Free",
+        "url": "https://www.blinkcincinnati.com/faqs",
+        "notes": "No - BLINK is completely free and open to the public!"
       },
       {
-        "date": "2026-10-09",
-        "theme": "BLINK night 2",
-        "highlights": [
-          "BLINK installations 7:00-11:00 p.m.",
-          "Drone show \"Dimensions of Wonder\" over the Ohio River at 8 p.m. and 10 p.m.",
-          "Asianati Night Market on Court Street Plaza, 5-11 p.m. (hours per FOX19)",
-          "TANK Park & Ride from NKU runs Friday and Saturday only",
-          "Harper Alive at The Mercantile Immersive from 6:00 PM (BLINK Around Town)"
-        ]
+        "name": "Ready. Set. BLINK! Opening Ceremony",
+        "price": "Free",
+        "url": "https://www.blinkcincinnati.com/blink-event-guide/ready-set-blink",
+        "notes": "No: Ready. Set. BLINK! is completely free and open to the public."
       },
       {
-        "date": "2026-10-10",
-        "theme": "BLINK night 3",
-        "highlights": [
-          "BLINK installations 7:00-11:00 p.m.",
-          "Drone show \"Dimensions of Wonder\" over the Ohio River at 8 p.m. and 10 p.m.",
-          "Asianati Night Market on Court Street Plaza, 5-11 p.m. (hours per FOX19)",
-          "Fall Cov Craft makers market, 10 a.m.-4 p.m., Sixth Street Promenade, MainStrasse Village, Covington (sponsored by BLINK)",
-          "Harper Alive at The Mercantile Immersive from 1:00 PM (BLINK Around Town)",
-          "TANK Park & Ride from NKU runs Friday and Saturday only"
-        ]
+        "name": "One-Day BLINK Pass (Metro/TANK/BCRTA via Transit app)",
+        "price": "$2.20",
+        "url": "https://www.blinkcincinnati.com/resources/park-and-ride",
+        "notes": "A One-Day BLINK Pass, valid for 24 hours after activation - $2.20 On sale Oct. 5 through the Transit app."
       },
       {
-        "date": "2026-10-11",
-        "theme": "BLINK final night",
-        "highlights": [
-          "BLINK installations 7:00-11:00 p.m.",
-          "Drone show \"Dimensions of Wonder\" over the Ohio River at 8 p.m. and 10 p.m.",
-          "Asianati Night Market on Court Street Plaza, 5-10 p.m. (hours per FOX19)",
-          "Harper Alive at The Mercantile Immersive at 3:00 PM (BLINK Around Town)"
-        ]
+        "name": "Four-Day BLINK Pass (Transit app)",
+        "price": "$8.00",
+        "url": "https://www.blinkcincinnati.com/resources/park-and-ride",
+        "notes": "A Four-Day BLINK Pass, valid October 8-11 - $8.00"
+      },
+      {
+        "name": "One-Day Group Pass (Transit app)",
+        "price": "$8.00",
+        "url": "https://www.blinkcincinnati.com/resources/park-and-ride",
+        "notes": "A One-Day Group Pass, for up to four people for 24 hours after activation - $8.00"
+      },
+      {
+        "name": "Red Bike BLINK 1-Week Pass",
+        "price": "$20",
+        "url": "https://www.cincyredbike.org/get-the-app/",
+        "notes": "Get unlimited two-hour Red Bike trips from Monday, October 5th– Monday, October 12th, to ride the entire week of BLINK!"
+      },
+      {
+        "name": "Guided BLINK walk with Urban Hikers",
+        "price": "$10 / person",
+        "url": "https://urban-hikers.com/blink-walks",
+        "notes": "Urban Hikers page: Oct 8-11, 5 PM - 9 PM, 5 departure hubs, hourly waves, 25 spots per wave. BLINK Walking Tours page says tours depart every 20 minutes."
+      },
+      {
+        "name": "LAZ Parking reserved spaces",
+        "price": null,
+        "url": "https://www.blinkcincinnati.com/reserve-parking",
+        "notes": "Price shown only inside the LAZ checkout widget (not captured)."
+      },
+      {
+        "name": "ArtsWave Pass (via the free ArtsWave App, October 2026)",
+        "price": "Free in October (normally $100 per year)",
+        "url": "https://artswave.org/what-is-artswave/the-artswave-app-blink/",
+        "notes": "Download the ArtsWave App and, throughout BLINK and the entire month of October, you’ll get the ArtsWave Pass at no cost. Normally $100 per year, the ArtsWave Pass gives you access to: 50% off 100s of tickets to local arts experiences; Free and last-minute ticket offers; Restaurant and retail deals more! After October: keep your ArtsWave Pass benefits going for just $9.99/month"
       }
     ],
+    "daily_themes": [],
     "hours": "October 8-11 From 7:00PM to 11:00PM",
     "hashtags": [],
     "social": {
-      "instagram": null,
-      "x": null,
-      "facebook": null,
+      "instagram": "https://www.instagram.com/blinkcincinnati",
+      "x": "https://twitter.com/blinkcincy",
+      "facebook": "https://www.facebook.com/blinkcincinnati",
       "linkedin": null,
-      "tiktok": null
+      "tiktok": "https://www.tiktok.com/@blink.cincinnati",
+      "youtube": null
     },
     "contact": {
-      "email": null,
-      "phone": null
+      "email": "info@blinkcincinnati.com",
+      "phone": "(513) 579-3111"
     },
-    "history": [],
-    "stats": [],
-    "logo": null,
-    "brand": null,
-    "source_url": "https://www.blinkcincinnati.com/about-blink"
+    "history": [
+      {
+        "year": 2017,
+        "fact": "In its inaugural year, Blink brought Cincinnati together under the vision of what a \"future city\" could be. Filled with light displays and art, the event stretched from The Banks across downtown to the edges of Over-the-Rhine. The free, four-day event was produced by local creative agency Brave Berlin, which built on the foundation of their Lumenocity events held in Washington Park from 2013–2015.",
+        "source_url": "https://www.blinkcincinnati.com/about-blink"
+      },
+      {
+        "year": 2017,
+        "fact": "The festival spanned 20 blocks, divided into four zones roughly following the streetcar route — The Banks, the Central Business District around Fountain Square, Over-the-Rhine near Washington Park, and Findlay Market — and featured 21 light projection mappings, a parade, multiple building murals, 27 art installations, and six stages of live entertainment. The event far surpassed expectations both in execution and attendance, drawing more than 1 million visitors — the largest gathering of people ever in downtown Cincinnati and Over-the-Rhine.",
+        "source_url": "https://www.blinkcincinnati.com/about-blink"
+      },
+      {
+        "year": 2017,
+        "fact": "“Cincinnati is experiencing a boom…Spotlighting the city’s fine arts, Blink Cincinnati, a display of light installations projected across 20 blocks, will run Oct. 12 to 15.”",
+        "source_url": "https://braveberlin.com/portfolio-item/blink/"
+      },
+      {
+        "year": 2017,
+        "fact": "When it began in 2017, the Cincinnati Regional Chamber, along with BLINK's founding partners AGAR, ArtWorks, Brave Berlin, and the Carol Ann and Ralph V. Haile, Jr. Foundation, set out to create something bold: a massive, open-air art gallery that would invite people to see Cincinnati in a new light.",
+        "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+      },
+      {
+        "year": 2019,
+        "fact": "BLINK's second iteration promised to be bigger and bolder than the original event. The festival grew from 20 to 30 blocks and made its way across the Ohio River with its first venture into Covington, Kentucky. The event now included more than 40 interactive art installations and 11 new permanent murals on building facades throughout the route.",
+        "source_url": "https://www.blinkcincinnati.com/about-blink"
+      },
+      {
+        "year": 2019,
+        "fact": "The centerpiece of BLINK 2019 was the illumination of the historic Roebling Suspension Bridge — producers at Brave Berlin described their vision as bringing \"the singing bridge\" to life through light, color, and sound focused on the bridge's anchorage, gateway towers, arches, and spires. The event estimated to have brought in between 1.25 and 1.5 million people.",
+        "source_url": "https://www.blinkcincinnati.com/about-blink"
+      },
+      {
+        "year": 2019,
+        "fact": "CINCINNATI – Several traffic restrictions will be in place during evenings from Oct. 10 through Oct. 13 so Downtown Cincinnati streets can come alive for the return of BLINK®, an internationally celebrated art and light spectacular.",
+        "source_url": "https://www.cincinnati-oh.gov/cityofcincinnati/traffic-alerts/blink-2019-traffic-and-parking-information-for-return-of-art-and-light-event/"
+      },
+      {
+        "year": 2021,
+        "fact": "BLINK was always intended to be a biennial event, taking place every other year, but due to the COVID-19 Pandemic, the event’s return in 2021 was put on hold.",
+        "source_url": "https://www.blinkcincinnati.com/files/assets/blinkeconomicimpactreport2022spreads.pdf"
+      },
+      {
+        "year": 2022,
+        "fact": "For the first time since the COVID-19 pandemic, BLINK returned, this time with a shift in leadership as the event transitioned from founder Brave Berlin to the Cincinnati Regional Chamber. The year's biggest debut was BLINK’s first-ever drone show, produced in partnership with Sky Elements Drone Shows. Presented twice nightly, the show featured 300 drones hovering over the Ohio River, creating unique visuals for attendees to enjoy.",
+        "source_url": "https://www.blinkcincinnati.com/about-blink"
+      },
+      {
+        "year": 2022,
+        "fact": "The event also introduced the Asianati Night Market as a new attraction within the Findlay Market zone. Reports showed that, for the first time, the event surpassed 2 million attendees, generating a significant economic impact for the region.",
+        "source_url": "https://www.blinkcincinnati.com/about-blink"
+      },
+      {
+        "year": 2022,
+        "fact": "Organizers announced today that BLINK® Cincinnati, illuminated by ArtsWave, the region’s engine for the arts, will return from October 13-16, 2022 under the leadership of a new executive director.",
+        "source_url": "https://cincinnatichamber.com/blog/blink-is-back-from-october-13-16-2022/"
+      },
+      {
+        "year": 2022,
+        "fact": "Additionally, the event held a parade in which more than 85 arts and community groups and over 2,500 participants illuminated themselves and traveled along Fifth Street in Downtown Cincinnati.",
+        "source_url": "https://www.blinkcincinnati.com/files/assets/blinkeconomicimpactreport2022spreads.pdf"
+      },
+      {
+        "year": 2022,
+        "fact": "Fifth Street will be closed between Central Avenue and Broadway starting at 6:30 p.m. Thursday, Oct. 13, for the parade.",
+        "source_url": "https://www.cincinnati-oh.gov/dote/news/blink-2022-traffic-and-parking-information/"
+      },
+      {
+        "year": 2022,
+        "fact": "In October 2022, the nowhere-else BLINK experience attracted over 2 million attendees across the 4-day event, resulting in a direct economic impact of $126 million dollars.",
+        "source_url": "https://www.blinkcincinnati.com/newsroom/2023/02/28/blink-delivers-126m-direct-economic-impact-for-the-region"
+      },
+      {
+        "year": 2024,
+        "fact": "BLINK ‘Let it Shine’ Parade – Batavia High School Marching Band",
+        "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+      },
+      {
+        "year": 2024,
+        "fact": "BLINK 2024 expanded into Newport, Kentucky, for the first time, extending the festival’s reach across all three riverfront cities and creating seven total event zones—the largest footprint in the festival’s history. This expansion further reinforced BLINK’s role as a regional event, connecting communities on both sides of the Ohio River through immersive art, light, and technology.",
+        "source_url": "https://www.blinkcincinnati.com/about-blink"
+      },
+      {
+        "year": 2024,
+        "fact": "The festival’s signature new spectacle was the “Supernova” laser light bridge, a 100-foot-wide array of laser light stretching across the Ohio River between Covington Landing and Sawyer Point. Running parallel to the iconic Roebling Suspension Bridge, the installation served as both a visual centerpiece and a symbolic connection between the cities, creating one of the festival’s most memorable experiences. Another first for BLINK was the introduction of “Afterglow,” a late-night concert series that extended the festival experience beyond its traditional programming.",
+        "source_url": "https://www.blinkcincinnati.com/about-blink"
+      },
+      {
+        "year": 2024,
+        "fact": "With the highly anticipated return of the public art spectacle slated for October 17-20, 2024, BLINK, Illuminated by ArtsWave is calling for artists to make the queen city shine.",
+        "source_url": "https://www.blinkcincinnati.com/newsroom/2023/09/19/blink-illuminated-by-artswave-calls-for-artists-to-illuminate-cincinnati-once-again-in-2024"
+      },
+      {
+        "year": 2024,
+        "fact": "In 2024, the Cincinnati Regional Chamber, AGAR, ish!, and Cincy Nice forged a partnership with an extraordinary coalition of artists, sponsors, local governments, civic institutions, and creative leaders to deliver this experience.",
+        "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+      },
+      {
+        "year": 2024,
+        "fact": "Finally, we offer our thanks to BLINK’s first executive director, Justin Brookhart, who led BLINK in 2022 and 2024.",
+        "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+      },
+      {
+        "year": 2025,
+        "fact": "The leadership team behind BLINK®, the nation's largest immersive light and art event, is proud to announce Leslie Mooney as the festival’s new Vice President and Executive Director.",
+        "source_url": "https://www.blinkcincinnati.com/newsroom/2025/06/20/leslie-mooney-named-executive-director-of-blink"
+      },
+      {
+        "year": 2025,
+        "fact": "The leadership team behind BLINK®, the internationally celebrated immersive light and art event, today announced that BLINK will return to Cincinnati and Northern Kentucky from October 8-11, 2026.",
+        "source_url": "https://www.blinkcincinnati.com/newsroom/2025/07/08/blink-announces-2026-dates-and-opens-call-to-artists"
+      },
+      {
+        "year": 2026,
+        "fact": "The London reception took place Tuesday, March 24, at Somerset House, followed by a reception in Paris on Thursday, March 26, at Galerie Joseph.",
+        "source_url": "https://linknky.com/culture/2026/04/11/blink-festival-global-expansion-cincinnati-economic-impact/"
+      },
+      {
+        "year": 2026,
+        "fact": "New for 2026, the Ready. Set. BLINK! Opening Ceremony will offer a more immersive opening celebration that brings the community together.",
+        "source_url": "https://www.blinkcincinnati.com/blink-event-guide/ready-set-blink"
+      },
+      {
+        "year": 2026,
+        "fact": "BLINK, illuminated by ArtsWave, the country’s largest celebration of public art and light, is excited to announce the 90+ artists participating in its fifth edition, which will be free and open to the public across Cincinnati and the Northern Kentucky area from October 8–11, 2026.",
+        "source_url": "https://cincinnatichamber.com/blog/blink-a-festival-of-light-art-announces-exhibiting-artists-for-blink-2026-biennial/"
+      },
+      {
+        "year": 2026,
+        "fact": "Local arts nonprofit organization ArtsWave is once again the festival’s chief sponsor and will also simultaneously be celebrating its 100th anniversary in 2026—which ArtsWave is celebrating during BLINK with a giant art installation at the Aronoff Center.",
+        "source_url": "https://www.citybeat.com/arts/visual-arts/blink-celebrates-10-year-anniversary-in-2026/"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Dates (2026)",
+        "value": "October 8-11, 2026",
+        "source_url": "https://www.blinkcincinnati.com/faqs"
+      },
+      {
+        "label": "Nightly hours (2026)",
+        "value": "7:00 p.m. to 11:00 p.m.",
+        "source_url": "https://www.blinkcincinnati.com/"
+      },
+      {
+        "label": "Footprint (FAQ)",
+        "value": "30+ city blocks",
+        "source_url": "https://www.blinkcincinnati.com/faqs"
+      },
+      {
+        "label": "Footprint (Event Guide)",
+        "value": "35+ city blocks",
+        "source_url": "https://www.blinkcincinnati.com/blink-event-guide"
+      },
+      {
+        "label": "Footprint (2026 artists release)",
+        "value": "more than forty downtown city blocks",
+        "source_url": "https://www.blinkcincinnati.com/newsroom/2026/06/08/blink-2026-participating-artists"
+      },
+      {
+        "label": "Artists (2026)",
+        "value": "92",
+        "source_url": "https://www.blinkcincinnati.com/newsroom/2026/06/08/blink-2026-participating-artists"
+      },
+      {
+        "label": "Countries represented by artists (2026)",
+        "value": "20",
+        "source_url": "https://www.blinkcincinnati.com/newsroom/2026/06/08/blink-2026-participating-artists"
+      },
+      {
+        "label": "International artists (2026)",
+        "value": "40",
+        "source_url": "https://www.blinkcincinnati.com/newsroom/2026/06/08/blink-2026-participating-artists"
+      },
+      {
+        "label": "Artists from Cincinnati and Northern Kentucky (2026)",
+        "value": "30",
+        "source_url": "https://www.blinkcincinnati.com/newsroom/2026/06/08/blink-2026-participating-artists"
+      },
+      {
+        "label": "US-based artists (2026)",
+        "value": "59%",
+        "source_url": "https://www.blinkcincinnati.com/newsroom/2026/06/08/blink-2026-participating-artists"
+      },
+      {
+        "label": "New artists (2026)",
+        "value": "47",
+        "source_url": "https://www.blinkcincinnati.com/newsroom/2026/06/08/blink-2026-participating-artists"
+      },
+      {
+        "label": "Returning artists (2026)",
+        "value": "46",
+        "source_url": "https://www.blinkcincinnati.com/newsroom/2026/06/08/blink-2026-participating-artists"
+      },
+      {
+        "label": "Large-scale projection mappings (2026)",
+        "value": "90+",
+        "source_url": "https://www.blinkcincinnati.com/newsroom/2026/06/08/blink-2026-participating-artists"
+      },
+      {
+        "label": "Murals created through BLINK over the past decade",
+        "value": "Over 70",
+        "source_url": "https://www.blinkcincinnati.com/newsroom/2026/06/08/blink-2026-participating-artists"
+      },
+      {
+        "label": "Permanent murals as of BLINK 2024",
+        "value": "56",
+        "source_url": "https://www.blinkcincinnati.com/newsroom/2026/06/08/blink-2026-participating-artists"
+      },
+      {
+        "label": "Permanent murals after BLINK 2026",
+        "value": "75",
+        "source_url": "https://www.blinkcincinnati.com/newsroom/2026/06/08/blink-2026-participating-artists"
+      },
+      {
+        "label": "Artist submissions (2026 call)",
+        "value": "more than 800",
+        "source_url": "https://local12.com/news/local/blink-announces-new-opening-ceremonies-90-artists-2026-cincinnati-covington-artswave-block-party-murals-art-installations-safety-pureval"
+      },
+      {
+        "label": "Forecast attendance (2026)",
+        "value": "approximately 2.3 million",
+        "source_url": "https://www.wcpo.com/entertainment/local-a-e/blink-announces-new-block-party-opener-participating-artists-for-2026-festival"
+      },
+      {
+        "label": "Budget",
+        "value": "$7.5-8 million",
+        "source_url": "https://www.yahoo.com/news/articles/leslie-mooney-blink-radically-welcoming-051019142.html"
+      },
+      {
+        "label": "Edition",
+        "value": "Fifth edition (fifth biennial)",
+        "source_url": "https://cincinnatichamber.com/blog/blink-a-festival-of-light-art-announces-exhibiting-artists-for-blink-2026-biennial/"
+      },
+      {
+        "label": "Call to Artists deadline (2026 edition)",
+        "value": "October 8, 2025",
+        "source_url": "https://www.blinkcincinnati.com/newsroom/2025/07/08/blink-announces-2026-dates-and-opens-call-to-artists"
+      },
+      {
+        "label": "Direct economic impact (2024)",
+        "value": "$205M+ (report detail: $205,243,931)",
+        "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+      },
+      {
+        "label": "Total economic impact (2024)",
+        "value": "$408,773,530 (about $409 million)",
+        "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+      },
+      {
+        "label": "Jobs supported or created (2024)",
+        "value": "3,487",
+        "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+      },
+      {
+        "label": "Total earnings (2024)",
+        "value": "$145,027,305",
+        "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+      },
+      {
+        "label": "Increase in direct economic impact from 2022 (2024)",
+        "value": "27%",
+        "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+      },
+      {
+        "label": "Direct jobs (2024)",
+        "value": "2,687",
+        "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+      },
+      {
+        "label": "Total economic impact of operations (2024)",
+        "value": "$15,067,134",
+        "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+      },
+      {
+        "label": "Broadcast impressions (2024)",
+        "value": "32 million",
+        "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+      },
+      {
+        "label": "Print/online impressions (2024)",
+        "value": "67 million",
+        "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+      },
+      {
+        "label": "Average hotel spending of non-local visitors (2024)",
+        "value": "$214 per night per room",
+        "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+      },
+      {
+        "label": "Tax revenue (2024)",
+        "value": "approximately $11.1 million",
+        "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+      },
+      {
+        "label": "Attendance (2024)",
+        "value": "more than 2 million over four nights",
+        "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+      },
+      {
+        "label": "Zones (2024)",
+        "value": "7",
+        "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+      },
+      {
+        "label": "City blocks (2024)",
+        "value": "more than 30",
+        "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+      },
+      {
+        "label": "Large-scale installations (2024)",
+        "value": "over 85",
+        "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+      },
+      {
+        "label": "Projection mapping installations (2024)",
+        "value": "37",
+        "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+      },
+      {
+        "label": "Light-based installations (2024)",
+        "value": "31",
+        "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+      },
+      {
+        "label": "Permanent mural installations (2024)",
+        "value": "19",
+        "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+      },
+      {
+        "label": "Drones in the drone show (2024)",
+        "value": "400 drones, 2 shows each night",
+        "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+      },
+      {
+        "label": "Non-local visitors (2024)",
+        "value": "19%",
+        "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+      },
+      {
+        "label": "First-year attendance (2024)",
+        "value": "19%",
+        "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+      },
+      {
+        "label": "Unique ZIP codes (2024 survey)",
+        "value": "216",
+        "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+      },
+      {
+        "label": "Countries represented by attendees (2024)",
+        "value": "15",
+        "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+      },
+      {
+        "label": "Net Promoter Score (2024)",
+        "value": "70",
+        "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+      },
+      {
+        "label": "Average hotel stay of non-local visitors (2024)",
+        "value": "2.3 nights",
+        "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+      },
+      {
+        "label": "Non-local visitor spending, total output (2024)",
+        "value": "$141,994,796",
+        "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+      },
+      {
+        "label": "Operations direct impact (2024)",
+        "value": "$7,263,332",
+        "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+      },
+      {
+        "label": "Artist applications (2024)",
+        "value": "944 artists from 65 countries",
+        "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+      },
+      {
+        "label": "Media mentions (2024)",
+        "value": "1,673",
+        "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+      },
+      {
+        "label": "Earned media value (2024)",
+        "value": "$2,861,618",
+        "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+      },
+      {
+        "label": "Survey responses (2024)",
+        "value": "1,017",
+        "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+      },
+      {
+        "label": "Direct economic impact (2022)",
+        "value": "$126M (report detail: $125,570,519)",
+        "source_url": "https://www.blinkcincinnati.com/files/assets/blinkeconomicimpactreport2022spreads.pdf"
+      },
+      {
+        "label": "Total economic output (2022)",
+        "value": "$249.3 million",
+        "source_url": "https://www.blinkcincinnati.com/files/assets/blinkeconomicimpactreport2022spreads.pdf"
+      },
+      {
+        "label": "Jobs supported (2022)",
+        "value": "1,687",
+        "source_url": "https://www.blinkcincinnati.com/files/assets/blinkeconomicimpactreport2022spreads.pdf"
+      },
+      {
+        "label": "Tax revenue (2022)",
+        "value": "$6,806,796",
+        "source_url": "https://www.blinkcincinnati.com/files/assets/blinkeconomicimpactreport2022spreads.pdf"
+      },
+      {
+        "label": "Estimated attendance (2022)",
+        "value": "2.16 million across four days; 926,400 unique adults",
+        "source_url": "https://www.blinkcincinnati.com/files/assets/blinkeconomicimpactreport2022spreads.pdf"
+      },
+      {
+        "label": "City blocks (2022)",
+        "value": "30+",
+        "source_url": "https://www.blinkcincinnati.com/files/assets/blinkeconomicimpactreport2022spreads.pdf"
+      },
+      {
+        "label": "Zones (2022)",
+        "value": "5",
+        "source_url": "https://www.blinkcincinnati.com/files/assets/blinkeconomicimpactreport2022spreads.pdf"
+      },
+      {
+        "label": "Experiences (2022)",
+        "value": "100+",
+        "source_url": "https://www.blinkcincinnati.com/files/assets/blinkeconomicimpactreport2022spreads.pdf"
+      },
+      {
+        "label": "Projection mapping installations (2022)",
+        "value": "28",
+        "source_url": "https://www.blinkcincinnati.com/files/assets/blinkeconomicimpactreport2022spreads.pdf"
+      },
+      {
+        "label": "Light and art installations (2022)",
+        "value": "42",
+        "source_url": "https://www.blinkcincinnati.com/files/assets/blinkeconomicimpactreport2022spreads.pdf"
+      },
+      {
+        "label": "Murals (2022)",
+        "value": "17",
+        "source_url": "https://www.blinkcincinnati.com/files/assets/blinkeconomicimpactreport2022spreads.pdf"
+      },
+      {
+        "label": "Drones (2022)",
+        "value": "300 drones, 2 shows each night",
+        "source_url": "https://www.blinkcincinnati.com/files/assets/blinkeconomicimpactreport2022spreads.pdf"
+      },
+      {
+        "label": "Parade participants (2022)",
+        "value": "over 2,500 (report also shows 3,000+)",
+        "source_url": "https://www.blinkcincinnati.com/files/assets/blinkeconomicimpactreport2022spreads.pdf"
+      },
+      {
+        "label": "Survey responses (2022)",
+        "value": "2,469",
+        "source_url": "https://www.blinkcincinnati.com/files/assets/blinkeconomicimpactreport2022spreads.pdf"
+      },
+      {
+        "label": "Operations expenditures (2022)",
+        "value": "approximately $6.35 million",
+        "source_url": "https://www.blinkcincinnati.com/files/assets/blinkeconomicimpactreport2022spreads.pdf"
+      },
+      {
+        "label": "Artists (2022)",
+        "value": "71 (18 international, 21 U.S.-based, 32 local)",
+        "source_url": "https://www.blinkcincinnati.com/newsroom/2023/07/10/blink-illuminated-by-artswave-returns-in-2024-to-light-up-cincinnati-for-its-fourth-edition"
+      },
+      {
+        "label": "States represented by attendees (2022)",
+        "value": "29",
+        "source_url": "https://www.blinkcincinnati.com/newsroom/2023/07/10/blink-illuminated-by-artswave-returns-in-2024-to-light-up-cincinnati-for-its-fourth-edition"
+      },
+      {
+        "label": "Direct artist commissions, honorariums and art fees (2022)",
+        "value": "$1.5 million",
+        "source_url": "https://www.blinkcincinnati.com/newsroom/2023/02/28/blink-delivers-126m-direct-economic-impact-for-the-region"
+      },
+      {
+        "label": "Attendance (2019)",
+        "value": "estimated 1.25 to 1.5 million",
+        "source_url": "https://www.blinkcincinnati.com/about-blink"
+      },
+      {
+        "label": "Interactive art installations (2019)",
+        "value": "more than 40",
+        "source_url": "https://www.blinkcincinnati.com/about-blink"
+      },
+      {
+        "label": "New permanent murals (2019)",
+        "value": "11",
+        "source_url": "https://www.blinkcincinnati.com/about-blink"
+      },
+      {
+        "label": "City blocks (2019)",
+        "value": "30 (grew from 20)",
+        "source_url": "https://www.blinkcincinnati.com/about-blink"
+      },
+      {
+        "label": "Attendance (2017)",
+        "value": "more than 1 million",
+        "source_url": "https://www.blinkcincinnati.com/about-blink"
+      },
+      {
+        "label": "City blocks (2017)",
+        "value": "20",
+        "source_url": "https://www.blinkcincinnati.com/about-blink"
+      },
+      {
+        "label": "Projection mappings (2017)",
+        "value": "21",
+        "source_url": "https://www.blinkcincinnati.com/about-blink"
+      },
+      {
+        "label": "Art installations (2017)",
+        "value": "27",
+        "source_url": "https://www.blinkcincinnati.com/about-blink"
+      },
+      {
+        "label": "Live entertainment stages (2017)",
+        "value": "6",
+        "source_url": "https://www.blinkcincinnati.com/about-blink"
+      }
+    ],
+    "logo": {
+      "url": "https://www.blinkcincinnati.com/images/Blink_26_ArtswaveLockup_RGB.svg",
+      "format": "svg",
+      "on": "dark"
+    },
+    "brand": {
+      "colors": [
+        "#f4475d",
+        "#000000",
+        "#ffffff",
+        "#ffd933",
+        "#60d9fc",
+        "#175ae2",
+        "#00c8aa",
+        "#c8ff1f"
+      ],
+      "fonts": [
+        "korolev",
+        "korolev-condensed",
+        "Ratio"
+      ]
+    },
+    "source_url": "https://www.blinkcincinnati.com/about-blink",
+    "notes": "Name: BLINK's own short form (\"BLINK: A Festival of Light & Art\" in full). daily_themes left empty: BLINK publishes no daily themes (the research's per-night summaries are ours, not the organizer's). Edition from https://cincinnatichamber.com/blog/blink-a-festival-of-light-art-announces-exhibiting-artists-for-blink-2026-biennial/."
   },
   {
     "id": "fotofocus",
@@ -311,7 +1206,7 @@
     "name": "FotoFocus Biennial",
     "short_name": "FotoFocus",
     "tagline": "The Long View",
-    "edition": "2026: The Long View",
+    "edition": "2026: The Long View (eighth iteration)",
     "dates": {
       "start": "2026-09-30",
       "end": "2026-11-01"
@@ -321,12 +1216,20 @@
       {
         "name": "FotoFocus",
         "url": "https://www.fotofocus.org/",
-        "org_id": "fotofocus"
+        "org_id": "fotofocus",
+        "role": null
       }
     ],
     "url": "https://www.fotofocus.org/biennial/2026/",
-    "hub_venue_id": null,
-    "tickets": [],
+    "hub_venue_id": "fotofocus-center",
+    "tickets": [
+      {
+        "name": "Biennial Pass",
+        "price": "Free",
+        "url": "https://www.fotofocus.org/biennial-pass-sign-up",
+        "notes": "The Biennial Pass offers free access to 70+ photography and lens-based exhibitions during the month of October with invitations to exclusive events, including entry into the Opening Program (September 30–October 3). Pass valid September 30th–October 31st; required for entry into Opening Program events. Free thanks to William & Kate Baumann and Robert & Rachel Eckman."
+      }
+    ],
     "daily_themes": [
       {
         "date": "2026-09-30",
@@ -381,28 +1284,134 @@
         ]
       }
     ],
-    "hours": "FotoFocus Center (228 E Liberty St): Thursday and Friday 11am–6pm, Saturday 11am–5pm; reopens Thursday, October 1 with Trevor Paglen: the most merciful thing in the world. Other venues: see venues.json notes.",
+    "hours": "FotoFocus Center (228 E Liberty St): Thursday and Friday 11am–6pm, Saturday 11am–5pm; reopens Thursday, October 1 with Trevor Paglen: the most merciful thing in the world.",
     "hashtags": [
       "#FotoFocus",
       "#TheLongView",
       "#FotoFocus2026"
     ],
     "social": {
-      "instagram": null,
+      "instagram": "https://www.instagram.com/fotofocuscincinnati/",
       "x": null,
-      "facebook": null,
-      "linkedin": null,
-      "tiktok": null
+      "facebook": "https://www.facebook.com/FotoFocusCincinnati/",
+      "linkedin": "https://www.linkedin.com/company/fotofocus-cincinnati/",
+      "tiktok": null,
+      "youtube": null
     },
     "contact": {
-      "email": null,
-      "phone": null
+      "email": "info@fotofocus.org",
+      "phone": "(513) 400-4027"
     },
-    "history": [],
-    "stats": [],
+    "history": [
+      {
+        "year": 2024,
+        "fact": "backstories: Encompassing more than 100 projects at over 80 Participating Venues with 15 Featured Projects, backstories focused on stories not evident at first glance, offering context for what happened previously or out of view, providing narratives not yet told or presented from a new perspective.",
+        "source_url": "https://www.fotofocus.org/biennial/2026/about#biennial-history"
+      },
+      {
+        "year": 2022,
+        "fact": "World Record: The sixth iteration presented major new artist commissions and a wide range of original exhibitions and events, featuring over 100 projects centered around the theme of World Record. The theme considered photography’s extensive record of life on earth, humankind’s impact on the natural world, and the choices we now face as a global community.",
+        "source_url": "https://www.fotofocus.org/biennial/2026/about#biennial-history"
+      },
+      {
+        "year": 2020,
+        "fact": "light&: In lieu of presenting the fifth Biennial, FotoFocus pledged its 2020 Biennial budget to financially support the region’s art community during the COVID-19 pandemic. FotoFocus distributed Emergency Art Grants to over 100 Participating Venues and Partners that were selected to present as part of the Biennial.",
+        "source_url": "https://www.fotofocus.org/biennial/2026/about#biennial-history"
+      },
+      {
+        "year": 2018,
+        "fact": "Open Archive: Featuring 90 Biennial projects and a comprehensive film program, Open Archive emphasized the centrality of photography and lens-based art to modernism, and examined our fundamental need to preserve photographs and to tell stories through their collection, organization, and interpretation.",
+        "source_url": "https://www.fotofocus.org/biennial/2026/about#biennial-history"
+      },
+      {
+        "year": 2016,
+        "fact": "Photography, the Undocument: The third Biennial included eight major exhibitions exploring the documentary nature of photography, and featured over 60 exhibitions and more than 100 events. Venues took diverse approaches to the theme, breaking apart assumptions about photography’s documentary character by emphasizing the medium’s natural tendency to distort and reshape the visible world.",
+        "source_url": "https://www.fotofocus.org/biennial/2026/about#biennial-history"
+      },
+      {
+        "year": 2014,
+        "fact": "Photography in Dialogue: The second edition included six original exhibitions and the premiere of the ArtHub, as well as exhibitions by over 60 Participating Venues. The Biennial Program included five days of lectures, panel discussions, screenings, and performances with curators, critics, and art world professionals, all focused on one common theme: Photography in Dialogue.",
+        "source_url": "https://www.fotofocus.org/biennial/2026/about#biennial-history"
+      },
+      {
+        "year": 2012,
+        "fact": "People. Places. Photography.: In October 2012, the Biennial became the region’s first event to bring together over 60 venues to simultaneously present contemporary and historical photography, as well as artistic and educational programing.",
+        "source_url": "https://www.fotofocus.org/biennial/2026/about#biennial-history"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Exhibitions in 2026",
+        "value": "74",
+        "source_url": "https://www.fotofocus.org/biennial/2026/"
+      },
+      {
+        "label": "Venues in 2026",
+        "value": "65",
+        "source_url": "https://www.fotofocus.org/biennial/2026/"
+      },
+      {
+        "label": "Artists, archivists, filmmakers, curators, and participants in 2026",
+        "value": "more than 500",
+        "source_url": "https://www.fotofocus.org/biennial/2026/artists-and-participants/"
+      },
+      {
+        "label": "Iteration",
+        "value": "eighth",
+        "source_url": "https://www.fotofocus.org/biennial/2026/"
+      },
+      {
+        "label": "Featured Exhibitions",
+        "value": "6",
+        "source_url": "https://www.fotofocus.org/biennial/2026/art"
+      },
+      {
+        "label": "Artists and participants featured since 2012",
+        "value": "over 3,500",
+        "source_url": "https://www.fotofocus.org/biennial/2026/about"
+      },
+      {
+        "label": "Exhibitions and programs since 2012",
+        "value": "more than 800",
+        "source_url": "https://www.fotofocus.org/biennial/2026/about"
+      },
+      {
+        "label": "Cumulative visitors since 2012",
+        "value": "over one million",
+        "source_url": "https://www.fotofocus.org/biennial/2026/about"
+      },
+      {
+        "label": "Scale",
+        "value": "the largest of its kind in America",
+        "source_url": "https://www.fotofocus.org/biennial/2026/"
+      },
+      {
+        "label": "FotoFocus Center size",
+        "value": "14,700 square foot",
+        "source_url": "https://www.fotofocus.org/visit/"
+      }
+    ],
     "logo": null,
-    "brand": null,
-    "source_url": "https://www.fotofocus.org/biennial/2026/"
+    "brand": {
+      "colors": [
+        "#000000",
+        "#ffffff",
+        "#b01d1e",
+        "#333333",
+        "#707070",
+        "#989898",
+        "#efefef",
+        "#f0f0f0"
+      ],
+      "fonts": [
+        "franklin-gothic-urw",
+        "letter-gothic-std",
+        "neue-haas-grotesk-display",
+        "neue-haas-grotesk-text"
+      ]
+    },
+    "source_url": "https://www.fotofocus.org/biennial/2026/",
+    "notes": "Hours: the research's pointer to venue notes is removed (each venue keeps its own hours in notes). Name shortened from \"FotoFocus Biennial 2026: The Long View\" (edition holds the rest; \"eighth iteration\" from the Biennial page). Logo: FotoFocus publishes only an inline SVG wordmark (research raw/also/fotofocus_logo_inline.svg), so logo is null."
   },
   {
     "id": "also",
@@ -428,7 +1437,8 @@
       "x": null,
       "facebook": null,
       "linkedin": null,
-      "tiktok": null
+      "tiktok": null,
+      "youtube": null
     },
     "contact": {
       "email": null,
@@ -438,6 +1448,7 @@
     "stats": [],
     "logo": null,
     "brand": null,
-    "source_url": "https://artswave.org/what-is-artswave/the-artswave-app/"
+    "source_url": "https://artswave.org/what-is-artswave/the-artswave-app/",
+    "notes": "Umbrella for other verifiable happenings in Cincinnati/Northern Kentucky during Oct 3-11, 2026 (plus the Oct 2-4 Cincy Bookstore Crawl, which overlaps it) (museum exhibitions and programs, performing arts, Findlay Market, festivals, pro sports). Each event carries its own source_url; only items whose official page states a 2026 date (or an unambiguous current-season date) are included. See REPORT.md for what was checked and found to have nothing in the window."
   }
 ]

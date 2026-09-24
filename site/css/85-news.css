@@ -5,3 +5,48 @@
    order into docs/assets/site.css. Read only tokens (var(--…)); no color literal may appear here
    (the build fails on one). Prefix new classes with your domain (see CLAUDE.md).
    ====================================================================== */
+
+/* ---------- 85 · news: cards (home, program pages, news.html) and the news page's filters ---------- */
+.news-grid { display: grid; gap: var(--sp-4); grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); }
+.news-card {
+  position: relative; display: flex; flex-direction: column; gap: 6px; padding: var(--sp-4);
+  background: var(--surface); border: 1px solid var(--border); border-top: var(--rule-mid) solid var(--rule-ink);
+}
+.news-card:has(.stretched:hover) { border-color: var(--border-strong); border-top-color: var(--rule-ink); }
+.news-card:target { outline: 3px solid var(--focus); outline-offset: 2px; }
+.news-meta { display: flex; flex-wrap: wrap; gap: 2px 0; color: var(--text-muted); }
+.news-meta > * + *::before { content: "·"; margin: 0 6px; color: var(--text-faint); }
+.news-kind { color: var(--text); }
+.news-kind.is-sponsored { color: var(--warning); }
+.news-title { font-size: var(--fs-md); line-height: var(--lh-snug); }
+.news-title a { color: var(--text); }
+.news-sum { font-size: var(--fs-sm); color: var(--text-muted); line-height: 1.5; }
+.news-progs { display: flex; flex-wrap: wrap; gap: 4px 12px; margin-top: auto; padding-top: 4px; }
+.news-host { font-size: var(--fs-xs); color: var(--text-faint); overflow-wrap: anywhere; }
+.news-tools { display: flex; flex-wrap: wrap; align-items: center; gap: var(--sp-3) var(--sp-4); margin: var(--sp-5) 0 var(--sp-2); padding: var(--sp-3) 0; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+.news-tools .chip-row { flex: 1 1 100%; }
+.news-src-pick { display: inline-flex; align-items: center; gap: 10px; }
+.news-src-pick .label { color: var(--text-muted); }
+.news-src-pick .select { max-width: min(70vw, 320px); }
+.news-note { margin-top: var(--sp-6); font-size: var(--fs-sm); }
+
+/* ---------- about.html (G): officials, counts, sources by site, unknowns ---------- */
+.about-officials, .about-counts, .about-hosts { list-style: none; padding: 0; }
+.about-officials { display: grid; gap: 0 var(--sp-5); grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); margin-top: var(--sp-4); border-top: var(--rule-mid) solid var(--rule-ink); }
+.about-officials li { display: flex; align-items: center; gap: 10px; min-height: var(--tap); padding: 6px 0; border-bottom: 1px solid var(--border); font-size: var(--fs-sm); }
+.about-officials li > span { font-weight: var(--wght-strong); }
+.about-officials a { margin-left: auto; display: inline-flex; align-items: center; gap: 4px; min-height: var(--tap); }
+.about-counts { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); margin-top: var(--sp-5); border-top: var(--rule-heavy) solid var(--rule-ink); }
+.about-counts li { padding: var(--sp-3) var(--sp-3) var(--sp-3) 0; border-bottom: 1px solid var(--border); font-size: var(--fs-xs); color: var(--text-muted); }
+.about-counts b { display: block; font-family: var(--font-display); font-size: 1.75rem; font-weight: var(--wght-head); line-height: 1.1; color: var(--text); }
+.about-src + .about-src { margin-top: var(--sp-6); }
+.about-src h3 { display: flex; align-items: center; gap: 10px; font-size: var(--fs-lg); margin-bottom: var(--sp-2); }
+.about-src h3 a { color: var(--text); }
+.about-official { font-size: var(--fs-sm); color: var(--text-muted); margin-bottom: var(--sp-2); }
+.about-hosts { display: grid; gap: 0 var(--sp-5); grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr)); border-top: 1px solid var(--border); }
+.about-hosts li { display: flex; justify-content: space-between; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--border); font-size: var(--fs-sm); overflow-wrap: anywhere; }
+.about-more, .about-note { margin-top: var(--sp-2); font-size: var(--fs-sm); }
+.about-unk td:nth-child(3) { color: var(--text-muted); font-size: var(--fs-sm); }
+.about-built { margin-top: var(--sp-6); padding-top: var(--sp-3); border-top: 1px solid var(--border); color: var(--text-muted); }
+.about-src h3 a { display: inline-flex; align-items: center; min-height: var(--tap); }
+#corrections .btn-row { margin-top: var(--sp-4); }

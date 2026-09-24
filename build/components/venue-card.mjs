@@ -1,41 +1,121 @@
 /* ============================================================
    build/components/venue-card.mjs · OWNER: Agent E (map, venues & visit)
-   Landed by Agent A as a working stub; Agent E owns it.
 
    makeVenueCards(ctx) → {
-     venueCard(root, venue)                 li.venue[data-prog] row with its stall number (DESIGN.md §9.7)
-     miniMap(root, lat, lng, { prog, n, label })  a crop of the shared basemap via <use href="…basemap.svg#bm">
-                                                   plus one pin; plain SVG, works without JS
-     directions(lat, lng)                   { apple, google } walking-direction URLs
+     venueCard(root, venue, { anchor = true, headingLevel = 3, show = false })
+         li.venue#v-{id}[data-prog][data-prog2][data-p][data-h][data-day][data-q][data-ll] (DESIGN.md §9.7):
+         .stall (the map number; "–" dashed when the venue is not on the map), h3 a → the venue page (the whole
+         row is stretched to it), .addr, .roles (bullet + program + what it has there), .today (days with events),
+         .acts (walking directions in Apple and Google Maps, "On the map"), raised above the stretched link.
+     miniMap(root, lat, lng, { prog, n, label, halfWidthM })
+         .mini-map: <svg viewBox="{crop}"><use href="{root}assets/map/basemap.svg#bm"/></svg> + one .pin.pin-venue.
+         Plain SVG, works without JS. No coordinates → p.unk "Not on the map: …"; off the basemap → p.unk.
+     directions(lat, lng)             { apple, google } walking-mode URLs (engine spec §4.10)
+     directionsTo(venueOrRecord)      the same, by coordinates, else by street address (Google only), else null
+     where(record)                    "on" | "off" (outside the basemap) | "none" (no coordinates)
+     placeStatus(record)              the honest "not on the map" badge for a record, or ""
+     meta                             the projection (lib/geo.js metaOf(data/map.json)): { bbox, home, k, sx, W, H, mPerUnit }
+     nearbyOf(lat, lng, meters)       db.nearby with walking estimates: [{ kind, rec, d, min }]
+     walkLabel(meters)                "350 m · about 6 min walk"
    }
    ============================================================ */
-import { esc, attr, extLink } from "../core/util.mjs";
-import { icon } from "../core/icons.mjs";
-import { project } from "../../site/js/lib/geo.js";
+import { esc, attr, extLink, plural } from "../core/util.mjs";
+import { icon, bullet } from "../core/icons.mjs";
+import { metaOf, crop, onMap, METERS_PER_DEG_LAT } from "../../site/js/lib/geo.js";
+import { fmtDay } from "../../site/js/lib/time.js";
+import { norm } from "../../site/js/lib/search.js";
 
 export function makeVenueCards(ctx) {
-  const { db, h, c } = ctx;
-  const meta = db.map && db.map.projection && db.map.bbox ? { bbox: db.map.bbox.core, k: db.map.projection.k, sx: db.map.projection.sx, W: db.map.projection.viewBox[0], H: db.map.projection.viewBox[1] } : null;
+  const { db, c } = ctx;
+  const meta = metaOf(db.map);
 
   const directions = (lat, lng) => ({
     apple: `https://maps.apple.com/?daddr=${lat},${lng}&dirflg=w`,
     google: `https://www.google.com/maps/dir/?api=1&destination=${lat},${lng}&travelmode=walking`,
   });
+  /** By coordinates when we have them, else by the published street address (Google Maps geocodes it). */
+  function directionsTo(r) {
+    if (r.lat != null && r.lng != null) return directions(r.lat, r.lng);
+    if (!r.address) return null;
+    const q = encodeURIComponent([r.address, r.city, r.state].filter(Boolean).join(", "));
+    return { apple: null, google: `https://www.google.com/maps/dir/?api=1&destination=${q}&travelmode=walking` };
+  }
+  const where = (r) => (r.lat == null || r.lng == null ? "none" : onMap(meta, r.lat, r.lng) ? "on" : "off");
+  function placeStatus(r) {
+    const w = where(r);
+    if (w === "on") return "";
+    if (w === "off") return c.badge("out", "Outside the map area");
+    return c.badge("unconfirmed", r.address ? "Not on the map" : "Address unconfirmed · not on the map");
+  }
+  const walkLabel = (m) => `${m < 950 ? `${Math.round(m / 10) * 10} m` : `${(m / 1000).toFixed(1)} km`} · about ${Math.max(1, Math.round((m * 1.3) / 80))} min walk`;
+  const nearbyOf = (lat, lng, meters = 500) => db.nearby(lat, lng, meters).map((x) => ({ ...x, min: Math.max(1, Math.round((x.d * 1.3) / 80)) }));
 
-  function miniMap(root, lat, lng, { prog = "also", n = "", label = "" } = {}) {
-    if (!meta || lat == null) return `<p class="unk">Not on the map: the address is not listed</p>`;
-    const [x, y] = project(lat, lng, meta);
-    if (x < 0 || y < 0 || x > meta.W || y > meta.H) return `<p class="unk">Outside the map area</p>`;
-    return `<div class="mini-map"${label ? ` role="img" aria-label="${attr(label)}"` : ""}><svg viewBox="${(x - 80).toFixed(1)} ${(y - 60).toFixed(1)} 160 120" aria-hidden="true" focusable="false"><use href="${root}assets/map/basemap.svg#bm"/></svg><span class="pin pin-venue" data-prog="${prog}" style="left: 50%; top: 50%"><span>${esc(n)}</span></span></div>`;
+  function miniMap(root, lat, lng, { prog = "also", n = "", label = "", halfWidthM = 350 } = {}) {
+    if (lat == null || lng == null) return `<p class="unk mini-map-none">Not on the map: the address is not listed</p>`;
+    const cr = meta && crop(lat, lng, meta, { halfWidthM });
+    if (!cr) return `<p class="unk mini-map-none">Outside the map area</p>`;
+    return `<div class="mini-map"${label ? ` role="img" aria-label="${attr(label)}"` : ""}><svg viewBox="${cr.vb.join(" ")}" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false"><use href="${root}assets/map/basemap.svg#bm"/></svg><span class="pin pin-venue" data-prog="${attr(prog)}" style="left: ${cr.px}%; top: ${cr.py}%"><span>${esc(n)}</span></span></div>`;
   }
 
-  function venueCard(root, v) {
+  /** A static area map: a crop of the basemap that fits every point (at least `minHalfM` meters each side of
+   *  the center), with one pin per point: { lat, lng, kind: "venue"|"stop"|"stay", prog, n }. Plain SVG + spans,
+   *  no JS. Points off the basemap are left out; none on it → "". */
+  function areaMap(root, points, { label = "", minHalfM = 350, center = null, ratio = 4 / 3, cls = "" } = {}) {
+    if (!meta) return "";
+    const pts = points.filter((p) => onMap(meta, p.lat, p.lng)).map((p) => ({ ...p, xy: [(p.lng - meta.bbox.w) * meta.k * meta.sx, (meta.bbox.n - p.lat) * meta.sx] }));
+    const ctr = center && onMap(meta, center.lat, center.lng) ? [(center.lng - meta.bbox.w) * meta.k * meta.sx, (meta.bbox.n - center.lat) * meta.sx] : null;
+    if (!pts.length && !ctr) return "";
+    const xs = [...pts.map((p) => p.xy[0]), ...(ctr ? [ctr[0]] : [])], ys = [...pts.map((p) => p.xy[1]), ...(ctr ? [ctr[1]] : [])];
+    const minU = (2 * minHalfM) / meta.mPerUnit, pad = 28;
+    let x0 = Math.min(...xs) - pad, x1 = Math.max(...xs) + pad, y0 = Math.min(...ys) - pad, y1 = Math.max(...ys) + pad;
+    let w = Math.max(x1 - x0, minU), hh = Math.max(y1 - y0, minU / ratio);
+    if (w / hh > ratio) hh = w / ratio; else w = hh * ratio;
+    w = Math.min(w, meta.W); hh = Math.min(hh, meta.H);
+    const cx = (x0 + x1) / 2, cy = (y0 + y1) / 2;
+    x0 = Math.min(Math.max(0, cx - w / 2), meta.W - w); y0 = Math.min(Math.max(0, cy - hh / 2), meta.H - hh);
+    const pct = (v, a, b) => (((v - a) / b) * 100).toFixed(2);
+    const pin = (p) => `<span class="pin pin-${p.kind || "venue"}"${p.prog ? ` data-prog="${attr(p.prog)}"` : ""} style="left: ${pct(p.xy[0], x0, w)}%; top: ${pct(p.xy[1], y0, hh)}%"><span>${p.n != null ? esc(p.n) : ""}</span></span>`;
+    return `<div class="mini-map area-map${cls ? " " + cls : ""}" style="--map-ratio: ${w.toFixed(1)} / ${hh.toFixed(1)}"${label ? ` role="img" aria-label="${attr(label)}"` : ""}><svg viewBox="${x0.toFixed(1)} ${y0.toFixed(1)} ${w.toFixed(1)} ${hh.toFixed(1)}" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false"><use href="${root}assets/map/basemap.svg#bm"/></svg>${pts.map(pin).join("")}</div>`;
+  }
+
+  /** Festival days with a live event at the venue (exhibitions count on every day they are open). */
+  const daysOf = (v) => [...new Set(v.events.filter((e) => e.live).flatMap((e) => e.instances.map((x) => x.day)))].sort();
+  const worksOf = (v) => db.worksByVenue.get(v.id) || [];
+  const hubOf = new Map(db.programs.filter((p) => p.hub_venue_id).map((p) => [p.hub_venue_id, p.id]));
+
+  /** One line per program: what the venue has for it ("StartupCincy Week hub · 4 events", "BLINK · 12 works"). */
+  function roles(v) {
+    return v.programs.map((p) => {
+      const ne = v.events.filter((e) => e.live && e.program === p).length, nw = worksOf(v).filter((w) => w.program === p).length;
+      const bits = [hubOf.get(v.id) === p ? "hub" : "", ne ? plural(ne, "event") : "", nw ? plural(nw, "work") : ""].filter(Boolean);
+      return `<li>${bullet(p)}<span>${esc(c.progName(p))}${bits.length ? ` · ${esc(bits.join(" · ").replace(/^hub · /, "hub, "))}` : ""}</span></li>`;
+    }).join("");
+  }
+
+  function venueCard(root, v, { anchor = true, headingLevel = 3, show = true } = {}) {
     const prog = v.programs[0] || "also";
     const hood = v.hood ? db.byId.place.get(v.hood) : null;
-    const addr = [v.address, hood?.name || v.neighborhood].filter(Boolean).join(" · ");
-    const roles = v.programs.map((p) => `<li>${h.bullet(p)}${esc(c.progName(p))}</li>`).join("");
-    const d = v.lat != null ? directions(v.lat, v.lng) : null;
-    return `<li class="venue" data-prog="${prog}" id="v-${attr(v.id)}" data-p="${attr(v.programs.join(" "))}" data-h="${attr(v.hood || "")}"><span class="stall${v.stall ? "" : " is-off"}" aria-hidden="true">${v.stall || "–"}</span><h3><a href="${root}venues/${attr(v.id)}.html">${esc(v.name)}</a></h3>${addr ? `<p class="addr">${esc(addr)}</p>` : ""}${roles ? `<ul class="roles">${roles}</ul>` : ""}${v.events.length ? `<p class="today"><b>${v.events.length} event${v.events.length === 1 ? "" : "s"}</b> this week</p>` : ""}${d ? `<div class="acts">${extLink(d.google, `${icon("walk")}Walking directions`, "btn btn-secondary btn-sm")}</div>` : `<p class="today"><span class="badge badge-unconfirmed">Address unconfirmed · not on the map</span></p>`}</li>`;
+    const place = hood ? hood.name : v.neighborhood || (v.city && v.city !== "Cincinnati" ? [v.city, v.state].filter(Boolean).join(", ") : "");
+    const addr = [v.address, place].filter(Boolean).join(" · ");
+    const days = daysOf(v);
+    const w = where(v);
+    const d = directionsTo(v);
+    const H = `h${headingLevel}`;
+    const q = norm([...(v.aliases || []), v.city, v.kind, v.neighborhood].filter(Boolean).join(" "));
+    const acts = [
+      d ? `<span class="acts-l">${icon("walk")}Walking directions</span>${d.apple ? extLink(d.apple, "Apple Maps", "btn btn-secondary btn-sm") : ""}${extLink(d.google, "Google Maps", "btn btn-secondary btn-sm")}` : "",
+      show && w === "on" ? `<a class="btn btn-ghost btn-sm" href="${root}map.html?focus=venue:${attr(v.id)}" data-map-focus="venue:${attr(v.id)}">${icon("map")}On the map</a>` : "",
+    ].join("");
+    return `<li class="venue" data-prog="${prog}"${v.programs[1] ? ` data-prog2="${v.programs[1]}"` : ""}${anchor ? ` id="v-${attr(v.id)}"` : ""} data-p="${attr(v.programs.join(" "))}" data-h="${attr(v.hood || "")}" data-day="${days.join(" ")}" data-q="${attr(q)}"${w === "on" ? ` data-ll="${v.lat},${v.lng}" data-n="${v.stall}"` : ""}>`
+      + `<span class="stall${v.stall ? "" : " is-off"}"${v.stall ? ` title="Map number ${v.stall}"` : ""} aria-hidden="true">${v.stall || "–"}</span>`
+      + `<${H}><a href="${root}venues/${attr(v.id)}.html">${v.stall ? `<span class="sr-only">${v.stall}. </span>` : ""}${esc(v.name)}</a></${H}>`
+      + (addr ? `<p class="addr">${esc(addr)}</p>` : "")
+      + (v.programs.length ? `<ul class="roles">${roles(v)}</ul>` : "")
+      + (days.length ? `<p class="today"><span>${esc(days.length > 4 ? `${fmtDay(days[0])} to ${fmtDay(days[days.length - 1])}` : days.map(fmtDay).join(" · "))}</span></p>` : "")
+      + (w !== "on" ? `<p class="today">${placeStatus(v)}</p>` : "")
+      + (acts ? `<div class="acts">${acts}</div>` : "")
+      + `</li>`;
   }
-  return { venueCard, miniMap, directions, meta };
+
+  return { venueCard, miniMap, areaMap, directions, directionsTo, where, placeStatus, meta, nearbyOf, walkLabel, daysOf, mPerUnit: meta ? meta.mPerUnit : METERS_PER_DEG_LAT };
 }

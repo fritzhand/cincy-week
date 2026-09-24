@@ -1,5 +1,515 @@
 [
   {
+    "id": "1001-colors",
+    "name": "1001 Colors",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "founding partner",
+        "tier": "Additional Founding Partners",
+        "tier_rank": 23
+      }
+    ],
+    "logo_url": "https://blinkcincinnati.b-cdn.net/images/partners/1001colors-logo.png",
+    "url": "https://www.1001colors.org/",
+    "source_url": "https://www.blinkcincinnati.com/"
+  },
+  {
+    "id": "3cdc",
+    "name": "3CDC (Cincinnati Center City Development Corp.)",
+    "roles": [
+      {
+        "program": "caw",
+        "relationship": "partner",
+        "tier": "Storefront / developer partner",
+        "tier_rank": 6
+      }
+    ],
+    "logo_url": null,
+    "url": "https://www.3cdc.org/",
+    "source_url": "https://www.citybeat.com/arts/visual-arts/cincinnati-arts-week-launches-october/"
+  },
+  {
+    "id": "agar",
+    "name": "AGAR",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "organizer",
+        "tier": "Executive Partners",
+        "tier_rank": 5
+      }
+    ],
+    "logo_url": "https://blinkcincinnati.b-cdn.net/images/partners/agar.png",
+    "url": "https://theagar.com/",
+    "source_url": "https://www.blinkcincinnati.com/"
+  },
+  {
+    "id": "all-in-events",
+    "name": "ALL IN EVENTS",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "partner",
+        "tier": "Accessibility partner",
+        "tier_rank": 25
+      }
+    ],
+    "logo_url": null,
+    "url": "https://www.allinevents.co/",
+    "source_url": "https://www.blinkcincinnati.com/faqs"
+  },
+  {
+    "id": "alloy-growth-lab",
+    "name": "Alloy Growth Lab",
+    "roles": [
+      {
+        "program": "scw",
+        "relationship": "sponsor",
+        "tier": "Partner Sponsor",
+        "tier_rank": 3
+      }
+    ],
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840228232026-sucw-sponsor-logos-alloy-growth-lab-png1784022823.png",
+    "url": "https://www.alloygrowthlab.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page"
+  },
+  {
+    "id": "altafiber",
+    "name": "altafiber",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "sponsor",
+        "tier": "Beacon Sponsors",
+        "tier_rank": 11
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/altafiber2.jpg",
+    "url": null,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
+    "id": "america-250-ohio",
+    "name": "America 250 Ohio",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "sponsor",
+        "tier": "Twilight Sponsors",
+        "tier_rank": 12
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/america250logo.jpg",
+    "url": null,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
+    "id": "american-financial-group-inc",
+    "name": "American Financial Group, Inc.",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "sponsor",
+        "tier": "Luminary Sponsors",
+        "tier_rank": 10
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/americanfinancialgrouplogo.jpg",
+    "url": null,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
+    "id": "andrew-j-brady-music-center",
+    "name": "The Andrew J Brady Music Center",
+    "roles": [
+      {
+        "program": "also",
+        "relationship": "venue",
+        "tier": null,
+        "tier_rank": null
+      }
+    ],
+    "logo_url": null,
+    "url": "https://bradymusiccenter.com/",
+    "source_url": "https://bradymusiccenter.com/"
+  },
+  {
+    "id": "artswave",
+    "name": "ArtsWave",
+    "roles": [
+      {
+        "program": "caw",
+        "relationship": "presenting sponsor",
+        "tier": "Presented by",
+        "tier_rank": 1
+      },
+      {
+        "program": "blink",
+        "relationship": "presenting sponsor",
+        "tier": "Illuminated by",
+        "tier_rank": 1
+      },
+      {
+        "program": "also",
+        "relationship": "partner",
+        "tier": null,
+        "tier_rank": null
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/arts-wave2.jpg",
+    "url": "https://artswave.org/",
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
+    "id": "bartlett-wealth-management",
+    "name": "Bartlett Wealth Management",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "sponsor",
+        "tier": "Spark Sponsors",
+        "tier_rank": 13
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/bartlett.jpg",
+    "url": "https://bartlett1898.com/",
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
+    "id": "bloomberg-connects",
+    "name": "Bloomberg Connects",
+    "roles": [
+      {
+        "program": "fotofocus",
+        "relationship": "partner",
+        "tier": "Digital guide",
+        "tier_rank": 3
+      }
+    ],
+    "logo_url": null,
+    "url": "https://guides.bloombergconnects.org/en-US/guide/fotoFocus",
+    "source_url": "https://www.fotofocus.org/biennial/2026/"
+  },
+  {
+    "id": "blue-north",
+    "name": "Blue North",
+    "roles": [
+      {
+        "program": "scw",
+        "relationship": "sponsor",
+        "tier": "Partner Sponsor",
+        "tier_rank": 3
+      }
+    ],
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840228232026-sucw-sponsor-logos-blue-north-png1784022823.png",
+    "url": "https://bluenorthky.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page"
+  },
+  {
+    "id": "book-plus-street",
+    "name": "Book + Street",
+    "roles": [
+      {
+        "program": "scw",
+        "relationship": "sponsor",
+        "tier": "Advocate Sponsor",
+        "tier_rank": 4
+      }
+    ],
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840230692026-sucw-sponsor-logos-book-street-png1784023069.png",
+    "url": "https://www.bookandstreet.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page"
+  },
+  {
+    "id": "brave-berlin",
+    "name": "Brave Berlin",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "founding partner",
+        "tier": "Additional Founding Partners",
+        "tier_rank": 23
+      }
+    ],
+    "logo_url": "https://blinkcincinnati.b-cdn.net/images/partners/BB-Logo-Stacked-White-82x46-SVG.svg",
+    "url": "https://braveberlin.com/",
+    "source_url": "https://www.blinkcincinnati.com/"
+  },
+  {
+    "id": "butler-county-regional-transit-authority",
+    "name": "Butler County Regional Transit Authority (BCRTA)",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "partner",
+        "tier": "Transit partner",
+        "tier_rank": 27
+      }
+    ],
+    "logo_url": null,
+    "url": "https://www.butlercountyrta.com/",
+    "source_url": "https://www.blinkcincinnati.com/resources/park-and-ride"
+  },
+  {
+    "id": "carol-ann-and-ralph-v-haile-jr-foundation",
+    "name": "Carol Ann and Ralph V. Haile, Jr. Foundation",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "founding partner",
+        "tier": "Philanthropic Founding Partner",
+        "tier_rank": 4
+      },
+      {
+        "program": "blink",
+        "relationship": "founding partner",
+        "tier": "Executive Partners",
+        "tier_rank": 5
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/hailefoundation.jpg",
+    "url": "https://www.hailefoundation.org/",
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
+    "id": "cincinnati-art-museum",
+    "name": "Cincinnati Art Museum",
+    "roles": [
+      {
+        "program": "also",
+        "relationship": "venue",
+        "tier": null,
+        "tier_rank": null
+      }
+    ],
+    "logo_url": null,
+    "url": "https://www.cincinnatiartmuseum.org/",
+    "source_url": "https://www.cincinnatiartmuseum.org/events/events-list/"
+  },
+  {
+    "id": "cincinnati-arts-association",
+    "name": "Cincinnati Arts Association (Aronoff Center, Music Hall, Weston Art Gallery)",
+    "roles": [
+      {
+        "program": "also",
+        "relationship": "venue",
+        "tier": null,
+        "tier_rank": null
+      }
+    ],
+    "logo_url": null,
+    "url": "https://www.cincinnatiarts.org/",
+    "source_url": "https://www.cincinnatiarts.org/events"
+  },
+  {
+    "id": "cincinnati-bengals",
+    "name": "Cincinnati Bengals",
+    "roles": [
+      {
+        "program": "also",
+        "relationship": "organizer",
+        "tier": null,
+        "tier_rank": null
+      }
+    ],
+    "logo_url": null,
+    "url": "https://www.bengals.com/",
+    "source_url": "https://www.bengals.com/schedule/"
+  },
+  {
+    "id": "cincinnati-childrens",
+    "name": "Cincinnati Children's",
+    "roles": [
+      {
+        "program": "scw",
+        "relationship": "sponsor",
+        "tier": "Presenting Sponsor",
+        "tier_rank": 2
+      }
+    ],
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840224722026-sucw-sponsor-logos-book-amp-street-png1784022472.png",
+    "url": "https://www.cincinnatichildrens.org/",
+    "source_url": "https://startupcincyweek.com/en/partners-page"
+  },
+  {
+    "id": "cincinnati-museum-center",
+    "name": "Cincinnati Museum Center",
+    "roles": [
+      {
+        "program": "also",
+        "relationship": "venue",
+        "tier": null,
+        "tier_rank": null
+      }
+    ],
+    "logo_url": null,
+    "url": "https://www.cincymuseum.org/",
+    "source_url": "https://www.cincymuseum.org/special-exhibits/"
+  },
+  {
+    "id": "cincinnati-parks-foundation",
+    "name": "Cincinnati Parks Foundation",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "sponsor",
+        "tier": "Beacon Sponsors",
+        "tier_rank": 11
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/cincinnati-parks-foundation2.jpg",
+    "url": "https://www.cincinnatiparksfoundation.org/",
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
+    "id": "cincinnati-playhouse-in-the-park",
+    "name": "Cincinnati Playhouse in the Park",
+    "roles": [
+      {
+        "program": "also",
+        "relationship": "organizer",
+        "tier": null,
+        "tier_rank": null
+      }
+    ],
+    "logo_url": null,
+    "url": "https://www.cincyplay.com/",
+    "source_url": "https://www.cincyplay.com/"
+  },
+  {
+    "id": "cincinnati-regional-chamber",
+    "name": "Cincinnati Regional Chamber",
+    "roles": [
+      {
+        "program": "caw",
+        "relationship": "sponsor",
+        "tier": "With support from",
+        "tier_rank": 2
+      },
+      {
+        "program": "scw",
+        "relationship": "sponsor",
+        "tier": "Presenting Sponsor",
+        "tier_rank": 2
+      },
+      {
+        "program": "blink",
+        "relationship": "organizer",
+        "tier": "Executive Partners",
+        "tier_rank": 5
+      }
+    ],
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1787834874b2026-sucw-sponsor-logos-cincinnati-regional-chamber-png1787834874.png",
+    "url": "https://cincinnatichamber.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page"
+  },
+  {
+    "id": "cincinnati-shakespeare-company",
+    "name": "Cincinnati Shakespeare Company",
+    "roles": [
+      {
+        "program": "also",
+        "relationship": "organizer",
+        "tier": null,
+        "tier_rank": null
+      }
+    ],
+    "logo_url": null,
+    "url": "https://cincyshakes.com/",
+    "source_url": "https://cincyshakes.com/"
+  },
+  {
+    "id": "cincinnati-symphony-orchestra",
+    "name": "Cincinnati Symphony Orchestra / Cincinnati Pops",
+    "roles": [
+      {
+        "program": "also",
+        "relationship": "organizer",
+        "tier": null,
+        "tier_rank": null
+      }
+    ],
+    "logo_url": null,
+    "url": "https://www.cincinnatisymphony.org/",
+    "source_url": "https://www.cincinnatisymphony.org/tickets-and-events/"
+  },
+  {
+    "id": "cincinnati-zoo-botanical-garden",
+    "name": "Cincinnati Zoo & Botanical Garden",
+    "roles": [
+      {
+        "program": "also",
+        "relationship": "venue",
+        "tier": null,
+        "tier_rank": null
+      }
+    ],
+    "logo_url": null,
+    "url": "https://cincinnatizoo.org/",
+    "source_url": "https://cincinnatizoo.org/events/"
+  },
+  {
+    "id": "cincy-bookstore-crawl",
+    "name": "Cincy Bookstore Crawl",
+    "roles": [
+      {
+        "program": "also",
+        "relationship": "organizer",
+        "tier": null,
+        "tier_rank": null
+      }
+    ],
+    "logo_url": null,
+    "url": "https://cincybookstorecrawl.com/",
+    "source_url": "https://cincybookstorecrawl.com/crawldetails"
+  },
+  {
+    "id": "cincy-nice",
+    "name": "Cincy Nice",
+    "roles": [
+      {
+        "program": "caw",
+        "relationship": "organizer",
+        "tier": "Creator",
+        "tier_rank": 4
+      }
+    ],
+    "logo_url": "https://freight.cargo.site/t/original/i/S3055232852103793472565861195130/CN_logo-01-1.png",
+    "url": "https://www.cincynice.com/",
+    "source_url": "https://cincinnatiartweek.com/meet-the-team"
+  },
+  {
+    "id": "cincytech",
+    "name": "CincyTech",
+    "roles": [
+      {
+        "program": "scw",
+        "relationship": "sponsor",
+        "tier": "Presenting Sponsor",
+        "tier_rank": 2
+      }
+    ],
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840224722026-sucw-sponsor-logos-cincy-tech-png1784022472.png",
+    "url": "https://www.cincytechusa.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page"
+  },
+  {
+    "id": "cintas",
+    "name": "Cintas",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "sponsor",
+        "tier": "Twilight Sponsors",
+        "tier_rank": 12
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/cintas.jpg",
+    "url": null,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
     "id": "cintrifuse",
     "name": "Cintrifuse",
     "roles": [
@@ -21,34 +531,331 @@
     "source_url": "https://startupcincyweek.com/en/partners-page"
   },
   {
-    "id": "artswave",
-    "name": "ArtsWave",
+    "id": "city-of-cincinnati",
+    "name": "City of Cincinnati",
     "roles": [
       {
         "program": "blink",
-        "relationship": "presenting sponsor",
-        "tier": "Illuminated by",
-        "tier_rank": 1
+        "relationship": "sponsor",
+        "tier": "Aurora Sponsors",
+        "tier_rank": 2
       }
     ],
-    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/arts-wave2.jpg",
-    "url": "https://artswave.org/",
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/city-of-cincinnati.jpg",
+    "url": "https://www.cincinnati-oh.gov/cityofcincinnati/",
     "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
   },
   {
-    "id": "cincy-nice",
-    "name": "Cincy Nice",
+    "id": "contemporary-arts-center",
+    "name": "Contemporary Arts Center",
+    "roles": [
+      {
+        "program": "also",
+        "relationship": "venue",
+        "tier": null,
+        "tier_rank": null
+      }
+    ],
+    "logo_url": null,
+    "url": "https://www.contemporaryartscenter.org/",
+    "source_url": "https://www.contemporaryartscenter.org/events-programs/calendar"
+  },
+  {
+    "id": "corporex",
+    "name": "Corporex",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "sponsor",
+        "tier": "Beacon Sponsors",
+        "tier_rank": 11
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/corporexlogo.jpg",
+    "url": null,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
+    "id": "cvg-airport",
+    "name": "CVG Airport",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "sponsor",
+        "tier": "Luminary Sponsors",
+        "tier_rank": 10
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/cvglogo.jpg",
+    "url": "https://www.cvgairport.com/",
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
+    "id": "d-crane-rental",
+    "name": "D-Crane Rental",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "sponsor",
+        "tier": "Supported By",
+        "tier_rank": 22
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/d-crane-rentallogo.jpg",
+    "url": null,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
+    "id": "dbl-law",
+    "name": "DBL Law",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "sponsor",
+        "tier": "Supported By",
+        "tier_rank": 22
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/dbllawlogo.jpg",
+    "url": null,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
+    "id": "delta",
+    "name": "Delta",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "sponsor",
+        "tier": "Official Airline",
+        "tier_rank": 15
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/delta.jpg",
+    "url": null,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
+    "id": "disguise",
+    "name": "Disguise",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "partner",
+        "tier": "Technology Partners",
+        "tier_rank": 19
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/disguise.jpg",
+    "url": null,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
+    "id": "dmg-divisions-maintenance-group",
+    "name": "DMG (Divisions Maintenance Group)",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "sponsor",
+        "tier": "Spark Sponsors",
+        "tier_rank": 13
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/dmggrouplogo.jpg",
+    "url": null,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
+    "id": "dot-dash",
+    "name": "Dot Dash",
+    "roles": [
+      {
+        "program": "fotofocus",
+        "relationship": "partner",
+        "tier": "Partners",
+        "tier_rank": 2
+      }
+    ],
+    "logo_url": "https://www.fotofocus.org/wp-content/uploads/2026/05/Dot-Dash.jpg",
+    "url": "https://dotdash.io",
+    "source_url": "https://www.fotofocus.org/biennial/2026/about#sponsors"
+  },
+  {
+    "id": "duke-energy",
+    "name": "Duke Energy",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "sponsor",
+        "tier": "Glow Sponsors",
+        "tier_rank": 7
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/duke-energy.jpg",
+    "url": "https://www.duke-energy.com/home",
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
+    "id": "eat-well",
+    "name": "Eat Well",
+    "roles": [
+      {
+        "program": "fotofocus",
+        "relationship": "partner",
+        "tier": "Partners",
+        "tier_rank": 2
+      }
+    ],
+    "logo_url": "https://www.fotofocus.org/wp-content/uploads/2026/05/Eat-Well.jpg",
+    "url": "https://www.eatwellonline.com",
+    "source_url": "https://www.fotofocus.org/biennial/2026/about#sponsors"
+  },
+  {
+    "id": "ecdi",
+    "name": "ECDI",
+    "roles": [
+      {
+        "program": "scw",
+        "relationship": "sponsor",
+        "tier": "Community Sponsor",
+        "tier_rank": 5
+      }
+    ],
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840233152026-sucw-sponsor-logos-ecdi-png1784023315.png",
+    "url": "https://www.ecdi.org/",
+    "source_url": "https://startupcincyweek.com/en/partners-page"
+  },
+  {
+    "id": "esoteric-brewing",
+    "name": "Esoteric Brewing Co.",
     "roles": [
       {
         "program": "caw",
-        "relationship": "organizer",
-        "tier": "Creator",
-        "tier_rank": 1
+        "relationship": "partner",
+        "tier": "Collaboration (Art City beer)",
+        "tier_rank": 8
       }
     ],
-    "logo_url": "https://freight.cargo.site/t/original/i/S3055232852103793472565861195130/CN_logo-01-1.png",
-    "url": "https://www.cincynice.com/",
-    "source_url": "https://cincinnatiartweek.com/meet-the-team"
+    "logo_url": null,
+    "url": "https://esotericbrewing.com/",
+    "source_url": "https://www.instagram.com/p/Ddj-F4WtU0i/"
+  },
+  {
+    "id": "fbt-gibbons",
+    "name": "FBT Gibbons",
+    "roles": [
+      {
+        "program": "scw",
+        "relationship": "sponsor",
+        "tier": "Presenting Sponsor",
+        "tier_rank": 2
+      }
+    ],
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840924712026-sucw-sponsor-logos-png1784092471.png",
+    "url": "https://fbtgibbons.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page"
+  },
+  {
+    "id": "fifth-third",
+    "name": "Fifth Third",
+    "roles": [
+      {
+        "program": "caw",
+        "relationship": "presenting sponsor",
+        "tier": "Presented by",
+        "tier_rank": 1
+      },
+      {
+        "program": "scw",
+        "relationship": "sponsor",
+        "tier": "Presenting Sponsor",
+        "tier_rank": 2
+      },
+      {
+        "program": "blink",
+        "relationship": "sponsor",
+        "tier": "Zone Sponsors",
+        "tier_rank": 6
+      }
+    ],
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840224722026-sucw-sponsor-logos-fifth-third-png1784022472.png",
+    "url": "https://www.53.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page"
+  },
+  {
+    "id": "findlay-market",
+    "name": "Findlay Market",
+    "roles": [
+      {
+        "program": "also",
+        "relationship": "venue",
+        "tier": null,
+        "tier_rank": null
+      }
+    ],
+    "logo_url": null,
+    "url": "https://www.findlaymarket.org/",
+    "source_url": "https://www.findlaymarket.org/events"
+  },
+  {
+    "id": "first-financial-bank",
+    "name": "First Financial Bank",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "sponsor",
+        "tier": "Turn the Lights On Contest Sponsor",
+        "tier_rank": 14
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/first-national-bank.jpg",
+    "url": "https://www.bankatfirst.com/",
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
+    "id": "fischer-homes",
+    "name": "Fischer Homes",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "sponsor",
+        "tier": "Twilight Sponsors",
+        "tier_rank": 12
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/fischerhomeslogo.jpg",
+    "url": null,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
+    "id": "flying-pig-marathon",
+    "name": "Flying Pig Marathon (Queen Bee Half Marathon)",
+    "roles": [
+      {
+        "program": "also",
+        "relationship": "organizer",
+        "tier": null,
+        "tier_rank": null
+      }
+    ],
+    "logo_url": null,
+    "url": "https://flyingpigmarathon.com/",
+    "source_url": "https://flyingpigmarathon.com/queen-bee-half-marathon-weekend/event/queen-bee-half-marathon"
+  },
+  {
+    "id": "forvis-mazars",
+    "name": "Forvis Mazars",
+    "roles": [
+      {
+        "program": "scw",
+        "relationship": "sponsor",
+        "tier": "Partner Sponsor",
+        "tier_rank": 3
+      }
+    ],
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840233822026-sucw-sponsor-logos-forvis-mazars-png1784023382.png",
+    "url": "https://www.forvismazars.us/",
+    "source_url": "https://startupcincyweek.com/en/partners-page"
   },
   {
     "id": "fotofocus",
@@ -64,5 +871,1553 @@
     "logo_url": null,
     "url": "https://www.fotofocus.org/",
     "source_url": "https://www.fotofocus.org/biennial/2026/"
+  },
+  {
+    "id": "gameday-pr",
+    "name": "Gameday PR",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "partner",
+        "tier": "Press / media relations",
+        "tier_rank": 29
+      }
+    ],
+    "logo_url": null,
+    "url": null,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/press-room"
+  },
+  {
+    "id": "garage-beer",
+    "name": "Garage Beer",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "sponsor",
+        "tier": "Official Beer",
+        "tier_rank": 17
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/garage-beer2.jpg",
+    "url": null,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
+    "id": "ge-aerospace",
+    "name": "GE Aerospace",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "sponsor",
+        "tier": "Twilight Sponsors",
+        "tier_rank": 12
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/ge-aerospace.jpg",
+    "url": null,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
+    "id": "george-and-margaret-mclane-foundation",
+    "name": "George & Margaret McLane Foundation",
+    "roles": [
+      {
+        "program": "caw",
+        "relationship": "sponsor",
+        "tier": "With support from",
+        "tier_rank": 2
+      }
+    ],
+    "logo_url": "https://freight.cargo.site/t/original/i/D3056755110573555085221277769082/k49JPo.svg",
+    "url": null,
+    "source_url": "https://cincinnatiartweek.com/sponsors"
+  },
+  {
+    "id": "godutch",
+    "name": "godutch",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "partner",
+        "tier": "Official Design Partner",
+        "tier_rank": 21
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/godutch12.jpg",
+    "url": null,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
+    "id": "great-parks",
+    "name": "Great Parks",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "sponsor",
+        "tier": "Spark Sponsors",
+        "tier_rank": 13
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/great-parks.jpg",
+    "url": "https://www.greatparks.org/",
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
+    "id": "greater-cincinnati-foundation",
+    "name": "Greater Cincinnati Foundation",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "sponsor",
+        "tier": "Luminary Sponsors",
+        "tier_rank": 10
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/greatercincinnatifoundation.jpg",
+    "url": "https://www.gcfdn.org/",
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
+    "id": "h-b-e-w-and-f-r-luther-foundation",
+    "name": "H.B., E.W. & F.R. Luther Foundation",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "sponsor",
+        "tier": "Luminary Sponsors",
+        "tier_rank": 10
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/lutherfoundationlogo.jpg",
+    "url": null,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
+    "id": "hamilton-county-board-of-county-commissioners",
+    "name": "Hamilton County Board of County Commissioners",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "sponsor",
+        "tier": "Zone Sponsors",
+        "tier_rank": 6
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/ham-co-commissioners3.jpg",
+    "url": "https://www.hamiltoncountyohio.gov/",
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
+    "id": "hard-rock-casino",
+    "name": "Hard Rock Casino Cincinnati",
+    "roles": [
+      {
+        "program": "scw",
+        "relationship": "sponsor",
+        "tier": "Partner Sponsor",
+        "tier_rank": 3
+      }
+    ],
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840228232026-sucw-sponsor-logos-hard-rock-png1784022823.png",
+    "url": "https://casino.hardrock.com/cincinnati",
+    "source_url": "https://startupcincyweek.com/en/partners-page"
+  },
+  {
+    "id": "hccusa",
+    "name": "Hispanic Chamber Cincinnati USA (HCCUSA)",
+    "roles": [
+      {
+        "program": "scw",
+        "relationship": "sponsor",
+        "tier": "Community Sponsor",
+        "tier_rank": 5
+      }
+    ],
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840233152026-sucw-sponsor-logos-hccusa-png1784023315.png",
+    "url": "https://hccusa.us/",
+    "source_url": "https://startupcincyweek.com/en/partners-page"
+  },
+  {
+    "id": "heart-of-northside",
+    "name": "Heart of Northside",
+    "roles": [
+      {
+        "program": "also",
+        "relationship": "venue",
+        "tier": null,
+        "tier_rank": null
+      }
+    ],
+    "logo_url": null,
+    "url": "https://www.heartofnorthside.org/",
+    "source_url": "https://www.heartofnorthside.org/contact/"
+  },
+  {
+    "id": "heritage-bank-center",
+    "name": "Heritage Bank Center",
+    "roles": [
+      {
+        "program": "also",
+        "relationship": "venue",
+        "tier": null,
+        "tier_rank": null
+      }
+    ],
+    "logo_url": null,
+    "url": "https://www.heritagebankcenter.com/",
+    "source_url": "https://www.heritagebankcenter.com/events"
+  },
+  {
+    "id": "huntington-bank",
+    "name": "Huntington Bank",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "sponsor",
+        "tier": "Twilight Sponsors",
+        "tier_rank": 12
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/huntingtonbank.jpg",
+    "url": null,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
+    "id": "hyde-park-square-art-show-committee",
+    "name": "Hyde Park Square Art Show Committee",
+    "roles": [
+      {
+        "program": "also",
+        "relationship": "organizer",
+        "tier": null,
+        "tier_rank": null
+      }
+    ],
+    "logo_url": null,
+    "url": "https://www.hydeparksquare.org/",
+    "source_url": "https://www.hydeparksquare.org/event/hyde-park-square-art-show"
+  },
+  {
+    "id": "hyde-park-venture-partners",
+    "name": "Hyde Park Venture Partners",
+    "roles": [
+      {
+        "program": "scw",
+        "relationship": "sponsor",
+        "tier": "Advocate Sponsor",
+        "tier_rank": 4
+      }
+    ],
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840230692026-sucw-sponsor-logos-hype-park-png1784023069.png",
+    "url": "https://www.hydeparkvp.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page"
+  },
+  {
+    "id": "ikea",
+    "name": "IKEA",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "sponsor",
+        "tier": "Beacon Sponsors",
+        "tier_rank": 11
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/ikealogo.jpg",
+    "url": null,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
+    "id": "insperity",
+    "name": "Insperity",
+    "roles": [
+      {
+        "program": "scw",
+        "relationship": "sponsor",
+        "tier": "Advocate Sponsor",
+        "tier_rank": 4
+      }
+    ],
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840230692026-sucw-sponsor-logos-insperity-png1784023069.png",
+    "url": "https://www.insperity.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page"
+  },
+  {
+    "id": "interact-for-health",
+    "name": "Interact for Health",
+    "roles": [
+      {
+        "program": "caw",
+        "relationship": "sponsor",
+        "tier": "With support from",
+        "tier_rank": 2
+      }
+    ],
+    "logo_url": "https://freight.cargo.site/t/original/i/E3056757428056459809425956838778/logo-main.svg",
+    "url": "https://www.interactforhealth.org/",
+    "source_url": "https://cincinnatiartweek.com/sponsors"
+  },
+  {
+    "id": "jacob-g-schmidlapp-trusts-fifth-third-bank-trustee",
+    "name": "Jacob G. Schmidlapp Trusts (Fifth Third Bank, Trustee)",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "sponsor",
+        "tier": "Glow Sponsors",
+        "tier_rank": 7
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/schmidlapplogo.jpg",
+    "url": "https://www.53.com/content/fifth-third/en/media-center/press-releases/2023/press-release-2023-10-10.html",
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
+    "id": "jobsohio-ventures",
+    "name": "JobsOhio Ventures",
+    "roles": [
+      {
+        "program": "scw",
+        "relationship": "sponsor",
+        "tier": "Title Sponsor",
+        "tier_rank": 1
+      }
+    ],
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew/18090/content/files/1788347851jobsohio-png1788347851.png",
+    "url": "https://www.jobsohioventures.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page"
+  },
+  {
+    "id": "jumpstart",
+    "name": "JumpStart",
+    "roles": [
+      {
+        "program": "scw",
+        "relationship": "sponsor",
+        "tier": "Presenting Sponsor",
+        "tier_rank": 2
+      }
+    ],
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840224732026-sucw-sponsor-logos-jumpstart-png1784022473.png",
+    "url": "https://jumpstartinc.org/",
+    "source_url": "https://startupcincyweek.com/en/partners-page"
+  },
+  {
+    "id": "kennedy-heights-arts-center",
+    "name": "Kennedy Heights Arts Center",
+    "roles": [
+      {
+        "program": "also",
+        "relationship": "venue",
+        "tier": null,
+        "tier_rank": null
+      }
+    ],
+    "logo_url": null,
+    "url": "https://kennedyarts.org/",
+    "source_url": "https://kennedyarts.org/exhibitions/"
+  },
+  {
+    "id": "kernel",
+    "name": "Kernel",
+    "roles": [
+      {
+        "program": "scw",
+        "relationship": "sponsor",
+        "tier": "Presenting Sponsor",
+        "tier_rank": 2
+      }
+    ],
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840224732026-sucw-sponsor-logos-kernel-png1784022473.png",
+    "url": "https://www.kernel.sh/",
+    "source_url": "https://startupcincyweek.com/en/partners-page"
+  },
+  {
+    "id": "keyhorse-capital",
+    "name": "Keyhorse Capital",
+    "roles": [
+      {
+        "program": "scw",
+        "relationship": "sponsor",
+        "tier": "Advocate Sponsor",
+        "tier_rank": 4
+      }
+    ],
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840230692026-sucw-sponsor-logos-keyhorse-png1784023069.png",
+    "url": "https://www.keyhorse.vc/",
+    "source_url": "https://startupcincyweek.com/en/partners-page"
+  },
+  {
+    "id": "kinley-cincinnati",
+    "name": "Kinley Cincinnati",
+    "roles": [
+      {
+        "program": "caw",
+        "relationship": "community partner",
+        "tier": "Community partners",
+        "tier_rank": 3
+      }
+    ],
+    "logo_url": "https://freight.cargo.site/t/original/i/D3056767186826796659547790941562/Kinley_hotel.svg",
+    "url": "https://www.kinleycincinnati.com/",
+    "source_url": "https://cincinnatiartweek.com/sponsors"
+  },
+  {
+    "id": "kmk-law",
+    "name": "KMK Law",
+    "roles": [
+      {
+        "program": "scw",
+        "relationship": "sponsor",
+        "tier": "Advocate Sponsor",
+        "tier_rank": 4
+      }
+    ],
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew/18090/content/files/1788516838kmk-law-png1788516838.png",
+    "url": "https://www.kmklaw.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page"
+  },
+  {
+    "id": "kroger",
+    "name": "Kroger",
+    "roles": [
+      {
+        "program": "scw",
+        "relationship": "sponsor",
+        "tier": "Partner Sponsor",
+        "tier_rank": 3
+      },
+      {
+        "program": "blink",
+        "relationship": "sponsor",
+        "tier": "Radiance Sponsors",
+        "tier_rank": 9
+      }
+    ],
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew/18090/content/files/1788364290kroger-png1788364290.png",
+    "url": "https://www.kroger.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page"
+  },
+  {
+    "id": "laz-parking",
+    "name": "LAZ Parking",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "partner",
+        "tier": "Reserved parking partner",
+        "tier_rank": 24
+      }
+    ],
+    "logo_url": null,
+    "url": "https://www.lazparking.com/",
+    "source_url": "https://www.blinkcincinnati.com/reserve-parking"
+  },
+  {
+    "id": "lifesciky",
+    "name": "LifeSciKY",
+    "roles": [
+      {
+        "program": "scw",
+        "relationship": "sponsor",
+        "tier": "Advocate Sponsor",
+        "tier_rank": 4
+      }
+    ],
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840230692026-sucw-sponsor-logos-lifesciky-png1784023069.png",
+    "url": "https://lifesciky.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page"
+  },
+  {
+    "id": "lightact",
+    "name": "LightAct",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "partner",
+        "tier": "Technology Partners",
+        "tier_rank": 19
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/lightact.jpg",
+    "url": null,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
+    "id": "lightborne",
+    "name": "Lightborne",
+    "roles": [
+      {
+        "program": "fotofocus",
+        "relationship": "partner",
+        "tier": "Partners",
+        "tier_rank": 2
+      }
+    ],
+    "logo_url": "https://www.fotofocus.org/wp-content/uploads/2026/05/Lightborne.jpg",
+    "url": "https://lightborne.com",
+    "source_url": "https://www.fotofocus.org/biennial/2026/about#sponsors"
+  },
+  {
+    "id": "luther-foundation",
+    "name": "Luther Foundation",
+    "roles": [
+      {
+        "program": "fotofocus",
+        "relationship": "sponsor",
+        "tier": "Programmatic Support",
+        "tier_rank": 1
+      }
+    ],
+    "logo_url": "https://www.fotofocus.org/wp-content/uploads/2026/05/Luther-Foundation.jpg",
+    "url": null,
+    "source_url": "https://www.fotofocus.org/biennial/2026/about#sponsors"
+  },
+  {
+    "id": "meaningful-connections",
+    "name": "Meaningful Connections LLC",
+    "roles": [
+      {
+        "program": "caw",
+        "relationship": "partner",
+        "tier": "Community Impact Advisor",
+        "tier_rank": 7
+      }
+    ],
+    "logo_url": null,
+    "url": "https://www.tiffanymcooper.com/meaningfulconnections",
+    "source_url": "https://cincinnatiartweek.com/meet-the-team"
+  },
+  {
+    "id": "meetnky",
+    "name": "meetNKY",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "sponsor",
+        "tier": "Aurora Sponsors",
+        "tier_rank": 2
+      },
+      {
+        "program": "blink",
+        "relationship": "sponsor",
+        "tier": "Madison Walls Mural Sponsor",
+        "tier_rank": 3
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/meetnkylogo.jpg",
+    "url": "https://www.meetnky.com/",
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
+    "id": "memorial-hall-otr",
+    "name": "Memorial Hall OTR",
+    "roles": [
+      {
+        "program": "also",
+        "relationship": "venue",
+        "tier": null,
+        "tier_rank": null
+      }
+    ],
+    "logo_url": null,
+    "url": "https://www.memorialhallotr.com/",
+    "source_url": "https://www.memorialhallotr.com/cincinnati-shows/"
+  },
+  {
+    "id": "merus",
+    "name": "Merus",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "sponsor",
+        "tier": "Luminary Sponsors",
+        "tier_rank": 10
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/merus2.jpg",
+    "url": null,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
+    "id": "metro",
+    "name": "Metro",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "sponsor",
+        "tier": "Spark Sponsors",
+        "tier_rank": 13
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/metrologo.jpg",
+    "url": "https://www.go-metro.com/",
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
+    "id": "mevix-panasonic-projector-and-display-americas",
+    "name": "MEVIX (Panasonic Projector & Display Americas)",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "partner",
+        "tier": "Official Projection Technology Partner",
+        "tier_rank": 18
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/panasonic-mevixlogo.jpg",
+    "url": "https://connect.na.panasonic.com/ppnda",
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
+    "id": "miami-university",
+    "name": "Miami University",
+    "roles": [
+      {
+        "program": "scw",
+        "relationship": "sponsor",
+        "tier": "Presenting Sponsor",
+        "tier_rank": 2
+      }
+    ],
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840224732026-sucw-sponsor-logos-miami-u-png1784022473.png",
+    "url": "https://miamioh.edu/",
+    "source_url": "https://startupcincyweek.com/en/partners-page"
+  },
+  {
+    "id": "millstone-fund",
+    "name": "Millstone Fund",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "sponsor",
+        "tier": "Beacon Sponsors",
+        "tier_rank": 11
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/millstonefundlogo.jpg",
+    "url": null,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
+    "id": "mobile-infrastructure",
+    "name": "Mobile Infrastructure",
+    "roles": [
+      {
+        "program": "scw",
+        "relationship": "sponsor",
+        "tier": "Presenting Sponsor",
+        "tier_rank": 2
+      }
+    ],
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew/18090/content/files/1788516838mobile-infrastructure-png1788516838.png",
+    "url": "https://www.mobileit.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page"
+  },
+  {
+    "id": "model-group",
+    "name": "Model Group",
+    "roles": [
+      {
+        "program": "caw",
+        "relationship": "partner",
+        "tier": "Storefront / developer partner",
+        "tier_rank": 6
+      }
+    ],
+    "logo_url": null,
+    "url": "https://modelgroup.net/",
+    "source_url": "https://www.citybeat.com/arts/visual-arts/cincinnati-arts-week-launches-october/"
+  },
+  {
+    "id": "monster-energy",
+    "name": "Monster Energy",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "sponsor",
+        "tier": "Official Energy Partner",
+        "tier_rank": 16
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/monster-energy.jpg",
+    "url": "https://www.monsterenergy.com/en-us/",
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
+    "id": "motr-pub",
+    "name": "MOTR Pub",
+    "roles": [
+      {
+        "program": "caw",
+        "relationship": "venue",
+        "tier": "NO GRID venue",
+        "tier_rank": 10
+      }
+    ],
+    "logo_url": null,
+    "url": "https://www.motrpub.com/",
+    "source_url": "https://www.instagram.com/p/DdUlIEdlEg4/"
+  },
+  {
+    "id": "mutual-dance-theatre",
+    "name": "Mutual Dance Theatre",
+    "roles": [
+      {
+        "program": "also",
+        "relationship": "organizer",
+        "tier": null,
+        "tier_rank": null
+      }
+    ],
+    "logo_url": null,
+    "url": "https://mutualdance.org/",
+    "source_url": "https://www.cincinnatiarts.org/events/detail/mutual-dance-theatre-presents-south-chicago-dance-theatre"
+  },
+  {
+    "id": "national-endowment-for-the-arts",
+    "name": "National Endowment for the Arts",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "sponsor",
+        "tier": "Beacon Sponsors",
+        "tier_rank": 11
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/nationalendowment.jpg",
+    "url": null,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
+    "id": "no-standing",
+    "name": "No Standing",
+    "roles": [
+      {
+        "program": "caw",
+        "relationship": "organizer",
+        "tier": "Partner",
+        "tier_rank": 5
+      }
+    ],
+    "logo_url": "https://freight.cargo.site/t/original/i/X3056227410487243323738964925818/NoStanding_RGB_B.png",
+    "url": "https://www.nostandingonlydancing.com/",
+    "source_url": "https://cincinnatiartweek.com/meet-the-team"
+  },
+  {
+    "id": "notion",
+    "name": "Notion",
+    "roles": [
+      {
+        "program": "scw",
+        "relationship": "sponsor",
+        "tier": "Presenting Sponsor",
+        "tier_rank": 2
+      }
+    ],
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew/18090/content/files/1788364290notion-png1788364290.png",
+    "url": "https://www.notion.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page"
+  },
+  {
+    "id": "ohio-arts-council",
+    "name": "Ohio Arts Council",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "sponsor",
+        "tier": "Twilight Sponsors",
+        "tier_rank": 12
+      },
+      {
+        "program": "fotofocus",
+        "relationship": "sponsor",
+        "tier": "Programmatic Support",
+        "tier_rank": 1
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/ohioartscouncil2.jpg",
+    "url": "https://oac.ohio.gov/",
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
+    "id": "ohio-humanities",
+    "name": "Ohio Humanities",
+    "roles": [
+      {
+        "program": "fotofocus",
+        "relationship": "sponsor",
+        "tier": "Programmatic Support",
+        "tier_rank": 1
+      }
+    ],
+    "logo_url": "https://www.fotofocus.org/wp-content/uploads/2026/07/Ohio-Humanities.jpg",
+    "url": "https://www.ohiohumanities.org/connect/alliance/",
+    "source_url": "https://www.fotofocus.org/biennial/2026/about#sponsors"
+  },
+  {
+    "id": "origin-ventures",
+    "name": "Origin Ventures",
+    "roles": [
+      {
+        "program": "scw",
+        "relationship": "sponsor",
+        "tier": "Community Sponsor",
+        "tier_rank": 5
+      }
+    ],
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840233152026-sucw-sponsor-logos-origin-ventures-png1784023315.png",
+    "url": "https://www.originventures.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page"
+  },
+  {
+    "id": "oswald",
+    "name": "Oswald",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "sponsor",
+        "tier": "Spark Sponsors",
+        "tier_rank": 13
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/oswald.jpg",
+    "url": null,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
+    "id": "paycor",
+    "name": "Paycor",
+    "roles": [
+      {
+        "program": "scw",
+        "relationship": "sponsor",
+        "tier": "Advocate Sponsor",
+        "tier_rank": 4
+      }
+    ],
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1786339737b2026-sucw-sponsor-logos-svb-copy-png1786339737.png",
+    "url": "https://www.paycor.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page"
+  },
+  {
+    "id": "pepsi",
+    "name": "Pepsi",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "sponsor",
+        "tier": "Spark Sponsors",
+        "tier_rank": 13
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/pepsilogo.jpg",
+    "url": null,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
+    "id": "pixera",
+    "name": "Pixera",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "partner",
+        "tier": "Technology Partners",
+        "tier_rank": 19
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/pixera.jpg",
+    "url": null,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
+    "id": "plante-moran",
+    "name": "Plante Moran",
+    "roles": [
+      {
+        "program": "scw",
+        "relationship": "sponsor",
+        "tier": "Community Sponsor",
+        "tier_rank": 5
+      }
+    ],
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1786339736b2026-sucw-sponsor-logos-plante-moran-png1786339736.png",
+    "url": "https://www.plantemoran.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page"
+  },
+  {
+    "id": "pnc",
+    "name": "PNC",
+    "roles": [
+      {
+        "program": "scw",
+        "relationship": "sponsor",
+        "tier": "Partner Sponsor",
+        "tier_rank": 3
+      }
+    ],
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840228232026-sucw-sponsor-logos-pnc-png1784022823.png",
+    "url": "https://www.pnc.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page"
+  },
+  {
+    "id": "procter-and-gamble",
+    "name": "Procter & Gamble (P&G)",
+    "roles": [
+      {
+        "program": "scw",
+        "relationship": "sponsor",
+        "tier": "Title Sponsor",
+        "tier_rank": 1
+      },
+      {
+        "program": "blink",
+        "relationship": "sponsor",
+        "tier": "Zone Sponsors",
+        "tier_rank": 6
+      }
+    ],
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840216182026-sucw-sponsor-logos-p-amp-g-png1784021618.png",
+    "url": "https://us.pg.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page"
+  },
+  {
+    "id": "qca-ventures",
+    "name": "QCA Ventures",
+    "roles": [
+      {
+        "program": "scw",
+        "relationship": "sponsor",
+        "tier": "Advocate Sponsor",
+        "tier_rank": 4
+      }
+    ],
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840230692026-sucw-sponsor-logos-qca-ventures-png1784023069.png",
+    "url": "https://www.qca.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page"
+  },
+  {
+    "id": "ramp",
+    "name": "Ramp",
+    "roles": [
+      {
+        "program": "scw",
+        "relationship": "sponsor",
+        "tier": "Partner Sponsor",
+        "tier_rank": 3
+      }
+    ],
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840228232026-sucw-sponsor-logos-ramp-png1784022823.png",
+    "url": "https://ramp.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page"
+  },
+  {
+    "id": "red-bike",
+    "name": "Red Bike",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "partner",
+        "tier": "Transit partner (bike share)",
+        "tier_rank": 28
+      }
+    ],
+    "logo_url": null,
+    "url": "https://www.cincyredbike.org/",
+    "source_url": "https://www.blinkcincinnati.com/resources/park-and-ride"
+  },
+  {
+    "id": "redi-cincinnati",
+    "name": "REDI Cincinnati",
+    "roles": [
+      {
+        "program": "scw",
+        "relationship": "sponsor",
+        "tier": "Partner Sponsor",
+        "tier_rank": 3
+      }
+    ],
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840228232026-sucw-sponsor-logos-redi-png1784022823.png",
+    "url": "https://redicincinnati.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page"
+  },
+  {
+    "id": "richter-and-phillips",
+    "name": "Richter & Phillips",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "sponsor",
+        "tier": "Twilight Sponsors",
+        "tier_rank": 12
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/richterphillips.jpg",
+    "url": null,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
+    "id": "saint-ursula-academy",
+    "name": "Saint Ursula Academy",
+    "roles": [
+      {
+        "program": "scw",
+        "relationship": "sponsor",
+        "tier": "Community Sponsor",
+        "tier_rank": 5
+      }
+    ],
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1787834874b2026-sucw-sponsor-logos-st-ursala-png1787834874.png",
+    "url": "https://www.saintursula.org/",
+    "source_url": "https://startupcincyweek.com/en/partners-page"
+  },
+  {
+    "id": "sam-adams",
+    "name": "Samuel Adams: Brewing the American Dream",
+    "roles": [
+      {
+        "program": "scw",
+        "relationship": "sponsor",
+        "tier": "Presenting Sponsor",
+        "tier_rank": 2
+      }
+    ],
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840224732026-sucw-sponsor-logos-sam-adams-png1784022473.png",
+    "url": "https://www.samueladams.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page"
+  },
+  {
+    "id": "scripps",
+    "name": "Scripps",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "sponsor",
+        "tier": "Beacon Sponsors",
+        "tier_rank": 11
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/scripps2.jpg",
+    "url": "https://scripps.com/",
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
+    "id": "skyline-chili",
+    "name": "Skyline Chili",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "sponsor",
+        "tier": "Beacon Sponsors",
+        "tier_rank": 11
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/skyline3.jpg",
+    "url": null,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
+    "id": "snellbeast",
+    "name": "SnellBeast (Jason Snell)",
+    "roles": [
+      {
+        "program": "caw",
+        "relationship": "partner",
+        "tier": "Program partner (NO GRID)",
+        "tier_rank": 9
+      }
+    ],
+    "logo_url": null,
+    "url": "https://www.snellbeast.com/",
+    "source_url": "https://cincinnatiartweek.com/schedule"
+  },
+  {
+    "id": "spotted-yeti",
+    "name": "Spotted Yeti",
+    "roles": [
+      {
+        "program": "fotofocus",
+        "relationship": "partner",
+        "tier": "Partners",
+        "tier_rank": 2
+      }
+    ],
+    "logo_url": "https://www.fotofocus.org/wp-content/uploads/2026/05/Spotted-Yeti.jpg",
+    "url": "https://www.spottedyeti.com",
+    "source_url": "https://www.fotofocus.org/biennial/2026/about#sponsors"
+  },
+  {
+    "id": "startupcincy",
+    "name": "StartupCincy",
+    "roles": [
+      {
+        "program": "scw",
+        "relationship": "organizer",
+        "tier": null,
+        "tier_rank": null
+      }
+    ],
+    "logo_url": "https://startupcincy.com/wp-content/uploads/2024/11/StartupCincy-Logo-_-Full-Color-1.png",
+    "url": "https://startupcincy.com/",
+    "source_url": "https://startupcincy.com/about-startupcincy/"
+  },
+  {
+    "id": "svb",
+    "name": "Silicon Valley Bank (SVB)",
+    "roles": [
+      {
+        "program": "scw",
+        "relationship": "sponsor",
+        "tier": "Community Sponsor",
+        "tier_rank": 5
+      }
+    ],
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840233152026-sucw-sponsor-logos-svb-png1784023315.png",
+    "url": "https://www.svb.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page"
+  },
+  {
+    "id": "taft",
+    "name": "Taft",
+    "roles": [
+      {
+        "program": "scw",
+        "relationship": "sponsor",
+        "tier": "Partner Sponsor",
+        "tier_rank": 3
+      }
+    ],
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840228232026-sucw-sponsor-logos-taft-png1784022823.png",
+    "url": "https://www.taftlaw.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page"
+  },
+  {
+    "id": "taft-museum-of-art",
+    "name": "Taft Museum of Art",
+    "roles": [
+      {
+        "program": "also",
+        "relationship": "venue",
+        "tier": null,
+        "tier_rank": null
+      }
+    ],
+    "logo_url": null,
+    "url": "https://www.taftmuseum.org/",
+    "source_url": "https://www.taftmuseum.org/exhibitions/"
+  },
+  {
+    "id": "taft-theatre",
+    "name": "Taft Theatre",
+    "roles": [
+      {
+        "program": "also",
+        "relationship": "venue",
+        "tier": null,
+        "tier_rank": null
+      }
+    ],
+    "logo_url": null,
+    "url": "https://tafttheatre.org/",
+    "source_url": "https://tafttheatre.org/events"
+  },
+  {
+    "id": "tank",
+    "name": "Transit Authority of Northern Kentucky (TANK)",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "partner",
+        "tier": "Transit partner",
+        "tier_rank": 27
+      }
+    ],
+    "logo_url": null,
+    "url": "https://www.tankbus.org/",
+    "source_url": "https://www.blinkcincinnati.com/resources/park-and-ride"
+  },
+  {
+    "id": "tembo",
+    "name": "Tembo",
+    "roles": [
+      {
+        "program": "scw",
+        "relationship": "sponsor",
+        "tier": "Presenting Sponsor",
+        "tier_rank": 2
+      }
+    ],
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840224732026-sucw-sponsor-logos-tembo-png1784022473.png",
+    "url": "https://www.tembo.io/",
+    "source_url": "https://startupcincyweek.com/en/partners-page"
+  },
+  {
+    "id": "the-banks",
+    "name": "The Banks",
+    "roles": [
+      {
+        "program": "also",
+        "relationship": "organizer",
+        "tier": null,
+        "tier_rank": null
+      }
+    ],
+    "logo_url": null,
+    "url": "https://thebankscincy.com/",
+    "source_url": "https://thebankscincy.com/event/bengals-pregame-at-the-banks-2/"
+  },
+  {
+    "id": "the-bob-and-jeanne-coughlin-foundation",
+    "name": "The Bob & Jeanne Coughlin Foundation",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "sponsor",
+        "tier": "Beacon Sponsors",
+        "tier_rank": 11
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/bobcoughlin.jpg",
+    "url": null,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
+    "id": "the-childrens-theatre-of-cincinnati",
+    "name": "The Children’s Theatre of Cincinnati",
+    "roles": [
+      {
+        "program": "also",
+        "relationship": "organizer",
+        "tier": null,
+        "tier_rank": null
+      }
+    ],
+    "logo_url": null,
+    "url": "https://thechildrenstheatre.com/",
+    "source_url": "https://thechildrenstheatre.com/shows/disney-cameron-mackintoshs-mary-poppins-jr/"
+  },
+  {
+    "id": "the-christ-hospital-health-network",
+    "name": "The Christ Hospital Health Network",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "sponsor",
+        "tier": "Spark Sponsors",
+        "tier_rank": 13
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/christhospitallogo.jpg",
+    "url": null,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
+    "id": "the-edelweiss-foundation",
+    "name": "The Edelweiss Foundation",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "sponsor",
+        "tier": "Twilight Sponsors",
+        "tier_rank": 12
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/the-edelweiss-foundation.jpg",
+    "url": null,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
+    "id": "the-enquirer-cincinnati-com",
+    "name": "The Enquirer / Cincinnati.com",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "sponsor",
+        "tier": "Spark Sponsors",
+        "tier_rank": 13
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/the-enquirer.jpg",
+    "url": "https://www.cincinnati.com/",
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
+    "id": "the-gratitude-collective",
+    "name": "The Gratitude Collective (TGC)",
+    "roles": [
+      {
+        "program": "scw",
+        "relationship": "sponsor",
+        "tier": "Community Sponsor",
+        "tier_rank": 5
+      }
+    ],
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1787834874b2026-sucw-sponsor-logos-gratitude-collective-copy-png1787834874.png",
+    "url": "https://www.thegratitudecollective.net/",
+    "source_url": "https://startupcincyweek.com/en/partners-page"
+  },
+  {
+    "id": "the-harry-t-wilks-family-foundation",
+    "name": "The Harry T. Wilks Family Foundation",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "sponsor",
+        "tier": "Twilight Sponsors",
+        "tier_rank": 12
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/harrytwilks.jpg",
+    "url": null,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
+    "id": "the-johnson-foundation",
+    "name": "The Johnson Foundation",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "sponsor",
+        "tier": "Market Walls Mural Sponsor",
+        "tier_rank": 8
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/the-johnson-foundation.jpg",
+    "url": "https://www.johnson-foundation.org/",
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
+    "id": "the-louise-taft-semple-foundation",
+    "name": "The Louise Taft Semple Foundation",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "sponsor",
+        "tier": "Beacon Sponsors",
+        "tier_rank": 11
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/louisetaftsemplefoundation.jpg",
+    "url": "https://ignitephilanthropy.com/lts/",
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
+    "id": "the-unnewehr-foundation",
+    "name": "The Unnewehr Foundation",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "sponsor",
+        "tier": "Twilight Sponsors",
+        "tier_rank": 12
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/the-unnewehr-foundation.jpg",
+    "url": null,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
+    "id": "thompson-hine",
+    "name": "Thompson Hine",
+    "roles": [
+      {
+        "program": "scw",
+        "relationship": "sponsor",
+        "tier": "Presenting Sponsor",
+        "tier_rank": 2
+      }
+    ],
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840224732026-sucw-sponsor-logos-thompson-hine-png1784022473.png",
+    "url": "https://www.thompsonhine.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page"
+  },
+  {
+    "id": "towne-properties",
+    "name": "Towne Properties",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "sponsor",
+        "tier": "Beacon Sponsors",
+        "tier_rank": 11
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/towne-properties.jpg",
+    "url": null,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
+    "id": "turner-construction-company",
+    "name": "Turner Construction Company",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "sponsor",
+        "tier": "Spark Sponsors",
+        "tier_rank": 13
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/turner-construction.jpg",
+    "url": "https://www.turnerconstruction.com/",
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
+    "id": "university-of-cincinnati",
+    "name": "University of Cincinnati",
+    "roles": [
+      {
+        "program": "scw",
+        "relationship": "sponsor",
+        "tier": "Presenting Sponsor",
+        "tier_rank": 2
+      },
+      {
+        "program": "blink",
+        "relationship": "sponsor",
+        "tier": "Supported By",
+        "tier_rank": 22
+      }
+    ],
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840224732026-sucw-sponsor-logos-university-of-cincinnati-png1784022473.png",
+    "url": "https://www.uc.edu/",
+    "source_url": "https://startupcincyweek.com/en/partners-page"
+  },
+  {
+    "id": "urban-hikers",
+    "name": "Urban Hikers",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "partner",
+        "tier": "Walking tours partner",
+        "tier_rank": 26
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/circle-logo75-blackbackground2.jpg",
+    "url": "https://urban-hikers.com/",
+    "source_url": "https://www.blinkcincinnati.com/resources/walking-tours"
+  },
+  {
+    "id": "urban-native-collective",
+    "name": "Urban Native Collective",
+    "roles": [
+      {
+        "program": "also",
+        "relationship": "organizer",
+        "tier": null,
+        "tier_rank": null
+      }
+    ],
+    "logo_url": null,
+    "url": "https://urbannativecollective.org/",
+    "source_url": "https://urbannativecollective.org/ipdc"
+  },
+  {
+    "id": "urban-sites",
+    "name": "Urban Sites",
+    "roles": [
+      {
+        "program": "caw",
+        "relationship": "community partner",
+        "tier": "Community partners",
+        "tier_rank": 3
+      },
+      {
+        "program": "blink",
+        "relationship": "sponsor",
+        "tier": "Twilight Sponsors",
+        "tier_rank": 12
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/urbansiteslogo.jpg",
+    "url": "https://www.urbansites.com/",
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
+    "id": "us-bank",
+    "name": "U.S. Bank",
+    "roles": [
+      {
+        "program": "scw",
+        "relationship": "sponsor",
+        "tier": "Advocate Sponsor",
+        "tier_rank": 4
+      }
+    ],
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840230692026-sucw-sponsor-logos-us-bank-png1784023069.png",
+    "url": "https://www.usbank.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page"
+  },
+  {
+    "id": "vfairs",
+    "name": "vFairs",
+    "roles": [
+      {
+        "program": "scw",
+        "relationship": "partner",
+        "tier": "event platform",
+        "tier_rank": 6
+      }
+    ],
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1748437873poweredby-white-png1748437873.png",
+    "url": "https://www.vfairs.com/",
+    "source_url": "https://startupcincyweek.com/"
+  },
+  {
+    "id": "visitcincy",
+    "name": "VisitCincy",
+    "roles": [
+      {
+        "program": "scw",
+        "relationship": "sponsor",
+        "tier": "Presenting Sponsor",
+        "tier_rank": 2
+      },
+      {
+        "program": "blink",
+        "relationship": "sponsor",
+        "tier": "Luminary Sponsors",
+        "tier_rank": 10
+      }
+    ],
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1786339737b2026-sucw-sponsor-logos-visit-cincy-png1786339737.png",
+    "url": "https://www.visitcincy.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page"
+  },
+  {
+    "id": "vurvey",
+    "name": "Vurvey",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "partner",
+        "tier": "Official AI Partner",
+        "tier_rank": 20
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/vurvey.jpg",
+    "url": null,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
+    "id": "western-and-southern-financial-group",
+    "name": "Western & Southern Financial Group",
+    "roles": [
+      {
+        "program": "blink",
+        "relationship": "sponsor",
+        "tier": "Zone Sponsors",
+        "tier_rank": 6
+      },
+      {
+        "program": "blink",
+        "relationship": "sponsor",
+        "tier": "Glow Sponsors",
+        "tier_rank": 7
+      }
+    ],
+    "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/westernsouthernlogo.jpg",
+    "url": null,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
   }
 ]

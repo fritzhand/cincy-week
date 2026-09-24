@@ -5,3 +5,28 @@
    order into docs/assets/site.css. Read only tokens (var(--…)); no color literal may appear here
    (the build fails on one). Prefix new classes with your domain (see CLAUDE.md).
    ====================================================================== */
+
+/* ---------- 86 · FAQ: questions as <details> (faq.html and the program pages) ---------- */
+details.faq { border-bottom: 1px solid var(--border); }
+details.faq > summary {
+  gap: 12px; padding: 10px 0; list-style: none;
+  font-family: var(--font-display); font-weight: var(--wght-head); font-size: var(--fs-md); line-height: var(--lh-snug); color: var(--text);
+}
+details.faq > summary::-webkit-details-marker { display: none; }
+details.faq > summary::after {
+  content: "+"; flex: none; margin-left: auto; width: 28px; height: 28px; display: grid; place-items: center;
+  border: 1px solid var(--border-strong); border-radius: var(--radius-sm);
+  font-family: var(--font-body); font-weight: var(--wght-strong); font-size: var(--fs-base); color: var(--text-muted);
+}
+details.faq[open] > summary::after { content: "–"; }
+details.faq > summary:hover { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 0.16em; }
+details.faq > .prose { padding: 0 0 var(--sp-3); max-width: var(--measure); }
+details.faq > .source-line { margin: 0 0 var(--sp-4); }
+details.faq:target { background: var(--accent-tint); box-shadow: 0 0 0 8px var(--accent-tint); }
+details.faq:target > summary { color: var(--accent-strong); }
+.faq-tools { display: flex; flex-wrap: wrap; align-items: center; gap: var(--sp-3) var(--sp-4); margin: var(--sp-5) 0 var(--sp-2); padding: var(--sp-3) 0; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+.faq-tools .faq-search { flex: 1 1 100%; max-width: 560px; }
+.faq-tools .chip-row { flex: 1 1 100%; }
+.faq-topic { margin-top: var(--sp-5); }
+.faq-group .faq-list + .faq-topic { margin-top: var(--sp-6); }
+.faq-note { margin-top: var(--sp-6); font-size: var(--fs-sm); }

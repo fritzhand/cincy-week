@@ -1,31 +1,66 @@
 /* ======================================================================
    site/css/60-directory.css · OWNER: Agent F (directory: people, art, partners)
-   People rows and featured mugs, artwork cards, partner logo walls.
-   From the final "Interchange" design (design/final/css). Partials are concatenated in lexical
-   order into docs/assets/site.css. Read only tokens (var(--…)); no color literal may appear here
-   (the build fails on one). Prefix new classes with your domain (see CLAUDE.md).
+   The directory filter bar (.dir-*: search, chip groups, A–Z, status, active chips), people rows
+   and featured mugs, artwork cards, partner logo walls.
+   From the final "Interchange" design (DESIGN.md §9.5, §9.6, §9.8). Partials are concatenated in
+   lexical order into docs/assets/site.css. Read only tokens (var(--…)); no color literal may appear
+   here (the build fails on one).
    ====================================================================== */
 
-/* ---------- 60 · directory: people ---------- */
-/* directory row (500+ people): a 64×80 mug beside the name; the whole card is the link */
+/* ---------- the filter bar: search, chip groups (one scrolling row each on phones), A–Z, status ---------- */
+.dir-tools { display: grid; gap: var(--sp-2); margin-bottom: var(--sp-3); }
+.dir-search { max-width: 520px; }
+.dir-group { display: grid; grid-template-columns: 76px minmax(0, 1fr); align-items: center; gap: var(--sp-2); min-width: 0; }
+.dir-glabel { color: var(--text-muted); }
+.dir-chips { position: relative; display: flex; gap: var(--sp-2); min-width: 0; overflow-x: auto; overscroll-behavior-x: contain; scrollbar-width: none; padding: 3px 1px; }
+.dir-chips::-webkit-scrollbar { display: none; }
+.dir-chips > * { flex: none; }
+.dir-chips .chip.is-zero { color: var(--text-faint); border-style: dashed; }
+@media (max-width: 699px) {
+  .dir-chips { -webkit-mask-image: linear-gradient(to right, var(--mask-ink) 88%, transparent); mask-image: linear-gradient(to right, var(--mask-ink) 88%, transparent); padding-right: 24px; }
+}
+@media (min-width: 700px) { .dir-chips { flex-wrap: wrap; overflow: visible; } }
+
+/* A–Z: a scrolling row on phones, a wrapped strip on desktop; jumps without JS, filters with it */
+.dir-az { position: relative; margin: var(--sp-2) 0 var(--sp-1); flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+.dir-az::-webkit-scrollbar { display: none; }
+.dir-az a { flex: none; }
+.dir-az a[aria-disabled="true"] { color: var(--border-strong); pointer-events: none; }
+@media (pointer: coarse) { .dir-az a { min-width: var(--tap); } }
+@media (max-width: 699px) { .dir-az { -webkit-mask-image: linear-gradient(to right, var(--mask-ink) 90%, transparent); mask-image: linear-gradient(to right, var(--mask-ink) 90%, transparent); padding-right: 24px; } }
+@media (min-width: 700px) { .dir-az { flex-wrap: wrap; overflow: visible; } }
+
+.dir-status { display: flex; flex-wrap: wrap; align-items: center; gap: var(--sp-2) var(--sp-4); margin: var(--sp-3) 0 var(--sp-4); min-height: var(--tap); }
+.dir-active { gap: var(--sp-2); }
+.dir-active > .label { margin-right: 2px; }
+.chip-x { background: var(--surface-alt); }
+.chip-x .x { width: 16px; height: 16px; color: var(--text-muted); }
+.chip-x:hover .x { color: var(--text); }
+[data-dir-empty] { margin: var(--sp-4) 0; }
+
+/* ---------- people: directory rows (500+): a 64×80 mug beside the name; the whole card is the link ---------- */
 .people { display: grid; gap: var(--sp-3); grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); }
 .person {
-  position: relative; display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 4px 14px; align-items: start;
+  position: relative; display: grid; grid-template-columns: auto minmax(0, 1fr); grid-template-rows: auto auto 1fr; gap: 4px 14px; align-items: start;
   padding: 10px 12px 10px 10px; background: var(--surface); border: 1px solid var(--border); color: var(--text); text-decoration: none;
+  scroll-margin-top: calc(var(--topbar-h) + var(--sp-4));
 }
 .person:hover { border-color: var(--border-strong); color: var(--text); }
 .person:hover .per-name { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 0.16em; }
 .person .avatar { grid-row: span 3; }
 .person .avatar::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: var(--rule-heavy); background: var(--ink-fill); }
-.per-name { font-family: var(--font-display); font-weight: var(--wght-head); font-size: var(--fs-md); line-height: var(--lh-snug); }
-.per-role { font-size: var(--fs-xs); color: var(--text-muted); line-height: 1.4; }
-.per-foot { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; margin-top: 4px; color: var(--ink-text); }
+[data-prog="fotofocus"].person .avatar::after, [data-prog="also"].person .avatar::after { background: var(--ink-edge); }
+.per-name { font-family: var(--font-display); font-weight: var(--wght-head); font-size: var(--fs-md); line-height: var(--lh-snug); overflow-wrap: anywhere; }
+.per-role { font-size: var(--fs-xs); color: var(--text-muted); line-height: 1.4; overflow-wrap: anywhere; }
+.per-foot { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; margin-top: 4px; color: var(--ink-text); align-self: end; }
+.per-foot .bullet + .bullet { margin-left: -4px; }
 @media (min-width: 1100px) { .person .avatar { --av: 80px; } }
-/* featured person ("mug"): 4:5 portrait from the 320×400 crop, program rule and bullet on the photo */
+
+/* featured person ("mug"): the 4:5 portrait, program rule and bullet on the photo (home, program pages) */
 .people-feature { display: grid; gap: var(--sp-5) var(--sp-4); grid-template-columns: repeat(auto-fill, minmax(min(46%, 168px), 1fr)); }
 .person-feature { position: relative; display: block; color: var(--text); text-decoration: none; }
-.person-feature .photo { display: block; position: relative; aspect-ratio: 4 / 5; overflow: hidden; background: var(--ink-tint); border-bottom: var(--rule-heavy) solid var(--ink-fill); }
-[data-prog="fotofocus"].person-feature .photo { border-bottom-color: var(--ink-edge); }
+.person-feature .photo { display: block; position: relative; aspect-ratio: 4 / 5; overflow: hidden; border-bottom: var(--rule-heavy) solid var(--ink-fill); }
+[data-prog="fotofocus"].person-feature .photo, [data-prog="also"].person-feature .photo { border-bottom-color: var(--ink-edge); }
 .person-feature .photo img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 28%; filter: var(--photo-filter); }
 .person-feature .photo .bullet { position: absolute; left: 8px; bottom: 8px; }
 .person-feature .photo .mono { position: absolute; inset: 0; display: grid; place-items: center; font-family: var(--font-display); font-style: italic; font-weight: 500; font-size: 3rem; color: var(--ink-text); }
@@ -35,44 +70,52 @@
 .person-feature:hover .per-name { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 0.16em; }
 .person-feature .per-foot { margin-top: 4px; font-size: var(--fs-label); font-weight: var(--wght-strong); letter-spacing: var(--track-label); text-transform: uppercase; }
 
-/* ---------- art: artwork card ---------- */
+/* ---------- art: artwork card (never filtered; the credit sits under the photo) ---------- */
 .works { display: grid; gap: var(--sp-5) var(--sp-4); grid-template-columns: repeat(auto-fill, minmax(min(46%, 250px), 1fr)); }
 @media (max-width: 559px) { .works { gap: var(--sp-5) var(--sp-3); } .work h3 { font-size: var(--fs-base); } }
-.work { position: relative; display: flex; flex-direction: column; }
-.work .photo { position: relative; aspect-ratio: 4 / 3; overflow: hidden; background: var(--ink-tint); }
-.work .photo img { width: 100%; height: 100%; object-fit: cover; }             /* artwork is never filtered */
-.work { min-width: 0; }
-.work .credit { margin-top: 5px; color: var(--text-faint); overflow-wrap: anywhere; }
-.work .wk-kicker { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; margin-top: 10px; color: var(--ink-text); overflow-wrap: anywhere; }
-.work h3 { margin-top: 6px; font-size: var(--fs-md); }
+.work { position: relative; display: flex; flex-direction: column; min-width: 0; scroll-margin-top: calc(var(--topbar-h) + var(--sp-4)); }
+.work .photo { position: relative; aspect-ratio: 4 / 3; overflow: hidden; }
+.work .photo:not(.halftone), .person-feature .photo:not(.halftone) { background: var(--ink-tint); }        /* .halftone paints its own screen */
+.work .photo img { width: 100%; height: 100%; object-fit: cover; }
+.work .credit { min-height: 1.25em; margin-top: 5px; color: var(--text-faint); overflow-wrap: anywhere; }
+.work .wk-kicker { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; margin-top: 8px; color: var(--ink-text); overflow-wrap: anywhere; }
+.work .wk-kicker .i { width: 16px; height: 16px; }
+.work h3 { margin-top: 6px; font-size: var(--fs-md); overflow-wrap: anywhere; }
 .work h3 a { color: var(--text); text-decoration: none; }
 .work h3 a::after { content: ""; position: absolute; inset: 0; }
 .work h3 a:hover { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 0.16em; }
-.work .by { font-size: var(--fs-sm); color: var(--text-muted); margin-top: 2px; }
+.work h3 a:focus-visible { outline: none; }
+.work:has(h3 a:focus-visible) { outline: 3px solid var(--focus); outline-offset: 4px; }
+.work .by { font-size: var(--fs-sm); color: var(--text-muted); margin-top: 2px; overflow-wrap: anywhere; }
 .work .zone { display: flex; align-items: center; gap: 6px; margin-top: 4px; font-size: var(--fs-xs); color: var(--text-muted); }
-.work .zone .i { width: 14px; height: 14px; }
+.work .zone .i { width: 14px; height: 14px; flex: none; }
 .work .star.floating { z-index: 2; }
 .photo-missing { position: absolute; inset: 0; display: grid; place-content: center; justify-items: center; gap: 8px; color: var(--ink-text); text-align: center; }
 .photo-missing .i { width: 32px; height: 32px; }
 
-/* ---------- partners: logo walls grouped by program, then tier; logos unaltered on light plates ---------- */
+/* ---------- partners: logo walls grouped by program, then tier; logos unaltered on their plates ---------- */
+.wall-group { scroll-margin-top: calc(var(--topbar-h) + var(--sp-4)); }
 .wall-group + .wall-group { margin-top: var(--sp-7); }
 .wall-head { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; padding-bottom: var(--sp-2); border-bottom: var(--rule-mid) solid var(--rule-ink); }
-.wall-head h3 { font-size: var(--fs-lg); }
+.wall-head h2, .wall-head h3 { font-size: var(--fs-lg); }
 .wall-head .cap { margin-left: auto; color: var(--text-faint); }
 @media (max-width: 559px) { .wall-head .cap { display: none; } }
 .tier { margin: var(--sp-4) 0 var(--sp-2); color: var(--text-muted); }
+.wall-marks .plates { margin-top: var(--sp-3); }
 .plates { display: grid; gap: var(--sp-2); grid-template-columns: repeat(auto-fill, minmax(min(46%, 150px), 1fr)); }
 .plates.lg { grid-template-columns: repeat(auto-fill, minmax(min(46%, 220px), 1fr)); }
 .plate {
-  position: relative; display: grid; place-items: center; aspect-ratio: 3 / 2; padding: 14px;
+  position: relative; display: grid; place-items: center; aspect-ratio: 3 / 2; padding: 14px; min-width: 0;
   background: var(--plate); border: 1px solid var(--plate-border); color: var(--plate-ink); text-decoration: none;
+  scroll-margin-top: calc(var(--topbar-h) + var(--sp-6));
 }
 .plate[data-tone="dark"] { background: var(--plate-dark); color: var(--plate-dark-ink); }
 .plate img { max-width: 100%; max-height: 56px; width: auto; height: auto; object-fit: contain; }
 .plates.lg .plate img { max-height: 76px; }
-.plate:hover { border-color: var(--text); }
+a.plate:hover { border-color: var(--text); color: var(--plate-ink); }
+a.plate[data-tone="dark"]:hover { color: var(--plate-dark-ink); }
+.plate:target { outline: 3px solid var(--focus); outline-offset: 3px; }
 .plate .ext { position: absolute; top: 6px; right: 6px; width: 14px; height: 14px; color: var(--plate-ink); opacity: 0; transition: opacity var(--speed) var(--ease); }
 .plate[data-tone="dark"] .ext { color: var(--plate-dark-ink); }
 .plate:hover .ext, .plate:focus-visible .ext { opacity: 1; }
-.plate-text { font-family: var(--font-body); font-weight: 720; font-size: var(--fs-sm); line-height: 1.2; text-align: center; text-wrap: balance; }
+.plate-text { font-family: var(--font-body); font-weight: 720; font-size: var(--fs-sm); line-height: 1.2; text-align: center; text-wrap: balance; overflow-wrap: anywhere; }

@@ -1,18 +1,41 @@
 /* ======================================================================
    site/css/81-event-dialog.css · OWNER: Agent D (schedule & plan)
-   The event dialog body (.evd). The modal frame itself is .modal in 80-dialogs.css (A).
-   From the final "Interchange" design (design/final/css). Partials are concatenated in lexical
-   order into docs/assets/site.css. Read only tokens (var(--…)); no color literal may appear here
-   (the build fails on one). Prefix new classes with your domain (see CLAUDE.md).
+   The event dialog body (.evd, ?e=): kind, title, when (ET) with its state word, place with the
+   stall number, address, mini-map and directions, the description, people, facts, source, actions.
+   The modal frame is .modal in 80-dialogs.css (A). The work dialog (F) reuses .evd, .evd-actions,
+   .ev-where and .source-line, so those names stay. Tokens only; no color literal.
    ====================================================================== */
-/* the event dialog (?e=): title, when (ET), where + mini-map + directions, people, description, actions */
-.evd h2 { font-size: var(--fs-xl); margin-top: var(--sp-2); }
+.evd h2 { font-size: var(--fs-xl); margin-top: var(--sp-1); text-wrap: balance; }
+.evd h2:focus { outline: none; }
+.evd h2:focus-visible { outline: none; }                          /* programmatic focus on the title: no ring (it is not a control) */
+.evd-kind { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; color: var(--text-muted); }
 .evd-when { margin-top: var(--sp-3); font-weight: var(--wght-strong); font-variant-numeric: tabular-nums; line-height: 1.8; }
+.evd-when .faint { font-weight: var(--wght-body); }
 .evd-when .ev-status, .evd-when .unk { margin-left: 8px; }
+.evd-when .unk { font-weight: var(--wght-body); }
+.evd-days { list-style: none; padding: 0; margin-top: var(--sp-2); font-size: var(--fs-sm); color: var(--text-muted); }
+.evd-days li { padding: 4px 0; border-top: 1px solid var(--border); }
+.evd-days .tnum { display: inline-block; min-width: 10ch; color: var(--text); font-weight: var(--wght-strong); }
 .evd-grid { display: grid; gap: var(--sp-4); grid-template-columns: minmax(0, 1fr); margin-top: var(--sp-4); }
 @media (min-width: 700px) { .evd-grid { grid-template-columns: minmax(0, 1fr) 240px; } }
-.evd-people { list-style: none; padding: 0; display: grid; gap: var(--sp-2); }
+.evd-where { padding-right: 0; font-size: var(--fs-sm); }
+.evd-where > span { min-width: 0; }
+.evd-where a { font-weight: var(--wght-strong); color: var(--text); }
+.evd-addr { display: block; margin-top: 2px; color: var(--text-muted); font-variant-numeric: tabular-nums; }
+.evd-desc { margin-top: var(--sp-4); }
+.evd-people { list-style: none; padding: 0; display: grid; gap: var(--sp-2); grid-template-columns: repeat(auto-fill, minmax(min(100%, 220px), 1fr)); }
 .evd-people a { display: flex; align-items: center; gap: 12px; min-height: var(--tap); color: var(--text); text-decoration: none; }
 .evd-people a:hover b { text-decoration: underline; }
-.evd-people span span { display: block; font-size: var(--fs-xs); color: var(--text-muted); }
+.evd-people span span { display: block; font-size: var(--fs-xs); color: var(--text-muted); line-height: 1.35; }
+.evd-facts { margin: var(--sp-5) 0 0; }
+.evd-facts .fact { flex-basis: 150px; }
+.evd-side .mini-map { margin: 0; }
+.evd-side > .unk { font-size: var(--fs-sm); }
+.evd-dir { display: flex; flex-wrap: wrap; gap: var(--sp-2); margin-top: var(--sp-2); }
 .evd-actions { display: flex; flex-wrap: wrap; gap: var(--sp-2); margin-top: var(--sp-5); padding-top: var(--sp-4); border-top: 1px solid var(--border); }
+.evd-actions .btn-river[aria-pressed="true"] { background: var(--accent-strong); }
+@media (max-width: 559px) {
+  .evd-actions .btn { flex: 1 1 auto; }
+  .evd-actions .btn-river { flex-basis: 100%; }
+}
+.evd-credits { font-size: var(--fs-sm); line-height: 1.5; max-width: var(--measure); }

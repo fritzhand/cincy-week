@@ -1,80 +1,133 @@
 /* ======================================================================
    site/css/40-schedule.css · OWNER: Agent D (schedule & plan)
-   Day strip, filters, ongoing band, slots, NOW line, the session card (.ev) and its states.
-   From the final "Interchange" design (design/final/css). Partials are concatenated in lexical
-   order into docs/assets/site.css. Read only tokens (var(--…)); no color literal may appear here
-   (the build fails on one). Prefix new classes with your domain (see CLAUDE.md).
+   The Week: the sticky day strip, filters, the ongoing band, day sections, slots, the NOW line,
+   the session card (.ev) and its states. From the final "Interchange" design (DESIGN.md §9.4).
+   Partials are concatenated in lexical order into docs/assets/site.css. Read only tokens (var(--…));
+   no color literal may appear here (the build fails on one). Domain prefixes: .ev- .evd- .dt- .slot- .sched- .plan-
    ====================================================================== */
 
 /* ---------- 40 · schedule: the sticky day strip (the only sticky part, ≤ 76px) ---------- */
 .sched-bar {
   position: sticky; top: var(--topbar-h); z-index: var(--z-sticky);
-  margin: 0 calc(-1 * var(--gutter)); padding: 7px var(--gutter);
+  margin: 0 calc(-1 * var(--gutter)); padding: 6px var(--gutter);
   background: var(--bg); border-bottom: 1px solid var(--border);
 }
 .daytabs {
-  display: flex; overflow-x: auto; scrollbar-width: none; overscroll-behavior-x: contain;
+  display: flex; overflow-x: auto; scrollbar-width: none; overscroll-behavior-x: contain; scroll-padding: 0 var(--sp-6);
   background: var(--surface); border: 1px solid var(--border-strong); border-radius: var(--radius-md);
 }
 .daytabs::-webkit-scrollbar { display: none; }
 .daytab {
-  position: relative; flex: 1 0 58px; min-width: 58px; height: 60px;
+  position: relative; flex: 1 0 58px; min-width: 58px; height: 62px;
   display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1px;
-  color: var(--text); text-align: center;
+  color: var(--text); text-align: center; text-decoration: none;
 }
+.daytab:hover { background: var(--surface-alt); color: var(--text); text-decoration: none; }
 .daytab + .daytab { border-left: 1px solid var(--border); }
-.daytab:hover { background: var(--surface-alt); }
+.daytab.is-out .dt-dow { color: var(--text-faint); }
+.daytab.is-out + .daytab:not(.is-out), .daytab:not(.is-out) + .daytab.is-out, .dt-all { border-left: 2px solid var(--border-strong); }
 .dt-dow { font-size: var(--fs-label); font-weight: var(--wght-strong); letter-spacing: var(--track-label); text-transform: uppercase; color: var(--text-muted); line-height: 1; }
-.dt-num { font-family: var(--font-display); font-weight: 600; font-size: var(--fs-daynum); line-height: 1.05; font-variant-numeric: lining-nums tabular-nums; }
+.dt-num { font-family: var(--font-display); font-weight: 600; font-size: var(--fs-daynum); line-height: 1; font-variant-numeric: lining-nums tabular-nums; }
+.dt-all .dt-num { font-size: var(--fs-base); line-height: 22px; white-space: nowrap; }
 .dt-ticks { display: flex; gap: 2px; height: 5px; align-items: center; margin-top: 2px; }
 .dt-ticks > i { display: block; width: 9px; height: 1px; background: var(--border-strong); }                 /* empty slot keeps the order */
 .dt-ticks > i[data-prog] { height: 5px; background: var(--ink-fill); border-radius: 1px; }
 .dt-ticks > i[data-prog="fotofocus"], .dt-ticks > i[data-prog="also"] { box-shadow: inset 0 0 0 1px var(--ink-edge); }
+.dt-n { font-size: var(--fs-label); font-weight: var(--wght-strong); line-height: 1; color: var(--text-faint); font-variant-numeric: tabular-nums; margin-top: 1px; }
+.daytab.is-zero .dt-num, .daytab.is-zero .dt-n { color: var(--text-faint); }
 .daytab[aria-selected="true"] { background: var(--primary); color: var(--primary-contrast); }
-.daytab[aria-selected="true"] .dt-dow { color: var(--primary-contrast); }
+.daytab[aria-selected="true"] :is(.dt-dow, .dt-num, .dt-n) { color: var(--primary-contrast); }
 .daytab[aria-selected="true"] .dt-ticks > i { background: var(--primary-contrast); }
 .daytab[aria-selected="true"] .dt-ticks > i[data-prog] { background: var(--ink-fill); box-shadow: 0 0 0 1px var(--primary-contrast); }
 .daytab.is-today::after { content: ""; position: absolute; top: 6px; right: 6px; width: 7px; height: 7px; border-radius: 50%; background: var(--live); box-shadow: 0 0 0 2px var(--surface); }
 .daytab.is-today[aria-selected="true"]::after { box-shadow: 0 0 0 2px var(--primary); }
+.daytab:focus-visible { outline-offset: -3px; }
 .tick-legend { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 12px; margin-top: var(--sp-2); font-size: var(--fs-label); color: var(--text-muted); }
 .tick-legend span { display: inline-flex; align-items: center; gap: 5px; }
 .tick-legend i { display: inline-block; width: 12px; height: 5px; border-radius: 1px; background: var(--ink-fill); }
-.tick-legend i[data-prog="fotofocus"] { box-shadow: inset 0 0 0 1px var(--ink-edge); }
+.tick-legend [data-prog="fotofocus"] > i { box-shadow: inset 0 0 0 1px var(--ink-edge); }
 
 /* ---------- filters: program chips in one scrolling row + "Filters (n)"; the rest lives in a sheet ---------- */
 .filter-row { display: flex; align-items: center; gap: var(--sp-2); margin-top: var(--sp-3); }
-.filter-scroll {
-  flex: 1 1 auto; min-width: 0; display: flex; gap: var(--sp-2); overflow-x: auto; scrollbar-width: none; padding: 3px 1px;
-}
+.filter-scroll { flex: 1 1 auto; min-width: 0; display: flex; gap: var(--sp-2); overflow-x: auto; scrollbar-width: none; padding: 3px 1px; }
 .filter-scroll::-webkit-scrollbar { display: none; }
 .filter-scroll > * { flex: none; }
 @media (max-width: 699px) {
   .filter-scroll { -webkit-mask-image: linear-gradient(to right, var(--mask-ink) 86%, transparent); mask-image: linear-gradient(to right, var(--mask-ink) 86%, transparent); padding-right: 24px; }
 }
 @media (min-width: 700px) { .filter-scroll { flex-wrap: wrap; overflow: visible; } }
+.chip.is-zero:not([aria-pressed="true"]) { color: var(--text-faint); }
 .sched-status { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 4px var(--sp-3); margin-top: var(--sp-3); }
+.sched-status .result-count { flex: 1 1 280px; }
+.sched-tools { display: inline-flex; flex-wrap: wrap; align-items: center; gap: var(--sp-2); }
 .active-chips { display: flex; flex-wrap: wrap; gap: var(--sp-2); margin-top: var(--sp-2); }
 .active-chips .chip { min-height: 36px; padding: 0 8px 0 12px; font-size: var(--fs-xs); }
 @media (pointer: coarse) { .active-chips .chip { min-height: var(--tap); } }
+.sched-map { margin-top: var(--sp-4); }
+.sched-map .unk { padding: var(--sp-4); border: 1px dashed var(--border-strong); background: var(--surface); width: 100%; }
+/* the filter sheet's own pieces (the frame is .modal.sheet in 80-dialogs.css) */
+.sheet-h { font-size: var(--fs-lg); }
+.sheet-h:focus { outline: none; }
+.sheet .sf-q { max-width: none; margin-top: var(--sp-3); }
+.sheet .sf-venue { width: 100%; }
+.sheet .sf-note { margin-top: var(--sp-4); font-size: var(--fs-xs); }
+.sheet .chip-row { gap: var(--sp-2); }
+
+/* ---------- until the schedule script has picked the day, keep the list still (never forever) ---------- */
+.js:not(.cw-ready) .sched-days { visibility: hidden; animation: sched-reveal 0s linear 2.5s forwards; }
+@keyframes sched-reveal { to { visibility: visible; } }
 
 /* ---------- "All day and all night": exhibitions, BLINK nights, the Biennial ---------- */
-.ongoing { margin-top: var(--sp-5); padding: 12px var(--sp-4) var(--sp-4); background: var(--surface-alt); border: 1px solid var(--border); }
-.ongoing-head { display: flex; align-items: center; gap: 8px; color: var(--text-muted); padding-bottom: 8px; }
-.ongoing-list { list-style: none; padding: 0; display: grid; gap: 0 var(--col-gap); grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr)); }
-.ongoing-list li { position: relative; min-height: var(--tap); display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 2px 10px; padding: 10px 0; border-top: 1px solid var(--border); }
-.ongoing-list .bullet { grid-row: span 2; }
-.ongoing-list a { color: var(--text); font-weight: var(--wght-strong); text-decoration: none; }
-.ongoing-list a::after { content: ""; position: absolute; inset: 0; }
-.ongoing-list a:hover { text-decoration: underline; }
-.ongoing-list .m { font-size: var(--fs-xs); color: var(--text-muted); font-variant-numeric: tabular-nums; }
+.ongoing { margin-top: var(--sp-5); padding: 12px var(--sp-4) var(--sp-2); background: var(--surface-alt); border: 1px solid var(--border); }
+.ongoing-head { display: flex; align-items: center; gap: 8px; color: var(--text-muted); padding-bottom: 8px; font-family: var(--font-body); }
+.ongoing-head .n { color: var(--text-faint); }
+.ongoing-list { display: grid; gap: 0 var(--col-gap); grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr)); }
+.ongoing .ev {
+  grid-template-columns: minmax(0, 1fr) var(--tap);
+  grid-template-areas: "meta star" "title star" "when when" "where where" "more more";
+  padding: 10px 0 12px 14px; background: transparent; border: 0; border-top: 1px solid var(--border);
+}
+.ongoing .ev::before { top: 12px; bottom: 12px; left: 0; width: 4px; }
+.ongoing .ev-title { font-size: var(--fs-base); margin-top: 4px; }
+.ongoing .ev-when { margin-top: 4px; font-size: var(--fs-xs); line-height: 1.5; }
+.ongoing .ev-where { font-size: var(--fs-xs); }
+.ongoing .ev .star { margin-top: -4px; }
+.ongoing .ev[data-status="live"] { outline: 0; background: transparent; padding-bottom: 12px; }
+.ongoing .ev-progress { display: none; }
+.sched:not(.is-today) .ongoing .ev-status { display: none; }         /* live words only when the day shown is today, */
+.sched:not(.is-today) .ongoing .ev[data-status] { background: transparent; }  /* and no state tint without its word */
+.sched:not(.is-today) .ongoing .ev[data-status="past"] .ev-title a { color: var(--text); }
+.ongoing-more { border-top: 1px solid var(--border); }
+.ongoing-more > summary {
+  display: flex; align-items: center; gap: 8px; min-height: var(--tap); cursor: pointer; list-style: none;
+  font-size: var(--fs-sm); color: var(--text-muted); font-variant-numeric: tabular-nums;
+}
+.ongoing-more > summary::-webkit-details-marker { display: none; }
+.ongoing-more > summary b { color: var(--text); }
+.ongoing-more > summary .chev { width: 16px; height: 16px; transition: transform var(--speed) var(--ease); }
+.ongoing-more[open] > summary .chev { transform: rotate(90deg); }
+.ongoing-more .ongoing-list { padding-bottom: var(--sp-2); }
+
+/* ---------- day sections ---------- */
+.sched-day { margin-top: var(--sp-6); }
+.sched-day-h {
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px var(--sp-3); margin-bottom: var(--sp-4); padding-top: 15px;
+  background: linear-gradient(var(--rule-ink), var(--rule-ink)) 0 0 / 100% var(--rule-heavy) no-repeat, linear-gradient(var(--rule-ink), var(--rule-ink)) 0 7px / 100% 1px no-repeat;
+  font-size: var(--fs-xl);
+}
+.sched-day-n { color: var(--text-muted); }
+.sched-none { margin: var(--sp-2) 0 var(--sp-4); }
+[data-sched-empty] { margin-top: var(--sp-6); }
 
 /* ---------- time slots: a rail on desktop, sticky slot headings on phones ---------- */
-.slots { position: relative; margin-top: var(--sp-5); }
+.slots { position: relative; }
 .slot { position: relative; }
-.slot-head { font-family: var(--font-body); letter-spacing: 0; line-height: 1.2; color: var(--text); }
+.js:not(.cw-ready) .slot { content-visibility: auto; contain-intrinsic-size: auto 360px; }  /* first paint: skip the ~500 cards the script is about to hide */
+.slot-head { font-family: var(--font-body); letter-spacing: 0; line-height: 1.2; color: var(--text); font-weight: 400; }
 .slot-time { font-size: 1.125rem; font-weight: 700; font-variant-numeric: tabular-nums; }
 .slot-time .ampm { font-size: var(--fs-label); font-weight: var(--wght-strong); letter-spacing: var(--track-label); color: var(--text-muted); margin-left: 3px; }
 .slot-rel { display: block; font-size: var(--fs-label); font-weight: var(--wght-strong); color: var(--text-faint); font-variant-numeric: tabular-nums; }
+.slot-rel:empty { display: none; }
 .slot[data-status="live"] .slot-rel { color: var(--live-ink); }
 .slot-cards { display: grid; gap: var(--sp-3); grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); }
 @media (min-width: 700px) {
@@ -108,7 +161,7 @@
 .now-line span { padding: 3px 8px; background: var(--accent); color: var(--accent-contrast); border-radius: var(--radius-xs); font-size: var(--fs-label); font-weight: var(--wght-strong); letter-spacing: var(--track-label); text-transform: uppercase; font-variant-numeric: tabular-nums; white-space: nowrap; }
 @media (min-width: 700px) { .now-line span { min-width: calc(var(--rail-time-w) + 20px); text-align: center; } }
 
-/* past slots fold into a <details> that works without JS */
+/* ended slots fold into a <details> (it works without JS once drawn) */
 details.earlier { margin-bottom: var(--sp-5); border: 1px dashed var(--border-strong); background: var(--surface); }
 details.earlier > summary {
   display: flex; align-items: center; gap: 10px; min-height: var(--tap); padding: 8px 12px; cursor: pointer; list-style: none;
@@ -143,31 +196,44 @@ details.earlier .slot[data-status="past"] .slot-head::after { background: var(--
 .ev-title a::after { content: ""; position: absolute; inset: 0; }        /* the whole card opens the event */
 .ev-title a:hover { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 0.16em; }
 .ev-when { grid-area: when; display: block; margin-top: 8px; line-height: 1.7; font-size: var(--fs-sm); font-weight: var(--wght-strong); font-variant-numeric: tabular-nums; padding-right: 8px; }
+.ev-when .unk, .ev-dates { font-weight: var(--wght-body); }
+.ev-dates { color: var(--text-muted); }
 .ev-where { grid-area: where; display: flex; align-items: baseline; gap: 6px; margin-top: 2px; padding-right: 8px; font-size: var(--fs-sm); color: var(--text-muted); line-height: 1.4; }
-.ev-where .i { width: 14px; height: 14px; align-self: center; }
+.ev-where .i { width: 14px; height: 14px; align-self: center; flex: none; }
 .ev-where a { position: relative; z-index: 1; color: inherit; }
+.ev-where .unk { margin-left: 4px; }
 .ev-room { color: var(--text-faint); }
+.ev-stall {                                /* the venue's stall number, as on its map pin (DESIGN.md §4.6) */
+  display: inline-grid; place-items: center; min-width: 20px; height: 18px; padding: 0 3px; margin-right: 6px; vertical-align: 1px;
+  border: 1px solid var(--border-strong); border-bottom: 3px solid var(--ink-fill); border-radius: var(--radius-xs);
+  font-size: var(--fs-label); font-weight: 750; line-height: 1; color: var(--text); font-variant-numeric: tabular-nums;
+}
 .ev-people { grid-area: people; display: flex; align-items: center; gap: 10px; margin-top: 10px; padding-right: 8px; font-size: var(--fs-xs); line-height: 1.35; color: var(--text-muted); }
 .ev-people b { color: var(--text); }
+.ev-people a { position: relative; z-index: 1; color: inherit; text-decoration: none; }
+.ev-people a:hover b { text-decoration: underline; }
 .ev-tags { grid-area: tags; margin-top: 10px; padding-right: 8px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; color: var(--text-faint); font-size: var(--fs-label); font-weight: var(--wght-strong); letter-spacing: var(--track-label); text-transform: uppercase; }
 .ev-tags .free { color: var(--accent-strong); }
 .ev .star { grid-area: star; align-self: start; margin-top: -8px; }
 .ev-more { grid-area: more; margin-top: 8px; font-size: var(--fs-sm); }
 .ev-more > summary { min-height: var(--tap); display: flex; align-items: center; cursor: pointer; color: var(--link); position: relative; z-index: 1; }
+.ev-more > :not(summary) { position: relative; z-index: 1; max-width: var(--measure); }
+.ev-more > p + p { margin-top: var(--sp-2); }
 .js .ev-more { display: none; }                                          /* JS opens the dialog instead */
 .ev-status:empty { display: none; }
-.ev-when > * + .ev-status, .ev-when > .unk { margin-left: 8px; }
+.ev-when > * + .ev-status, .ev-when > .unk, .ev-when > .badge { margin-left: 8px; }
 .ev-status {
   vertical-align: 1px; display: inline-flex; align-items: center; gap: 6px; height: 24px; padding: 0 8px; border: 1px solid var(--soon); color: var(--soon); border-radius: var(--radius-xs);
   font-size: var(--fs-label); font-weight: var(--wght-strong); letter-spacing: var(--track-label); text-transform: uppercase; white-space: nowrap;
 }
-:is(.ev, .evd)[data-status="live"] .ev-status { background: var(--live-tint); color: var(--live-ink); border-color: transparent; }
-:is(.ev, .evd)[data-status="live"] .ev-status::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--live); }
-:is(.ev, .evd)[data-status="past"] .ev-status { background: var(--surface-sunken); color: var(--text-muted); border-color: transparent; }
+:is(.ev, .evd, .plan-item)[data-status="live"] .ev-status { background: var(--live-tint); color: var(--live-ink); border-color: transparent; }
+:is(.ev, .evd, .plan-item)[data-status="live"] .ev-status::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--live); }
+:is(.ev, .evd, .plan-item)[data-status="past"] .ev-status { background: var(--surface-sunken); color: var(--text-muted); border-color: transparent; }
 /* states: live = river outline + progress; past = a surface tint (never opacity) */
 .ev[data-status="live"] { background: color-mix(in srgb, var(--live-tint) 40%, var(--surface)); outline: 2px solid var(--live); outline-offset: -1px; }
 .ev[data-status="past"] { background: var(--past-bg); }
 .ev[data-status="past"] .ev-title a { color: var(--text-muted); }
+.ev[data-cancelled] .ev-title a { text-decoration: line-through; color: var(--text-muted); }
 .ev-progress { position: absolute; left: calc(var(--stripe-w) + 12px); right: 12px; bottom: 6px; height: 4px; background: var(--surface-sunken); border-radius: var(--radius-xs); overflow: hidden; }
 .ev-progress > i { position: absolute; inset: 0 auto 0 0; width: var(--p, 0%); background: var(--live); }
 .ev[data-status="live"] { padding-bottom: 20px; }
@@ -176,8 +242,9 @@ details.earlier .slot[data-status="past"] .slot-head::after { background: var(--
   grid-area: note; position: relative; z-index: 1; display: flex; align-items: flex-start; gap: 8px; margin: 12px 8px 0 0; padding: 8px 10px;
   background: var(--warning-tint); color: var(--warning); border-left: 3px solid var(--warning-edge); font-size: var(--fs-xs); font-weight: var(--wght-strong); line-height: 1.4;
 }
-.ev-conflict .i { width: 16px; height: 16px; margin-top: 1px; }
+.ev-conflict .i { width: 16px; height: 16px; margin-top: 1px; flex: none; }
 .ev.is-hit { box-shadow: 0 0 0 3px var(--focus); }                     /* deep-link target */
+.ev:target { scroll-margin-top: calc(var(--topbar-h) + var(--sched-bar-h) + 56px); }
 @media (max-width: 699px) {
   .ev { padding-top: 10px; padding-bottom: 12px; }
   .ev-title { margin-top: 4px; }

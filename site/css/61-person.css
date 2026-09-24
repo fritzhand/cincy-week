@@ -1,21 +1,70 @@
 /* ======================================================================
    site/css/61-person.css · OWNER: Agent F (directory: people, art, partners)
-   Person detail page (.dp).
-   From the final "Interchange" design (design/final/css). Partials are concatenated in lexical
-   order into docs/assets/site.css. Read only tokens (var(--…)); no color literal may appear here
-   (the build fails on one). Prefix new classes with your domain (see CLAUDE.md).
+   The person page (.dp, DESIGN.md §9.13): a 240px portrait column beside the main column on
+   desktop; on phones a 120px portrait beside the name. Then the bio, links, events (Agent D's
+   cards), the works in full (.wk-full), the venues (.per-venues) and the sources.
+   Tokens only; no color literal.
    ====================================================================== */
-/* ---------- person detail page ---------- */
-.dp { display: grid; gap: var(--sp-5) var(--sp-6); grid-template-columns: minmax(0, 1fr); }
-@media (min-width: 860px) { .dp { grid-template-columns: 240px minmax(0, 1fr); } }
-.dp-portrait { position: relative; max-width: 240px; }
-.dp-portrait .photo { aspect-ratio: 4 / 5; overflow: hidden; background: var(--ink-tint); border-bottom: var(--rule-heavy) solid var(--ink-fill); }
-.dp-portrait .photo img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 28%; }
-.dp-portrait .photo { position: relative; }
+.dp {
+  display: grid; gap: var(--sp-4) var(--sp-4); align-items: end;
+  grid-template-columns: 120px minmax(0, 1fr); grid-template-areas: "portrait head" "main main";
+}
+.dp-portrait { grid-area: portrait; min-width: 0; }
+.dp-head { grid-area: head; min-width: 0; }
+.dp-main { grid-area: main; min-width: 0; align-self: start; }
+@media (min-width: 860px) {
+  .dp { column-gap: var(--sp-6); align-items: start; grid-template-columns: 240px minmax(0, 1fr); grid-template-areas: "portrait head" "portrait main"; grid-template-rows: auto 1fr; }
+  .dp-portrait { position: sticky; top: calc(var(--topbar-h) + var(--sp-4)); }
+}
+.dp-portrait .photo { position: relative; aspect-ratio: 4 / 5; overflow: hidden; border-bottom: var(--rule-heavy) solid var(--ink-fill); }
+.dp-portrait .photo:not(.halftone), .wk-media .photo:not(.halftone) { background: var(--ink-tint); }
+[data-prog="fotofocus"] .dp-portrait .photo, [data-prog="also"] .dp-portrait .photo { border-bottom-color: var(--ink-edge); }
+.dp-portrait .photo img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 28%; filter: var(--photo-filter); }
 .dp-portrait .photo .mono { position: absolute; inset: 0; display: grid; place-items: center; font-family: var(--font-display); font-style: italic; font-weight: 500; font-size: clamp(2.5rem, 9vw, 4.5rem); line-height: 1; color: var(--ink-text); }
-.dp-portrait .credit { margin-top: 6px; color: var(--text-faint); }
-@media (max-width: 859px) { .dp-portrait { display: grid; grid-template-columns: 120px minmax(0, 1fr); gap: var(--sp-4); max-width: none; align-items: end; } }
-.dp-main h1 { max-width: 20ch; }
-.dp-roles { display: flex; flex-wrap: wrap; gap: 6px 14px; margin-bottom: var(--sp-3); }
-.dp-bio { margin-top: var(--sp-4); }
-.dp-list { display: grid; gap: var(--sp-3); margin-top: var(--sp-3); }
+.dp-portrait .credit { margin-top: 6px; color: var(--text-faint); overflow-wrap: anywhere; }
+.dp-head h1 { max-width: 20ch; overflow-wrap: anywhere; }
+@media (max-width: 559px) { .dp-head h1 { font-size: clamp(1.5rem, 7vw, 1.875rem); } }
+.dp-head .lede { margin-top: var(--sp-2); }
+.dp-head .lede, .dp-head .byline, .dp-roles { overflow-wrap: anywhere; }
+.dp-roles { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 14px; margin-bottom: var(--sp-2); }
+.dp-bio { margin-top: var(--sp-2); }
+.dp-links { margin-top: var(--sp-4); }
+.dp-list { margin-top: var(--sp-3); align-items: start; }
+.per-ev { display: grid; gap: 6px; min-width: 0; }
+.per-evrole { color: var(--ink-text); }
+.dp-back { margin-top: var(--sp-5); }
+.dp-main .sub-h:has(+ .per-venues), .dp-main .sub-h:has(+ .dp-works) { border-bottom: 0; margin-bottom: 0; }
+
+/* the full work on its artist's page (works have no pages of their own) */
+.dp-works { display: grid; gap: var(--sp-5); border-top: var(--rule-mid) solid var(--rule-ink); }
+.wk-full { display: grid; gap: var(--sp-3) var(--sp-5); padding-top: var(--sp-4); scroll-margin-top: calc(var(--topbar-h) + var(--sp-4)); }
+.wk-full + .wk-full { border-top: 1px solid var(--border); padding-top: var(--sp-5); }
+@media (min-width: 700px) { .wk-full { grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); } }
+.wk-media .photo { position: relative; aspect-ratio: 4 / 3; overflow: hidden; }
+.wk-media .photo img { width: 100%; height: 100%; object-fit: cover; }
+.wk-media .credit { margin-top: 5px; color: var(--text-faint); }
+.wk-full .wk-kicker { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; color: var(--ink-text); }
+.wk-full .wk-kicker .i { width: 16px; height: 16px; }
+.wk-title { margin-top: 6px; font-size: var(--fs-lg); }
+.wk-title a { color: var(--text); }
+@media (max-width: 699px) { .wk-title a { display: inline-flex; align-items: center; min-height: var(--tap); } }
+.wk-bio-note { margin-top: var(--sp-2); font-size: var(--fs-sm); font-style: italic; color: var(--text-muted); }
+.wk-full .facts { margin: var(--sp-3) 0; }
+.wk-full .fact { flex-basis: 140px; }
+.wk-note { margin-top: var(--sp-3); }
+.wk-full .btn-row { align-items: center; margin-top: var(--sp-3); gap: var(--sp-2); }
+.wk-full .btn-row .star { border: 1px solid var(--border-strong); }
+
+/* the venues they appear at: stall number (as on the map pin), name, address */
+.per-venues { list-style: none; padding: 0; border-top: var(--rule-mid) solid var(--rule-ink); }
+.per-venues li { border-bottom: 1px solid var(--border); }
+.per-venues a { display: grid; grid-template-columns: 32px minmax(0, 1fr); align-items: center; gap: 12px; min-height: var(--tap); padding: 8px 0; color: var(--text); text-decoration: none; }
+.per-venues a:hover b { text-decoration: underline; text-underline-offset: 0.16em; }
+.per-venues b { font-weight: var(--wght-strong); }
+.per-venues span span { display: block; font-size: var(--fs-xs); color: var(--text-muted); font-variant-numeric: tabular-nums; }
+.per-stall {
+  display: grid; place-items: center; width: 32px; height: 32px; border-radius: var(--radius-xs);
+  background: var(--primary); color: var(--primary-contrast); box-shadow: inset 0 -3px 0 var(--ink-fill);
+  font-size: var(--fs-sm); font-weight: 750; font-variant-numeric: tabular-nums; line-height: 1;
+}
+.per-stall.is-off { background: transparent; color: var(--text-muted); border: 2px dashed var(--border-strong); box-shadow: none; }

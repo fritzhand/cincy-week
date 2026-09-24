@@ -1,0 +1,28 @@
+/* ======================================================================
+   site/css/62-art.css · OWNER: Agent F (directory: people, art, partners)
+   The art page's program sections and map box, and the work dialog's own parts (.wd-*). The
+   dialog body reuses D's .evd layout (81-event-dialog.css: .evd-grid, .evd-where, .evd-people,
+   .evd-facts, .evd-actions), as CONTRACTS §7 records. Tokens only; no color literal.
+   ====================================================================== */
+.art-group { margin-top: var(--sp-6); scroll-margin-top: calc(var(--topbar-h) + var(--sp-4)); }
+.art-head { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 12px; margin-bottom: var(--sp-4); padding-bottom: var(--sp-2); border-bottom: var(--rule-mid) solid var(--rule-ink); font-size: var(--fs-lg); }
+.art-head .label { margin-left: auto; font-family: var(--font-body); }
+.art-note { margin: calc(-1 * var(--sp-2)) 0 var(--sp-4); font-size: var(--fs-sm); color: var(--text-muted); }
+.art-map { margin: var(--sp-3) 0 var(--sp-5); min-height: 320px; }
+
+/* work dialog */
+.wd-media { position: relative; margin: calc(-1 * var(--sp-4)) calc(-1 * var(--sp-5)) var(--sp-4); }
+.wd-media:not(.halftone) { background: var(--surface-sunken); }
+.wd-media img { display: block; width: 100%; height: auto; max-height: min(44vh, 440px); object-fit: contain; }
+.wd-media .credit { padding: 6px var(--sp-5) 8px; color: var(--text-faint); background: var(--surface); }
+.wd-media.photo { aspect-ratio: 16 / 7; }
+@media (max-width: 699px) { .wd-media { margin: calc(-1 * var(--sp-4)) calc(-1 * var(--sp-4)) var(--sp-4); } .wd-media .credit { padding-inline: var(--sp-4); } }
+.evd .evd-kind .i { width: 16px; height: 16px; color: var(--ink-text); }
+.wd-by { margin-top: var(--sp-2); font-family: var(--font-display); font-style: italic; font-size: var(--fs-md); color: var(--text-muted); }
+.wd-stall {
+  display: inline-grid; place-items: center; min-width: 20px; height: 18px; padding: 0 3px; margin-right: 6px; vertical-align: 1px;
+  border: 1px solid var(--border-strong); border-bottom: 3px solid var(--ink-fill); border-radius: var(--radius-xs);
+  font-size: var(--fs-label); font-weight: 750; line-height: 1; color: var(--text); font-variant-numeric: tabular-nums;
+}
+/* verbatim texts can hold long bare URLs: let them wrap instead of widening the dialog or the page */
+#work-dialog .prose, .dp .prose, .wk-full .prose { overflow-wrap: anywhere; }

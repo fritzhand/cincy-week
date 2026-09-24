@@ -1,5 +1,27 @@
 [
   {
+    "id": "cincinnatis-fidelity-hotel",
+    "name": "Cincinnati's Fidelity Hotel",
+    "kind": "hotel",
+    "address": "210 East 6th Street, Cincinnati, OH 45202",
+    "hood": "downtown-cbd",
+    "lat": 39.103114,
+    "lng": -84.509617,
+    "url": "https://www.fidelityhotels.com/cincinnati/",
+    "room_block": {
+      "program": "scw",
+      "group_code": "CINTRIFUSEOCT",
+      "rate": null,
+      "dates": null,
+      "deadline": null,
+      "booking_url": "https://be.synxis.com/?adult=2&arrive=2026-10-04&chain=19403&child=0&currency=USD&depart=2026-10-06&group=CINTRIFUSEOCT&hotel=98848&level=hotel&locale=en-US&productcurrency=USD&rooms=1",
+      "status": "Closed: past the group cutoff date (checked Sep 24, 2026)"
+    },
+    "booking_portal": null,
+    "source_url": "https://startupcincyweek.com/",
+    "notes": "Room block as captured: dates \"The SCW BOOK NOW link pre-fills arrive 2026-10-04, depart 2026-10-06 (block dates not published)\"; Closed: the SynXis availability call returned ProductStatus \"AfterGroupCutoffDate\" for 2026-10-05 (the page said \"Our hotel is not available on October 5, 2026.\"). The cutoff date itself is not published. SCW \"Plan Your Visit\" hotel card (photo alt \"Fidelity Hotel\", title image reads \"Fidelity Hotel\") with a BOOK NOW link to the SynXis booking engine (chain 19403, hotel 98848). The hotel's own site uses the same SynXis hotel id 98848, and the SynXis page header reads \"Cincinnati's Fidelity Hotel, Address: 210 E 6th Street, Cincinnati, Ohio, United States, 45202, Phone: 513-296-2888\". Hotel site: \"a rare, New York–inflected, Beaux-Arts high-rise at the heart of the city.\" Coordinates from the Google Maps link on the hotel site. about 910 m straight-line from Union Hall (computed from coordinates). Official StartupCincy Week room block (\"Plan Your Visit\" -> BOOK NOW). Block details were captured and verified by the scw-info slice (raw/scw-info/hotels)."
+  },
+  {
     "id": "kinley-cincinnati-downtown",
     "name": "Kinley Cincinnati Downtown, a Tribute Portfolio Hotel",
     "kind": "hotel",
@@ -12,31 +34,2455 @@
       "program": "scw",
       "group_code": "SUC",
       "rate": "$209.00 per night (same group rate for every room type in the block)",
-      "dates": "2026-10-04 to 2026-10-09 (Marriott page: \"Rates displayed below are based on availability 10/04/2026 - 10/09/2026\")",
+      "dates": "2026-10-04 to 2026-10-09",
       "deadline": "2026-09-04",
-      "booking_url": "https://app.marriott.com/reslink?id=1773189076451&key=GRP&app=resvlink"
+      "booking_url": "https://app.marriott.com/reslink?id=1773189076451&key=GRP&app=resvlink",
+      "status": "Closed: block full (checked Sep 24, 2026)"
     },
-    "notes": null,
-    "source_url": "https://startupcincyweek.com/"
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/58742?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://startupcincyweek.com/",
+    "notes": "Room block as captured: dates \"2026-10-04 to 2026-10-09 (Marriott page: \"Rates displayed below are based on availability 10/04/2026 - 10/09/2026\")\"; Closed/full: Marriott's group page shows \"BOOK BY SEP 04, 2026\", redirected with inventoryMissing=true&blockFull=true, and every availability counter is 0. The SCW site's \"Plan Your Visit\" menu shows a hotel card (photo alt \"Kinley Cincinnati\", title image reads \"Kinley Cincinnati\") with a BOOK NOW link to the Marriott group link. Marriott property code CVGTX, brand Tribute Portfolio; 12.9 mi to CVG airport. Marriott location text: \"Located in the historic Denton building, the Kinley Cincinnati boasts one of Cincinnati’s first commissioned murals and is the perfect jumping-off point into all of the exciting growth happening in both Downtown Cincinnati and Over The Rhine.\" Address and phone from kinleycincinnati.com and its visitcincy.com listing (some third-party booking sites give 37 West 7th St instead; coordinates are from Marriott). about 740 m straight-line from Union Hall (computed from coordinates). The SCW FAQ mentions \"a special connection to our friends at The McKinley Hotel\" (sic; probably this Kinley block, unconfirmed). Also listed on the Visit Cincy \"Blink 2026\" hotel booking portal linked from BLINK's Plan Your Visit page (as \"Kinley Cincinnati Downtown, a Tribute Portfolio Hotel\"; portal shows no group code or discounted rate). Official StartupCincy Week room block (\"Plan Your Visit\" -> BOOK NOW). Block details were captured and verified by the scw-info slice (raw/scw-info/hotels). Kinley is also a Cincinnati Art Week community partner; its lobby bar (The Exchange) hosts the Art Week Happy Hour (caw slice). No CAW room block was found. Cincinnati Art Week community partner (logo on CAW sponsors section) and home of the weekly Art Week Happy Hour at The Exchange lobby bar. No CAW room block or discount code was found. Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
   },
   {
-    "id": "cincinnatis-fidelity-hotel",
-    "name": "Cincinnati's Fidelity Hotel",
+    "id": "the-westin-cincinnati",
+    "name": "The Westin Cincinnati",
     "kind": "hotel",
-    "address": "210 East 6th Street, Cincinnati, OH 45202",
+    "address": "21 E. Fifth Street, Cincinnati, OH 45202",
     "hood": "downtown-cbd",
-    "lat": 39.1031136,
-    "lng": -84.5096173,
-    "url": "https://www.fidelityhotels.com/cincinnati/",
-    "room_block": {
-      "program": "scw",
-      "group_code": "CINTRIFUSEOCT",
-      "rate": null,
-      "dates": "The SCW BOOK NOW link pre-fills arrive 2026-10-04, depart 2026-10-06 (block dates not published)",
-      "deadline": null,
-      "booking_url": "https://be.synxis.com/?adult=2&arrive=2026-10-04&chain=19403&child=0&currency=USD&depart=2026-10-06&group=CINTRIFUSEOCT&hotel=98848&level=hotel&locale=en-US&productcurrency=USD&rooms=1"
+    "lat": 39.100884,
+    "lng": -84.512742,
+    "url": "https://www.marriott.com/en-us/hotels/cvgwi-the-westin-cincinnati/overview/",
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/23613?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
     },
-    "notes": null,
-    "source_url": "https://startupcincyweek.com/"
+    "source_url": "https://www.visitcincy.com/listing/the-westin-cincinnati/4794/",
+    "notes": "Also listed on the Visit Cincy \"Blink 2026\" hotel booking portal linked from BLINK's Plan Your Visit page (as \"The Westin Cincinnati\"; portal shows no group code or discounted rate). Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "the-cincinnatian-hotel",
+    "name": "The Cincinnatian Hotel Curio Collection by Hilton",
+    "kind": "hotel",
+    "address": "601 Vine St., Cincinnati, OH 45202",
+    "hood": "downtown-cbd",
+    "lat": 39.102619,
+    "lng": -84.513811,
+    "url": "https://www.hilton.com/en/hotels/cvgccqq-the-cincinnatian-hotel/",
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/23366?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://www.visitcincy.com/listing/the-cincinnatian-hotel-curio-collection-by-hilton/4811/",
+    "notes": "Also listed on the Visit Cincy \"Blink 2026\" hotel booking portal linked from BLINK's Plan Your Visit page (as \"The Cincinnatian Hotel Curio Collection by Hilton\"; portal shows no group code or discounted rate). Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "hampton-inn-suites-cincinnati-downtown",
+    "name": "Hampton Inn & Suites Cincinnati-Downtown",
+    "kind": "hotel",
+    "address": "617 Vine Street, Suite A, Cincinnati, OH 45202",
+    "hood": "downtown-cbd",
+    "lat": 39.102941,
+    "lng": -84.513634,
+    "url": "https://www.hilton.com/en/hotels/cvgvihx-hampton-suites-cincinnati-downtown/",
+    "room_block": null,
+    "booking_portal": null,
+    "source_url": "https://www.visitcincy.com/listing/hampton-inn-%26-suites-cincinnati-downtown/5107/"
+  },
+  {
+    "id": "homewood-suites-cincinnati-downtown",
+    "name": "Homewood Suites by Hilton Cincinnati-Downtown",
+    "kind": "hotel",
+    "address": "617 Vine Street, Suite B, Cincinnati, OH 45202",
+    "hood": "downtown-cbd",
+    "lat": 39.102941,
+    "lng": -84.513634,
+    "url": "https://www.hilton.com/en/hotels/cvgvshw-homewood-suites-cincinnati-downtown/",
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/51876?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://www.visitcincy.com/listing/homewood-suites-by-hilton-cincinnati-downtown/5106/",
+    "notes": "Also listed on the Visit Cincy \"Blink 2026\" hotel booking portal linked from BLINK's Plan Your Visit page (as \"Homewood Suites by Hilton Cincinnati-Downtown\"; portal shows no group code or discounted rate). Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "hilton-cincinnati-netherland-plaza",
+    "name": "Hilton Cincinnati Netherland Plaza",
+    "kind": "hotel",
+    "address": "35 West 5th Street, Cincinnati, OH 45202",
+    "hood": "downtown-cbd",
+    "lat": 39.100905,
+    "lng": -84.514155,
+    "url": "https://www.hilton.com/en/hotels/cvgnphf-hilton-cincinnati-netherland-plaza/",
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/23164?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://www.visitcincy.com/listing/hilton-cincinnati-netherland-plaza/4791/",
+    "notes": "Also listed on the Visit Cincy \"Blink 2026\" hotel booking portal linked from BLINK's Plan Your Visit page (as \"Hilton Cincinnati Netherland Plaza\"; portal shows no group code or discounted rate). Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "21c-museum-hotel-cincinnati",
+    "name": "21c Museum Hotel",
+    "kind": "hotel",
+    "address": "609 Walnut St., Cincinnati, OH 45202",
+    "hood": "downtown-cbd",
+    "lat": 39.103021,
+    "lng": -84.512008,
+    "url": "https://21cmuseumhotels.com/cincinnati/",
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/46067?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://www.visitcincy.com/listing/21c-museum-hotel/5043/",
+    "notes": "Also listed on the Visit Cincy \"Blink 2026\" hotel booking portal linked from BLINK's Plan Your Visit page (as \"21c Museum Hotel Cincinnati\"; portal shows no group code or discounted rate). Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "courtyard-cincinnati-downtown",
+    "name": "Courtyard by Marriott Downtown",
+    "kind": "hotel",
+    "address": "6 East Fourth Street, Cincinnati, OH 45202",
+    "hood": "downtown-cbd",
+    "lat": 39.100202,
+    "lng": -84.512529,
+    "url": "https://www.marriott.com/en-us/hotels/cvgct-courtyard-cincinnati-downtown/overview/",
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/59561?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://www.visitcincy.com/listing/courtyard-by-marriott-downtown/5370/",
+    "notes": "Also listed on the Visit Cincy \"Blink 2026\" hotel booking portal linked from BLINK's Plan Your Visit page (as \"Courtyard by Marriott Cincinnati Downtown\"; portal shows no group code or discounted rate). Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "renaissance-cincinnati-downtown-hotel",
+    "name": "Renaissance Cincinnati Downtown Hotel",
+    "kind": "hotel",
+    "address": "36 E. 4th Street, Cincinnati, OH 45202",
+    "hood": "downtown-cbd",
+    "lat": 39.100186,
+    "lng": -84.511644,
+    "url": "https://www.marriott.com/en-us/hotels/cvgbr-renaissance-cincinnati-downtown-hotel/overview/",
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/49988?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://www.visitcincy.com/listing/renaissance-cincinnati-downtown-hotel/5103/",
+    "notes": "Also listed on the Visit Cincy \"Blink 2026\" hotel booking portal linked from BLINK's Plan Your Visit page (as \"Renaissance Cincinnati Downtown Hotel\"; portal shows no group code or discounted rate). Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "hyatt-regency-cincinnati",
+    "name": "Hyatt Regency Cincinnati",
+    "kind": "hotel",
+    "address": "151 West Fifth Street, Cincinnati, OH 45202",
+    "hood": "downtown-cbd",
+    "lat": 39.10045,
+    "lng": -84.515654,
+    "url": "https://www.hyatt.com/en-US/hotel/ohio/hyatt-regency-cincinnati/cinci",
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/23252?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://www.visitcincy.com/listing/hyatt-regency-cincinnati/4790/",
+    "notes": "Also listed on the Visit Cincy \"Blink 2026\" hotel booking portal linked from BLINK's Plan Your Visit page (as \"Hyatt Regency Cincinnati\"; portal shows no group code or discounted rate). Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "towneplace-suites-cincinnati-downtown",
+    "name": "TownePlace Suites Cincinnati Downtown",
+    "kind": "hotel",
+    "address": "106 West Seventh Street, Cincinnati, OH 45202",
+    "hood": "downtown-cbd",
+    "lat": 39.10361,
+    "lng": -84.515692,
+    "url": "https://www.marriott.com/en-us/hotels/cvgtw-towneplace-suites-cincinnati-downtown/overview/",
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/59564?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://www.visitcincy.com/listing/towneplace-suites-cincinnati-downtown/5371/",
+    "notes": "Also listed on the Visit Cincy \"Blink 2026\" hotel booking portal linked from BLINK's Plan Your Visit page (as \"TownePlace Suites by Marriott Cincinnati Downtown\"; portal shows no group code or discounted rate). Nominatim matched a different place (2144 m away); used the Visit Cincy listing coordinates. Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "moxy-cincinnati-downtown",
+    "name": "Moxy Cincinnati Downtown",
+    "kind": "hotel",
+    "address": "312 Main St., Cincinnati, OH 45202",
+    "hood": "downtown-cbd",
+    "lat": 39.099341,
+    "lng": -84.509073,
+    "url": "https://www.marriott.com/en-us/hotels/cvgdx-moxy-cincinnati-downtown/overview/",
+    "room_block": null,
+    "booking_portal": null,
+    "source_url": "https://www.visitcincy.com/listing/moxy-cincinnati-downtown/7361/"
+  },
+  {
+    "id": "voco-the-clair-cincinnati-downtown-by-ihg",
+    "name": "voco The Clair Cincinnati Downtown by IHG",
+    "kind": "hotel",
+    "address": "701 Broadway Street, Cincinnati, OH 45202",
+    "hood": "downtown-cbd",
+    "lat": 39.1048,
+    "lng": -84.5075,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/53283?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "voco-the-clair-cincinnati-downtown",
+    "name": "voco The Clair Cincinnati Downtown",
+    "kind": "hotel",
+    "address": "701 Broadway, Cincinnati, OH 45202",
+    "hood": "downtown-cbd",
+    "lat": 39.104803,
+    "lng": -84.507323,
+    "url": "https://www.ihg.com/voco/hotels/us/en/cincinnati/cvghs/hoteldetail",
+    "room_block": null,
+    "booking_portal": null,
+    "source_url": "https://www.visitcincy.com/listing/voco-the-clair-cincinnati-downtown/5172/",
+    "notes": "Also listed on the Visit Cincy \"Blink 2026\" hotel booking portal linked from BLINK's Plan Your Visit page (as \"voco The Clair Cincinnati Downtown by IHG\"; portal shows no group code or discounted rate)."
+  },
+  {
+    "id": "rest-short-term-rentals",
+    "name": "REST",
+    "kind": "rental",
+    "address": "333 e 8th st., Cincinnati, OH 45202",
+    "hood": "downtown-cbd",
+    "lat": 39.105057,
+    "lng": -84.507477,
+    "url": "https://www.iresteasy.com/",
+    "room_block": null,
+    "booking_portal": null,
+    "source_url": "https://www.visitcincy.com/listing/rest/6557/",
+    "notes": "Visit Cincy category: Luxury & Boutique. Visit Cincy description: \"Launched in 2022 and headquartered in Cincinnati, REST is a fully-curated experiential short-term rental provider rooted in high-quality amenities, seamless booking, and world-class customer service.\" Short-term rental operator, not a hotel; the listing does not say which units are at the listed address."
+  },
+  {
+    "id": "ac-hotel-cincinnati-at-the-banks",
+    "name": "AC Hotel by Marriott Cincinnati at The Banks",
+    "kind": "hotel",
+    "address": "135 Joe Nuxhall Way, Cincinnati, OH 45202",
+    "hood": "the-banks",
+    "lat": 39.096906,
+    "lng": -84.508815,
+    "url": "https://www.marriott.com/en-us/hotels/cvgbc-ac-hotel-cincinnati-at-the-banks/overview/",
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/53929?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://www.visitcincy.com/listing/ac-hotel-by-marriott-cincinnati-at-the-banks/5171/",
+    "notes": "Also listed on the Visit Cincy \"Blink 2026\" hotel booking portal linked from BLINK's Plan Your Visit page (as \"AC Hotel by Marriott Cincinnati at The Banks\"; portal shows no group code or discounted rate). Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "residence-inn-cincinnati-downtown-the-phelps",
+    "name": "The Phelps, Residence Inn Cincinnati Downtown",
+    "kind": "hotel",
+    "address": "506 E. 4th St., Cincinnati, OH 45202",
+    "hood": "downtown-cbd",
+    "lat": 39.101675,
+    "lng": -84.504518,
+    "url": "https://www.marriott.com/en-us/hotels/cvgcd-residence-inn-cincinnati-downtown-the-phelps/overview/",
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/45110?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://www.visitcincy.com/listing/the-phelps-residence-inn-cincinnati-downtown/5037/",
+    "notes": "Also listed on the Visit Cincy \"Blink 2026\" hotel booking portal linked from BLINK's Plan Your Visit page (as \"Residence Inn by Marriott Cincinnati Downtown/The Phelps\"; portal shows no group code or discounted rate). Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "the-lytle-park-hotel",
+    "name": "The Lytle Park Hotel, Autograph Collection",
+    "kind": "hotel",
+    "address": "311 Pike Street, Cincinnati, OH 45202",
+    "hood": "downtown-cbd",
+    "lat": 39.101177,
+    "lng": -84.503183,
+    "url": "https://www.marriott.com/en-us/hotels/cvgak-the-lytle-park-hotel-autograph-collection/overview/",
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/58318?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://www.visitcincy.com/listing/the-lytle-park-hotel-autograph-collection/5354/",
+    "notes": "Also listed on the Visit Cincy \"Blink 2026\" hotel booking portal linked from BLINK's Plan Your Visit page (as \"The Lytle Park Hotel, Autograph Collection\"; portal shows no group code or discounted rate). Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "the-symphony-hotel",
+    "name": "The Symphony Hotel",
+    "kind": "hotel",
+    "address": "210 W 14th Street, Cincinnati, OH 45202",
+    "hood": "over-the-rhine",
+    "lat": 39.110203,
+    "lng": -84.51921,
+    "url": "https://www.symphonyhotel.com/",
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/63792?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://www.symphonyhotel.com/",
+    "notes": "Official site: \"Nine guest rooms named for great composers, an intimate cocktail bar, and Cincinnati Music Hall right across the street.\" Bar hours on the site: Wed–Thu 4 pm–11 pm, Friday 4 pm–Midnight, Saturday 3 pm–Midnight, Sunday 3 pm–11 pm. Also listed on the Visit Cincy \"Blink 2026\" hotel booking portal (as \"Symphony Hotel & Restaurant\"). The official site says \"Est. 1871\"; the Visit Cincy listing describes \"An 1873 Boutique Hotel & Restaurant\" (year discrepancy between sources). Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "embassy-suites-cincinnati-rivercenter",
+    "name": "Embassy Suites Cincinnati RiverCenter",
+    "kind": "hotel",
+    "address": "10 East RiverCenter Blvd., Covington, KY 41011",
+    "hood": "covington",
+    "lat": 39.090165,
+    "lng": -84.511227,
+    "url": "https://www.hilton.com/en/hotels/cvgcves-embassy-suites-cincinnati-rivercenter/",
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/29056?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://www.visitcincy.com/listing/embassy-suites-cincinnati-rivercenter/5380/",
+    "notes": "Also listed on the Visit Cincy \"Blink 2026\" hotel booking portal linked from BLINK's Plan Your Visit page (as \"Embassy Suites by Hilton Cincinnati RiverCenter\"; portal shows no group code or discounted rate). Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "cincinnati-marriott-at-rivercenter",
+    "name": "Cincinnati Marriott at RiverCenter",
+    "kind": "hotel",
+    "address": "10 West RiverCenter Blvd., Covington, KY 41011",
+    "hood": "covington",
+    "lat": 39.089786,
+    "lng": -84.512055,
+    "url": "https://www.marriott.com/en-us/hotels/cvgdr-cincinnati-marriott-at-rivercenter/overview/",
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/29193?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://www.visitcincy.com/listing/cincinnati-marriott-at-rivercenter/5417/",
+    "notes": "Also listed on the Visit Cincy \"Blink 2026\" hotel booking portal linked from BLINK's Plan Your Visit page (as \"Cincinnati Marriott at RiverCenter\"; portal shows no group code or discounted rate). Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "hampton-inn-suites-newport-cincinnati",
+    "name": "Hampton Inn & Suites Newport",
+    "kind": "hotel",
+    "address": "275 Columbia Street, Newport, KY 41071",
+    "hood": "newport",
+    "lat": 39.092863,
+    "lng": -84.498118,
+    "url": "https://www.hilton.com/en/hotels/cvgpohx-hampton-suites-newport-cincinnati/",
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/29316?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://www.visitcincy.com/listing/hampton-inn-%26-suites-newport/5407/",
+    "notes": "Also listed on the Visit Cincy \"Blink 2026\" hotel booking portal linked from BLINK's Plan Your Visit page (as \"Hampton Inn & Suites Newport/Cincinnati\"; portal shows no group code or discounted rate). Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "courtyard-cincinnati-covington",
+    "name": "Courtyard Cincinnati Covington",
+    "kind": "hotel",
+    "address": "500 W. 3rd St., Covington, KY 41011",
+    "hood": "covington",
+    "lat": 39.088131,
+    "lng": -84.519589,
+    "url": "https://www.marriott.com/en-us/hotels/cvgcy-courtyard-cincinnati-covington/overview/",
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/28956?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://www.visitcincy.com/listing/courtyard-cincinnati-covington/5427/",
+    "notes": "Also listed on the Visit Cincy \"Blink 2026\" hotel booking portal linked from BLINK's Plan Your Visit page (as \"Courtyard by Marriott Cincinnati-Covington\"; portal shows no group code or discounted rate). Visit Cincy lists the phone as (847) 232-5330 (a non-local area code, so it is left out of the phone field). Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "translucency-bnb-and-gallery",
+    "name": "Translucency BnB & Gallery",
+    "kind": "rental",
+    "address": "220 E. 4th Street, Covington, KY 41011",
+    "hood": "covington",
+    "lat": 39.087922,
+    "lng": -84.506769,
+    "url": "https://theneatsuites.guestybookings.com/en",
+    "room_block": null,
+    "booking_portal": null,
+    "source_url": "https://www.visitcincy.com/listing/translucency-bnb-%26-gallery/5979/",
+    "notes": "Visit Cincy category: Vacaton Rentals. Short-term rental unit listed by Visit Cincy (booking via The Neat Suites / Guesty); not a hotel."
+  },
+  {
+    "id": "holiday-inn-cincinnati-riverfront",
+    "name": "Holiday Inn Riverfront",
+    "kind": "hotel",
+    "address": "600 West 3rd St., Covington, KY 41011",
+    "hood": "covington",
+    "lat": 39.088174,
+    "lng": -84.520655,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/29119?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://www.visitcincy.com/listing/holiday-inn-riverfront/5400/",
+    "notes": "Also listed on the Visit Cincy \"Blink 2026\" hotel booking portal linked from BLINK's Plan Your Visit page (as \"Holiday Inn Cincinnati-Riverfront by IHG\"; portal shows no group code or discounted rate). Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "extended-stay-america-covington",
+    "name": "Extended Stay America Covington",
+    "kind": "hotel",
+    "address": "650 West 3rd St, Covington, KY 41011",
+    "hood": "covington",
+    "lat": 39.088088,
+    "lng": -84.521872,
+    "url": "https://www.extendedstayamerica.com/hotels/cincinnati-covington.html",
+    "room_block": null,
+    "booking_portal": null,
+    "source_url": "https://www.visitcincy.com/listing/extended-stay-america-covington/5415/",
+    "notes": "Nominatim and Visit Cincy coordinates differ by 294 m; checked by hand and kept Nominatim."
+  },
+  {
+    "id": "the-pickle-factory",
+    "name": "The Pickle Factory",
+    "kind": "rental",
+    "address": "13 Tobacco Alley, Covington, KY 41011",
+    "hood": "covington",
+    "lat": 39.08648,
+    "lng": -84.510229,
+    "url": "https://picklefactoryhotel.com/",
+    "room_block": null,
+    "booking_portal": null,
+    "source_url": "https://www.visitcincy.com/listing/the-pickle-factory/5978/",
+    "notes": "Visit Cincy category: Vacaton Rentals. Phone is the one on the Visit Cincy listing (the same number Visit Cincy gives for The Neat Suites rentals); the official site shows no phone."
+  },
+  {
+    "id": "aloft-newport-on-the-levee",
+    "name": "Aloft Newport on the Levee",
+    "kind": "hotel",
+    "address": "201 E. 3rd St., Newport, KY 41071",
+    "hood": "newport",
+    "lat": 39.095647,
+    "lng": -84.494055,
+    "url": "https://www.marriott.com/en-us/hotels/cvgpl-aloft-newport-on-the-levee/overview/",
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/53656?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://www.visitcincy.com/listing/aloft-newport-on-the-levee/5789/",
+    "notes": "Also listed on the Visit Cincy \"Blink 2026\" hotel booking portal linked from BLINK's Plan Your Visit page (as \"Aloft Newport On The Levee\"; portal shows no group code or discounted rate). Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "life-on-the-globe",
+    "name": "Life on the Globe",
+    "kind": "rental",
+    "address": "12 E. 5th Street, Covington, KY 41011",
+    "hood": "covington",
+    "lat": 39.085951,
+    "lng": -84.510534,
+    "url": "https://theneatsuites.guestybookings.com/en",
+    "room_block": null,
+    "booking_portal": null,
+    "source_url": "https://www.visitcincy.com/listing/life-on-the-globe/5981/",
+    "notes": "Visit Cincy category: Vacaton Rentals. Short-term rental unit listed by Visit Cincy (booking via The Neat Suites / Guesty); not a hotel."
+  },
+  {
+    "id": "luxury-artists-condo",
+    "name": "Luxury Artist's Condo",
+    "kind": "rental",
+    "address": "500 Garrard Street, Covington, KY 41011",
+    "hood": "covington",
+    "lat": 39.086475,
+    "lng": -84.505787,
+    "url": "https://theneatsuites.guestybookings.com/en",
+    "room_block": null,
+    "booking_portal": null,
+    "source_url": "https://www.visitcincy.com/listing/luxury-artists-condo/5980/",
+    "notes": "Visit Cincy category: Vacaton Rentals. Short-term rental unit listed by Visit Cincy (booking via The Neat Suites / Guesty); not a hotel."
+  },
+  {
+    "id": "holiday-inn-express-suites-cincinnati-riverfront",
+    "name": "Holiday Inn Express & Suites Cincinnati Riverfront",
+    "kind": "hotel",
+    "address": "200 Crescent Ave., Covington, KY 41011",
+    "hood": "covington",
+    "lat": 39.088289,
+    "lng": -84.524512,
+    "url": "https://www.hiexpress.com/cincinnatirfky",
+    "room_block": null,
+    "booking_portal": null,
+    "source_url": "https://www.visitcincy.com/listing/holiday-inn-express-%26-suites-cincinnati-riverfront/5375/",
+    "notes": "Also listed on the Visit Cincy \"Blink 2026\" hotel booking portal linked from BLINK's Plan Your Visit page (as \"Holiday Inn Express & Suites Cincinnati Riverfront by IHG\"; portal shows no group code or discounted rate)."
+  },
+  {
+    "id": "holiday-inn-express-and-suites-cincinnati-riverfront-by-ihg",
+    "name": "Holiday Inn Express & Suites Cincinnati Riverfront by IHG",
+    "kind": "hotel",
+    "address": "200 Crescent Ave (At Crescent and 3rd), Covington, KY 41011",
+    "hood": "covington",
+    "lat": 39.0883,
+    "lng": -84.5246,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/29134?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "radisson-hotel-cincinnati-riverfront",
+    "name": "Radisson Cincinnati Riverfront",
+    "kind": "hotel",
+    "address": "668 W. Fifth St., Covington, KY 41011",
+    "hood": "covington",
+    "lat": 39.085687,
+    "lng": -84.521671,
+    "url": "https://www.choicehotels.com/kentucky/covington/radisson-hotels/ky029",
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/29233?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://www.visitcincy.com/listing/radisson-cincinnati-riverfront/5408/",
+    "notes": "Also listed on the Visit Cincy \"Blink 2026\" hotel booking portal linked from BLINK's Plan Your Visit page (as \"Radisson Hotel Cincinnati Riverfront\"; portal shows no group code or discounted rate). Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "fairfield-inn-suites-newport-cincinnati",
+    "name": "Fairfield Inn & Suites by Marriott Newport",
+    "kind": "hotel",
+    "address": "420 Riverboat Row, Newport, KY 41071",
+    "hood": "newport",
+    "lat": 39.101552,
+    "lng": -84.489561,
+    "url": "https://www.marriott.com/en-us/hotels/cvgnp-fairfield-inn-and-suites-newport-cincinnati/overview/",
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/28965?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://www.visitcincy.com/listing/fairfield-inn-%26-suites-by-marriott-newport/5386/",
+    "notes": "Also listed on the Visit Cincy \"Blink 2026\" hotel booking portal linked from BLINK's Plan Your Visit page (as \"Fairfield by Marriott Inn & Suites Newport Cincinnati\"; portal shows no group code or discounted rate). Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "hotel-covington",
+    "name": "Hotel Covington",
+    "kind": "hotel",
+    "address": "638 Madison Ave., Covington, KY 41011",
+    "hood": "covington",
+    "lat": 39.083713,
+    "lng": -84.509713,
+    "url": "https://hotelcovington.com/",
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/53294?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://www.visitcincy.com/listing/hotel-covington/5771/",
+    "notes": "Also listed on the Visit Cincy \"Blink 2026\" hotel booking portal linked from BLINK's Plan Your Visit page (as \"Hotel Covington Cincinnati Riverfront\"; portal shows no group code or discounted rate). Nominatim and Visit Cincy coordinates differ by 3419 m; checked by hand and kept Nominatim. Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "north-by-hotel-covington",
+    "name": "North by Hotel Covington",
+    "kind": "hotel",
+    "address": "638 Madison Ave, Covington, KY 41011",
+    "hood": "covington",
+    "lat": 39.083713,
+    "lng": -84.509713,
+    "url": "https://hotelcovington.com/hotel-north/",
+    "room_block": null,
+    "booking_portal": null,
+    "source_url": "https://www.visitcincy.com/listing/north-by-hotel-covington/6378/",
+    "notes": "Visit Cincy category: Luxury & Boutique."
+  },
+  {
+    "id": "springhill-suites-by-marriott-midtown-cincinnati",
+    "name": "Springhill Suites by Marriott Midtown Cincinnati",
+    "kind": "hotel",
+    "address": "610 Eden Park Drive, Cincinnati, OH 45202",
+    "hood": "walnut-hills",
+    "lat": 39.1176,
+    "lng": -84.4987,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/42922?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "holiday-inn-express-hotel-and-suites-cincinnati-se-newport-by-ihg",
+    "name": "Holiday Inn Express Hotel & Suites Cincinnati Se Newport by IHG",
+    "kind": "hotel",
+    "address": "110 Landmark Drive, Bellevue, KY 41073",
+    "hood": null,
+    "lat": 39.1,
+    "lng": -84.4848,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/34586?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "comfort-suites-cincinnati-university-downtown",
+    "name": "Comfort Suites Cincinnati University - Downtown",
+    "kind": "hotel",
+    "address": "2347 READING ROAD BLDG A, Cincinnati, OH 45202",
+    "hood": "mount-auburn",
+    "lat": 39.1247,
+    "lng": -84.5024,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/59562?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "mainstay-suites-cincinnati-university-uptown",
+    "name": "MainStay Suites Cincinnati University - Uptown",
+    "kind": "hotel",
+    "address": "2347 READING ROAD BLDG B, Cincinnati, OH 45202",
+    "hood": "mount-auburn",
+    "lat": 39.1248,
+    "lng": -84.5024,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/59563?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "fairfield-inn-and-suites-cincinnati-uptown-university-area",
+    "name": "Fairfield Inn & Suites Cincinnati Uptown/University Area",
+    "kind": "hotel",
+    "address": "2500 South Market Street, Cincinnati, OH 45219",
+    "hood": "university-heights",
+    "lat": 39.1279,
+    "lng": -84.5167,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/53498?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "hotel-celare-cincinnati-midtown-a-tribute-portfolio-hotel",
+    "name": "Hotel Celare, Cincinnati Midtown, a Tribute Portfolio Hotel",
+    "kind": "hotel",
+    "address": "310 STRAIGHT STREET, Cincinnati, OH 45219",
+    "hood": "university-heights",
+    "lat": 39.1298,
+    "lng": -84.5208,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/63821?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "hampton-inn-and-suites-cincinnati-uptown-university-area",
+    "name": "Hampton Inn & Suites Cincinnati/Uptown-University Area",
+    "kind": "hotel",
+    "address": "3024 Vine Street, Cincinnati, OH 45219",
+    "hood": "university-heights",
+    "lat": 39.1344,
+    "lng": -84.5086,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/44418?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "graduate-by-hilton-cincinnati",
+    "name": "Graduate by Hilton Cincinnati",
+    "kind": "hotel",
+    "address": "151 Goodman St, Cincinnati, OH 45219",
+    "hood": "university-heights",
+    "lat": 39.1367,
+    "lng": -84.5072,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/23049?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "hilton-garden-inn-cincinnati-midtown",
+    "name": "Hilton Garden Inn Cincinnati Midtown",
+    "kind": "hotel",
+    "address": "2145 Dana Avenue, Cincinnati, OH 45207",
+    "hood": null,
+    "lat": 39.1444,
+    "lng": -84.4596,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/56124?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "super-8-by-wyndham-fort-mitchell-cincinnati-area",
+    "name": "Super 8 by Wyndham Fort Mitchell Cincinnati Area",
+    "kind": "hotel",
+    "address": "2350 Royal Dr, Fort Mitchell, KY 41017",
+    "hood": null,
+    "lat": 39.0485,
+    "lng": -84.5732,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/29301?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "residence-inn-by-marriott-cincinnati-midtown-rookwood",
+    "name": "Residence Inn by Marriott Cincinnati Midtown/Rookwood",
+    "kind": "hotel",
+    "address": "3815 Edwards Rd, Cincinnati, OH 45209",
+    "hood": null,
+    "lat": 39.1487,
+    "lng": -84.4428,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/54642?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "courtyard-cincinnati-midtown-rookwood",
+    "name": "Courtyard Cincinnati Midtown/Rookwood",
+    "kind": "hotel",
+    "address": "3813 Edwards Road, Cincinnati, OH 45209",
+    "hood": null,
+    "lat": 39.1488,
+    "lng": -84.4425,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/49320?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "holiday-inn-express-and-suites-cincinnati-south-wilder-by-ihg",
+    "name": "Holiday Inn Express & Suites-Cincinnati South - Wilder by IHG",
+    "kind": "hotel",
+    "address": "8 Hampton Lane, Newport, KY 41076",
+    "hood": null,
+    "lat": 39.0286,
+    "lng": -84.4824,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/54463?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "hampton-inn-and-suites-wilder",
+    "name": "Hampton Inn & Suites Wilder",
+    "kind": "hotel",
+    "address": "10 Hampton Ln, Newport, KY 41076",
+    "hood": null,
+    "lat": 39.0256,
+    "lng": -84.4796,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/43725?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "home2-suites-by-hilton-cincinnati-midtown-oakley",
+    "name": "Home2 Suites By Hilton Cincinnati Midtown Oakley",
+    "kind": "hotel",
+    "address": "2910 Disney Street, Cincinnati, OH 45209",
+    "hood": null,
+    "lat": 39.1592,
+    "lng": -84.433,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/63791?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "homewood-suites-by-hilton-cincinnati-midtown-oh",
+    "name": "Homewood Suites by Hilton Cincinnati-Midtown, OH",
+    "kind": "hotel",
+    "address": "4605 Factory Colony Lane, Cincinnati, OH 45209",
+    "hood": null,
+    "lat": 39.159,
+    "lng": -84.4293,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/56420?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "comfort-inn-and-suites-northern-kentucky",
+    "name": "Comfort Inn & Suites Northern Kentucky",
+    "kind": "hotel",
+    "address": "10 Country Dr, Newport, KY 41076",
+    "hood": null,
+    "lat": 39.0176,
+    "lng": -84.4831,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/31829?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "six-acres-bed-and-breakfast",
+    "name": "Six Acres Bed & Breakfast",
+    "kind": "hotel",
+    "address": "5350 Hamilton Ave, Cincinnati, OH 45224",
+    "hood": null,
+    "lat": 39.1866,
+    "lng": -84.5449,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/63794?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "quality-inn-and-suites-cincinnati-uptown-norwood",
+    "name": "Quality Inn & Suites Cincinnati Uptown Norwood",
+    "kind": "hotel",
+    "address": "5410 Ridge Ave, Cincinnati, OH 45213",
+    "hood": null,
+    "lat": 39.1715,
+    "lng": -84.4245,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/45571?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "holiday-inn-cincinnati-airport-by-ihg",
+    "name": "Holiday Inn Cincinnati Airport by IHG",
+    "kind": "hotel",
+    "address": "1717 Airport Exchange Blvd, Erlanger, KY 41018",
+    "hood": null,
+    "lat": 39.0569,
+    "lng": -84.6277,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/29118?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "quality-inn-and-suites-cvg-airport",
+    "name": "Quality Inn & Suites CVG Airport",
+    "kind": "hotel",
+    "address": "1805 Airport Exchange Blvd, Hebron, KY 41018",
+    "hood": null,
+    "lat": 39.057,
+    "lng": -84.6292,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/28881?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "holiday-inn-express-and-suites-cincinnati-ne-red-bank-road-by-ihg",
+    "name": "Holiday Inn Express and Suites-Cincinnati NE - Red Bank Road by IHG",
+    "kind": "hotel",
+    "address": "5311 HETZELL STREET, Cincinnati, OH 45227",
+    "hood": null,
+    "lat": 39.1576,
+    "lng": -84.4033,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/54317?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "the-summit-hotel",
+    "name": "The Summit Hotel",
+    "kind": "hotel",
+    "address": "5345 Medpace Way, Cincinnati, OH 45227",
+    "hood": null,
+    "lat": 39.1585,
+    "lng": -84.4032,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/54641?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "courtyard-by-marriott-cincinnati-airport",
+    "name": "Courtyard by Marriott Cincinnati Airport",
+    "kind": "hotel",
+    "address": "3990 Olympic Blvd, Erlanger, KY 41018",
+    "hood": null,
+    "lat": 39.0525,
+    "lng": -84.6288,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/28955?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "residence-inn-by-marriott-cincinnati-airport-erlanger",
+    "name": "Residence Inn by Marriott Cincinnati Airport Erlanger",
+    "kind": "hotel",
+    "address": "2811 Circleport Dr, Erlanger, KY 41018",
+    "hood": null,
+    "lat": 39.0526,
+    "lng": -84.6315,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/29235?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "wingate-by-wyndham-erlanger-florence-cincinnati-south",
+    "name": "Wingate by Wyndham Erlanger / Florence / Cincinnati South",
+    "kind": "hotel",
+    "address": "605 Atlas Air Way, Erlanger, KY 41018",
+    "hood": null,
+    "lat": 39.0291,
+    "lng": -84.6123,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/42866?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "country-inn-and-suites-by-radisson-erlanger-cincinnati-south",
+    "name": "Country Inn & Suites by Radisson, Erlanger - Cincinnati South",
+    "kind": "hotel",
+    "address": "630 Donaldson Highway, Erlanger, KY 41018",
+    "hood": null,
+    "lat": 39.029,
+    "lng": -84.6155,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/28943?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "red-roof-inn-cincinnati-airport-florence-erlanger",
+    "name": "Red Roof Inn Cincinnati Airport-Florence/ Erlanger",
+    "kind": "hotel",
+    "address": "599 Donaldson Highway, Erlanger, KY 41018",
+    "hood": null,
+    "lat": 39.0272,
+    "lng": -84.6164,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/29014?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "marriott-cincinnati-airport",
+    "name": "Marriott Cincinnati Airport",
+    "kind": "hotel",
+    "address": "2395 Progress Dr, Hebron, KY 41048",
+    "hood": null,
+    "lat": 39.0758,
+    "lng": -84.6562,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/29192?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "best-western-premier-mariemont-inn",
+    "name": "Best Western Premier Mariemont Inn",
+    "kind": "hotel",
+    "address": "6880 Wooster Pike, Cincinnati, OH 45227",
+    "hood": null,
+    "lat": 39.1453,
+    "lng": -84.375,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/22760?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "hampton-inn-cincinnati-airport-north",
+    "name": "Hampton Inn Cincinnati Airport - North",
+    "kind": "hotel",
+    "address": "755 Petersburg Rd, Hebron, KY 41048",
+    "hood": null,
+    "lat": 39.0761,
+    "lng": -84.6581,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/29133?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "country-inn-and-suites-by-radisson-cincinnati-airport-ky",
+    "name": "Country Inn & Suites by Radisson, Cincinnati Airport, KY",
+    "kind": "hotel",
+    "address": "759 Petersburg Road, Hebron, KY 41048",
+    "hood": null,
+    "lat": 39.0753,
+    "lng": -84.6579,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/28938?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "holiday-inn-express-and-suites-hebron-cincinnati-airport-by-ihg",
+    "name": "Holiday Inn Express & Suites Hebron - Cincinnati Airport by IHG",
+    "kind": "hotel",
+    "address": "775 Petersburg Road, Hebron, KY 41048",
+    "hood": null,
+    "lat": 39.0772,
+    "lng": -84.6609,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/33205?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "ashley-quarters-hotel-cincinnati-airport",
+    "name": "Ashley Quarters Hotel Cincinnati Airport",
+    "kind": "hotel",
+    "address": "4880 Houston Road, Florence, KY 41042",
+    "hood": null,
+    "lat": 39.0194,
+    "lng": -84.6302,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/29308?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "doubletree-by-hilton-cincinnati-airport",
+    "name": "DoubleTree by Hilton Cincinnati Airport",
+    "kind": "hotel",
+    "address": "2826 Terminal Drive, Florence, KY 41048",
+    "hood": null,
+    "lat": 39.057,
+    "lng": -84.6604,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/23404?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "intown-suites-extended-stay-cincinnati-oh-colerain",
+    "name": "InTown Suites Extended Stay Cincinnati OH - Colerain",
+    "kind": "hotel",
+    "address": "7451 Colerain Avenue, Cincinnati, OH 45239",
+    "hood": null,
+    "lat": 39.2141,
+    "lng": -84.5859,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/63793?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "towneplace-suites-by-marriott-cincinnati-airport-south",
+    "name": "TownePlace Suites by Marriott Cincinnati Airport South",
+    "kind": "hotel",
+    "address": "7488 TURFWAY ROAD, Florence, KY 41042",
+    "hood": null,
+    "lat": 39.0192,
+    "lng": -84.6352,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/59944?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "springhill-suites-by-marriott-cincinnati-airport-south",
+    "name": "SpringHill Suites by Marriott Cincinnati Airport South",
+    "kind": "hotel",
+    "address": "7492 Turfway Road, Florence, KY 41042",
+    "hood": null,
+    "lat": 39.018,
+    "lng": -84.6357,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/40475?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "spark-by-hilton-cincinnati-airport-south",
+    "name": "Spark by Hilton Cincinnati Airport South",
+    "kind": "hotel",
+    "address": "7454 Turfway Road, Florence, KY 41042",
+    "hood": null,
+    "lat": 39.0174,
+    "lng": -84.6351,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/29251?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "extended-stay-america-suites-cincinnati-florence-turfway-rd",
+    "name": "Extended Stay America Suites Cincinnati Florence Turfway Rd",
+    "kind": "hotel",
+    "address": "7350 Turfway Rd, Florence, KY 41042",
+    "hood": null,
+    "lat": 39.0141,
+    "lng": -84.6315,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/29041?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "hampton-inn-cincinnati-airport-south",
+    "name": "Hampton Inn Cincinnati Airport South",
+    "kind": "hotel",
+    "address": "7393 Turfway Rd (Adjacent to Cracker Barrel), Florence, KY 41042",
+    "hood": null,
+    "lat": 39.0154,
+    "lng": -84.635,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/29135?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "hilton-cincinnati-airport",
+    "name": "Hilton Cincinnati Airport",
+    "kind": "hotel",
+    "address": "7373 Turfway Road, Florence, KY 41042",
+    "hood": null,
+    "lat": 39.0135,
+    "lng": -84.6329,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/29111?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "quality-inn-and-suites-florence-cincinnati-south",
+    "name": "Quality Inn & Suites Florence - Cincinnati South",
+    "kind": "hotel",
+    "address": "30 Cavalier Court, Florence, KY 41042",
+    "hood": null,
+    "lat": 39.0111,
+    "lng": -84.632,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/29354?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "la-quinta-inn-and-suites-by-wyndham-cincinnati-airpt-florence",
+    "name": "La Quinta Inn & Suites by Wyndham Cincinnati Airpt Florence",
+    "kind": "hotel",
+    "address": "350 Meijer Dr, Florence, KY 41042",
+    "hood": null,
+    "lat": 39.0119,
+    "lng": -84.6352,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/29191?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "extended-stay-america-select-suites-cincinnati-florence-airport",
+    "name": "Extended Stay America Select Suites - Cincinnati - Florence - Airport",
+    "kind": "hotel",
+    "address": "40 Cavalier Blvd, Florence, KY 41042-1645",
+    "hood": null,
+    "lat": 39.0098,
+    "lng": -84.6327,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/54732?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "hyatt-place-cincinnati-airport-florence",
+    "name": "Hyatt Place Cincinnati Airport / Florence",
+    "kind": "hotel",
+    "address": "300 Meijer Dr, Florence, KY 41042",
+    "hood": null,
+    "lat": 39.0121,
+    "lng": -84.6362,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/28875?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "hilton-garden-inn-florence-cincinnati-airport-south",
+    "name": "Hilton Garden Inn Florence Cincinnati Airport South",
+    "kind": "hotel",
+    "address": "205 Meijer Drive, Florence, KY 41042",
+    "hood": null,
+    "lat": 39.0126,
+    "lng": -84.637,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/60266?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "courtyard-by-marriott-cincinnati-airport-south-florence",
+    "name": "Courtyard by Marriott Cincinnati Airport South/Florence",
+    "kind": "hotel",
+    "address": "46 Cavalier Blvd, Florence, KY 41042",
+    "hood": null,
+    "lat": 39.009,
+    "lng": -84.6335,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/28957?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "days-inn-by-wyndham-florence-cincinnati-area",
+    "name": "Days Inn by Wyndham Florence Cincinnati Area",
+    "kind": "hotel",
+    "address": "50 Cavalier Blvd, Florence, KY 41042",
+    "hood": null,
+    "lat": 39.0094,
+    "lng": -84.6344,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/29255?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "staybridge-suites-florence-by-ihg",
+    "name": "Staybridge Suites Florence by IHG",
+    "kind": "hotel",
+    "address": "3255 Ted Bushelman Blvd, Florence, KY 41042",
+    "hood": null,
+    "lat": 39.009,
+    "lng": -84.6432,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/58490?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "microtel-inn-and-suites-by-wyndham-florence-cincinnati-airport",
+    "name": "Microtel Inn & Suites by Wyndham Florence/Cincinnati Airport",
+    "kind": "hotel",
+    "address": "7490 Woodspoint Dr, Florence, KY 41042",
+    "hood": null,
+    "lat": 39.0074,
+    "lng": -84.6416,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/39901?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "tru-by-hilton-cincinnati-airport-south-florence",
+    "name": "Tru By Hilton Cincinnati Airport South Florence",
+    "kind": "hotel",
+    "address": "1080 Vandercar Way, Florence, KY 41042",
+    "hood": null,
+    "lat": 39.012,
+    "lng": -84.6538,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/58310?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "homewood-suites-cincinnati-airport",
+    "name": "Homewood Suites Cincinnati Airport",
+    "kind": "hotel",
+    "address": "1090 Vandercar Way, Florence, KY 41042",
+    "hood": null,
+    "lat": 39.0106,
+    "lng": -84.6532,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/40645?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "best-western-inn-florence",
+    "name": "Best Western Inn Florence",
+    "kind": "hotel",
+    "address": "7821 Commerce Dr, Florence, KY 41042",
+    "hood": null,
+    "lat": 39.0027,
+    "lng": -84.6441,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/28905?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "motel-6-florence-ky-cincinnati-airport",
+    "name": "Motel 6 Florence, KY - Cincinnati Airport",
+    "kind": "hotel",
+    "address": "7820 Commerce Drive, Florence, KY 41042",
+    "hood": null,
+    "lat": 39.0028,
+    "lng": -84.6444,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/51948?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "comfort-suites-florence-cincinnati-south",
+    "name": "Comfort Suites Florence - Cincinnati South",
+    "kind": "hotel",
+    "address": "5905 Merchants Street, Florence, KY 41042",
+    "hood": null,
+    "lat": 39.0086,
+    "lng": -84.6533,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/54426?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "fairfield-inn-and-suites-by-marriott-cincinnati-airport-south-florence",
+    "name": "Fairfield Inn & Suites by Marriott Cincinnati Airport South/Florence",
+    "kind": "hotel",
+    "address": "5910 Merchants Street, Florence, KY 41042",
+    "hood": null,
+    "lat": 39.0079,
+    "lng": -84.6538,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/58035?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "wildwood-inn-tropical-dome-and-theme-suites",
+    "name": "Wildwood Inn Tropical Dome & Theme Suites",
+    "kind": "hotel",
+    "address": "7809 US 42, Florence, KY 41042",
+    "hood": null,
+    "lat": 38.9907,
+    "lng": -84.6371,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/29258?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "hampton-inn-and-suites-cincinnati-kenwood",
+    "name": "Hampton Inn & Suites Cincinnati / Kenwood",
+    "kind": "hotel",
+    "address": "2000 Ronald Reagan Drive, Cincinnati, OH 45236",
+    "hood": null,
+    "lat": 39.2007,
+    "lng": -84.3722,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/53026?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "holiday-inn-express-west-cincinnati-by-ihg",
+    "name": "Holiday Inn Express West Cincinnati by IHG",
+    "kind": "hotel",
+    "address": "5505 Rybolt Rd, Cincinnati, OH 45248",
+    "hood": null,
+    "lat": 39.1943,
+    "lng": -84.6626,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/38821?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "rodeway-inn-florence-cincinnati-south",
+    "name": "Rodeway Inn Florence - Cincinnati South",
+    "kind": "hotel",
+    "address": "7928 Dream Street, Florence, KY 41042",
+    "hood": null,
+    "lat": 38.9905,
+    "lng": -84.6422,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/29275?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "super-8-by-wyndham-florence",
+    "name": "Super 8 by Wyndham Florence",
+    "kind": "hotel",
+    "address": "7937 Dream St, Florence, KY 41042",
+    "hood": null,
+    "lat": 38.9905,
+    "lng": -84.6422,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/50555?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "best-western-plus-hannaford-inn-and-suites",
+    "name": "Best Western Plus Hannaford Inn & Suites",
+    "kind": "hotel",
+    "address": "5900 E Galbraith Road, Cincinnati, OH 45236",
+    "hood": null,
+    "lat": 39.2066,
+    "lng": -84.3723,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/23618?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "drury-inn-and-suites-cincinnati-sharonville",
+    "name": "Drury Inn & Suites Cincinnati Sharonville",
+    "kind": "hotel",
+    "address": "2265 E Sharon Rd, Sharonville, OH 45241",
+    "hood": null,
+    "lat": 39.2677,
+    "lng": -84.4385,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/31914?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "red-roof-inn-cincinnati-sharonville",
+    "name": "Red Roof Inn Cincinnati - Sharonville",
+    "kind": "hotel",
+    "address": "2301 E Sharon Road I-75 at Exit #15 / Sharon Road, Sharonville, OH 45241",
+    "hood": null,
+    "lat": 39.2698,
+    "lng": -84.4372,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/23441?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "wingate-by-wyndham-cincinnati-blue-ash",
+    "name": "Wingate by Wyndham - Cincinnati - Blue Ash",
+    "kind": "hotel",
+    "address": "4320 Glendale Milford Rd, Cincinnati, OH 45242",
+    "hood": null,
+    "lat": 39.2526,
+    "lng": -84.388,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/23610?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "la-quinta-inn-and-suites-by-wyndham-cincinnati-sharonville",
+    "name": "La Quinta Inn & Suites by Wyndham Cincinnati Sharonville",
+    "kind": "hotel",
+    "address": "11029 Dowlin Drive, Cincinnati, OH 45241",
+    "hood": null,
+    "lat": 39.272,
+    "lng": -84.439,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/23319?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "hilton-garden-inn-cincinnati-sharonville",
+    "name": "Hilton Garden Inn Cincinnati/Sharonville",
+    "kind": "hotel",
+    "address": "11149 Dowlin Dr, Sharonville, OH 45241",
+    "hood": null,
+    "lat": 39.2731,
+    "lng": -84.4384,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/23150?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "tru-by-hilton-sharonville",
+    "name": "TRU BY Hilton Sharonville",
+    "kind": "hotel",
+    "address": "11155 Dowlin Drive, Sharonville, OH 45241",
+    "hood": null,
+    "lat": 39.2734,
+    "lng": -84.4384,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/58634?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "comfort-inn-and-suites-sharonville-cincinnati-north",
+    "name": "Comfort Inn & Suites Sharonville - Cincinnati North",
+    "kind": "hotel",
+    "address": "11160 Dowlin Dr, Sharonville, OH 45241",
+    "hood": null,
+    "lat": 39.2734,
+    "lng": -84.4373,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/23088?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "hawthorn-extended-stay-by-wyndham-cincinnati-sharonville",
+    "name": "Hawthorn Extended Stay by Wyndham Cincinnati/Sharonville",
+    "kind": "hotel",
+    "address": "11180 Dowlin Dr, Sharonville, OH 45241",
+    "hood": null,
+    "lat": 39.2738,
+    "lng": -84.4376,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/23598?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "embassy-suites-by-hilton-cincinnati-northeast-blue-ash",
+    "name": "Embassy Suites by Hilton Cincinnati Northeast Blue Ash",
+    "kind": "hotel",
+    "address": "4554 Lake Forest Drive, Cincinnati, OH 45242",
+    "hood": null,
+    "lat": 39.2551,
+    "lng": -84.3815,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/23048?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "courtyard-by-marriott-cincinnati-blue-ash",
+    "name": "Courtyard by Marriott Cincinnati Blue Ash",
+    "kind": "hotel",
+    "address": "4625 Lake Forest Dr, Cincinnati, OH 45242",
+    "hood": null,
+    "lat": 39.2546,
+    "lng": -84.3789,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/22898?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "hyatt-place-cincinnati-sharonville-convention-center",
+    "name": "Hyatt Place Cincinnati / Sharonville Convention Center",
+    "kind": "hotel",
+    "address": "11345 Chester Rd, Sharonville, OH 45246",
+    "hood": null,
+    "lat": 39.2795,
+    "lng": -84.4441,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/54176?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "quality-hotel-conference-center-cincinnati-blue-ash",
+    "name": "Quality Hotel Conference Center Cincinnati Blue Ash",
+    "kind": "hotel",
+    "address": "5901 Pfeiffer Road, Blue Ash, OH 45242",
+    "hood": null,
+    "lat": 39.2497,
+    "lng": -84.3681,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/22794?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "delta-hotels-by-marriott-cincinnati-sharonville",
+    "name": "Delta Hotels by Marriott Cincinnati Sharonville",
+    "kind": "hotel",
+    "address": "11320 Chester Rd, Sharonville, OH 45246",
+    "hood": null,
+    "lat": 39.2797,
+    "lng": -84.4433,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/23536?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "livinn-hotel-cincinnati-sharonville-convention-center",
+    "name": "LivINN Hotel Cincinnati / Sharonville Convention Center",
+    "kind": "hotel",
+    "address": "11385 Chester Rd, Sharonville, OH 45246",
+    "hood": null,
+    "lat": 39.2802,
+    "lng": -84.4448,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/23590?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "chester-inn-and-suites",
+    "name": "Chester Inn & Suites",
+    "kind": "hotel",
+    "address": "11440 Chester Rd, Sharonville, OH 45246",
+    "hood": null,
+    "lat": 39.2815,
+    "lng": -84.4424,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/36233?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "holiday-inn-express-hotel-and-suites-cincinnati-blue-ash-by-ihg",
+    "name": "Holiday Inn Express Hotel & Suites Cincinnati-Blue Ash by IHG",
+    "kind": "hotel",
+    "address": "4660 Creek Rd, Cincinnati, OH 45242",
+    "hood": null,
+    "lat": 39.2594,
+    "lng": -84.3785,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/23053?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "hampton-inn-blue-ash-cincinnati",
+    "name": "Hampton Inn Blue Ash/Cincinnati",
+    "kind": "hotel",
+    "address": "4761 Creek Road Blue Ash, Cincinnati, OH 45242",
+    "hood": null,
+    "lat": 39.2581,
+    "lng": -84.3757,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/53375?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "springhill-suites-by-marriott-cincinnati-blue-ash",
+    "name": "SpringHill Suites by Marriott Cincinnati Blue Ash",
+    "kind": "hotel",
+    "address": "4650 Creek Road, Cincinnati, OH 45242",
+    "hood": null,
+    "lat": 39.26,
+    "lng": -84.3788,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/55480?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "comfort-inn-blue-ash-north",
+    "name": "Comfort Inn Blue Ash North",
+    "kind": "hotel",
+    "address": "4640 Creek Rd Blue Ash, Cincinnati, OH 45242",
+    "hood": null,
+    "lat": 39.2605,
+    "lng": -84.3795,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/23229?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "days-inn-and-suites-by-wyndham-cincinnati-north",
+    "name": "Days Inn & Suites by Wyndham Cincinnati North",
+    "kind": "hotel",
+    "address": "400 Glensprings Drive, Cincinnati, OH 45246",
+    "hood": null,
+    "lat": 39.2925,
+    "lng": -84.4873,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/23211?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "travel-inn",
+    "name": "Travel Inn",
+    "kind": "hotel",
+    "address": "2000 E. Kemper Road, Sharonville, OH 45241",
+    "hood": null,
+    "lat": 39.2851,
+    "lng": -84.4395,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/43085?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "studio-lodge-springdale-cincinnati",
+    "name": "Studio Lodge Springdale Cincinnati",
+    "kind": "hotel",
+    "address": "11645 Chesterdale Road, Cincinnati, OH 45246",
+    "hood": null,
+    "lat": 39.2872,
+    "lng": -84.4487,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/22984?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "motel-6-cincinnati-oh",
+    "name": "Motel 6 Cincinnati, OH",
+    "kind": "hotel",
+    "address": "11620 Chester Rd, Sharonville, OH 45246",
+    "hood": null,
+    "lat": 39.2861,
+    "lng": -84.4426,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/23014?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "sonesta-es-suites-cincinnati-sharonville-west",
+    "name": "Sonesta ES Suites Cincinnati - Sharonville West",
+    "kind": "hotel",
+    "address": "11689 Chester Rd, Sharonville, OH 45246",
+    "hood": null,
+    "lat": 39.2875,
+    "lng": -84.4432,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/23424?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "sonesta-es-suites-cincinnati-sharonville-east",
+    "name": "Sonesta ES Suites Cincinnati - Sharonville East",
+    "kind": "hotel",
+    "address": "2670 E Kemper Rd, Sharonville, OH 45241",
+    "hood": null,
+    "lat": 39.2842,
+    "lng": -84.4274,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/40745?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "springhill-suites-cincinnati-north-forest-park",
+    "name": "SpringHill Suites Cincinnati North/Forest Park",
+    "kind": "hotel",
+    "address": "12001 Chase Plz, Cincinnati, OH 45240",
+    "hood": null,
+    "lat": 39.2977,
+    "lng": -84.5266,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/22724?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "spark-by-hilton-cincinnati-fairfield",
+    "name": "Spark by Hilton Cincinnati Fairfield",
+    "kind": "hotel",
+    "address": "1234 Omniplex Dr, Cincinnati, OH 45240",
+    "hood": null,
+    "lat": 39.3029,
+    "lng": -84.5257,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/43624?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "hilton-garden-inn-cincinnati-blue-ash",
+    "name": "Hilton Garden Inn Cincinnati Blue Ash",
+    "kind": "hotel",
+    "address": "5300 Cornell Rd, Cincinnati, OH 45242",
+    "hood": null,
+    "lat": 39.27,
+    "lng": -84.3699,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/37630?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "home2-suites-by-hilton-blue-ash-cincinnati",
+    "name": "Home2 Suites by Hilton Blue Ash Cincinnati",
+    "kind": "hotel",
+    "address": "11235 Cornell Park Drive, Cincinnati, OH 45242",
+    "hood": null,
+    "lat": 39.2713,
+    "lng": -84.3706,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/55056?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "the-blu-hotel-blue-ash-cincinnati-an-ascend-collection-hotel",
+    "name": "The Blu Hotel Blue Ash Cincinnati, an Ascend Collection Hotel",
+    "kind": "hotel",
+    "address": "11349 Reed Hartman Hwy, Cincinnati, OH 45241",
+    "hood": null,
+    "lat": 39.2742,
+    "lng": -84.376,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/22905?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "motel-6-walton-ky-richwood-cincinnati-airport-south",
+    "name": "Motel 6 Walton, KY - Richwood - Cincinnati Airport South",
+    "kind": "hotel",
+    "address": "164 Winning Colors Dr, Walton, KY 41094",
+    "hood": null,
+    "lat": 38.9193,
+    "lng": -84.627,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/29073?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "holiday-inn-express-hotel-and-suites-richwood-cincinnati-south-by-ihg",
+    "name": "Holiday Inn Express Hotel & Suites Richwood-Cincinnati South by IHG",
+    "kind": "hotel",
+    "address": "12928 Frogtown Connector Rd., Walton, KY 41094",
+    "hood": null,
+    "lat": 38.9204,
+    "lng": -84.6314,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/43164?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "hyatt-place-cincinnati-blue-ash",
+    "name": "Hyatt Place Cincinnati/Blue Ash",
+    "kind": "hotel",
+    "address": "11435 Reed Hartman Hwy, Cincinnati, OH 45241",
+    "hood": null,
+    "lat": 39.2761,
+    "lng": -84.3743,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/36885?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "days-inn-by-wyndham-sharonville",
+    "name": "Days Inn by Wyndham Sharonville",
+    "kind": "hotel",
+    "address": "11775 Lebanon Rd, Sharonville, OH 45241",
+    "hood": null,
+    "lat": 39.2875,
+    "lng": -84.3983,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/22928?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "rodeway-inn-sharonville-cincinnati-north",
+    "name": "Rodeway Inn Sharonville - Cincinnati North",
+    "kind": "hotel",
+    "address": "3850 Hauck Rd Sharonville, Sharonville, OH 45241",
+    "hood": null,
+    "lat": 39.2908,
+    "lng": -84.3976,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/50625?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "doubletree-suites-by-hilton-hotel-cincinnati-blue-ash",
+    "name": "DoubleTree Suites by Hilton Hotel Cincinnati - Blue Ash",
+    "kind": "hotel",
+    "address": "6300 E Kemper Rd, Sharonville, OH 45241",
+    "hood": null,
+    "lat": 39.2835,
+    "lng": -84.3704,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/22973?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "red-roof-inn-and-suites-cincinnati-north-mason",
+    "name": "Red Roof Inn & Suites Cincinnati North - Mason",
+    "kind": "hotel",
+    "address": "8870 Governors Hill Dr, Cincinnati, OH 45249",
+    "hood": null,
+    "lat": 39.2898,
+    "lng": -84.3176,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/23373?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "comfort-inn-cincinnati-northeast",
+    "name": "Comfort Inn Cincinnati Northeast",
+    "kind": "hotel",
+    "address": "9011 Fields Ertel Rd, Cincinnati, OH 45249",
+    "hood": null,
+    "lat": 39.2914,
+    "lng": -84.3122,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/22872?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "best-western-plus-whitewater-inn",
+    "name": "Best Western Plus Whitewater Inn",
+    "kind": "hotel",
+    "address": "391 Comfort Dr, Harrison, OH 45030",
+    "hood": null,
+    "lat": 39.2599,
+    "lng": -84.7921,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/22842?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+  },
+  {
+    "id": "super-8-by-wyndham-harrison-oh",
+    "name": "Super 8 by Wyndham Harrison OH",
+    "kind": "hotel",
+    "address": "10900 New Haven Rd, Harrison, OH 45030",
+    "hood": null,
+    "lat": 39.2584,
+    "lng": -84.7985,
+    "url": null,
+    "room_block": null,
+    "booking_portal": {
+      "program": "blink",
+      "url": "https://reservations.visitcincy.com/hotel/single/24882/23371?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
+      "label": "Visit Cincy BLINK 2026 hotel booking portal"
+    },
+    "source_url": "https://reservations.visitcincy.com/hotel/list/24882/m2440",
+    "notes": "Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
   }
 ]

@@ -250,13 +250,17 @@ export function load({ dataDir, siteDir, config, fail, warn }) {
     if (!p.bio && !p.headshot_url && !evs.length && !wks.length) warn(W("people", p.id), "has no bio, headshot, event or work (the page will be thin)", "people with nothing to show");
   }
   let stall = 0;
+  // stall numbers pair list rows with map pins, so only venues on the basemap (data/map.json bbox.core) get one;
+  // a venue in Dayton has coordinates but no pin (E, 2026-09-24; without a map.json every venue with coordinates counts)
+  const mapBox = db.map && db.map.bbox && db.map.bbox.core;
+  const onBasemap = (v) => !mapBox || (v.lat >= mapBox.s && v.lat <= mapBox.n && v.lng >= mapBox.w && v.lng <= mapBox.e);
   for (const v of db.venues) {
     const evs = db.eventsByVenue.get(v.id) || [];
     const wks = db.worksByVenue.get(v.id) || [];
     v.events = evs;
     const progs = new Set([...(v.programs || []), ...evs.map((e) => e.program), ...wks.map((w) => w.program)]);
     v.programs = PROGRAM_IDS.filter((x) => progs.has(x));
-    v.stall = v.lat != null && v.lng != null ? ++stall : null;
+    v.stall = v.lat != null && v.lng != null && onBasemap(v) ? ++stall : null;
     if (evs.length && v.lat == null) warn(W("venues", v.id), "has events but no coordinates (not on the map)", "venues with events but no coordinates");
   }
 

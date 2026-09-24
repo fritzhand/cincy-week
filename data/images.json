@@ -1,65 +1,4681 @@
 {
-  "o/artswave": {
-    "file": "img/o/artswave.webp",
-    "w": 239,
+  "o/1001-colors": {
+    "bg": "#fffdfd",
+    "file": "img/o/1001-colors.webp",
     "h": 160,
+    "source_url": "https://www.blinkcincinnati.com/",
+    "src": "https://blinkcincinnati.b-cdn.net/images/partners/1001colors-logo.png",
+    "tone": "dark",
+    "w": 249
+  },
+  "o/agar": {
+    "bg": "#ffffff",
+    "file": "img/o/agar.webp",
+    "h": 160,
+    "source_url": "https://www.blinkcincinnati.com/",
+    "src": "https://blinkcincinnati.b-cdn.net/images/partners/agar.png",
+    "tone": "dark",
+    "w": 160
+  },
+  "o/alloy-growth-lab": {
+    "bg": "#d4d4d4",
+    "file": "img/o/alloy-growth-lab.webp",
+    "h": 105,
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "src": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840228232026-sucw-sponsor-logos-alloy-growth-lab-png1784022823.png",
+    "tone": "light",
+    "w": 320
+  },
+  "o/altafiber": {
+    "bg": "#595959",
+    "file": "img/o/altafiber.webp",
+    "h": 83,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/altafiber2.jpg",
+    "tone": "dark",
+    "w": 320
+  },
+  "o/america-250-ohio": {
+    "bg": "#4f4f4f",
+    "file": "img/o/america-250-ohio.webp",
+    "h": 160,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/america250logo.jpg",
+    "tone": "dark",
+    "w": 184
+  },
+  "o/american-financial-group-inc": {
+    "bg": "#202020",
+    "file": "img/o/american-financial-group-inc.webp",
+    "h": 160,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/americanfinancialgrouplogo.jpg",
+    "tone": "dark",
+    "w": 305
+  },
+  "o/artswave": {
+    "bg": "#404040",
+    "file": "img/o/artswave.webp",
+    "h": 160,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
     "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/arts-wave2.jpg",
-    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+    "tone": "dark",
+    "w": 254
+  },
+  "o/bartlett-wealth-management": {
+    "bg": "#636363",
+    "file": "img/o/bartlett-wealth-management.webp",
+    "h": 70,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/bartlett.jpg",
+    "tone": "dark",
+    "w": 320
+  },
+  "o/blue-north": {
+    "bg": "#7f9bb0",
+    "file": "img/o/blue-north.webp",
+    "h": 90,
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "src": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840228232026-sucw-sponsor-logos-blue-north-png1784022823.png",
+    "tone": "light",
+    "w": 320
+  },
+  "o/book-plus-street": {
+    "bg": "#d7ce1a",
+    "file": "img/o/book-plus-street.webp",
+    "h": 160,
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "src": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840230692026-sucw-sponsor-logos-book-street-png1784023069.png",
+    "tone": "light",
+    "w": 160
+  },
+  "o/brave-berlin": {
+    "file": "img/o/brave-berlin.svg",
+    "h": 160,
+    "source_url": "https://www.blinkcincinnati.com/",
+    "src": "https://blinkcincinnati.b-cdn.net/images/partners/BB-Logo-Stacked-White-82x46-SVG.svg",
+    "tone": "dark",
+    "w": 285
+  },
+  "o/carol-ann-and-ralph-v-haile-jr-foundation": {
+    "bg": "#181818",
+    "file": "img/o/carol-ann-and-ralph-v-haile-jr-foundation.webp",
+    "h": 140,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/hailefoundation.jpg",
+    "tone": "dark",
+    "w": 320
+  },
+  "o/cincinnati-childrens": {
+    "bg": "#ddd8d9",
+    "file": "img/o/cincinnati-childrens.webp",
+    "h": 105,
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "src": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840224722026-sucw-sponsor-logos-book-amp-street-png1784022472.png",
+    "tone": "light",
+    "w": 320
+  },
+  "o/cincinnati-parks-foundation": {
+    "bg": "#646464",
+    "file": "img/o/cincinnati-parks-foundation.webp",
+    "h": 160,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/cincinnati-parks-foundation2.jpg",
+    "tone": "dark",
+    "w": 163
+  },
+  "o/cincinnati-regional-chamber": {
+    "bg": "#d5e0ef",
+    "file": "img/o/cincinnati-regional-chamber.webp",
+    "h": 114,
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "src": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1787834874b2026-sucw-sponsor-logos-cincinnati-regional-chamber-png1787834874.png",
+    "tone": "light",
+    "w": 320
   },
   "o/cincy-nice": {
+    "bg": "#afaeac",
     "file": "img/o/cincy-nice.webp",
-    "w": 320,
-    "h": 114,
+    "h": 104,
+    "source_url": "https://cincinnatiartweek.com/meet-the-team",
     "src": "https://freight.cargo.site/t/original/i/S3055232852103793472565861195130/CN_logo-01-1.png",
-    "source_url": "https://cincinnatiartweek.com/meet-the-team"
+    "tone": "light",
+    "w": 320
+  },
+  "o/cincytech": {
+    "bg": "#aeadae",
+    "file": "img/o/cincytech.webp",
+    "h": 71,
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "src": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840224722026-sucw-sponsor-logos-cincy-tech-png1784022472.png",
+    "tone": "light",
+    "w": 320
+  },
+  "o/cintas": {
+    "bg": "#5f5f5f",
+    "file": "img/o/cintas.webp",
+    "h": 119,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/cintas.jpg",
+    "tone": "dark",
+    "w": 320
   },
   "o/cintrifuse": {
+    "bg": "#c3cdd1",
     "file": "img/o/cintrifuse.webp",
-    "w": 320,
-    "h": 100,
+    "h": 74,
+    "source_url": "https://startupcincyweek.com/en/partners-page",
     "src": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840219992026-sucw-sponsor-logos-achievers-png1784021999.png",
-    "source_url": "https://startupcincyweek.com/en/partners-page"
+    "tone": "light",
+    "w": 320
+  },
+  "o/city-of-cincinnati": {
+    "bg": "#363636",
+    "file": "img/o/city-of-cincinnati.webp",
+    "h": 70,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/city-of-cincinnati.jpg",
+    "tone": "dark",
+    "w": 320
+  },
+  "o/corporex": {
+    "bg": "#3b3b3b",
+    "file": "img/o/corporex.webp",
+    "h": 93,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/corporexlogo.jpg",
+    "tone": "dark",
+    "w": 320
+  },
+  "o/cvg-airport": {
+    "bg": "#545454",
+    "file": "img/o/cvg-airport.webp",
+    "h": 160,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/cvglogo.jpg",
+    "tone": "dark",
+    "w": 295
+  },
+  "o/d-crane-rental": {
+    "bg": "#7e7e7e",
+    "file": "img/o/d-crane-rental.webp",
+    "h": 48,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/d-crane-rentallogo.jpg",
+    "tone": "dark",
+    "w": 320
+  },
+  "o/dbl-law": {
+    "bg": "#969696",
+    "file": "img/o/dbl-law.webp",
+    "h": 160,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/dbllawlogo.jpg",
+    "tone": "dark",
+    "w": 288
+  },
+  "o/delta": {
+    "bg": "#4a4a4a",
+    "file": "img/o/delta.webp",
+    "h": 49,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/delta.jpg",
+    "tone": "dark",
+    "w": 320
+  },
+  "o/disguise": {
+    "bg": "#3b3b3b",
+    "file": "img/o/disguise.webp",
+    "h": 72,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/disguise.jpg",
+    "tone": "dark",
+    "w": 320
+  },
+  "o/dmg-divisions-maintenance-group": {
+    "bg": "#696969",
+    "file": "img/o/dmg-divisions-maintenance-group.webp",
+    "h": 49,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/dmggrouplogo.jpg",
+    "tone": "dark",
+    "w": 320
+  },
+  "o/dot-dash": {
+    "bg": "#8b8b8b",
+    "file": "img/o/dot-dash.webp",
+    "h": 64,
+    "source_url": "https://www.fotofocus.org/biennial/2026/about#sponsors",
+    "src": "https://www.fotofocus.org/wp-content/uploads/2026/05/Dot-Dash.jpg",
+    "tone": "light",
+    "w": 320
+  },
+  "o/duke-energy": {
+    "bg": "#4d4d4d",
+    "file": "img/o/duke-energy.webp",
+    "h": 103,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/duke-energy.jpg",
+    "tone": "dark",
+    "w": 320
+  },
+  "o/eat-well": {
+    "bg": "#cacaca",
+    "file": "img/o/eat-well.webp",
+    "h": 98,
+    "source_url": "https://www.fotofocus.org/biennial/2026/about#sponsors",
+    "src": "https://www.fotofocus.org/wp-content/uploads/2026/05/Eat-Well.jpg",
+    "tone": "light",
+    "w": 320
+  },
+  "o/ecdi": {
+    "bg": "#d0dbd9",
+    "file": "img/o/ecdi.webp",
+    "h": 160,
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "src": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840233152026-sucw-sponsor-logos-ecdi-png1784023315.png",
+    "tone": "light",
+    "w": 277
+  },
+  "o/fbt-gibbons": {
+    "bg": "#c5dae6",
+    "file": "img/o/fbt-gibbons.webp",
+    "h": 114,
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "src": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840924712026-sucw-sponsor-logos-png1784092471.png",
+    "tone": "light",
+    "w": 320
+  },
+  "o/fifth-third": {
+    "bg": "#ccd7e4",
+    "file": "img/o/fifth-third.webp",
+    "h": 160,
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "src": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840224722026-sucw-sponsor-logos-fifth-third-png1784022472.png",
+    "tone": "light",
+    "w": 300
+  },
+  "o/first-financial-bank": {
+    "bg": "#494949",
+    "file": "img/o/first-financial-bank.webp",
+    "h": 148,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/first-national-bank.jpg",
+    "tone": "dark",
+    "w": 320
+  },
+  "o/fischer-homes": {
+    "bg": "#373737",
+    "file": "img/o/fischer-homes.webp",
+    "h": 87,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/fischerhomeslogo.jpg",
+    "tone": "dark",
+    "w": 320
+  },
+  "o/forvis-mazars": {
+    "bg": "#b6c4dd",
+    "file": "img/o/forvis-mazars.webp",
+    "h": 134,
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "src": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840233822026-sucw-sponsor-logos-forvis-mazars-png1784023382.png",
+    "tone": "light",
+    "w": 320
+  },
+  "o/garage-beer": {
+    "bg": "#5c5c5c",
+    "file": "img/o/garage-beer.webp",
+    "h": 160,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/garage-beer2.jpg",
+    "tone": "dark",
+    "w": 252
+  },
+  "o/ge-aerospace": {
+    "bg": "#373737",
+    "file": "img/o/ge-aerospace.webp",
+    "h": 75,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/ge-aerospace.jpg",
+    "tone": "dark",
+    "w": 320
+  },
+  "o/george-and-margaret-mclane-foundation": {
+    "file": "img/o/george-and-margaret-mclane-foundation.svg",
+    "h": 152,
+    "source_url": "https://cincinnatiartweek.com/sponsors",
+    "src": "https://freight.cargo.site/t/original/i/D3056755110573555085221277769082/k49JPo.svg",
+    "tone": "light",
+    "w": 320
+  },
+  "o/godutch": {
+    "bg": "#5c5c5c",
+    "file": "img/o/godutch.webp",
+    "h": 85,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/godutch12.jpg",
+    "tone": "dark",
+    "w": 320
+  },
+  "o/great-parks": {
+    "bg": "#4f4f4f",
+    "file": "img/o/great-parks.webp",
+    "h": 102,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/great-parks.jpg",
+    "tone": "dark",
+    "w": 320
+  },
+  "o/greater-cincinnati-foundation": {
+    "bg": "#232323",
+    "file": "img/o/greater-cincinnati-foundation.webp",
+    "h": 160,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/greatercincinnatifoundation.jpg",
+    "tone": "dark",
+    "w": 260
+  },
+  "o/h-b-e-w-and-f-r-luther-foundation": {
+    "bg": "#707070",
+    "file": "img/o/h-b-e-w-and-f-r-luther-foundation.webp",
+    "h": 160,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/lutherfoundationlogo.jpg",
+    "tone": "dark",
+    "w": 191
+  },
+  "o/hamilton-county-board-of-county-commissioners": {
+    "bg": "#4a4a4a",
+    "file": "img/o/hamilton-county-board-of-county-commissioners.webp",
+    "h": 93,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/ham-co-commissioners3.jpg",
+    "tone": "dark",
+    "w": 320
+  },
+  "o/hard-rock-casino": {
+    "bg": "#bab4aa",
+    "file": "img/o/hard-rock-casino.webp",
+    "h": 160,
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "src": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840228232026-sucw-sponsor-logos-hard-rock-png1784022823.png",
+    "tone": "light",
+    "w": 213
+  },
+  "o/hccusa": {
+    "bg": "#d0bcc0",
+    "file": "img/o/hccusa.webp",
+    "h": 79,
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "src": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840233152026-sucw-sponsor-logos-hccusa-png1784023315.png",
+    "tone": "light",
+    "w": 320
+  },
+  "o/huntington-bank": {
+    "bg": "#3e3e3e",
+    "file": "img/o/huntington-bank.webp",
+    "h": 109,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/huntingtonbank.jpg",
+    "tone": "dark",
+    "w": 320
+  },
+  "o/hyde-park-venture-partners": {
+    "bg": "#d8e0e0",
+    "file": "img/o/hyde-park-venture-partners.webp",
+    "h": 67,
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "src": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840230692026-sucw-sponsor-logos-hype-park-png1784023069.png",
+    "tone": "light",
+    "w": 320
+  },
+  "o/ikea": {
+    "bg": "#6f6f6f",
+    "file": "img/o/ikea.webp",
+    "h": 110,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/ikealogo.jpg",
+    "tone": "dark",
+    "w": 320
+  },
+  "o/insperity": {
+    "bg": "#cdd1d5",
+    "file": "img/o/insperity.webp",
+    "h": 83,
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "src": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840230692026-sucw-sponsor-logos-insperity-png1784023069.png",
+    "tone": "light",
+    "w": 320
+  },
+  "o/interact-for-health": {
+    "file": "img/o/interact-for-health.svg",
+    "h": 112,
+    "source_url": "https://cincinnatiartweek.com/sponsors",
+    "src": "https://freight.cargo.site/t/original/i/E3056757428056459809425956838778/logo-main.svg",
+    "tone": "light",
+    "w": 320
+  },
+  "o/jacob-g-schmidlapp-trusts-fifth-third-bank-trustee": {
+    "bg": "#292929",
+    "file": "img/o/jacob-g-schmidlapp-trusts-fifth-third-bank-trustee.webp",
+    "h": 65,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/schmidlapplogo.jpg",
+    "tone": "dark",
+    "w": 320
+  },
+  "o/jobsohio-ventures": {
+    "bg": "#d4c6c6",
+    "file": "img/o/jobsohio-ventures.webp",
+    "h": 160,
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "src": "https://vepimg.b8cdn.com/uploads/vjfnew/18090/content/files/1788347851jobsohio-png1788347851.png",
+    "tone": "light",
+    "w": 289
+  },
+  "o/jumpstart": {
+    "bg": "#eaeeed",
+    "file": "img/o/jumpstart.webp",
+    "h": 71,
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "src": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840224732026-sucw-sponsor-logos-jumpstart-png1784022473.png",
+    "tone": "light",
+    "w": 320
+  },
+  "o/kernel": {
+    "bg": "#505456",
+    "file": "img/o/kernel.webp",
+    "h": 67,
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "src": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840224732026-sucw-sponsor-logos-kernel-png1784022473.png",
+    "tone": "light",
+    "w": 320
+  },
+  "o/keyhorse-capital": {
+    "bg": "#becacf",
+    "file": "img/o/keyhorse-capital.webp",
+    "h": 84,
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "src": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840230692026-sucw-sponsor-logos-keyhorse-png1784023069.png",
+    "tone": "light",
+    "w": 320
+  },
+  "o/kinley-cincinnati": {
+    "file": "img/o/kinley-cincinnati.svg",
+    "h": 144,
+    "source_url": "https://cincinnatiartweek.com/sponsors",
+    "src": "https://freight.cargo.site/t/original/i/D3056767186826796659547790941562/Kinley_hotel.svg",
+    "tone": "light",
+    "w": 320
+  },
+  "o/kmk-law": {
+    "bg": "#eaf0e9",
+    "file": "img/o/kmk-law.webp",
+    "h": 97,
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "src": "https://vepimg.b8cdn.com/uploads/vjfnew/18090/content/files/1788516838kmk-law-png1788516838.png",
+    "tone": "light",
+    "w": 320
+  },
+  "o/kroger": {
+    "bg": "#c3d2e5",
+    "file": "img/o/kroger.webp",
+    "h": 160,
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "src": "https://vepimg.b8cdn.com/uploads/vjfnew/18090/content/files/1788364290kroger-png1788364290.png",
+    "tone": "light",
+    "w": 288
+  },
+  "o/lifesciky": {
+    "bg": "#c8d0d9",
+    "file": "img/o/lifesciky.webp",
+    "h": 160,
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "src": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840230692026-sucw-sponsor-logos-lifesciky-png1784023069.png",
+    "tone": "light",
+    "w": 191
+  },
+  "o/lightact": {
+    "bg": "#3f3f3f",
+    "file": "img/o/lightact.webp",
+    "h": 72,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/lightact.jpg",
+    "tone": "dark",
+    "w": 320
+  },
+  "o/lightborne": {
+    "bg": "#d7d7d7",
+    "file": "img/o/lightborne.webp",
+    "h": 139,
+    "source_url": "https://www.fotofocus.org/biennial/2026/about#sponsors",
+    "src": "https://www.fotofocus.org/wp-content/uploads/2026/05/Lightborne.jpg",
+    "tone": "light",
+    "w": 320
+  },
+  "o/luther-foundation": {
+    "bg": "#b6b6b6",
+    "file": "img/o/luther-foundation.webp",
+    "h": 68,
+    "source_url": "https://www.fotofocus.org/biennial/2026/about#sponsors",
+    "src": "https://www.fotofocus.org/wp-content/uploads/2026/05/Luther-Foundation.jpg",
+    "tone": "light",
+    "w": 320
+  },
+  "o/meetnky": {
+    "bg": "#565656",
+    "file": "img/o/meetnky.webp",
+    "h": 146,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/meetnkylogo.jpg",
+    "tone": "dark",
+    "w": 320
+  },
+  "o/merus": {
+    "bg": "#7e7e7e",
+    "file": "img/o/merus.webp",
+    "h": 41,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/merus2.jpg",
+    "tone": "dark",
+    "w": 320
+  },
+  "o/metro": {
+    "bg": "#3a3a3a",
+    "file": "img/o/metro.webp",
+    "h": 160,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/metrologo.jpg",
+    "tone": "dark",
+    "w": 181
+  },
+  "o/mevix-panasonic-projector-and-display-americas": {
+    "bg": "#575757",
+    "file": "img/o/mevix-panasonic-projector-and-display-americas.webp",
+    "h": 129,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/panasonic-mevixlogo.jpg",
+    "tone": "dark",
+    "w": 320
+  },
+  "o/miami-university": {
+    "bg": "#bda8aa",
+    "file": "img/o/miami-university.webp",
+    "h": 77,
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "src": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840224732026-sucw-sponsor-logos-miami-u-png1784022473.png",
+    "tone": "light",
+    "w": 320
+  },
+  "o/millstone-fund": {
+    "bg": "#595959",
+    "file": "img/o/millstone-fund.webp",
+    "h": 160,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/millstonefundlogo.jpg",
+    "tone": "dark",
+    "w": 199
+  },
+  "o/mobile-infrastructure": {
+    "bg": "#f4cfcf",
+    "file": "img/o/mobile-infrastructure.webp",
+    "h": 67,
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "src": "https://vepimg.b8cdn.com/uploads/vjfnew/18090/content/files/1788516838mobile-infrastructure-png1788516838.png",
+    "tone": "light",
+    "w": 320
+  },
+  "o/monster-energy": {
+    "bg": "#272727",
+    "file": "img/o/monster-energy.webp",
+    "h": 145,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/monster-energy.jpg",
+    "tone": "dark",
+    "w": 320
+  },
+  "o/national-endowment-for-the-arts": {
+    "bg": "#696969",
+    "file": "img/o/national-endowment-for-the-arts.webp",
+    "h": 160,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/nationalendowment.jpg",
+    "tone": "dark",
+    "w": 134
+  },
+  "o/no-standing": {
+    "bg": "#c6c6c6",
+    "file": "img/o/no-standing.webp",
+    "h": 66,
+    "source_url": "https://cincinnatiartweek.com/meet-the-team",
+    "src": "https://freight.cargo.site/t/original/i/X3056227410487243323738964925818/NoStanding_RGB_B.png",
+    "tone": "light",
+    "w": 320
+  },
+  "o/notion": {
+    "bg": "#b4b4b4",
+    "file": "img/o/notion.webp",
+    "h": 93,
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "src": "https://vepimg.b8cdn.com/uploads/vjfnew/18090/content/files/1788364290notion-png1788364290.png",
+    "tone": "light",
+    "w": 320
+  },
+  "o/ohio-arts-council": {
+    "bg": "#323232",
+    "file": "img/o/ohio-arts-council.webp",
+    "h": 81,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/ohioartscouncil2.jpg",
+    "tone": "dark",
+    "w": 320
+  },
+  "o/ohio-humanities": {
+    "bg": "#a9a9a9",
+    "file": "img/o/ohio-humanities.webp",
+    "h": 100,
+    "source_url": "https://www.fotofocus.org/biennial/2026/about#sponsors",
+    "src": "https://www.fotofocus.org/wp-content/uploads/2026/07/Ohio-Humanities.jpg",
+    "tone": "light",
+    "w": 320
+  },
+  "o/origin-ventures": {
+    "bg": "#b2b9c3",
+    "file": "img/o/origin-ventures.webp",
+    "h": 78,
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "src": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840233152026-sucw-sponsor-logos-origin-ventures-png1784023315.png",
+    "tone": "light",
+    "w": 320
+  },
+  "o/oswald": {
+    "bg": "#333333",
+    "file": "img/o/oswald.webp",
+    "h": 107,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/oswald.jpg",
+    "tone": "dark",
+    "w": 320
+  },
+  "o/paycor": {
+    "bg": "#e0dfe0",
+    "file": "img/o/paycor.webp",
+    "h": 130,
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "src": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1786339737b2026-sucw-sponsor-logos-svb-copy-png1786339737.png",
+    "tone": "light",
+    "w": 320
+  },
+  "o/pepsi": {
+    "bg": "#525252",
+    "file": "img/o/pepsi.webp",
+    "h": 160,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/pepsilogo.jpg",
+    "tone": "dark",
+    "w": 160
+  },
+  "o/pixera": {
+    "bg": "#565656",
+    "file": "img/o/pixera.webp",
+    "h": 69,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/pixera.jpg",
+    "tone": "dark",
+    "w": 320
+  },
+  "o/plante-moran": {
+    "bg": "#cfd0d3",
+    "file": "img/o/plante-moran.webp",
+    "h": 53,
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "src": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1786339736b2026-sucw-sponsor-logos-plante-moran-png1786339736.png",
+    "tone": "light",
+    "w": 320
+  },
+  "o/pnc": {
+    "bg": "#d6d3d0",
+    "file": "img/o/pnc.webp",
+    "h": 95,
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "src": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840228232026-sucw-sponsor-logos-pnc-png1784022823.png",
+    "tone": "light",
+    "w": 320
+  },
+  "o/procter-and-gamble": {
+    "bg": "#8fb3d6",
+    "file": "img/o/procter-and-gamble.webp",
+    "h": 139,
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "src": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840216182026-sucw-sponsor-logos-p-amp-g-png1784021618.png",
+    "tone": "light",
+    "w": 320
+  },
+  "o/prog-blink": {
+    "file": "img/o/prog-blink.svg",
+    "h": 160,
+    "source_url": "https://www.blinkcincinnati.com/about-blink",
+    "src": "https://www.blinkcincinnati.com/images/Blink_26_ArtswaveLockup_RGB.svg",
+    "tone": "light",
+    "w": 241
+  },
+  "o/prog-caw": {
+    "file": "img/o/prog-caw.svg",
+    "h": 142,
+    "source_url": "https://cincinnatiartweek.com/",
+    "src": "https://freight.cargo.site/t/original/i/N3016534495316871470170954571130/CAW_FULL_DARK.svg",
+    "tone": "light",
+    "w": 320
+  },
+  "o/prog-scw": {
+    "bg": "#c6c1c1",
+    "file": "img/o/prog-scw.webp",
+    "h": 109,
+    "source_url": "https://startupcincyweek.com/",
+    "src": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1767721253sucw2026-logo-1-png1767721253.png",
+    "tone": "light",
+    "w": 320
+  },
+  "o/qca-ventures": {
+    "bg": "#c6c1d8",
+    "file": "img/o/qca-ventures.webp",
+    "h": 143,
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "src": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840230692026-sucw-sponsor-logos-qca-ventures-png1784023069.png",
+    "tone": "light",
+    "w": 320
+  },
+  "o/ramp": {
+    "bg": "#bfbfbf",
+    "file": "img/o/ramp.webp",
+    "h": 84,
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "src": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840228232026-sucw-sponsor-logos-ramp-png1784022823.png",
+    "tone": "light",
+    "w": 320
+  },
+  "o/redi-cincinnati": {
+    "bg": "#e8e6e7",
+    "file": "img/o/redi-cincinnati.webp",
+    "h": 160,
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "src": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840228232026-sucw-sponsor-logos-redi-png1784022823.png",
+    "tone": "light",
+    "w": 160
+  },
+  "o/richter-and-phillips": {
+    "bg": "#353535",
+    "file": "img/o/richter-and-phillips.webp",
+    "h": 62,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/richterphillips.jpg",
+    "tone": "dark",
+    "w": 320
+  },
+  "o/saint-ursula-academy": {
+    "bg": "#ebebea",
+    "file": "img/o/saint-ursula-academy.webp",
+    "h": 107,
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "src": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1787834874b2026-sucw-sponsor-logos-st-ursala-png1787834874.png",
+    "tone": "light",
+    "w": 320
+  },
+  "o/sam-adams": {
+    "bg": "#bfc6d1",
+    "file": "img/o/sam-adams.webp",
+    "h": 160,
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "src": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840224732026-sucw-sponsor-logos-sam-adams-png1784022473.png",
+    "tone": "light",
+    "w": 267
+  },
+  "o/scripps": {
+    "bg": "#6c6c6c",
+    "file": "img/o/scripps.webp",
+    "h": 63,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/scripps2.jpg",
+    "tone": "dark",
+    "w": 320
+  },
+  "o/skyline-chili": {
+    "bg": "#7e7e7e",
+    "file": "img/o/skyline-chili.webp",
+    "h": 160,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/skyline3.jpg",
+    "tone": "dark",
+    "w": 226
+  },
+  "o/spotted-yeti": {
+    "bg": "#d4d4d4",
+    "file": "img/o/spotted-yeti.webp",
+    "h": 113,
+    "source_url": "https://www.fotofocus.org/biennial/2026/about#sponsors",
+    "src": "https://www.fotofocus.org/wp-content/uploads/2026/05/Spotted-Yeti.jpg",
+    "tone": "light",
+    "w": 320
+  },
+  "o/startupcincy": {
+    "bg": "#a9a8ae",
+    "file": "img/o/startupcincy.webp",
+    "h": 53,
+    "source_url": "https://startupcincy.com/about-startupcincy/",
+    "src": "https://startupcincy.com/wp-content/uploads/2024/11/StartupCincy-Logo-_-Full-Color-1.png",
+    "tone": "light",
+    "w": 320
+  },
+  "o/svb": {
+    "bg": "#cbd6db",
+    "file": "img/o/svb.webp",
+    "h": 85,
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "src": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840233152026-sucw-sponsor-logos-svb-png1784023315.png",
+    "tone": "light",
+    "w": 320
+  },
+  "o/taft": {
+    "bg": "#bcb7b7",
+    "file": "img/o/taft.webp",
+    "h": 136,
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "src": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840228232026-sucw-sponsor-logos-taft-png1784022823.png",
+    "tone": "light",
+    "w": 320
+  },
+  "o/tembo": {
+    "bg": "#a3a3a4",
+    "file": "img/o/tembo.webp",
+    "h": 59,
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "src": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840224732026-sucw-sponsor-logos-tembo-png1784022473.png",
+    "tone": "light",
+    "w": 320
+  },
+  "o/the-bob-and-jeanne-coughlin-foundation": {
+    "bg": "#222222",
+    "file": "img/o/the-bob-and-jeanne-coughlin-foundation.webp",
+    "h": 108,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/bobcoughlin.jpg",
+    "tone": "dark",
+    "w": 320
+  },
+  "o/the-christ-hospital-health-network": {
+    "bg": "#3a3a3a",
+    "file": "img/o/the-christ-hospital-health-network.webp",
+    "h": 80,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/christhospitallogo.jpg",
+    "tone": "dark",
+    "w": 320
+  },
+  "o/the-edelweiss-foundation": {
+    "bg": "#2e2e2e",
+    "file": "img/o/the-edelweiss-foundation.webp",
+    "h": 76,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/the-edelweiss-foundation.jpg",
+    "tone": "dark",
+    "w": 320
+  },
+  "o/the-enquirer-cincinnati-com": {
+    "bg": "#3d3d3d",
+    "file": "img/o/the-enquirer-cincinnati-com.webp",
+    "h": 120,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/the-enquirer.jpg",
+    "tone": "dark",
+    "w": 320
+  },
+  "o/the-gratitude-collective": {
+    "bg": "#f7a2a7",
+    "file": "img/o/the-gratitude-collective.webp",
+    "h": 153,
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "src": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1787834874b2026-sucw-sponsor-logos-gratitude-collective-copy-png1787834874.png",
+    "tone": "light",
+    "w": 320
+  },
+  "o/the-harry-t-wilks-family-foundation": {
+    "bg": "#383838",
+    "file": "img/o/the-harry-t-wilks-family-foundation.webp",
+    "h": 80,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/harrytwilks.jpg",
+    "tone": "dark",
+    "w": 320
+  },
+  "o/the-johnson-foundation": {
+    "bg": "#474747",
+    "file": "img/o/the-johnson-foundation.webp",
+    "h": 59,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/the-johnson-foundation.jpg",
+    "tone": "dark",
+    "w": 320
+  },
+  "o/the-louise-taft-semple-foundation": {
+    "bg": "#3f3f3f",
+    "file": "img/o/the-louise-taft-semple-foundation.webp",
+    "h": 80,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/louisetaftsemplefoundation.jpg",
+    "tone": "dark",
+    "w": 320
+  },
+  "o/the-unnewehr-foundation": {
+    "bg": "#313131",
+    "file": "img/o/the-unnewehr-foundation.webp",
+    "h": 160,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/the-unnewehr-foundation.jpg",
+    "tone": "dark",
+    "w": 181
+  },
+  "o/thompson-hine": {
+    "bg": "#dbdbdb",
+    "file": "img/o/thompson-hine.webp",
+    "h": 125,
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "src": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840224732026-sucw-sponsor-logos-thompson-hine-png1784022473.png",
+    "tone": "light",
+    "w": 320
+  },
+  "o/towne-properties": {
+    "bg": "#4b4b4b",
+    "file": "img/o/towne-properties.webp",
+    "h": 91,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/towne-properties.jpg",
+    "tone": "dark",
+    "w": 320
+  },
+  "o/turner-construction-company": {
+    "bg": "#767676",
+    "file": "img/o/turner-construction-company.webp",
+    "h": 117,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/turner-construction.jpg",
+    "tone": "dark",
+    "w": 320
+  },
+  "o/university-of-cincinnati": {
+    "bg": "#e4d7d7",
+    "file": "img/o/university-of-cincinnati.webp",
+    "h": 144,
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "src": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840224732026-sucw-sponsor-logos-university-of-cincinnati-png1784022473.png",
+    "tone": "light",
+    "w": 320
+  },
+  "o/urban-hikers": {
+    "bg": "#b09c13",
+    "file": "img/o/urban-hikers.webp",
+    "h": 160,
+    "source_url": "https://www.blinkcincinnati.com/resources/walking-tours",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/circle-logo75-blackbackground2.jpg",
+    "tone": "dark",
+    "w": 160
+  },
+  "o/urban-sites": {
+    "bg": "#484848",
+    "file": "img/o/urban-sites.webp",
+    "h": 51,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/urbansiteslogo.jpg",
+    "tone": "dark",
+    "w": 320
+  },
+  "o/us-bank": {
+    "bg": "#bf9eb3",
+    "file": "img/o/us-bank.webp",
+    "h": 80,
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "src": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840230692026-sucw-sponsor-logos-us-bank-png1784023069.png",
+    "tone": "light",
+    "w": 320
+  },
+  "o/vfairs": {
+    "bg": "#ffffff",
+    "file": "img/o/vfairs.webp",
+    "h": 64,
+    "source_url": "https://startupcincyweek.com/",
+    "src": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1748437873poweredby-white-png1748437873.png",
+    "tone": "dark",
+    "w": 286
+  },
+  "o/visitcincy": {
+    "bg": "#c1d8b4",
+    "file": "img/o/visitcincy.webp",
+    "h": 160,
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "src": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1786339737b2026-sucw-sponsor-logos-visit-cincy-png1786339737.png",
+    "tone": "light",
+    "w": 303
+  },
+  "o/vurvey": {
+    "bg": "#525252",
+    "file": "img/o/vurvey.webp",
+    "h": 82,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/vurvey.jpg",
+    "tone": "dark",
+    "w": 320
+  },
+  "o/western-and-southern-financial-group": {
+    "bg": "#2d2d2d",
+    "file": "img/o/western-and-southern-financial-group.webp",
+    "h": 70,
+    "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+    "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/westernsouthernlogo.jpg",
+    "tone": "dark",
+    "w": 320
+  },
+  "p/0h10m1ke": {
+    "bg": "#7566a4",
+    "file": "img/p/0h10m1ke.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/0h10m1ke-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/0h10m1ke",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/0h10m1ke.jpg",
+    "w": 320
+  },
+  "p/aaron-bradley": {
+    "bg": "#919091",
+    "file": "img/p/aaron-bradley.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/aaron-bradley-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/aaron-bradley-headshot_1788266697754.jpeg",
+    "w": 320
+  },
+  "p/aaron-sechrist": {
+    "bg": "#65585b",
+    "file": "img/p/aaron-sechrist.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/aaron-sechrist-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.eventbrite.com/e/no-grid-a-creative-conversation-series-tickets-2000523175671",
+    "src": "https://cdn.evbuc.com/images/1193475625/324262115413/1/original.20260914-183501",
+    "w": 320
+  },
+  "p/abby-grimm": {
+    "bg": "#191615",
+    "file": "img/p/abby-grimm.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/abby-grimm-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://vfairs-api.s3.amazonaws.com/18090/1242853012/1763594517954.jpg",
+    "w": 320
+  },
+  "p/adam-bianco": {
+    "bg": "#c7ccca",
+    "file": "img/p/adam-bianco.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/adam-bianco-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://vfairs-api.s3.amazonaws.com/18090/1243044004/Adam-Bianco-Head-Shot.jpg",
+    "w": 320
+  },
+  "p/aerosculpture": {
+    "bg": "#878787",
+    "file": "img/p/aerosculpture.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/aerosculpture-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/arosculpture",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/arosculpture.jpg",
+    "w": 320
+  },
+  "p/aftab-pureval": {
+    "bg": "#958f96",
+    "file": "img/p/aftab-pureval.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/aftab-pureval-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/images%20(8)_1788260356471.jpg",
+    "w": 320
   },
   "p/alex-yocum": {
+    "bg": "#baa484",
     "file": "img/p/alex-yocum.webp",
-    "w": 256,
-    "h": 256,
+    "h": 320,
+    "sm": {
+      "file": "img/p/alex-yocum-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
     "src": "https://data-us.vfairs.com/V2/18090/users/swirleys-6_1789652963572.png",
-    "source_url": "https://startupcincyweek.com/en/agenda-page"
+    "w": 320
+  },
+  "p/alex-zyndorf": {
+    "bg": "#6e685f",
+    "file": "img/p/alex-zyndorf.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/alex-zyndorf-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/1744816858574_1788370202717.jpg",
+    "w": 320
+  },
+  "p/ali-crowdus": {
+    "bg": "#2d201c",
+    "file": "img/p/ali-crowdus.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/ali-crowdus-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/AC_vert_resized_1789575468560.png",
+    "w": 320
+  },
+  "p/allison-schroeder": {
+    "bg": "#884c6b",
+    "file": "img/p/allison-schroeder.webp",
+    "h": 183,
+    "sm": {
+      "file": "img/p/allison-schroeder-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/images%20(11)_1788267899445.jpg",
+    "w": 183
+  },
+  "p/allyson-west": {
+    "bg": "#594741",
+    "file": "img/p/allyson-west.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/allyson-west-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/Allyson-West_2026_1789578287616.png",
+    "w": 320
+  },
+  "p/amelia-wares": {
+    "bg": "#7c6958",
+    "file": "img/p/amelia-wares.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/amelia-wares-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/UCFallshoot2026-727_1789579464096.png",
+    "w": 320
+  },
+  "p/amy-vaughan": {
+    "bg": "#4b5c44",
+    "file": "img/p/amy-vaughan.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/amy-vaughan-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/Screenshot%202026-09-01%20084630_1788266846202.png",
+    "w": 320
+  },
+  "p/ana-tomashvili": {
+    "bg": "#635249",
+    "file": "img/p/ana-tomashvili.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/ana-tomashvili-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/ana-tomashvili",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/ana-tomashvili.png",
+    "w": 320
+  },
+  "p/aniruddhan-ramesh": {
+    "bg": "#bbb3b8",
+    "file": "img/p/aniruddhan-ramesh.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/aniruddhan-ramesh-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://vfairs-api.s3.amazonaws.com/18090/1242910695/Aniruddhan_Ramesh_Headshot-Color.jpg",
+    "w": 320
+  },
+  "p/ann-mooney": {
+    "bg": "#c8bdb4",
+    "file": "img/p/ann-mooney.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/ann-mooney-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://vfairs-api.s3.amazonaws.com/18090/1243028295/1.png",
+    "w": 320
+  },
+  "p/antony-seppi": {
+    "bg": "#96847f",
+    "file": "img/p/antony-seppi.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/antony-seppi-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/Seppi-Headshot-2026---compressed_1789651145811.png",
+    "w": 320
+  },
+  "p/arya-garg": {
+    "bg": "#9c888a",
+    "file": "img/p/arya-garg.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/arya-garg-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://vfairs-api.s3.amazonaws.com/18090/1243066065/1694706220033.jpeg",
+    "w": 320
+  },
+  "p/austin-zani": {
+    "bg": "#79837d",
+    "file": "img/p/austin-zani.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/austin-zani-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/1715116395611_1788214427054.jpeg",
+    "w": 320
+  },
+  "p/barbara-hauser": {
+    "bg": "#704d33",
+    "file": "img/p/barbara-hauser.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/barbara-hauser-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://vfairs-api.s3.amazonaws.com/18090/1243061093/BH-Headshot.png",
+    "w": 320
+  },
+  "p/beamhacker": {
+    "bg": "#9e1d02",
+    "file": "img/p/beamhacker.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/beamhacker-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/beamhacker",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/beamhacker.jpeg",
+    "w": 320
+  },
+  "p/bethany-george": {
+    "bg": "#a0759b",
+    "file": "img/p/bethany-george.webp",
+    "h": 200,
+    "sm": {
+      "file": "img/p/bethany-george-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/1773788983169_1788214527665.jpeg",
+    "w": 200
+  },
+  "p/betty-poling": {
+    "bg": "#7d6a62",
+    "file": "img/p/betty-poling.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/betty-poling-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/Headshot-for-StartUp-Cincy_1789576417847.png",
+    "w": 320
+  },
+  "p/big-art": {
+    "bg": "#95847f",
+    "file": "img/p/big-art.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/big-art-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/big-art",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/big-art.jpg",
+    "w": 320
+  },
+  "p/black-art-speaks": {
+    "bg": "#544d49",
+    "file": "img/p/black-art-speaks.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/black-art-speaks-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/black-art-speaks",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/basgroupphoto2.jpg",
+    "w": 320
+  },
+  "p/brad-wise": {
+    "bg": "#3e3e3e",
+    "file": "img/p/brad-wise.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/brad-wise-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://vfairs-api.s3.amazonaws.com/18090/1242775214/BradW-headshot.jpg",
+    "w": 320
+  },
+  "p/brendon-cull": {
+    "bg": "#29262f",
+    "file": "img/p/brendon-cull.webp",
+    "h": 200,
+    "sm": {
+      "file": "img/p/brendon-cull-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/Brendon%20Cull%20_1790184841239.jpg",
+    "w": 200
+  },
+  "p/brett-bolton": {
+    "bg": "#29425b",
+    "file": "img/p/brett-bolton.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/brett-bolton-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/brett-bolton",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/brett-bolton.jpg",
+    "w": 320
+  },
+  "p/brett-jewell": {
+    "bg": "#688c92",
+    "file": "img/p/brett-jewell.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/brett-jewell-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://vfairs-api.s3.amazonaws.com/18090/1242902589/A9_leadership-photos-JULY2026-BEM-4.jpg",
+    "w": 320
+  },
+  "p/brian-duerring": {
+    "bg": "#765b42",
+    "file": "img/p/brian-duerring.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/brian-duerring-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://vfairs-api.s3.amazonaws.com/18090/1242901317/Cintrifuse-Headshot---Brian---2022---800x748.png",
+    "w": 320
+  },
+  "p/brian-grimberg": {
+    "bg": "#63595c",
+    "file": "img/p/brian-grimberg.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/brian-grimberg-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://vfairs-api.s3.amazonaws.com/18090/1242898873/Headshot.jpeg",
+    "w": 320
+  },
+  "p/calvin-davis": {
+    "bg": "#62565b",
+    "file": "img/p/calvin-davis.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/calvin-davis-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://vfairs-api.s3.amazonaws.com/18090/1243060818/Untitled-design.jpg",
+    "w": 320
+  },
+  "p/candida-crasto": {
+    "bg": "#927e7e",
+    "file": "img/p/candida-crasto.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/candida-crasto-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/IMG_2828_1789652437972.png",
+    "w": 320
+  },
+  "p/carmen-winant": {
+    "bg": "#a69997",
+    "file": "img/p/carmen-winant.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/carmen-winant-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.fotofocus.org/biennial/2026/events/participants#carmen-winant",
+    "src": "https://www.fotofocus.org/wp-content/uploads/2026/08/Winant_Headshot_-Jordan-Weitzman.jpg",
+    "w": 320
+  },
+  "p/casey-sprague": {
+    "bg": "#846d5d",
+    "file": "img/p/casey-sprague.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/casey-sprague-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://vfairs-api.s3.amazonaws.com/18090/1242866092/2025SUCWHeadshotsByRhineMedia_16641.jpg",
+    "w": 320
+  },
+  "p/catherine-jue": {
+    "bg": "#767676",
+    "file": "img/p/catherine-jue.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/catherine-jue-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/1585011150006_1788264784903.jpg",
+    "w": 320
+  },
+  "p/catherine-lentz": {
+    "bg": "#53463c",
+    "file": "img/p/catherine-lentz.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/catherine-lentz-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/C.-Lentz---ECDI-headshot-3_1789652223072.png",
+    "w": 320
+  },
+  "p/cedric-michael-cox-and-studio-181-brent-keltch": {
+    "bg": "#55524a",
+    "file": "img/p/cedric-michael-cox-and-studio-181-brent-keltch.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/cedric-michael-cox-and-studio-181-brent-keltch-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/cedric-michael-cox-studio-181-brent-keltch",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/ngp7564.jpg",
+    "w": 320
   },
   "p/chase-dawson": {
+    "bg": "#a6916e",
     "file": "img/p/chase-dawson.webp",
-    "w": 256,
-    "h": 256,
+    "h": 320,
+    "sm": {
+      "file": "img/p/chase-dawson-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
     "src": "https://data-us.vfairs.com/V2/18090/users/swirleys-3_1789652883955.png",
-    "source_url": "https://startupcincyweek.com/en/agenda-page"
+    "w": 320
+  },
+  "p/chase-melendez": {
+    "bg": "#979994",
+    "file": "img/p/chase-melendez.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/chase-melendez-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/chase-melendez",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/chase-melendez.jpg",
+    "w": 320
+  },
+  "p/chaske-haverkos": {
+    "bg": "#365896",
+    "file": "img/p/chaske-haverkos.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/chaske-haverkos-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/chaske-haverkos",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/chaske-haverkos.jpg",
+    "w": 320
+  },
+  "p/chris-bergman": {
+    "bg": "#626659",
+    "file": "img/p/chris-bergman.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/chris-bergman-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/image--10-_1789652101882.png",
+    "w": 320
+  },
+  "p/chris-ritter": {
+    "bg": "#929292",
+    "file": "img/p/chris-ritter.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/chris-ritter-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://vfairs-api.s3.amazonaws.com/18090/1242877350/P1012979.jpg",
+    "w": 320
+  },
+  "p/christin-godale": {
+    "bg": "#7d8c9e",
+    "file": "img/p/christin-godale.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/christin-godale-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/IMG_1524_1789651954913.png",
+    "w": 320
+  },
+  "p/christina-moss": {
+    "bg": "#8c5750",
+    "file": "img/p/christina-moss.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/christina-moss-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/DSC06856.2_1789578683236.png",
+    "w": 320
+  },
+  "p/christo-squier-and-thomas-blackburn": {
+    "bg": "#1f262b",
+    "file": "img/p/christo-squier-and-thomas-blackburn.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/christo-squier-and-thomas-blackburn-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/christo-squier-thomas-blackburn",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/christo-squier-thomas-blackburn.jpg",
+    "w": 320
+  },
+  "p/christy-johnson": {
+    "bg": "#645e57",
+    "file": "img/p/christy-johnson.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/christy-johnson-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/1761144020051_1788214599296.jpeg",
+    "w": 320
+  },
+  "p/chuck-mobley": {
+    "bg": "#50493d",
+    "file": "img/p/chuck-mobley.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/chuck-mobley-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://vfairs-api.s3.amazonaws.com/18090/1242938045/Chuck-Mobley_hs.jpg",
+    "w": 320
+  },
+  "p/courtney-carroll": {
+    "bg": "#93715c",
+    "file": "img/p/courtney-carroll.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/courtney-carroll-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/Courtney_Cafe_shoot-13_1789651637650.png",
+    "w": 320
+  },
+  "p/custom-fibre-optics-ltd": {
+    "bg": "#978d83",
+    "file": "img/p/custom-fibre-optics-ltd.webp",
+    "h": 152,
+    "sm": {
+      "file": "img/p/custom-fibre-optics-ltd-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/custom-fibre-optics-ltd",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/custom-fibre-optics-ltd.jpeg",
+    "w": 152
+  },
+  "p/damian-grey": {
+    "bg": "#8e8680",
+    "file": "img/p/damian-grey.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/damian-grey-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://vfairs-api.s3.amazonaws.com/18090/1242775203/Profile---Circle_2023v3.png",
+    "w": 320
+  },
+  "p/dan-brown": {
+    "bg": "#524344",
+    "file": "img/p/dan-brown.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/dan-brown-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/headshot_1788261337770.jpeg",
+    "w": 320
+  },
+  "p/daniel-immerwahr": {
+    "bg": "#577493",
+    "file": "img/p/daniel-immerwahr.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/daniel-immerwahr-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.fotofocus.org/biennial/2026/events/participants#Daniel-immerwahr",
+    "src": "https://www.fotofocus.org/wp-content/uploads/2026/08/Immerwahr_Headshot_-Sam-Varley_Stephens.jpg",
+    "w": 320
+  },
+  "p/daniel-levine": {
+    "bg": "#a2957b",
+    "file": "img/p/daniel-levine.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/daniel-levine-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/Screenshot%202026-09-01%20075823_1788263983821.png",
+    "w": 320
+  },
+  "p/daniel-rossa": {
+    "bg": "#afaaa5",
+    "file": "img/p/daniel-rossa.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/daniel-rossa-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/daniel-rossa",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/danielrossa.jpg",
+    "w": 320
+  },
+  "p/daniel-shields": {
+    "bg": "#8a7b7e",
+    "file": "img/p/daniel-shields.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/daniel-shields-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/daniel-shields",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/daniel-shields.jpg",
+    "w": 320
+  },
+  "p/darrin-murriner": {
+    "bg": "#898687",
+    "file": "img/p/darrin-murriner.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/darrin-murriner-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/Darrin-Headshot-Small_1789577806023.png",
+    "w": 320
+  },
+  "p/dave-hutten": {
+    "bg": "#6d6458",
+    "file": "img/p/dave-hutten.webp",
+    "h": 200,
+    "sm": {
+      "file": "img/p/dave-hutten-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/1517669767162_1788628819937.jpg",
+    "w": 200
+  },
+  "p/dave-theus": {
+    "bg": "#aeaaa8",
+    "file": "img/p/dave-theus.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/dave-theus-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/DaveTheus-Headshot1_1789652308385.png",
+    "w": 320
+  },
+  "p/david-uhlenhake": {
+    "bg": "#c5b1b0",
+    "file": "img/p/david-uhlenhake.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/david-uhlenhake-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/Screenshot-2026-09-03-194802_1789652174597.png",
+    "w": 320
+  },
+  "p/david-wysong": {
+    "bg": "#d7bfa6",
+    "file": "img/p/david-wysong.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/david-wysong-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/IMG_8026_1789577938946.png",
+    "w": 320
+  },
+  "p/decidekit": {
+    "bg": "#677557",
+    "file": "img/p/decidekit.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/decidekit-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/decidekit",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/decidekit.jpg",
+    "w": 320
+  },
+  "p/denise-dunlap": {
+    "bg": "#7d6f6b",
+    "file": "img/p/denise-dunlap.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/denise-dunlap-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://vfairs-api.s3.amazonaws.com/18090/1242867039/Denise-D-Headshot--1-.jpg",
+    "w": 320
+  },
+  "p/dora-cheng": {
+    "bg": "#6f6256",
+    "file": "img/p/dora-cheng.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/dora-cheng-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/IMG_2228_1789576453312.png",
+    "w": 320
+  },
+  "p/doug-hardesty": {
+    "bg": "#564e44",
+    "file": "img/p/doug-hardesty.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/doug-hardesty-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/Screenshot-2025-05-28-at-3.55.33---PM_1789651294629.png",
+    "w": 320
+  },
+  "p/drew-merritt": {
+    "bg": "#7e7473",
+    "file": "img/p/drew-merritt.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/drew-merritt-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/drew-merritt",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/drew-merritt.jpeg",
+    "w": 320
+  },
+  "p/dulk": {
+    "bg": "#948a83",
+    "file": "img/p/dulk.webp",
+    "h": 197,
+    "sm": {
+      "file": "img/p/dulk-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/dulk",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/dulk.jpeg",
+    "w": 197
+  },
+  "p/elijah-howe": {
+    "bg": "#171717",
+    "file": "img/p/elijah-howe.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/elijah-howe-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.fotofocus.org/biennial/2026/events/participants#elijah-howe",
+    "src": "https://www.fotofocus.org/wp-content/uploads/2026/08/Howe_Headshot_-self-portrait.jpg",
+    "w": 320
+  },
+  "p/elizabeth-leitzell": {
+    "bg": "#5d5d5d",
+    "file": "img/p/elizabeth-leitzell.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/elizabeth-leitzell-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.fotofocus.org/biennial/2026/events/participants#elizabeth-leitzell",
+    "src": "https://www.fotofocus.org/wp-content/uploads/2026/08/Leitzell_Headshot_-Kyle-Struve.jpg",
+    "w": 320
+  },
+  "p/ellena-lourens": {
+    "bg": "#9e9173",
+    "file": "img/p/ellena-lourens.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/ellena-lourens-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/ellna-lourens",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/ellna-lourens.jpeg",
+    "w": 320
+  },
+  "p/emma-barton": {
+    "bg": "#35261d",
+    "file": "img/p/emma-barton.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/emma-barton-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/IMG_0484_1789578052330.png",
+    "w": 320
+  },
+  "p/emma-off": {
+    "bg": "#9b6f48",
+    "file": "img/p/emma-off.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/emma-off-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/IMG_1482LI_1789579339535.png",
+    "w": 320
+  },
+  "p/eric-rose": {
+    "bg": "#d0b246",
+    "file": "img/p/eric-rose.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/eric-rose-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://vfairs-api.s3.amazonaws.com/18090/1242876994/Screenshot-2026-08-27-at-8.42.01-PM.png",
+    "w": 320
+  },
+  "p/ethan-grob": {
+    "bg": "#4e3a22",
+    "file": "img/p/ethan-grob.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/ethan-grob-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/Untitled-design--10-_1789579558976.png",
+    "w": 320
+  },
+  "p/everything-good-studio": {
+    "bg": "#743f6d",
+    "file": "img/p/everything-good-studio.webp",
+    "h": 241,
+    "sm": {
+      "file": "img/p/everything-good-studio-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/everything-good-studio",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/everything-good-studio.jpeg",
+    "w": 241
+  },
+  "p/felix-frank": {
+    "bg": "#9b9b9b",
+    "file": "img/p/felix-frank.webp",
+    "h": 318,
+    "sm": {
+      "file": "img/p/felix-frank-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/felix-frank",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/felix-frank.png",
+    "w": 318
+  },
+  "p/filip-roca": {
+    "bg": "#878787",
+    "file": "img/p/filip-roca.webp",
+    "h": 225,
+    "sm": {
+      "file": "img/p/filip-roca-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/filip-roca",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/filip-roca.jpeg",
+    "w": 225
+  },
+  "p/freddy-mac": {
+    "bg": "#bba5aa",
+    "file": "img/p/freddy-mac.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/freddy-mac-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/Freddie%20Mac%20Headshot_1788190692856_1788214903820.png",
+    "w": 320
+  },
+  "p/gee-horton": {
+    "bg": "#a5a4a3",
+    "file": "img/p/gee-horton.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/gee-horton-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.cincinnatimagazine.com/article/cincinnati-art-week/",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Gee_Horton.jpg",
+    "w": 320
+  },
+  "p/gera-1": {
+    "bg": "#908883",
+    "file": "img/p/gera-1.webp",
+    "h": 168,
+    "sm": {
+      "file": "img/p/gera-1-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/gera-1",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/gera-1.jpeg",
+    "w": 168
+  },
+  "p/grayson-stalvey": {
+    "bg": "#715e53",
+    "file": "img/p/grayson-stalvey.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/grayson-stalvey-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/Grayson-Stalvey_1789579281185.png",
+    "w": 320
+  },
+  "p/greg-pipkins": {
+    "bg": "#c09d43",
+    "file": "img/p/greg-pipkins.webp",
+    "h": 319,
+    "sm": {
+      "file": "img/p/greg-pipkins-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/Greg-Pipkins---3_1789652382359.png",
+    "w": 319
+  },
+  "p/heesoo-kwon": {
+    "bg": "#949494",
+    "file": "img/p/heesoo-kwon.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/heesoo-kwon-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.fotofocus.org/biennial/2026/events/participants#heesoo-kwon",
+    "src": "https://www.fotofocus.org/wp-content/uploads/2026/08/Kwon_Headshot_-Breno-Aragon.jpg",
+    "w": 320
+  },
+  "p/holly-shoemaker": {
+    "bg": "#573320",
+    "file": "img/p/holly-shoemaker.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/holly-shoemaker-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/Holly_01_small_1789576637312.png",
+    "w": 320
+  },
+  "p/ilana-habib": {
+    "bg": "#8f8d87",
+    "file": "img/p/ilana-habib.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/ilana-habib-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/CleanShot%202025-12-03%20at%2016.31.41@2x%20(1)_1788285839863.png",
+    "w": 320
+  },
+  "p/illumaphonium": {
+    "bg": "#365a71",
+    "file": "img/p/illumaphonium.webp",
+    "h": 177,
+    "sm": {
+      "file": "img/p/illumaphonium-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/illumaphonium",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/illumaphonium.jpeg",
+    "w": 177
+  },
+  "p/inka-kendzia": {
+    "bg": "#825c8c",
+    "file": "img/p/inka-kendzia.webp",
+    "h": 204,
+    "sm": {
+      "file": "img/p/inka-kendzia-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/inka-kendzia",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/inka-kendzia.jpeg",
+    "w": 204
+  },
+  "p/j-b-kropp": {
+    "bg": "#c1b4a6",
+    "file": "img/p/j-b-kropp.webp",
+    "h": 273,
+    "sm": {
+      "file": "img/p/j-b-kropp-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/Screenshot-2026-09-02-at-12.46.33-PM_1789578125915.png",
+    "w": 273
+  },
+  "p/jack-walter": {
+    "bg": "#b08689",
+    "file": "img/p/jack-walter.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/jack-walter-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.uc.edu/news/articles/2026/06/ccm-students-create-installation-for-blink-2026.html",
+    "src": "https://www.uc.edu/content/uc/news/articles/2026/06/n21414511/_jcr_content/main/responsive_section/par/accordion/par/textimage_copy_256999717/image.img.jpeg/1788975332082/jack-walter-headshot.jpeg",
+    "w": 320
+  },
+  "p/jackie-reau": {
+    "bg": "#967d8e",
+    "file": "img/p/jackie-reau.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/jackie-reau-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/jackie-reau-headshot-25_900xx5457-3070-0-289_1788266161537.jpg",
+    "w": 320
+  },
+  "p/jacob-kaplan": {
+    "bg": "#764282",
+    "file": "img/p/jacob-kaplan.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/jacob-kaplan-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.uc.edu/news/articles/2026/06/ccm-students-create-installation-for-blink-2026.html",
+    "src": "https://www.uc.edu/content/uc/news/articles/2026/06/n21414511/_jcr_content/main/responsive_section/par/accordion/par/textimage/image.img.jpeg/1788975332149/jacob-kaplan-headshot.jpeg",
+    "w": 320
+  },
+  "p/jaimin-gandhi": {
+    "bg": "#bebcbc",
+    "file": "img/p/jaimin-gandhi.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/jaimin-gandhi-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/jg-hs-1_1789579417474.png",
+    "w": 320
+  },
+  "p/jake-rouse": {
+    "bg": "#342f3b",
+    "file": "img/p/jake-rouse.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/jake-rouse-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/images%20(9)_1788263057300.jpg",
+    "w": 320
+  },
+  "p/james-bullough": {
+    "bg": "#76716f",
+    "file": "img/p/james-bullough.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/james-bullough-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/james-bullough",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/james-bullough.jpg",
+    "w": 320
+  },
+  "p/jasmine-hughes": {
+    "bg": "#dfd3d0",
+    "file": "img/p/jasmine-hughes.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/jasmine-hughes-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/2-Jasmine-Hughes_1789651553820.png",
+    "w": 320
+  },
+  "p/jason-snell": {
+    "bg": "#9a8681",
+    "file": "img/p/jason-snell.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/jason-snell-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://cincinnatiartweek.com/meet-the-team",
+    "src": "https://cdn.evbuc.com/images/1193473860/324262115413/1/original.20260914-181812",
+    "w": 320
+  },
+  "p/javarri-lewis": {
+    "bg": "#9a8d77",
+    "file": "img/p/javarri-lewis.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/javarri-lewis-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://cincinnatiartweek.com/meet-the-team",
+    "src": "https://cdn.evbuc.com/images/1193473952/324262115413/1/original.20260914-181913",
+    "w": 320
+  },
+  "p/jeff-harris": {
+    "bg": "#494846",
+    "file": "img/p/jeff-harris.webp",
+    "h": 224,
+    "sm": {
+      "file": "img/p/jeff-harris-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/Screenshot%202026-09-01%20065638_1788260423864.png",
+    "w": 224
+  },
+  "p/jennifer-glanville-love": {
+    "bg": "#593b37",
+    "file": "img/p/jennifer-glanville-love.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/jennifer-glanville-love-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/jennifer-glanville-bio-pic_1789578089920.png",
+    "w": 320
+  },
+  "p/jeremie-bellot": {
+    "bg": "#30130a",
+    "file": "img/p/jeremie-bellot.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/jeremie-bellot-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/jrmie-bellot",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/jrmie-bellot.jpeg",
+    "w": 320
+  },
+  "p/jeremy-jarrett": {
+    "bg": "#938c87",
+    "file": "img/p/jeremy-jarrett.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/jeremy-jarrett-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://vfairs-api.s3.amazonaws.com/18090/1242897806/Jeremy_Jarrett_Headshot_1000px--1-.jpg",
+    "w": 320
+  },
+  "p/jeremy-oury": {
+    "bg": "#3d3632",
+    "file": "img/p/jeremy-oury.webp",
+    "h": 201,
+    "sm": {
+      "file": "img/p/jeremy-oury-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/jrmy-oury",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/jrmy-oury.jpeg",
+    "w": 201
+  },
+  "p/jill-morenz": {
+    "bg": "#cbb7ad",
+    "file": "img/p/jill-morenz.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/jill-morenz-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://vfairs-api.s3.amazonaws.com/18090/1242897083/Jill-Morenz--President---CEO-of-Aviatra-Accelerators--photo-by-Jennifer-Blackburn-.jpg",
+    "w": 320
+  },
+  "p/jimmy-sauter": {
+    "bg": "#666974",
+    "file": "img/p/jimmy-sauter.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/jimmy-sauter-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://vfairs-api.s3.amazonaws.com/18090/1243023210/Screenshot-2026-09-11-at-6.28.29---PM.png",
+    "w": 320
+  },
+  "p/joe-kuncheria-panjikaran": {
+    "bg": "#a29290",
+    "file": "img/p/joe-kuncheria-panjikaran.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/joe-kuncheria-panjikaran-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://vfairs-api.s3.amazonaws.com/18090/1243051319/Joe-s-Headshot.jpg",
+    "w": 320
+  },
+  "p/joe-rohan": {
+    "bg": "#9c8d85",
+    "file": "img/p/joe-rohan.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/joe-rohan-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/jrheadshotGroup_1789579042642.png",
+    "w": 320
+  },
+  "p/john-bentley": {
+    "bg": "#8d7d67",
+    "file": "img/p/john-bentley.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/john-bentley-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/1647748649818_1788214681639.jpeg",
+    "w": 320
+  },
+  "p/john-hurley": {
+    "bg": "#5f4f47",
+    "file": "img/p/john-hurley.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/john-hurley-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://vfairs-api.s3.amazonaws.com/18090/1242908047/john-hurley-headshot.jpeg",
+    "w": 320
+  },
+  "p/john-yuksel": {
+    "bg": "#318191",
+    "file": "img/p/john-yuksel.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/john-yuksel-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://vfairs-api.s3.amazonaws.com/18090/1243083174/John-Yuksel-startupcincy.jpeg",
+    "w": 320
+  },
+  "p/jon-thompson": {
+    "bg": "#aa9789",
+    "file": "img/p/jon-thompson.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/jon-thompson-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/Jon%20Thompson%20Headshot_1788190513662_1789577643924.png",
+    "w": 320
+  },
+  "p/jonas-denzel": {
+    "bg": "#575757",
+    "file": "img/p/jonas-denzel.webp",
+    "h": 225,
+    "sm": {
+      "file": "img/p/jonas-denzel-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/jonas-denzel",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/jonas-denzel.jpeg",
+    "w": 225
+  },
+  "p/jordanne-renner": {
+    "bg": "#b09987",
+    "file": "img/p/jordanne-renner.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/jordanne-renner-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.fotofocus.org/biennial/2026/events/participants#jordanne-renner",
+    "src": "https://www.fotofocus.org/wp-content/uploads/2026/08/Renner_Headshot_-.jpg",
+    "w": 320
+  },
+  "p/jordon-kuhn": {
+    "bg": "#706c6c",
+    "file": "img/p/jordon-kuhn.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/jordon-kuhn-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/Screenshot-2026-08-21-095714_1789576380317.png",
+    "w": 320
+  },
+  "p/joseph-vitone": {
+    "bg": "#3c4037",
+    "file": "img/p/joseph-vitone.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/joseph-vitone-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.fotofocus.org/biennial/2026/events/participants#joseph-vitone",
+    "src": "https://www.fotofocus.org/wp-content/uploads/2026/08/Vitone_Headshot_-Dylan-Vitone.jpg",
+    "w": 320
+  },
+  "p/joshua-berg": {
+    "bg": "#6a686a",
+    "file": "img/p/joshua-berg.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/joshua-berg-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.fotofocus.org/biennial/2026/events/participants#Joshua-berg",
+    "src": "https://www.fotofocus.org/wp-content/uploads/2026/08/Berg_Headshot_-Brian-Pfaff.jpg",
+    "w": 320
+  },
+  "p/jp-jackson-and-brian-havener": {
+    "bg": "#3f3f3f",
+    "file": "img/p/jp-jackson-and-brian-havener.webp",
+    "h": 200,
+    "sm": {
+      "file": "img/p/jp-jackson-and-brian-havener-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/jp-jackson-brian-havener",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/jp-jackson-brian-havener.jpeg",
+    "w": 200
+  },
+  "p/juan-fuentes": {
+    "bg": "#868385",
+    "file": "img/p/juan-fuentes.webp",
+    "h": 183,
+    "sm": {
+      "file": "img/p/juan-fuentes-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/juan-fuentes",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/juan-fuentes.jpeg",
+    "w": 183
+  },
+  "p/julia-dewey": {
+    "bg": "#8e7c78",
+    "file": "img/p/julia-dewey.webp",
+    "h": 200,
+    "sm": {
+      "file": "img/p/julia-dewey-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/1770781011759_1788261420771.jpg",
+    "w": 200
+  },
+  "p/julie-messer": {
+    "bg": "#7c6e5f",
+    "file": "img/p/julie-messer.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/julie-messer-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://vfairs-api.s3.amazonaws.com/18090/1242904526/BBC_HeadShots_JulieMesser_Opt2.jpg",
+    "w": 320
+  },
+  "p/julie-renee-jones": {
+    "bg": "#1f1f1f",
+    "file": "img/p/julie-renee-jones.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/julie-renee-jones-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.fotofocus.org/biennial/2026/events/participants#julie-renee-jones",
+    "src": "https://www.fotofocus.org/wp-content/uploads/2026/08/Jones_Headshot-1_-self-portrait.jpg",
+    "w": 320
+  },
+  "p/justin-boh": {
+    "bg": "#828282",
+    "file": "img/p/justin-boh.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/justin-boh-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/justin-boh",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/justin-boh.jpeg",
+    "w": 320
+  },
+  "p/kailah-ware": {
+    "bg": "#647179",
+    "file": "img/p/kailah-ware.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/kailah-ware-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/1740088280598_1788214645613.jpeg",
+    "w": 320
   },
   "p/kara-willis": {
+    "bg": "#94492a",
     "file": "img/p/kara-willis.webp",
-    "w": 256,
-    "h": 256,
+    "h": 320,
+    "sm": {
+      "file": "img/p/kara-willis-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
     "src": "https://data-us.vfairs.com/V2/18090/users/1731011012881_1788267147762.jpg",
-    "source_url": "https://startupcincyweek.com/en/agenda-page"
+    "w": 320
+  },
+  "p/kasumi-art-studios": {
+    "bg": "#5e4b3b",
+    "file": "img/p/kasumi-art-studios.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/kasumi-art-studios-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/kasumi-art-studios",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/kasumi-art-studios.jpeg",
+    "w": 320
+  },
+  "p/katie-stratman": {
+    "bg": "#7e6049",
+    "file": "img/p/katie-stratman.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/katie-stratman-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/IMG_7766--1-_1789653052845.png",
+    "w": 320
+  },
+  "p/katie-thompson": {
+    "bg": "#8c8a6e",
+    "file": "img/p/katie-thompson.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/katie-thompson-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://vfairs-api.s3.amazonaws.com/18090/1243052080/Katie-T-Headshot.jpg",
+    "w": 320
+  },
+  "p/ke-jyun-wu": {
+    "bg": "#a4a6a2",
+    "file": "img/p/ke-jyun-wu.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/ke-jyun-wu-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/ke-jyun-wu",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/ke-jyun-wu.jpeg",
+    "w": 320
+  },
+  "p/keep-cincinnati-beautiful": {
+    "bg": "#84938a",
+    "file": "img/p/keep-cincinnati-beautiful.webp",
+    "h": 300,
+    "sm": {
+      "file": "img/p/keep-cincinnati-beautiful-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/keep-cincinnati-beautiful",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/keep-cincinnati-beautiful.jpg",
+    "w": 300
+  },
+  "p/kelly-dolan": {
+    "bg": "#b0a382",
+    "file": "img/p/kelly-dolan.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/kelly-dolan-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://vfairs-api.s3.amazonaws.com/18090/1243021023/1775825182969.png",
+    "w": 320
+  },
+  "p/kelly-kucharczyk": {
+    "bg": "#a49890",
+    "file": "img/p/kelly-kucharczyk.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/kelly-kucharczyk-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://vfairs-api.s3.amazonaws.com/18090/1242910570/KK.jpg",
+    "w": 320
+  },
+  "p/kelly-shaw": {
+    "bg": "#8a4737",
+    "file": "img/p/kelly-shaw.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/kelly-shaw-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://vfairs-api.s3.amazonaws.com/18090/1242777351/profile-photo.jpg",
+    "w": 320
+  },
+  "p/kemper-sauce-studios": {
+    "bg": "#735848",
+    "file": "img/p/kemper-sauce-studios.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/kemper-sauce-studios-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/kemper-sauce-studios",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/kemper-sauce-studios.png",
+    "w": 320
+  },
+  "p/kerry-taft": {
+    "bg": "#7f5b51",
+    "file": "img/p/kerry-taft.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/kerry-taft-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://vfairs-api.s3.amazonaws.com/18090/1242770060/Kerry-Taft-Profile-Image.jpg",
+    "w": 320
+  },
+  "p/kevin-moore": {
+    "bg": "#6d5b4a",
+    "file": "img/p/kevin-moore.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/kevin-moore-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.fotofocus.org/biennial/2026/about#curators-statement",
+    "src": "https://www.fotofocus.org/wp-content/uploads/2026/05/Kevin-Moore_by_Madeleine-Hordinski.jpg",
+    "w": 320
+  },
+  "p/kimm-lauterbach": {
+    "bg": "#8e535a",
+    "file": "img/p/kimm-lauterbach.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/kimm-lauterbach-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/Kimm-Lauterbach---Headshot-5.8.25_1789575211593.png",
+    "w": 320
+  },
+  "p/koros-design-studio": {
+    "bg": "#6e6e6e",
+    "file": "img/p/koros-design-studio.webp",
+    "h": 300,
+    "sm": {
+      "file": "img/p/koros-design-studio-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/koros-design-studio",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/koros-design-studio.jpg",
+    "w": 300
+  },
+  "p/kristen-gaylord": {
+    "bg": "#9d8979",
+    "file": "img/p/kristen-gaylord.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/kristen-gaylord-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.fotofocus.org/biennial/2026/events/participants#Kristen-gaylord",
+    "src": "https://www.fotofocus.org/wp-content/uploads/2026/08/Gaylord_Headshot_-Ciara-Elle-Bryant.jpg",
+    "w": 320
+  },
+  "p/kristin-sieve": {
+    "bg": "#a49b9a",
+    "file": "img/p/kristin-sieve.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/kristin-sieve-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://vfairs-api.s3.amazonaws.com/18090/1242855877/Kristy-Sieve-Headshot-1.jpg",
+    "w": 320
+  },
+  "p/kyle-eli-ebersole": {
+    "bg": "#615f64",
+    "file": "img/p/kyle-eli-ebersole.webp",
+    "h": 225,
+    "sm": {
+      "file": "img/p/kyle-eli-ebersole-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/kyle-eli-ebersole",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/kyle-eli-ebersole.jpeg",
+    "w": 225
+  },
+  "p/laurkita-sheffield": {
+    "bg": "#ab998d",
+    "file": "img/p/laurkita-sheffield.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/laurkita-sheffield-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/Screenshot-2025-10-20-125537_1789652512857.png",
+    "w": 320
+  },
+  "p/lawrence-malott-forealism": {
+    "bg": "#9b5149",
+    "file": "img/p/lawrence-malott-forealism.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/lawrence-malott-forealism-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/lawrence-malott--forealism",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/lawrence-malott--forealism.jpg",
+    "w": 320
+  },
+  "p/lekha-challappa": {
+    "bg": "#291d38",
+    "file": "img/p/lekha-challappa.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/lekha-challappa-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/1726268292326_1788214716702.jpeg",
+    "w": 320
+  },
+  "p/lemonde-studio": {
+    "bg": "#666666",
+    "file": "img/p/lemonde-studio.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/lemonde-studio-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/lemonde-studio",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/lemonde-studio.png",
+    "w": 320
+  },
+  "p/leslie-epsztein": {
+    "bg": "#745768",
+    "file": "img/p/leslie-epsztein.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/leslie-epsztein-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/leslie-epsztein",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/leslie-epsztein.png",
+    "w": 320
+  },
+  "p/leslie-mooney": {
+    "bg": "#d6c7bd",
+    "file": "img/p/leslie-mooney.webp",
+    "h": 140,
+    "sm": {
+      "file": "img/p/leslie-mooney-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/newsroom/2025/06/20/leslie-mooney-named-executive-director-of-blink",
+    "src": "https://blinkcincinnati.b-cdn.net/files/news/slide/lesliemooneyblink.jpg",
+    "w": 140
+  },
+  "p/lia-lubinsky": {
+    "bg": "#7f695f",
+    "file": "img/p/lia-lubinsky.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/lia-lubinsky-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.uc.edu/news/articles/2026/06/ccm-students-create-installation-for-blink-2026.html",
+    "src": "https://www.uc.edu/content/uc/news/articles/2026/06/n21414511/_jcr_content/main/responsive_section/par/accordion/par/textimage_copy/image.img.jpeg/1788975332175/lia-lubinsky-headshot.jpeg",
+    "w": 320
+  },
+  "p/lightborne": {
+    "bg": "#4d4e4f",
+    "file": "img/p/lightborne.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/lightborne-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/lightborne",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/lightborne2.jpg",
+    "w": 320
+  },
+  "p/lindsay-albert": {
+    "bg": "#6e747a",
+    "file": "img/p/lindsay-albert.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/lindsay-albert-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.fotofocus.org/biennial/2026/events/participants#lindsay-albert",
+    "src": "https://www.fotofocus.org/wp-content/uploads/2026/08/Albert_Headshot_-Jenna-Garrett.jpg",
+    "w": 320
+  },
+  "p/lindsay-glatz-and-william-nemitoff": {
+    "bg": "#504f57",
+    "file": "img/p/lindsay-glatz-and-william-nemitoff.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/lindsay-glatz-and-william-nemitoff-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/lindsay-glatz-william-nemitoff",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/lindsay-glatz-william-nemitoff.png",
+    "w": 320
+  },
+  "p/lindsay-karas-stencel": {
+    "bg": "#beb1ab",
+    "file": "img/p/lindsay-karas-stencel.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/lindsay-karas-stencel-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/karas-stencel1_1789652267887.png",
+    "w": 320
+  },
+  "p/lucy-dunn": {
+    "bg": "#61544d",
+    "file": "img/p/lucy-dunn.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/lucy-dunn-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.uc.edu/news/articles/2026/06/ccm-students-create-installation-for-blink-2026.html",
+    "src": "https://www.uc.edu/content/uc/news/articles/2026/06/n21414511/_jcr_content/main/responsive_section/par/accordion/par/textimage_copy_1798757913/image.img.jpeg/1788975332121/lucy-dunn-headshot.jpeg",
+    "w": 320
+  },
+  "p/lynn-whitney": {
+    "bg": "#676c5f",
+    "file": "img/p/lynn-whitney.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/lynn-whitney-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.fotofocus.org/biennial/2026/events/participants#lynn-whitney",
+    "src": "https://www.fotofocus.org/wp-content/uploads/2026/08/Whitney_Headshot_-Kevin-Vereecke.jpg",
+    "w": 320
+  },
+  "p/marc-pretorius": {
+    "bg": "#847c7a",
+    "file": "img/p/marc-pretorius.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/marc-pretorius-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://vfairs-api.s3.amazonaws.com/18090/1242938035/2026-headshot.png",
+    "w": 320
+  },
+  "p/marie-ajras": {
+    "bg": "#a19491",
+    "file": "img/p/marie-ajras.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/marie-ajras-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/marie-ajras",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/marie-ajras.jpg",
+    "w": 320
+  },
+  "p/mark-fleming": {
+    "bg": "#755b4d",
+    "file": "img/p/mark-fleming.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/mark-fleming-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://vfairs-api.s3.amazonaws.com/18090/1242615812/096-5sIlscz4x-I.jpeg",
+    "w": 320
+  },
+  "p/mark-gagas": {
+    "bg": "#98745a",
+    "file": "img/p/mark-gagas.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/mark-gagas-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/images%20(10)_1788264746258.jpg",
+    "w": 320
+  },
+  "p/mark-voytek": {
+    "bg": "#81604b",
+    "file": "img/p/mark-voytek.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/mark-voytek-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://vfairs-api.s3.amazonaws.com/18090/1242619460/MJV-pic.png",
+    "w": 320
+  },
+  "p/mary-mason-boaz": {
+    "bg": "#777c73",
+    "file": "img/p/mary-mason-boaz.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/mary-mason-boaz-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/Mary-Mason-Boaz_Headshot_1789579708389.png",
+    "w": 320
+  },
+  "p/mary-tighe": {
+    "bg": "#ab9382",
+    "file": "img/p/mary-tighe.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/mary-tighe-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/Mary-Tighe_1789578174965.png",
+    "w": 320
+  },
+  "p/mason-clutter": {
+    "bg": "#ada9a9",
+    "file": "img/p/mason-clutter.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/mason-clutter-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://vfairs-api.s3.amazonaws.com/18090/1243069753/high-res-clutter.jpg",
+    "w": 320
+  },
+  "p/matine-yuksel": {
+    "bg": "#a99d9c",
+    "file": "img/p/matine-yuksel.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/matine-yuksel-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://vfairs-api.s3.amazonaws.com/18090/1243083139/Matine-Yuksel-startupcincy--3-.jpeg",
+    "w": 320
+  },
+  "p/matt-brady": {
+    "bg": "#655d41",
+    "file": "img/p/matt-brady.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/matt-brady-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://vfairs-api.s3.amazonaws.com/18090/1242910858/IMG_4478.jpeg",
+    "w": 320
+  },
+  "p/matthew-robben": {
+    "bg": "#5b4545",
+    "file": "img/p/matthew-robben.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/matthew-robben-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://vfairs-api.s3.amazonaws.com/18090/1242915408/mrobben_headshot.png",
+    "w": 320
+  },
+  "p/max-dworin": {
+    "bg": "#8f937d",
+    "file": "img/p/max-dworin.webp",
+    "h": 259,
+    "sm": {
+      "file": "img/p/max-dworin-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/1538857766948_1788214394691.jpeg",
+    "w": 259
+  },
+  "p/max-sansing": {
+    "bg": "#7e6263",
+    "file": "img/p/max-sansing.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/max-sansing-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/max-sansing",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/maxsansing.jpeg",
+    "w": 320
+  },
+  "p/medianeras": {
+    "bg": "#9a989d",
+    "file": "img/p/medianeras.webp",
+    "h": 194,
+    "sm": {
+      "file": "img/p/medianeras-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/medianeras",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/medianeras.jpeg",
+    "w": 194
+  },
+  "p/megan-dollenmeyer": {
+    "bg": "#6d5b49",
+    "file": "img/p/megan-dollenmeyer.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/megan-dollenmeyer-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://vfairs-api.s3.amazonaws.com/18090/1243048712/Linked-In-Profile.jpg",
+    "w": 320
+  },
+  "p/melissa-smith": {
+    "bg": "#beaba0",
+    "file": "img/p/melissa-smith.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/melissa-smith-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/MLSmith-HeadShot-Aug2024_1789652628461.png",
+    "w": 320
+  },
+  "p/miami-university": {
+    "bg": "#71484f",
+    "file": "img/p/miami-university.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/miami-university-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/miami-university",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/miamiuniversityoxfordohioimmersivereactivemedialabmuxr.jpg",
+    "w": 320
+  },
+  "p/michael-carrico": {
+    "bg": "#dcd8d4",
+    "file": "img/p/michael-carrico.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/michael-carrico-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://vfairs-api.s3.amazonaws.com/18090/1242899219/headshot-original.png",
+    "w": 320
+  },
+  "p/michelle-murcia": {
+    "bg": "#efebe8",
+    "file": "img/p/michelle-murcia.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/michelle-murcia-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://vfairs-api.s3.amazonaws.com/18090/1243068611/headshots-26--88-.png",
+    "w": 320
+  },
+  "p/mike-stasny": {
+    "bg": "#94888b",
+    "file": "img/p/mike-stasny.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/mike-stasny-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/mike-stasny",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/mike-stasny.png",
+    "w": 320
+  },
+  "p/mike-venerable": {
+    "bg": "#cfbaba",
+    "file": "img/p/mike-venerable.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/mike-venerable-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/__1789652835047.png",
+    "w": 320
+  },
+  "p/mike-zelkind": {
+    "bg": "#565863",
+    "file": "img/p/mike-zelkind.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/mike-zelkind-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://vfairs-api.s3.amazonaws.com/18090/1243039596/1612308055462.jpeg",
+    "w": 320
+  },
+  "p/mindscape-studio": {
+    "bg": "#201b1c",
+    "file": "img/p/mindscape-studio.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/mindscape-studio-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/mindscape-studio",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/mindscapeteamportraitupdate2.jpg",
+    "w": 320
+  },
+  "p/mitko-karshovski": {
+    "bg": "#868283",
+    "file": "img/p/mitko-karshovski.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/mitko-karshovski-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://vfairs-api.s3.amazonaws.com/18090/1242880284/MitkoProfilePic.jpg",
+    "w": 320
+  },
+  "p/mz-icar": {
+    "bg": "#868180",
+    "file": "img/p/mz-icar.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/mz-icar-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.cincinnatimagazine.com/article/cincinnati-art-week/",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/the-mzicar-collective.jpg",
+    "w": 320
+  },
+  "p/napoleon-maddox": {
+    "bg": "#5f5f5c",
+    "file": "img/p/napoleon-maddox.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/napoleon-maddox-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/napoleon-maddox",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/napoleon-maddox.png",
+    "w": 320
+  },
+  "p/nathaniel-m-stein": {
+    "bg": "#a09b95",
+    "file": "img/p/nathaniel-m-stein.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/nathaniel-m-stein-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.fotofocus.org/biennial/2026/events/participants#nathaniel-stein",
+    "src": "https://www.fotofocus.org/wp-content/uploads/2026/08/Stein_Headshot_-Tim-Tiebout.jpg",
+    "w": 320
+  },
+  "p/nicholas-archer": {
+    "bg": "#767356",
+    "file": "img/p/nicholas-archer.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/nicholas-archer-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/Screenshot%202026-09-02%20at%201.24.01%20PM_1788369845936.png",
+    "w": 320
+  },
+  "p/nick-cramer": {
+    "bg": "#beb6b1",
+    "file": "img/p/nick-cramer.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/nick-cramer-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://vfairs-api.s3.amazonaws.com/18090/1242765477/nick-avatar.png",
+    "w": 320
+  },
+  "p/norlynn-story": {
+    "bg": "#657085",
+    "file": "img/p/norlynn-story.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/norlynn-story-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://vfairs-api.s3.amazonaws.com/18090/1243020751/Headshot-by-Chatty.jpg",
+    "w": 320
+  },
+  "p/oliver-barrett": {
+    "bg": "#322f28",
+    "file": "img/p/oliver-barrett.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/oliver-barrett-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.eventbrite.com/e/no-grid-a-creative-conversation-series-tickets-2000523175671",
+    "src": "https://cdn.evbuc.com/images/1193475233/324262115413/1/original.20260914-183104",
+    "w": 320
+  },
+  "p/onda-studio": {
+    "bg": "#9c948a",
+    "file": "img/p/onda-studio.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/onda-studio-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/onda-studio",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/onda-square.jpg",
+    "w": 320
+  },
+  "p/osamu-james-nakagawa": {
+    "bg": "#a6a1a2",
+    "file": "img/p/osamu-james-nakagawa.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/osamu-james-nakagawa-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.fotofocus.org/biennial/2026/events/participants#osamu-james-nakagawa",
+    "src": "https://www.fotofocus.org/wp-content/uploads/2026/08/Nakagawa_Headshot_-Elaine-Miller.jpg",
+    "w": 320
+  },
+  "p/paper-acorn": {
+    "bg": "#988c85",
+    "file": "img/p/paper-acorn.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/paper-acorn-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/paper-acorn",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/paper-acorn.jpg",
+    "w": 320
+  },
+  "p/parker-heyl": {
+    "bg": "#9c8f8a",
+    "file": "img/p/parker-heyl.webp",
+    "h": 200,
+    "sm": {
+      "file": "img/p/parker-heyl-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/parker-heyl",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/parker-heyl.jpeg",
+    "w": 200
+  },
+  "p/pastel": {
+    "bg": "#beafaa",
+    "file": "img/p/pastel.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/pastel-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/pastel",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/pastel.png",
+    "w": 320
+  },
+  "p/patrick-brown": {
+    "bg": "#7f7f7f",
+    "file": "img/p/patrick-brown.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/patrick-brown-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://vfairs-api.s3.amazonaws.com/18090/1242899174/patrick.jpeg",
+    "w": 320
+  },
+  "p/patrick-longo": {
+    "bg": "#8b7d78",
+    "file": "img/p/patrick-longo.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/patrick-longo-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/Longo---Photo--2026-_1789577573203.png",
+    "w": 320
+  },
+  "p/paul-ehlinger": {
+    "bg": "#3f3535",
+    "file": "img/p/paul-ehlinger.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/paul-ehlinger-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/PE-headshot--horizontal---1-_1789651684612.png",
+    "w": 320
+  },
+  "p/paul-jackson": {
+    "bg": "#665f5e",
+    "file": "img/p/paul-jackson.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/paul-jackson-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://vfairs-api.s3.amazonaws.com/18090/1242944609/paul-jackson-headshot.jpg",
+    "w": 320
+  },
+  "p/paul-mpagi-sepuya": {
+    "bg": "#2b2725",
+    "file": "img/p/paul-mpagi-sepuya.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/paul-mpagi-sepuya-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.fotofocus.org/biennial/2026/events/participants#paul-mpagi-sepuya",
+    "src": "https://www.fotofocus.org/wp-content/uploads/2026/08/Sepuya_Headshot_-Paul-Sepuya.jpg",
+    "w": 320
+  },
+  "p/pete-millspaugh": {
+    "bg": "#8d7f62",
+    "file": "img/p/pete-millspaugh.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/pete-millspaugh-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/1626980439798_1788214571704.jpeg",
+    "w": 320
+  },
+  "p/phillip-maisel": {
+    "bg": "#706d6e",
+    "file": "img/p/phillip-maisel.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/phillip-maisel-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.fotofocus.org/biennial/2026/events/participants#phillip-maisel",
+    "src": "https://www.fotofocus.org/wp-content/uploads/2026/08/Maisel_Headshot_-self-portrait.jpg",
+    "w": 320
+  },
+  "p/polina-soloveichik": {
+    "bg": "#787377",
+    "file": "img/p/polina-soloveichik.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/polina-soloveichik-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/polina-soloveichik",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/polina-soloveichik.png",
+    "w": 320
+  },
+  "p/rachel-desrochers": {
+    "bg": "#b2a1a0",
+    "file": "img/p/rachel-desrochers.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/rachel-desrochers-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/Screenshot%202026-09-01%20083844_1788266369642.png",
+    "w": 320
+  },
+  "p/rahul-desai": {
+    "bg": "#9197a2",
+    "file": "img/p/rahul-desai.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/rahul-desai-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://vfairs-api.s3.amazonaws.com/18090/1242899757/rahul--1-.jpeg",
+    "w": 320
+  },
+  "p/rob-summerford": {
+    "bg": "#9b9693",
+    "file": "img/p/rob-summerford.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/rob-summerford-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/Rob.Summerford_1789579514074.png",
+    "w": 320
+  },
+  "p/robyn-moore": {
+    "bg": "#8b5f4b",
+    "file": "img/p/robyn-moore.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/robyn-moore-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.fotofocus.org/biennial/2026/events/participants#robyn-moore",
+    "src": "https://www.fotofocus.org/wp-content/uploads/2026/08/Moore_Headshot_-self-portrait.jpg",
+    "w": 320
+  },
+  "p/rolando-archila": {
+    "bg": "#b17357",
+    "file": "img/p/rolando-archila.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/rolando-archila-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://vfairs-api.s3.amazonaws.com/18090/1242850229/Rolando-Headshot-Square.png",
+    "w": 320
+  },
+  "p/ryan-vaughan": {
+    "bg": "#8a888b",
+    "file": "img/p/ryan-vaughan.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/ryan-vaughan-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/Ryan.Vaughan_1789650904185.png",
+    "w": 320
+  },
+  "p/sarah-dowlin": {
+    "bg": "#747879",
+    "file": "img/p/sarah-dowlin.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/sarah-dowlin-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/Sarah%20Dowlin%20-%20Headshot%20-%20Official%20LR_1788458278424.jpg",
+    "w": 320
+  },
+  "p/sarah-nazzal": {
+    "bg": "#596649",
+    "file": "img/p/sarah-nazzal.webp",
+    "h": 256,
+    "sm": {
+      "file": "img/p/sarah-nazzal-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://vfairs-api.s3.amazonaws.com/18090/1243082859/Profile-Picture-Sarah-Nazzal.png",
+    "w": 256
   },
   "p/sarah-schmidt": {
+    "bg": "#de9a5e",
     "file": "img/p/sarah-schmidt.webp",
-    "w": 256,
-    "h": 256,
+    "h": 320,
+    "sm": {
+      "file": "img/p/sarah-schmidt-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.eventbrite.com/e/no-grid-a-creative-conversation-series-tickets-2000523175671",
     "src": "https://cdn.evbuc.com/images/1193474355/324262115413/1/original.20260914-182311",
-    "source_url": "https://www.eventbrite.com/e/no-grid-a-creative-conversation-series-tickets-2000523175671"
+    "w": 320
+  },
+  "p/scott-pennington": {
+    "bg": "#5c5748",
+    "file": "img/p/scott-pennington.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/scott-pennington-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/scott-pennington",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/scott-pennington.jpg",
+    "w": 320
+  },
+  "p/sean-van-praag": {
+    "bg": "#958a7b",
+    "file": "img/p/sean-van-praag.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/sean-van-praag-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/sean-van-praag",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/svpblink01.jpg",
+    "w": 320
+  },
+  "p/sew-valley": {
+    "bg": "#ada792",
+    "file": "img/p/sew-valley.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/sew-valley-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/sew-valley",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/sew-valley.jpg",
+    "w": 320
+  },
+  "p/shahryar-qureshi": {
+    "bg": "#b9aa92",
+    "file": "img/p/shahryar-qureshi.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/shahryar-qureshi-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://vfairs-api.s3.amazonaws.com/18090/1242989777/0623ADVANTISHDS_1_Shar_Qureshi-min.jpeg",
+    "w": 320
+  },
+  "p/shahzia-sikander": {
+    "bg": "#988275",
+    "file": "img/p/shahzia-sikander.webp",
+    "h": 181,
+    "sm": {
+      "file": "img/p/shahzia-sikander-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/shahzia-sikander-mural-getting-projected",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/shahzia-sikander-mural-getting-projected.jpeg",
+    "w": 181
+  },
+  "p/shelby-sinclair": {
+    "bg": "#724045",
+    "file": "img/p/shelby-sinclair.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/shelby-sinclair-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.fotofocus.org/biennial/2026/events/participants#Shelby-sinclair",
+    "src": "https://www.fotofocus.org/wp-content/uploads/2026/08/Sinclair_Headshot_-Raisa-Chowdhury.jpg",
+    "w": 320
+  },
+  "p/sierra-hayden": {
+    "bg": "#6c5c56",
+    "file": "img/p/sierra-hayden.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/sierra-hayden-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/IMG_7753_1789577867589.png",
+    "w": 320
+  },
+  "p/silent-partners-studio": {
+    "bg": "#989898",
+    "file": "img/p/silent-partners-studio.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/silent-partners-studio-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/silent-partners-studio",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/silent-partners-studio.jpeg",
+    "w": 320
+  },
+  "p/simion-collins": {
+    "bg": "#44392f",
+    "file": "img/p/simion-collins.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/simion-collins-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/IMG_9503_1789577900729.png",
+    "w": 320
+  },
+  "p/smash-studio": {
+    "bg": "#727677",
+    "file": "img/p/smash-studio.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/smash-studio-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/smash-studio",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/smash-studio.jpg",
+    "w": 320
+  },
+  "p/spencer-sterling": {
+    "bg": "#7f552d",
+    "file": "img/p/spencer-sterling.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/spencer-sterling-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/spencer-sterling",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/spencer-sterling.jpeg",
+    "w": 320
+  },
+  "p/stephanie-jenkins": {
+    "bg": "#668097",
+    "file": "img/p/stephanie-jenkins.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/stephanie-jenkins-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/Steph-Jenkins-New_1789497922124.jpeg",
+    "w": 320
+  },
+  "p/stephanie-von-ohain": {
+    "bg": "#53524f",
+    "file": "img/p/stephanie-von-ohain.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/stephanie-von-ohain-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/c3d93cea-f13e-44a8-a7cf-b4184bc36a76_1789652545536.png",
+    "w": 320
+  },
+  "p/sue-bevan-baggott": {
+    "bg": "#5a7482",
+    "file": "img/p/sue-bevan-baggott.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/sue-bevan-baggott-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/1706968169717_1788210335744.jpeg",
+    "w": 320
+  },
+  "p/susan-kosti": {
+    "bg": "#2a101f",
+    "file": "img/p/susan-kosti.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/susan-kosti-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/susan-kosti",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/img5115.png",
+    "w": 320
+  },
+  "p/take-a-moment-studio": {
+    "bg": "#923232",
+    "file": "img/p/take-a-moment-studio.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/take-a-moment-studio-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.eventbrite.com/e/no-grid-a-creative-conversation-series-tickets-2000523175671",
+    "src": "https://cdn.evbuc.com/images/1193474530/324262115413/1/original.20260914-182438",
+    "w": 320
+  },
+  "p/the-great-paper-massacre": {
+    "bg": "#828282",
+    "file": "img/p/the-great-paper-massacre.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/the-great-paper-massacre-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/the-great-paper-massacre",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/thegreatpapermassacre.png",
+    "w": 320
+  },
+  "p/theresa-bembnister": {
+    "bg": "#8b8477",
+    "file": "img/p/theresa-bembnister.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/theresa-bembnister-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.fotofocus.org/biennial/2026/events/participants#theresa-bembnister",
+    "src": "https://www.fotofocus.org/wp-content/uploads/2026/08/Bembnister_Headshot_-Jason-Masters.jpg",
+    "w": 320
+  },
+  "p/this-is-loop": {
+    "bg": "#7c7e72",
+    "file": "img/p/this-is-loop.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/this-is-loop-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/this-is-loop",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/this-is-loop.jpg",
+    "w": 320
+  },
+  "p/tian-philson": {
+    "bg": "#605e4a",
+    "file": "img/p/tian-philson.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/tian-philson-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/Tian-Philson-full-length-resized_1789652343749.png",
+    "w": 320
+  },
+  "p/tiffany-cooper": {
+    "bg": "#7795a8",
+    "file": "img/p/tiffany-cooper.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/tiffany-cooper-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://cincinnatiartweek.com/meet-the-team",
+    "src": "https://images.squarespace-cdn.com/content/v1/657279053a6cba0345e7302c/53cd1c41-4937-4d50-b230-270e5a4ac929/97E8364D-E496-4485-BE50-2621D415A2D9.png",
+    "w": 320
+  },
+  "p/tim-hori": {
+    "bg": "#a19797",
+    "file": "img/p/tim-hori.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/tim-hori-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/Tim-Headshot-A_1789579383453.png",
+    "w": 320
+  },
+  "p/tim-metzner": {
+    "bg": "#8d8179",
+    "file": "img/p/tim-metzner.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/tim-metzner-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/Tim-Sept-2024---Cropped_1789579096942.png",
+    "w": 320
+  },
+  "p/tim-schigel": {
+    "bg": "#494043",
+    "file": "img/p/tim-schigel.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/tim-schigel-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/Screenshot%202026-09-01%20084917_1788267013094.png",
+    "w": 320
+  },
+  "p/tom-walker": {
+    "bg": "#39353e",
+    "file": "img/p/tom-walker.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/tom-walker-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://vfairs-api.s3.amazonaws.com/18090/1242603714/HeadShot_01.jpg",
+    "w": 320
+  },
+  "p/torrey-babson": {
+    "bg": "#8b8a91",
+    "file": "img/p/torrey-babson.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/torrey-babson-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/BRITE-Headshot-Torrey-Babson_1789579157730.png",
+    "w": 320
+  },
+  "p/trevor-paglen": {
+    "bg": "#3e3e3e",
+    "file": "img/p/trevor-paglen.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/trevor-paglen-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.fotofocus.org/biennial/2026/events/participants#trevor-paglen",
+    "src": "https://www.fotofocus.org/wp-content/uploads/2026/08/Paglen_Headshot_-Michael-Avedon.jpg",
+    "w": 320
+  },
+  "p/valerie-jacobs": {
+    "bg": "#856b93",
+    "file": "img/p/valerie-jacobs.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/valerie-jacobs-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://vfairs-api.s3.amazonaws.com/18090/1243041305/Valerie_Jacobs_2489.jpg",
+    "w": 320
+  },
+  "p/vamos-animation": {
+    "bg": "#d0c6dc",
+    "file": "img/p/vamos-animation.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/vamos-animation-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/vamos-animation",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/unknown.png",
+    "w": 320
+  },
+  "p/vigas": {
+    "bg": "#a88257",
+    "file": "img/p/vigas.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/vigas-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/vigas",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/vigas.png",
+    "w": 320
+  },
+  "p/vince-fraser": {
+    "bg": "#5d5d5d",
+    "file": "img/p/vince-fraser.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/vince-fraser-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/vince-fraser",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/vince-fraser.jpeg",
+    "w": 320
+  },
+  "p/wayne-horse": {
+    "bg": "#614f47",
+    "file": "img/p/wayne-horse.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/wayne-horse-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/wayne-horse",
+    "src": "https://blinkcincinnati.b-cdn.net/files/artists/original/wayne-horse.jpg",
+    "w": 320
+  },
+  "p/william-butler-croutwater": {
+    "bg": "#847e80",
+    "file": "img/p/william-butler-croutwater.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/william-butler-croutwater-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/_V6A5426_1789653010823.png",
+    "w": 320
+  },
+  "p/zac-strobl": {
+    "bg": "#988b87",
+    "file": "img/p/zac-strobl.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/zac-strobl-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://data-us.vfairs.com/V2/18090/users/Zac%20Strobl_1788287141217_1789653085613.png",
+    "w": 320
+  },
+  "p/zach-bahorik": {
+    "bg": "#aba4a6",
+    "file": "img/p/zach-bahorik.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/zach-bahorik-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://vfairs-api.s3.amazonaws.com/18090/1242604225/Bahorik_Zach_web.jpg",
+    "w": 320
+  },
+  "p/zachary-hensley": {
+    "bg": "#4d4f4b",
+    "file": "img/p/zachary-hensley.webp",
+    "h": 320,
+    "sm": {
+      "file": "img/p/zachary-hensley-96.webp",
+      "h": 96,
+      "w": 96
+    },
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "src": "https://vfairs-api.s3.amazonaws.com/18090/1242893691/1743072791711.jpeg",
+    "w": 320
+  },
+  "w/blink-0h10m1ke-light-installation": {
+    "bg": "#66619b",
+    "file": "img/w/blink-0h10m1ke-light-installation-480.webp",
+    "h": 263,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/0h10m1ke-light-installation",
+    "src": "https://blinkcincinnati.b-cdn.net/files/locations/original/0h10m1ke.jpg",
+    "w": 350
+  },
+  "w/blink-allium": {
+    "bg": "#1d1a13",
+    "file": "img/w/blink-allium-480.webp",
+    "h": 268,
+    "lg": {
+      "file": "img/w/blink-allium-960.webp",
+      "h": 536,
+      "w": 960
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/allium",
+    "src": "https://blinkcincinnati.b-cdn.net/files/locations/original/allium.png",
+    "w": 480
+  },
+  "w/blink-bg-tv": {
+    "bg": "#615b58",
+    "file": "img/w/blink-bg-tv-480.webp",
+    "h": 283,
+    "lg": {
+      "file": "img/w/blink-bg-tv-960.webp",
+      "h": 565,
+      "w": 960
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/bg-tv",
+    "src": "https://blinkcincinnati.b-cdn.net/files/locations/original/bgtv.png",
+    "w": 480
+  },
+  "w/blink-connected": {
+    "bg": "#532f29",
+    "file": "img/w/blink-connected-480.webp",
+    "h": 546,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/connected",
+    "src": "https://blinkcincinnati.b-cdn.net/files/locations/original/connected.png",
+    "w": 454
+  },
+  "w/blink-crescendo": {
+    "bg": "#372b16",
+    "file": "img/w/blink-crescendo-480.webp",
+    "h": 320,
+    "lg": {
+      "file": "img/w/blink-crescendo-960.webp",
+      "h": 640,
+      "w": 960
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/crescendo",
+    "src": "https://blinkcincinnati.b-cdn.net/files/locations/original/blink2024-55.png",
+    "w": 480
+  },
+  "w/blink-dreamscape": {
+    "bg": "#413732",
+    "file": "img/w/blink-dreamscape-480.webp",
+    "h": 307,
+    "lg": {
+      "file": "img/w/blink-dreamscape-960.webp",
+      "h": 614,
+      "w": 960
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/dreamscape",
+    "src": "https://blinkcincinnati.b-cdn.net/files/locations/original/dreamscape.png",
+    "w": 480
+  },
+  "w/blink-flower-power": {
+    "bg": "#52384c",
+    "file": "img/w/blink-flower-power-480.webp",
+    "h": 317,
+    "lg": {
+      "file": "img/w/blink-flower-power-960.webp",
+      "h": 464,
+      "w": 702
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/flower-power",
+    "src": "https://blinkcincinnati.b-cdn.net/files/locations/original/flowerpower.png",
+    "w": 480
+  },
+  "w/blink-forealism": {
+    "bg": "#323530",
+    "file": "img/w/blink-forealism-480.webp",
+    "h": 319,
+    "lg": {
+      "file": "img/w/blink-forealism-960.webp",
+      "h": 638,
+      "w": 960
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/forealism",
+    "src": "https://blinkcincinnati.b-cdn.net/files/locations/original/forealism.png",
+    "w": 480
   },
   "w/blink-future-cities-no-1-2-and-3": {
+    "bg": "#56524a",
     "file": "img/w/blink-future-cities-no-1-2-and-3-480.webp",
-    "w": 480,
-    "h": 360,
+    "h": 350,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/future-cities-no-1-2-and-3",
     "src": "https://blinkcincinnati.b-cdn.net/files/locations/original/ngp7564.jpg",
-    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/future-cities-no-1-2-and-3"
+    "w": 350
+  },
+  "w/blink-geist": {
+    "bg": "#414547",
+    "file": "img/w/blink-geist-480.webp",
+    "h": 197,
+    "lg": {
+      "file": "img/w/blink-geist-960.webp",
+      "h": 395,
+      "w": 960
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/geist",
+    "src": "https://blinkcincinnati.b-cdn.net/files/locations/original/geist.png",
+    "w": 480
   },
   "w/blink-in-light-of-us": {
+    "bg": "#a29d98",
     "file": "img/w/blink-in-light-of-us-480.webp",
-    "w": 480,
-    "h": 360,
+    "h": 378,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/in-light-of-us",
     "src": "https://blinkcincinnati.b-cdn.net/files/locations/original/inlightofus.png",
-    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/in-light-of-us"
+    "w": 451
+  },
+  "w/blink-incandescent": {
+    "bg": "#3e3730",
+    "file": "img/w/blink-incandescent-480.webp",
+    "h": 395,
+    "lg": {
+      "file": "img/w/blink-incandescent-960.webp",
+      "h": 755,
+      "w": 917
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/incandescent",
+    "src": "https://blinkcincinnati.b-cdn.net/files/locations/original/incandescent.png",
+    "w": 480
+  },
+  "w/blink-interactive-projection": {
+    "bg": "#1c2124",
+    "file": "img/w/blink-interactive-projection-480.webp",
+    "h": 350,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/projections/interactive-projection",
+    "src": "https://blinkcincinnati.b-cdn.net/files/locations/original/christo-squier-thomas-blackburn.jpg",
+    "w": 233
+  },
+  "w/blink-interlace": {
+    "bg": "#39203e",
+    "file": "img/w/blink-interlace-480.webp",
+    "h": 317,
+    "lg": {
+      "file": "img/w/blink-interlace-960.webp",
+      "h": 634,
+      "w": 960
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/interlace",
+    "src": "https://blinkcincinnati.b-cdn.net/files/locations/original/interlace.png",
+    "w": 480
+  },
+  "w/blink-jacobs-wall": {
+    "bg": "#4b2e3e",
+    "file": "img/w/blink-jacobs-wall-480.webp",
+    "h": 262,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/jacobs-wall",
+    "src": "https://blinkcincinnati.b-cdn.net/files/locations/original/jacobswall.png",
+    "w": 480
+  },
+  "w/blink-kinetic": {
+    "bg": "#0a1931",
+    "file": "img/w/blink-kinetic-480.webp",
+    "h": 656,
+    "lg": {
+      "file": "img/w/blink-kinetic-960.webp",
+      "h": 820,
+      "w": 600
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/kinetic",
+    "src": "https://blinkcincinnati.b-cdn.net/files/locations/original/kinetic.png",
+    "w": 480
+  },
+  "w/blink-lemonde-icebergs": {
+    "bg": "#4e5b6d",
+    "file": "img/w/blink-lemonde-icebergs-480.webp",
+    "h": 433,
+    "lg": {
+      "file": "img/w/blink-lemonde-icebergs-960.webp",
+      "h": 825,
+      "w": 915
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/lemonde-icebergs",
+    "src": "https://blinkcincinnati.b-cdn.net/files/locations/original/lemondeicebergs.png",
+    "w": 480
+  },
+  "w/blink-light-falls": {
+    "bg": "#4a4d77",
+    "file": "img/w/blink-light-falls-480.webp",
+    "h": 571,
+    "lg": {
+      "file": "img/w/blink-light-falls-960.webp",
+      "h": 787,
+      "w": 662
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/light-falls",
+    "src": "https://blinkcincinnati.b-cdn.net/files/locations/original/lightfalls.png",
+    "w": 480
+  },
+  "w/blink-light-lane": {
+    "bg": "#594b51",
+    "file": "img/w/blink-light-lane-480.webp",
+    "h": 447,
+    "lg": {
+      "file": "img/w/blink-light-lane-960.webp",
+      "h": 824,
+      "w": 885
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/light-lane",
+    "src": "https://blinkcincinnati.b-cdn.net/files/locations/original/lightlane.png",
+    "w": 480
+  },
+  "w/blink-lumifolia": {
+    "bg": "#5f5465",
+    "file": "img/w/blink-lumifolia-480.webp",
+    "h": 398,
+    "lg": {
+      "file": "img/w/blink-lumifolia-960.webp",
+      "h": 534,
+      "w": 644
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/lumifolia",
+    "src": "https://blinkcincinnati.b-cdn.net/files/locations/original/lumifolia.png",
+    "w": 480
+  },
+  "w/blink-maestro-musical-notes": {
+    "bg": "#6c7267",
+    "file": "img/w/blink-maestro-musical-notes-480.webp",
+    "h": 357,
+    "lg": {
+      "file": "img/w/blink-maestro-musical-notes-960.webp",
+      "h": 714,
+      "w": 960
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/maestro-musical-notes",
+    "src": "https://blinkcincinnati.b-cdn.net/files/locations/original/maestromusicalnotes.png",
+    "w": 480
+  },
+  "w/blink-millennial-pink": {
+    "bg": "#3a224a",
+    "file": "img/w/blink-millennial-pink-480.webp",
+    "h": 242,
+    "lg": {
+      "file": "img/w/blink-millennial-pink-960.webp",
+      "h": 443,
+      "w": 880
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/millennial-pink",
+    "src": "https://blinkcincinnati.b-cdn.net/files/locations/original/millennialpink.png",
+    "w": 480
+  },
+  "w/blink-mural-by-chase-melendez": {
+    "bg": "#979994",
+    "file": "img/w/blink-mural-by-chase-melendez-480.webp",
+    "h": 350,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/murals/mural-by-chase-melendez",
+    "src": "https://blinkcincinnati.b-cdn.net/files/locations/original/chase-melendez.jpg",
+    "w": 350
+  },
+  "w/blink-mural-by-drew-merritt": {
+    "bg": "#776c68",
+    "file": "img/w/blink-mural-by-drew-merritt-480.webp",
+    "h": 350,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/murals/mural-by-drew-merritt",
+    "src": "https://blinkcincinnati.b-cdn.net/files/locations/original/drew-merritt.jpeg",
+    "w": 220
+  },
+  "w/blink-mural-by-dulk": {
+    "bg": "#8b857e",
+    "file": "img/w/blink-mural-by-dulk-480.webp",
+    "h": 350,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/murals/mural-by-dulk",
+    "src": "https://blinkcincinnati.b-cdn.net/files/locations/original/dulk.jpeg",
+    "w": 270
+  },
+  "w/blink-mural-by-ellna-lourens": {
+    "bg": "#978c6c",
+    "file": "img/w/blink-mural-by-ellna-lourens-480.webp",
+    "h": 210,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/murals/mural-by-ellna-lourens",
+    "src": "https://blinkcincinnati.b-cdn.net/files/locations/original/ellna-lourens.jpeg",
+    "w": 350
+  },
+  "w/blink-mural-by-gera-1": {
+    "bg": "#8b827f",
+    "file": "img/w/blink-mural-by-gera-1-480.webp",
+    "h": 350,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/murals/mural-by-gera-1",
+    "src": "https://blinkcincinnati.b-cdn.net/files/locations/original/gera-1.jpeg",
+    "w": 196
+  },
+  "w/blink-mural-by-james-bullough": {
+    "bg": "#766e6b",
+    "file": "img/w/blink-mural-by-james-bullough-480.webp",
+    "h": 233,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/murals/mural-by-james-bullough",
+    "src": "https://blinkcincinnati.b-cdn.net/files/locations/original/james-bullough.jpg",
+    "w": 350
+  },
+  "w/blink-mural-by-marie-ajras": {
+    "bg": "#afa6a4",
+    "file": "img/w/blink-mural-by-marie-ajras-480.webp",
+    "h": 221,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/murals/mural-by-marie-ajras",
+    "src": "https://blinkcincinnati.b-cdn.net/files/locations/original/marie-ajras.jpg",
+    "w": 350
+  },
+  "w/blink-mural-by-max-sansing": {
+    "bg": "#866869",
+    "file": "img/w/blink-mural-by-max-sansing-480.webp",
+    "h": 197,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/murals/mural-by-max-sansing",
+    "src": "https://blinkcincinnati.b-cdn.net/files/locations/original/maxsansing.jpeg",
+    "w": 350
+  },
+  "w/blink-mural-by-medianeras": {
+    "bg": "#939197",
+    "file": "img/w/blink-mural-by-medianeras-480.webp",
+    "h": 350,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/murals/mural-by-medianeras",
+    "src": "https://blinkcincinnati.b-cdn.net/files/locations/original/medianeras.jpeg",
+    "w": 262
+  },
+  "w/blink-mural-by-polina-soloveichik": {
+    "bg": "#767276",
+    "file": "img/w/blink-mural-by-polina-soloveichik-480.webp",
+    "h": 350,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/murals/mural-by-polina-soloveichik",
+    "src": "https://blinkcincinnati.b-cdn.net/files/locations/original/polina-soloveichik.png",
+    "w": 331
+  },
+  "w/blink-mural-by-wayne-horse": {
+    "bg": "#6e584f",
+    "file": "img/w/blink-mural-by-wayne-horse-480.webp",
+    "h": 350,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/murals/mural-by-wayne-horse",
+    "src": "https://blinkcincinnati.b-cdn.net/files/locations/original/wayne-horse.jpg",
+    "w": 280
+  },
+  "w/blink-mycelium-network": {
+    "bg": "#4a6055",
+    "file": "img/w/blink-mycelium-network-480.webp",
+    "h": 314,
+    "lg": {
+      "file": "img/w/blink-mycelium-network-960.webp",
+      "h": 629,
+      "w": 960
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/mycelium-network",
+    "src": "https://blinkcincinnati.b-cdn.net/files/locations/original/myceliumnetwork.png",
+    "w": 480
+  },
+  "w/blink-psychedelic-car-wash": {
+    "bg": "#1e2c4a",
+    "file": "img/w/blink-psychedelic-car-wash-480.webp",
+    "h": 315,
+    "lg": {
+      "file": "img/w/blink-psychedelic-car-wash-960.webp",
+      "h": 629,
+      "w": 960
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/psychedelic-car-wash",
+    "src": "https://blinkcincinnati.b-cdn.net/files/locations/original/psychedeliccarwash.png",
+    "w": 480
+  },
+  "w/blink-somnius": {
+    "bg": "#264f79",
+    "file": "img/w/blink-somnius-480.webp",
+    "h": 320,
+    "lg": {
+      "file": "img/w/blink-somnius-960.webp",
+      "h": 512,
+      "w": 768
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/somnius",
+    "src": "https://blinkcincinnati.b-cdn.net/files/locations/original/somnius.png",
+    "w": 480
+  },
+  "w/blink-spiral-bound": {
+    "bg": "#263030",
+    "file": "img/w/blink-spiral-bound-480.webp",
+    "h": 153,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/spiral-bound",
+    "src": "https://blinkcincinnati.b-cdn.net/files/locations/original/spiralbound.png",
+    "w": 151
+  },
+  "w/blink-sprayzers": {
+    "bg": "#94837d",
+    "file": "img/w/blink-sprayzers-480.webp",
+    "h": 234,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/sprayzers",
+    "src": "https://blinkcincinnati.b-cdn.net/files/locations/original/big-art2.jpg",
+    "w": 350
+  },
+  "w/blink-string-theory-for-dummies-20": {
+    "bg": "#877879",
+    "file": "img/w/blink-string-theory-for-dummies-20-480.webp",
+    "h": 262,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/string-theory-for-dummies-20",
+    "src": "https://blinkcincinnati.b-cdn.net/files/locations/original/daniel-shields.jpg",
+    "w": 350
+  },
+  "w/blink-the-blinkatorium": {
+    "bg": "#5c331d",
+    "file": "img/w/blink-the-blinkatorium-480.webp",
+    "h": 258,
+    "lg": {
+      "file": "img/w/blink-the-blinkatorium-960.webp",
+      "h": 515,
+      "w": 960
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/the-blinkatorium",
+    "src": "https://blinkcincinnati.b-cdn.net/files/locations/original/theblinkatorium.png",
+    "w": 480
+  },
+  "w/blink-the-hive": {
+    "bg": "#5d3441",
+    "file": "img/w/blink-the-hive-480.webp",
+    "h": 311,
+    "lg": {
+      "file": "img/w/blink-the-hive-960.webp",
+      "h": 452,
+      "w": 697
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/the-hive",
+    "src": "https://blinkcincinnati.b-cdn.net/files/locations/original/thehive.png",
+    "w": 480
+  },
+  "w/blink-threaded-light": {
+    "bg": "#f3f4f5",
+    "file": "img/w/blink-threaded-light-480.webp",
+    "h": 466,
+    "lg": {
+      "file": "img/w/blink-threaded-light-960.webp",
+      "h": 569,
+      "w": 586
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/threaded-light",
+    "src": "https://blinkcincinnati.b-cdn.net/files/locations/original/threadedlight.png",
+    "w": 480
+  },
+  "w/blink-yelled": {
+    "bg": "#31302a",
+    "file": "img/w/blink-yelled-480.webp",
+    "h": 267,
+    "lg": {
+      "file": "img/w/blink-yelled-960.webp",
+      "h": 534,
+      "w": 960
+    },
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/yelled",
+    "src": "https://blinkcincinnati.b-cdn.net/files/locations/original/yelled.png",
+    "w": 480
   }
 }

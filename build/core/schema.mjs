@@ -85,6 +85,7 @@ export const SPECS = {
     venue_id: id(), room: text(), location_text: text(),
     description: text({ long: true }), tracks: list(text()), tags: list({ t: "str" }),
     people: list(id()), people_roles: { t: "map", of: text() }, work_ids: list(id()), org_ids: list(id()),
+    credits: list(obj({ role: text(R), names: list(text()) })),   // C: other credited names without a person record (FotoFocus artists)
     cost: text(), is_free: { t: "bool" }, registration_url: url(),
     status: en(EVENT_STATUS), featured: { t: "bool" }, image_url: url(), source_url: url(R),
   },
@@ -112,7 +113,8 @@ export const SPECS = {
   },
   stays: {
     id: id(R), name: text(R), kind: en(STAY_KINDS), address: text(), hood: id(), lat: { t: "num" }, lng: { t: "num" }, url: url(),
-    room_block: obj({ program: en(PROGRAM_IDS, R), group_code: text(), rate: text(), dates: text(), deadline: text(), booking_url: url() }),
+    room_block: obj({ program: en(PROGRAM_IDS, R), group_code: text(), rate: text(), dates: text(), deadline: text(), booking_url: url(), status: text() }),
+    booking_portal: obj({ program: en(PROGRAM_IDS, R), url: url(R), label: text() }),   // C: listed on a program's hotel portal (not a room block)
     source_url: url(R),
   },
   places: {
@@ -125,7 +127,7 @@ export const SPECS = {
     programs: list(en(PROGRAM_IDS)), summary: text({ long: true }), tags: list({ t: "str" }), gnId: { t: "str" },
     image_url: url(), author: text(), kind: { t: "str" }, date_source: { t: "str" },
   },
-  facts: { id: id(R), program: en(PROGRAM_IDS), label: text(R), value: text(R), as_of: { t: "date" }, source_url: url(R) },
+  facts: { id: id(R), program: en(PROGRAM_IDS), label: text(R), value: text(R), as_of: { t: "date" }, source_url: url(R), source: text(), quote: text({ long: true }) },
 };
 /** Files that must exist and be non-empty arrays; the rest may be [] (engine spec §4.12). */
 export const REQUIRED_NONEMPTY = ["programs", "events", "people", "venues"];

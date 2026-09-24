@@ -13,6 +13,7 @@
                   lt: location_text|null, pp: [person ids], pr: { id: role }, c: cost|null, f: is_free (1|0|null),
                   u: registration_url|null, src, st: status, fe: featured (1|0),
                   tg: [tags], tr: [tracks], tt: time_text|null, ht: hours_text|null, wk: [work ids],
+                  cr: [[role, [names]]] (credits: names without a person record; added by C),
                   i: [[day, s, e, flags]] }] }   flags: 1 endUnknown · 2 timeUnknown · 4 allDay · 8 ongoing · 16 lateNight
                   (i lists every festival-day instance inside dataWindow, sorted by s; day = festival day)
    works.json = { v, works: [{ id, x, p, t, a: [person ids], at: artist_text|null, m: medium, c: category|null,
@@ -35,6 +36,7 @@ export function clientData(db, images) {
     lt: nz(e.location_text), pp: e.people || [], pr: e.people_roles || {}, c: nz(e.cost), f: e.is_free === true ? 1 : e.is_free === false ? 0 : null,
     u: nz(e.registration_url), src: e.source_url, st: e.status || "scheduled", fe: e.featured ? 1 : 0,
     tg: e.tags || [], tr: e.tracks || [], tt: nz(e.time_text), ht: nz(e.hours_text), wk: e.work_ids || [],
+    cr: (e.credits || []).map((c) => [c.role, c.names]),
     i: e.instances.map((x) => [x.day, x.s, x.e, flags(x)]),
   }));
   const works = db.works.map((w) => ({

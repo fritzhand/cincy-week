@@ -1,15 +1,39 @@
 {
   "venues": {
-    "union hall otr": "union-hall",
-    "cincinnati art week hq": "caw-art-market-hq-1417-main"
+    "beer hall at union hall": "union-hall",
+    "cincinnati art week hq": "caw-art-market-hq-1417-main",
+    "union hall beer hall": "union-hall",
+    "union hall otr": "union-hall"
   },
   "hoods": {
-    "over the rhine": "over-the-rhine",
-    "otr": "over-the-rhine",
-    "downtown": "downtown-cbd",
-    "fountain district": "downtown-cbd",
-    "the banks": "the-banks",
+    "central business district": "downtown-cbd",
     "covington": "covington",
-    "west end": "west-end"
+    "covington kentucky": "covington",
+    "covington ky": "covington",
+    "covington roebling point": "covington",
+    "downtown": "downtown-cbd",
+    "downtown cbd": "downtown-cbd",
+    "downtown central business district": "downtown-cbd",
+    "downtown fountain district": "downtown-cbd",
+    "downtown lytle park": "downtown-cbd",
+    "findlay market": "findlay-market-district",
+    "findlay market north over the rhine": "findlay-market-district",
+    "fountain district": "downtown-cbd",
+    "mainstrasse village": "mainstrasse-village",
+    "mainstrasse village covington": "mainstrasse-village",
+    "newport": "newport",
+    "newport kentucky": "newport",
+    "newport ky": "newport",
+    "otr": "over-the-rhine",
+    "over the rhine": "over-the-rhine",
+    "over the rhine findlay market": "findlay-market-district",
+    "over the rhine otr": "over-the-rhine",
+    "pendleton": "pendleton",
+    "the banks": "the-banks",
+    "the banks central riverfront": "the-banks",
+    "the banks downtown": "the-banks",
+    "the banks downtown riverfront": "the-banks",
+    "west end": "west-end",
+    "west end over the rhine": "west-end"
   }
 }
