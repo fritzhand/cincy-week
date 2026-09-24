@@ -437,31 +437,6 @@
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/ana-tomashvili"
   },
   {
-    "id": "andrea-sabugo",
-    "name": "Andrea Sabugo",
-    "sort_name": null,
-    "roles": [
-      "artist"
-    ],
-    "programs": [
-      "caw",
-      "fotofocus"
-    ],
-    "title": "Photographer",
-    "org": null,
-    "org_id": null,
-    "bio": null,
-    "headshot_url": null,
-    "location": null,
-    "pronouns": null,
-    "links": {},
-    "also_sources": [
-      "https://www.fotofocus.org/fotofocus-exhibition/cultural-ties/"
-    ],
-    "source_url": "https://cincinnatiartweek.com/",
-    "notes": "Credited \"Photo by Andrea Sabugo\" on the CAW homepage (projects section) and \"Photograph by Andrea Sabugo\" on all three Cincinnati Magazine CAW photos; also credited on No Standing's About page and Cincy Nice's Still Smiling Fest page."
-  },
-  {
     "id": "andrew-caprariello",
     "name": "Andrew Caprariello",
     "sort_name": null,
@@ -815,8 +790,8 @@
     "notes": "The source's organization field shows an email address (austin@paytheory.com); org taken from his bio: \"Austin is Lead Engineer at Pay Theory\"."
   },
   {
-    "id": "bailey-elderberry",
-    "name": "Bailey Elderberry",
+    "id": "bailey-elder",
+    "name": "Bailey Elder",
     "sort_name": null,
     "roles": [
       "artist"
@@ -829,14 +804,17 @@
     "org_id": null,
     "bio": null,
     "headshot_url": null,
-    "location": null,
+    "location": "Ludlow, Kentucky",
     "pronouns": null,
     "links": {
+      "website": "https://bailey-elder.com/",
       "instagram": "https://www.instagram.com/baileyelderberry/"
     },
-    "also_sources": [],
+    "also_sources": [
+      "https://bailey-elder.com/about"
+    ],
     "source_url": "https://www.instagram.com/p/Ddj-F4WtU0i/",
-    "notes": "Name taken from the Instagram handle @baileyelderberry tagged in the @cincinnatiartweek post (2026-09-21); display name not confirmed."
+    "notes": "Name taken from the Instagram handle @baileyelderberry tagged in the @cincinnatiartweek post (2026-09-21); display name not confirmed. QA audit 2026-09-24: the research turned the Instagram handle @baileyelderberry into the name \"Bailey Elderberry\"; the artist's own site (\"Info - Bailey Elder\", \"I am an artist living in Ludlow, Kentucky\") links instagram.com/baileyelderberry."
   },
   {
     "id": "barbara-hauser",
@@ -1006,9 +984,11 @@
     "links": {
       "instagram": "https://www.instagram.com/bigartworks/?hl=en"
     },
-    "also_sources": [],
+    "also_sources": [
+      "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/sprayzers"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/big-art",
-    "notes": "Artist detail page renders with an empty name and bio (checked 2026-09-24); name and photo come from the artists index page. Bio taken verbatim from the artwork page (https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/sprayzers), which describes the artist."
+    "notes": "Artist detail page renders with an empty name and bio (checked 2026-09-24); name and photo come from the artists index page. Bio taken verbatim from the artwork page (https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/sprayzers), which describes the artist. Bio from https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/sprayzers."
   },
   {
     "id": "black-art-speaks",
@@ -1074,28 +1054,6 @@
     "links": {},
     "also_sources": [],
     "source_url": "https://startupcincyweek.com/en/agenda-page"
-  },
-  {
-    "id": "brandon-hill",
-    "name": "Brandon Hill",
-    "sort_name": null,
-    "roles": [
-      "artist"
-    ],
-    "programs": [
-      "caw"
-    ],
-    "title": null,
-    "org": null,
-    "org_id": null,
-    "bio": null,
-    "headshot_url": null,
-    "location": null,
-    "pronouns": null,
-    "links": {},
-    "also_sources": [],
-    "source_url": "https://cincinnatiartweek.com/artists",
-    "notes": "Only source is the unlisted draft page cincinnatiartweek.com/artists (Cargo display:false; not in nav or sitemap). The page is a template: the \"Brandon Hill\" card repeats 8 times, and card images are placeholders reused from site photography. Treat as unconfirmed. Identity not matched to any external profile (several artists share this name). Card links to /brandon-hill (404)."
   },
   {
     "id": "brendon-cull",
@@ -1529,9 +1487,11 @@
     "links": {
       "website": "https://www.studio-ausgang.com/"
     },
-    "also_sources": [],
+    "also_sources": [
+      "https://www.studio-ausgang.com/"
+    ],
     "source_url": "https://www.cincinnatimagazine.com/article/cincinnati-art-week/",
-    "notes": "Cincinnati Magazine: \"an installation exploring identity by local architect Chas Wiederhold\"."
+    "notes": "Cincinnati Magazine: \"an installation exploring identity by local architect Chas Wiederhold\". Bio from https://www.studio-ausgang.com/."
   },
   {
     "id": "chase-dawson",
@@ -2014,31 +1974,6 @@
     "source_url": "https://www.fotofocus.org/biennial/2026/events/participants#Daniel-immerwahr"
   },
   {
-    "id": "daniel-iroh",
-    "name": "Daniel Iroh",
-    "sort_name": null,
-    "roles": [
-      "artist"
-    ],
-    "programs": [
-      "caw"
-    ],
-    "title": null,
-    "org": null,
-    "org_id": null,
-    "bio": "Hi, my name is Daniel. I grew up having an interest in photography and eventually it became a passion in the year 2020. Ever since then I continue to learn to take better photos nearly everyday.",
-    "headshot_url": null,
-    "location": "Cincinnati, OH",
-    "pronouns": null,
-    "links": {
-      "website": "https://www.danieliroh.com/",
-      "instagram": "https://www.instagram.com/daniel.iroh/"
-    },
-    "also_sources": [],
-    "source_url": "https://docs.google.com/presentation/d/1_AFrLKzGofgz3-Dkjgfe6Psb_Q-v_fexPEAPVNIPoTo/edit?usp=sharing",
-    "notes": "Sponsorship deck captions a photograph \"CINCINNATI ARTIST DANIEL IROH\". Also one of three names on the unlisted draft page cincinnatiartweek.com/artists (placeholder image \"YOUR-DANIEL-IMAGE-URL\"). Participation in the 2026 program not otherwise confirmed."
-  },
-  {
     "id": "daniel-levine",
     "name": "Daniel Levine",
     "sort_name": null,
@@ -2100,9 +2035,11 @@
     "links": {
       "instagram": "https://www.instagram.com/bombyarn/"
     },
-    "also_sources": [],
+    "also_sources": [
+      "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/string-theory-for-dummies-20"
+    ],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/daniel-shields",
-    "notes": "Artist detail page renders with an empty name and bio (checked 2026-09-24); name and photo come from the artists index page. Bio taken verbatim from the artwork page (https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/string-theory-for-dummies-20), which describes the artist."
+    "notes": "Artist detail page renders with an empty name and bio (checked 2026-09-24); name and photo come from the artists index page. Bio taken verbatim from the artwork page (https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/string-theory-for-dummies-20), which describes the artist. Bio from https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/string-theory-for-dummies-20."
   },
   {
     "id": "darrin-murriner",
@@ -2275,9 +2212,11 @@
     "links": {
       "website": "https://www.cincynice.com/"
     },
-    "also_sources": [],
+    "also_sources": [
+      "https://www.cincynice.com/about"
+    ],
     "source_url": "https://cincinnatiartweek.com/meet-the-team",
-    "notes": "Headshot = the uncaptioned photo (1457x1235) in the \"OUR TEAM\" section of cincynice.com/about, placed directly under \"Cincy Nice is led by co-founders Destinee and William Thomas\" and above their bios; it shows two people (a shared co-founders photo, not an individual headshot). Also in the CAW team group photo: https://freight.cargo.site/t/original/i/T3056859355596179323774539701626/CINCYARTWEEK2067.png Instagram: none personal found; the organization account is @cincynice (see orgs)."
+    "notes": "Headshot = the uncaptioned photo (1457x1235) in the \"OUR TEAM\" section of cincynice.com/about, placed directly under \"Cincy Nice is led by co-founders Destinee and William Thomas\" and above their bios; it shows two people (a shared co-founders photo, not an individual headshot). Also in the CAW team group photo: https://freight.cargo.site/t/original/i/T3056859355596179323774539701626/CINCYARTWEEK2067.png Instagram: none personal found; the organization account is @cincynice (see orgs). Bio from https://www.cincynice.com/about."
   },
   {
     "id": "diana-tisue",
@@ -2753,9 +2692,11 @@
       "website": "https://evanverrilli.com/",
       "instagram": "https://www.instagram.com/evan.is.social/"
     },
-    "also_sources": [],
+    "also_sources": [
+      "https://evanverrilli.com/"
+    ],
     "source_url": "https://cincinnatiartweek.com/meet-the-team",
-    "notes": "CAW footer: \"Website design by Evan Verrilli\". Listed among BLINK 2022 artists on No Standing's BLINK page. Instagram is the \"Instagram\" link in his site header; his site also credits illustration work \"under Aldo Crusher\" (@aldocrusher)."
+    "notes": "CAW footer: \"Website design by Evan Verrilli\". Listed among BLINK 2022 artists on No Standing's BLINK page. Instagram is the \"Instagram\" link in his site header; his site also credits illustration work \"under Aldo Crusher\" (@aldocrusher). Bio from https://evanverrilli.com/."
   },
   {
     "id": "everything-good-studio",
@@ -2914,9 +2855,11 @@
       "linkedin": "https://www.linkedin.com/in/gee-horton-7322b5b4/",
       "x": "https://twitter.com/g_hortonjr"
     },
-    "also_sources": [],
+    "also_sources": [
+      "https://en.wikipedia.org/wiki/Gee_Horton"
+    ],
     "source_url": "https://www.cincinnatimagazine.com/article/cincinnati-art-week/",
-    "notes": "Bio = Wikipedia lead (verbatim). Headshot = Wikimedia Commons file Gee_Horton.jpg (2016x1512), an at-work studio photo rather than a posed portrait; license CC0 (no attribution required), read from commons.wikimedia.org/wiki/File:Gee_Horton.jpg (raw/caw/verify/webfetch_commons_gee_horton.txt). Social links from geehorton.com. Also on the 2020 Our Tables organizing team (Cincy Nice)."
+    "notes": "Bio = Wikipedia lead (verbatim). Headshot = Wikimedia Commons file Gee_Horton.jpg (2016x1512), an at-work studio photo rather than a posed portrait; license CC0 (no attribution required), read from commons.wikimedia.org/wiki/File:Gee_Horton.jpg (raw/caw/verify/webfetch_commons_gee_horton.txt). Social links from geehorton.com. Also on the 2020 Our Tables organizing team (Cincy Nice). Bio from https://en.wikipedia.org/wiki/Gee_Horton."
   },
   {
     "id": "gera-1",
@@ -3222,28 +3165,6 @@
     },
     "also_sources": [],
     "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/inka-kendzia"
-  },
-  {
-    "id": "isaiah-armstrong",
-    "name": "Isaiah Armstrong",
-    "sort_name": null,
-    "roles": [
-      "artist"
-    ],
-    "programs": [
-      "caw"
-    ],
-    "title": null,
-    "org": null,
-    "org_id": null,
-    "bio": null,
-    "headshot_url": null,
-    "location": null,
-    "pronouns": null,
-    "links": {},
-    "also_sources": [],
-    "source_url": "https://cincinnatiartweek.com/artists",
-    "notes": "Only source is the unlisted draft page cincinnatiartweek.com/artists (Cargo display:false; not in nav or sitemap). The page is a template: the \"Brandon Hill\" card repeats 8 times, and card images are placeholders reused from site photography. Treat as unconfirmed. Identity not matched to any external profile (several artists share this name). Card links to /isaiah-armstrong (404)."
   },
   {
     "id": "j-b-kropp",
@@ -3553,10 +3474,11 @@
       "x": "https://twitter.com/JasonDSnell"
     },
     "also_sources": [
+      "https://www.eventbrite.com/e/no-grid-a-creative-conversation-series-tickets-2000523175671",
       "https://www.blinkcincinnati.com/newsroom/2026/06/08/blink-2026-participating-artists"
     ],
     "source_url": "https://cincinnatiartweek.com/meet-the-team",
-    "notes": "Headshot = illustrated \"SnellBeast\" avatar used on Eventbrite (447x447). headshot_photo_url = photograph (1250x833) on snellbeast.com/about captioned \"In front of the 100th ArtWorks mural featuring Heavyweight Champion Ezzard Charles in Over-the-Rhine ... Photo by Andrew Higley for UC Magazine\". Draft schedule: \"NO GRID — A Creative Conversation Series by SnellBeast.\" \"curator\" role reflects that he programs NO GRID."
+    "notes": "Headshot = illustrated \"SnellBeast\" avatar used on Eventbrite (447x447). headshot_photo_url = photograph (1250x833) on snellbeast.com/about captioned \"In front of the 100th ArtWorks mural featuring Heavyweight Champion Ezzard Charles in Over-the-Rhine ... Photo by Andrew Higley for UC Magazine\". Draft schedule: \"NO GRID — A Creative Conversation Series by SnellBeast.\" \"curator\" role reflects that he programs NO GRID. Bio from https://www.eventbrite.com/e/no-grid-a-creative-conversation-series-tickets-2000523175671."
   },
   {
     "id": "javarri-lewis",
@@ -3582,9 +3504,11 @@
       "instagram": "https://www.instagram.com/javarrilewis/",
       "tiktok": "https://www.tiktok.com/@javarrilewis"
     },
-    "also_sources": [],
+    "also_sources": [
+      "https://www.cincyartistnetwork.com/discover/artists/javarri-lewis"
+    ],
     "source_url": "https://cincinnatiartweek.com/meet-the-team",
-    "notes": "Headshot = NO GRID lineup image on Eventbrite (painted/illustrated portrait, 1080x1080). NO GRID agenda: \"In Conversation\" 17:45 at Location #2. Links from the Cincy Artist Network profile (sameAs: portfolio, TikTok, Instagram)."
+    "notes": "Headshot = NO GRID lineup image on Eventbrite (painted/illustrated portrait, 1080x1080). NO GRID agenda: \"In Conversation\" 17:45 at Location #2. Links from the Cincy Artist Network profile (sameAs: portfolio, TikTok, Instagram). Bio from https://www.cincyartistnetwork.com/discover/artists/javarri-lewis."
   },
   {
     "id": "jay-hill-roberto",
@@ -5779,9 +5703,11 @@
     "links": {
       "website": "https://www.nostandingonlydancing.com/"
     },
-    "also_sources": [],
+    "also_sources": [
+      "https://www.nostandingonlydancing.com/about"
+    ],
     "source_url": "https://cincinnatiartweek.com/meet-the-team",
-    "notes": "No individual headshot found; appears in the CAW team group photo: https://freight.cargo.site/t/original/i/T3056859355596179323774539701626/CINCYARTWEEK2067.png Instagram: none personal found; the studio account is @nostandingstudio (see orgs)."
+    "notes": "No individual headshot found; appears in the CAW team group photo: https://freight.cargo.site/t/original/i/T3056859355596179323774539701626/CINCYARTWEEK2067.png Instagram: none personal found; the studio account is @nostandingstudio (see orgs). Bio from https://www.nostandingonlydancing.com/about."
   },
   {
     "id": "melissa-smith",
@@ -6043,10 +5969,11 @@
       "instagram": "https://www.instagram.com/mz.icar/"
     },
     "also_sources": [
+      "https://mzicar.com/info/",
       "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/the-mzicar-collective"
     ],
     "source_url": "https://www.cincinnatimagazine.com/article/cincinnati-art-week/",
-    "notes": "Cincinnati Magazine: \"You might find an experiential art piece by Mz. Icar, an installation exploring identity by local architect Chas Wiederhold, or Prints and Plants, a pop-up with local artist Gee Horton.\" Bio = first three paragraphs of the BIOGRAPHY section on mzicar.com/info (truncated). Also a BLINK 2022/2024 artist per No Standing."
+    "notes": "Cincinnati Magazine: \"You might find an experiential art piece by Mz. Icar, an installation exploring identity by local architect Chas Wiederhold, or Prints and Plants, a pop-up with local artist Gee Horton.\" Bio = first three paragraphs of the BIOGRAPHY section on mzicar.com/info (truncated). Also a BLINK 2022/2024 artist per No Standing. Bio from https://mzicar.com/info/."
   },
   {
     "id": "napoleon-maddox",
@@ -7727,9 +7654,11 @@
     "links": {
       "website": "https://www.tiffanymcooper.com/"
     },
-    "also_sources": [],
+    "also_sources": [
+      "https://www.tiffanymcooper.com/about"
+    ],
     "source_url": "https://cincinnatiartweek.com/meet-the-team",
-    "notes": "Shares the Community Impact Advisor credit with Candra Reeves (Meaningful Connections). Headshot = uncaptioned portrait (1455x2000) on her own site's About page, placed directly above her signed quote (\"— Tiffany\"); no photographer credit. Her site links only the Meaningful Connections accounts (Instagram @meaningfulconnects, a Facebook page), not personal profiles."
+    "notes": "Shares the Community Impact Advisor credit with Candra Reeves (Meaningful Connections). Headshot = uncaptioned portrait (1455x2000) on her own site's About page, placed directly above her signed quote (\"— Tiffany\"); no photographer credit. Her site links only the Meaningful Connections accounts (Instagram @meaningfulconnects, a Facebook page), not personal profiles. Bio from https://www.tiffanymcooper.com/about."
   },
   {
     "id": "tim-hori",
@@ -8139,9 +8068,11 @@
     "links": {
       "website": "https://www.cincynice.com/"
     },
-    "also_sources": [],
+    "also_sources": [
+      "https://www.cincynice.com/about"
+    ],
     "source_url": "https://cincinnatiartweek.com/meet-the-team",
-    "notes": "CityBeat calls him \"Billy\" Thomas. Headshot = the shared co-founders photo in the \"OUR TEAM\" section of cincynice.com/about (two people, uncaptioned; see destinee-thomas). Also in the CAW team group photo: https://freight.cargo.site/t/original/i/T3056859355596179323774539701626/CINCYARTWEEK2067.png"
+    "notes": "CityBeat calls him \"Billy\" Thomas. Headshot = the shared co-founders photo in the \"OUR TEAM\" section of cincynice.com/about (two people, uncaptioned; see destinee-thomas). Also in the CAW team group photo: https://freight.cargo.site/t/original/i/T3056859355596179323774539701626/CINCYARTWEEK2067.png Bio from https://www.cincynice.com/about."
   },
   {
     "id": "wynton-marsalis",

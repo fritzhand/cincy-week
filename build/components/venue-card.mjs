@@ -2,21 +2,28 @@
    build/components/venue-card.mjs · OWNER: Agent E (map, venues & visit)
 
    makeVenueCards(ctx) → {
-     venueCard(root, venue, { anchor = true, headingLevel = 3, show = false })
-         li.venue#v-{id}[data-prog][data-prog2][data-p][data-h][data-day][data-q][data-ll] (DESIGN.md §9.7):
+     venueCard(root, venue, { anchor = true, headingLevel = 3, show = true })
+         li.venue#v-{id}[data-prog][data-prog2][data-p][data-h][data-day][data-q][data-ll][data-n] (DESIGN.md §9.7):
          .stall (the map number; "–" dashed when the venue is not on the map), h3 a → the venue page (the whole
-         row is stretched to it), .addr, .roles (bullet + program + what it has there), .today (days with events),
-         .acts (walking directions in Apple and Google Maps, "On the map"), raised above the stretched link.
-     miniMap(root, lat, lng, { prog, n, label, halfWidthM })
-         .mini-map: <svg viewBox="{crop}"><use href="{root}assets/map/basemap.svg#bm"/></svg> + one .pin.pin-venue.
-         Plain SVG, works without JS. No coordinates → p.unk "Not on the map: …"; off the basemap → p.unk.
-     directions(lat, lng)             { apple, google } walking-mode URLs (engine spec §4.10)
-     directionsTo(venueOrRecord)      the same, by coordinates, else by street address (Google only), else null
+         row is stretched to it), .addr, .roles (bullet + program + what it has there), .today (days with events, or
+         the honest "not on the map" badge), .acts (walking directions in Apple and Google Maps, "On the map"
+         → map.html?focus=venue:<id>), raised above the stretched link. data-ll/data-n only for venues on the map;
+         data-day = festival days with a live event there (the venues page's day filter).
+     miniMap(root, lat, lng, { prog, n, label, halfWidthM = 350 })
+         .mini-map: <svg viewBox="{crop}"><use href="{root}assets/map/basemap.svg#bm"/></svg> + up to three basemap
+         labels + one .pin.pin-venue. Plain SVG, works without JS. No coordinates → p.unk "Not on the map: …";
+         off the basemap → p.unk "Outside the map area".
+     areaMap(root, [{ lat, lng, kind, prog, n }], { label, minHalfM, center, ratio, cls })
+         a static crop that fits several points, one pin each (neighborhood and streetcar maps)
+     directions(lat, lng, { walk = true })   { apple, google } (walking mode unless walk: false)
+     directionsTo(record)             by coordinates (walking inside the map area, mode left open elsewhere), else by
+                                      the street address (Google only), else null → { apple|null, google, walk }
      where(record)                    "on" | "off" (outside the basemap) | "none" (no coordinates)
      placeStatus(record)              the honest "not on the map" badge for a record, or ""
      meta                             the projection (lib/geo.js metaOf(data/map.json)): { bbox, home, k, sx, W, H, mPerUnit }
-     nearbyOf(lat, lng, meters)       db.nearby with walking estimates: [{ kind, rec, d, min }]
-     walkLabel(meters)                "350 m · about 6 min walk"
+     nearbyOf(lat, lng, meters)       db.nearby plus walking estimates: [{ kind, rec, d, min }]
+     walkLabel(meters)                "350 m · about 6 min walk" (an estimate: straight line × 1.3 at 80 m a minute)
+     daysOf(venue)                    the festival days with a live event at the venue
    }
    ============================================================ */
 import { esc, attr, extLink, plural } from "../core/util.mjs";
@@ -29,16 +36,18 @@ export function makeVenueCards(ctx) {
   const { db, c } = ctx;
   const meta = metaOf(db.map);
 
-  const directions = (lat, lng) => ({
-    apple: `https://maps.apple.com/?daddr=${lat},${lng}&dirflg=w`,
-    google: `https://www.google.com/maps/dir/?api=1&destination=${lat},${lng}&travelmode=walking`,
+  /** Walking directions by default; { walk: false } leaves the mode to the reader (a venue in another city). */
+  const directions = (lat, lng, { walk = true } = {}) => ({
+    apple: `https://maps.apple.com/?daddr=${lat},${lng}${walk ? "&dirflg=w" : ""}`,
+    google: `https://www.google.com/maps/dir/?api=1&destination=${lat},${lng}${walk ? "&travelmode=walking" : ""}`,
   });
-  /** By coordinates when we have them, else by the published street address (Google Maps geocodes it). */
+  /** By coordinates when we have them (walking inside the map area), else by the published street address
+   *  (Google Maps geocodes it). → { apple, google, walk } | null */
   function directionsTo(r) {
-    if (r.lat != null && r.lng != null) return directions(r.lat, r.lng);
+    if (r.lat != null && r.lng != null) { const walk = onMap(meta, r.lat, r.lng); return { ...directions(r.lat, r.lng, { walk }), walk }; }
     if (!r.address) return null;
     const q = encodeURIComponent([r.address, r.city, r.state].filter(Boolean).join(", "));
-    return { apple: null, google: `https://www.google.com/maps/dir/?api=1&destination=${q}&travelmode=walking` };
+    return { apple: null, google: `https://www.google.com/maps/dir/?api=1&destination=${q}&travelmode=walking`, walk: true };
   }
   const where = (r) => (r.lat == null || r.lng == null ? "none" : onMap(meta, r.lat, r.lng) ? "on" : "off");
   function placeStatus(r) {
@@ -58,13 +67,16 @@ export function makeVenueCards(ctx) {
     const [x0, y0, w, h] = vb, out = [];
     const cands = LABELS.filter((l) => LABEL_PRI[l.kind] != null).map((l) => {
       const x = ((l.lng - meta.bbox.w) * meta.k * meta.sx - x0) / w * 100, y = ((meta.bbox.n - l.lat) * meta.sx - y0) / h * 100;
-      const half = ((l.text.length * (l.kind === "hood" ? 8.4 : 6.6)) / 2 / 320) * 100 * Math.abs(Math.cos(((l.angle || 0) * Math.PI) / 180)) + 4;
-      return { l, x, y, half };
-    }).filter((c) => c.x - c.half > 2 && c.x + c.half < 98 && c.y > 8 && c.y < 92 && Math.hypot(c.x - px, (c.y - py) * 0.75) > 16)
+      // extents in percent of a small (240 × 180 px) mini-map, so labels fit wherever the crop is shown
+      const len = (l.text.length * (l.kind === "hood" ? 8.4 : 6.6)) / 2, a = ((l.angle || 0) * Math.PI) / 180;
+      const half = ((len * Math.abs(Math.cos(a)) + 8 * Math.abs(Math.sin(a))) / 240) * 100 + 3;
+      const halfY = ((len * Math.abs(Math.sin(a)) + 8 * Math.abs(Math.cos(a))) / 180) * 100 + 3;
+      return { l, x, y, half, halfY };
+    }).filter((c) => c.x - c.half > 1 && c.x + c.half < 99 && c.y - c.halfY > 1 && c.y + c.halfY < 99 && Math.hypot(c.x - px, (c.y - py) * 0.75) > 16)
       .sort((a, b) => LABEL_PRI[a.l.kind] - LABEL_PRI[b.l.kind]);
     for (const c of cands) {
       if (out.length >= 3) break;
-      if (out.some((o) => Math.abs(o.y - c.y) < 12 && Math.abs(o.x - c.x) < o.half + c.half)) continue;
+      if (out.some((o) => Math.abs(o.y - c.y) < o.halfY + c.halfY && Math.abs(o.x - c.x) < o.half + c.half)) continue;
       if (out.some((o) => o.l.text === c.l.text)) continue;
       out.push(c);
     }
@@ -116,7 +128,7 @@ export function makeVenueCards(ctx) {
   function venueCard(root, v, { anchor = true, headingLevel = 3, show = true } = {}) {
     const prog = v.programs[0] || "also";
     const hood = v.hood ? db.byId.place.get(v.hood) : null;
-    const place = hood ? hood.name : v.neighborhood || (v.city && v.city !== "Cincinnati" ? [v.city, v.state].filter(Boolean).join(", ") : "");
+    const place = hood ? (hood.name.includes("(") ? hood.short_name || hood.name : hood.name) : v.neighborhood || (v.city && v.city !== "Cincinnati" ? [v.city, v.state].filter(Boolean).join(", ") : "");
     const addr = [v.address, place].filter(Boolean).join(" · ");
     const days = daysOf(v);
     const w = where(v);
@@ -124,7 +136,7 @@ export function makeVenueCards(ctx) {
     const H = `h${headingLevel}`;
     const q = norm([...(v.aliases || []), v.city, v.kind, v.neighborhood].filter(Boolean).join(" "));
     const acts = [
-      d ? `<span class="acts-l">${icon("walk")}Walking directions</span>${d.apple ? extLink(d.apple, "Apple Maps", "btn btn-secondary btn-sm") : ""}${extLink(d.google, "Google Maps", "btn btn-secondary btn-sm")}` : "",
+      d ? `<span class="acts-l">${icon(d.walk ? "walk" : "pin")}${d.walk ? "Walking directions" : "Directions"}</span>${d.apple ? extLink(d.apple, "Apple Maps", "btn btn-secondary btn-sm") : ""}${extLink(d.google, "Google Maps", "btn btn-secondary btn-sm")}` : "",
       show && w === "on" ? `<a class="btn btn-ghost btn-sm" href="${root}map.html?focus=venue:${attr(v.id)}" data-map-focus="venue:${attr(v.id)}">${icon("map")}On the map</a>` : "",
     ].join("");
     return `<li class="venue" data-prog="${prog}"${v.programs[1] ? ` data-prog2="${v.programs[1]}"` : ""}${anchor ? ` id="v-${attr(v.id)}"` : ""} data-p="${attr(v.programs.join(" "))}" data-h="${attr(v.hood || "")}" data-day="${days.join(" ")}" data-q="${attr(q)}"${w === "on" ? ` data-ll="${v.lat},${v.lng}" data-n="${v.stall}"` : ""}>`

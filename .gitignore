@@ -2,4 +2,6 @@
 docs.tmp/
 docs.old/
 node_modules/
+__pycache__/
+*.pyc
 .DS_Store

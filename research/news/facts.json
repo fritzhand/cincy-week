@@ -1,0 +1,908 @@
+[
+  {
+    "program": "blink",
+    "fact": "The first BLINK (Oct. 12-15, 2017) drew an estimated 1 million-plus people, per Cincinnati police estimates",
+    "value": "more than 1 million (2017)",
+    "source": "WKRC Local 12",
+    "url": "https://local12.com/news/local/estimated-one-million-people-attended-inaugural-blink-cincinnati",
+    "date": "2017-10-16",
+    "quote": "Cincinnati police estimate more than one million people attended the event between October 12-15."
+  },
+  {
+    "program": "blink",
+    "fact": "BLINK 2017 covered 20 city blocks with more than 100 artists, 60 of them from the Tri-State",
+    "value": "20 blocks; 100+ artists (60 local)",
+    "source": "WKRC Local 12",
+    "url": "https://local12.com/news/local/estimated-one-million-people-attended-inaugural-blink-cincinnati",
+    "date": "2017-10-16",
+    "quote": "BLINK Cincinnati features projection mapping and art installations over 20 city blocks. More than 100 artists participated, 60 of them are from the Tri-State."
+  },
+  {
+    "program": "blink",
+    "fact": "BLINK 2017 featured 22 projection mappings and 35 light-based installations from Findlay Market to The Banks",
+    "value": "22 projection mappings; 35 installations (2017)",
+    "source": "Soapbox Cincinnati",
+    "url": "https://soapboxmedia.com/1017171-blink-by-the-numbers/",
+    "date": "2017-10-17",
+    "quote": "Twenty-two projection mappings and 35 light-based art installations were strategically placed from Findlay Market to The Banks"
+  },
+  {
+    "program": "blink",
+    "fact": "About 100,000 people watched the 2017 BLINK light parade, which had more than 2,500 participants",
+    "value": "~100,000 spectators; 2,500+ participants (2017)",
+    "source": "Soapbox Cincinnati",
+    "url": "https://soapboxmedia.com/1017171-blink-by-the-numbers/",
+    "date": "2017-10-17",
+    "quote": "More than 2,500 people participated in Thursday’s BLINK Future City Spectacular light parade; about 100,000 people attended the parade"
+  },
+  {
+    "program": "blink",
+    "fact": "BLINK 2017 crowds were bigger than Riverfest, Taste of Cincinnati and Oktoberfest",
+    "value": "larger than Riverfest, Taste, Oktoberfest",
+    "source": "WVXU",
+    "url": "https://www.wvxu.org/local-news/2017-10-16/blink-brings-estimated-one-million-people-to-downtown-cincinnati",
+    "date": "2017-10-16",
+    "quote": "The four-day light festival drew in crowds bigger than Riverfest, Taste of Cincinnati and Oktoberfest."
+  },
+  {
+    "program": "blink",
+    "fact": "BLINK 2019 drew an estimated 1.25-1.5 million people, the largest event in the region's history",
+    "value": "1.25-1.5 million (2019)",
+    "source": "NKyTribune",
+    "url": "https://nkytribune.com/2019/10/organizers-call-blink-an-enormous-success-1-25-1-5m-visitors-attend-art-light-and-culture-event/",
+    "date": "2019-10-17",
+    "quote": "Between 1.25 and 1.5 million people experienced BLINK in 2019, making the event the largest event in the region’s history."
+  },
+  {
+    "program": "blink",
+    "fact": "BLINK 2019 had a total combined economic impact of $86.7 million and supported 1,015 jobs",
+    "value": "$86.7 million; 1,015 jobs (2019)",
+    "source": "Movers & Makers",
+    "url": "https://moversmakers.org/2021/04/27/blink-2019-economic-impact-reached-new-heights-for-cincinnati-region/",
+    "date": "2021-04-27",
+    "quote": "In October of 2019, BLINK attracted more than 1.2 million attendees resulting in a total combined economic impact of $86.7 million, and supported 1,015 jobs earning a total of $28.3 million dollars."
+  },
+  {
+    "program": "blink",
+    "fact": "BLINK 2019 had 42 projection mappings, 38 interactive installation locations and 17 murals across 30 blocks and two states",
+    "value": "42 / 38 / 17 (2019)",
+    "source": "Movers & Makers",
+    "url": "https://moversmakers.org/2021/04/27/blink-2019-economic-impact-reached-new-heights-for-cincinnati-region/",
+    "date": "2021-04-27",
+    "quote": "The four-day event featured 42 projection mappings, 38 interactive installation locations, and 17 murals stretching across 30 city blocks, two states and the Ohio River."
+  },
+  {
+    "program": "blink",
+    "fact": "More than 150,000 people watched the 2019 opening parade, which had 3,400 marchers from 93 groups",
+    "value": "150,000+ spectators; 3,400 marchers; 93 groups (2019)",
+    "source": "Cincinnati CityBeat",
+    "url": "https://www.citybeat.com/news/blink-draws-record-crowds-to-cincinnati-12156416/",
+    "date": "2019-10-17",
+    "quote": "More than 150,000 people watched the “Future City Light Spectacular” opening parade for the event. The procession featured 3,400 people representing 93 participating groups, according to estimates from organizers."
+  },
+  {
+    "program": "blink",
+    "fact": "43,205 people rode the Cincinnati streetcar during BLINK 2019",
+    "value": "43,205 riders (2019)",
+    "source": "WLWT",
+    "url": "https://www.wlwt.com/article/43205-people-rode-cincinnatis-streetcar-during-blink/29465427",
+    "date": "2019-10-14",
+    "quote": "Officials with the Cincinnati Bell Connector said 43,205 people rode the streetcar during BLINK."
+  },
+  {
+    "program": "blink",
+    "fact": "Hotel rooms were full during BLINK 2019, officials said",
+    "value": "hotels full (2019)",
+    "source": "FOX19 NOW (WXIX)",
+    "url": "https://www.fox19.com/2019/10/16/blink-was-greater-cincinnatis-largest-event-ever-officials-say/",
+    "date": "2019-10-16",
+    "quote": "The crowds were huge, the hotel rooms were full and the Queen City shined."
+  },
+  {
+    "program": "blink",
+    "fact": "BLINK 2022 drew over 2 million attendees and produced $126 million in direct economic impact",
+    "value": "2 million+; $126 million (2022)",
+    "source": "Movers & Makers",
+    "url": "https://moversmakers.org/2023/03/07/blink-has-126-million-impact/",
+    "date": "2023-03-07",
+    "quote": "The nowhere-else Blink experience attracted over 2 million attendees across the four-day October 2022 event, resulting in a direct economic impact of $126 million dollars."
+  },
+  {
+    "program": "blink",
+    "fact": "BLINK 2022 supported or created 1,687 jobs and generated $1.5 million in direct artist commissions, honorariums and fees",
+    "value": "1,687 jobs; $1.5 million to artists (2022)",
+    "source": "Movers & Makers",
+    "url": "https://moversmakers.org/2023/03/07/blink-has-126-million-impact/",
+    "date": "2023-03-07",
+    "quote": "Additionally, the event directly supported or created 1,687 jobs, and generated $1.5 million dollars in direct artist commissions, honorariums, and art fees."
+  },
+  {
+    "program": "blink",
+    "fact": "BLINK 2022 visitors came from 29 states, and its impact beat 2019's $86.7 million by over 45%",
+    "value": "29 states; +45% vs 2019",
+    "source": "LINK nky",
+    "url": "https://linknky.com/business/2023/03/02/2022-blink-had-126-million-of-direct-economic-impact-on-region/",
+    "date": "2023-03-02",
+    "quote": "Last year’s BLINK exceeded 2019’s economic impact of $86.7 million by over 45%, according to the report. The four-day event brought more than 2 million visitors from 29 states"
+  },
+  {
+    "program": "blink",
+    "fact": "BLINK 2022 attendance was about 500,000 above expectations and 54% above the 2019 high of about 1.3 million",
+    "value": "+54% vs 2019",
+    "source": "FOX19 NOW (WXIX)",
+    "url": "https://www.fox19.com/2023/03/01/blink-organizers-promise-next-years-festival-will-be-more-immersive/",
+    "date": "2023-03-01",
+    "quote": "The attendance is around 500,000 greater than what organizers had expected prior to the four-day event last October. It’s also a 54 percent increase from the festival’s previous high in 2019, when around 1.3 million people attended."
+  },
+  {
+    "program": "blink",
+    "fact": "BLINK 2022 had 101 installations across 30 city blocks",
+    "value": "101 installations; 30 blocks (2022)",
+    "source": "WLWT",
+    "url": "https://www.wlwt.com/article/blink-cincinnati-lights-festival-record-breaking-attendees/41722238",
+    "date": "2022-10-20",
+    "quote": "Blink took over Cincinnati last weekend, bringing 101 installations spanning 30 city blocks."
+  },
+  {
+    "program": "blink",
+    "fact": "BLINK 2022 included 39 large-scale projection mappings, 16 new murals and more than 80 bands on eight stages",
+    "value": "39 mappings; 16 murals; 80+ bands; 8 stages (2022)",
+    "source": "Soapbox Cincinnati",
+    "url": "https://soapboxmedia.com/blink-2022-northern-kentucky/",
+    "date": "2022-10-11",
+    "quote": "featuring 39 large-scale projection mappings, 16 new murals, and interactive light sculptures. The event is also a four-day music festival, with more than 80 diverse bands performing on eight stages."
+  },
+  {
+    "program": "blink",
+    "fact": "BLINK 2024 had a direct economic impact of approximately $205 million on the Cincinnati MSA",
+    "value": "~$205 million (2024)",
+    "source": "BLINK 2024 Impact Report (Cincinnati Regional Chamber)",
+    "url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf",
+    "date": null,
+    "quote": "The operations and attendee spending had a direct economic impact on the Cincinnati MSA of approximately $205 million",
+    "notes": "Undated PDF; the upload path shows July 2025."
+  },
+  {
+    "program": "blink",
+    "fact": "About 19% of BLINK 2024 survey respondents were from outside the Cincinnati region, almost ten points more than in 2022",
+    "value": "19% non-local (2024)",
+    "source": "BLINK 2024 Impact Report (Cincinnati Regional Chamber)",
+    "url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf",
+    "date": null,
+    "quote": "In 2024, about 19% of respondents were from outside the Cincinnati region, almost ten percentage points more than BLINK in 2022.",
+    "notes": "Undated PDF; the upload path shows July 2025."
+  },
+  {
+    "program": "blink",
+    "fact": "Non-local BLINK 2024 attendees generated about $142 million in total output on hotels, food and drink, retail and travel",
+    "value": "~$142 million (2024)",
+    "source": "BLINK 2024 Impact Report (Cincinnati Regional Chamber)",
+    "url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf",
+    "date": null,
+    "quote": "Total direct and indirect output from non-local attendee spending on hotels, food and drink, retail, and travel was approximately $142 million.",
+    "notes": "Undated PDF; the upload path shows July 2025."
+  },
+  {
+    "program": "blink",
+    "fact": "BLINK 2024 attendees represented 15 countries",
+    "value": "15 countries (2024)",
+    "source": "BLINK 2024 Impact Report (Cincinnati Regional Chamber)",
+    "url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf",
+    "date": null,
+    "quote": "15 COUNTRIES REPRESENTED",
+    "notes": "Undated PDF; the upload path shows July 2025."
+  },
+  {
+    "program": "blink",
+    "fact": "BLINK 2024 attendance: organizers said 2.1 million people came",
+    "value": "2.1 million (2024)",
+    "source": "WVXU",
+    "url": "https://www.wvxu.org/local-news/2026-06-08/blink-returns-for-the-fifth-time-with-a-few-changes",
+    "date": "2026-06-08",
+    "quote": "Last year, in 2024, organizers say 2.1 million came."
+  },
+  {
+    "program": "blink",
+    "fact": "BLINK 2024 drew over 2 million people and $205 million in economic impact",
+    "value": "2 million+; $205 million (2024)",
+    "source": "Cincinnati CityBeat",
+    "url": "https://www.citybeat.com/arts/visual-arts/blink-celebrates-10-year-anniversary-in-2026/",
+    "date": "2026-06-08",
+    "quote": "In 2024, over two million people attended BLINK, bringing $205 million in economic impact to the city."
+  },
+  {
+    "program": "blink",
+    "fact": "BLINK 2024 earned 67 million print and online media impressions",
+    "value": "67 million impressions (2024)",
+    "source": "NKyTribune",
+    "url": "https://nkytribune.com/2026/08/blinks-leslie-mooney-to-provide-insight-on-whats-to-come-at-cbcs-monthly-meeting/",
+    "date": "2026-08-31",
+    "quote": "The 2024 festival generated an impressive $205 million in direct economic impact, attracted more than 2 million attendees, and earned 67 million print and online media impressions"
+  },
+  {
+    "program": "blink",
+    "fact": "Organizers describe BLINK as the largest light-based art festival in the U.S., second only to Vivid Sydney",
+    "value": "claim: largest in U.S.; 2nd to Vivid Sydney",
+    "source": "NKyTribune",
+    "url": "https://nkytribune.com/2026/08/blinks-leslie-mooney-to-provide-insight-on-whats-to-come-at-cbcs-monthly-meeting/",
+    "date": "2026-08-31",
+    "quote": "BLINK continues to set the standard as the largest light-based art festival in the United States and is second only to Vivid Sydney in Australia.",
+    "notes": "Organizer claim reported by NKyTribune."
+  },
+  {
+    "program": "blink",
+    "fact": "38,252 people rode the streetcar Thursday-Sunday during BLINK 2024, about 1,650 more than in 2022",
+    "value": "38,252 riders (2024)",
+    "source": "WVXU",
+    "url": "https://www.wvxu.org/local-news/2024-10-22/more-people-took-streetcar-metro-blink-2024",
+    "date": "2024-10-22",
+    "quote": "Deputy Director of Streetcar Services Lori Burchett says 38,252 people rode the train from Thursday to Sunday, an increase of about 1,650 people from the previous festival weekend."
+  },
+  {
+    "program": "blink",
+    "fact": "The Asianati Night Market drew more than 800,000 attendees during BLINK 2024, a record for the event, organizers said",
+    "value": "800,000+ (2024)",
+    "source": "FOX19 NOW (WXIX)",
+    "url": "https://www.fox19.com/2024/10/24/asianati-night-market-brings-record-breaking-numbers-during-blink/",
+    "date": "2024-10-24",
+    "quote": "According to Asianati organizers, the night market drew more than 800,000 attendees at the four-day event. … This was a record-breaking number for the local event, organizers said"
+  },
+  {
+    "program": "blink",
+    "fact": "944 artists from 65 countries applied for BLINK 2024",
+    "value": "944 applicants; 65 countries",
+    "source": "WVXU",
+    "url": "https://www.wvxu.org/local-news/2025-07-08/heres-when-the-next-blink-will-happen",
+    "date": "2025-07-08",
+    "quote": "Last year, 944 artists from 65 countries applied."
+  },
+  {
+    "program": "blink",
+    "fact": "BLINK editions: 2017, 2019, 2022 and 2024; 2026 is the fifth",
+    "value": "5th edition in 2026",
+    "source": "The Cincinnati Enquirer (syndicated on Yahoo)",
+    "url": "https://www.yahoo.com/entertainment/articles/blink-cincinnati-announces-2026-festival-164701599.html",
+    "date": "2025-07-08",
+    "quote": "Blink 2026 will be the fifth iteration of the art, light and projection-mapping festival … The first occurred in 2017, followed by the festivals in 2019, 2022 and 2024.",
+    "notes": "Full text read from the Yahoo syndication; canonical Enquirer URL: https://www.cincinnati.com/story/entertainment/2025/07/08/blink-cincinnati-announces-2026-festival-dates/84505394007/"
+  },
+  {
+    "program": "blink",
+    "fact": "BLINK 2026 runs Oct. 8-11, 7-11 p.m. each night",
+    "value": "Oct. 8-11, 2026; 7-11 p.m.",
+    "source": "Movers & Makers",
+    "url": "https://moversmakers.org/2026/09/22/5-things-to-do-in-cincinnati-in-october/",
+    "date": "2026-09-22",
+    "quote": "BLINK returns Oct. 8-11, 7-11 p.m. each night."
+  },
+  {
+    "program": "blink",
+    "fact": "BLINK 2026 has five zones: Findlay Market, OTR, Fountain District, Riverfront and Covington",
+    "value": "5 zones (2026)",
+    "source": "Movers & Makers",
+    "url": "https://moversmakers.org/2026/09/22/5-things-to-do-in-cincinnati-in-october/",
+    "date": "2026-09-22",
+    "quote": "There are five concentrated zones for BLINK in 2026: Findlay Market, OTR, Fountain District, Riverfront and Covington."
+  },
+  {
+    "program": "blink",
+    "fact": "BLINK 2026 features 90 artists from 20 countries, chosen from more than 800 submissions",
+    "value": "90 artists; 20 countries; 800+ submissions",
+    "source": "WVXU",
+    "url": "https://www.wvxu.org/local-news/2026-06-08/blink-returns-for-the-fifth-time-with-a-few-changes",
+    "date": "2026-06-08",
+    "quote": "Ninety artists from 20 countries have been selected to present at this year's Blink. Organizers had to choose from more than 800 submissions for the fifth incarnation.",
+    "notes": "Other sources give 92 artists (BLINK newsroom, Cincinnati People) or \"90+\" (Chamber release)."
+  },
+  {
+    "program": "blink",
+    "fact": "BLINK 2026 features 92 artists from 20 countries across more than 30 city blocks",
+    "value": "92 artists; 20 countries",
+    "source": "Cincinnati People",
+    "url": "https://www.cincypeople.com/culture-blog/free-for-fall",
+    "date": "2026-09-03",
+    "quote": "The 2026 edition spans more than 30 city blocks and features 92 artists from 20 countries"
+  },
+  {
+    "program": "blink",
+    "fact": "Organizers forecast 2026 attendance to meet or surpass about 2.3 million",
+    "value": "~2.3 million forecast (2026)",
+    "source": "WCPO 9",
+    "url": "https://www.wcpo.com/entertainment/local-a-e/blink-announces-new-block-party-opener-participating-artists-for-2026-festival",
+    "date": "2026-06-08",
+    "quote": "BLINK Vice President and Executive Director Leslie Mooney said organizers are forecasting attendance to meet or surpass approximately 2.3 million visitors this year."
+  },
+  {
+    "program": "blink",
+    "fact": "BLINK costs about $8 million to produce",
+    "value": "~$8 million",
+    "source": "WVXU",
+    "url": "https://www.wvxu.org/local-news/2026-08-31/blink-october-cincinnati-light-festival",
+    "date": "2026-08-31",
+    "quote": "Mooney says BLINK costs about $8 million to produce."
+  },
+  {
+    "program": "blink",
+    "fact": "BLINK 2026 has four nights of drone shows, with Music Hall as the centerpiece mapped by four artists",
+    "value": "4 nights of drone shows; 4 Music Hall artists",
+    "source": "WVXU",
+    "url": "https://www.wvxu.org/local-news/2026-08-31/blink-october-cincinnati-light-festival",
+    "date": "2026-08-31",
+    "quote": "The fifth BLINK festival will have four nights of drone shows again, and new murals, but the centerpiece will again be Music Hall. Mooney says four artists will be working on the projection mapping there"
+  },
+  {
+    "program": "blink",
+    "fact": "Ready. Set. BLINK!, the new opening ceremony replacing the parade, runs 4-9 p.m. Oct. 8 around TQL Stadium",
+    "value": "Oct. 8, 4-9 p.m.",
+    "source": "FOX19 NOW (WXIX)",
+    "url": "https://www.fox19.com/2026/06/08/organizers-scrap-opening-parade-blink-kickoff-heres-whats-replacing-it/",
+    "date": "2026-06-08",
+    "quote": "Organizers are changing-up tradition, and launching a new opening ceremony called “Ready … The area surrounding TQL Stadium will turn into a five-block community block party from 4-9 p.m. on Oct. 8, the first day of BLINK."
+  },
+  {
+    "program": "blink",
+    "fact": "BLINK 2026 brings 20 new murals to Cincinnati's urban core and Covington",
+    "value": "20 new murals (2026)",
+    "source": "The Cincinnati Enquirer",
+    "url": "https://www.cincinnati.com/story/news/local/northern-ky/2026/09/18/blink-2026-light-festival-nky-locations/91811832007/",
+    "date": "2026-09-18",
+    "quote": "It will also bring 20 new murals to Cincinnati's urban core and Covington."
+  },
+  {
+    "program": "blink",
+    "fact": "BLINK adds 10 new murals in downtown Covington in 2026 (Madison Walls)",
+    "value": "10 Covington murals (2026)",
+    "source": "WLWT",
+    "url": "https://www.wlwt.com/article/blink-cincinnati-covington-downtown-mural-madison-walls/73779731",
+    "date": "2026-09-17",
+    "quote": "with 10 new murals being added in Covington this year."
+  },
+  {
+    "program": "blink",
+    "fact": "Newport is not part of BLINK 2026",
+    "value": "Newport not included (2026)",
+    "source": "NKyTribune",
+    "url": "https://nkytribune.com/2026/06/blink-the-celebrated-immersive-light-and-art-show-coming-oct-8-11-expect-the-unexpected/",
+    "date": "2026-06-09",
+    "quote": "Newport will not be involved with BLINK this year, Mooney says, since the Fourth Street Bridge closure."
+  },
+  {
+    "program": "blink",
+    "fact": "Covington runs an Entertainment Destination Center (open containers in marked cups) during BLINK, 7-11 p.m. nightly",
+    "value": "EDC Oct. 8-11, 7-11 p.m.",
+    "source": "City of Covington",
+    "url": "https://www.covingtonky.gov/news/2026/09/14/covington-launches-entertainment-destination-center-for-blink-2026",
+    "date": "2026-09-14",
+    "quote": "The EDC allows customers to walk through the designated area with open containers of alcohol in specially marked cups … The EDC will be in operation throughout BLINK, October 8-11, from 7-11 p.m. each night."
+  },
+  {
+    "program": "blink",
+    "fact": "The 2026 Asianati Night Market on Court Street Plaza has 17 food vendors",
+    "value": "17 vendors (2026)",
+    "source": "WKRC Local 12",
+    "url": "https://local12.com/news/local/blink-fan-favorite-returns-2026-festival-asianti-night-market-court-street-plaza-asia-food-vendors-lion-dance-cosplay-contest-cultural-entertainment-cincinnati-local-12-wkrc-news",
+    "date": "2026-09-16",
+    "quote": "eat their way through 17 food vendors representing cuisines from across the Asian continent.",
+    "notes": "Local 12 gives the market dates as Oct. 8-10 from 5 p.m.; CityBeat says it runs nightly throughout the festival from Oct. 8; Movers & Makers lists Thursday-Sunday. Sources disagree on the closing night."
+  },
+  {
+    "program": "blink",
+    "fact": "BLINK Run the Night is a 2.6-mile run through downtown on Tuesday, Oct. 6, two days before the festival opens",
+    "value": "2.6 miles; Oct. 6",
+    "source": "Movers & Makers",
+    "url": "https://moversmakers.org/2026/07/28/runners-can-preview-blink-before-crowds-arrive/",
+    "date": "2026-07-28",
+    "quote": "a 2.6-mile nighttime run through downtown Cincinnati on Tuesday, Oct. 6, two days before the four-day light and art festival (Oct. 8-11) officially opens."
+  },
+  {
+    "program": "blink",
+    "fact": "Artists selected for BLINK 2026 receive project honorariums typically ranging from $3,500 to $12,500 (per the July 2025 call to artists)",
+    "value": "$3,500-$12,500",
+    "source": "Movers & Makers",
+    "url": "https://moversmakers.org/2025/07/10/blink-issues-call-to-artists-for-2026-event/",
+    "date": "2025-07-10",
+    "quote": "Selected artists will receive project honorariums, typically ranging from $3,500 to $12,500, depending on scope and complexity."
+  },
+  {
+    "program": "blink",
+    "fact": "Leslie Mooney was named BLINK vice president and executive director in June 2025",
+    "value": "June 2025",
+    "source": "The Cincinnati Enquirer (syndicated on Yahoo)",
+    "url": "https://www.yahoo.com/news/articles/leslie-mooney-blink-radically-welcoming-051019142.html",
+    "date": "2026-01-19",
+    "quote": "Mooney was announced as the festival's vice president and executive director in June 2025.",
+    "notes": "Full text read from the Yahoo syndication; canonical Enquirer URL: https://www.cincinnati.com/story/news/2026/01/19/blink-cincinnatis-leslie-mooney-is-an-enquirer-person-to-watch-2026/87672683007/"
+  },
+  {
+    "program": "blink",
+    "fact": "BLINK's leaders received the Irma Lazarus Award, one of Ohio's Governor's Awards for the Arts (announced January 2025)",
+    "value": "Irma Lazarus Award (2025)",
+    "source": "Movers & Makers",
+    "url": "https://moversmakers.org/2025/01/07/governor-awards-blink-others-for-local-arts-impact/",
+    "date": "2025-01-07",
+    "quote": "BLINK is one of four artists or organizations from Southwestern Ohio to claim a Governor’s Award for the Arts in Ohio … This year, the leaders behind BLINK art-and-light festival took home the Irma Lazarus Award."
+  },
+  {
+    "program": "blink",
+    "fact": "AFAR named BLINK Ohio's featured October experience among its must-see U.S. cultural events of 2026",
+    "value": "AFAR 2026 list",
+    "source": "Visit Cincy",
+    "url": "https://www.visitcincy.com/articles/post/blink-named-one-of-afars-must-see-cultural-events-for-2026/",
+    "date": "2026-01-16",
+    "quote": "For October, the publication names BLINK as Ohio's featured experience, calling it the nation's largest immersive art event"
+  },
+  {
+    "program": "blink",
+    "fact": "The Cincinnati Regional Chamber leases the BLINK trademark from the Haile Foundation; Brave Berlin, a founding partner, left in 2022",
+    "value": "trademark held by Haile Foundation",
+    "source": "WCPO 9",
+    "url": "https://www.wcpo.com/news/local-news/blink-cincinnati-founding-partner-ends-involvement-with-festival",
+    "date": "2022-07-13",
+    "quote": "Brave Berlin said in a Facebook post the agency decided to sever its relationship with the Cincinnati Regional Chamber … the chamber leases the BLINK trademark from the Haile Foundation"
+  },
+  {
+    "program": "scw",
+    "fact": "StartupCincy Week 2026 (Oct. 5-8) is expected to draw about 1,500 people",
+    "value": "~1,500 expected (2026)",
+    "source": "Soapbox Cincinnati",
+    "url": "https://soapboxmedia.com/startupcincy-week-marks-a-decade-of-building-cincinnatis-startup-community/",
+    "date": "2026-09-15",
+    "quote": "What began as a grassroots movement and a Twitter hashtag has grown into a four-day gathering October 5th-8th and is expected to draw about 1,500 people."
+  },
+  {
+    "program": "scw",
+    "fact": "StartupCincy Week 2026 has more than 100 sessions, workshops, showcases, fireside chats and keynotes",
+    "value": "100+ sessions (2026)",
+    "source": "Soapbox Cincinnati",
+    "url": "https://soapboxmedia.com/startupcincy-week-marks-a-decade-of-building-cincinnatis-startup-community/",
+    "date": "2026-09-15",
+    "quote": "There are more than 100 sessions, workshops, showcases, fireside chats, and keynotes"
+  },
+  {
+    "program": "scw",
+    "fact": "Cintrifuse's Abby Grimm estimates the first StartupCincy Week drew around 100 people",
+    "value": "~100 (first year, estimate)",
+    "source": "Soapbox Cincinnati",
+    "url": "https://soapboxmedia.com/startupcincy-week-marks-a-decade-of-building-cincinnatis-startup-community/",
+    "date": "2026-09-15",
+    "quote": "I think the first year of StartupCincy Week was maybe around 100 people, and this year we’re expecting 1500 people to come",
+    "notes": "Recollection quoted in the article; contemporaneous 2017 coverage reported 3,600 sign-ups."
+  },
+  {
+    "program": "scw",
+    "fact": "The first Techstars Startup Week Cincinnati ran Oct. 9-13, 2017 at Union Hall and other downtown/OTR venues",
+    "value": "Oct. 9-13, 2017",
+    "source": "WCPO 9",
+    "url": "https://www.wcpo.com/news/insider/startups-2018-the-techstars-startup-week-in-october-shows-as-much-promise-for-the-future-as-its-attendees",
+    "date": "2018-01-02",
+    "quote": "Techstars Startup Week Cincinnati, held Oct. 9-13 in Union Hall and other Downtown and Over-the-Rhine locations"
+  },
+  {
+    "program": "scw",
+    "fact": "The 2017 Startup Week had 3,600 sign-ups for nearly 100 events ten days out, above a 3,000 goal",
+    "value": "3,600 sign-ups; ~100 events (2017)",
+    "source": "WCPO 9",
+    "url": "https://www.wcpo.com/news/insider/first-cincinnati-startup-week-to-draw-thousands-for-celebration-of-local-entrepreneurship",
+    "date": "2017-10-09",
+    "quote": "Organizers had hoped to have at least 3,000 sign-ups for the nearly 100 events … With 10 days to go, they already had 3,600 signed up for at least one session"
+  },
+  {
+    "program": "scw",
+    "fact": "StartupCincy Week 2019 drew more than 2,400 attendees",
+    "value": "2,400+ (2019)",
+    "source": "Soapbox Cincinnati",
+    "url": "https://soapboxmedia.com/startupcincy-2019/",
+    "date": "2019-10-15",
+    "quote": "StartupCincy Week attracted more than 2,400 attendees"
+  },
+  {
+    "program": "scw",
+    "fact": "StartupCincy Week 2022 (sixth annual) drew over 1,000 people to 35 events with 150+ speakers across four venues",
+    "value": "1,000+; 35 events; 150+ speakers (2022)",
+    "source": "StartupCincy",
+    "url": "https://startupcincy.com/spark-the-future/",
+    "date": "2022-11-06",
+    "quote": "This past October 10-14, Union Hall welcomed over 1,000 people representing our region’s startups, universities, corporations, investors, and support organizations, through its doors for our ecosystem’s sixth annual StartupCincy Week. … we brought the ecosystem back together in person for 35 events featuring over 150 speakers across four venues"
+  },
+  {
+    "program": "scw",
+    "fact": "StartupCincy Week 2023 hosted 45 events featuring over 100 speakers",
+    "value": "45 events; 100+ speakers (2023)",
+    "source": "StartupCincy",
+    "url": "https://startupcincy.com/homegrown-hustle/",
+    "date": "2023-11-10",
+    "quote": "StartupCincy Week 2023 brought an undeniable energy to our region as our innovation ecosystem came together to host 45 events featuring over 100 unique speakers."
+  },
+  {
+    "program": "scw",
+    "fact": "StartupCincy Week 2024 (Oct. 7-10) was the eighth annual edition",
+    "value": "8th annual (2024)",
+    "source": "CDO Magazine",
+    "url": "https://www.cdomagazine.tech/others/startupcincy-week-2024-registration-open-for-eighth-annual-event",
+    "date": "2024-08-22",
+    "quote": "Registration is now open for the eighth annual StartupCincy Week taking place October 7-10 in Cincinnati’s historic Over-the-Rhine district"
+  },
+  {
+    "program": "scw",
+    "fact": "StartupCincy Week 2025 added a $200,000 live pitch competition organized by Cintrifuse and powered by Connetic Ventures",
+    "value": "$200,000 (2025)",
+    "source": "Movers & Makers",
+    "url": "https://moversmakers.org/2025/09/08/200k-pitch-competition-to-anchor-startupcincy-week/",
+    "date": "2025-09-08",
+    "quote": "returns Oct. 6-9 with a new spotlight event: a live pitch competition awarding $200,000 in investment capital to a local founder."
+  },
+  {
+    "program": "scw",
+    "fact": "Movers & Makers called StartupCincy Week the Midwest's largest entrepreneurship festival",
+    "value": "claim: Midwest's largest",
+    "source": "Movers & Makers",
+    "url": "https://moversmakers.org/2025/09/08/200k-pitch-competition-to-anchor-startupcincy-week/",
+    "date": "2025-09-08",
+    "quote": "StartupCincy Week, the Midwest’s largest entrepreneurship festival, returns Oct. 6-9",
+    "notes": "Descriptive claim in the article."
+  },
+  {
+    "program": "scw",
+    "fact": "The first StartupCincy Awards had more than 40 finalists in eight categories",
+    "value": "40+ finalists; 8 categories",
+    "source": "Movers & Makers",
+    "url": "https://moversmakers.org/2026/03/10/startupcincy-names-finalists-for-inaugural-awards/",
+    "date": "2026-03-10",
+    "quote": "More than 40 finalists are competing across eight categories"
+  },
+  {
+    "program": "scw",
+    "fact": "The inaugural StartupCincy Awards, hosted by Cintrifuse, were scheduled for April 30, 2026 at Union Hall",
+    "value": "April 30, 2026",
+    "source": "Cintrifuse",
+    "url": "https://cintrifuse.com/startupcincy-announces-finalists-for-the-first-ever-startupcincy-awards/",
+    "date": "2026-03-04",
+    "quote": "StartupCincy announced the finalists for the inaugural StartupCincy Awards, hosted by Cintrifuse, taking place April 30 at Union Hall"
+  },
+  {
+    "program": "scw",
+    "fact": "The Cincinnati region has 32,046 startup-related jobs, 12,389 created in the last five years (Cintrifuse)",
+    "value": "32,046 jobs",
+    "source": "Ohio Tech News",
+    "url": "https://www.ohiotechnews.com/cintrifuse-launches-2026-startup-fellows-cohort/",
+    "date": "2026-06-17",
+    "quote": "32,046: Total startup-related jobs currently in the Cincinnati region. … 12,389: New startup roles created in the last five years alone."
+  },
+  {
+    "program": "scw",
+    "fact": "Cintrifuse's 2022 Annual Meeting brought nearly 300 stakeholders to Union Hall",
+    "value": "~300 (2022)",
+    "source": "Cintrifuse",
+    "url": "https://cintrifuse.com/sparking-action-at-the-cintrifuse-annual-meeting/",
+    "date": "2022-11-18",
+    "quote": "bringing nearly 300 valued stakeholders together in Union Hall"
+  },
+  {
+    "program": "caw",
+    "fact": "Cincinnati Art Week runs Oct. 3-10, 2026, created and operated by BLINK alumni Cincy Nice and No Standing",
+    "value": "Oct. 3-10, 2026",
+    "source": "Cincinnati CityBeat",
+    "url": "https://www.citybeat.com/arts/visual-arts/cincinnati-arts-week-launches-october/",
+    "date": "2026-08-04",
+    "quote": "The event is created and operated by BLINK alumni Cincy Nice and No Standing , and takes place from Oct. 3 through 10"
+  },
+  {
+    "program": "caw",
+    "fact": "ArtsWave is helping launch Cincinnati Art Week in partnership with Fifth Third",
+    "value": "ArtsWave + Fifth Third",
+    "source": "Cincinnati CityBeat",
+    "url": "https://www.citybeat.com/arts/visual-arts/cincinnati-arts-week-launches-october/",
+    "date": "2026-08-04",
+    "quote": "Local nonprofit ArtsWave is helping launch “Cincinnati Art Week” in partnership with Fifth Third"
+  },
+  {
+    "program": "caw",
+    "fact": "Six to eight vacant OTR storefronts become exhibitions and pop-up galleries through 3CDC, Urban Sites and Model Group",
+    "value": "6-8 storefronts",
+    "source": "Cincinnati CityBeat",
+    "url": "https://www.citybeat.com/arts/visual-arts/cincinnati-arts-week-launches-october/",
+    "date": "2026-08-04",
+    "quote": "six to eight vacant storefronts transformed into exhibitions, pop-up galleries and experiences through a partnership with developers 3CDC, Urban Sites and Model Group"
+  },
+  {
+    "program": "caw",
+    "fact": "Cincinnati Art Week includes two self-guided Art Walks through Over-the-Rhine",
+    "value": "2 Art Walks",
+    "source": "Cincinnati CityBeat",
+    "url": "https://www.citybeat.com/arts/visual-arts/cincinnati-arts-week-launches-october/",
+    "date": "2026-08-04",
+    "quote": "visitors can expect two self-guided Art Walks through Over-the-Rhine"
+  },
+  {
+    "program": "caw",
+    "fact": "The Cincinnati Art Week Welcome Center hub is at 1600 Race St.",
+    "value": "1600 Race St.",
+    "source": "Cincinnati Magazine",
+    "url": "https://www.cincinnatimagazine.com/article/cincinnati-art-week/",
+    "date": "2026-09-23",
+    "quote": "Welcome Center at 1600 Race St."
+  },
+  {
+    "program": "caw",
+    "fact": "NO GRID, Jason Snell's conversation series during Art Week, brings six artists together across three venues",
+    "value": "6 artists; 3 venues",
+    "source": "Cincinnati Magazine",
+    "url": "https://www.cincinnatimagazine.com/article/cincinnati-art-week/",
+    "date": "2026-09-23",
+    "quote": "NO GRID —a creative conversation series by Jason Snell that’ll bring six artists together across three venues"
+  },
+  {
+    "program": "fotofocus",
+    "fact": "The 2026 FotoFocus Biennial, The Long View, has 74 exhibitions at 65 venues",
+    "value": "74 exhibitions; 65 venues",
+    "source": "FotoFocus",
+    "url": "https://www.fotofocus.org/2026/06/16/2026-biennial-venues/",
+    "date": "2026-06-16",
+    "quote": "The Biennial returns with 74 exhibitions presented at 65 venues including the newly opened FotoFocus Center."
+  },
+  {
+    "program": "fotofocus",
+    "fact": "The Biennial Opening Program runs Sept. 30-Oct. 3, 2026",
+    "value": "Sept. 30-Oct. 3",
+    "source": "FotoFocus",
+    "url": "https://www.fotofocus.org/2026/08/25/2026-biennial-opening-program-and-biennial-pass-launch/",
+    "date": "2026-08-25",
+    "quote": "which will take place September 30–October 3"
+  },
+  {
+    "program": "fotofocus",
+    "fact": "FotoFocus calls the Biennial the largest of its kind in America",
+    "value": "claim: largest in America",
+    "source": "FotoFocus",
+    "url": "https://www.fotofocus.org/2026/06/16/2026-biennial-venues/",
+    "date": "2026-06-16",
+    "quote": "The largest of its kind in America",
+    "notes": "Organizer claim."
+  },
+  {
+    "program": "fotofocus",
+    "fact": "The 2026 Biennial is the eighth edition",
+    "value": "8th edition",
+    "source": "Movers & Makers",
+    "url": "https://moversmakers.org/2025/04/21/fotofocus-announces-theme-for-2026-biennial/",
+    "date": "2025-04-21",
+    "quote": "The eighth edition of the month-long celebration will explore ideas of time, distance and perspective through photography and film."
+  },
+  {
+    "program": "fotofocus",
+    "fact": "The FotoFocus Biennial has drawn over 1 million visitors since it began in 2012",
+    "value": "1 million+ since 2012",
+    "source": "FotoFocus",
+    "url": "https://www.fotofocus.org/2025/04/15/theme-for-2026-fotofocus-biennial/",
+    "date": "2025-04-15",
+    "quote": "Having Drawn Over 1 Million Visitors Since Its 2012 Inception",
+    "notes": "Organizer claim (release subhead)."
+  },
+  {
+    "program": "fotofocus",
+    "fact": "FotoFocus was founded in 2010",
+    "value": "2010",
+    "source": "Movers & Makers",
+    "url": "https://moversmakers.org/2025/09/11/fotofocus-issues-call-for-entry-for-2026-biennial-show-at-cac/",
+    "date": "2025-09-11",
+    "quote": "Founded in 2010, Cincinnati-based nonprofit FotoFocus"
+  },
+  {
+    "program": "fotofocus",
+    "fact": "Major 2026 solo presentations: Trevor Paglen, Paul Mpagi Sepuya, Nancy Rexroth and Widline Cadet",
+    "value": "4 major solo shows",
+    "source": "FotoFocus",
+    "url": "https://www.fotofocus.org/2026/08/25/2026-biennial-opening-program-and-biennial-pass-launch/",
+    "date": "2026-08-25",
+    "quote": "Major solo presentations will feature work by Trevor Paglen , Paul Mpagi Sepuya , Nancy Rexroth , and Widline Cadet ."
+  },
+  {
+    "program": "fotofocus",
+    "fact": "Biennial Spotlight Weekends: Dayton Oct. 16-18, Columbus Oct. 23-25, Cincinnati Oct. 30-Nov. 1",
+    "value": "3 Spotlight Weekends",
+    "source": "Movers & Makers",
+    "url": "https://moversmakers.org/2026/09/22/5-things-to-do-in-cincinnati-in-october/",
+    "date": "2026-09-22",
+    "quote": "Dayton will be featured Oct. 16-18, followed by Columbus Oct. 23-25 and Cincinnati Oct. 30-Nov. 1."
+  },
+  {
+    "program": "fotofocus",
+    "fact": "The FotoFocus Center is a 14,700-square-foot gallery and arts center in Over-the-Rhine",
+    "value": "14,700 sq ft",
+    "source": "Cincinnati CityBeat",
+    "url": "https://www.citybeat.com/news/inside-the-new-fotofocus-center-gallery-open-today-in-otr/",
+    "date": "2026-05-29",
+    "quote": "The FotoFocus Center, a new 14,700 square-foot gallery and arts center in Over-the-Rhine with a focus on photography, opens tonight"
+  },
+  {
+    "program": "fotofocus",
+    "fact": "The FotoFocus Center is at 228 E. Liberty St.",
+    "value": "228 E. Liberty St.",
+    "source": "Movers & Makers",
+    "url": "https://moversmakers.org/2026/09/22/5-things-to-do-in-cincinnati-in-october/",
+    "date": "2026-09-22",
+    "quote": "FotoFocus Center at 228 E. Liberty St. in Over-the-Rhine."
+  },
+  {
+    "program": "fotofocus",
+    "fact": "\"Big Tent,\" the FotoFocus Center's first exhibition, featured 55 artists and ran May 29-Aug. 22, 2026",
+    "value": "55 artists",
+    "source": "Cincinnati CityBeat",
+    "url": "https://www.citybeat.com/arts/visual-arts/fotofocus-to-publish-catalog-inaugural-exhibition/",
+    "date": "2026-08-27",
+    "quote": "The exhibition, titled “Big Tent,” featured 55 artists from across Cincinnati, the U.S., and the world. It opened on May 29 and closed this past Saturday, Aug. 22."
+  },
+  {
+    "program": "fotofocus",
+    "fact": "The CAC's two Biennial exhibitions open Oct. 2 and run through Feb. 7, 2027",
+    "value": "Oct. 2, 2026-Feb. 7, 2027",
+    "source": "Movers & Makers",
+    "url": "https://moversmakers.org/2026/08/17/cac-to-open-exhibits-as-part-of-fotofocus-biennial/",
+    "date": "2026-08-17",
+    "quote": "CAC will open “In the Interest of Time” and “Widline Cadet: Seremoni Disparisyon (Ritual [Dis]Appearance)” on Oct. 2 … Both exhibitions will remain on view through Feb. 7, 2027."
+  },
+  {
+    "program": "fotofocus",
+    "fact": "The 2022 Biennial had almost 100 shows at more than 90 venues after a pandemic-forced 2020 cancellation",
+    "value": "~100 shows; 90+ venues (2022)",
+    "source": "Cincinnati Magazine",
+    "url": "https://www.cincinnatimagazine.com/article/fotofocus-sees-the-big-picture/",
+    "date": "2022-10-05",
+    "quote": "returns bigger than ever this month from a pandemic-forced cancellation in 2020 … Almost 100 individual shows will be occurring at more than 90 venues"
+  },
+  {
+    "program": "fotofocus",
+    "fact": "The 2022 Biennial had more than 600 participating artists",
+    "value": "600+ artists (2022)",
+    "source": "Soapbox Cincinnati",
+    "url": "https://soapboxmedia.com/fotofocus-biennial/",
+    "date": "2022-09-27",
+    "quote": "FotoFocus exhibits by 600+ participating artists will delight observers across the region."
+  },
+  {
+    "program": "week",
+    "fact": "ArtsWave (founded 1927) kicks off its centennial in October 2026 during BLINK and the FotoFocus Biennial",
+    "value": "centennial kickoff Oct. 2026",
+    "source": "Cincinnati Magazine",
+    "url": "https://www.cincinnatimagazine.com/article/artswave-eyes-100/",
+    "date": "2026-09-11",
+    "quote": "ArtsWave officially kicks off its 100th anniversary celebration in October during two of Cincinnati’s highest profile arts events, BLINK and FotoFocus Biennial. … Founded in 1927 as the Cincinnati Institute of Fine Arts, ArtsWave is now the oldest and largest united arts fund in the U.S."
+  },
+  {
+    "program": "week",
+    "fact": "Hamilton County's visitor economy reached $7.4 billion in total economic impact, supporting 48,365 jobs",
+    "value": "$7.4 billion; 48,365 jobs",
+    "source": "Visit Cincy",
+    "url": "https://www.visitcincy.com/articles/post/hamilton-county-visitor-economy-generates-74-billion-in-economic-impact/",
+    "date": "2026-08-05",
+    "quote": "Hamilton County’s visitor economy has reached $7.4 billion in total economic impact as visitor spending continues to grow across the county … That spending supported 48,365 full-time and part-time jobs and generated more than $1 billion in federal, state, and local tax revenue."
+  },
+  {
+    "program": "week",
+    "fact": "ArtsWave app users get a free month of ArtsWave Pass (50% off arts tickets) throughout October 2026",
+    "value": "free ArtsWave Pass month",
+    "source": "Movers & Makers",
+    "url": "https://moversmakers.org/2026/09/15/revamped-artswave-ready-in-time-for-blink/",
+    "date": "2026-09-15",
+    "quote": "Throughout October, everyone who uses the app will receive a free month of ArtsWave Pass, which provides 50% off tickets to arts experiences and offers at restaurants, retailers and other businesses across the region."
+  },
+  {
+    "program": "week",
+    "fact": "Metro, TANK, BCRTA and Red Bike offer Park & Rides and discounted tickets for BLINK Oct. 8-11",
+    "value": "transit Oct. 8-11",
+    "source": "Cincinnati Metro",
+    "url": "https://www.go-metro.com/less-think-more-blink-regional-transit-partners-announce-blink-2026-service/",
+    "date": "2026-09-23",
+    "quote": "Metro, TANK, BCRTA, and Red Bike will offer Park & Rides, regular transit service and discounted tickets to help visitors experience BLINK … From Thursday, Oct. 8, through Sunday, Oct. 11, regional transit options will include regular service and designated Park & Rides"
+  },
+  {
+    "program": "week",
+    "fact": "MAMMOTH Music & Arts Festival returns to Newport on Sunday, Oct. 4",
+    "value": "Oct. 4, noon-11 p.m.",
+    "source": "NKyTribune",
+    "url": "https://nkytribune.com/2026/09/mammoth-music-and-arts-festival-returns-to-newport-for-third-year-october-4/",
+    "date": "2026-09-16",
+    "quote": "MAMMOTH Music & Arts Festival will return for its third year on Sunday, October 4 kicking off at noon-8 p.m. outside, with the party continuing inside the Southgate House Revival until 11 p.m."
+  },
+  {
+    "program": "blink",
+    "fact": "2026 is BLINK's 10th year; the festival runs Oct. 8-11 in Cincinnati and Northern Kentucky",
+    "value": "10th year (2026)",
+    "source": "WLWT",
+    "url": "https://www.wlwt.com/article/blink-2026-artists-october-festival-cincinnati/71523509",
+    "date": "2026-06-08",
+    "quote": "BLINK will return for its 10th year to Cincinnati and Northern Kentucky from Oct. 8 through Oct. 11."
+  },
+  {
+    "program": "blink",
+    "fact": "BLINK Run the Night starts at 7:30 p.m. Tuesday, Oct. 6, from Elm Street Plaza",
+    "value": "Oct. 6, 7:30 p.m., Elm Street Plaza",
+    "source": "WLWT",
+    "url": "https://www.wlwt.com/article/blink-cincinnati-early-access-night-run-festival/73287666",
+    "date": "2026-07-28",
+    "quote": "The race is scheduled for Tuesday, Oct. 6, beginning at 7:30 p.m. from the Elm Street Plaza."
+  },
+  {
+    "program": "blink",
+    "fact": "Ready. Set. BLINK! spans five blocks of Central Parkway, with a drone show over TQL Stadium",
+    "value": "5 blocks of Central Parkway",
+    "source": "WLWT",
+    "url": "https://www.wlwt.com/article/blink-2026-festival-massive-block-party-what-to-know/73520962",
+    "date": "2026-08-25",
+    "quote": "The event is set for Thursday, Oct. 8, from 4 to 9 p.m., and will span five blocks of Central Parkway. Attendees can look forward to live music, an opening ceremony, and a drone show over TQL Stadium."
+  },
+  {
+    "program": "week",
+    "fact": "TANK runs a BLINK Park & Ride from Northern Kentucky University on Friday, Oct. 9 and Saturday, Oct. 10",
+    "value": "TANK Park & Ride Oct. 9-10",
+    "source": "City of Covington",
+    "url": "https://www.covingtonky.gov/news/2026/09/18/getting-to-blink-parking-tank-and-rideshare-options",
+    "date": "2026-09-18",
+    "quote": "TANK will offer a special BLINK Park & Ride service from Northern Kentucky University on Friday, Oct. 9, and Saturday, Oct. 10 ."
+  },
+  {
+    "program": "week",
+    "fact": "Parking meters inside Covington's Entertainment Destination Center are restricted 5-11 p.m. each night of BLINK, Oct. 8-11",
+    "value": "meters restricted 5-11 p.m.",
+    "source": "City of Covington",
+    "url": "https://www.covingtonky.gov/news/2026/09/18/getting-to-blink-parking-tank-and-rideshare-options",
+    "date": "2026-09-18",
+    "quote": "parking at meters located within the City's Entertainment Destination Center will be restricted from 5–11 p.m. each night of BLINK, Oct. 8–11 ."
+  },
+  {
+    "program": "blink",
+    "fact": "The streetcar carried 35,618 riders Friday-Sunday of BLINK 2019, then its second-best weekend; BLINK 2017 weekend ridership was 23,781",
+    "value": "35,618 (2019); 23,781 (2017)",
+    "source": "FOX19 NOW (WXIX)",
+    "url": "https://www.fox19.com/2019/10/14/streetcar-ridership-explodes-during-blink/",
+    "date": "2019-10-14",
+    "quote": "The three-day total of 35,618 represents the second best weekend in the streetcar’s three-year run … During the weekend of Oct.13-15, 2017, ridership totaled 23,781."
+  },
+  {
+    "program": "blink",
+    "fact": "Metro provided 14,655 rides between three BLINK park-and-ride locations and downtown in 2019",
+    "value": "14,655 rides (2019)",
+    "source": "FOX19 NOW (WXIX)",
+    "url": "https://www.fox19.com/2019/10/17/metro-provided-more-than-k-rides-during-blink/",
+    "date": "2019-10-17",
+    "quote": "Metro provided 14,655 rides between three designated BLINK park and ride locations and downtown during the four-night art and light festival."
+  },
+  {
+    "program": "blink",
+    "fact": "BLINK's first call for artists (2022) drew about 250 applicants; more than 950 applied for 2024",
+    "value": "~250 (2022); 950+ (2024)",
+    "source": "Cincinnati Magazine",
+    "url": "https://www.cincinnatimagazine.com/article/blink-dont-miss-it/",
+    "date": "2024-10-02",
+    "quote": "BLINK put out its first call for artists in 2022, attracting about 250 applicants. This year, more than 950 people applied.",
+    "notes": "WVXU (2025-07-08) gives 944 applicants from 65 countries for 2024."
+  },
+  {
+    "program": "blink",
+    "fact": "BLINK 2022 featured 17 international and 36 Cincinnati-area artists",
+    "value": "17 international; 36 local (2022)",
+    "source": "Cincinnati Magazine",
+    "url": "https://www.cincinnatimagazine.com/article/new-artists-are-reinventing-the-blink-tradition/",
+    "date": "2022-10-12",
+    "quote": "In all, BLINK 2022 boasts 17 international artists and 36 artists from the Cincinnati area."
+  },
+  {
+    "program": "scw",
+    "fact": "StartupCincy Week 2025 (ninth year) ran Oct. 6-9 in Over-the-Rhine; Cintrifuse expected 1,000-1,500 attendees, about 40% from outside Cincinnati",
+    "value": "1,000-1,500 expected; ~40% non-local (2025)",
+    "source": "Cincinnati Magazine",
+    "url": "https://www.cincinnatimagazine.com/article/cincinnati-start-up-success-stories/",
+    "date": "2025-10-03",
+    "quote": "StartupCincy Week , now in its ninth year, returns to Over-the-Rhine October 6–9 … Kropp expects between 1,000 and 1,500 attendees for StartupCincy Week, with about 40 percent from outside of Cincinnati."
+  },
+  {
+    "program": "scw",
+    "fact": "The first Techstars Startup Week Cincinnati (2017) was free, with more than 60 speakers, 50 sessions, two demo days and a pitch competition",
+    "value": "60+ speakers; 50 sessions (2017)",
+    "source": "Soapbox Cincinnati",
+    "url": "https://soapboxmedia.com/092617-techstars-startup-week/",
+    "date": "2017-09-26",
+    "quote": "The five-day event is free and open to the public. … Five full days of events: more than 60 speakers, 50 sessions, five happy hours, two demo days and a pitch competition.",
+    "notes": "WCPO (2017-10-09) counted nearly 100 events."
+  }
+]

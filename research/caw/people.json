@@ -1,0 +1,496 @@
+[
+  {
+    "id": "destinee-thomas",
+    "name": "Destinee Thomas",
+    "roles": [
+      "founder",
+      "organizer"
+    ],
+    "programs": [
+      "caw"
+    ],
+    "title": "Co-Founder & Creative Director (Cincinnati Art Week); Co-Founder & Principal, Cincy Nice",
+    "org": "Cincy Nice",
+    "bio": "Cultural strategist, communicator, and experience designer with a passion for helping communities feel more connected, welcoming, and alive. Destinee has led communications, partnerships, and large-scale cultural initiatives spanning public art, festivals, placemaking, and community engagement.",
+    "headshot_url": "https://images.squarespace-cdn.com/content/v1/5d4b5b052a6d5300014bc77f/816f83fb-6583-4de8-ad52-4fd314f7fcfc/081623_Cincy-Nice_01.jpg",
+    "location": "Cincinnati, OH",
+    "links": {
+      "website": "https://www.cincynice.com/",
+      "instagram": null,
+      "linkedin": null,
+      "x": null
+    },
+    "source_url": "https://cincinnatiartweek.com/meet-the-team",
+    "headshot_is_group": true,
+    "bio_source_url": "https://www.cincynice.com/about",
+    "quote": "“Cincinnati is an art city,” said Destinee Thomas, co-founder of Cincy Nice and Cincinnati Art Week. “Cincinnati Art Week is about making that identity more visible. By showcasing independent and emerging artists during one of the city’s biggest cultural moments, we’re connecting people to the creative energy that already exists while building momentum for what’s next — for artists, neighborhoods and Cincinnati as a cultural destination.”",
+    "notes": "Headshot = the uncaptioned photo (1457x1235) in the \"OUR TEAM\" section of cincynice.com/about, placed directly under \"Cincy Nice is led by co-founders Destinee and William Thomas\" and above their bios; it shows two people (a shared co-founders photo, not an individual headshot). Also in the CAW team group photo: https://freight.cargo.site/t/original/i/T3056859355596179323774539701626/CINCYARTWEEK2067.png Instagram: none personal found; the organization account is @cincynice (see orgs).",
+    "quote_2": "Destinee Thomas, co-founder and creative director, describes CAW as “connective tissue” for Cincinnati’s creative scene,“CAW is a platform to facilitate all of the movement within our local creative economy.”",
+    "quote_2_source_url": "https://www.cincinnatimagazine.com/article/cincinnati-art-week/"
+  },
+  {
+    "id": "william-thomas",
+    "name": "William Thomas",
+    "roles": [
+      "founder",
+      "organizer"
+    ],
+    "programs": [
+      "caw"
+    ],
+    "title": "Co-Founder & Partnerships Director (Cincinnati Art Week); Co-Founder & Principal, Cincy Nice",
+    "org": "Cincy Nice",
+    "bio": "Partnership builder and community strategist focused on bringing people and organizations together around ambitious ideas. William's experience spans fundraising, sponsorship development, operations, and relationship-building across cultural, civic, and neighborhood initiatives.",
+    "headshot_url": "https://images.squarespace-cdn.com/content/v1/5d4b5b052a6d5300014bc77f/816f83fb-6583-4de8-ad52-4fd314f7fcfc/081623_Cincy-Nice_01.jpg",
+    "location": "Cincinnati, OH",
+    "links": {
+      "website": "https://www.cincynice.com/",
+      "instagram": null,
+      "linkedin": null,
+      "x": null
+    },
+    "source_url": "https://cincinnatiartweek.com/meet-the-team",
+    "headshot_is_group": true,
+    "bio_source_url": "https://www.cincynice.com/about",
+    "quote": "“Cincinnati is an art city. The quality of art and artists is top tier,” he says. “There is a creative connective energy that is unique to Cincinnati.”",
+    "notes": "CityBeat calls him \"Billy\" Thomas. Headshot = the shared co-founders photo in the \"OUR TEAM\" section of cincynice.com/about (two people, uncaptioned; see destinee-thomas). Also in the CAW team group photo: https://freight.cargo.site/t/original/i/T3056859355596179323774539701626/CINCYARTWEEK2067.png"
+  },
+  {
+    "id": "megyn-norbut",
+    "name": "Megyn Norbut",
+    "roles": [
+      "founder",
+      "organizer"
+    ],
+    "programs": [
+      "caw"
+    ],
+    "title": "Co-Founder & Producing Director (Cincinnati Art Week); Founder, No Standing",
+    "org": "No Standing",
+    "bio": "Megyn Norbut was born to collaborate. For over a decade she has organized people, ideas, and all the moving parts needed to create intentional and meaningful events. Since founding No Standing, Megyn has built a strong reputation for producing progressive events that embody each client’s mission.",
+    "headshot_url": null,
+    "location": "Cincinnati, OH",
+    "links": {
+      "website": "https://www.nostandingonlydancing.com/",
+      "instagram": null,
+      "linkedin": null,
+      "x": null
+    },
+    "source_url": "https://cincinnatiartweek.com/meet-the-team",
+    "bio_source_url": "https://www.nostandingonlydancing.com/about",
+    "notes": "No individual headshot found; appears in the CAW team group photo: https://freight.cargo.site/t/original/i/T3056859355596179323774539701626/CINCYARTWEEK2067.png Instagram: none personal found; the studio account is @nostandingstudio (see orgs)."
+  },
+  {
+    "id": "evan-verrilli",
+    "name": "Evan Verrilli",
+    "roles": [
+      "organizer",
+      "artist"
+    ],
+    "programs": [
+      "caw"
+    ],
+    "title": "Creative Direction (Creative Collaborator); website design",
+    "org": "Evan Verrilli Studio",
+    "bio": "Designer, Animator, Illustrator",
+    "headshot_url": null,
+    "location": null,
+    "links": {
+      "website": "https://evanverrilli.com/",
+      "instagram": "https://www.instagram.com/evan.is.social/",
+      "linkedin": null,
+      "x": null
+    },
+    "source_url": "https://cincinnatiartweek.com/meet-the-team",
+    "bio_source_url": "https://evanverrilli.com/",
+    "notes": "CAW footer: \"Website design by Evan Verrilli\". Listed among BLINK 2022 artists on No Standing's BLINK page. Instagram is the \"Instagram\" link in his site header; his site also credits illustration work \"under Aldo Crusher\" (@aldocrusher)."
+  },
+  {
+    "id": "javarri-lewis",
+    "name": "Javarri Lewis",
+    "roles": [
+      "curator",
+      "speaker",
+      "artist"
+    ],
+    "programs": [
+      "caw"
+    ],
+    "title": "Curatorial Advisor (Creative Collaborator); NO GRID speaker",
+    "org": null,
+    "bio": "Cincinnati based Artist Javarri Lewis journey is marked by a commitment to engaging communities through art—whether through large-scale murals, digital projects, or immersive public events. Drawing inspiration from Cincinnati’s rich heritage and diverse narratives, Javarri invites viewers to pause, reflect, and rediscover the connections that shape our shared experiences. Always evolving, his art continues to serve as a powerful medium for dialogue, unity, and cultural celebration.",
+    "headshot_url": "https://cdn.evbuc.com/images/1193473952/324262115413/1/original.20260914-181913",
+    "location": "Cincinnati, OH",
+    "links": {
+      "website": "https://javarrilewis.myportfolio.com",
+      "instagram": "https://www.instagram.com/javarrilewis/",
+      "linkedin": null,
+      "x": null,
+      "tiktok": "https://www.tiktok.com/@javarrilewis"
+    },
+    "source_url": "https://cincinnatiartweek.com/meet-the-team",
+    "bio_source_url": "https://www.cincyartistnetwork.com/discover/artists/javarri-lewis",
+    "notes": "Headshot = NO GRID lineup image on Eventbrite (painted/illustrated portrait, 1080x1080). NO GRID agenda: \"In Conversation\" 17:45 at Location #2. Links from the Cincy Artist Network profile (sameAs: portfolio, TikTok, Instagram)."
+  },
+  {
+    "id": "jason-snell",
+    "name": "Jason Snell",
+    "roles": [
+      "host",
+      "speaker",
+      "artist",
+      "curator"
+    ],
+    "programs": [
+      "caw"
+    ],
+    "title": "Artist Programming Advisor (Creative Collaborator); creator/host of NO GRID",
+    "org": "SnellBeast",
+    "bio": "Jason Snell is a Cincinnati-based, GRAMMY-nominated art director, designer and illustrator with more than 20 years of experience across art, sports and entertainment. His clients include Amazon, Adidas, ESPN, Netflix, Peacock, Cincinnati Bengals, FC Cincinnati and Taco Bell.",
+    "headshot_url": "https://cdn.evbuc.com/images/1193473860/324262115413/1/original.20260914-181812",
+    "location": "Cincinnati, OH",
+    "links": {
+      "website": "https://www.snellbeast.com/",
+      "instagram": "https://www.instagram.com/jasonsnell/",
+      "linkedin": "https://www.linkedin.com/in/jasondsnell/",
+      "x": "https://twitter.com/JasonDSnell"
+    },
+    "source_url": "https://cincinnatiartweek.com/meet-the-team",
+    "headshot_photo_url": "https://images.squarespace-cdn.com/content/v1/5e010126ac73c3038d7f7ac5/1592188431602-UIBTLV3Q5CPXB7G1SVHO/JS_PhotobyAD.jpg",
+    "headshot_photo_credit": "Photo by Andrew Higley for UC Magazine",
+    "bio_source_url": "https://www.eventbrite.com/e/no-grid-a-creative-conversation-series-tickets-2000523175671",
+    "notes": "Headshot = illustrated \"SnellBeast\" avatar used on Eventbrite (447x447). headshot_photo_url = photograph (1250x833) on snellbeast.com/about captioned \"In front of the 100th ArtWorks mural featuring Heavyweight Champion Ezzard Charles in Over-the-Rhine ... Photo by Andrew Higley for UC Magazine\". Draft schedule: \"NO GRID — A Creative Conversation Series by SnellBeast.\" \"curator\" role reflects that he programs NO GRID."
+  },
+  {
+    "id": "tiffany-cooper",
+    "name": "Tiffany Cooper",
+    "roles": [
+      "organizer"
+    ],
+    "programs": [
+      "caw"
+    ],
+    "title": "Community Impact Advisor (Creative Collaborator)",
+    "org": "Meaningful Connections",
+    "bio": "Tiffany is a seasoned community connector with over two decades of experience fostering meaningful engagement across diverse groups. Her work spans curating impactful events, facilitating workshops and trainings, and collaborating with a wide range of stakeholders—including artists, students, and business leaders.",
+    "headshot_url": "https://images.squarespace-cdn.com/content/v1/657279053a6cba0345e7302c/53cd1c41-4937-4d50-b230-270e5a4ac929/97E8364D-E496-4485-BE50-2621D415A2D9.png",
+    "location": "Cincinnati, OH",
+    "links": {
+      "website": "https://www.tiffanymcooper.com/",
+      "instagram": null,
+      "linkedin": null,
+      "x": null
+    },
+    "source_url": "https://cincinnatiartweek.com/meet-the-team",
+    "bio_source_url": "https://www.tiffanymcooper.com/about",
+    "notes": "Shares the Community Impact Advisor credit with Candra Reeves (Meaningful Connections). Headshot = uncaptioned portrait (1455x2000) on her own site's About page, placed directly above her signed quote (\"— Tiffany\"); no photographer credit. Her site links only the Meaningful Connections accounts (Instagram @meaningfulconnects, a Facebook page), not personal profiles."
+  },
+  {
+    "id": "candra-reeves",
+    "name": "Candra Reeves",
+    "roles": [
+      "organizer"
+    ],
+    "programs": [
+      "caw"
+    ],
+    "title": "Community Impact Advisor (Creative Collaborator)",
+    "org": "Meaningful Connections",
+    "bio": null,
+    "headshot_url": null,
+    "location": null,
+    "links": {
+      "website": null,
+      "instagram": null,
+      "linkedin": null,
+      "x": null
+    },
+    "source_url": "https://cincinnatiartweek.com/meet-the-team",
+    "notes": "No bio verified from a primary source."
+  },
+  {
+    "id": "sarah-schmidt",
+    "name": "Sarah Schmidt",
+    "roles": [
+      "speaker",
+      "artist"
+    ],
+    "programs": [
+      "caw"
+    ],
+    "title": "NO GRID speaker (Cincinnati Art Week)",
+    "org": "Sunshine Mall",
+    "bio": "Sarah Schmidt is a Chicago-based cartoonist, animator and director known for playful, distinctive motion work. Co-founder of Sunshine Mall, creating projects for major clients, agencies and brands including Adult Swim and Bath & Body Works",
+    "headshot_url": "https://cdn.evbuc.com/images/1193474355/324262115413/1/original.20260914-182311",
+    "location": "Chicago, IL",
+    "links": {
+      "website": null,
+      "instagram": "https://www.instagram.com/sarahmaeschmidt/",
+      "linkedin": null,
+      "x": null
+    },
+    "source_url": "https://www.eventbrite.com/e/no-grid-a-creative-conversation-series-tickets-2000523175671",
+    "notes": "NO GRID agenda: \"In Conversation\" 16:10 at CAW Art Market. Headshot is an illustrated self-portrait (868x868)."
+  },
+  {
+    "id": "take-a-moment-studio",
+    "name": "Take a Moment Studio",
+    "roles": [
+      "speaker",
+      "artist"
+    ],
+    "programs": [
+      "caw"
+    ],
+    "title": "NO GRID speaker (Cincinnati Art Week)",
+    "org": null,
+    "bio": "Take a Moment Studio is an ongoing Cincinnati-based collaboration between artists Joe Walsh and Jon Flannery, combining hand-cut screen printing with hand-drawn illustration to create one-of-a-kind posters. Their work has included a residency at Cincinnati’s Contemporary Arts Center and public art collaborations throughout the region",
+    "headshot_url": "https://cdn.evbuc.com/images/1193474530/324262115413/1/original.20260914-182438",
+    "location": "Cincinnati, OH",
+    "links": {
+      "website": null,
+      "instagram": "https://www.instagram.com/takeamomentstudio/",
+      "linkedin": null,
+      "x": null
+    },
+    "source_url": "https://www.eventbrite.com/e/no-grid-a-creative-conversation-series-tickets-2000523175671",
+    "notes": "Duo: Joe Walsh and Jon Flannery. NO GRID agenda: \"In Conversation\" 16:40 at CAW Art Market. Image is the studio logo, not a portrait."
+  },
+  {
+    "id": "oliver-barrett",
+    "name": "Oliver Barrett",
+    "roles": [
+      "speaker",
+      "artist"
+    ],
+    "programs": [
+      "caw"
+    ],
+    "title": "NO GRID speaker (Cincinnati Art Week)",
+    "org": null,
+    "bio": "Oliver Barrett is a Clio Award-winning artist and designer known for bold illustration, key art and portraiture. His clients include Nike, Netflix, Marvel Studios, A24, Apple, Disney, ESPN, Lucasfilm and Warner Bros.",
+    "headshot_url": "https://cdn.evbuc.com/images/1193475233/324262115413/1/original.20260914-183104",
+    "location": null,
+    "links": {
+      "website": null,
+      "instagram": "https://www.instagram.com/oliverbarrett",
+      "linkedin": null,
+      "x": null
+    },
+    "source_url": "https://www.eventbrite.com/e/no-grid-a-creative-conversation-series-tickets-2000523175671",
+    "notes": "NO GRID agenda: \"In Conversation\" 18:30 at Location #3. Photo portrait (1080x1080)."
+  },
+  {
+    "id": "aaron-sechrist",
+    "name": "Aaron Sechrist",
+    "roles": [
+      "speaker",
+      "artist"
+    ],
+    "programs": [
+      "caw"
+    ],
+    "title": "NO GRID speaker (Cincinnati Art Week)",
+    "org": "OK Pants",
+    "bio": "okPANTS is the creative moniker of Cleveland-based artist, illustrator and designer Aaron Sechrist, known for bold, colorful work spanning branding, murals, apparel and print. His clients include Epic Games, Cleveland Cavaliers, Disney, Red Bull, Fall Out Boy and Hasan Minhaj.",
+    "headshot_url": "https://cdn.evbuc.com/images/1193475625/324262115413/1/original.20260914-183501",
+    "location": "Cleveland, OH",
+    "links": {
+      "website": null,
+      "instagram": "https://www.instagram.com/okpants/",
+      "linkedin": null,
+      "x": null
+    },
+    "source_url": "https://www.eventbrite.com/e/no-grid-a-creative-conversation-series-tickets-2000523175671",
+    "notes": "Works as okPANTS / OK Pants. NO GRID agenda: \"In Conversation\" 17:15 at Location #2. Photo portrait (1080x1080)."
+  },
+  {
+    "id": "mz-icar",
+    "name": "Mz. Icar",
+    "roles": [
+      "artist"
+    ],
+    "programs": [
+      "caw"
+    ],
+    "title": "Artist collective — experiential art piece (Cincinnati Art Week)",
+    "org": null,
+    "bio": "Mz. Icar, an anonymous art collective predominantly comprised of Black Women, stands at the intersection of artistic innovation and societal transformation. Our collective name, “racIzM,” spelled backward, serves as a guiding principle, symbolizing our mission to upend conventional constructs of gender and race. We recognize these identifiers as fluid concepts, deeply influenced by the nuances of time, place, and context. They are not restrictions, but rather, perspectives through which we interpret the world, explore our identities, and drive our creative journey.\n\nOur collective is an ensemble of multi-talented artists, each specializing in distinct roles within our creative process. Among us, skilled Illustrators, Photographers, Designers, Prop Stylists, Street Artists, and Collage Artists unite with a common vision. Together, we create art that celebrates the essence of Women, the global tapestry of Blackness, and the spirit of play.\n\nOur artistic odyssey with Mz. Icar is a kaleidoscope of projects and creations. We’ve ventured into exhibitions, murals, public installations, augmented reality-activated public art, and brand collaborations, all bearing the indelible marks of play, color, composition, and a celebration of diverse narratives. Our murals span from local treasures to international marvels, infusing vibrancy and life into public spaces. Beyond this, we’ve directed an award-winning short film, “Of Expansion,” and lent our conceptual art and art direction to Ms. Lauryn Hill’s World Tour. Collaborations with renowned brands such as Doritos, BET, and Xbox have allowed us to infuse our artistic vision into various media.",
+    "headshot_url": null,
+    "location": null,
+    "links": {
+      "website": "https://mzicar.com/",
+      "instagram": "https://www.instagram.com/mz.icar/",
+      "linkedin": null,
+      "x": null
+    },
+    "source_url": "https://www.cincinnatimagazine.com/article/cincinnati-art-week/",
+    "bio_source_url": "https://mzicar.com/info/",
+    "notes": "Cincinnati Magazine: \"You might find an experiential art piece by Mz. Icar, an installation exploring identity by local architect Chas Wiederhold, or Prints and Plants, a pop-up with local artist Gee Horton.\" Bio = first three paragraphs of the BIOGRAPHY section on mzicar.com/info (truncated). Also a BLINK 2022/2024 artist per No Standing."
+  },
+  {
+    "id": "chas-wiederhold",
+    "name": "Chas Wiederhold",
+    "roles": [
+      "artist"
+    ],
+    "programs": [
+      "caw"
+    ],
+    "title": "Architect — installation exploring identity (Cincinnati Art Week)",
+    "org": "Studio Ausgang",
+    "bio": "Studio Ausgang is an architecture and design studio led by Chas Wiederhold, an Ohio-based architect with over a decade of experience working across residential, commercial, civic, and cultural projects.",
+    "headshot_url": null,
+    "location": "Ohio",
+    "links": {
+      "website": "https://www.studio-ausgang.com/",
+      "instagram": null,
+      "linkedin": null,
+      "x": null
+    },
+    "source_url": "https://www.cincinnatimagazine.com/article/cincinnati-art-week/",
+    "bio_source_url": "https://www.studio-ausgang.com/",
+    "notes": "Cincinnati Magazine: \"an installation exploring identity by local architect Chas Wiederhold\"."
+  },
+  {
+    "id": "gee-horton",
+    "name": "Gee Horton",
+    "roles": [
+      "artist"
+    ],
+    "programs": [
+      "caw"
+    ],
+    "title": "Artist — \"Prints and Plants\" pop-up (Cincinnati Art Week)",
+    "org": "Gee Horton Studios",
+    "bio": "Gee Horton (/dʒi ˈhɔːrtən/) is an American contemporary artist based in Cincinnati, Ohio. He is recognized for his graphite and charcoal portraiture, as well as mixed-media works that address themes of identity, memory, and emotional experience. Horton's practice often integrates photorealistic drawing with archival materials and installation, focusing on aspects of Black adolescence and masculinity.",
+    "headshot_url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Gee_Horton.jpg",
+    "location": "Cincinnati, OH",
+    "links": {
+      "website": "https://www.geehorton.com/",
+      "instagram": "https://www.instagram.com/gee_horton/",
+      "linkedin": "https://www.linkedin.com/in/gee-horton-7322b5b4/",
+      "x": "https://twitter.com/g_hortonjr"
+    },
+    "source_url": "https://www.cincinnatimagazine.com/article/cincinnati-art-week/",
+    "bio_source_url": "https://en.wikipedia.org/wiki/Gee_Horton",
+    "headshot_license": "CC0 1.0 (public domain dedication); Wikimedia Commons, author HelloWorld513, 2026-03-19, description \"Gee Horton at work in studio\"",
+    "notes": "Bio = Wikipedia lead (verbatim). Headshot = Wikimedia Commons file Gee_Horton.jpg (2016x1512), an at-work studio photo rather than a posed portrait; license CC0 (no attribution required), read from commons.wikimedia.org/wiki/File:Gee_Horton.jpg (raw/caw/verify/webfetch_commons_gee_horton.txt). Social links from geehorton.com. Also on the 2020 Our Tables organizing team (Cincy Nice)."
+  },
+  {
+    "id": "bailey-elderberry",
+    "name": "Bailey Elderberry",
+    "roles": [
+      "artist"
+    ],
+    "programs": [
+      "caw"
+    ],
+    "title": "Label artwork, \"Art City\" beer (Cincinnati Art Week x Esoteric Brewing)",
+    "org": null,
+    "bio": null,
+    "headshot_url": null,
+    "location": null,
+    "links": {
+      "website": null,
+      "instagram": "https://www.instagram.com/baileyelderberry/",
+      "linkedin": null,
+      "x": null
+    },
+    "source_url": "https://www.instagram.com/p/Ddj-F4WtU0i/",
+    "notes": "Name taken from the Instagram handle @baileyelderberry tagged in the @cincinnatiartweek post (2026-09-21); display name not confirmed."
+  },
+  {
+    "id": "daniel-iroh",
+    "name": "Daniel Iroh",
+    "roles": [
+      "artist"
+    ],
+    "programs": [
+      "caw"
+    ],
+    "title": "Cincinnati artist (photographer)",
+    "org": null,
+    "bio": "Hi, my name is Daniel. I grew up having an interest in photography and eventually it became a passion in the year 2020. Ever since then I continue to learn to take better photos nearly everyday.",
+    "headshot_url": null,
+    "location": "Cincinnati, OH",
+    "links": {
+      "website": "https://www.danieliroh.com/",
+      "instagram": "https://www.instagram.com/daniel.iroh/",
+      "linkedin": null,
+      "x": null
+    },
+    "source_url": "https://docs.google.com/presentation/d/1_AFrLKzGofgz3-Dkjgfe6Psb_Q-v_fexPEAPVNIPoTo/edit?usp=sharing",
+    "bio_source_url": "https://www.danieliroh.com/",
+    "notes": "Sponsorship deck captions a photograph \"CINCINNATI ARTIST DANIEL IROH\". Also one of three names on the unlisted draft page cincinnatiartweek.com/artists (placeholder image \"YOUR-DANIEL-IMAGE-URL\"). Participation in the 2026 program not otherwise confirmed."
+  },
+  {
+    "id": "brandon-hill",
+    "name": "Brandon Hill",
+    "roles": [
+      "artist"
+    ],
+    "programs": [
+      "caw"
+    ],
+    "title": "Artist (draft artists page)",
+    "org": null,
+    "bio": null,
+    "headshot_url": null,
+    "location": null,
+    "links": {
+      "website": null,
+      "instagram": null,
+      "linkedin": null,
+      "x": null
+    },
+    "source_url": "https://cincinnatiartweek.com/artists",
+    "notes": "Only source is the unlisted draft page cincinnatiartweek.com/artists (Cargo display:false; not in nav or sitemap). The page is a template: the \"Brandon Hill\" card repeats 8 times, and card images are placeholders reused from site photography. Treat as unconfirmed. Identity not matched to any external profile (several artists share this name). Card links to /brandon-hill (404)."
+  },
+  {
+    "id": "isaiah-armstrong",
+    "name": "Isaiah Armstrong",
+    "roles": [
+      "artist"
+    ],
+    "programs": [
+      "caw"
+    ],
+    "title": "Artist (draft artists page)",
+    "org": null,
+    "bio": null,
+    "headshot_url": null,
+    "location": null,
+    "links": {
+      "website": null,
+      "instagram": null,
+      "linkedin": null,
+      "x": null
+    },
+    "source_url": "https://cincinnatiartweek.com/artists",
+    "notes": "Only source is the unlisted draft page cincinnatiartweek.com/artists (Cargo display:false; not in nav or sitemap). The page is a template: the \"Brandon Hill\" card repeats 8 times, and card images are placeholders reused from site photography. Treat as unconfirmed. Identity not matched to any external profile (several artists share this name). Card links to /isaiah-armstrong (404)."
+  },
+  {
+    "id": "andrea-sabugo",
+    "name": "Andrea Sabugo",
+    "roles": [
+      "artist"
+    ],
+    "programs": [
+      "caw"
+    ],
+    "title": "Photographer (credited Cincinnati Art Week photography)",
+    "org": null,
+    "bio": null,
+    "headshot_url": null,
+    "location": null,
+    "links": {
+      "website": null,
+      "instagram": null,
+      "linkedin": null,
+      "x": null
+    },
+    "source_url": "https://cincinnatiartweek.com/",
+    "notes": "Credited \"Photo by Andrea Sabugo\" on the CAW homepage (projects section) and \"Photograph by Andrea Sabugo\" on all three Cincinnati Magazine CAW photos; also credited on No Standing's About page and Cincy Nice's Still Smiling Fest page."
+  }
+]

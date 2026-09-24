@@ -162,7 +162,9 @@ export function crawl({ out, pages, config, params, values = {}, navSlugs, searc
     }
     // budgets (engine §4.12–4.13): raw for every page; gzipped for home, schedule and person pages
     const kb = Buffer.byteLength(d.raw) / 1024;
-    const limit = f === "schedule.html" ? 900 : 350;
+    // schedule.html server-renders every event (the no-JS list), so its raw size grows with the program; what
+    // travels is the gzipped page, held to 220 KB below (integration pass, 2026-09-24: 900 → 1300 KB raw)
+    const limit = f === "schedule.html" ? 1300 : 350;
     if (kb > limit) warn(f, `${kb.toFixed(0)} KB raw (budget ${limit} KB)`);
     const gzLimit = f === "index.html" ? 120 : f === "schedule.html" ? 220 : f.startsWith("people/") ? 25 : 0;
     if (gzLimit) { const gz = gzipSync(d.raw).length / 1024; if (gz > gzLimit) warn(f, `${gz.toFixed(1)} KB gzipped (budget ${gzLimit} KB)`); }
@@ -200,6 +202,7 @@ export function crawl({ out, pages, config, params, values = {}, navSlugs, searc
     if (gzKb && gz > gzKb) warn(rel, `${gz.toFixed(0)} KB gzipped (budget ${gzKb} KB)`);
   };
   budget("assets/data/events.json", 600, 120);
+  budget("assets/data/event-text.json", 700, 110);   // loaded only when a dialog opens or a calendar file is made
   budget("assets/data/search.json", 400, 70);
   budget("assets/site.css", null, 45);
   budget("assets/map/basemap.svg", null, 60);

@@ -295,8 +295,9 @@ app = {
 - **`assets/data/events.json`** (core, `build/core/client-data.mjs`) is
   `{ v: 1, tz, week, phase, programs: { id: { n, s } }, venues: { id: { n, a, h, ll, st } }, people: { id: { n, t, i } }, events: [...] }`.
   Each event is
-  `{ id, x, p, t, k, kg, d, v, r, lt, pp, pr, c, f, u, src, st, fe, tg, tr, tt, ht, wk, i: [[day, s, e, flags]] }`.
-  The flags are 1 endUnknown, 2 timeUnknown, 4 allDay, 8 ongoing and 16 lateNight.
+  `{ id, x, p, t, k, kg, v, r, lt, pp, pr, c, f, u, src, st, fe, tg, tr, tt, ht, wk, cr, i: [[day, s, e, flags]] }`.
+  The flags are 1 endUnknown, 2 timeUnknown, 4 allDay, 8 ongoing and 16 lateNight. The descriptions live in
+  **`assets/data/event-text.json`** `{ v, d: { eventId: text } }`, loaded on first use (see the Changelog).
 - **`assets/data/works.json`** is `{ v: 1, works: [{ id, x, p, t, a, at, m, c, z, v, lt, ll, ht, sp, d, i, src }], people: { id: { n } } }`.
 - **`assets/data/search.json`** is `{ v: 1, items: [...] }` (section 9).
 - **Storage keys** are listed in `site/js/core/store.js`: `cw-theme`, `cw-rail`,
@@ -464,3 +465,85 @@ Additive changes to A-owned files made by domain agents (smallest possible, noth
   - `data/news.json` items added by `scripts/fetch-cincy-news.py` have `summary: null`, `kind: "news"`, a `gnId` and
     `date_source: "google-news-pubdate"`; curated items are never changed. News search entries (`k: "nw"`) now leave
     out background items (`kind: "history"`), which stay on news.html.
+- **2026-09-24 · E (map, venues & visit)** one A-owned file changed, additively:
+  - `build/core/load.mjs`: `venue.stall` now numbers only the venues **on the basemap** (inside `data/map.json`
+    `bbox.core`; without a map.json, every venue with coordinates, as before). A venue in Dayton or Columbus has
+    coordinates but no pin, so it gets no number and prints the dashed "–" stall. Nothing else in the loader changed.
+  - `data/map.json` (from `scripts/build-basemap.mjs`, which now works from the cached Overpass responses in
+    `.cache/osm/` and re-fetches only with `--fetch`): `bbox.core` is the basemap (39.075–39.135 N, 84.545–84.48 W:
+    OTR to Covington and Newport, the West End to Mount Adams), `bbox.home` the frame maps open on;
+    `projection: { lat0, k, sx, scale (= sx), viewBox: [1000, 1190], mPerUnit }`; `labels: [{ text, lat, lng,
+    kind: hood|water|state|park|bridge|street, minZoom, angle?, id? }]`; `transit: { name, stops: [{ ref, name, lat,
+    lng }] }`. `lib/geo.js metaOf(map.json)` gives `{ bbox, home, k, sx, W, H, mPerUnit }`, the shape `project()`
+    takes (`ctx.cards.meta` is the same object). The basemap's line widths are `calc(w * var(--mw, 1))`, so mini-maps
+    render unchanged.
+  - `site/js/lib/geo.js` adds `unproject`, `metaOf`, `onMap`, `crop` (mini-map viewBox), `compass`, `cluster`,
+    `fitScale`, `clampView` and `METERS_PER_DEG_LAT` (tests in `tests/geo.test.mjs`).
+  - `ctx.cards` adds `areaMap(root, points, { label, minHalfM, center, ratio, cls })` (a static crop with several pins),
+    `directionsTo(record)`, `where(record)`, `placeStatus(record)`, `nearbyOf(lat, lng, m)`, `walkLabel(m)`,
+    `daysOf(venue)`; `miniMap` now carries up to three basemap labels; `directions(lat, lng, { walk })`.
+  - `site/js/features/map.js` `mountMap(el, { pins, fit, focus, onSelect, onList, onClear, onHover, wheel, title,
+    nearMe })` → `{ update, select(id, { zoom }), highlight, fit, home, locate, destroy }`. `onSelect` is only ever
+    called with a real pin id; a cluster that zooming cannot split calls `onList(ids)` (without it, a card in the map
+    lists them). Embedded maps (schedule, art, stay) need Ctrl/⌘ + wheel to zoom so the page still scrolls.
+  - `assets/data/map-meta.json` (from `build/pages/map.mjs`): `{ v, bbox, projection, labels, transit, attribution }`,
+    fetched once by every interactive map. `map.html` lists every place on it as `li.map-li[data-id="<kind>:<id>"]`.
+- **2026-09-24 · QA (data-accuracy audit)** one A-owned file changed, plus copy-only edits the audit required in page
+  modules (claims the data does not support). Nothing renamed or removed; `npm test` green.
+  - `site/js/lib/time.js` `fmtDateRange`: a run that crosses into another year **on or after its start month** (a year or
+    more) now names both years (`"Aug 28, 2026–Aug 13, 2027"`, `"Oct 17, 2024–Oct 31, 2026"`); it printed `"Aug 28–13"`.
+    Every other output is unchanged (`"Oct 3–10"`, `"Sep 30–Nov 1"`, `"Oct 2–Feb 7"`). Test: `tests/qa-data.test.mjs`.
+  - Copy (owners please keep): `home.mjs` (dek and meta description say "published", not "every … of the first week of
+    October in Cincinnati"; the stay door says "places to stay": 5 of the 140 stays are short-term rentals; the people stat
+    reads "speakers, artists, curators and organizers"), `about.mjs` ("places to stay"), `schedule.mjs` (description and
+    lede: "The published sessions, shows and parties"), `map.mjs` (description no longer says every place is on one map:
+    38 venues are off it), `venues.mjs` ("Every venue in this guide, … where published"), `visit.mjs` (stay page and
+    neighborhood chips say "places to stay"/"hotels and rentals"; the description drops "near the week's venues", since
+    portal hotels spread across the region).
+  - Data (C's script, `QA_*` tables in `scripts/merge-research.mjs`, logged in data/README.md "QA audit"): new tag
+    `approximate-time` on `blink-2026-10-08-flip-the-switch` (D: print "About 7:00 PM" when an event carries it);
+    NO GRID slots' `location_text` reads "NO GRID Location #2 (venue not named by the organizers)"; person
+    `bailey-elderberry` is now `bailey-elder` (F: no image entry existed); people `brandon-hill`, `isaiah-armstrong`,
+    `daniel-iroh` removed and `andrea-sabugo` is FotoFocus-only (now a plain credit); `also_sources` now carries the page a
+    bio was taken from (`bio_source_url` in the research).
+- **2026-09-24 · QA (UX, visual & accessibility)** A-owned files changed additively (nothing renamed or removed; `npm test`
+  green, tests in `tests/qa-ux.test.mjs`); the full list of fixes is in `.cache/qa-ux.md`.
+  - `site/js/lib/text.js` adds `roomText(venueName, room)`: the part of a room worth printing after its venue name ("" when
+    the venue name already holds it; "East Court Street" for "Court Street Plaza, East Court Street"). Used by D's card and
+    dialog and G's program rows.
+  - `site/js/lib/search.js`: `search()` hits carry `exact` (title equals the query); `group()` moves the exact hit's group to
+    the front ("Findlay Market" lists the venue first). Without an exact match the order is unchanged.
+  - `build/core/components.mjs`: `facts()` gives a value longer than 110 characters `.fact.fact-wide` (two tiles wide);
+    `emptyState({ level })` (default 3) so an empty state right under the h1 is an h2 (My Plan).
+  - `build/core/shell.mjs`: the sidebar program sub-line is `<span>` segments (`.nav-sub > span` is nowrap), so it wraps
+    between segments ("7–11 PM"), never inside one. `build/core/seo.mjs`: the 404 copy uses a typographic apostrophe.
+  - CSS: `00-base` (`p.unk, div.unk` are block-level flex: two unknowns never share a line), `10-shell` (nav-sub segments),
+    `20-content` (`.fact dd` wraps long emails; `.fact-wide`; `.empty-state h2`).
+  - New interfaces other agents may use: `eventCard(root, x, { here: venueId })` (D's card: on that venue's own page the
+    card prints only the room, or "Room not listed", never a link to itself; E's venue pages pass it);
+    `art-extra.json` works gain `zv` (the zone venue whose mini-map the work dialog shows when the work has no spot of
+    its own, labeled as the zone); `site/js/features/progdays.js` (program pages: opens today's folded day during the
+    week and a `#<program>-d-<date>` target); `lib/athour.js` items carry `ab` for events tagged `approximate-time`
+    ("About 7:00 PM", also on cards, rows, the dialog and My Plan).
+- **2026-09-24 · A (integration pass, everyone landed)** A owns the tree from here on (see CLAUDE.md, "Maintaining the site
+  during the week"). Changes, tested in `tests/integration.test.mjs`:
+  - **`assets/data/event-text.json`** (new, `build/core/client-data.mjs`): `{ v, d: { eventId: description } }`. The `d` key
+    **left** `events.json` (136 → 56 KB gzipped; the idle prefetch on every page with event links is now 80 KB lighter). The
+    event dialog loads it with events.json on open (and warms it on the first pointer or focus on a `[data-open-event]`);
+    My Plan's .ics export loads it before `eventItems()`. A failed load prints "The description did not load", never
+    "Description not listed". `lib/ics.js eventItems(ev)` still reads `ev.d`: callers attach it. This is the one removal in
+    the contract; every reader is updated.
+  - `build/core/crawl.mjs` budgets: `schedule.html` raw 900 → 1300 KB (it server-renders all 364 events for the no-JS list;
+    the gzipped 220 KB budget is what travels); `event-text.json` ≤ 110 KB gzipped.
+  - `build/core/schema.mjs`: `programs.tickets[].details` (the organizer's own words, shown in the "Details" column);
+    `notes` stays unrendered. `build/pages/program.mjs` (G) prints `details`, no longer `notes`.
+  - `build/pages/schedule.mjs` (D) `schedule-extra.json` `spans`: the published `date`–`end_date` run, widened only by
+    listed occurrences (Jack-O-Lantern Glow reads Oct 2–31, not Oct 2–18). `site/js/core/event-dialog.js` (D): when hours
+    differ by day, the headline names the day its state word is about ("Thu, Oct 8: 5:30–10:00 PM ET") and every listed
+    day follows (the first day's hours used to read as every day's).
+  - `scripts/merge-research.mjs` (C): refuses to run without all eight research slice folders (it used to write empty
+    data/ files); the research default is `.cache/research/` (gitignored, not in the repo); reverse-geocode seed hits are
+    cached, so `.cache/geocode.json` alone reproduces the output; new tables `QA_TICKET_RESEARCH_NOTES`, `QA_FAQ_TOPIC`,
+    `QA_VENUE_NAME` (logged under "QA audit" in data/README.md). `scripts/fetch-cincy-news.py` (G) sorts like the merge
+    (date desc, then title), so running one after the other no longer reshuffles `data/news.json`.
+  - `site/css/20-content.css`: on phones a stacked `table.data` hides an empty `td` (no label with nothing after it).

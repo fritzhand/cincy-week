@@ -147,8 +147,8 @@ ${venues.length ? `<fieldset><legend class="label"><label for="sf-venue">Venue</
 
   return [{
     path: "schedule.html", nav: "schedule", title: "The Week", features: ["schedule"],
-    description: `Every session, show and party of Cincinnati Art Week, StartupCincy Week, BLINK and FotoFocus, ${h.fmtDateRange(config.week.start, config.week.end)}, 2026, by day and time, with filters and live status.`,
-    body: (root) => `${c.pageHead({ num: 1, kicker: "The Week", title: "The Week", lede: `Every session, show and party from ${h.fmtDateRange(config.week.start, config.week.end)}, by day and time. Star what you want to see; it goes to My Plan.` })}
+    description: `The published sessions, shows and parties of Cincinnati Art Week, StartupCincy Week, BLINK and FotoFocus, ${h.fmtDateRange(config.week.start, config.week.end)}, 2026, by day and time, with filters and live status.`,
+    body: (root) => `${c.pageHead({ num: 1, kicker: "The Week", title: "The Week", lede: `The published sessions, shows and parties from ${h.fmtDateRange(config.week.start, config.week.end)}, by day and time. Star what you want to see; it goes to My Plan.` })}
 <div class="sched" data-sched data-top="${BAND_TOP}">
 <script type="application/json" data-sched-meta>${island}</script>
 <nav class="sched-bar" aria-label="Days"><div class="daytabs" data-daytabs>${days.map(tab).join("")}${allTab}</div></nav>
@@ -190,8 +190,11 @@ export function data(ctx) {
   const spans = {};
   for (const e of db.events) {
     if (e.instances.length < 2) continue;
-    const occ = Array.isArray(e.occurrences) && e.occurrences.length ? e.occurrences.map((o) => o.date).sort() : null;
-    spans[e.id] = occ ? [occ[0], occ[occ.length - 1]] : [e.date, e.end_date || e.date];
+    // the published run (date–end_date) wins; listed occurrences can only widen it (a show listed day by day
+    // inside the guide's window still runs to its end_date: Jack-O-Lantern Glow Oct 2–31, not Oct 2–18)
+    const occ = Array.isArray(e.occurrences) && e.occurrences.length ? e.occurrences.map((o) => o.date).sort() : [];
+    const ends = [e.date, e.end_date || e.date, ...occ].sort();
+    spans[e.id] = [ends[0], ends[ends.length - 1]];
   }
   const venues = {};
   for (const v of db.venues) {

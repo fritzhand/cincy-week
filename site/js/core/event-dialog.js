@@ -20,7 +20,7 @@ import { share } from "./share.js";
 import { toast } from "./toast.js";
 import { updateStatus } from "./status.js";
 import { nyParts, fmtDay, fmtTime, fmtRange, fmtDateRange } from "../lib/time.js";
-import { paras, initials, hostOf } from "../lib/text.js";
+import { paras, initials, hostOf, roomText } from "../lib/text.js";
 
 let modal, bodyEl, kickerEl, openId = null, pushed = false, cur = null, ICS = null;
 const I = (n, cls = "") => `<svg class="i${cls ? " " + cls : ""}" aria-hidden="true"><use href="#i-${n}"/></svg>`;
@@ -29,10 +29,13 @@ const KIND = { keynote: "Keynote", panel: "Panel", workshop: "Workshop", firesid
 const hm = (t) => nyParts(t).hhmm;
 
 /** "4:00–9:00 PM", "10:00 AM · end time not listed", "All day", "Hours not listed" for one instance */
-function hours([, s, e, f], ev) {
+function hours([, s, e, f], ev, tz = "") {
   if (f & 4) return "All day";
   if (f & 2) return ev.ht ? esc(ev.ht) : '<span class="unk">Hours not listed</span>';
-  return f & 1 ? `${fmtTime(hm(s))} <span class="unk">end time not listed</span>` : esc(fmtRange(hm(s), hm(e)));
+  // QA: the time zone follows the time itself ("4:00 PM ET · end time not listed"), never a line of its own;
+  // an event tagged approximate-time reads "About 7:00 PM"
+  const z = tz ? ` <span class="faint">${tz}</span>` : "", about = (ev.tg || []).includes("approximate-time") ? "About " : "";
+  return f & 1 ? `<span class="nw">${about}${fmtTime(hm(s))}${z}</span> <span class="unk">end time not listed</span>` : `<span class="nw">${about}${esc(fmtRange(hm(s), hm(e)))}${z}</span>`;
 }
 /** The calendar day of an instance: an after-midnight start is printed on its own date, with its night. */
 const dayOf = ([day, s, , f]) => (f & 16 ? `${fmtDay(nyParts(s).date)} (${fmtDay(day).split(",")[0]} night)` : fmtDay(day));
@@ -44,11 +47,13 @@ function whenHtml(ev, t, span) {
   const multi = inst.length > 1;
   const attrs = (x) => (x[3] & 2 ? ' data-time-unknown="1"' : `${multi ? ` data-inst="${inst.map(([, s, e]) => `${s}:${e}`).join(",")}"` : ""} data-s="${x[1]}" data-e="${x[2]}"${x[3] & 1 ? ' data-end-unknown="1"' : ""}`);
   const st = '<span class="ev-status" data-status></span>';
-  if (!multi) return `<p class="evd-when"${attrs(pick)}>${esc(dayOf(pick))} · ${hours(pick, ev)}${pick[3] & 6 ? "" : ' <span class="faint">ET</span>'} ${st}</p>`;
+  if (!multi) return `<p class="evd-when"${attrs(pick)}>${esc(dayOf(pick))} · ${hours(pick, ev, "ET")} ${st}</p>`;
   const [first, last] = span || [inst[0][0], inst[inst.length - 1][0]];
   const same = inst.every((x) => hours(x, ev) === hours(inst[0], ev));
-  let html = `<p class="evd-when"${attrs(pick)}>${esc(fmtDateRange(first, last))} · ${hours(inst[0], ev)}${same ? (inst[0][3] & 6 ? "" : ' <span class="faint">ET, each day</span>') : ""} ${st}</p>`;
-  if (!same && inst.length <= 12) html += `<ul class="evd-days">${inst.map((x) => `<li><span class="tnum">${esc(dayOf(x))}</span> ${hours(x, ev)}</li>`).join("")}</ul>`;
+  // hours that vary by day: the headline names the day its state word is about, and every listed day follows
+  // (integration pass: the first day's hours used to read as everyone's, e.g. the Zoo's 9 PM Tue/Wed closings)
+  let html = `<p class="evd-when"${attrs(pick)}>${esc(fmtDateRange(first, last))} · ${same ? hours(inst[0], ev, "ET, each day") : `${esc(dayOf(pick))}: ${hours(pick, ev, "ET")}`} ${st}</p>`;
+  if (!same) html += `<ul class="evd-days">${inst.map((x) => `<li><span class="tnum">${esc(dayOf(x))}</span> ${hours(x, ev)}</li>`).join("")}</ul>`;
   return html;
 }
 
@@ -63,7 +68,7 @@ function render(data, ev, extra) {
   const role = (id) => (ev.pr && ev.pr[id] ? ev.pr[id][0].toUpperCase() + ev.pr[id].slice(1) : "");
   const mug = (id, p) => (p.i ? `<span class="avatar m" data-prog="${esc(ev.p)}"><img src="${esc(ROOT + p.i)}" alt="" width="44" height="55" loading="lazy" decoding="async"></span>` : `<span class="avatar m mono halftone" data-prog="${esc(ev.p)}"><span aria-hidden="true">${esc(initials(p.n))}</span></span>`);
   const place = v
-    ? `${v.st ? `<span class="ev-stall" aria-hidden="true">${esc(v.st)}</span>` : ""}<a href="${ROOT}venues/${esc(ev.v)}.html">${esc(v.n)}</a>${ev.r ? `<span class="ev-room"> · ${esc(ev.r)}</span>` : ""}${v.a ? `<span class="evd-addr">${esc(v.a)}</span>` : '<span class="evd-addr unk">Address not listed</span>'}`
+    ? `${v.st ? `<span class="ev-stall" aria-hidden="true">${esc(v.st)}</span>` : ""}<a href="${ROOT}venues/${esc(ev.v)}.html">${esc(v.n)}</a>${roomText(v.n, ev.r) ? `<span class="ev-room"> · ${esc(roomText(v.n, ev.r))}</span>` : ""}${v.a ? `<span class="evd-addr">${esc(v.a)}</span>` : '<span class="evd-addr unk">Address not listed</span>'}`
     : ev.lt && ev.lt !== "Location not listed" ? `${esc(ev.lt)}${ev.r ? ` · ${esc(ev.r)}` : ""}` : `<span class="unk">${ev.lt ? "Location not listed" : "Place not listed"}</span>`;
   const side = v && v.ll
     ? `${g && g.mm ? g.mm.replace(/\{R\}/g, ROOT) : ""}${g && g.d ? `<p class="evd-dir">${ext(g.d.apple, `${I("walk")}Apple Maps`, "btn btn-secondary btn-sm")}${ext(g.d.google, `${I("walk")}Google Maps`, "btn btn-secondary btn-sm")}</p>` : ""}`
@@ -81,14 +86,14 @@ function render(data, ev, extra) {
   ].filter(Boolean);
   const inPlan = has(ev.id);
   const single = ev.i.length === 1 && !(ev.i[0][3] & 6);
-  const items = ICS ? ICS.eventItems(ev, data, { base: new URL(ROOT, location.href).href, span: extra && extra.spans && extra.spans[ev.id] }) : [];
+  const items = ICS ? ICS.eventItems(ev, data, { base: new URL(ROOT || "./", location.href).href, span: extra && extra.spans && extra.spans[ev.id] }) : [];
   bodyEl.dataset.evd = ev.id;
   bodyEl.innerHTML = `<p class="evd-kind label">${esc(KIND[ev.k] || ev.k)}${ev.st === "cancelled" ? ' <span class="badge badge-warn">Cancelled</span>' : ev.st === "changed" ? ' <span class="badge badge-warn">Changed</span>' : ""}</p>
 <h2 id="evd-title" tabindex="-1">${esc(ev.t)}</h2>
 ${whenHtml(ev, t, extra && extra.spans && extra.spans[ev.id])}
 <div class="evd-grid"><div class="evd-main">
 <p class="ev-where evd-where">${I("pin")}<span>${place}</span></p>
-${ev.d ? `<div class="prose evd-desc">${paras(ev.d).map((p) => `<p>${esc(p)}</p>`).join("")}</div>` : '<p class="unk evd-desc">Description not listed</p>'}
+${ev.d ? `<div class="prose evd-desc">${paras(ev.d).map((p) => `<p>${esc(p)}</p>`).join("")}</div>` : ev.d === undefined ? '<p class="unk evd-desc">The description did not load. The official page below has it.</p>' : '<p class="unk evd-desc">Description not listed</p>'}
 ${people.length ? `<h3 class="sub-h">People</h3><ul class="evd-people">${people.map(([id, p]) => `<li><a href="${ROOT}people/${esc(id)}.html">${mug(id, p)}<span><b>${esc(p.n)}</b>${role(id) || p.t ? `<span>${esc([role(id), p.t].filter(Boolean).join(" · "))}</span>` : ""}</span></a></li>`).join("")}</ul>` : ""}
 ${(ev.cr || []).filter(([, n]) => n && n.length).map(([r, n]) => `<h3 class="sub-h">${esc(r)}</h3><p class="evd-credits">${esc(n.join(", "))}</p>`).join("")}
 <dl class="facts evd-facts">${facts.map(([k, val]) => `<div class="fact"><dt>${k}</dt><dd>${val}</dd></div>`).join("")}</dl>
@@ -116,11 +121,13 @@ const deepLink = (id) => new URL(`${ROOT}schedule.html?e=${encodeURIComponent(id
 
 export async function open(id, { trigger = null, push = true } = {}) {
   if (!modal) return;
-  let data, extra = null;
-  try { [data, extra, ICS] = await Promise.all([getJSON("events.json"), getJSON("schedule-extra.json").catch(() => null), import("../lib/ics.js").catch(() => null)]); }
+  let data, extra = null, text = null;
+  try { [data, extra, ICS, text] = await Promise.all([getJSON("events.json"), getJSON("schedule-extra.json").catch(() => null), import("../lib/ics.js").catch(() => null), getJSON("event-text.json").catch(() => null)]); }
   catch { location.href = `${ROOT}schedule.html?e=${encodeURIComponent(id)}#e-${encodeURIComponent(id)}`; return; }
-  const ev = data.events.find((x) => x.id === id);
-  if (!ev) return;
+  const found = data.events.find((x) => x.id === id);
+  if (!found) return;
+  // descriptions live in event-text.json (core/client-data.mjs); undefined = it did not load, null = not listed
+  const ev = { ...found, d: text && text.d ? text.d[found.id] || null : found.d };
   cur = { data, ev, span: extra && extra.spans && extra.spans[ev.id] };
   render(data, ev, extra);
   openId = id;
@@ -137,7 +144,7 @@ export async function open(id, { trigger = null, push = true } = {}) {
 function calendar() {
   const ics = ICS;
   if (!cur || !ics) return;
-  const items = ics.eventItems(cur.ev, cur.data, { base: new URL(ROOT, location.href).href, span: cur.span });
+  const items = ics.eventItems(cur.ev, cur.data, { base: new URL(ROOT || "./", location.href).href, span: cur.span });
   if (!items.length) return;
   const url = URL.createObjectURL(new Blob([ics.vcalendar(items, { name: cur.ev.t })], { type: "text/calendar;charset=utf-8" }));
   const dl = document.createElement("a");
@@ -176,4 +183,11 @@ export function initEventDialog() {
   onTick((t) => { if (openId) tick(t); }, { immediate: false });
   // engine §4.8: prefetch events.json when idle on pages that can open the dialog, so it opens at once
   if (document.querySelector("[data-open-event]")) idle(() => getJSON("events.json").catch(() => {}));
+  // the descriptions (event-text.json) load on the first sign of intent: a pointer or focus on anything that opens the dialog
+  const warm = (e) => {
+    if (!(e.target instanceof Element) || !e.target.closest("[data-open-event]")) return;
+    getJSON("event-text.json").catch(() => {});
+    for (const t of ["pointerover", "focusin"]) document.removeEventListener(t, warm, true);
+  };
+  for (const t of ["pointerover", "focusin"]) document.addEventListener(t, warm, { capture: true, passive: true });
 }

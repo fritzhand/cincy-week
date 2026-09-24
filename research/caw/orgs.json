@@ -1,0 +1,214 @@
+[
+  {
+    "id": "fifth-third-bank",
+    "name": "Fifth Third",
+    "programs": [
+      "caw"
+    ],
+    "relationship": "presenting sponsor",
+    "tier": "Presented by",
+    "logo_url": "https://freight.cargo.site/t/original/i/F3056205940137348492454743547258/12311-246-Offline---Fifth-Third---Artswave-Logo-Update-01-1.png",
+    "url": "https://www.53.com/",
+    "source_url": "https://cincinnatiartweek.com/sponsors",
+    "logo_file": "12311-246-Offline---Fifth-Third---Artswave-Logo-Update-01-1.png",
+    "logo_size": "5655x1183",
+    "notes": "Shared lockup \"Fifth Third + ArtsWave 100 years\" (one image). VisitCincy: \"Presented by ArtsWave and Fifth Third\". CityBeat: ArtsWave launches CAW \"in partnership with Fifth Third\"."
+  },
+  {
+    "id": "artswave",
+    "name": "ArtsWave",
+    "programs": [
+      "caw"
+    ],
+    "relationship": "presenting sponsor",
+    "tier": "Presented by",
+    "logo_url": "https://freight.cargo.site/t/original/i/F3056205940137348492454743547258/12311-246-Offline---Fifth-Third---Artswave-Logo-Update-01-1.png",
+    "url": "https://artswave.org/",
+    "source_url": "https://cincinnatiartweek.com/sponsors",
+    "logo_file": "12311-246-Offline---Fifth-Third---Artswave-Logo-Update-01-1.png",
+    "logo_size": "5655x1183",
+    "notes": "Shared lockup \"Fifth Third + ArtsWave 100 years\" (one image). ArtsWave centennial logo (AW100) is also in the sponsors page media library (unplaced). ArtsWave's CEO Alecia Kintner: \"We're proud to sponsor both Cincinnati Art Week and BLINK this year\" (CityBeat).",
+    "logo_url_alt": "https://freight.cargo.site/t/original/i/I3056175839902513889852118310266/2026_AW100_Primary-Logo-FullColor.png"
+  },
+  {
+    "id": "george-and-margaret-mclane-foundation",
+    "name": "George & Margaret McLane Foundation",
+    "programs": [
+      "caw"
+    ],
+    "relationship": "sponsor",
+    "tier": "With support from",
+    "logo_url": "https://freight.cargo.site/t/original/i/D3056755110573555085221277769082/k49JPo.svg",
+    "url": null,
+    "source_url": "https://cincinnatiartweek.com/sponsors",
+    "logo_file": "k49JPo.svg",
+    "logo_size": "850x403",
+    "notes": "Identified from the logo artwork (file name is a hash). "
+  },
+  {
+    "id": "cincinnati-regional-chamber",
+    "name": "Cincinnati Regional Chamber",
+    "programs": [
+      "caw"
+    ],
+    "relationship": "sponsor",
+    "tier": "With support from",
+    "logo_url": "https://freight.cargo.site/t/original/i/D3056756477993799781162919959930/Cincinnati-Regional-Chamber-logo.svg",
+    "url": "https://www.cincinnatichamber.com/",
+    "source_url": "https://cincinnatiartweek.com/sponsors",
+    "logo_file": "Cincinnati-Regional-Chamber-logo.svg",
+    "logo_size": "300x107",
+    "notes": "Logo reads \"Cincinnati Regional Chamber\" (the Cincinnati USA Regional Chamber, which also produces BLINK)."
+  },
+  {
+    "id": "interact-for-health",
+    "name": "Interact for Health",
+    "programs": [
+      "caw"
+    ],
+    "relationship": "sponsor",
+    "tier": "With support from",
+    "logo_url": "https://freight.cargo.site/t/original/i/E3056757428056459809425956838778/logo-main.svg",
+    "url": "https://www.interactforhealth.org/",
+    "source_url": "https://cincinnatiartweek.com/sponsors",
+    "logo_file": "logo-main.svg",
+    "logo_size": "300x105",
+    "notes": "Identified from the logo artwork (file name is a hash). "
+  },
+  {
+    "id": "kinley-cincinnati",
+    "name": "Kinley Cincinnati",
+    "programs": [
+      "caw"
+    ],
+    "relationship": "community partner",
+    "tier": "Community partners",
+    "logo_url": "https://freight.cargo.site/t/original/i/D3056767186826796659547790941562/Kinley_hotel.svg",
+    "url": "https://www.kinleycincinnati.com/",
+    "source_url": "https://cincinnatiartweek.com/sponsors",
+    "logo_file": "Kinley_hotel.svg",
+    "logo_size": "205x92",
+    "notes": "Hosts the weekly Art Week Happy Hour (The Exchange lobby bar)."
+  },
+  {
+    "id": "urban-sites",
+    "name": "Urban Sites",
+    "programs": [
+      "caw"
+    ],
+    "relationship": "community partner",
+    "tier": "Community partners",
+    "logo_url": "https://freight.cargo.site/t/original/i/B3056188270978877721981856816506/urbansiteslogo.png",
+    "url": "https://www.urbansites.com/",
+    "source_url": "https://cincinnatiartweek.com/sponsors",
+    "logo_file": "urbansiteslogo.png",
+    "logo_size": "215x215",
+    "notes": "Also a storefront/developer partner (CityBeat, Cincinnati Magazine, Threads post tags @urbansites)."
+  },
+  {
+    "id": "cincy-nice",
+    "name": "Cincy Nice",
+    "programs": [
+      "caw"
+    ],
+    "relationship": "organizer",
+    "tier": "Creator",
+    "logo_url": "https://freight.cargo.site/t/original/i/S3055232852103793472565861195130/CN_logo-01-1.png",
+    "url": "https://www.cincynice.com/",
+    "source_url": "https://cincinnatiartweek.com/meet-the-team",
+    "notes": "\"Cincinnati Art Week is a project of Cincy Nice in partnership with No Standing\" (footer). Legal: Cincy Nice Social House, LLC. Cultural Strategy & Civic Experience Studio, Walnut Hills. Instagram @cincynice. Organizer of the NO GRID Eventbrite listing.",
+    "about": "Cincy Nice is a Cultural Strategy & Civic Experience Studio based in Cincinnati, Ohio."
+  },
+  {
+    "id": "no-standing",
+    "name": "No Standing",
+    "programs": [
+      "caw"
+    ],
+    "relationship": "organizer",
+    "tier": "Partner",
+    "logo_url": "https://freight.cargo.site/t/original/i/X3056227410487243323738964925818/NoStanding_RGB_B.png",
+    "url": "https://www.nostandingonlydancing.com/",
+    "source_url": "https://cincinnatiartweek.com/meet-the-team",
+    "notes": "Event production studio founded by Megyn Norbut; full production for BLINK 2022 and 2024. Deck calls it \"No Standing Only Dancing\". Instagram @nostandingstudio.",
+    "about": "No Standing is an event production studio on a mission to move people through powerful art-based experiences."
+  },
+  {
+    "id": "3cdc",
+    "name": "3CDC (Cincinnati Center City Development Corp.)",
+    "programs": [
+      "caw"
+    ],
+    "relationship": "partner",
+    "tier": "Storefront / developer partner",
+    "logo_url": null,
+    "url": "https://www.3cdc.org/",
+    "source_url": "https://www.citybeat.com/arts/visual-arts/cincinnati-arts-week-launches-october/",
+    "notes": "Named by CityBeat and Cincinnati Magazine as a storefront partner; tagged (@3cdc_official) in the @cincinnatiartweek Threads post about available OTR storefronts. No logo on the CAW site."
+  },
+  {
+    "id": "model-group",
+    "name": "Model Group",
+    "programs": [
+      "caw"
+    ],
+    "relationship": "partner",
+    "tier": "Storefront / developer partner",
+    "logo_url": null,
+    "url": "https://modelgroup.net/",
+    "source_url": "https://www.citybeat.com/arts/visual-arts/cincinnati-arts-week-launches-october/",
+    "notes": "CityBeat: storefronts \"through a partnership with developers 3CDC, Urban Sites and Model Group\". No logo on the CAW site."
+  },
+  {
+    "id": "meaningful-connections",
+    "name": "Meaningful Connections LLC",
+    "programs": [
+      "caw"
+    ],
+    "relationship": "partner",
+    "tier": "Community Impact Advisor",
+    "logo_url": null,
+    "url": "https://www.tiffanymcooper.com/meaningfulconnections",
+    "source_url": "https://cincinnatiartweek.com/meet-the-team",
+    "notes": "Tiffany Cooper and Candra Reeves (Meaningful Connections) — Community Impact Advisor."
+  },
+  {
+    "id": "esoteric-brewing",
+    "name": "Esoteric Brewing Co.",
+    "programs": [
+      "caw"
+    ],
+    "relationship": "partner",
+    "tier": "Collaboration (Art City beer)",
+    "logo_url": null,
+    "url": "https://esotericbrewing.com/",
+    "source_url": "https://www.instagram.com/p/Ddj-F4WtU0i/",
+    "notes": "\"A special Cincinnati Art Week edition of @esotericbeer Japanese-style Rice Lager, featuring artwork by @baileyelderberry.\""
+  },
+  {
+    "id": "snellbeast",
+    "name": "SnellBeast (Jason Snell)",
+    "programs": [
+      "caw"
+    ],
+    "relationship": "partner",
+    "tier": "Program partner (NO GRID)",
+    "logo_url": null,
+    "url": "https://www.snellbeast.com/",
+    "source_url": "https://cincinnatiartweek.com/schedule",
+    "notes": "Draft schedule: \"NO GRID — A Creative Conversation Series by SnellBeast.\" The NO GRID key art carries CAW, No Standing and SnellBeast marks."
+  },
+  {
+    "id": "motr-pub",
+    "name": "MOTR Pub",
+    "programs": [
+      "caw"
+    ],
+    "relationship": "venue",
+    "tier": "NO GRID venue",
+    "logo_url": null,
+    "url": "https://www.motrpub.com/",
+    "source_url": "https://www.instagram.com/p/DdUlIEdlEg4/",
+    "notes": "One of three NO GRID spaces."
+  }
+]

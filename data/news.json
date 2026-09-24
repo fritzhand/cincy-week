@@ -474,6 +474,24 @@
     "date_source": "meta-tz"
   },
   {
+    "id": "city-of-covington-2026-09-14-blink-2026-experience-blink-in-covington",
+    "title": "BLINK 2026: Experience BLINK in Covington",
+    "source": "City of Covington",
+    "sourceTier": null,
+    "date": "2026-09-14",
+    "url": "https://www.covingtonky.gov/news/2026/09/14/blink-2026-experience-blink-in-covington",
+    "programs": [
+      "blink"
+    ],
+    "summary": null,
+    "tags": [],
+    "gnId": "CBMijAFBVV95cUxPQXhJSjhxbHRiLWptNG8zc0VBNWhJMDBzYi1ZSzMySjY0YW1GclV3bWFhRko5M3JsRFJ0b1hNR0ZQTGFHTTFySnlqV28tVlh4X1NqZmdha3NxbUdYNWFRVHQtUXRGZy1wOHhONm5DN2dzalVNcHJRT1hEdEIzOUUxTTV3d0NCMUNYcWRBWA",
+    "image_url": null,
+    "author": null,
+    "kind": "news",
+    "date_source": "google-news-pubdate"
+  },
+  {
     "id": "city-of-covington-2026-09-14-covington-launches-entertainment-destination-cen",
     "title": "Covington Launches Entertainment Destination Center for BLINK 2026",
     "source": "City of Covington",
@@ -508,24 +526,6 @@
     "author": null,
     "kind": "press-release",
     "date_source": "meta"
-  },
-  {
-    "id": "city-of-covington-2026-09-14-blink-2026-experience-blink-in-covington",
-    "title": "BLINK 2026: Experience BLINK in Covington",
-    "source": "City of Covington",
-    "sourceTier": null,
-    "date": "2026-09-14",
-    "url": "https://www.covingtonky.gov/news/2026/09/14/blink-2026-experience-blink-in-covington",
-    "programs": [
-      "blink"
-    ],
-    "summary": null,
-    "tags": [],
-    "gnId": "CBMijAFBVV95cUxPQXhJSjhxbHRiLWptNG8zc0VBNWhJMDBzYi1ZSzMySjY0YW1GclV3bWFhRko5M3JsRFJ0b1hNR0ZQTGFHTTFySnlqV28tVlh4X1NqZmdha3NxbUdYNWFRVHQtUXRGZy1wOHhONm5DN2dzalVNcHJRT1hEdEIzOUUxTTV3d0NCMUNYcWRBWA",
-    "image_url": null,
-    "author": null,
-    "kind": "news",
-    "date_source": "google-news-pubdate"
   },
   {
     "id": "aperture-2026-09-11-14-exhibitions-to-see-this-fall",

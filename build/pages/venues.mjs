@@ -40,7 +40,7 @@ export function pages(ctx) {
     path: "venues.html", nav: "venues", title: "Venues", features: ["directory", "map"],
     description: `The ${db.venues.length} venues of the week by neighborhood, with addresses, map numbers and walking directions.`,
     toc: groups.length >= 2 ? groups.map((g) => [g.id, g.title]) : undefined,
-    body: (root) => `${c.pageHead({ num: 3, kicker: `Directory · ${db.venues.length} venues`, title: "Venues", lede: `Every venue of the week with its address and neighborhood. The ${onMapN} numbered venues are on the map under the same number.` })}
+    body: (root) => `${c.pageHead({ num: 3, kicker: `Directory · ${db.venues.length} venues`, title: "Venues", lede: `Every venue in this guide, with its address and neighborhood where published. The ${onMapN} numbered venues are on the map under the same number.` })}
 <div class="dir-tools js-only" data-dir-tools>
 ${searchField("Search venues", "Search by name, street or neighborhood")}
 ${progOpts.length > 1 ? filterGroup({ key: "p", label: "Program", options: progOpts }) : ""}
@@ -117,11 +117,11 @@ ${v.address ? `<p class="lede tnum">${esc(v.address)}</p>` : `<p class="lede unk
   ["Website", v.url ? h.extLink(v.url, esc(h.hostOf(v.url))) : null],
 ])}
 ${w !== "on" ? `<p class="vp-status">${cards.placeStatus(v)}</p>` : ""}</div>
-<div class="vp-map">${cards.miniMap(root, v.lat, v.lng, { prog, n: v.stall || "", label: `Map: ${v.name}${hood ? `, ${hood.name}` : ""}` })}
-${d ? `<p class="btn-row vp-dir"><span class="acts-l">${h.icon("walk")}Walking directions</span>${d.apple ? h.extLink(d.apple, "Apple Maps", "btn btn-secondary btn-sm") : ""}${h.extLink(d.google, "Google Maps", "btn btn-secondary btn-sm")}${w === "on" ? `<a class="btn btn-ghost btn-sm" href="${root}map.html?focus=venue:${attr(v.id)}">${h.icon("map")}On the map</a>` : ""}</p>` : ""}</div>
+<div class="vp-map">${w === "on" ? cards.miniMap(root, v.lat, v.lng, { prog, n: v.stall || "", label: `Map: ${v.name}${hood ? `, ${hood.name}` : ""}` }) : ""}
+${d ? `<p class="btn-row vp-dir"><span class="acts-l">${h.icon(d.walk ? "walk" : "pin")}${d.walk ? "Walking directions" : "Directions"}</span>${d.apple ? h.extLink(d.apple, "Apple Maps", "btn btn-secondary btn-sm") : ""}${h.extLink(d.google, "Google Maps", "btn btn-secondary btn-sm")}${w === "on" ? `<a class="btn btn-ghost btn-sm" href="${root}map.html?focus=venue:${attr(v.id)}">${h.icon("map")}On the map</a>` : ""}</p>` : ""}</div>
 </div>
-${spans.length ? `<section class="vp-sec" aria-labelledby="vp-onview"><h2 class="sub-h" id="vp-onview">On view</h2><p class="faint vp-note">Exhibitions and other items that run over several days.</p><div class="grid">${sortBy(spans, (e) => e.date).map((e) => cards.eventCard(root, e, { anchor: false, headingLevel: 3, compact: true })).join("")}</div></section>` : ""}
-${days.length ? `<section class="vp-sec byday" aria-labelledby="vp-byday"><h2 class="sub-h" id="vp-byday">What's on here, by day</h2>${days.map((day) => `<h3 class="vp-day">${esc(h.fmtDayLong(day))}</h3><div class="grid">${sortBy(byDay.get(day), (x) => x.s).map((x) => cards.eventCard(root, x, { anchor: false, headingLevel: 4, compact: true })).join("")}</div>`).join("")}</section>` : ""}
+${spans.length ? `<section class="vp-sec" aria-labelledby="vp-onview"><h2 class="sub-h" id="vp-onview">On view</h2><p class="faint vp-note">Exhibitions and other items that run over several days.</p><div class="grid">${sortBy(spans, (e) => e.date).map((e) => cards.eventCard(root, e, { anchor: false, headingLevel: 3, compact: true, here: v.id })).join("")}</div></section>` : ""}
+${days.length ? `<section class="vp-sec byday" aria-labelledby="vp-byday"><h2 class="sub-h" id="vp-byday">What's on here, by day</h2>${days.map((day) => `<h3 class="vp-day">${esc(h.fmtDayLong(day))}</h3><div class="grid">${sortBy(byDay.get(day), (x) => x.s).map((x) => cards.eventCard(root, x, { anchor: false, headingLevel: 4, compact: true, here: v.id })).join("")}</div>`).join("")}</section>` : ""}
 ${!live.length && !works.length ? c.emptyState({ title: "No events listed here yet", body: "Nothing on the programs' published schedules names this venue for the week.", glyph: "calendar", prog }) : ""}
 ${works.length ? `<section class="vp-sec" aria-labelledby="vp-works"><h2 class="sub-h" id="vp-works">Works here</h2><div class="works">${works.map((wk) => cards.workCard(root, wk, { headingLevel: 3 })).join("")}</div></section>` : ""}
 ${near.length ? `<section class="vp-sec" aria-labelledby="vp-nearby"><h2 class="sub-h" id="vp-nearby">Nearby</h2><p class="faint vp-note">Within 500 m in a straight line. Walking times are estimates (distance × 1.3 at 80 m a minute).</p><div class="vp-nearby">

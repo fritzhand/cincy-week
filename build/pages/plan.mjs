@@ -26,7 +26,7 @@ export function pages(ctx) {
 <p class="result-count" role="status" aria-live="polite" data-plan-summary></p>
 </div>
 <div data-plan-list></div>
-<div data-plan-empty>${c.emptyState({ title: "Star events to build your plan", body: "Tap the star on any event in The Week, or on a work of art, and it shows up here, by day, with overlaps and walking times.", glyph: "star", action: `<a class="btn btn-primary" href="${root}schedule.html">${icon("calendar")}Go to The Week</a>` })}
+<div data-plan-empty>${c.emptyState({ level: 2, title: "Star events to build your plan", body: "Tap the star on any event in The Week, or on a work of art, and it shows up here, by day, with overlaps and walking times.", glyph: "star", action: `<a class="btn btn-primary" href="${root}schedule.html">${icon("calendar")}Go to The Week</a>` })}
 ${highlights(root)}</div>
 <p class="plan-loading unk" data-plan-loading hidden>Loading your plan</p>
 </div>`,

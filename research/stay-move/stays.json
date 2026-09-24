@@ -1,0 +1,1205 @@
+[
+ {
+  "id": "21c-museum-hotel-cincinnati",
+  "name": "21c Museum Hotel",
+  "address": "609 Walnut St., Cincinnati, OH 45202",
+  "neighborhood": "Downtown (CBD)",
+  "phone": "(513) 578-6600",
+  "lat": 39.103021,
+  "lng": -84.512008,
+  "url": "https://21cmuseumhotels.com/cincinnati/",
+  "room_block": null,
+  "notes": "Also listed on the Visit Cincy \"Blink 2026\" hotel booking portal linked from BLINK's Plan Your Visit page (as \"21c Museum Hotel Cincinnati\"; portal shows no group code or discounted rate).",
+  "source_url": "https://www.visitcincy.com/listing/21c-museum-hotel/5043/",
+  "coords_source": "nominatim",
+  "verification": [
+   "Visit Cincy weburl http://21cmuseumhotels.com/cincinnati -> HTTP/1.1 301 Moved Permanently / location: https://21cmuseumhotels.com/cincinnati / HTTP/2 301 / location: https://21cmuseumhotels.com/cincinnati/ / HTTP/2 200",
+   "Official page fetched: 609 Walnut Street, Cincinnati, Ohio 45202 · Phone (513) 578-6600 (21cmuseumhotels.com/cincinnati)"
+  ],
+  "nearest_hub": {
+   "hub": "fountain-square",
+   "straight_line_m": 153
+  },
+  "nearest_streetcar": {
+   "station": "Aronoff Center",
+   "number": 17,
+   "straight_line_m": 119
+  },
+  "distance_m_to_hubs": {
+   "union-hall": 825,
+   "caw-art-market-hq-1417-main": 983,
+   "findlay-market": 1499,
+   "fountain-square": 153,
+   "smale-riverfront-park": 842,
+   "covington-riverfront-roebling-point": 1538,
+   "newport-on-the-levee": 1628
+  }
+ },
+ {
+  "id": "ac-hotel-cincinnati-at-the-banks",
+  "name": "AC Hotel by Marriott Cincinnati at The Banks",
+  "address": "135 Joe Nuxhall Way, Cincinnati, OH 45202",
+  "neighborhood": "The Banks",
+  "phone": "(513) 744-9900",
+  "lat": 39.096906,
+  "lng": -84.508815,
+  "url": "https://www.marriott.com/en-us/hotels/cvgbc-ac-hotel-cincinnati-at-the-banks/overview/",
+  "room_block": null,
+  "notes": "Also listed on the Visit Cincy \"Blink 2026\" hotel booking portal linked from BLINK's Plan Your Visit page (as \"AC Hotel by Marriott Cincinnati at The Banks\"; portal shows no group code or discounted rate).",
+  "source_url": "https://www.visitcincy.com/listing/ac-hotel-by-marriott-cincinnati-at-the-banks/5171/",
+  "coords_source": "nominatim",
+  "verification": [
+   "marriott.com property code CVGBC resolves to /en-us/hotels/cvgbc-ac-hotel-cincinnati-at-the-banks/overview/ (HTTP/2 200) on 2026-09-24"
+  ],
+  "nearest_hub": {
+   "hub": "smale-riverfront-park",
+   "straight_line_m": 138
+  },
+  "nearest_streetcar": {
+   "station": "The Banks",
+   "number": 1,
+   "straight_line_m": 169
+  },
+  "distance_m_to_hubs": {
+   "union-hall": 1559,
+   "caw-art-market-hq-1417-main": 1694,
+   "findlay-market": 2232,
+   "fountain-square": 644,
+   "smale-riverfront-park": 138,
+   "covington-riverfront-roebling-point": 838,
+   "newport-on-the-levee": 1110
+  }
+ },
+ {
+  "id": "cincinnatis-fidelity-hotel",
+  "name": "Cincinnati's Fidelity Hotel",
+  "address": "210 East Sixth Street, Cincinnati, OH 45202",
+  "neighborhood": "Downtown (CBD)",
+  "phone": "(513) 296-2888",
+  "lat": 39.103054,
+  "lng": -84.509906,
+  "url": "https://www.fidelityhotels.com/cincinnati/",
+  "room_block": {
+   "program": "scw",
+   "group_code": "CINTRIFUSEOCT",
+   "rate": null,
+   "dates": "The SCW BOOK NOW link pre-fills arrive 2026-10-04, depart 2026-10-06 (block dates not published)",
+   "deadline": null,
+   "booking_url": "https://be.synxis.com/?adult=2&arrive=2026-10-04&chain=19403&child=0&currency=USD&depart=2026-10-06&group=CINTRIFUSEOCT&hotel=98848&level=hotel&locale=en-US&productcurrency=USD&rooms=1",
+   "status_2026_09_24": "Closed: the SynXis availability call returned ProductStatus \"AfterGroupCutoffDate\" for 2026-10-05 (the page said \"Our hotel is not available on October 5, 2026.\"). The cutoff date itself is not published.",
+   "source_url": "https://startupcincyweek.com/"
+  },
+  "notes": "Official StartupCincy Week room block (\"Plan Your Visit\" -> BOOK NOW). Block details were captured and verified by the scw-info slice (raw/scw-info/hotels).",
+  "source_url": "https://www.visitcincy.com/listing/cincinnatis-fidelity-hotel/7712/",
+  "coords_source": "nominatim",
+  "verification": [
+   "Visit Cincy weburl https://www.fidelityhotels.com/cincinnati/ -> HTTP/2 200",
+   "Official page fetched: SynXis booking page header: \"210 E 6th Street, Cincinnati, Ohio, United States, 45202\", phone 513-296-2888 (captured by scw-info)"
+  ],
+  "nearest_hub": {
+   "hub": "fountain-square",
+   "straight_line_m": 287
+  },
+  "nearest_streetcar": {
+   "station": "6th & Main",
+   "number": 3,
+   "straight_line_m": 34
+  },
+  "distance_m_to_hubs": {
+   "union-hall": 905,
+   "caw-art-market-hq-1417-main": 1006,
+   "findlay-market": 1577,
+   "fountain-square": 287,
+   "smale-riverfront-park": 815,
+   "covington-riverfront-roebling-point": 1523,
+   "newport-on-the-levee": 1481
+  }
+ },
+ {
+  "id": "courtyard-cincinnati-downtown",
+  "name": "Courtyard by Marriott Downtown",
+  "address": "6 East Fourth Street, Cincinnati, OH 45202",
+  "neighborhood": "Downtown (CBD)",
+  "phone": "(513) 230-4050",
+  "lat": 39.100202,
+  "lng": -84.512529,
+  "url": "https://www.marriott.com/en-us/hotels/cvgct-courtyard-cincinnati-downtown/overview/",
+  "room_block": null,
+  "notes": "Also listed on the Visit Cincy \"Blink 2026\" hotel booking portal linked from BLINK's Plan Your Visit page (as \"Courtyard by Marriott Cincinnati Downtown\"; portal shows no group code or discounted rate).",
+  "source_url": "https://www.visitcincy.com/listing/courtyard-by-marriott-downtown/5370/",
+  "coords_source": "nominatim",
+  "verification": [
+   "marriott.com property code CVGCT resolves to /en-us/hotels/cvgct-courtyard-cincinnati-downtown/overview/ (HTTP/2 200) on 2026-09-24"
+  ],
+  "nearest_hub": {
+   "hub": "fountain-square",
+   "straight_line_m": 179
+  },
+  "nearest_streetcar": {
+   "station": "Fountain Square",
+   "number": 18,
+   "straight_line_m": 134
+  },
+  "distance_m_to_hubs": {
+   "union-hall": 1110,
+   "caw-art-market-hq-1417-main": 1295,
+   "findlay-market": 1776,
+   "fountain-square": 179,
+   "smale-riverfront-park": 568,
+   "covington-riverfront-roebling-point": 1240,
+   "newport-on-the-levee": 1523
+  }
+ },
+ {
+  "id": "hampton-inn-suites-cincinnati-downtown",
+  "name": "Hampton Inn & Suites Cincinnati-Downtown",
+  "address": "617 Vine Street, Suite A, Cincinnati, OH 45202",
+  "neighborhood": "Downtown (CBD)",
+  "phone": "(513) 354-2430",
+  "lat": 39.102941,
+  "lng": -84.513634,
+  "url": "https://www.hilton.com/en/hotels/cvgvihx-hampton-suites-cincinnati-downtown/",
+  "room_block": null,
+  "notes": null,
+  "source_url": "https://www.visitcincy.com/listing/hampton-inn-%26-suites-cincinnati-downtown/5107/",
+  "coords_source": "nominatim",
+  "verification": [
+   "Visit Cincy weburl http://hamptoninn3.hilton.com/en/hotels/ohio/hampton-inn-and-suites-cincinnati-downtown-CVGVIHX/index.html -> HTTP/1.1 301 Moved Permanently / location: https://www.hilton.com/en/hotels/cvgvihx-hampton-suites-cincinnati-downtown/ / HTTP/2 403",
+   "Brand site answers HTTP 403 for automated requests, so the page body could not be read; existence rests on the brand redirect, the Visit Cincy listing and (where noted) the BLINK 2026 booking portal."
+  ],
+  "nearest_hub": {
+   "hub": "fountain-square",
+   "straight_line_m": 146
+  },
+  "nearest_streetcar": {
+   "station": "Aronoff Center",
+   "number": 17,
+   "straight_line_m": 186
+  },
+  "distance_m_to_hubs": {
+   "union-hall": 792,
+   "caw-art-market-hq-1417-main": 994,
+   "findlay-market": 1457,
+   "fountain-square": 146,
+   "smale-riverfront-park": 883,
+   "covington-riverfront-roebling-point": 1559,
+   "newport-on-the-levee": 1743
+  }
+ },
+ {
+  "id": "hilton-cincinnati-netherland-plaza",
+  "name": "Hilton Cincinnati Netherland Plaza",
+  "address": "35 West 5th Street, Cincinnati, OH 45202",
+  "neighborhood": "Downtown (CBD)",
+  "phone": "(513) 421-9100",
+  "lat": 39.100905,
+  "lng": -84.514155,
+  "url": "https://www.hilton.com/en/hotels/cvgnphf-hilton-cincinnati-netherland-plaza/",
+  "room_block": null,
+  "notes": "Also listed on the Visit Cincy \"Blink 2026\" hotel booking portal linked from BLINK's Plan Your Visit page (as \"Hilton Cincinnati Netherland Plaza\"; portal shows no group code or discounted rate).",
+  "source_url": "https://www.visitcincy.com/listing/hilton-cincinnati-netherland-plaza/4791/",
+  "coords_source": "nominatim",
+  "verification": [
+   "Visit Cincy weburl http://www.cincinnatinetherlandplaza.hilton.com -> HTTP/1.1 301 Moved Permanently / location: https://www.hilton.com/en/hotels/cvgnphf-hilton-cincinnati-netherland-plaza/ / HTTP/2 403",
+   "Brand site answers HTTP 403 for automated requests, so the page body could not be read; existence rests on the brand redirect, the Visit Cincy listing and (where noted) the BLINK 2026 booking portal."
+  ],
+  "nearest_hub": {
+   "hub": "fountain-square",
+   "straight_line_m": 152
+  },
+  "nearest_streetcar": {
+   "station": "Fountain Square",
+   "number": 18,
+   "straight_line_m": 247
+  },
+  "distance_m_to_hubs": {
+   "union-hall": 1008,
+   "caw-art-market-hq-1417-main": 1224,
+   "findlay-market": 1661,
+   "fountain-square": 152,
+   "smale-riverfront-park": 710,
+   "covington-riverfront-roebling-point": 1355,
+   "newport-on-the-levee": 1682
+  }
+ },
+ {
+  "id": "homewood-suites-cincinnati-downtown",
+  "name": "Homewood Suites by Hilton Cincinnati-Downtown",
+  "address": "617 Vine Street, Suite B, Cincinnati, OH 45202",
+  "neighborhood": "Downtown (CBD)",
+  "phone": "(513) 354-2440",
+  "lat": 39.102941,
+  "lng": -84.513634,
+  "url": "https://www.hilton.com/en/hotels/cvgvshw-homewood-suites-cincinnati-downtown/",
+  "room_block": null,
+  "notes": "Also listed on the Visit Cincy \"Blink 2026\" hotel booking portal linked from BLINK's Plan Your Visit page (as \"Homewood Suites by Hilton Cincinnati-Downtown\"; portal shows no group code or discounted rate).",
+  "source_url": "https://www.visitcincy.com/listing/homewood-suites-by-hilton-cincinnati-downtown/5106/",
+  "coords_source": "nominatim",
+  "verification": [
+   "Visit Cincy weburl http://homewoodsuites3.hilton.com/en/hotels/ohio/homewood-suites-by-hilton-cincinnati-downtown-CVGVSHW/index.html -> HTTP/1.1 301 Moved Permanently / location: https://www.hilton.com/en/hotels/cvgvshw-homewood-suites-cincinnati-downtown/ / HTTP/2 403",
+   "Brand site answers HTTP 403 for automated requests, so the page body could not be read; existence rests on the brand redirect, the Visit Cincy listing and (where noted) the BLINK 2026 booking portal."
+  ],
+  "nearest_hub": {
+   "hub": "fountain-square",
+   "straight_line_m": 146
+  },
+  "nearest_streetcar": {
+   "station": "Aronoff Center",
+   "number": 17,
+   "straight_line_m": 186
+  },
+  "distance_m_to_hubs": {
+   "union-hall": 792,
+   "caw-art-market-hq-1417-main": 994,
+   "findlay-market": 1457,
+   "fountain-square": 146,
+   "smale-riverfront-park": 883,
+   "covington-riverfront-roebling-point": 1559,
+   "newport-on-the-levee": 1743
+  }
+ },
+ {
+  "id": "hyatt-regency-cincinnati",
+  "name": "Hyatt Regency Cincinnati",
+  "address": "151 West Fifth Street, Cincinnati, OH 45202",
+  "neighborhood": "Downtown (CBD)",
+  "phone": "(513) 354-4070",
+  "lat": 39.10045,
+  "lng": -84.515654,
+  "url": "https://www.hyatt.com/en-US/hotel/ohio/hyatt-regency-cincinnati/cinci",
+  "room_block": null,
+  "notes": "Also listed on the Visit Cincy \"Blink 2026\" hotel booking portal linked from BLINK's Plan Your Visit page (as \"Hyatt Regency Cincinnati\"; portal shows no group code or discounted rate).",
+  "source_url": "https://www.visitcincy.com/listing/hyatt-regency-cincinnati/4790/",
+  "coords_source": "nominatim",
+  "verification": [
+   "Visit Cincy weburl https://cincinnati.regency.hyatt.com/en/hotel/home.html -> HTTP/1.1 301 Moved Permanently / Location: https://www.hyatt.com/en-US/hotel/ohio/hyatt-regency-cincinnati/cinci / HTTP/2 403",
+   "Brand site answers HTTP 403 for automated requests, so the page body could not be read; existence rests on the brand redirect, the Visit Cincy listing and (where noted) the BLINK 2026 booking portal."
+  ],
+  "nearest_hub": {
+   "hub": "fountain-square",
+   "straight_line_m": 287
+  },
+  "nearest_streetcar": {
+   "station": "Fountain Square",
+   "number": 18,
+   "straight_line_m": 380
+  },
+  "distance_m_to_hubs": {
+   "union-hall": 1051,
+   "caw-art-market-hq-1417-main": 1294,
+   "findlay-market": 1683,
+   "fountain-square": 287,
+   "smale-riverfront-park": 757,
+   "covington-riverfront-roebling-point": 1356,
+   "newport-on-the-levee": 1785
+  }
+ },
+ {
+  "id": "kinley-cincinnati-downtown",
+  "name": "Kinley, Cincinnati Downtown, A Tribute Portfolio Hotel",
+  "address": "636 Race Street, Cincinnati, OH 45202",
+  "neighborhood": "Downtown (CBD)",
+  "phone": "(513) 381-1100",
+  "lat": 39.103287,
+  "lng": -84.514959,
+  "url": "https://www.kinleycincinnati.com/",
+  "room_block": {
+   "program": "scw",
+   "group_code": "SUC",
+   "rate": "$209.00 per night (same group rate for every room type in the block)",
+   "dates": "2026-10-04 to 2026-10-09 (Marriott page: \"Rates displayed below are based on availability 10/04/2026 - 10/09/2026\")",
+   "deadline": "2026-09-04",
+   "booking_url": "https://app.marriott.com/reslink?id=1773189076451&key=GRP&app=resvlink",
+   "status_2026_09_24": "Closed/full: Marriott's group page shows \"BOOK BY SEP 04, 2026\", redirected with inventoryMissing=true&blockFull=true, and every availability counter is 0.",
+   "source_url": "https://startupcincyweek.com/"
+  },
+  "notes": "Also listed on the Visit Cincy \"Blink 2026\" hotel booking portal linked from BLINK's Plan Your Visit page (as \"Kinley Cincinnati Downtown, a Tribute Portfolio Hotel\"; portal shows no group code or discounted rate). Official StartupCincy Week room block (\"Plan Your Visit\" -> BOOK NOW). Block details were captured and verified by the scw-info slice (raw/scw-info/hotels). Kinley is also a Cincinnati Art Week community partner; its lobby bar (The Exchange) hosts the Art Week Happy Hour (caw slice). No CAW room block was found.",
+  "source_url": "https://www.visitcincy.com/listing/kinley-cincinnati-downtown-a-tribute-portfolio-hotel/5351/",
+  "coords_source": "nominatim",
+  "verification": [
+   "marriott.com property code CVGTX resolves to /en-us/hotels/cvgtx-kinley-cincinnati-downtown-a-tribute-portfolio-hotel/overview/ (HTTP/2 200) on 2026-09-24",
+   "Official page fetched: kinleycincinnati.com (captured by scw-info): 636 Race Street, (513) 381-1100"
+  ],
+  "nearest_hub": {
+   "hub": "fountain-square",
+   "straight_line_m": 249
+  },
+  "nearest_streetcar": {
+   "station": "Aronoff Center",
+   "number": 17,
+   "straight_line_m": 265
+  },
+  "distance_m_to_hubs": {
+   "union-hall": 737,
+   "caw-art-market-hq-1417-main": 973,
+   "findlay-market": 1387,
+   "fountain-square": 249,
+   "smale-riverfront-park": 970,
+   "covington-riverfront-roebling-point": 1628,
+   "newport-on-the-levee": 1861
+  }
+ },
+ {
+  "id": "moxy-cincinnati-downtown",
+  "name": "Moxy Cincinnati Downtown",
+  "address": "312 Main St., Cincinnati, OH 45202",
+  "neighborhood": "Downtown (CBD)",
+  "phone": null,
+  "lat": 39.099341,
+  "lng": -84.509073,
+  "url": "https://www.marriott.com/en-us/hotels/cvgdx-moxy-cincinnati-downtown/overview/",
+  "room_block": null,
+  "notes": null,
+  "source_url": "https://www.visitcincy.com/listing/moxy-cincinnati-downtown/7361/",
+  "coords_source": "nominatim",
+  "verification": [
+   "marriott.com property code CVGDX resolves to /en-us/hotels/cvgdx-moxy-cincinnati-downtown/overview/ (HTTP/2 200) on 2026-09-24"
+  ],
+  "nearest_hub": {
+   "hub": "smale-riverfront-park",
+   "straight_line_m": 402
+  },
+  "nearest_streetcar": {
+   "station": "The Banks",
+   "number": 1,
+   "straight_line_m": 135
+  },
+  "distance_m_to_hubs": {
+   "union-hall": 1302,
+   "caw-art-market-hq-1417-main": 1424,
+   "findlay-market": 1976,
+   "fountain-square": 422,
+   "smale-riverfront-park": 402,
+   "covington-riverfront-roebling-point": 1108,
+   "newport-on-the-levee": 1211
+  }
+ },
+ {
+  "id": "renaissance-cincinnati-downtown-hotel",
+  "name": "Renaissance Cincinnati Downtown Hotel",
+  "address": "36 E. 4th Street, Cincinnati, OH 45202",
+  "neighborhood": "Downtown (CBD)",
+  "phone": "(513) 333-0000",
+  "lat": 39.100186,
+  "lng": -84.511644,
+  "url": "https://www.marriott.com/en-us/hotels/cvgbr-renaissance-cincinnati-downtown-hotel/overview/",
+  "room_block": null,
+  "notes": "Also listed on the Visit Cincy \"Blink 2026\" hotel booking portal linked from BLINK's Plan Your Visit page (as \"Renaissance Cincinnati Downtown Hotel\"; portal shows no group code or discounted rate).",
+  "source_url": "https://www.visitcincy.com/listing/renaissance-cincinnati-downtown-hotel/5103/",
+  "coords_source": "nominatim",
+  "verification": [
+   "marriott.com property code CVGBR resolves to /en-us/hotels/cvgbr-renaissance-cincinnati-downtown-hotel/overview/ (HTTP/2 200) on 2026-09-24"
+  ],
+  "nearest_hub": {
+   "hub": "fountain-square",
+   "straight_line_m": 205
+  },
+  "nearest_streetcar": {
+   "station": "Fountain Square",
+   "number": 18,
+   "straight_line_m": 88
+  },
+  "distance_m_to_hubs": {
+   "union-hall": 1132,
+   "caw-art-market-hq-1417-main": 1300,
+   "findlay-market": 1803,
+   "fountain-square": 205,
+   "smale-riverfront-park": 534,
+   "covington-riverfront-roebling-point": 1222,
+   "newport-on-the-levee": 1452
+  }
+ },
+ {
+  "id": "the-cincinnatian-hotel",
+  "name": "The Cincinnatian Hotel Curio Collection by Hilton",
+  "address": "601 Vine St., Cincinnati, OH 45202",
+  "neighborhood": "Downtown (CBD)",
+  "phone": "(513) 381-3000",
+  "lat": 39.102619,
+  "lng": -84.513811,
+  "url": "https://www.hilton.com/en/hotels/cvgccqq-the-cincinnatian-hotel/",
+  "room_block": null,
+  "notes": "Also listed on the Visit Cincy \"Blink 2026\" hotel booking portal linked from BLINK's Plan Your Visit page (as \"The Cincinnatian Hotel Curio Collection by Hilton\"; portal shows no group code or discounted rate).",
+  "source_url": "https://www.visitcincy.com/listing/the-cincinnatian-hotel-curio-collection-by-hilton/4811/",
+  "coords_source": "nominatim",
+  "verification": [
+   "Visit Cincy weburl https://www.hilton.com/en/hotels/cvgccqq-the-cincinnatian-hotel/ -> HTTP/2 403",
+   "Brand site answers HTTP 403 for automated requests, so the page body could not be read; existence rests on the brand redirect, the Visit Cincy listing and (where noted) the BLINK 2026 booking portal."
+  ],
+  "nearest_hub": {
+   "hub": "fountain-square",
+   "straight_line_m": 126
+  },
+  "nearest_streetcar": {
+   "station": "Aronoff Center",
+   "number": 17,
+   "straight_line_m": 223
+  },
+  "distance_m_to_hubs": {
+   "union-hall": 824,
+   "caw-art-market-hq-1417-main": 1031,
+   "findlay-market": 1486,
+   "fountain-square": 126,
+   "smale-riverfront-park": 858,
+   "covington-riverfront-roebling-point": 1528,
+   "newport-on-the-levee": 1739
+  }
+ },
+ {
+  "id": "voco-the-clair-cincinnati-downtown",
+  "name": "voco The Clair Cincinnati Downtown",
+  "address": "701 Broadway, Cincinnati, OH 45202",
+  "neighborhood": "Downtown (CBD)",
+  "phone": "(513) 381-5025",
+  "lat": 39.104803,
+  "lng": -84.507323,
+  "url": "https://www.ihg.com/voco/hotels/us/en/cincinnati/cvghs/hoteldetail",
+  "room_block": null,
+  "notes": "Also listed on the Visit Cincy \"Blink 2026\" hotel booking portal linked from BLINK's Plan Your Visit page (as \"voco The Clair Cincinnati Downtown by IHG\"; portal shows no group code or discounted rate).",
+  "source_url": "https://www.visitcincy.com/listing/voco-the-clair-cincinnati-downtown/5172/",
+  "coords_source": "nominatim",
+  "verification": [
+   "Visit Cincy weburl https://www.ihg.com/voco/hotels/us/en/cincinnati/cvghs/hoteldetail -> HTTP/2 403",
+   "Brand site answers HTTP 403 for automated requests, so the page body could not be read; existence rests on the brand redirect, the Visit Cincy listing and (where noted) the BLINK 2026 booking portal."
+  ],
+  "nearest_hub": {
+   "hub": "fountain-square",
+   "straight_line_m": 580
+  },
+  "nearest_streetcar": {
+   "station": "8th & Main",
+   "number": 4,
+   "straight_line_m": 298
+  },
+  "distance_m_to_hubs": {
+   "union-hall": 911,
+   "caw-art-market-hq-1417-main": 907,
+   "findlay-market": 1546,
+   "fountain-square": 580,
+   "smale-riverfront-park": 1023,
+   "covington-riverfront-roebling-point": 1722,
+   "newport-on-the-levee": 1449
+  }
+ },
+ {
+  "id": "the-lytle-park-hotel",
+  "name": "The Lytle Park Hotel, Autograph Collection",
+  "address": "311 Pike Street, Cincinnati, OH 45202",
+  "neighborhood": "Downtown (Lytle Park)",
+  "phone": "(513) 621-4500",
+  "lat": 39.101177,
+  "lng": -84.503183,
+  "url": "https://www.marriott.com/en-us/hotels/cvgak-the-lytle-park-hotel-autograph-collection/overview/",
+  "room_block": null,
+  "notes": "Also listed on the Visit Cincy \"Blink 2026\" hotel booking portal linked from BLINK's Plan Your Visit page (as \"The Lytle Park Hotel, Autograph Collection\"; portal shows no group code or discounted rate).",
+  "source_url": "https://www.visitcincy.com/listing/the-lytle-park-hotel-autograph-collection/5354/",
+  "coords_source": "nominatim",
+  "verification": [
+   "marriott.com property code CVGAK resolves to /en-us/hotels/cvgak-the-lytle-park-hotel-autograph-collection/overview/ (HTTP/2 200) on 2026-09-24"
+  ],
+  "nearest_hub": {
+   "hub": "smale-riverfront-park",
+   "straight_line_m": 805
+  },
+  "nearest_streetcar": {
+   "station": "4th & Main",
+   "number": 2,
+   "straight_line_m": 546
+  },
+  "distance_m_to_hubs": {
+   "union-hall": 1444,
+   "caw-art-market-hq-1417-main": 1439,
+   "findlay-market": 2085,
+   "fountain-square": 834,
+   "smale-riverfront-park": 805,
+   "covington-riverfront-roebling-point": 1407,
+   "newport-on-the-levee": 910
+  }
+ },
+ {
+  "id": "residence-inn-cincinnati-downtown-the-phelps",
+  "name": "The Phelps, Residence Inn Cincinnati Downtown",
+  "address": "506 E. 4th St., Cincinnati, OH 45202",
+  "neighborhood": "Downtown (Lytle Park)",
+  "phone": "(513) 651-1234",
+  "lat": 39.101675,
+  "lng": -84.504518,
+  "url": "https://www.marriott.com/en-us/hotels/cvgcd-residence-inn-cincinnati-downtown-the-phelps/overview/",
+  "room_block": null,
+  "notes": "Also listed on the Visit Cincy \"Blink 2026\" hotel booking portal linked from BLINK's Plan Your Visit page (as \"Residence Inn by Marriott Cincinnati Downtown/The Phelps\"; portal shows no group code or discounted rate).",
+  "source_url": "https://www.visitcincy.com/listing/the-phelps-residence-inn-cincinnati-downtown/5037/",
+  "coords_source": "nominatim",
+  "verification": [
+   "marriott.com property code CVGCD resolves to /en-us/hotels/cvgcd-residence-inn-cincinnati-downtown-the-phelps/overview/ (HTTP/2 200) on 2026-09-24"
+  ],
+  "nearest_hub": {
+   "hub": "fountain-square",
+   "straight_line_m": 716
+  },
+  "nearest_streetcar": {
+   "station": "4th & Main",
+   "number": 2,
+   "straight_line_m": 440
+  },
+  "distance_m_to_hubs": {
+   "union-hall": 1322,
+   "caw-art-market-hq-1417-main": 1330,
+   "findlay-market": 1968,
+   "fountain-square": 716,
+   "smale-riverfront-park": 780,
+   "covington-riverfront-roebling-point": 1423,
+   "newport-on-the-levee": 1029
+  }
+ },
+ {
+  "id": "towneplace-suites-cincinnati-downtown",
+  "name": "TownePlace Suites Cincinnati Downtown",
+  "address": "106 West Seventh Street, Cincinnati, OH 45202",
+  "neighborhood": "Downtown (CBD)",
+  "phone": "(513) 442-0919",
+  "lat": 39.10361,
+  "lng": -84.515692,
+  "url": "https://www.marriott.com/en-us/hotels/cvgtw-towneplace-suites-cincinnati-downtown/overview/",
+  "room_block": null,
+  "notes": "Also listed on the Visit Cincy \"Blink 2026\" hotel booking portal linked from BLINK's Plan Your Visit page (as \"TownePlace Suites by Marriott Cincinnati Downtown\"; portal shows no group code or discounted rate). Nominatim matched a different place (2144 m away); used the Visit Cincy listing coordinates.",
+  "source_url": "https://www.visitcincy.com/listing/towneplace-suites-cincinnati-downtown/5371/",
+  "coords_source": "visitcincy",
+  "verification": [
+   "marriott.com property code CVGTW resolves to /en-us/hotels/cvgtw-towneplace-suites-cincinnati-downtown/overview/ (HTTP/2 200) on 2026-09-24"
+  ],
+  "nearest_hub": {
+   "hub": "fountain-square",
+   "straight_line_m": 320
+  },
+  "nearest_streetcar": {
+   "station": "Aronoff Center",
+   "number": 17,
+   "straight_line_m": 318
+  },
+  "distance_m_to_hubs": {
+   "union-hall": 699,
+   "caw-art-market-hq-1417-main": 954,
+   "findlay-market": 1338,
+   "fountain-square": 320,
+   "smale-riverfront-park": 1033,
+   "covington-riverfront-roebling-point": 1683,
+   "newport-on-the-levee": 1934
+  }
+ },
+ {
+  "id": "the-westin-cincinnati",
+  "name": "The Westin Cincinnati",
+  "address": "21 E. Fifth Street, Cincinnati, OH 45202",
+  "neighborhood": "Downtown (CBD)",
+  "phone": "(513) 621-7700",
+  "lat": 39.100884,
+  "lng": -84.512742,
+  "url": "https://www.marriott.com/en-us/hotels/cvgwi-the-westin-cincinnati/overview/",
+  "room_block": null,
+  "notes": "Also listed on the Visit Cincy \"Blink 2026\" hotel booking portal linked from BLINK's Plan Your Visit page (as \"The Westin Cincinnati\"; portal shows no group code or discounted rate).",
+  "source_url": "https://www.visitcincy.com/listing/the-westin-cincinnati/4794/",
+  "coords_source": "nominatim",
+  "verification": [
+   "marriott.com property code CVGWI resolves to /en-us/hotels/cvgwi-the-westin-cincinnati/overview/ (HTTP/2 200) on 2026-09-24"
+  ],
+  "nearest_hub": {
+   "hub": "fountain-square",
+   "straight_line_m": 101
+  },
+  "nearest_streetcar": {
+   "station": "Fountain Square",
+   "number": 18,
+   "straight_line_m": 125
+  },
+  "distance_m_to_hubs": {
+   "union-hall": 1032,
+   "caw-art-market-hq-1417-main": 1219,
+   "findlay-market": 1698,
+   "fountain-square": 101,
+   "smale-riverfront-park": 644,
+   "covington-riverfront-roebling-point": 1318,
+   "newport-on-the-levee": 1570
+  }
+ },
+ {
+  "id": "courtyard-cincinnati-covington",
+  "name": "Courtyard Cincinnati Covington",
+  "address": "500 W. 3rd St., Covington, KY 41011",
+  "neighborhood": "Covington, KY",
+  "phone": null,
+  "lat": 39.088131,
+  "lng": -84.519589,
+  "url": "https://www.marriott.com/en-us/hotels/cvgcy-courtyard-cincinnati-covington/overview/",
+  "room_block": null,
+  "notes": "Also listed on the Visit Cincy \"Blink 2026\" hotel booking portal linked from BLINK's Plan Your Visit page (as \"Courtyard by Marriott Cincinnati-Covington\"; portal shows no group code or discounted rate). Visit Cincy lists the phone as (847) 232-5330 (a non-local area code, so it is left out of the phone field).",
+  "source_url": "https://www.visitcincy.com/listing/courtyard-cincinnati-covington/5427/",
+  "coords_source": "nominatim",
+  "verification": [
+   "marriott.com property code CVGCY resolves to /en-us/hotels/cvgcy-courtyard-cincinnati-covington/overview/ (HTTP/2 200) on 2026-09-24"
+  ],
+  "nearest_hub": {
+   "hub": "covington-riverfront-roebling-point",
+   "straight_line_m": 918
+  },
+  "nearest_streetcar": null,
+  "distance_m_to_hubs": {
+   "union-hall": 2445,
+   "caw-art-market-hq-1417-main": 2705,
+   "findlay-market": 3029,
+   "fountain-square": 1628,
+   "smale-riverfront-park": 1224,
+   "covington-riverfront-roebling-point": 918,
+   "newport-on-the-levee": 2164
+  }
+ },
+ {
+  "id": "embassy-suites-cincinnati-rivercenter",
+  "name": "Embassy Suites Cincinnati RiverCenter",
+  "address": "10 East RiverCenter Blvd., Covington, KY 41011",
+  "neighborhood": "Covington, KY",
+  "phone": "(859) 261-8400",
+  "lat": 39.090165,
+  "lng": -84.511227,
+  "url": "https://www.hilton.com/en/hotels/cvgcves-embassy-suites-cincinnati-rivercenter/",
+  "room_block": null,
+  "notes": "Also listed on the Visit Cincy \"Blink 2026\" hotel booking portal linked from BLINK's Plan Your Visit page (as \"Embassy Suites by Hilton Cincinnati RiverCenter\"; portal shows no group code or discounted rate).",
+  "source_url": "https://www.visitcincy.com/listing/embassy-suites-cincinnati-rivercenter/5380/",
+  "coords_source": "nominatim",
+  "verification": [
+   "Visit Cincy weburl http://embassysuites3.hilton.com/en/hotels/kentucky/embassy-suites-by-hilton-cincinnati-rivercenter-CVGCVES/index.html -> HTTP/1.1 301 Moved Permanently / location: https://www.hilton.com/en/hotels/cvgcves-embassy-suites-cincinnati-rivercenter/ / HTTP/2 403",
+   "Brand site answers HTTP 403 for automated requests, so the page body could not be read; existence rests on the brand redirect, the Visit Cincy listing and (where noted) the BLINK 2026 booking portal."
+  ],
+  "nearest_hub": {
+   "hub": "covington-riverfront-roebling-point",
+   "straight_line_m": 206
+  },
+  "nearest_streetcar": null,
+  "distance_m_to_hubs": {
+   "union-hall": 2226,
+   "caw-art-market-hq-1417-main": 2414,
+   "findlay-market": 2881,
+   "fountain-square": 1300,
+   "smale-riverfront-park": 640,
+   "covington-riverfront-roebling-point": 206,
+   "newport-on-the-levee": 1410
+  }
+ },
+ {
+  "id": "cincinnati-marriott-at-rivercenter",
+  "name": "Cincinnati Marriott at RiverCenter",
+  "address": "10 West RiverCenter Blvd., Covington, KY 41011",
+  "neighborhood": "Covington, KY",
+  "phone": "(859) 261-2900",
+  "lat": 39.089786,
+  "lng": -84.512055,
+  "url": "https://www.marriott.com/en-us/hotels/cvgdr-cincinnati-marriott-at-rivercenter/overview/",
+  "room_block": null,
+  "notes": "Also listed on the Visit Cincy \"Blink 2026\" hotel booking portal linked from BLINK's Plan Your Visit page (as \"Cincinnati Marriott at RiverCenter\"; portal shows no group code or discounted rate).",
+  "source_url": "https://www.visitcincy.com/listing/cincinnati-marriott-at-rivercenter/5417/",
+  "coords_source": "nominatim",
+  "verification": [
+   "marriott.com property code CVGDR resolves to /en-us/hotels/cvgdr-cincinnati-marriott-at-rivercenter/overview/ (HTTP/2 200) on 2026-09-24"
+  ],
+  "nearest_hub": {
+   "hub": "covington-riverfront-roebling-point",
+   "straight_line_m": 261
+  },
+  "nearest_streetcar": null,
+  "distance_m_to_hubs": {
+   "union-hall": 2257,
+   "caw-art-market-hq-1417-main": 2454,
+   "findlay-market": 2907,
+   "fountain-square": 1337,
+   "smale-riverfront-park": 702,
+   "covington-riverfront-roebling-point": 261,
+   "newport-on-the-levee": 1492
+  }
+ },
+ {
+  "id": "hotel-covington",
+  "name": "Hotel Covington",
+  "address": "638 Madison Ave., Covington, KY 41011",
+  "neighborhood": "Covington, KY",
+  "phone": "(859) 905-6600",
+  "lat": 39.083713,
+  "lng": -84.509713,
+  "url": "https://hotelcovington.com/",
+  "room_block": null,
+  "notes": "Also listed on the Visit Cincy \"Blink 2026\" hotel booking portal linked from BLINK's Plan Your Visit page (as \"Hotel Covington Cincinnati Riverfront\"; portal shows no group code or discounted rate). Nominatim and Visit Cincy coordinates differ by 3419 m; checked by hand and kept Nominatim.",
+  "source_url": "https://www.visitcincy.com/listing/hotel-covington/5771/",
+  "coords_source": "nominatim",
+  "verification": [
+   "Visit Cincy weburl http://www.hotelcovington.com/ -> HTTP/1.1 301 Moved Permanently / location: https://hotelcovington.com/ / HTTP/2 200",
+   "Official page fetched: \"638 Madison Ave. Covington, KY 41011\", (859) 905-6600 (hotelcovington.com)"
+  ],
+  "nearest_hub": {
+   "hub": "covington-riverfront-roebling-point",
+   "straight_line_m": 632
+  },
+  "nearest_streetcar": null,
+  "distance_m_to_hubs": {
+   "union-hall": 2955,
+   "caw-art-market-hq-1417-main": 3139,
+   "findlay-market": 3609,
+   "fountain-square": 2028,
+   "smale-riverfront-park": 1337,
+   "covington-riverfront-roebling-point": 632,
+   "newport-on-the-levee": 1721
+  }
+ },
+ {
+  "id": "north-by-hotel-covington",
+  "name": "North by Hotel Covington",
+  "address": "638 Madison Ave, Covington, KY 41011",
+  "neighborhood": "Covington, KY",
+  "phone": "(859) 905-6600",
+  "lat": 39.083713,
+  "lng": -84.509713,
+  "url": "https://hotelcovington.com/hotel-north/",
+  "room_block": null,
+  "notes": "Visit Cincy category: Luxury & Boutique.",
+  "source_url": "https://www.visitcincy.com/listing/north-by-hotel-covington/6378/",
+  "coords_source": "nominatim",
+  "verification": [
+   "Visit Cincy weburl https://hotelcovington.com/hotel-north/ -> HTTP/2 200",
+   "Official page fetched: \"638 Madison Ave. Covington, KY 41011\"; \"Our 53 apartment-style rooms\" (hotelcovington.com/hotel-north/)"
+  ],
+  "nearest_hub": {
+   "hub": "covington-riverfront-roebling-point",
+   "straight_line_m": 632
+  },
+  "nearest_streetcar": null,
+  "distance_m_to_hubs": {
+   "union-hall": 2955,
+   "caw-art-market-hq-1417-main": 3139,
+   "findlay-market": 3609,
+   "fountain-square": 2028,
+   "smale-riverfront-park": 1337,
+   "covington-riverfront-roebling-point": 632,
+   "newport-on-the-levee": 1721
+  }
+ },
+ {
+  "id": "the-pickle-factory",
+  "name": "The Pickle Factory",
+  "address": "13 Tobacco Alley, Covington, KY 41011",
+  "neighborhood": "Covington, KY",
+  "phone": "(859) 350-6328",
+  "lat": 39.08648,
+  "lng": -84.510229,
+  "url": "https://picklefactoryhotel.com/",
+  "room_block": null,
+  "notes": "Visit Cincy category: Vacaton Rentals. Phone is the one on the Visit Cincy listing (the same number Visit Cincy gives for The Neat Suites rentals); the official site shows no phone.",
+  "source_url": "https://www.visitcincy.com/listing/the-pickle-factory/5978/",
+  "coords_source": "nominatim",
+  "verification": [
+   "Visit Cincy weburl https://www.picklefactoryhotel.com/ -> HTTP/2 301 / location: https://picklefactoryhotel.com/ / HTTP/2 200",
+   "Official page fetched: \"13 Tobacco Alley, Corner of Tobacco & Electric Alley, Covington, KY 41011\" (picklefactoryhotel.com)"
+  ],
+  "nearest_hub": {
+   "hub": "covington-riverfront-roebling-point",
+   "straight_line_m": 337
+  },
+  "nearest_streetcar": null,
+  "distance_m_to_hubs": {
+   "union-hall": 2645,
+   "caw-art-market-hq-1417-main": 2828,
+   "findlay-market": 3300,
+   "fountain-square": 1717,
+   "smale-riverfront-park": 1032,
+   "covington-riverfront-roebling-point": 337,
+   "newport-on-the-levee": 1544
+  }
+ },
+ {
+  "id": "holiday-inn-express-suites-cincinnati-riverfront",
+  "name": "Holiday Inn Express & Suites Cincinnati Riverfront",
+  "address": "200 Crescent Ave., Covington, KY 41011",
+  "neighborhood": "Covington, KY",
+  "phone": "(859) 581-7800",
+  "lat": 39.088289,
+  "lng": -84.524512,
+  "url": "https://www.hiexpress.com/cincinnatirfky",
+  "room_block": null,
+  "notes": "Also listed on the Visit Cincy \"Blink 2026\" hotel booking portal linked from BLINK's Plan Your Visit page (as \"Holiday Inn Express & Suites Cincinnati Riverfront by IHG\"; portal shows no group code or discounted rate).",
+  "source_url": "https://www.visitcincy.com/listing/holiday-inn-express-%26-suites-cincinnati-riverfront/5375/",
+  "coords_source": "nominatim",
+  "verification": [
+   "Visit Cincy weburl https://www.hiexpress.com/cincinnatirfky -> HTTP/2 403",
+   "Brand site answers HTTP 403 for automated requests, so the page body could not be read; existence rests on the brand redirect, the Visit Cincy listing and (where noted) the BLINK 2026 booking portal."
+  ],
+  "nearest_hub": {
+   "hub": "covington-riverfront-roebling-point",
+   "straight_line_m": 1338
+  },
+  "nearest_streetcar": null,
+  "distance_m_to_hubs": {
+   "union-hall": 2523,
+   "caw-art-market-hq-1417-main": 2814,
+   "findlay-market": 3048,
+   "fountain-square": 1810,
+   "smale-riverfront-park": 1550,
+   "covington-riverfront-roebling-point": 1338,
+   "newport-on-the-levee": 2560
+  }
+ },
+ {
+  "id": "holiday-inn-cincinnati-riverfront",
+  "name": "Holiday Inn Riverfront",
+  "address": "600 West 3rd St., Covington, KY 41011",
+  "neighborhood": "Covington, KY",
+  "phone": "(859) 291-4300",
+  "lat": 39.088174,
+  "lng": -84.520655,
+  "url": "http://www.holiday-inn.com/cvg-riverfront",
+  "room_block": null,
+  "notes": "Also listed on the Visit Cincy \"Blink 2026\" hotel booking portal linked from BLINK's Plan Your Visit page (as \"Holiday Inn Cincinnati-Riverfront by IHG\"; portal shows no group code or discounted rate).",
+  "source_url": "https://www.visitcincy.com/listing/holiday-inn-riverfront/5400/",
+  "coords_source": "nominatim",
+  "verification": [
+   "Visit Cincy weburl http://www.holiday-inn.com/cvg-riverfront -> HTTP/1.1 403 Forbidden",
+   "Brand site answers HTTP 403 for automated requests, so the page body could not be read; existence rests on the brand redirect, the Visit Cincy listing and (where noted) the BLINK 2026 booking portal."
+  ],
+  "nearest_hub": {
+   "hub": "covington-riverfront-roebling-point",
+   "straight_line_m": 1009
+  },
+  "nearest_streetcar": null,
+  "distance_m_to_hubs": {
+   "union-hall": 2455,
+   "caw-art-market-hq-1417-main": 2722,
+   "findlay-market": 3027,
+   "fountain-square": 1659,
+   "smale-riverfront-park": 1289,
+   "covington-riverfront-roebling-point": 1009,
+   "newport-on-the-levee": 2248
+  }
+ },
+ {
+  "id": "radisson-hotel-cincinnati-riverfront",
+  "name": "Radisson Cincinnati Riverfront",
+  "address": "668 W. Fifth St., Covington, KY 41011",
+  "neighborhood": "Covington, KY",
+  "phone": "(859) 491-1200",
+  "lat": 39.085687,
+  "lng": -84.521671,
+  "url": "https://www.choicehotels.com/kentucky/covington/radisson-hotels/ky029",
+  "room_block": null,
+  "notes": "Also listed on the Visit Cincy \"Blink 2026\" hotel booking portal linked from BLINK's Plan Your Visit page (as \"Radisson Hotel Cincinnati Riverfront\"; portal shows no group code or discounted rate).",
+  "source_url": "https://www.visitcincy.com/listing/radisson-cincinnati-riverfront/5408/",
+  "coords_source": "nominatim",
+  "verification": [
+   "Visit Cincy weburl http://www.radisson.com/covington-hotel-ky-41011/kycoving -> HTTP/1.1 301 Moved Permanently / location: https://www.radissonhotelsamericas.com/en-us/hotels/radisson-covington / HTTP/1.1 301 Moved Permanently / Location: https://www.choicehotels.com/kentucky/covington/radisson-hotels/ky029?refd=radissonhotelsamericas.com (curl: (92) HTTP/2 stream 1 was not closed cleanly: INTERNAL_ERROR (err 2))",
+   "Brand site drops the connection (HTTP/2 stream error) for automated requests, so the page body could not be read; existence rests on the brand redirect, the Visit Cincy listing and (where noted) the BLINK 2026 booking portal."
+  ],
+  "nearest_hub": {
+   "hub": "covington-riverfront-roebling-point",
+   "straight_line_m": 1162
+  },
+  "nearest_streetcar": null,
+  "distance_m_to_hubs": {
+   "union-hall": 2743,
+   "caw-art-market-hq-1417-main": 3012,
+   "findlay-market": 3308,
+   "fountain-square": 1947,
+   "smale-riverfront-park": 1543,
+   "covington-riverfront-roebling-point": 1162,
+   "newport-on-the-levee": 2436
+  }
+ },
+ {
+  "id": "extended-stay-america-covington",
+  "name": "Extended Stay America Covington",
+  "address": "650 West 3rd St, Covington, KY 41011",
+  "neighborhood": "Covington, KY",
+  "phone": "(859) 581-3000",
+  "lat": 39.088088,
+  "lng": -84.521872,
+  "url": "https://www.extendedstayamerica.com/hotels/cincinnati-covington.html",
+  "room_block": null,
+  "notes": "Nominatim and Visit Cincy coordinates differ by 294 m; checked by hand and kept Nominatim.",
+  "source_url": "https://www.visitcincy.com/listing/extended-stay-america-covington/5415/",
+  "coords_source": "nominatim",
+  "verification": [
+   "Visit Cincy weburl http://www.extendedstayamerica.com/hotels/cincinnati-covington.html -> HTTP/1.1 301 Moved Permanently / location: https://www.extendedstayamerica.com/hotels/cincinnati-covington.html / HTTP/2 403",
+   "Brand site answers HTTP 403 for automated requests, so the page body could not be read; existence rests on the brand redirect, the Visit Cincy listing and (where noted) the BLINK 2026 booking portal."
+  ],
+  "nearest_hub": {
+   "hub": "covington-riverfront-roebling-point",
+   "straight_line_m": 1114
+  },
+  "nearest_streetcar": null,
+  "distance_m_to_hubs": {
+   "union-hall": 2485,
+   "caw-art-market-hq-1417-main": 2760,
+   "findlay-market": 3043,
+   "fountain-square": 1713,
+   "smale-riverfront-park": 1376,
+   "covington-riverfront-roebling-point": 1114,
+   "newport-on-the-levee": 2350
+  }
+ },
+ {
+  "id": "life-on-the-globe",
+  "name": "Life on the Globe",
+  "address": "12 E. 5th Street, Covington, KY 41011",
+  "neighborhood": "Covington, KY",
+  "phone": "(859) 350-6328",
+  "lat": 39.085951,
+  "lng": -84.510534,
+  "url": "https://theneatsuites.guestybookings.com/en",
+  "room_block": null,
+  "notes": "Visit Cincy category: Vacaton Rentals. Short-term rental unit listed by Visit Cincy (booking via The Neat Suites / Guesty); not a hotel.",
+  "source_url": "https://www.visitcincy.com/listing/life-on-the-globe/5981/",
+  "coords_source": "nominatim",
+  "verification": [
+   "Visit Cincy weburl https://theneatsuites.guestybookings.com -> HTTP/2 301 / location: /en / HTTP/2 200"
+  ],
+  "nearest_hub": {
+   "hub": "covington-riverfront-roebling-point",
+   "straight_line_m": 401
+  },
+  "nearest_streetcar": null,
+  "distance_m_to_hubs": {
+   "union-hall": 2698,
+   "caw-art-market-hq-1417-main": 2885,
+   "findlay-market": 3351,
+   "fountain-square": 1773,
+   "smale-riverfront-park": 1093,
+   "covington-riverfront-roebling-point": 401,
+   "newport-on-the-levee": 1602
+  }
+ },
+ {
+  "id": "luxury-artists-condo",
+  "name": "Luxury Artist's Condo",
+  "address": "500 Garrard Street, Covington, KY 41011",
+  "neighborhood": "Covington, KY",
+  "phone": "(859) 350-6328",
+  "lat": 39.086475,
+  "lng": -84.505787,
+  "url": "https://theneatsuites.guestybookings.com/en",
+  "room_block": null,
+  "notes": "Visit Cincy category: Vacaton Rentals. Short-term rental unit listed by Visit Cincy (booking via The Neat Suites / Guesty); not a hotel.",
+  "source_url": "https://www.visitcincy.com/listing/luxury-artists-condo/5980/",
+  "coords_source": "nominatim",
+  "verification": [
+   "Visit Cincy weburl https://theneatsuites.guestybookings.com -> HTTP/2 301 / location: /en / HTTP/2 200"
+  ],
+  "nearest_hub": {
+   "hub": "covington-riverfront-roebling-point",
+   "straight_line_m": 429
+  },
+  "nearest_streetcar": null,
+  "distance_m_to_hubs": {
+   "union-hall": 2738,
+   "caw-art-market-hq-1417-main": 2882,
+   "findlay-market": 3408,
+   "fountain-square": 1808,
+   "smale-riverfront-park": 1074,
+   "covington-riverfront-roebling-point": 429,
+   "newport-on-the-levee": 1266
+  }
+ },
+ {
+  "id": "translucency-bnb-and-gallery",
+  "name": "Translucency BnB & Gallery",
+  "address": "220 E. 4th Street, Covington, KY 41011",
+  "neighborhood": "Covington, KY",
+  "phone": "(859) 350-6328",
+  "lat": 39.087922,
+  "lng": -84.506769,
+  "url": "https://theneatsuites.guestybookings.com/en",
+  "room_block": null,
+  "notes": "Visit Cincy category: Vacaton Rentals. Short-term rental unit listed by Visit Cincy (booking via The Neat Suites / Guesty); not a hotel.",
+  "source_url": "https://www.visitcincy.com/listing/translucency-bnb-%26-gallery/5979/",
+  "coords_source": "nominatim",
+  "verification": [
+   "Visit Cincy weburl https://theneatsuites.guestybookings.com -> HTTP/2 301 / location: /en / HTTP/2 200"
+  ],
+  "nearest_hub": {
+   "hub": "covington-riverfront-roebling-point",
+   "straight_line_m": 256
+  },
+  "nearest_streetcar": null,
+  "distance_m_to_hubs": {
+   "union-hall": 2559,
+   "caw-art-market-hq-1417-main": 2708,
+   "findlay-market": 3228,
+   "fountain-square": 1628,
+   "smale-riverfront-park": 896,
+   "covington-riverfront-roebling-point": 256,
+   "newport-on-the-levee": 1212
+  }
+ },
+ {
+  "id": "aloft-newport-on-the-levee",
+  "name": "Aloft Newport on the Levee",
+  "address": "201 E. 3rd St., Newport, KY 41071",
+  "neighborhood": "Newport, KY",
+  "phone": "(859) 916-5306",
+  "lat": 39.095647,
+  "lng": -84.494055,
+  "url": "https://www.marriott.com/en-us/hotels/cvgpl-aloft-newport-on-the-levee/overview/",
+  "room_block": null,
+  "notes": "Also listed on the Visit Cincy \"Blink 2026\" hotel booking portal linked from BLINK's Plan Your Visit page (as \"Aloft Newport On The Levee\"; portal shows no group code or discounted rate).",
+  "source_url": "https://www.visitcincy.com/listing/aloft-newport-on-the-levee/5789/",
+  "coords_source": "nominatim",
+  "verification": [
+   "marriott.com property code CVGPL resolves to /en-us/hotels/cvgpl-aloft-newport-on-the-levee/overview/ (HTTP/2 200) on 2026-09-24"
+  ],
+  "nearest_hub": {
+   "hub": "newport-on-the-levee",
+   "straight_line_m": 193
+  },
+  "nearest_streetcar": null,
+  "distance_m_to_hubs": {
+   "union-hall": 2442,
+   "caw-art-market-hq-1417-main": 2411,
+   "findlay-market": 3071,
+   "fountain-square": 1757,
+   "smale-riverfront-park": 1319,
+   "covington-riverfront-roebling-point": 1472,
+   "newport-on-the-levee": 193
+  }
+ },
+ {
+  "id": "fairfield-inn-suites-newport-cincinnati",
+  "name": "Fairfield Inn & Suites by Marriott Newport",
+  "address": "420 Riverboat Row, Newport, KY 41071",
+  "neighborhood": "Newport, KY",
+  "phone": "(859) 291-0015",
+  "lat": 39.101552,
+  "lng": -84.489561,
+  "url": "https://www.marriott.com/en-us/hotels/cvgnp-fairfield-inn-and-suites-newport-cincinnati/overview/",
+  "room_block": null,
+  "notes": "Also listed on the Visit Cincy \"Blink 2026\" hotel booking portal linked from BLINK's Plan Your Visit page (as \"Fairfield by Marriott Inn & Suites Newport Cincinnati\"; portal shows no group code or discounted rate).",
+  "source_url": "https://www.visitcincy.com/listing/fairfield-inn-%26-suites-by-marriott-newport/5386/",
+  "coords_source": "nominatim",
+  "verification": [
+   "marriott.com property code CVGNP resolves to /en-us/hotels/cvgnp-fairfield-inn-and-suites-newport-cincinnati/overview/ (HTTP/2 200) on 2026-09-24"
+  ],
+  "nearest_hub": {
+   "hub": "newport-on-the-levee",
+   "straight_line_m": 919
+  },
+  "nearest_streetcar": null,
+  "distance_m_to_hubs": {
+   "union-hall": 2430,
+   "caw-art-market-hq-1417-main": 2296,
+   "findlay-market": 2967,
+   "fountain-square": 2006,
+   "smale-riverfront-park": 1825,
+   "covington-riverfront-roebling-point": 2161,
+   "newport-on-the-levee": 919
+  }
+ },
+ {
+  "id": "hampton-inn-suites-newport-cincinnati",
+  "name": "Hampton Inn & Suites Newport",
+  "address": "275 Columbia Street, Newport, KY 41071",
+  "neighborhood": "Newport, KY",
+  "phone": "(859) 415-0678",
+  "lat": 39.092863,
+  "lng": -84.498118,
+  "url": "https://www.hilton.com/en/hotels/cvgpohx-hampton-suites-newport-cincinnati/",
+  "room_block": null,
+  "notes": "Also listed on the Visit Cincy \"Blink 2026\" hotel booking portal linked from BLINK's Plan Your Visit page (as \"Hampton Inn & Suites Newport/Cincinnati\"; portal shows no group code or discounted rate).",
+  "source_url": "https://www.visitcincy.com/listing/hampton-inn-%26-suites-newport/5407/",
+  "coords_source": "nominatim",
+  "verification": [
+   "Visit Cincy weburl http://www.newportcincinnati.hamptonbyhilton.com/ -> HTTP/1.1 301 Moved Permanently / location: https://www.hilton.com/en/hotels/cvgpohx-hampton-suites-newport-cincinnati/ / HTTP/2 403",
+   "Brand site answers HTTP 403 for automated requests, so the page body could not be read; existence rests on the brand redirect, the Visit Cincy listing and (where noted) the BLINK 2026 booking portal."
+  ],
+  "nearest_hub": {
+   "hub": "newport-on-the-levee",
+   "straight_line_m": 298
+  },
+  "nearest_streetcar": null,
+  "distance_m_to_hubs": {
+   "union-hall": 2421,
+   "caw-art-market-hq-1417-main": 2454,
+   "findlay-market": 3082,
+   "fountain-square": 1611,
+   "smale-riverfront-park": 1019,
+   "covington-riverfront-roebling-point": 1022,
+   "newport-on-the-levee": 298
+  }
+ },
+ {
+  "id": "the-symphony-hotel",
+  "name": "The Symphony Hotel",
+  "address": "210 W 14th Street, Cincinnati, OH 45202",
+  "neighborhood": "Over-the-Rhine",
+  "phone": "(513) 721-3353",
+  "lat": 39.110203,
+  "lng": -84.51921,
+  "url": "https://www.symphonyhotel.com/",
+  "room_block": null,
+  "notes": "Official site: \"Nine guest rooms named for great composers, an intimate cocktail bar, and Cincinnati Music Hall right across the street.\" Bar hours on the site: Wed–Thu 4 pm–11 pm, Friday 4 pm–Midnight, Saturday 3 pm–Midnight, Sunday 3 pm–11 pm. Also listed on the Visit Cincy \"Blink 2026\" hotel booking portal (as \"Symphony Hotel & Restaurant\"). The official site says \"Est. 1871\"; the Visit Cincy listing describes \"An 1873 Boutique Hotel & Restaurant\" (year discrepancy between sources).",
+  "source_url": "https://www.symphonyhotel.com/",
+  "coords_source": "nominatim",
+  "verification": [
+   "Official page fetched (HTTP 200): \"210 W 14th Street\", \"Cincinnati, OH 45202\", (513) 721-3353",
+   "Visit Cincy lists it as \"Symphony Hotel & Restaurant\" (listing 4898, category Bed & Breakfasts, region Downtown, 210 West 14th St.)"
+  ],
+  "sources": [
+   "https://www.symphonyhotel.com/",
+   "https://www.visitcincy.com/listing/symphony-hotel-%26-restaurant/4898/"
+  ],
+  "nearest_hub": {
+   "hub": "union-hall",
+   "straight_line_m": 314
+  },
+  "nearest_streetcar": {
+   "station": "14th & Elm",
+   "number": 8,
+   "straight_line_m": 70
+  },
+  "distance_m_to_hubs": {
+   "union-hall": 314,
+   "caw-art-market-hq-1417-main": 597,
+   "findlay-market": 574,
+   "fountain-square": 1086,
+   "smale-riverfront-park": 1821,
+   "covington-riverfront-roebling-point": 2476,
+   "newport-on-the-levee": 2605
+  }
+ },
+ {
+  "id": "rest-short-term-rentals",
+  "name": "REST",
+  "address": "333 e 8th st., Cincinnati, OH 45202",
+  "neighborhood": "Downtown (CBD)",
+  "phone": "(513) 264-4241",
+  "lat": 39.105057,
+  "lng": -84.507477,
+  "url": "https://www.iresteasy.com/",
+  "room_block": null,
+  "notes": "Visit Cincy category: Luxury & Boutique. Visit Cincy description: \"Launched in 2022 and headquartered in Cincinnati, REST is a fully-curated experiential short-term rental provider rooted in high-quality amenities, seamless booking, and world-class customer service.\" Short-term rental operator, not a hotel; the listing does not say which units are at the listed address.",
+  "source_url": "https://www.visitcincy.com/listing/rest/6557/",
+  "coords_source": "nominatim",
+  "verification": [
+   "Visit Cincy listing 6557 fetched (HTTP 200) on 2026-09-24.",
+   "Official site https://www.iresteasy.com/ could not be read from this environment (TLS verification failure with curl; HTTP 503 via a fetch service), so nothing beyond the Visit Cincy listing is recorded."
+  ],
+  "nearest_hub": {
+   "hub": "fountain-square",
+   "straight_line_m": 586
+  },
+  "nearest_streetcar": {
+   "station": "8th & Main",
+   "number": 4,
+   "straight_line_m": 280
+  },
+  "distance_m_to_hubs": {
+   "union-hall": 883,
+   "caw-art-market-hq-1417-main": 876,
+   "findlay-market": 1516,
+   "fountain-square": 586,
+   "smale-riverfront-park": 1049,
+   "covington-riverfront-roebling-point": 1749,
+   "newport-on-the-levee": 1479
+  }
+ }
+]

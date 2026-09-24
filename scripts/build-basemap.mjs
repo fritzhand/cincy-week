@@ -33,6 +33,7 @@ import fs from "node:fs";
 import path from "node:path";
 import zlib from "node:zlib";
 import { fileURLToPath } from "node:url";
+import { spawnSync } from "node:child_process";
 import { project, METERS_PER_DEG_LAT } from "../site/js/lib/geo.js";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -63,13 +64,24 @@ const QUERIES = {
   water: `[out:json][timeout:120];(way["natural"="water"]["water"="river"](${BB});relation["natural"="water"]["water"="river"](${BB}););out geom;`,
   stops: `[out:json][timeout:60];node["railway"="tram_stop"](${BB});out;`,
 };
+const UA = "cincy-week-basemap/1.0 (https://github.com/fritzhand/cincy-week)";
+/** POST one query: Node's fetch, else curl (which honors HTTPS_PROXY where Node's fetch does not). */
+async function post(url, query) {
+  try {
+    const r = await fetch(url, { method: "POST", headers: { "User-Agent": UA, "Content-Type": "application/x-www-form-urlencoded" }, body: "data=" + encodeURIComponent(query), signal: AbortSignal.timeout(240000) });
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    return await r.json();
+  } catch (e) {
+    const c = spawnSync("curl", ["-sS", "-f", "-m", "240", "-A", UA, "--data-urlencode", `data=${query}`, url], { encoding: "utf8", maxBuffer: 256 * 1024 * 1024 });
+    if (c.status !== 0) throw new Error(`${e.message}; curl: ${(c.stderr || "").trim() || c.status}`);
+    return JSON.parse(c.stdout);
+  }
+}
 async function overpass(name) {
   for (const url of MIRRORS) {
     try {
       process.stdout.write(`  ${name} ← ${new URL(url).host} … `);
-      const r = await fetch(url, { method: "POST", headers: { "User-Agent": "cincy-week-basemap/1.0 (https://github.com/fritzhand/cincy-week)", "Content-Type": "application/x-www-form-urlencoded" }, body: "data=" + encodeURIComponent(QUERIES[name]), signal: AbortSignal.timeout(240000) });
-      if (!r.ok) throw new Error(`HTTP ${r.status}`);
-      const j = await r.json();
+      const j = await post(url, QUERIES[name]);
       if (!Array.isArray(j.elements)) throw new Error("no elements");
       console.log(`${j.elements.length} elements`);
       return j;

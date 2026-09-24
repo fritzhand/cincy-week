@@ -60,7 +60,8 @@
 }
 .fact { flex: 1 1 170px; background: var(--surface); padding: 12px 14px 14px; min-width: 0; }
 .fact dt { font-size: var(--fs-label); font-weight: var(--wght-strong); letter-spacing: var(--track-label); text-transform: uppercase; color: var(--text-faint); }
-.fact dd { margin-top: 4px; font-size: var(--fs-sm); line-height: 1.45; font-variant-numeric: tabular-nums; }
+.fact dd { margin-top: 4px; font-size: var(--fs-sm); line-height: 1.45; font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+.fact.fact-wide { flex: 2 1 340px; }   /* QA: long values (organizer lists) take two tiles' width */
 .fact dd a { font-weight: var(--wght-strong); }
 
 .source-line {
@@ -207,7 +208,7 @@ a.card:hover, .card:has(.stretched:hover) { border-color: var(--border-strong); 
   border: 1px dashed var(--border-strong); background: var(--surface);
 }
 .empty-state .halftone { width: 44px; height: 44px; display: grid; place-items: center; color: var(--ink-text); }
-.empty-state h3 { font-size: var(--fs-md); }
+.empty-state h2, .empty-state h3 { font-size: var(--fs-md); }
 .empty-state p { color: var(--text-muted); font-size: var(--fs-sm); }
 .az { display: flex; flex-wrap: wrap; gap: 2px; }
 .az a { display: grid; place-items: center; min-width: 32px; min-height: var(--tap); font-weight: var(--wght-strong); font-size: var(--fs-sm); text-decoration: none; color: var(--text-muted); border-radius: var(--radius-sm); }
@@ -235,6 +236,7 @@ table.data tbody tr:hover td { background: var(--surface-alt); }
   table.data td { display: grid; grid-template-columns: 96px minmax(0, 1fr); gap: 12px; padding: 5px 0; border: 0; }
   table.data td::before { content: attr(data-label); font-size: var(--fs-label); font-weight: var(--wght-strong); letter-spacing: var(--track-label); text-transform: uppercase; color: var(--text-faint); padding-top: 2px; }
   table.data td.num { text-align: left; }
+  table.data td:empty { display: none; }   /* a stacked row never shows a label with nothing after it */
 }
 
 /* ---------- avatars ("mugs"): 4:5 rectangles; the 256px square pipeline stays sharp at these sizes ---------- */

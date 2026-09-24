@@ -10,8 +10,12 @@
 .gp, .eat, .stay, .hood, .ga-intro, .gp-mini { overflow-wrap: anywhere; }
 .src { font-size: var(--fs-xs); margin: var(--sp-2) 0 0; }
 .more-d { margin-top: var(--sp-2); }
-.more-d > summary { display: inline-flex; align-items: center; min-height: var(--tap); cursor: pointer; font-size: var(--fs-sm); font-weight: var(--wght-strong); color: var(--link); }
-.prose.small { font-size: var(--fs-sm); }
+.more-d > summary { display: inline-flex; align-items: center; gap: 4px; min-height: var(--tap); cursor: pointer; font-size: var(--fs-sm); font-weight: var(--wght-strong); color: var(--link); text-decoration: underline; text-underline-offset: 0.18em; list-style: none; }
+.more-d > summary::-webkit-details-marker { display: none; }
+.more-d > summary .i { width: 16px; height: 16px; transition: transform var(--speed) var(--ease); }
+.more-d[open] > summary .i { transform: rotate(180deg); }
+.prose.small { font-size: var(--fs-sm); color: var(--text-muted); }
+.prose + .prose.small { margin-top: var(--sp-2); }   /* QA: the short details paragraph no longer runs straight on from the summary */
 
 /* ---------- stays: where to stay ---------- */
 .stays { display: grid; gap: var(--sp-4); grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr)); }
@@ -35,6 +39,8 @@
 .stay .acts { margin-top: auto; padding-top: var(--sp-4); display: flex; flex-wrap: wrap; gap: var(--sp-2); }
 .st-note { font-size: var(--fs-xs); margin-top: var(--sp-3); }
 .st-map .map-view { aspect-ratio: 16 / 9; }
+.st-map:empty { aspect-ratio: 16 / 9; background: var(--map-bg); border: 1px solid var(--border); }   /* QA: holds the lazy map's space (no jump when it mounts) */
+@media (max-width: 699px) { .st-map:empty { aspect-ratio: 4 / 5; } }
 @media (max-width: 699px) { .st-map .map-view { aspect-ratio: 4 / 5; } }
 
 /* ---------- getting around: place cards, the Connector, the walking matrix ---------- */
@@ -46,6 +52,7 @@
 .gp .addr { margin: var(--sp-2) 0 0; font-size: var(--fs-xs); color: var(--text-muted); font-variant-numeric: tabular-nums; }
 .gp .acts, .eat .acts { display: flex; flex-wrap: wrap; gap: var(--sp-2); margin: var(--sp-2) 0 0; }
 .gp-mini { list-style: none; padding: 0; margin: 0; border-top: var(--rule-mid) solid var(--rule-ink); columns: 2 280px; column-gap: var(--sp-6); }
+.gp-mini p { margin: 0; }
 .gp-mini li { break-inside: avoid; padding: 8px 0; border-bottom: 1px solid var(--border); font-size: var(--fs-sm); scroll-margin-top: calc(var(--topbar-h) + var(--sp-4)); }
 .gp-mini .faint { font-size: var(--fs-xs); }
 .ga-car { display: grid; gap: var(--sp-5); grid-template-columns: minmax(0, 1fr); align-items: start; }
@@ -93,6 +100,7 @@ table.data.walk td.far b { font-style: italic; }
 .eat .prose { font-size: var(--fs-sm); }
 .eat .addr { margin: var(--sp-2) 0 0; font-size: var(--fs-xs); color: var(--text-muted); font-variant-numeric: tabular-nums; }
 .near { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin: var(--sp-3) 0 0; }
+.near > .label { flex-basis: 100%; }   /* QA: the label on its own line, so every card lays its chips out the same way */
 .near .chip { gap: 6px; padding-left: 4px; max-width: 100%; min-width: 0; }
 .near .chip > span:not(.n):not(.stall) { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .near .chip .stall.s { width: 26px; height: 26px; font-size: var(--fs-label); }

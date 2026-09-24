@@ -1,0 +1,80 @@
+[
+  {
+    "id": "kinley-cincinnati-downtown",
+    "name": "Kinley Cincinnati Downtown, a Tribute Portfolio Hotel",
+    "address": "636 Race Street, Cincinnati, OH 45202",
+    "neighborhood": "Downtown",
+    "lat": 39.103249,
+    "lng": -84.514992,
+    "url": "https://www.kinleycincinnati.com/",
+    "phone": "(513) 381-1100",
+    "room_block": {
+      "program": "scw",
+      "group_code": "SUC",
+      "rate": "$209.00 per night (same group rate for every room type in the block)",
+      "dates": "2026-10-04 to 2026-10-09 (Marriott page: \"Rates displayed below are based on availability 10/04/2026 - 10/09/2026\")",
+      "deadline": "2026-09-04",
+      "booking_url": "https://app.marriott.com/reslink?id=1773189076451&key=GRP&app=resvlink",
+      "event_name": "StartupCincy Week 2026",
+      "policy": "A 48-hour individual cancellation policy applies. Overnight valet parking is available for $46 per vehicle, per night. Additional self-parking is available in nearby parking garages. The preferred group rate is valid only for the contracted event dates listed.",
+      "room_types": [
+        {
+          "code": "QUEN",
+          "name": "Guest room",
+          "max_occupancy": 2
+        },
+        {
+          "code": "KING",
+          "name": "Guest room",
+          "max_occupancy": 2
+        },
+        {
+          "code": "EKNG",
+          "name": "Executive King Room",
+          "max_occupancy": 2
+        },
+        {
+          "code": "DBDB",
+          "name": "Guest room",
+          "max_occupancy": 4
+        },
+        {
+          "code": "BBEV",
+          "name": "Guest room",
+          "max_occupancy": 4
+        }
+      ],
+      "status_2026_09_24": "Closed/full: Marriott's group page shows \"BOOK BY SEP 04, 2026\", redirected with inventoryMissing=true&blockFull=true, and every availability counter is 0."
+    },
+    "notes": "The SCW site's \"Plan Your Visit\" menu shows a hotel card (photo alt \"Kinley Cincinnati\", title image reads \"Kinley Cincinnati\") with a BOOK NOW link to the Marriott group link. Marriott property code CVGTX, brand Tribute Portfolio; 12.9 mi to CVG airport. Marriott location text: \"Located in the historic Denton building, the Kinley Cincinnati boasts one of Cincinnati’s first commissioned murals and is the perfect jumping-off point into all of the exciting growth happening in both Downtown Cincinnati and Over The Rhine.\" Address and phone from kinleycincinnati.com and its visitcincy.com listing (some third-party booking sites give 37 West 7th St instead; coordinates are from Marriott). about 740 m straight-line from Union Hall (computed from coordinates). The SCW FAQ mentions \"a special connection to our friends at The McKinley Hotel\" (sic; probably this Kinley block, unconfirmed).",
+    "description": "A home base for great and small adventures, Kinley Cincinnati Downtown, a Tribute Portfolio Hotel, is perfectly situated between Downtown and the popular Over The Rhine neighborhood. Easily explore some of the city's premier attractions such as the Cincinnati Museum Center, Great American Ballpark, and Cincinnati Contemporary Arts Center. While you are here, grab a bourbon and gourmet burger from our onsite restaurant, Unexpected Burgers & Bourbon. Be yourself in our expertly designed guest rooms with a custom-designed Kinley mattress that will give even the biggest daydreamers a reason to sleep. Free WiFi throughout the hotel helps you stay connected during your travels and our state-of-the-art fitness center will help you achieve all your fitness goals while on the road. Make your stay at our exceptional downtown Cincinnati hotel, The Kinley. Sincerely yours.",
+    "image_url": "https://vepimg.b8cdn.com/uploads/vjfnew/18090/uploads/vjf/content/misc/1784874454Kinley photo.png",
+    "title_image_url": "https://vepimg.b8cdn.com/uploads/vjfnew/18090/uploads/vjf/content/misc/1784874886Fidelity-Title.png",
+    "source_url": "https://startupcincyweek.com/"
+  },
+  {
+    "id": "cincinnatis-fidelity-hotel",
+    "name": "Cincinnati's Fidelity Hotel",
+    "address": "210 East 6th Street, Cincinnati, OH 45202",
+    "neighborhood": "Downtown",
+    "lat": 39.1031136,
+    "lng": -84.5096173,
+    "url": "https://www.fidelityhotels.com/cincinnati/",
+    "phone": "513-296-2888",
+    "room_block": {
+      "program": "scw",
+      "group_code": "CINTRIFUSEOCT",
+      "rate": null,
+      "dates": "The SCW BOOK NOW link pre-fills arrive 2026-10-04, depart 2026-10-06 (block dates not published)",
+      "deadline": null,
+      "booking_url": "https://be.synxis.com/?adult=2&arrive=2026-10-04&chain=19403&child=0&currency=USD&depart=2026-10-06&group=CINTRIFUSEOCT&hotel=98848&level=hotel&locale=en-US&productcurrency=USD&rooms=1",
+      "booking_url_original": "https://be.synxis.com/?_gl=1*1yv4gwx*_gcl_aw*R0NMLjE3ODE3MjYyNDMuQ2owS0NRandpOG5SQmhEaEFSSXNBSFpmX3BZTS1oUGozbVR6VHVyMi16YW5aRkQwTmlHdXBNNjRBX1oyV01YclNLYldRX01hT3ZwRVFEQWFBaDdkRUFMd193Y0I.*_gcl_au*Mjg5NTIxNDE0LjE3ODA0MTM2MDc.*_ga*MTMxNjY4NTY0OC4xNzgwNDEzNjA3*_ga_8W7HDPZXHY*czE3ODM2MDUxODAkbzM4JGcxJHQxNzgzNjA1ODE4JGo1NyRsMCRoMA..&adult=2&arrive=2026-10-04&chain=19403&child=0&currency=USD&depart=2026-10-06&group=CINTRIFUSEOCT&hotel=98848&level=hotel&locale=en-US&productcurrency=USD&rooms=1",
+      "status_2026_09_24": "Closed: the SynXis availability call returned ProductStatus \"AfterGroupCutoffDate\" for 2026-10-05 (the page said \"Our hotel is not available on October 5, 2026.\"). The cutoff date itself is not published."
+    },
+    "notes": "SCW \"Plan Your Visit\" hotel card (photo alt \"Fidelity Hotel\", title image reads \"Fidelity Hotel\") with a BOOK NOW link to the SynXis booking engine (chain 19403, hotel 98848). The hotel's own site uses the same SynXis hotel id 98848, and the SynXis page header reads \"Cincinnati's Fidelity Hotel, Address: 210 E 6th Street, Cincinnati, Ohio, United States, 45202, Phone: 513-296-2888\". Hotel site: \"a rare, New York–inflected, Beaux-Arts high-rise at the heart of the city.\" Coordinates from the Google Maps link on the hotel site. about 910 m straight-line from Union Hall (computed from coordinates).",
+    "description": "Experience an extraordinary world where Cincinnati’s past and present meet with grace at Cincinnati’s Fidelity Hotel. Shaped by heritage, intention, and subtle elegance, discover a stay that feels both familiar and beautifully renewed in a rare, New York–inflected, Beaux-Arts high-rise at the heart of the city.",
+    "image_url": "https://vepimg.b8cdn.com/uploads/vjfnew/18090/uploads/vjf/content/misc/1784874472Fidelity photo.png",
+    "title_image_url": "https://vepimg.b8cdn.com/uploads/vjfnew/18090/uploads/vjf/content/misc/1784874516Fidelity Title.png",
+    "source_url": "https://startupcincyweek.com/"
+  }
+]

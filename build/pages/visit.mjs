@@ -74,7 +74,8 @@ export function pages(ctx) {
   const srcHost = (u) => `<p class="faint src">Source: ${h.extLink(u, esc(h.hostOf(u)))}</p>`;
   const onMapLink = (root, kind, r) => (onMap(cards.meta, r.lat, r.lng) ? `<a class="btn btn-ghost btn-sm" href="${root}map.html?focus=${kind}:${attr(r.id)}${kind === "stay" ? "&amp;layers=venues,stays" : ""}">${h.icon("map")}On the map</a>` : "");
   const dirLinks = (r) => { const d = cards.directionsTo(r); return d ? `${d.apple ? h.extLink(d.apple, "Apple Maps", "btn btn-secondary btn-sm") : ""}${h.extLink(d.google, "Google Maps", "btn btn-secondary btn-sm")}` : ""; };
-  const detailsBlock = (text) => (!text ? "" : text.length > 240 ? `<details class="more-d"><summary>Details</summary><div class="prose">${h.paras(text)}</div></details>` : `<div class="prose small">${h.paras(text)}</div>`);
+  // QA: the fold-out names what it opens for screen readers ("Details about Metro (SORTA) buses") and shows a chevron
+  const detailsBlock = (text, name = "") => (!text ? "" : text.length > 240 ? `<details class="more-d"><summary>Details${name ? `<span class="sr-only"> about ${esc(name)}</span>` : ""}${h.icon("chev-d")}</summary><div class="prose">${h.paras(text)}</div></details>` : `<div class="prose small">${h.paras(text)}</div>`);
 
   /** "12 min" to a hub; far away, the straight-line distance instead of a meaningless walking time. */
   const distChip = (r, hub) => {
@@ -106,7 +107,7 @@ export function pages(ctx) {
 <h3>${esc(s.name)}</h3>${addr ? `<p class="addr">${esc(addr)}</p>` : ""}
 ${chips ? `<p class="dist" aria-label="Estimated walking time to the hubs">${h.icon("walk")}${chips}</p>` : ""}
 ${s.room_block ? blockPanel(s) : ""}
-${s.booking_portal ? `<p class="portal">${h.bullet(s.booking_portal.program)}<span>Listed on ${esc(s.booking_portal.program === "blink" ? "BLINK's" : `${c.progName(s.booking_portal.program)}'s`)} hotel booking portal at ${esc(h.hostOf(s.booking_portal.url))}. The portal shows no group code or discounted rate.</span></p>` : ""}
+${s.booking_portal ? `<p class="portal">${h.bullet(s.booking_portal.program)}<span>On ${esc(s.booking_portal.program === "blink" ? "BLINK's" : `${c.progName(s.booking_portal.program)}'s`)} hotel booking portal (no group code or discounted rate)</span></p>` : ""}
 <p class="acts">${s.url ? h.extLink(s.url, `Hotel site${h.icon("ext")}`, "btn btn-secondary btn-sm") : ""}${s.booking_portal ? h.extLink(s.booking_portal.url, `Book via ${esc(s.booking_portal.program === "blink" ? "BLINK's" : `${c.progName(s.booking_portal.program)}'s`)} hotel portal${h.icon("ext")}`, "btn btn-secondary btn-sm") : ""}${onMapLink(root, "stay", s)}</p>
 ${srcHost(s.source_url)}</article>`;
   };
@@ -115,17 +116,17 @@ ${srcHost(s.source_url)}</article>`;
 
   const stayPage = {
     path: "stay.html", nav: "stay", title: "Where to stay", features: ["map"],
-    description: `The ${db.stays.length} hotels near the week's venues: the StartupCincy Week room blocks as published, then hotels by neighborhood with estimated walking times to the hubs.`,
+    description: `${h.plural(db.stays.length, "place", "places")} to stay: the StartupCincy Week room blocks as published, then hotels and rentals by neighborhood with estimated walking times to the hubs.`,
     toc: [["st-blocks", "Room blocks"], ...orderedGroups.map((g) => [g.id, g.title])],
-    body: (root) => `${c.pageHead({ num: 4, kicker: `Visit · ${db.stays.length} hotels`, title: "Where to stay", lede: "Program room blocks come first, exactly as published. Then hotels by neighborhood, with estimated walking times to the week's hubs." })}
+    body: (root) => `${c.pageHead({ num: 4, kicker: `Visit · ${h.plural(db.stays.length, "place", "places")} to stay`, title: "Where to stay", lede: "Program room blocks come first, exactly as published. Then hotels and rentals by neighborhood, with estimated walking times to the week's hubs." })}
 ${c.callout("tip", `<p>Walking times are estimates: the straight-line distance × 1.3, at 80 m a minute. Chips show minutes to ${esc(h.listJoin(hubLine))}; beyond a 45-minute walk they show the distance instead.</p>`, { flag: "How to read the cards" })}
 <section class="section" id="st-blocks" aria-labelledby="st-blocks-h"><div class="sec-head oxford"><p class="sec-kicker label">${c.secNum(4)}Room blocks</p><h2 id="st-blocks-h">Program room blocks</h2></div>
 ${blocks.length ? `<div class="stays">${blocks.map((s) => stayCard(root, s)).join("")}</div>` : `<p class="unk">No program has published a room block.</p>`}
-<p class="faint st-note">Cincinnati Art Week and BLINK list no room block.${db.stays.some((s) => s.booking_portal) ? " BLINK links a hotel booking portal instead; hotels on it are marked below." : ""}</p>
+<p class="faint st-note">Cincinnati Art Week and BLINK list no room block.${(() => { const bp = db.stays.find((s) => s.booking_portal)?.booking_portal; return bp ? ` BLINK links a hotel booking portal at ${esc(h.hostOf(bp.url))} instead. It shows no group code or discounted rate; hotels on it are marked below.` : ""; })()}</p>
 </section>
 <section class="section st-mapsec js-only" aria-labelledby="st-map-h"><div class="sec-head oxford"><h2 id="st-map-h">On the map</h2><a class="more" href="${root}map.html?layers=venues,stays">Full map${h.icon("arrow-r")}</a></div><div class="st-map" data-stay-map></div></section>
-${orderedGroups.map((g) => `<section class="section" id="${attr(g.id)}" aria-labelledby="${attr(g.id)}-h"><div class="sec-head oxford"><p class="sec-kicker label">${h.plural(g.stays.length, "hotel")}${g.hood ? "" : " · outside the core neighborhoods"}</p><h2 id="${attr(g.id)}-h">${esc(g.title)}</h2>${g.hood ? `<a class="more" href="${root}neighborhoods.html#${attr(g.hood)}">About ${esc(place(g.hood)?.short_name || g.title)}${h.icon("arrow-r")}</a>` : ""}</div><div class="stays">${g.stays.map((s) => stayCard(root, s)).join("")}</div></section>`).join("\n")}
-<p class="source-line">${h.icon("info")}<span>Hotels from StartupCincy Week's Plan Your Visit page, Visit Cincy and BLINK's hotel portal. Each card links its source. Portal-only hotels have approximate coordinates, so their distances are rougher.</span></p>`,
+${orderedGroups.map((g) => `<section class="section" id="${attr(g.id)}" aria-labelledby="${attr(g.id)}-h"><div class="sec-head oxford"><p class="sec-kicker label">${h.plural(g.stays.length, "place to stay", "places to stay")}${g.hood ? "" : " · outside the core neighborhoods"}</p><h2 id="${attr(g.id)}-h">${esc(g.title)}</h2>${g.hood ? `<a class="more" href="${root}neighborhoods.html#${attr(g.hood)}">About ${esc(place(g.hood)?.short_name || g.title)}${h.icon("arrow-r")}</a>` : ""}</div><div class="stays">${g.stays.map((s) => stayCard(root, s)).join("")}</div></section>`).join("\n")}
+<p class="source-line">${h.icon("info")}<span>Hotels and rentals from StartupCincy Week's Plan Your Visit page, Visit Cincy and BLINK's hotel portal. Each card links its source. Portal-only hotels have approximate coordinates, so their distances are rougher.</span></p>`,
   };
 
   /* ================= getting-around.html ================= */
@@ -135,8 +136,8 @@ ${orderedGroups.map((g) => `<section class="section" id="${attr(g.id)}" aria-lab
   const stations = sortBy(bySec.get("streetcar").filter((p) => /^connector-station-\d+/.test(p.id)), (p) => Number(/station-(\d+)/.exec(p.id)[1]));
   const streetcarOther = bySec.get("streetcar").filter((p) => !stations.includes(p));
   const tiny = (p) => (p.summary || "").length < 60 && (p.details || "").length < 60;   // BLINK restrooms and the like
-  const placeCard = (root, p) => `<article class="gp" id="${attr(p.id)}"><h3>${esc(p.name)}</h3>${p.summary ? `<div class="prose">${h.paras(p.summary)}</div>` : ""}${detailsBlock(p.details)}${p.address ? `<p class="addr">${esc(p.address)}${p.hood && !p.address.includes(hoodShort(p.hood)) ? ` · ${esc(hoodShort(p.hood))}` : ""}</p>` : ""}<p class="acts">${p.url ? h.extLink(p.url, `${esc(h.hostOf(p.url))}${h.icon("ext")}`, "btn btn-ghost btn-sm") : ""}${p.lat != null ? dirLinks(p) : ""}</p>${srcHost(p.source_url)}</article>`;
-  const tinyRow = (p) => `<li id="${attr(p.id)}"><b>${esc(p.name)}</b>${p.details || p.address ? ` <span>${esc(p.details || p.address)}</span>` : ""} <span class="faint">· ${h.extLink(p.source_url, esc(h.hostOf(p.source_url)))}</span></li>`;
+  const placeCard = (root, p) => `<article class="gp" id="${attr(p.id)}"><h3>${esc(p.name)}</h3>${p.summary ? `<div class="prose">${h.paras(p.summary)}</div>` : ""}${detailsBlock(p.details, p.name)}${p.address ? `<p class="addr">${esc(p.address)}${p.hood && !p.address.includes(hoodShort(p.hood)) ? ` · ${esc(hoodShort(p.hood))}` : ""}</p>` : ""}<p class="acts">${p.url ? h.extLink(p.url, `${esc(h.hostOf(p.url))}${h.icon("ext")}`, "btn btn-ghost btn-sm") : ""}${p.lat != null ? dirLinks(p) : ""}</p>${srcHost(p.source_url)}</article>`;
+  const tinyRow = (p) => `<li id="${attr(p.id)}"><p><b>${esc(p.name)}</b>${p.details || p.address ? ` <span>${esc(p.details || p.address)}</span>` : ""} <span class="faint">· ${h.extLink(p.source_url, esc(h.hostOf(p.source_url)))}</span></p></li>`;
   const secBody = (root, id, list) => {
     const big = list.filter((p) => !tiny(p)), small = list.filter(tiny);
     return `${big.length ? `<div class="gps">${big.map((p) => placeCard(root, p)).join("")}</div>` : ""}${small.length ? `<h3 class="sub-h">${id === "access" ? "Restrooms and rest stops during BLINK" : "More"}</h3><ul class="gp-mini">${small.map(tinyRow).join("")}</ul>` : ""}`;
@@ -146,7 +147,7 @@ ${orderedGroups.map((g) => `<section class="section" id="${attr(g.id)}" aria-lab
   const matrix = `<div class="table-wrap"><table class="data walk"><caption>Walking minutes between the hubs. Estimates: straight-line distance × 1.3, at 80 m a minute; real routes can be longer (bridge ramps, hills, closed streets).</caption>
 <thead><tr><th scope="col">From</th>${walkHubs.map((x) => `<th scope="col" class="num">${esc(x.label)}</th>`).join("")}</tr></thead>
 <tbody>${walkHubs.map((a) => `<tr><th scope="row" data-label="From">${esc(a.label)}${a.note ? `<span class="faint"> · ${esc(a.note)}</span>` : ""}</th>${walkHubs.map((b) => (a === b ? `<td class="num" data-label="${attr(b.label)}"><span aria-label="same place">·</span></td>` : `<td class="num${walkMinutes(a.rec, b.rec) > 25 ? " far" : ""}" data-label="${attr(b.label)}"><b>${walkMinutes(a.rec, b.rec)}</b> min <span class="faint">${(haversine(a.rec, b.rec) / 1000).toFixed(1)} km</span></td>`)).join("")}</tr>`).join("")}</tbody></table></div>
-<p class="walk-note">Above 25 minutes (marked in bold italic), the streetcar, a bus or a ride may be quicker. Hub positions are the programs' published addresses; the BLINK zones are points inside each zone.</p>`;
+<p class="walk-note">Above 25 minutes (in italics), the streetcar, a bus or a ride may be quicker. Hubs are placed at their published addresses; The Banks and Covington at the average position of BLINK's mapped points in each zone.</p>`;
   const stationMap = (root) => cards.areaMap(root, stations.map((p) => ({ lat: p.lat, lng: p.lng, kind: "stop", n: Number(/station-(\d+)/.exec(p.id)[1]) })), { label: `Map of the Connector streetcar loop and its ${stations.length} stations`, minHalfM: 600, ratio: 3 / 4, cls: "ga-route" });
 
   const gaPage = {
@@ -159,7 +160,7 @@ ${GA_SECTIONS.map((s) => {
   if (s.id === "streetcar") {
     if (!list.length) return "";
     return c.section({ id: s.id, title: s.title, kicker: stations.length ? `${stations.length} stations · the dashed line on every map` : "", icon: s.icon, root, body: `<div class="ga-car">
-<div>${connector ? `<div class="ga-intro" id="${attr(connector.id)}"><div class="prose">${h.paras(connector.summary || "")}</div>${detailsBlock(connector.details)}${srcHost(connector.source_url)}</div>` : ""}
+<div>${connector ? `<div class="ga-intro" id="${attr(connector.id)}"><div class="prose">${h.paras(connector.summary || "")}</div>${detailsBlock(connector.details, connector.name)}${srcHost(connector.source_url)}</div>` : ""}
 ${stations.length ? `<h3 class="sub-h">Stations, in loop order</h3><ol class="ga-stops">${stations.map((p) => `<li id="${attr(p.id)}"><span class="ga-n" aria-hidden="true">${Number(/station-(\d+)/.exec(p.id)[1])}</span><span><b>${esc(p.name.replace(/^Connector station \d+:\s*/, ""))}</b>${p.hood ? ` <span class="faint">${esc(hoodShort(p.hood))}</span>` : ""}</span></li>`).join("")}</ol><p class="faint src">Station numbers and names: ${h.extLink(stations[0].source_url, "the city's route map")}.</p>` : ""}</div>
 <div>${stationMap(root)}<p class="btn-row"><a class="btn btn-secondary btn-sm" href="${root}map.html?layers=venues,transit">${h.icon("map")}Stations on the full map</a></p></div>
 </div>${streetcarOther.filter((p) => p !== connector).length ? `<div class="gps">${streetcarOther.filter((p) => p !== connector).map((p) => placeCard(root, p)).join("")}</div>` : ""}` });
@@ -192,13 +193,13 @@ ${stations.length ? `<h3 class="sub-h">Stations, in loop order</h3><ol class="ga
       vs.length && venueHoods.has(p.id) ? c.chip(h.plural(vs.length, "venue"), `venues.html?h=${p.id}`, { root }) : "",
       ws.length && artHoods.has(p.id) ? c.chip(h.plural(ws.length, "work"), `art.html?h=${p.id}`, { root }) : "",
       fd.length && eatHoods.has(p.id) ? c.chip(`${fd.length} to eat and drink`, `eat-drink.html?h=${p.id}`, { root }) : "",
-      st.length ? c.chip(h.plural(st.length, "hotel"), stayGroupIds.has(`st-${p.id}`) ? `stay.html#st-${p.id}` : `stay.html#${st[0].id}`, { root }) : "",
+      st.length ? c.chip(h.plural(st.length, "place to stay", "places to stay"), stayGroupIds.has(`st-${p.id}`) ? `stay.html#st-${p.id}` : `stay.html#${st[0].id}`, { root }) : "",
     ].filter(Boolean).join("");
     const keyV = sortBy(vs, (v) => -v.events.filter((e) => e.live).length, (v) => v.name).slice(0, 8);
     const map = cards.areaMap(root, keyV.filter((v) => v.stall).map((v) => ({ lat: v.lat, lng: v.lng, kind: "venue", prog: v.programs[0] || "also", n: v.stall })), { label: `Map of ${p.name} with its venues`, minHalfM: 450, center: p.lat != null ? { lat: p.lat, lng: p.lng } : null });
     const col = (title, xs, li) => (xs.length ? `<div><h3 class="sub-h">${esc(title)}</h3><ul class="hood-list">${xs.map(li).join("")}</ul></div>` : "");
     return `<section class="section hood" id="${attr(p.id)}" aria-labelledby="${attr(p.id)}-h"><div class="sec-head oxford"><p class="sec-kicker label">${esc([evs.length ? h.plural(evs.length, "event") : "", vs.length ? h.plural(vs.length, "venue") : ""].filter(Boolean).join(" · ") || "Neighborhood")}</p><h2 id="${attr(p.id)}-h">${esc(p.name)}</h2></div>
-<div class="hood-top"><div>${p.summary ? `<div class="prose">${h.paras(p.summary)}</div>` : `<p class="faint">No summary published. The neighborhood and its boundary come from OpenStreetMap.</p>`}${detailsBlock(p.details)}${counts ? `<div class="hood-counts chip-row">${counts}</div>` : ""}</div>${map ? `<div class="hood-map">${map}</div>` : ""}</div>
+<div class="hood-top"><div>${p.summary ? `<div class="prose">${h.paras(p.summary)}</div>` : `<p class="faint">No summary published. The neighborhood and its boundary come from OpenStreetMap.</p>`}${detailsBlock(p.details, p.name)}${counts ? `<div class="hood-counts chip-row">${counts}</div>` : ""}</div>${map ? `<div class="hood-map">${map}</div>` : ""}</div>
 <div class="hood-cols">
 ${col("Key venues", keyV, (v) => `<li><a href="${root}venues/${attr(v.id)}.html">${v.stall ? `<span class="stall s" aria-hidden="true">${v.stall}</span>` : `<span class="stall s is-off" aria-hidden="true">–</span>`}<span><b>${esc(v.name)}</b><span class="faint">${esc(v.events.filter((e) => e.live).length ? h.plural(v.events.filter((e) => e.live).length, "event") : v.address || "")}</span></span></a></li>`)}
 ${col("Food and drink", fd.slice(0, 8), (f) => `<li><a href="${root}eat-drink.html#${attr(f.id)}"><span><b>${esc(f.name)}</b><span class="faint">${esc(f.kind === "drink" ? "Drink" : "Food")}</span></span></a></li>`)}
@@ -224,9 +225,9 @@ ${strayLandmarks.length ? c.section({ id: "hood-landmarks", title: "Other landma
   const nearChips = (root, p) => {
     if (p.lat == null) return "";
     const near = sortBy(db.venues.filter((v) => v.lat != null && v.stall).map((v) => ({ v, d: haversine(p, v) })).filter((x) => x.d <= 400), (x) => x.d).slice(0, 3);
-    return near.length ? `<p class="near"><span class="label faint">Near</span>${near.map((x) => `<a class="chip" href="${root}venues/${attr(x.v.id)}.html"><span class="stall s" aria-hidden="true">${x.v.stall}</span><span>${esc(x.v.name)}</span><span class="n">${walkMinutes(p, x.v)} min</span></a>`).join("")}</p>` : "";
+    return near.length ? `<p class="near"><span class="label faint">Near · walking estimate</span>${near.map((x) => `<a class="chip" href="${root}venues/${attr(x.v.id)}.html"><span class="stall s" aria-hidden="true">${x.v.stall}</span><span>${esc(x.v.name)}</span><span class="n">${walkMinutes(p, x.v)} min</span></a>`).join("")}</p>` : "";
   };
-  const eatCard = (root, p) => `<article class="eat" id="${attr(p.id)}" data-h="${attr(p.hood || "")}" data-q="${attr([p.kind === "drink" ? "drink bar" : "food restaurant", hoodName(p.hood)].join(" "))}"><p class="eat-k label">${p.kind === "drink" ? "Drink" : "Food"}</p><h3>${esc(p.name)}</h3>${p.summary ? `<div class="prose">${h.paras(p.summary)}</div>` : ""}${detailsBlock(p.details)}${p.address ? `<p class="addr">${esc(p.address)}</p>` : ""}${nearChips(root, p)}<p class="acts">${p.url ? h.extLink(p.url, `Website${h.icon("ext")}`, "btn btn-secondary btn-sm") : ""}${p.lat != null ? dirLinks(p) : ""}</p>${srcHost(p.source_url)}</article>`;
+  const eatCard = (root, p) => `<article class="eat" id="${attr(p.id)}" data-h="${attr(p.hood || "")}" data-q="${attr([p.kind === "drink" ? "drink bar" : "food restaurant", hoodName(p.hood)].join(" "))}"><p class="eat-k label">${p.kind === "drink" ? "Drink" : "Food"}</p><h3>${esc(p.name)}</h3>${p.summary ? `<div class="prose">${h.paras(p.summary)}</div>` : ""}${detailsBlock(p.details, p.name)}${p.address ? `<p class="addr">${esc(p.address)}</p>` : ""}${nearChips(root, p)}<p class="acts">${p.url ? h.extLink(p.url, `Website${h.icon("ext")}`, "btn btn-secondary btn-sm") : ""}${p.lat != null ? dirLinks(p) : ""}</p>${srcHost(p.source_url)}</article>`;
   const eatHoodOpts = eatGroups.filter(([k]) => k).map(([k, xs]) => [k, `${hoodShort(k)} (${xs.length})`]);
 
   const eatPage = {

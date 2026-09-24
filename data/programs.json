@@ -32,12 +32,14 @@
         "name": "General (exhibitions, pop-up galleries, most programming)",
         "price": "Free",
         "url": "https://cincinnatiartweek.com/faqs-2",
-        "notes": "Most experiences are free to attend. Select special programs may require reservations or tickets. We also encourage visitors to support participating artists and local businesses whenever possible."
+        "details": "Most experiences are free to attend. Select special programs may require reservations or tickets. We also encourage visitors to support participating artists and local businesses whenever possible.",
+        "notes": null
       },
       {
         "name": "NO GRID: A Creative Conversation Series (Wed Oct 7) — free RSVP",
         "price": "Free",
         "url": "https://www.eventbrite.com/e/no-grid-a-creative-conversation-series-tickets-2000523175671",
+        "details": null,
         "notes": "Free ticket via Eventbrite (organizer: Cincy Nice); sales open 2026-09-10, close 2026-10-07."
       }
     ],
@@ -260,37 +262,43 @@
         "name": "Startup Founder or Employee - General Admission",
         "price": "$50.00",
         "url": "https://startupcincyweek.com/en/registration-form",
-        "notes": "I founded or work for a venture-backable or high-growth potential startup. Includes: 4 days of programming, happy hours, and showcases."
+        "details": "I founded or work for a venture-backable or high-growth potential startup. Includes: 4 days of programming, happy hours, and showcases.",
+        "notes": null
       },
       {
         "name": "Venture Capital Investor - Investor Admission",
         "price": "$300.00",
         "url": "https://startupcincyweek.com/en/registration-form",
-        "notes": "For individual or institutional venture capital investors. Includes: 4 days of programming, happy hours, and showcases."
+        "details": "For individual or institutional venture capital investors. Includes: 4 days of programming, happy hours, and showcases.",
+        "notes": null
       },
       {
         "name": "Corporate Partner - Corporate Admission",
         "price": "$250.00",
         "url": "https://startupcincyweek.com/en/registration-form",
-        "notes": "I am a representative of an established organization seeking to connect with startups, explore collaboration opportunities, and stay informed on emerging technologies. Includes: 4 days of programming, happy hours, and showcases"
+        "details": "I am a representative of an established organization seeking to connect with startups, explore collaboration opportunities, and stay informed on emerging technologies. Includes: 4 days of programming, happy hours, and showcases",
+        "notes": null
       },
       {
         "name": "Entrepreneur or Small Business Owner - General Admission",
         "price": "$50.00",
         "url": "https://startupcincyweek.com/en/registration-form",
-        "notes": "I am a business owner, solopreneur, or employee focused on generating revenue, steady and long-term growth, and maintaining ownership. Includes: 4 days of programming, happy hours, and showcases."
+        "details": "I am a business owner, solopreneur, or employee focused on generating revenue, steady and long-term growth, and maintaining ownership. Includes: 4 days of programming, happy hours, and showcases.",
+        "notes": null
       },
       {
         "name": "General Ecosystem - General Admission",
         "price": "$50.00",
         "url": "https://startupcincyweek.com/en/registration-form",
-        "notes": "I work, volunteer, or mentor within the ecosystem, providing resources, programming, or mentorship to founders and business owners. Includes: 4 days of programming, happy hours, and showcases."
+        "details": "I work, volunteer, or mentor within the ecosystem, providing resources, programming, or mentorship to founders and business owners. Includes: 4 days of programming, happy hours, and showcases.",
+        "notes": null
       },
       {
         "name": "Student Admission - General Admission",
         "price": "$0.00",
         "url": "https://startupcincyweek.com/en/registration-form",
-        "notes": "This ticket is exclusively for current students interested in innovation, entrepreneurship, and startups. Included access to the Student Summit on Thursday, October 8"
+        "details": "This ticket is exclusively for current students interested in innovation, entrepreneurship, and startups. Included access to the Student Summit on Thursday, October 8",
+        "notes": null
       }
     ],
     "daily_themes": [
@@ -580,55 +588,64 @@
         "name": "BLINK festival admission",
         "price": "Free",
         "url": "https://www.blinkcincinnati.com/faqs",
-        "notes": "No - BLINK is completely free and open to the public!"
+        "details": "No - BLINK is completely free and open to the public!",
+        "notes": null
       },
       {
         "name": "Ready. Set. BLINK! Opening Ceremony",
         "price": "Free",
         "url": "https://www.blinkcincinnati.com/blink-event-guide/ready-set-blink",
-        "notes": "No: Ready. Set. BLINK! is completely free and open to the public."
+        "details": "No: Ready. Set. BLINK! is completely free and open to the public.",
+        "notes": null
       },
       {
         "name": "One-Day BLINK Pass (Metro/TANK/BCRTA via Transit app)",
         "price": "$2.20",
         "url": "https://www.blinkcincinnati.com/resources/park-and-ride",
-        "notes": "A One-Day BLINK Pass, valid for 24 hours after activation - $2.20 On sale Oct. 5 through the Transit app."
+        "details": "A One-Day BLINK Pass, valid for 24 hours after activation - $2.20 On sale Oct. 5 through the Transit app.",
+        "notes": null
       },
       {
         "name": "Four-Day BLINK Pass (Transit app)",
         "price": "$8.00",
         "url": "https://www.blinkcincinnati.com/resources/park-and-ride",
-        "notes": "A Four-Day BLINK Pass, valid October 8-11 - $8.00"
+        "details": "A Four-Day BLINK Pass, valid October 8-11 - $8.00",
+        "notes": null
       },
       {
         "name": "One-Day Group Pass (Transit app)",
         "price": "$8.00",
         "url": "https://www.blinkcincinnati.com/resources/park-and-ride",
-        "notes": "A One-Day Group Pass, for up to four people for 24 hours after activation - $8.00"
+        "details": "A One-Day Group Pass, for up to four people for 24 hours after activation - $8.00",
+        "notes": null
       },
       {
         "name": "Red Bike BLINK 1-Week Pass",
         "price": "$20",
         "url": "https://www.cincyredbike.org/get-the-app/",
-        "notes": "Get unlimited two-hour Red Bike trips from Monday, October 5th– Monday, October 12th, to ride the entire week of BLINK!"
+        "details": "Get unlimited two-hour Red Bike trips from Monday, October 5th– Monday, October 12th, to ride the entire week of BLINK!",
+        "notes": null
       },
       {
         "name": "Guided BLINK walk with Urban Hikers",
         "price": "$10 / person",
         "url": "https://urban-hikers.com/blink-walks",
+        "details": null,
         "notes": "Urban Hikers page: Oct 8-11, 5 PM - 9 PM, 5 departure hubs, hourly waves, 25 spots per wave. BLINK Walking Tours page says tours depart every 20 minutes."
       },
       {
         "name": "LAZ Parking reserved spaces",
         "price": null,
         "url": "https://www.blinkcincinnati.com/reserve-parking",
+        "details": null,
         "notes": "Price shown only inside the LAZ checkout widget (not captured)."
       },
       {
         "name": "ArtsWave Pass (via the free ArtsWave App, October 2026)",
         "price": "Free in October (normally $100 per year)",
         "url": "https://artswave.org/what-is-artswave/the-artswave-app-blink/",
-        "notes": "Download the ArtsWave App and, throughout BLINK and the entire month of October, you’ll get the ArtsWave Pass at no cost. Normally $100 per year, the ArtsWave Pass gives you access to: 50% off 100s of tickets to local arts experiences; Free and last-minute ticket offers; Restaurant and retail deals more! After October: keep your ArtsWave Pass benefits going for just $9.99/month"
+        "details": "Download the ArtsWave App and, throughout BLINK and the entire month of October, you’ll get the ArtsWave Pass at no cost. Normally $100 per year, the ArtsWave Pass gives you access to: 50% off 100s of tickets to local arts experiences; Free and last-minute ticket offers; Restaurant and retail deals more! After October: keep your ArtsWave Pass benefits going for just $9.99/month",
+        "notes": null
       }
     ],
     "daily_themes": [],
@@ -1227,7 +1244,8 @@
         "name": "Biennial Pass",
         "price": "Free",
         "url": "https://www.fotofocus.org/biennial-pass-sign-up",
-        "notes": "The Biennial Pass offers free access to 70+ photography and lens-based exhibitions during the month of October with invitations to exclusive events, including entry into the Opening Program (September 30–October 3). Pass valid September 30th–October 31st; required for entry into Opening Program events. Free thanks to William & Kate Baumann and Robert & Rachel Eckman."
+        "details": "The Biennial Pass offers free access to 70+ photography and lens-based exhibitions during the month of October with invitations to exclusive events, including entry into the Opening Program (September 30–October 3). Pass valid September 30th–October 31st; required for entry into Opening Program events. Free thanks to William & Kate Baumann and Robert & Rachel Eckman.",
+        "notes": null
       }
     ],
     "daily_themes": [

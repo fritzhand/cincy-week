@@ -1,0 +1,1142 @@
+{
+ "id": "blink",
+ "name": "BLINK: A Festival of Light & Art",
+ "short_name": "BLINK",
+ "name_variants": [
+  "BLINK®, illuminated by ArtsWave",
+  "BLINK | A Festival of Light & Art",
+  "BLINK Cincinnati"
+ ],
+ "tagline": "BLINK® illuminated by ArtsWave, is the nation’s largest public light and art event.",
+ "dates": {
+  "start": "2026-10-08",
+  "end": "2026-10-11"
+ },
+ "description": "Started in 2017, BLINK is a biennial celebration of public art and light that spans the urban core of Cincinnati and Northern Kentucky. The massive four-day event features 80+ large-scale projection mappings against some of the city’s most iconic architecture, interactive light-based installations in its public spaces and expansive murals across its buildings, all by renowned local, national and international artists. The largest of its kind in the country, the festival’s mission is to nurture a sense of community, connection and inspiration through the medium of public art. In 2024, BLINK spanned 30+ city blocks, crossing the Ohio River into Covington, Kentucky and was experienced by over 2 million people. BLINK is by the artists, for the people. Executive producing partners are the Cincinnati Regional Chamber, AGAR and the Haile Foundation. We welcome all to Cincinnati, Ohio to experience the magic and wonder of BLINK once again October 8-11, 2026.",
+ "description_short": "BLINK Cincinnati is the nation’s largest public art festival, transforming the city into a vibrant, immersive experience of light, projection mapping, murals, and interactive installations.",
+ "organizers": [
+  {
+   "name": "Cincinnati Regional Chamber",
+   "url": "https://www.cincinnatichamber.com/",
+   "role": "Executive producing partner; BLINK is run by the Chamber (executive director Leslie Mooney is a Chamber VP)"
+  },
+  {
+   "name": "AGAR",
+   "url": "https://theagar.com/",
+   "role": "Executive producing partner; co-creator (Andrew Salzbrun)"
+  },
+  {
+   "name": "Carol Ann & Ralph V. Haile, Jr. Foundation (Haile Foundation)",
+   "url": "https://www.hailefoundation.org/",
+   "role": "Executive producing partner; Philanthropic Founding Partner"
+  },
+  {
+   "name": "ArtsWave",
+   "url": "https://artswave.org/",
+   "role": "Title sponsor (\"illuminated by ArtsWave\")"
+  }
+ ],
+ "organizers_source_url": "https://www.blinkcincinnati.com/about-blink",
+ "url": "https://www.blinkcincinnati.com/",
+ "tickets": [
+  {
+   "name": "BLINK festival admission",
+   "price": "Free",
+   "url": "https://www.blinkcincinnati.com/faqs",
+   "notes": "No - BLINK is completely free and open to the public!"
+  },
+  {
+   "name": "Ready. Set. BLINK! Opening Ceremony",
+   "price": "Free",
+   "url": "https://www.blinkcincinnati.com/blink-event-guide/ready-set-blink",
+   "notes": "No: Ready. Set. BLINK! is completely free and open to the public."
+  },
+  {
+   "name": "One-Day BLINK Pass (Metro/TANK/BCRTA via Transit app)",
+   "price": "$2.20",
+   "url": "https://www.blinkcincinnati.com/resources/park-and-ride",
+   "notes": "A One-Day BLINK Pass, valid for 24 hours after activation - $2.20 On sale Oct. 5 through the Transit app."
+  },
+  {
+   "name": "Four-Day BLINK Pass (Transit app)",
+   "price": "$8.00",
+   "url": "https://www.blinkcincinnati.com/resources/park-and-ride",
+   "notes": "A Four-Day BLINK Pass, valid October 8-11 - $8.00"
+  },
+  {
+   "name": "One-Day Group Pass (Transit app)",
+   "price": "$8.00",
+   "url": "https://www.blinkcincinnati.com/resources/park-and-ride",
+   "notes": "A One-Day Group Pass, for up to four people for 24 hours after activation - $8.00"
+  },
+  {
+   "name": "Red Bike BLINK 1-Week Pass",
+   "price": "$20",
+   "url": "https://www.cincyredbike.org/get-the-app/",
+   "notes": "Get unlimited two-hour Red Bike trips from Monday, October 5th– Monday, October 12th, to ride the entire week of BLINK!"
+  },
+  {
+   "name": "Guided BLINK walk with Urban Hikers",
+   "price": "$10 / person",
+   "url": "https://urban-hikers.com/blink-walks",
+   "notes": "Urban Hikers page: Oct 8-11, 5 PM - 9 PM, 5 departure hubs, hourly waves, 25 spots per wave. BLINK Walking Tours page says tours depart every 20 minutes."
+  },
+  {
+   "name": "LAZ Parking reserved spaces",
+   "price": null,
+   "url": "https://www.blinkcincinnati.com/reserve-parking",
+   "notes": "Price shown only inside the LAZ checkout widget (not captured)."
+  },
+  {
+   "name": "ArtsWave Pass (via the free ArtsWave App, October 2026)",
+   "price": "Free in October (normally $100 per year)",
+   "url": "https://artswave.org/what-is-artswave/the-artswave-app-blink/",
+   "notes": "Download the ArtsWave App and, throughout BLINK and the entire month of October, you’ll get the ArtsWave Pass at no cost. Normally $100 per year, the ArtsWave Pass gives you access to: 50% off 100s of tickets to local arts experiences; Free and last-minute ticket offers; Restaurant and retail deals more! After October: keep your ArtsWave Pass benefits going for just $9.99/month"
+  }
+ ],
+ "daily_themes": [
+  {
+   "date": "2026-10-08",
+   "theme": "Opening night: Ready. Set. BLINK! Opening Ceremony, then BLINK lights on",
+   "highlights": [
+    "Ready. Set. BLINK! Opening Ceremony, 4:00-9:00 p.m., Central Parkway between Liberty Street and West 14th Street (TQL Stadium)",
+    "Flip the Switch at sunset (approximately 7:00 p.m.), followed by a light and drone show with pyrotechnics",
+    "Drone show \"First Sight\" over TQL Stadium at 8:30 p.m.",
+    "BLINK installations 7:00-11:00 p.m.",
+    "Asianati Night Market on Court Street Plaza, 5-11 p.m. (hours per FOX19)"
+   ],
+   "source_urls": [
+    "https://www.blinkcincinnati.com/blink-event-guide/ready-set-blink",
+    "https://www.blinkcincinnati.com/",
+    "https://www.blinkcincinnati.com/blink-event-guide/mystic-eye-drone-show",
+    "https://www.blinkcincinnati.com/blink-event-guide/asianati-night-market",
+    "https://www.fox19.com/2026/09/15/blink-2026-brings-back-familiar-favorites-plus-few-new-features/"
+   ]
+  },
+  {
+   "date": "2026-10-09",
+   "theme": "BLINK night 2",
+   "highlights": [
+    "BLINK installations 7:00-11:00 p.m.",
+    "Drone show \"Dimensions of Wonder\" over the Ohio River at 8 p.m. and 10 p.m.",
+    "Asianati Night Market on Court Street Plaza, 5-11 p.m. (hours per FOX19)",
+    "TANK Park & Ride from NKU runs Friday and Saturday only",
+    "Harper Alive at The Mercantile Immersive from 6:00 PM (BLINK Around Town)"
+   ],
+   "source_urls": [
+    "https://www.blinkcincinnati.com/",
+    "https://www.blinkcincinnati.com/blink-event-guide/mystic-eye-drone-show",
+    "https://www.blinkcincinnati.com/blink-event-guide/asianati-night-market",
+    "https://www.fox19.com/2026/09/15/blink-2026-brings-back-familiar-favorites-plus-few-new-features/",
+    "https://www.blinkcincinnati.com/resources/park-and-ride",
+    "https://www.blinkcincinnati.com/plan-your-blink-visit/blink-around-town"
+   ]
+  },
+  {
+   "date": "2026-10-10",
+   "theme": "BLINK night 3",
+   "highlights": [
+    "BLINK installations 7:00-11:00 p.m.",
+    "Drone show \"Dimensions of Wonder\" over the Ohio River at 8 p.m. and 10 p.m.",
+    "Asianati Night Market on Court Street Plaza, 5-11 p.m. (hours per FOX19)",
+    "Fall Cov Craft makers market, 10 a.m.-4 p.m., Sixth Street Promenade, MainStrasse Village, Covington (sponsored by BLINK)",
+    "Harper Alive at The Mercantile Immersive from 1:00 PM (BLINK Around Town)",
+    "TANK Park & Ride from NKU runs Friday and Saturday only"
+   ],
+   "source_urls": [
+    "https://www.blinkcincinnati.com/",
+    "https://www.blinkcincinnati.com/blink-event-guide/mystic-eye-drone-show",
+    "https://www.blinkcincinnati.com/blink-event-guide/asianati-night-market",
+    "https://www.fox19.com/2026/09/15/blink-2026-brings-back-familiar-favorites-plus-few-new-features/",
+    "https://www.blinkcincinnati.com/plan-your-blink-visit/blink-around-town",
+    "https://www.blinkcincinnati.com/resources/park-and-ride"
+   ]
+  },
+  {
+   "date": "2026-10-11",
+   "theme": "BLINK final night",
+   "highlights": [
+    "BLINK installations 7:00-11:00 p.m.",
+    "Drone show \"Dimensions of Wonder\" over the Ohio River at 8 p.m. and 10 p.m.",
+    "Asianati Night Market on Court Street Plaza, 5-10 p.m. (hours per FOX19)",
+    "Harper Alive at The Mercantile Immersive at 3:00 PM (BLINK Around Town)"
+   ],
+   "source_urls": [
+    "https://www.blinkcincinnati.com/",
+    "https://www.blinkcincinnati.com/blink-event-guide/mystic-eye-drone-show",
+    "https://www.blinkcincinnati.com/blink-event-guide/asianati-night-market",
+    "https://www.fox19.com/2026/09/15/blink-2026-brings-back-familiar-favorites-plus-few-new-features/",
+    "https://www.blinkcincinnati.com/plan-your-blink-visit/blink-around-town"
+   ]
+  }
+ ],
+ "hours": "October 8-11 From 7:00PM to 11:00PM",
+ "hours_by_night": [
+  {
+   "date": "2026-10-08",
+   "start": "19:00",
+   "end": "23:00"
+  },
+  {
+   "date": "2026-10-09",
+   "start": "19:00",
+   "end": "23:00"
+  },
+  {
+   "date": "2026-10-10",
+   "start": "19:00",
+   "end": "23:00"
+  },
+  {
+   "date": "2026-10-11",
+   "start": "19:00",
+   "end": "23:00"
+  }
+ ],
+ "hours_notes": "Homepage: \"October 8-11 From 7:00PM to 11:00PM\"; Event Guide: \"The BLINK® experience is October 8-11, 2026 from 7-11pm.\" The homepage countdown targets October 8, 2026 19:00:00. Opening ceremony runs earlier (4-9 p.m. Oct. 8).",
+ "opening_ceremony": {
+  "name": "Ready. Set. BLINK! Opening Ceremony",
+  "date": "2026-10-08",
+  "start": "16:00",
+  "end": "21:00",
+  "time_text": "Thursday, October 8, 2026, from 4:00–9:00 p.m.",
+  "location_text": "The event will be held on Central Parkway between Liberty Street and West 14th Street, set against the iconic backdrop of TQL Stadium.",
+  "description": "New for 2026, the Ready. Set. BLINK! Opening Ceremony will offer a more immersive opening celebration that brings the community together. Featuring luminous interactive installations, electrifying live performances, hands-on creative experiences, and opportunities to create and wear your own light art, Ready, Set, BLINK! serves as the spark that ignites BLINK’s four-day celebration of art, creativity, technology, and community.",
+  "schedule_text": "Ready. Set. BLINK! begins at 4:00 p.m. with live music from local DJs and national performers, interactive and collaborative art installations, hands-on light art creation stations, and food and beverage vendors throughout the event footprint.\n\nAs the sun sets (approximately 7:00 p.m.), BLINK will officially begin with the Flip the Switch moment, launching a spectacular light and drone show featuring pyrotechnics.",
+  "replaces": "the opening parade (held Thursday nights in earlier editions; e.g. 2022 parade along Fifth Street)",
+  "faq_text": "Our opening parade is evolving into an immersive, 5-block celebration surrounding TQL Stadium in the West End! Join us on October 8th from 4:00 - 9:00 PM for live music, interactive light art, and local food vendors.",
+  "drone_show": {
+   "name": "First Sight",
+   "start": "20:30",
+   "time_text": "Thursday, 8:30pm over TQL Stadium",
+   "calendar_ics": "https://go.cincinnatichamber.com/l/958702/2026-08-20/gxsyz/958702/1787254710URgo8rZI/event__16_.ics",
+   "text": "Right before the end of the opening ceremony Thursday, the drones will light up the sky over TQL Stadium in a show called “First Sight,” starting at 8:30 p.m.",
+   "source_url": "https://www.blinkcincinnati.com/blink-event-guide/mystic-eye-drone-show",
+   "text_source_url": "https://www.fox19.com/2026/09/15/blink-2026-brings-back-familiar-favorites-plus-few-new-features/"
+  },
+  "calendar_ics": "https://go.cincinnatichamber.com/l/958702/2026-08-25/gy13z/958702/1787661059esfEW7ys/ready_set_blink_opening_ceremony.ics",
+  "call_for_participants": "https://artswave.submittable.com/submit/a473c27e-cc95-4030-ad33-3463aa9b9ecc/blink-2026-ready-set-blink-call-for-participants",
+  "parking_nearby": "Several parking garages and surface lots are available near the Ready. Set. BLINK! footprint, including the Findlay Market North Garage, Washington Park Garage, and Memorial Hall Surface Lot.",
+  "stage_text": "The event will be centered around an activated stage over the steps of the stadium, with live music, food and drink vendors, interactive art installations and community activations throughout the area.",
+  "source_url": "https://www.blinkcincinnati.com/blink-event-guide/ready-set-blink"
+ },
+ "hashtags": [],
+ "hashtags_notes": "No hashtag is published on blinkcincinnati.com (checked all captured pages); the homepage uses the handle @BlinkCincinnati.",
+ "social": {
+  "instagram": "https://www.instagram.com/blinkcincinnati",
+  "x": "https://twitter.com/blinkcincy",
+  "facebook": "https://www.facebook.com/blinkcincinnati",
+  "linkedin": null,
+  "tiktok": "https://www.tiktok.com/@blink.cincinnati",
+  "handle": "@BlinkCincinnati"
+ },
+ "contact": {
+  "email": "info@blinkcincinnati.com",
+  "phone": "(513) 579-3111",
+  "accessibility_email": "Access@blinkcincinnati.com",
+  "accessibility_text_line": "Text “BLINK” to 844-556-6998 (festival days, 6 pm to 11 pm; staffed by ALL IN EVENTS)",
+  "media": "Kathrine Nero, knero@gamedaypr.com (subject line \"BLINK Media Request\")",
+  "contact_form": "https://www.blinkcincinnati.com/about-blink/contact",
+  "contact_form_subjects": [
+   "General Inquiry",
+   "Volunteering",
+   "Sponsorship",
+   "Artist Support"
+  ],
+  "newsletter_form": "https://submit.jotform.com/submit/253525551170048/",
+  "sponsorship_form": "https://form.jotform.com/220373947333053",
+  "volunteer_signup": "https://timecounts.app/blink-2026",
+  "source_urls": [
+   "https://www.blinkcincinnati.com/blink-event-guide/ready-set-blink",
+   "https://www.blinkcincinnati.com/about-blink/contact",
+   "https://www.blinkcincinnati.com/faqs",
+   "https://www.blinkcincinnati.com/about-blink/press-room",
+   "https://www.blinkcincinnati.com/get-involved/volunteer",
+   "https://www.blinkcincinnati.com/get-involved/become-a-sponsor"
+  ]
+ },
+ "history": [
+  {
+   "year": 2017,
+   "fact": "In its inaugural year, Blink brought Cincinnati together under the vision of what a \"future city\" could be. Filled with light displays and art, the event stretched from The Banks across downtown to the edges of Over-the-Rhine. The free, four-day event was produced by local creative agency Brave Berlin, which built on the foundation of their Lumenocity events held in Washington Park from 2013–2015.",
+   "source_url": "https://www.blinkcincinnati.com/about-blink"
+  },
+  {
+   "year": 2017,
+   "fact": "The festival spanned 20 blocks, divided into four zones roughly following the streetcar route — The Banks, the Central Business District around Fountain Square, Over-the-Rhine near Washington Park, and Findlay Market — and featured 21 light projection mappings, a parade, multiple building murals, 27 art installations, and six stages of live entertainment. The event far surpassed expectations both in execution and attendance, drawing more than 1 million visitors — the largest gathering of people ever in downtown Cincinnati and Over-the-Rhine.",
+   "source_url": "https://www.blinkcincinnati.com/about-blink"
+  },
+  {
+   "year": 2017,
+   "fact": "“Cincinnati is experiencing a boom…Spotlighting the city’s fine arts, Blink Cincinnati, a display of light installations projected across 20 blocks, will run Oct. 12 to 15.”",
+   "source_url": "https://braveberlin.com/portfolio-item/blink/",
+   "notes": "2017 dates (Oct. 12-15, 2017) come from a press excerpt quoted on the Brave Berlin portfolio page."
+  },
+  {
+   "year": 2017,
+   "fact": "When it began in 2017, the Cincinnati Regional Chamber, along with BLINK's founding partners AGAR, ArtWorks, Brave Berlin, and the Carol Ann and Ralph V. Haile, Jr. Foundation, set out to create something bold: a massive, open-air art gallery that would invite people to see Cincinnati in a new light.",
+   "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+  },
+  {
+   "year": 2019,
+   "fact": "BLINK's second iteration promised to be bigger and bolder than the original event. The festival grew from 20 to 30 blocks and made its way across the Ohio River with its first venture into Covington, Kentucky. The event now included more than 40 interactive art installations and 11 new permanent murals on building facades throughout the route.",
+   "source_url": "https://www.blinkcincinnati.com/about-blink"
+  },
+  {
+   "year": 2019,
+   "fact": "The centerpiece of BLINK 2019 was the illumination of the historic Roebling Suspension Bridge — producers at Brave Berlin described their vision as bringing \"the singing bridge\" to life through light, color, and sound focused on the bridge's anchorage, gateway towers, arches, and spires. The event estimated to have brought in between 1.25 and 1.5 million people.",
+   "source_url": "https://www.blinkcincinnati.com/about-blink"
+  },
+  {
+   "year": 2019,
+   "fact": "CINCINNATI – Several traffic restrictions will be in place during evenings from Oct. 10 through Oct. 13 so Downtown Cincinnati streets can come alive for the return of BLINK®, an internationally celebrated art and light spectacular.",
+   "source_url": "https://www.cincinnati-oh.gov/cityofcincinnati/traffic-alerts/blink-2019-traffic-and-parking-information-for-return-of-art-and-light-event/",
+   "notes": "Source for the 2019 dates (Oct. 10-13, 2019)."
+  },
+  {
+   "year": 2021,
+   "fact": "BLINK was always intended to be a biennial event, taking place every other year, but due to the COVID-19 Pandemic, the event’s return in 2021 was put on hold.",
+   "source_url": "https://www.blinkcincinnati.com/files/assets/blinkeconomicimpactreport2022spreads.pdf"
+  },
+  {
+   "year": 2022,
+   "fact": "For the first time since the COVID-19 pandemic, BLINK returned, this time with a shift in leadership as the event transitioned from founder Brave Berlin to the Cincinnati Regional Chamber. The year's biggest debut was BLINK’s first-ever drone show, produced in partnership with Sky Elements Drone Shows. Presented twice nightly, the show featured 300 drones hovering over the Ohio River, creating unique visuals for attendees to enjoy.",
+   "source_url": "https://www.blinkcincinnati.com/about-blink"
+  },
+  {
+   "year": 2022,
+   "fact": "The event also introduced the Asianati Night Market as a new attraction within the Findlay Market zone. Reports showed that, for the first time, the event surpassed 2 million attendees, generating a significant economic impact for the region.",
+   "source_url": "https://www.blinkcincinnati.com/about-blink"
+  },
+  {
+   "year": 2022,
+   "fact": "Organizers announced today that BLINK® Cincinnati, illuminated by ArtsWave, the region’s engine for the arts, will return from October 13-16, 2022 under the leadership of a new executive director.",
+   "source_url": "https://cincinnatichamber.com/blog/blink-is-back-from-october-13-16-2022/",
+   "notes": "Source for the 2022 dates (Oct. 13-16, 2022)."
+  },
+  {
+   "year": 2022,
+   "fact": "Additionally, the event held a parade in which more than 85 arts and community groups and over 2,500 participants illuminated themselves and traveled along Fifth Street in Downtown Cincinnati.",
+   "source_url": "https://www.blinkcincinnati.com/files/assets/blinkeconomicimpactreport2022spreads.pdf"
+  },
+  {
+   "year": 2022,
+   "fact": "Fifth Street will be closed between Central Avenue and Broadway starting at 6:30 p.m. Thursday, Oct. 13, for the parade.",
+   "source_url": "https://www.cincinnati-oh.gov/dote/news/blink-2022-traffic-and-parking-information/",
+   "notes": "Route of the 2022 opening parade (City of Cincinnati traffic notice)."
+  },
+  {
+   "year": 2022,
+   "fact": "In October 2022, the nowhere-else BLINK experience attracted over 2 million attendees across the 4-day event, resulting in a direct economic impact of $126 million dollars.",
+   "source_url": "https://www.blinkcincinnati.com/newsroom/2023/02/28/blink-delivers-126m-direct-economic-impact-for-the-region"
+  },
+  {
+   "year": 2024,
+   "fact": "BLINK ‘Let it Shine’ Parade – Batavia High School Marching Band",
+   "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf",
+   "notes": "Photo caption in the 2024 impact report; the 2024 opening parade was titled \"Let it Shine\"."
+  },
+  {
+   "year": 2024,
+   "fact": "BLINK 2024 expanded into Newport, Kentucky, for the first time, extending the festival’s reach across all three riverfront cities and creating seven total event zones—the largest footprint in the festival’s history. This expansion further reinforced BLINK’s role as a regional event, connecting communities on both sides of the Ohio River through immersive art, light, and technology.",
+   "source_url": "https://www.blinkcincinnati.com/about-blink"
+  },
+  {
+   "year": 2024,
+   "fact": "The festival’s signature new spectacle was the “Supernova” laser light bridge, a 100-foot-wide array of laser light stretching across the Ohio River between Covington Landing and Sawyer Point. Running parallel to the iconic Roebling Suspension Bridge, the installation served as both a visual centerpiece and a symbolic connection between the cities, creating one of the festival’s most memorable experiences. Another first for BLINK was the introduction of “Afterglow,” a late-night concert series that extended the festival experience beyond its traditional programming.",
+   "source_url": "https://www.blinkcincinnati.com/about-blink"
+  },
+  {
+   "year": 2024,
+   "fact": "With the highly anticipated return of the public art spectacle slated for October 17-20, 2024, BLINK, Illuminated by ArtsWave is calling for artists to make the queen city shine.",
+   "source_url": "https://www.blinkcincinnati.com/newsroom/2023/09/19/blink-illuminated-by-artswave-calls-for-artists-to-illuminate-cincinnati-once-again-in-2024",
+   "notes": "Source for the 2024 dates (Oct. 17-20, 2024)."
+  },
+  {
+   "year": 2024,
+   "fact": "In 2024, the Cincinnati Regional Chamber, AGAR, ish!, and Cincy Nice forged a partnership with an extraordinary coalition of artists, sponsors, local governments, civic institutions, and creative leaders to deliver this experience.",
+   "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+  },
+  {
+   "year": 2024,
+   "fact": "Finally, we offer our thanks to BLINK’s first executive director, Justin Brookhart, who led BLINK in 2022 and 2024.",
+   "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+  },
+  {
+   "year": 2025,
+   "fact": "The leadership team behind BLINK®, the nation's largest immersive light and art event, is proud to announce Leslie Mooney as the festival’s new Vice President and Executive Director.",
+   "source_url": "https://www.blinkcincinnati.com/newsroom/2025/06/20/leslie-mooney-named-executive-director-of-blink",
+   "notes": "Announced June 20, 2025; \"Mooney will assume her new role in July\"."
+  },
+  {
+   "year": 2025,
+   "fact": "The leadership team behind BLINK®, the internationally celebrated immersive light and art event, today announced that BLINK will return to Cincinnati and Northern Kentucky from October 8-11, 2026.",
+   "source_url": "https://www.blinkcincinnati.com/newsroom/2025/07/08/blink-announces-2026-dates-and-opens-call-to-artists",
+   "notes": "Announced July 8, 2025, together with the opening of the 2026 Call to Artists."
+  },
+  {
+   "year": 2026,
+   "fact": "The London reception took place Tuesday, March 24, at Somerset House, followed by a reception in Paris on Thursday, March 26, at Galerie Joseph.",
+   "source_url": "https://linknky.com/culture/2026/04/11/blink-festival-global-expansion-cincinnati-economic-impact/"
+  },
+  {
+   "year": 2026,
+   "fact": "New for 2026, the Ready. Set. BLINK! Opening Ceremony will offer a more immersive opening celebration that brings the community together.",
+   "source_url": "https://www.blinkcincinnati.com/blink-event-guide/ready-set-blink",
+   "notes": "The opening ceremony replaces the opening parade held in previous editions (FAQ: \"Our opening parade is evolving into an immersive, 5-block celebration surrounding TQL Stadium in the West End!\")."
+  },
+  {
+   "year": 2026,
+   "fact": "BLINK, illuminated by ArtsWave, the country’s largest celebration of public art and light, is excited to announce the 90+ artists participating in its fifth edition, which will be free and open to the public across Cincinnati and the Northern Kentucky area from October 8–11, 2026.",
+   "source_url": "https://cincinnatichamber.com/blog/blink-a-festival-of-light-art-announces-exhibiting-artists-for-blink-2026-biennial/"
+  },
+  {
+   "year": 2026,
+   "fact": "Local arts nonprofit organization ArtsWave is once again the festival’s chief sponsor and will also simultaneously be celebrating its 100th anniversary in 2026—which ArtsWave is celebrating during BLINK with a giant art installation at the Aronoff Center.",
+   "source_url": "https://www.citybeat.com/arts/visual-arts/blink-celebrates-10-year-anniversary-in-2026/"
+  }
+ ],
+ "editions": [
+  {
+   "year": 2017,
+   "edition": 1,
+   "dates_text": "Oct. 12 to 15 (2017)",
+   "start": "2017-10-12",
+   "end": "2017-10-15",
+   "producer": "Brave Berlin",
+   "blocks": "20",
+   "attendance": "more than 1 million",
+   "zones": "four zones roughly following the streetcar route",
+   "highlights": [
+    "21 light projection mappings",
+    "a parade",
+    "multiple building murals",
+    "27 art installations",
+    "six stages of live entertainment"
+   ],
+   "source_urls": [
+    "https://www.blinkcincinnati.com/about-blink",
+    "https://braveberlin.com/portfolio-item/blink/"
+   ]
+  },
+  {
+   "year": 2019,
+   "edition": 2,
+   "dates_text": "Oct. 10 through Oct. 13 (2019)",
+   "start": "2019-10-10",
+   "end": "2019-10-13",
+   "producer": "Brave Berlin",
+   "blocks": "30 (grew from 20)",
+   "attendance": "estimated between 1.25 and 1.5 million",
+   "zones": null,
+   "highlights": [
+    "first venture into Covington, Kentucky",
+    "more than 40 interactive art installations",
+    "11 new permanent murals",
+    "illumination of the Roebling Suspension Bridge"
+   ],
+   "source_urls": [
+    "https://www.blinkcincinnati.com/about-blink",
+    "https://www.cincinnati-oh.gov/cityofcincinnati/traffic-alerts/blink-2019-traffic-and-parking-information-for-return-of-art-and-light-event/"
+   ]
+  },
+  {
+   "year": 2022,
+   "edition": 3,
+   "dates_text": "October 13-16, 2022",
+   "start": "2022-10-13",
+   "end": "2022-10-16",
+   "producer": "Cincinnati Regional Chamber (with AGAR, Haile Foundation, ArtWorks, Cincy Nice, ish)",
+   "blocks": "30+",
+   "attendance": "over 2 million (Center for Research & Data estimate: 2.16 million)",
+   "zones": "5",
+   "highlights": [
+    "first-ever drone show (300 drones, Sky Elements Drone Shows)",
+    "Asianati Night Market debuts in the Findlay Market zone",
+    "28 projection mapping installations",
+    "42 light & art installations",
+    "17 murals",
+    "parade with over 2,500 participants along Fifth Street"
+   ],
+   "direct_economic_impact": "$126 million",
+   "source_urls": [
+    "https://www.blinkcincinnati.com/about-blink",
+    "https://www.blinkcincinnati.com/files/assets/blinkeconomicimpactreport2022spreads.pdf",
+    "https://cincinnatichamber.com/blog/blink-is-back-from-october-13-16-2022/"
+   ]
+  },
+  {
+   "year": 2024,
+   "edition": 4,
+   "dates_text": "October 17-20, 2024",
+   "start": "2024-10-17",
+   "end": "2024-10-20",
+   "producer": "Cincinnati Regional Chamber (with AGAR, ish!, Cincy Nice)",
+   "blocks": "more than 30",
+   "attendance": "more than 2 million",
+   "zones": "7 (first expansion into Newport, Kentucky)",
+   "highlights": [
+    "“Supernova” laser light bridge across the Ohio River",
+    "“Afterglow” late-night concert series",
+    "37 projection mapping installations",
+    "31 light-based installations",
+    "19 permanent mural installations",
+    "400 drones in 2 shows each night"
+   ],
+   "direct_economic_impact": "$205 million",
+   "source_urls": [
+    "https://www.blinkcincinnati.com/about-blink",
+    "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf",
+    "https://www.blinkcincinnati.com/newsroom/2023/09/19/blink-illuminated-by-artswave-calls-for-artists-to-illuminate-cincinnati-once-again-in-2024"
+   ]
+  },
+  {
+   "year": 2026,
+   "edition": 5,
+   "dates_text": "October 8-11, 2026",
+   "start": "2026-10-08",
+   "end": "2026-10-11",
+   "producer": "Cincinnati Regional Chamber (executive producing partners: Cincinnati Regional Chamber, AGAR, Haile Foundation); illuminated by ArtsWave",
+   "blocks": "30+ (FAQ) / 35+ (Event Guide) / more than forty (June 8, 2026 release)",
+   "attendance": "forecast approximately 2.3 million (WCPO, June 8, 2026)",
+   "zones": "5 neighborhood zones on the Plan Your Visit page (Covington, The Banks, Over-the-Rhine, Findlay Market, Fountain District); the 2026 zone map also shows BLINK at Lytle Park",
+   "highlights": [
+    "Ready. Set. BLINK! Opening Ceremony replaces the parade (Oct. 8, 4-9 p.m., around TQL Stadium)",
+    "92 artists from 20 countries",
+    "Madison Walls: new murals in Covington",
+    "ArtsWave centennial installation at the Aronoff Center"
+   ],
+   "source_urls": [
+    "https://www.blinkcincinnati.com/faqs",
+    "https://www.blinkcincinnati.com/blink-event-guide/ready-set-blink",
+    "https://www.blinkcincinnati.com/newsroom/2026/06/08/blink-2026-participating-artists",
+    "https://www.wcpo.com/entertainment/local-a-e/blink-announces-new-block-party-opener-participating-artists-for-2026-festival",
+    "https://www.fox19.com/2026/09/15/blink-2026-brings-back-familiar-favorites-plus-few-new-features/",
+    "https://www.citybeat.com/arts/visual-arts/blink-celebrates-10-year-anniversary-in-2026/"
+   ]
+  }
+ ],
+ "stats": [
+  {
+   "label": "Dates (2026)",
+   "value": "October 8-11, 2026",
+   "year": 2026,
+   "source_url": "https://www.blinkcincinnati.com/faqs"
+  },
+  {
+   "label": "Nightly hours (2026)",
+   "value": "7:00 p.m. to 11:00 p.m.",
+   "year": 2026,
+   "source_url": "https://www.blinkcincinnati.com/",
+   "notes": "BLINK Around Town page: \"BLINK comes to life each night from 7-11 p.m.\""
+  },
+  {
+   "label": "Footprint (FAQ)",
+   "value": "30+ city blocks",
+   "year": 2026,
+   "source_url": "https://www.blinkcincinnati.com/faqs"
+  },
+  {
+   "label": "Footprint (Event Guide)",
+   "value": "35+ city blocks",
+   "year": 2026,
+   "source_url": "https://www.blinkcincinnati.com/blink-event-guide",
+   "notes": "The same site says 30+ on the FAQ page and \"more than forty downtown city blocks\" in the June 8, 2026 artists release; WCPO/FOX19 reported 60 blocks. Sources disagree."
+  },
+  {
+   "label": "Footprint (2026 artists release)",
+   "value": "more than forty downtown city blocks",
+   "year": 2026,
+   "source_url": "https://www.blinkcincinnati.com/newsroom/2026/06/08/blink-2026-participating-artists"
+  },
+  {
+   "label": "Artists (2026)",
+   "value": "92",
+   "year": 2026,
+   "source_url": "https://www.blinkcincinnati.com/newsroom/2026/06/08/blink-2026-participating-artists",
+   "notes": "Local 12 reported \"Ninety artists from 20 countries\"; the Chamber release says \"90+ artists\"."
+  },
+  {
+   "label": "Countries represented by artists (2026)",
+   "value": "20",
+   "year": 2026,
+   "source_url": "https://www.blinkcincinnati.com/newsroom/2026/06/08/blink-2026-participating-artists"
+  },
+  {
+   "label": "International artists (2026)",
+   "value": "40",
+   "year": 2026,
+   "source_url": "https://www.blinkcincinnati.com/newsroom/2026/06/08/blink-2026-participating-artists"
+  },
+  {
+   "label": "Artists from Cincinnati and Northern Kentucky (2026)",
+   "value": "30",
+   "year": 2026,
+   "source_url": "https://www.blinkcincinnati.com/newsroom/2026/06/08/blink-2026-participating-artists"
+  },
+  {
+   "label": "US-based artists (2026)",
+   "value": "59%",
+   "year": 2026,
+   "source_url": "https://www.blinkcincinnati.com/newsroom/2026/06/08/blink-2026-participating-artists"
+  },
+  {
+   "label": "New artists (2026)",
+   "value": "47",
+   "year": 2026,
+   "source_url": "https://www.blinkcincinnati.com/newsroom/2026/06/08/blink-2026-participating-artists"
+  },
+  {
+   "label": "Returning artists (2026)",
+   "value": "46",
+   "year": 2026,
+   "source_url": "https://www.blinkcincinnati.com/newsroom/2026/06/08/blink-2026-participating-artists"
+  },
+  {
+   "label": "Large-scale projection mappings (2026)",
+   "value": "90+",
+   "year": 2026,
+   "source_url": "https://www.blinkcincinnati.com/newsroom/2026/06/08/blink-2026-participating-artists",
+   "notes": "The About page (evergreen copy) says 80+."
+  },
+  {
+   "label": "Murals created through BLINK over the past decade",
+   "value": "Over 70",
+   "year": 2026,
+   "source_url": "https://www.blinkcincinnati.com/newsroom/2026/06/08/blink-2026-participating-artists"
+  },
+  {
+   "label": "Permanent murals as of BLINK 2024",
+   "value": "56",
+   "year": 2024,
+   "source_url": "https://www.blinkcincinnati.com/newsroom/2026/06/08/blink-2026-participating-artists"
+  },
+  {
+   "label": "Permanent murals after BLINK 2026",
+   "value": "75",
+   "year": 2026,
+   "source_url": "https://www.blinkcincinnati.com/newsroom/2026/06/08/blink-2026-participating-artists"
+  },
+  {
+   "label": "Artist submissions (2026 call)",
+   "value": "more than 800",
+   "year": 2026,
+   "source_url": "https://local12.com/news/local/blink-announces-new-opening-ceremonies-90-artists-2026-cincinnati-covington-artswave-block-party-murals-art-installations-safety-pureval"
+  },
+  {
+   "label": "Forecast attendance (2026)",
+   "value": "approximately 2.3 million",
+   "year": 2026,
+   "source_url": "https://www.wcpo.com/entertainment/local-a-e/blink-announces-new-block-party-opener-participating-artists-for-2026-festival"
+  },
+  {
+   "label": "Budget",
+   "value": "$7.5-8 million",
+   "year": 2026,
+   "source_url": "https://www.yahoo.com/news/articles/leslie-mooney-blink-radically-welcoming-051019142.html",
+   "notes": "Cincinnati Enquirer (People to Watch 2026), republished on Yahoo News."
+  },
+  {
+   "label": "Edition",
+   "value": "Fifth edition (fifth biennial)",
+   "year": 2026,
+   "source_url": "https://cincinnatichamber.com/blog/blink-a-festival-of-light-art-announces-exhibiting-artists-for-blink-2026-biennial/"
+  },
+  {
+   "label": "Call to Artists deadline (2026 edition)",
+   "value": "October 8, 2025",
+   "year": 2025,
+   "source_url": "https://www.blinkcincinnati.com/newsroom/2025/07/08/blink-announces-2026-dates-and-opens-call-to-artists"
+  },
+  {
+   "label": "Direct economic impact (2024)",
+   "value": "$205M+ (report detail: $205,243,931)",
+   "year": 2024,
+   "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+  },
+  {
+   "label": "Total economic impact (2024)",
+   "value": "$408,773,530 (about $409 million)",
+   "year": 2024,
+   "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+  },
+  {
+   "label": "Jobs supported or created (2024)",
+   "value": "3,487",
+   "year": 2024,
+   "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+  },
+  {
+   "label": "Total earnings (2024)",
+   "value": "$145,027,305",
+   "year": 2024,
+   "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+  },
+  {
+   "label": "Increase in direct economic impact from 2022 (2024)",
+   "value": "27%",
+   "year": 2024,
+   "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf",
+   "notes": "The report adds: \"Adjusting for that fact, and for inflation, this increase would be approximately 27%.\""
+  },
+  {
+   "label": "Direct jobs (2024)",
+   "value": "2,687",
+   "year": 2024,
+   "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+  },
+  {
+   "label": "Total economic impact of operations (2024)",
+   "value": "$15,067,134",
+   "year": 2024,
+   "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+  },
+  {
+   "label": "Broadcast impressions (2024)",
+   "value": "32 million",
+   "year": 2024,
+   "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+  },
+  {
+   "label": "Print/online impressions (2024)",
+   "value": "67 million",
+   "year": 2024,
+   "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+  },
+  {
+   "label": "Average hotel spending of non-local visitors (2024)",
+   "value": "$214 per night per room",
+   "year": 2024,
+   "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+  },
+  {
+   "label": "Tax revenue (2024)",
+   "value": "approximately $11.1 million",
+   "year": 2024,
+   "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+  },
+  {
+   "label": "Attendance (2024)",
+   "value": "more than 2 million over four nights",
+   "year": 2024,
+   "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+  },
+  {
+   "label": "Zones (2024)",
+   "value": "7",
+   "year": 2024,
+   "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+  },
+  {
+   "label": "City blocks (2024)",
+   "value": "more than 30",
+   "year": 2024,
+   "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+  },
+  {
+   "label": "Large-scale installations (2024)",
+   "value": "over 85",
+   "year": 2024,
+   "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+  },
+  {
+   "label": "Projection mapping installations (2024)",
+   "value": "37",
+   "year": 2024,
+   "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+  },
+  {
+   "label": "Light-based installations (2024)",
+   "value": "31",
+   "year": 2024,
+   "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+  },
+  {
+   "label": "Permanent mural installations (2024)",
+   "value": "19",
+   "year": 2024,
+   "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf",
+   "notes": "Page 6 of the PDF; the number is set in the page graphic (verified visually). Also stated in the July 8, 2025 BLINK release: \"19 permanent murals\"."
+  },
+  {
+   "label": "Drones in the drone show (2024)",
+   "value": "400 drones, 2 shows each night",
+   "year": 2024,
+   "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+  },
+  {
+   "label": "Non-local visitors (2024)",
+   "value": "19%",
+   "year": 2024,
+   "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+  },
+  {
+   "label": "First-year attendance (2024)",
+   "value": "19%",
+   "year": 2024,
+   "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+  },
+  {
+   "label": "Unique ZIP codes (2024 survey)",
+   "value": "216",
+   "year": 2024,
+   "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+  },
+  {
+   "label": "Countries represented by attendees (2024)",
+   "value": "15",
+   "year": 2024,
+   "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+  },
+  {
+   "label": "Net Promoter Score (2024)",
+   "value": "70",
+   "year": 2024,
+   "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+  },
+  {
+   "label": "Average hotel stay of non-local visitors (2024)",
+   "value": "2.3 nights",
+   "year": 2024,
+   "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+  },
+  {
+   "label": "Non-local visitor spending, total output (2024)",
+   "value": "$141,994,796",
+   "year": 2024,
+   "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+  },
+  {
+   "label": "Operations direct impact (2024)",
+   "value": "$7,263,332",
+   "year": 2024,
+   "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+  },
+  {
+   "label": "Artist applications (2024)",
+   "value": "944 artists from 65 countries",
+   "year": 2024,
+   "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+  },
+  {
+   "label": "Media mentions (2024)",
+   "value": "1,673",
+   "year": 2024,
+   "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+  },
+  {
+   "label": "Earned media value (2024)",
+   "value": "$2,861,618",
+   "year": 2024,
+   "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+  },
+  {
+   "label": "Survey responses (2024)",
+   "value": "1,017",
+   "year": 2024,
+   "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+  },
+  {
+   "label": "Direct economic impact (2022)",
+   "value": "$126M (report detail: $125,570,519)",
+   "year": 2022,
+   "source_url": "https://www.blinkcincinnati.com/files/assets/blinkeconomicimpactreport2022spreads.pdf"
+  },
+  {
+   "label": "Total economic output (2022)",
+   "value": "$249.3 million",
+   "year": 2022,
+   "source_url": "https://www.blinkcincinnati.com/files/assets/blinkeconomicimpactreport2022spreads.pdf"
+  },
+  {
+   "label": "Jobs supported (2022)",
+   "value": "1,687",
+   "year": 2022,
+   "source_url": "https://www.blinkcincinnati.com/files/assets/blinkeconomicimpactreport2022spreads.pdf"
+  },
+  {
+   "label": "Tax revenue (2022)",
+   "value": "$6,806,796",
+   "year": 2022,
+   "source_url": "https://www.blinkcincinnati.com/files/assets/blinkeconomicimpactreport2022spreads.pdf"
+  },
+  {
+   "label": "Estimated attendance (2022)",
+   "value": "2.16 million across four days; 926,400 unique adults",
+   "year": 2022,
+   "source_url": "https://www.blinkcincinnati.com/files/assets/blinkeconomicimpactreport2022spreads.pdf"
+  },
+  {
+   "label": "City blocks (2022)",
+   "value": "30+",
+   "year": 2022,
+   "source_url": "https://www.blinkcincinnati.com/files/assets/blinkeconomicimpactreport2022spreads.pdf"
+  },
+  {
+   "label": "Zones (2022)",
+   "value": "5",
+   "year": 2022,
+   "source_url": "https://www.blinkcincinnati.com/files/assets/blinkeconomicimpactreport2022spreads.pdf"
+  },
+  {
+   "label": "Experiences (2022)",
+   "value": "100+",
+   "year": 2022,
+   "source_url": "https://www.blinkcincinnati.com/files/assets/blinkeconomicimpactreport2022spreads.pdf"
+  },
+  {
+   "label": "Projection mapping installations (2022)",
+   "value": "28",
+   "year": 2022,
+   "source_url": "https://www.blinkcincinnati.com/files/assets/blinkeconomicimpactreport2022spreads.pdf"
+  },
+  {
+   "label": "Light and art installations (2022)",
+   "value": "42",
+   "year": 2022,
+   "source_url": "https://www.blinkcincinnati.com/files/assets/blinkeconomicimpactreport2022spreads.pdf"
+  },
+  {
+   "label": "Murals (2022)",
+   "value": "17",
+   "year": 2022,
+   "source_url": "https://www.blinkcincinnati.com/files/assets/blinkeconomicimpactreport2022spreads.pdf"
+  },
+  {
+   "label": "Drones (2022)",
+   "value": "300 drones, 2 shows each night",
+   "year": 2022,
+   "source_url": "https://www.blinkcincinnati.com/files/assets/blinkeconomicimpactreport2022spreads.pdf"
+  },
+  {
+   "label": "Parade participants (2022)",
+   "value": "over 2,500 (report also shows 3,000+)",
+   "year": 2022,
+   "source_url": "https://www.blinkcincinnati.com/files/assets/blinkeconomicimpactreport2022spreads.pdf"
+  },
+  {
+   "label": "Survey responses (2022)",
+   "value": "2,469",
+   "year": 2022,
+   "source_url": "https://www.blinkcincinnati.com/files/assets/blinkeconomicimpactreport2022spreads.pdf"
+  },
+  {
+   "label": "Operations expenditures (2022)",
+   "value": "approximately $6.35 million",
+   "year": 2022,
+   "source_url": "https://www.blinkcincinnati.com/files/assets/blinkeconomicimpactreport2022spreads.pdf"
+  },
+  {
+   "label": "Artists (2022)",
+   "value": "71 (18 international, 21 U.S.-based, 32 local)",
+   "year": 2022,
+   "source_url": "https://www.blinkcincinnati.com/newsroom/2023/07/10/blink-illuminated-by-artswave-returns-in-2024-to-light-up-cincinnati-for-its-fourth-edition"
+  },
+  {
+   "label": "States represented by attendees (2022)",
+   "value": "29",
+   "year": 2022,
+   "source_url": "https://www.blinkcincinnati.com/newsroom/2023/07/10/blink-illuminated-by-artswave-returns-in-2024-to-light-up-cincinnati-for-its-fourth-edition"
+  },
+  {
+   "label": "Direct artist commissions, honorariums and art fees (2022)",
+   "value": "$1.5 million",
+   "year": 2022,
+   "source_url": "https://www.blinkcincinnati.com/newsroom/2023/02/28/blink-delivers-126m-direct-economic-impact-for-the-region"
+  },
+  {
+   "label": "Attendance (2019)",
+   "value": "estimated 1.25 to 1.5 million",
+   "year": 2019,
+   "source_url": "https://www.blinkcincinnati.com/about-blink"
+  },
+  {
+   "label": "Interactive art installations (2019)",
+   "value": "more than 40",
+   "year": 2019,
+   "source_url": "https://www.blinkcincinnati.com/about-blink"
+  },
+  {
+   "label": "New permanent murals (2019)",
+   "value": "11",
+   "year": 2019,
+   "source_url": "https://www.blinkcincinnati.com/about-blink"
+  },
+  {
+   "label": "City blocks (2019)",
+   "value": "30 (grew from 20)",
+   "year": 2019,
+   "source_url": "https://www.blinkcincinnati.com/about-blink"
+  },
+  {
+   "label": "Attendance (2017)",
+   "value": "more than 1 million",
+   "year": 2017,
+   "source_url": "https://www.blinkcincinnati.com/about-blink"
+  },
+  {
+   "label": "City blocks (2017)",
+   "value": "20",
+   "year": 2017,
+   "source_url": "https://www.blinkcincinnati.com/about-blink"
+  },
+  {
+   "label": "Projection mappings (2017)",
+   "value": "21",
+   "year": 2017,
+   "source_url": "https://www.blinkcincinnati.com/about-blink"
+  },
+  {
+   "label": "Art installations (2017)",
+   "value": "27",
+   "year": 2017,
+   "source_url": "https://www.blinkcincinnati.com/about-blink"
+  },
+  {
+   "label": "Live entertainment stages (2017)",
+   "value": "6",
+   "year": 2017,
+   "source_url": "https://www.blinkcincinnati.com/about-blink"
+  }
+ ],
+ "leadership": [
+  {
+   "name": "Leslie Mooney",
+   "title": "Vice President and Executive Director, BLINK",
+   "org": "Cincinnati Regional Chamber",
+   "source_url": "https://www.blinkcincinnati.com/newsroom/2025/06/20/leslie-mooney-named-executive-director-of-blink"
+  },
+  {
+   "name": "Andrew Salzbrun",
+   "title": "Managing Partner at AGAR and co-creator of BLINK",
+   "org": "AGAR",
+   "source_url": "https://www.blinkcincinnati.com/newsroom/2025/06/20/leslie-mooney-named-executive-director-of-blink"
+  },
+  {
+   "name": "Holly Maniatty",
+   "title": "Accessibility Director (ALL IN EVENTS)",
+   "org": "ALL IN EVENTS",
+   "source_url": "https://www.blinkcincinnati.com/faqs"
+  },
+  {
+   "name": "Kareem Simpson",
+   "title": "Curatorial ambassador; leader of Sparklight Creative Group",
+   "org": "Sparklight Creative Group",
+   "source_url": "https://www.citybeat.com/arts/visual-arts/blink-celebrates-10-year-anniversary-in-2026/"
+  },
+  {
+   "name": "Kathrine Nero",
+   "title": "Press contact (media requests)",
+   "org": "Gameday PR (knero@gamedaypr.com)",
+   "source_url": "https://www.blinkcincinnati.com/about-blink/press-room"
+  },
+  {
+   "name": "Justin Brookhart",
+   "title": "Former executive director (led BLINK in 2022 and 2024)",
+   "org": "Cincinnati Regional Chamber",
+   "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf"
+  }
+ ],
+ "impact_reports": [
+  {
+   "year": 2024,
+   "title": "BLINK 2024 Impact Report",
+   "url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf",
+   "pages": 28,
+   "producer": "Center for Research & Data, Cincinnati Regional Chamber",
+   "linked_from": "https://www.blinkcincinnati.com/about-blink/impact-report"
+  },
+  {
+   "year": 2022,
+   "title": "BLINK Economic Impact Report (2022)",
+   "url": "https://www.blinkcincinnati.com/files/assets/blinkeconomicimpactreport2022spreads.pdf",
+   "pages": 11,
+   "producer": "Center for Research & Data, Cincinnati USA Regional Chamber",
+   "linked_from": "https://www.blinkcincinnati.com/newsroom/2023/02/28/blink-delivers-126m-direct-economic-impact-for-the-region"
+  }
+ ],
+ "apps": [
+  {
+   "name": "ArtsWave App (BLINK Hub)",
+   "url": "https://onelink.to/artswaveapp",
+   "info_url": "https://artswave.org/what-is-artswave/the-artswave-app-blink/",
+   "price": "Free",
+   "notes": "Download the ArtsWave App and, throughout BLINK and the entire month of October, you’ll get the ArtsWave Pass at no cost. Heading to BLINK, illuminated by ArtsWave? Discover app-only deals, hidden BLINK menu items at restaurants along the route, a special app user-only speak-easy experience, festival info and more with the BLINK Hub."
+  }
+ ],
+ "related_programs": [
+  {
+   "id": "caw",
+   "text": "From October 3–10, 2026, Cincinnati Art Week (CAW) debuts as a new annual celebration of connection, culture, and creativity.",
+   "url": "https://cincinnatiartweek.com/",
+   "source_url": "https://www.blinkcincinnati.com/plan-your-blink-visit/blink-around-town"
+  }
+ ],
+ "get_involved": {
+  "call_to_artists_2026": "The 2026 Call to Artists is CLOSED, be sure to follow us on Instagram for updates on future Call to Artists",
+  "volunteer": "BLINK 2026 spans 30+ city blocks across Cincinnati and Northern Kentucky, and volunteers are at the heart of it.",
+  "volunteer_url": "https://timecounts.app/blink-2026",
+  "sponsor_url": "https://form.jotform.com/220373947333053",
+  "source_url": "https://www.blinkcincinnati.com/get-involved"
+ },
+ "merchandise": {
+  "url": "https://www.blinkcincinnati.com/shop-blink",
+  "store": "https://www.amazon.com/hz/wishlist/ls/2R3CTC3QG4EPT?ref_=wl_share",
+  "items": [
+   "Blink Hat",
+   "2026 Blink T-Shirt",
+   "BLINK T-Shirt",
+   "BLINK Tote Bag",
+   "BLINK Sweatshirt",
+   "BLINK Tumbler",
+   "BLINK Hoodie",
+   "BLINK Water Bottle"
+  ],
+  "notes": "Shop BLINK page links to an Amazon list; item names as listed on the page."
+ },
+ "logo": {
+  "url": "https://www.blinkcincinnati.com/images/Blink_26_ArtswaveLockup_RGB.svg",
+  "format": "svg",
+  "on": "dark",
+  "notes": "Header lockup \"BLINK 2026 / illuminated by artswave\". The SVG only wraps an embedded 706x465 PNG. Largest original found: https://cincinnatichamber.com/wp-content/uploads/2026/06/Blink_26_ArtswaveLockup_PMS-scaled.jpg (2560x1687 JPG)."
+ },
+ "brand": {
+  "colors": [
+   "#f4475d",
+   "#000000",
+   "#ffffff",
+   "#ffd933",
+   "#60d9fc",
+   "#175ae2",
+   "#00c8aa",
+   "#c8ff1f"
+  ],
+  "color_notes": {
+   "#f4475d": "BLINK coral red: lockup panel, favicon, CSS (42 uses)",
+   "#000000": "site background",
+   "#ffffff": "type",
+   "#ffd933": "yellow accent (63 CSS uses; corner shapes)",
+   "#60d9fc": "cyan accent",
+   "#175ae2": "blue accent (corner shapes)",
+   "#00c8aa": "ArtsWave teal tab in the 2026 lockup",
+   "#c8ff1f": "lime (eye graphic; share image uses ~#cdff00)"
+  },
+  "fonts": [
+   "korolev",
+   "korolev-condensed",
+   "Ratio"
+  ],
+  "font_notes": "korolev / korolev-condensed via Adobe Fonts kit https://use.typekit.net/idd3sfp.css (headings: korolev-condensed 900, uppercase). Ratio is self-hosted (/fonts/ratio*-webfont.woff2). site.css also imports fast.fonts.net/cssapi/c459f08e-2323-4328-bd21-c3f4b395c833.css.",
+  "source_url": "https://www.blinkcincinnati.com/css/site.css",
+  "zone_colors": {
+   "Findlay Market Zone": "#f26d5a",
+   "OTR Zone": "#f04d5e",
+   "Fountain Zone": "#3d61ad",
+   "The Banks Zone": "#00b6b2",
+   "Covington Zone": "#6dcff2"
+  },
+  "zone_colors_notes": "Pixel colors measured (most common exact color inside each zone block) from the 2026 zone map image https://www.blinkcincinnati.com/files/pages/scale/crop/blinkmap2026zones2.jpg (JPEG, so values are approximate). The map also marks \"BLINK at Lytle Park\" (with support from Western & Southern Financial Group).",
+  "zone_colors_source_url": "https://www.blinkcincinnati.com/blink-event-guide/maps-guides"
+ },
+ "source_url": "https://www.blinkcincinnati.com/about-blink"
+}

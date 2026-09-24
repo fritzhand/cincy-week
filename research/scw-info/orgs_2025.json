@@ -1,0 +1,618 @@
+[
+  {
+    "id": "procter-and-gamble",
+    "name": "Procter & Gamble (P&G)",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Title Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1753183351procter-amp-gamble-logo-svg-png1753183351.png",
+    "url": "https://us.pg.com/",
+    "source_url": "https://startupcincyweek.com/en/sponsors-page",
+    "year": 2025,
+    "notes": "StartupCincy Week 2025 sponsor (history). Identified from the logo image (logo text: \"P&G\"). URL taken from the matching 2026 sponsor record (same organization)."
+  },
+  {
+    "id": "cintrifuse",
+    "name": "Cintrifuse and Cintrifuse Capital",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Title Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1753194057cintri-png1753194057.png",
+    "url": "https://cintrifuse.com/",
+    "source_url": "https://startupcincyweek.com/en/sponsors-page",
+    "year": 2025,
+    "notes": "StartupCincy Week 2025 sponsor (history). Identified from the logo image (logo text: \"cintrifuse | cintrifuse capital\"). URL taken from the matching 2026 sponsor record (same organization)."
+  },
+  {
+    "id": "fidelity-investments",
+    "name": "Fidelity Investments",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Title Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1753183351fidelity-2022-png1753183351.png",
+    "url": null,
+    "source_url": "https://startupcincyweek.com/en/sponsors-page",
+    "year": 2025,
+    "notes": "StartupCincy Week 2025 sponsor (history). Identified from the logo image (logo text: \"Fidelity INVESTMENTS\")."
+  },
+  {
+    "id": "miami-university",
+    "name": "Miami University",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Presenting Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17531838462025-sucw-sponsor-logos-miami-university-jpg1753183846.jpg",
+    "url": "https://miamioh.edu/",
+    "source_url": "https://startupcincyweek.com/en/sponsors-page",
+    "year": 2025,
+    "notes": "StartupCincy Week 2025 sponsor (history). Identified from the logo image (logo text: \"MIAMI UNIVERSITY\"). URL taken from the matching 2026 sponsor record (same organization)."
+  },
+  {
+    "id": "fifth-third",
+    "name": "Fifth Third",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Presenting Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17531838462025-sucw-sponsor-logos-fifth-third-jpg1753183846.jpg",
+    "url": "https://www.53.com/",
+    "source_url": "https://startupcincyweek.com/en/sponsors-page",
+    "year": 2025,
+    "notes": "StartupCincy Week 2025 sponsor (history). Identified from the logo image (logo text: \"FIFTH THIRD\"). URL taken from the matching 2026 sponsor record (same organization)."
+  },
+  {
+    "id": "cincytech",
+    "name": "CincyTech",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Presenting Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17531838462025-sucw-sponsor-logos-cincytech-jpg1753183846.jpg",
+    "url": "https://www.cincytechusa.com/",
+    "source_url": "https://startupcincyweek.com/en/sponsors-page",
+    "year": 2025,
+    "notes": "StartupCincy Week 2025 sponsor (history). Identified from the logo image (logo text: \"cincytech\"). URL taken from the matching 2026 sponsor record (same organization)."
+  },
+  {
+    "id": "miami-university-online",
+    "name": "Miami University Online",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Presenting Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17531838460721-ptier1-miamionline-hs-c41230kw-k-digital-png1753183846.png",
+    "url": null,
+    "source_url": "https://startupcincyweek.com/en/sponsors-page",
+    "year": 2025,
+    "notes": "StartupCincy Week 2025 sponsor (history). Identified from the logo image (logo text: \"MIAMI UNIVERSITY | ONLINE\")."
+  },
+  {
+    "id": "thompson-hine",
+    "name": "Thompson Hine",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Presenting Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1753183846thompson-hine-2014-logo-bw-blk-png1753183846.png",
+    "url": "https://www.thompsonhine.com/",
+    "source_url": "https://startupcincyweek.com/en/sponsors-page",
+    "year": 2025,
+    "notes": "StartupCincy Week 2025 sponsor (history). Identified from the logo image (logo text: \"THOMPSON HINE\"). URL taken from the matching 2026 sponsor record (same organization)."
+  },
+  {
+    "id": "mobile-infrastructure",
+    "name": "Mobile Infrastructure",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Presenting Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1753183351logo-png1753183351.png",
+    "url": "https://www.mobileit.com/",
+    "source_url": "https://startupcincyweek.com/en/sponsors-page",
+    "year": 2025,
+    "notes": "StartupCincy Week 2025 sponsor (history). Identified from the logo image (logo text: \"MOBILE INFRASTRUCTURE\"). URL taken from the matching 2026 sponsor record (same organization)."
+  },
+  {
+    "id": "frost-brown-todd",
+    "name": "Frost Brown Todd",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Presenting Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1753183846fbt-attorneys-color-transparent-1-png1753183846.png",
+    "url": null,
+    "source_url": "https://startupcincyweek.com/en/sponsors-page",
+    "year": 2025,
+    "notes": "StartupCincy Week 2025 sponsor (history). Identified from the logo image (logo text: \"Frost Brown Todd ATTORNEYS\")."
+  },
+  {
+    "id": "sam-adams",
+    "name": "Samuel Adams: Brewing the American Dream",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Presenting Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1753183846btad-navycoloredlogo-update092519-01-03-04-0-png1753183846.png",
+    "url": "https://www.samueladams.com/",
+    "source_url": "https://startupcincyweek.com/en/sponsors-page",
+    "year": 2025,
+    "notes": "StartupCincy Week 2025 sponsor (history). Identified from the logo image (logo text: \"BREWING THE American DREAM / SAMUEL ADAMS\"). URL taken from the matching 2026 sponsor record (same organization)."
+  },
+  {
+    "id": "1819-innovation-hub",
+    "name": "1819 Innovation Hub",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Presenting Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17531838461819-logo-blk-1-png1753183846.png",
+    "url": null,
+    "source_url": "https://startupcincyweek.com/en/sponsors-page",
+    "year": 2025,
+    "notes": "StartupCincy Week 2025 sponsor (history). Identified from the logo image (logo text: \"1819 innovation hub\")."
+  },
+  {
+    "id": "pieces",
+    "name": "Pieces",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Presenting Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1753183846pieces-png1753183846.png",
+    "url": null,
+    "source_url": "https://startupcincyweek.com/en/sponsors-page",
+    "year": 2025,
+    "notes": "StartupCincy Week 2025 sponsor (history). Identified from the logo image (logo text: \"PIECES\")."
+  },
+  {
+    "id": "taft",
+    "name": "Taft",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Partner Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1753184129taft-logo-png1753184129.png",
+    "url": "https://www.taftlaw.com/",
+    "source_url": "https://startupcincyweek.com/en/sponsors-page",
+    "year": 2025,
+    "notes": "StartupCincy Week 2025 sponsor (history). Identified from the logo image (logo text: \"Taft/\"). URL taken from the matching 2026 sponsor record (same organization)."
+  },
+  {
+    "id": "refinery-ventures",
+    "name": "Refinery Ventures",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Partner Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1753184129refinery-ventures-png1753184129.png",
+    "url": null,
+    "source_url": "https://startupcincyweek.com/en/sponsors-page",
+    "year": 2025,
+    "notes": "StartupCincy Week 2025 sponsor (history). Identified from the logo image (logo text: \"RE REFINERY VENTURES\")."
+  },
+  {
+    "id": "outlander",
+    "name": "Outlander",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Partner Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1753184129outlander-logo-1-png1753184129.png",
+    "url": null,
+    "source_url": "https://startupcincyweek.com/en/sponsors-page",
+    "year": 2025,
+    "notes": "StartupCincy Week 2025 sponsor (history). Identified from the logo image (logo text: \"OUTLANDER\")."
+  },
+  {
+    "id": "kroger",
+    "name": "Kroger",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Partner Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1753184129kroger-logo-transparent-png-png1753184129.png",
+    "url": "https://www.kroger.com/",
+    "source_url": "https://startupcincyweek.com/en/sponsors-page",
+    "year": 2025,
+    "notes": "StartupCincy Week 2025 sponsor (history). Identified from the logo image (logo text: \"Kroger\"). URL taken from the matching 2026 sponsor record (same organization)."
+  },
+  {
+    "id": "main-street-ventures",
+    "name": "Main Street Ventures",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Partner Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17531841297348352-logo-png1753184129.png",
+    "url": null,
+    "source_url": "https://startupcincyweek.com/en/sponsors-page",
+    "year": 2025,
+    "notes": "StartupCincy Week 2025 sponsor (history). Identified from the logo image (logo text: \"MAIN ST VENTURES\")."
+  },
+  {
+    "id": "queen-city-angels",
+    "name": "Queen City Angels",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Partner Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1753194057queen-png1753194057.png",
+    "url": null,
+    "source_url": "https://startupcincyweek.com/en/sponsors-page",
+    "year": 2025,
+    "notes": "StartupCincy Week 2025 sponsor (history). Identified from the logo image (logo text: \"QUEEN CITY ANGELS\")."
+  },
+  {
+    "id": "thunderdome-restaurant-group",
+    "name": "Thunderdome Restaurant Group",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Partner Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1759335462getlogofile-png1759335462.png",
+    "url": null,
+    "source_url": "https://startupcincyweek.com/en/sponsors-page",
+    "year": 2025,
+    "notes": "StartupCincy Week 2025 sponsor (history). Identified from the logo image (logo text: \"THUNDERDOME RESTAURANT GROUP\")."
+  },
+  {
+    "id": "altafiber",
+    "name": "altafiber",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Partner Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1756217338altafiber-2025-sucw-sponsor-logos-png1756217338.png",
+    "url": null,
+    "source_url": "https://startupcincyweek.com/en/sponsors-page",
+    "year": 2025,
+    "notes": "StartupCincy Week 2025 sponsor (history). Identified from the logo image (logo text: \"altafiber\")."
+  },
+  {
+    "id": "hyde-park-venture-partners",
+    "name": "Hyde Park Venture Partners",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Advocate Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17531846322025-sucw-sponsor-logos-hyde-park-jpg1753184632.jpg",
+    "url": "https://www.hydeparkvp.com/",
+    "source_url": "https://startupcincyweek.com/en/sponsors-page",
+    "year": 2025,
+    "notes": "StartupCincy Week 2025 sponsor (history). Identified from the logo image (logo text: \"HYDE PARK VENTURE PARTNERS\"). URL taken from the matching 2026 sponsor record (same organization)."
+  },
+  {
+    "id": "hard-rock-casino",
+    "name": "Hard Rock Casino Cincinnati",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Advocate Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17531846322025-sucw-sponsor-logos-hard-rock-jpg1753184632.jpg",
+    "url": "https://casino.hardrock.com/cincinnati",
+    "source_url": "https://startupcincyweek.com/en/sponsors-page",
+    "year": 2025,
+    "notes": "StartupCincy Week 2025 sponsor (history). Identified from the logo image (logo text: \"Hard Rock CASINO CINCINNATI\"). URL taken from the matching 2026 sponsor record (same organization)."
+  },
+  {
+    "id": "calfee",
+    "name": "Calfee",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Advocate Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17531846322025-sucw-sponsor-logos-calfee-jpg1753184632.jpg",
+    "url": null,
+    "source_url": "https://startupcincyweek.com/en/sponsors-page",
+    "year": 2025,
+    "notes": "StartupCincy Week 2025 sponsor (history). Identified from the logo image (logo text: \"CALFEE\")."
+  },
+  {
+    "id": "book-plus-street",
+    "name": "Book + Street",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Advocate Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17531846322025-sucw-sponsor-logos-book-amp-street-jpg1753184632.jpg",
+    "url": "https://www.bookandstreet.com/",
+    "source_url": "https://startupcincyweek.com/en/sponsors-page",
+    "year": 2025,
+    "notes": "StartupCincy Week 2025 sponsor (history). Identified from the logo image (logo text: \"book + street\"). URL taken from the matching 2026 sponsor record (same organization)."
+  },
+  {
+    "id": "alloy-development-co",
+    "name": "Alloy Development Co.",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Advocate Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17531846322025-sucw-sponsor-logos-alloy-jpg1753184632.jpg",
+    "url": null,
+    "source_url": "https://startupcincyweek.com/en/sponsors-page",
+    "year": 2025,
+    "notes": "StartupCincy Week 2025 sponsor (history). Identified from the logo image (logo text: \"Alloy DEVELOPMENT CO.\")."
+  },
+  {
+    "id": "redi-cincinnati",
+    "name": "REDI Cincinnati",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Advocate Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1753184632redi-logo-png1753184632.png",
+    "url": "https://redicincinnati.com/",
+    "source_url": "https://startupcincyweek.com/en/sponsors-page",
+    "year": 2025,
+    "notes": "StartupCincy Week 2025 sponsor (history). Identified from the logo image (logo text: \"REDI CINCINNATI\"). URL taken from the matching 2026 sponsor record (same organization)."
+  },
+  {
+    "id": "paychex",
+    "name": "Paychex",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Advocate Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1753184632paychex-logo-svg-png1753184632.png",
+    "url": null,
+    "source_url": "https://startupcincyweek.com/en/sponsors-page",
+    "year": 2025,
+    "notes": "StartupCincy Week 2025 sponsor (history). Identified from the logo image (logo text: \"PAYCHEX\")."
+  },
+  {
+    "id": "origin-ventures",
+    "name": "Origin Ventures",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Advocate Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1753184632ov-brand-guidelines-22-png1753184632.png",
+    "url": "https://www.originventures.com/",
+    "source_url": "https://startupcincyweek.com/en/sponsors-page",
+    "year": 2025,
+    "notes": "StartupCincy Week 2025 sponsor (history). Identified from the logo image (logo text: \"Origin Ventures\"). URL taken from the matching 2026 sponsor record (same organization)."
+  },
+  {
+    "id": "keyhorse-capital",
+    "name": "Keyhorse Capital",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Advocate Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1753184632c9ded4-20f1d446b34b412db70758f24099523b-mv2-png1753184632.png",
+    "url": "https://www.keyhorse.vc/",
+    "source_url": "https://startupcincyweek.com/en/sponsors-page",
+    "year": 2025,
+    "notes": "StartupCincy Week 2025 sponsor (history). Identified from the logo image (logo text: \"KEYHORSE CAPITAL\"). URL taken from the matching 2026 sponsor record (same organization)."
+  },
+  {
+    "id": "customers-bank",
+    "name": "Customers Bank",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Advocate Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1753184819customers-bank-logo2x-png1753184819.png",
+    "url": null,
+    "source_url": "https://startupcincyweek.com/en/sponsors-page",
+    "year": 2025,
+    "notes": "StartupCincy Week 2025 sponsor (history). Identified from the logo image (logo text: \"customers bank\")."
+  },
+  {
+    "id": "the-marketer-collaborative",
+    "name": "The Marketer Collaborative",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Advocate Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1757006760mc2025-sucw-sponsor-logos-png1757006760.png",
+    "url": null,
+    "source_url": "https://startupcincyweek.com/en/sponsors-page",
+    "year": 2025,
+    "notes": "StartupCincy Week 2025 sponsor (history). Identified from the logo image (logo text: \"The Marketer COLLABORATIVE / CREATE CONNECT THRIVE\")."
+  },
+  {
+    "id": "us-bank",
+    "name": "U.S. Bank",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Advocate Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1757100704us-bank-png1757100704.png",
+    "url": "https://www.usbank.com/",
+    "source_url": "https://startupcincyweek.com/en/sponsors-page",
+    "year": 2025,
+    "notes": "StartupCincy Week 2025 sponsor (history). Identified from the logo image (logo text: \"us bank\"). URL taken from the matching 2026 sponsor record (same organization)."
+  },
+  {
+    "id": "lifesciky",
+    "name": "LifeSciKY",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Community Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17531850922025-sucw-sponsor-logos-life-sci-ky-jpg1753185092.jpg",
+    "url": "https://lifesciky.com/",
+    "source_url": "https://startupcincyweek.com/en/sponsors-page",
+    "year": 2025,
+    "notes": "StartupCincy Week 2025 sponsor (history). Identified from the logo image (logo text: \"LIFE SCI KY\"). URL taken from the matching 2026 sponsor record (same organization)."
+  },
+  {
+    "id": "blue-north",
+    "name": "Blue North",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Community Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17531850912025-sucw-sponsor-logos-blue-north-jpg1753185091.jpg",
+    "url": "https://bluenorthky.com/",
+    "source_url": "https://startupcincyweek.com/en/sponsors-page",
+    "year": 2025,
+    "notes": "StartupCincy Week 2025 sponsor (history). Identified from the logo image (logo text: \"Blue North\"). URL taken from the matching 2026 sponsor record (same organization)."
+  },
+  {
+    "id": "achievers-network",
+    "name": "Achievers Network",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Community Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17531850912025-sucw-sponsor-logos-achievers-jpg1753185091.jpg",
+    "url": null,
+    "source_url": "https://startupcincyweek.com/en/sponsors-page",
+    "year": 2025,
+    "notes": "StartupCincy Week 2025 sponsor (history). Identified from the logo image (logo text: \"ACHIEVERS NETWORK\")."
+  },
+  {
+    "id": "svb",
+    "name": "Silicon Valley Bank (SVB)",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Community Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1753185398svb-png1753185398.png",
+    "url": "https://www.svb.com/",
+    "source_url": "https://startupcincyweek.com/en/sponsors-page",
+    "year": 2025,
+    "notes": "StartupCincy Week 2025 sponsor (history). Identified from the logo image (logo text: \"svb Silicon Valley Bank\"). URL taken from the matching 2026 sponsor record (same organization)."
+  },
+  {
+    "id": "pwc",
+    "name": "PwC",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Community Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1753185398pwc-png1753185398.png",
+    "url": null,
+    "source_url": "https://startupcincyweek.com/en/sponsors-page",
+    "year": 2025,
+    "notes": "StartupCincy Week 2025 sponsor (history). Identified from the logo image (logo text: \"pwc\")."
+  },
+  {
+    "id": "pnc",
+    "name": "PNC",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Community Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1753185397pnc-png1753185397.png",
+    "url": "https://www.pnc.com/",
+    "source_url": "https://startupcincyweek.com/en/sponsors-page",
+    "year": 2025,
+    "notes": "StartupCincy Week 2025 sponsor (history). Identified from the logo image (logo text: \"PNC\"). URL taken from the matching 2026 sponsor record (same organization)."
+  },
+  {
+    "id": "the-gratitude-collective",
+    "name": "The Gratitude Collective",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Community Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1753185397gratitude-png1753185397.png",
+    "url": "https://www.thegratitudecollective.net/",
+    "source_url": "https://startupcincyweek.com/en/sponsors-page",
+    "year": 2025,
+    "notes": "StartupCincy Week 2025 sponsor (history). Identified from the logo image (logo text: \"the gratitude collective\"). URL taken from the matching 2026 sponsor record (same organization)."
+  },
+  {
+    "id": "duke-energy",
+    "name": "Duke Energy",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Community Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1753185397duke-png1753185397.png",
+    "url": null,
+    "source_url": "https://startupcincyweek.com/en/sponsors-page",
+    "year": 2025,
+    "notes": "StartupCincy Week 2025 sponsor (history). Identified from the logo image (logo text: \"DUKE ENERGY\")."
+  },
+  {
+    "id": "hccusa",
+    "name": "Hispanic Chamber Cincinnati USA (HCCUSA)",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Community Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1756384053hccusa-2025-sucw-sponsor-logos-png1756384053.png",
+    "url": "https://hccusa.us/",
+    "source_url": "https://startupcincyweek.com/en/sponsors-page",
+    "year": 2025,
+    "notes": "StartupCincy Week 2025 sponsor (history). Identified from the logo image (logo text: \"HISPANIC CHAMBER CINCINNATI USA / HCCUSA\"). URL taken from the matching 2026 sponsor record (same organization)."
+  },
+  {
+    "id": "ecdi",
+    "name": "ECDI",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Community Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1756487825ecdi-png1756487825.png",
+    "url": "https://www.ecdi.org/",
+    "source_url": "https://startupcincyweek.com/en/sponsors-page",
+    "year": 2025,
+    "notes": "StartupCincy Week 2025 sponsor (history). Identified from the logo image (logo text: \"ECDI\"). URL taken from the matching 2026 sponsor record (same organization)."
+  },
+  {
+    "id": "paycor",
+    "name": "Paycor",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Advocate Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1756488191paycor-png1756488191.png",
+    "url": "https://www.paycor.com/",
+    "source_url": "https://startupcincyweek.com/en/sponsors-page",
+    "year": 2025,
+    "notes": "The Paycor logo sits inside an HTML comment in the Advocate Sponsors block of the 2025 page, so it is not displayed. Uncertain whether Paycor sponsored in 2025; it is a 2026 Advocate Sponsor. URL taken from the matching 2026 sponsor record (same organization)."
+  }
+]

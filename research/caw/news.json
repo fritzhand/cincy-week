@@ -1,0 +1,117 @@
+[
+  {
+    "id": "citybeat-2026-08-04-caw-launch",
+    "title": "Cincinnati Art Week aims to put local artists in the spotlight",
+    "source": "Cincinnati CityBeat (CityBeat Staff)",
+    "date": "2026-08-04",
+    "url": "https://www.citybeat.com/arts/visual-arts/cincinnati-arts-week-launches-october/",
+    "programs": [
+      "caw",
+      "blink"
+    ],
+    "summary": "Announces the inaugural Cincinnati Art Week (Oct. 3–10), launched by ArtsWave in partnership with Fifth Third and created by BLINK alumni Cincy Nice and No Standing, with storefront galleries, a central hub and Art Walks in Over-the-Rhine. Includes quotes from ArtsWave CEO Alecia Kintner, Destinee Thomas and Mayor Aftab Pureval.",
+    "image_url": "https://www.citybeat.com/wp-content/uploads/2026/08/CINCYARTWEEK2067-e1785873206335.png"
+  },
+  {
+    "id": "cincinnati-magazine-2026-09-23-what-is-caw",
+    "title": "What is Cincinnati Art Week?",
+    "source": "Cincinnati Magazine (Joi M. Sears)",
+    "date": "2026-09-23",
+    "url": "https://www.cincinnatimagazine.com/article/cincinnati-art-week/",
+    "programs": [
+      "caw",
+      "blink",
+      "scw",
+      "also"
+    ],
+    "summary": "Profiles the CAW team (Destinee Thomas, William Thomas, Megyn Norbut) and previews the week: the Welcome Center hub at 1600 Race St., work by Mz. Icar, Chas Wiederhold and Gee Horton, the NO GRID conversation series by Jason Snell, and the Art City beer at Esoteric Brewing.",
+    "image_url": "https://www.cincinnatimagazine.com/wp-content/uploads/sites/5/2026/09/CAWMain1.jpg"
+  },
+  {
+    "id": "visitcincy-caw-event-listing",
+    "title": "Cincinnati Art Week (event listing)",
+    "source": "Visit Cincy",
+    "date": null,
+    "url": "https://www.visitcincy.com/event/cincinnati-art-week/20214/",
+    "programs": [
+      "caw"
+    ],
+    "summary": "Official visitor-bureau listing for Oct. 3–10, 2026, \"Presented by ArtsWave and Fifth Third\", describing temporary galleries, the Cincinnati Art Week Art Market, special projects and after-dark experiences across Over-the-Rhine.",
+    "image_url": "https://assets.simpleviewinc.com/sv-cincy/image/fetch/c_limit,h_1200,q_75,w_1200/https://assets.simpleviewinc.com/simpleview/image/upload/crm/cincyregion/Cincinnati-Art-Week_133395C7-B027-DA96-91178E8A1D00ED73_133a6608-fa58-8ffb-2ae31a259c350edf.png"
+  },
+  {
+    "id": "tourdecincinnati-oct-2026-dates",
+    "title": "Dates to Know in Cincinnati: October 2026",
+    "source": "Tour de Cincinnati",
+    "date": null,
+    "url": "https://tourdecincinnati.com/dates-to-know-in-cincinnati-october-2026/",
+    "programs": [
+      "caw",
+      "blink"
+    ],
+    "summary": "Local blog calendar listing Cincinnati Art Week for October 3–10 with \"10+ spaces in OTR\".",
+    "image_url": null
+  },
+  {
+    "id": "instagram-jasonsnell-2026-09-15-no-grid",
+    "title": "HELLO — NO GRID (Instagram announcement)",
+    "source": "Instagram @jasonsnell",
+    "date": "2026-09-15",
+    "url": "https://www.instagram.com/p/DdUlIEdlEg4/",
+    "programs": [
+      "caw"
+    ],
+    "summary": "Jason Snell announces NO GRID, a free one-night creative conversation series on Wed. Oct. 7 across three OTR spaces (CAW Art Market, MOTR, OFFSITE at 25 E. 15th St.).",
+    "image_url": null
+  },
+  {
+    "id": "threads-caw-2026-09-15-storefronts",
+    "title": "Storefront galleries post",
+    "source": "Threads @cincinnatiartweek",
+    "date": "2026-09-15",
+    "url": "https://www.threads.com/@cincinnatiartweek",
+    "programs": [
+      "caw"
+    ],
+    "summary": "CAW says 10+ available storefronts in one walkable OTR footprint become temporary galleries Oct. 3–10, and points to 3CDC and Urban Sites for spaces.",
+    "image_url": null
+  },
+  {
+    "id": "instagram-caw-2026-09-21-art-city",
+    "title": "Meet ART CITY (Instagram)",
+    "source": "Instagram @cincinnatiartweek",
+    "date": "2026-09-21",
+    "url": "https://www.instagram.com/p/Ddj-F4WtU0i/",
+    "programs": [
+      "caw"
+    ],
+    "summary": "CAW introduces Art City, a special-edition Esoteric Brewing Japanese-style rice lager with label art by @baileyelderberry.",
+    "image_url": null
+  },
+  {
+    "id": "blink-around-town-caw",
+    "title": "BLINK Around Town — Cincinnati Art Week",
+    "source": "BLINK Cincinnati",
+    "date": null,
+    "url": "https://www.blinkcincinnati.com/plan-your-blink-visit/cincinnati-art-week",
+    "programs": [
+      "caw",
+      "blink"
+    ],
+    "summary": "BLINK's Plan Your Visit section lists Cincinnati Art Week among daytime things to do alongside BLINK, linking to cincinnatiartweek.com.",
+    "image_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/cawfullpartnerlite.jpg"
+  },
+  {
+    "id": "visitcincy-2026-09-23-things-to-do-october",
+    "title": "Things to Do in the Cincy Region – October 2026",
+    "source": "Visit Cincy (blog)",
+    "date": "2026-09-23",
+    "url": "https://www.visitcincy.com/blog/post/things-to-do-in-the-cincy-region-october-2026/",
+    "programs": [
+      "caw"
+    ],
+    "summary": "Visit Cincy's October 2026 things-to-do roundup includes a Cincinnati Art Week listing (Oct. 3–10, Over-the-Rhine, presented by ArtsWave and Fifth Third, a Cincy Nice project with No Standing).",
+    "image_url": null,
+    "notes": "The roundup's og:image is an unrelated Halloween photo, so image_url is left null."
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "kinley-cincinnati-downtown",
+    "name": "Kinley Cincinnati Downtown",
+    "address": "636 Race St, Cincinnati, OH 45202",
+    "neighborhood": "Downtown",
+    "lat": 39.103287,
+    "lng": -84.5149594,
+    "url": "https://www.kinleycincinnati.com/",
+    "room_block": null,
+    "notes": "Cincinnati Art Week community partner (logo on CAW sponsors section) and home of the weekly Art Week Happy Hour at The Exchange lobby bar. No CAW room block or discount code was found.",
+    "source_url": "https://cincinnatiartweek.com/sponsors"
+  }
+]

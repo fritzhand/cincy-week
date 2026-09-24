@@ -24,7 +24,7 @@ export const LAYERS = [
 export function mapItems(ctx) {
   const { db, cards, c } = ctx;
   const meta = cards.meta;
-  const hoodName = (id) => db.byId.place.get(id)?.name || "";
+  const hoodName = (id) => { const p = db.byId.place.get(id); return !p ? "" : p.name.includes("(") ? p.short_name || p.name : p.name; };
   const progDays = (p) => { const r = db.byId.program.get(p)?.dates; return r ? db.days.filter((d) => d.date >= r.start && d.date <= r.end).map((d) => d.date) : []; };
   const on = (r) => onMap(meta, r.lat, r.lng);
   const venues = db.venues.filter((v) => v.stall && on(v)).map((v) => ({
@@ -70,7 +70,7 @@ export function pages(ctx) {
     if (x.kind === "stop") return `<span class="map-mk mk-stop" aria-hidden="true"><i></i></span>`;
     return `<span class="map-mk mk-food" aria-hidden="true"><i></i></span>`;
   };
-  const row = (root, x) => `<li class="map-li" data-id="${x.kind}:${attr(x.id)}" data-kind="${x.kind}" data-layer="${x.layer}" data-ll="${x.lat},${x.lng}" data-p="${attr(x.p.join(" "))}" data-day="${x.days.join(" ")}" data-h="${attr(x.h)}"${x.n ? ` data-n="${x.n}"` : ""}>${marker(x)}<span class="map-li-b"><a class="t" href="${root}${attr(x.href)}"${x.kind === "work" ? ` data-open-work="${attr(x.id)}"` : ""}>${x.n ? `<span class="sr-only">${x.n}. </span>` : ""}${esc(x.name)}</a>${x.meta ? `<span class="m">${esc(x.meta)}</span>` : ""}</span><button class="map-show js-only" type="button" data-map-show="${x.kind}:${attr(x.id)}" aria-label="Show ${attr(x.name)} on the map">${h.icon("locate")}</button></li>`;
+  const row = (root, x) => `<li class="map-li" data-id="${x.kind}:${attr(x.id)}" data-kind="${x.kind}" data-layer="${x.layer}" data-ll="${x.lat},${x.lng}" data-p="${attr(x.p.join(" "))}" data-day="${x.days.join(" ")}" data-h="${attr(x.h)}"${x.n ? ` data-n="${x.n}"` : ""}>${marker(x)}<span class="map-li-b"><a class="t stretched" href="${root}${attr(x.href)}"${x.kind === "work" ? ` data-open-work="${attr(x.id)}"` : ""}>${x.n ? `<span class="sr-only">${x.n}. </span>` : ""}${esc(x.name)}</a>${x.meta ? `<span class="m">${esc(x.meta)}</span>` : ""}</span><button class="map-show js-only" type="button" data-map-show="${x.kind}:${attr(x.id)}" aria-label="Show ${attr(x.name)} on the map">${h.icon("locate")}</button></li>`;
   const section = (root, l) => {
     const xs = byLayer[l.id];
     if (!xs.length) return "";
@@ -89,11 +89,11 @@ export function pages(ctx) {
   };
 
   const homeRatio = meta ? (() => { const [x0, y0] = project(meta.home.n, meta.home.w, meta), [x1, y1] = project(meta.home.s, meta.home.e, meta); return `${(x1 - x0).toFixed(1)} / ${(y1 - y0).toFixed(1)}`; })() : "";
-  const legend = `<div class="map-legend" data-map-legend><span data-lg="venues"><i class="lg-station"></i>Venue, numbered as in the list</span><span data-lg="art"><i class="lg-work"></i>Artwork (BLINK diamond, Art Week square)</span><span data-lg="stays" hidden><i class="lg-stay"></i>Place to stay</span><span data-lg="transit" hidden><i class="lg-stop"></i>Streetcar stop or transit center</span><span data-lg="food" hidden><i class="lg-food"></i>Food and drink</span><span class="js-only"><i class="lg-live"></i>Live now</span><span class="js-only"><i class="lg-cluster"></i>Several places: tap to zoom</span><span><i class="lg-tram"></i>Connector streetcar line</span>${h.extLink("https://www.openstreetmap.org/copyright", "© OpenStreetMap contributors", "map-attrib")}</div>`;
+  const legend = `<div class="map-legend" data-map-legend><span data-lg="venues"><i class="lg-station"></i>Venue, numbered as in the list</span><span data-lg="art" class="js-only"><i class="lg-work"></i>Artwork (BLINK diamond, Art Week square)</span><span data-lg="stays" hidden><i class="lg-stay"></i>Place to stay</span><span data-lg="transit" hidden><i class="lg-stop"></i>Streetcar stop or transit center</span><span data-lg="food" hidden><i class="lg-food"></i>Food and drink</span><span class="js-only"><i class="lg-live"></i>Live now</span><span class="js-only"><i class="lg-cluster"></i>Several places: tap to zoom</span><span><i class="lg-tram"></i>Connector streetcar line</span>${h.extLink("https://www.openstreetmap.org/copyright", "© OpenStreetMap contributors", "map-attrib")}</div>`;
 
   return [{
     path: "map.html", nav: "map", title: "Map", features: ["map"], pageClass: "page-map",
-    description: `Every venue, artwork, place to stay, streetcar stop and place to eat of the week on one map of Over-the-Rhine, downtown, The Banks and the Kentucky riverfront.`,
+    description: `The guide's venues, artworks, places to stay, streetcar stops and places to eat on one map of Over-the-Rhine, downtown, The Banks and the Kentucky riverfront, with a list of the places beyond it.`,
     body: (root) => `${c.pageHead({ num: 1, kicker: `Plan · ${items.venues.length} venues and ${items.works.length} works on the map`, title: "Map", lede: "Venues, art, hotels, the streetcar and places to eat, from Findlay Market to Covington. Venue numbers match the venue list." })}
 <div class="map-page" data-map-page>
 <div class="map-main">
@@ -114,7 +114,7 @@ ${progs.length > 1 ? `<div class="dir-group" role="group" aria-labelledby="mc-p"
 ${LAYERS.map((l) => section(root, l)).join("\n")}
 <section class="map-sec map-off" aria-labelledby="ml-off"><h2 class="map-sec-h" id="ml-off">${h.icon("warn")}<span>Not on this map</span><span class="label faint">${offVenues.length + offWorks.length}</span></h2>
 <p class="faint map-off-note">The map covers Over-the-Rhine, downtown, The Banks, the West End, Mount Adams and the Kentucky riverfront. These are elsewhere, or their address is not published.${offStays ? ` ${h.plural(offStays, "more hotel")} outside the map area ${offStays === 1 ? "is" : "are"} on <a href="${root}stay.html">Where to stay</a>.` : ""}</p>
-<ul class="map-items">${sortBy(offVenues, (v) => (v.lat == null ? 0 : 1), (v) => v.city || "", (v) => v.name).map((v) => `<li class="map-li is-off" data-kind="venue"><span class="map-mk mk-venue is-off" aria-hidden="true">–</span><span class="map-li-b"><a class="t" href="${root}venues/${attr(v.id)}.html">${esc(v.name)}</a><span class="m">${esc([v.address, v.hood ? db.byId.place.get(v.hood)?.name : v.city].filter(Boolean).join(" · "))}</span>${cards.placeStatus(v)}</span></li>`).join("")}${offWorks.map((w) => `<li class="map-li is-off" data-kind="work"><span class="map-mk mk-work is-off" data-prog="${w.program}" aria-hidden="true"><i></i></span><span class="map-li-b"><a class="t" href="${root}art.html?w=${attr(w.id)}" data-open-work="${attr(w.id)}">${esc(w.title)}</a><span class="m">${esc([w.zone, w.location_text].filter(Boolean).join(" · ") || c.progName(w.program))}</span>${c.badge("unconfirmed", "Location not published · not on the map")}</span></li>`).join("")}</ul>
+<ul class="map-items">${sortBy(offVenues, (v) => (v.lat == null ? 0 : 1), (v) => v.city || "", (v) => v.name).map((v) => `<li class="map-li is-off" data-kind="venue"><span class="map-mk mk-venue is-off" aria-hidden="true">–</span><span class="map-li-b"><a class="t stretched" href="${root}venues/${attr(v.id)}.html">${esc(v.name)}</a><span class="m">${esc([v.address, v.hood ? db.byId.place.get(v.hood)?.name : v.city].filter(Boolean).join(" · "))}</span>${cards.placeStatus(v)}</span></li>`).join("")}${offWorks.map((w) => `<li class="map-li is-off" data-kind="work"><span class="map-mk mk-work is-off" data-prog="${w.program}" aria-hidden="true"><i></i></span><span class="map-li-b"><a class="t stretched" href="${root}art.html?w=${attr(w.id)}" data-open-work="${attr(w.id)}">${esc(w.title)}</a><span class="m">${esc([w.zone, w.location_text].filter(Boolean).join(" · ") || c.progName(w.program))}</span>${c.badge("unconfirmed", "Location not published · not on the map")}</span></li>`).join("")}</ul>
 </section>
 </div>
 </div>

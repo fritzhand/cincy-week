@@ -134,10 +134,12 @@ export function fmtDate(date) { const [, m, d] = ymd(date); return `${MON[m - 1]
 export const dowShort = (date) => DOW[weekday(date)];
 export const dowLong = (date) => DOW_LONG[weekday(date)];
 export const monthLong = (date) => MON_LONG[ymd(date)[1] - 1];
-/** "Oct 3–10", "Sep 30–Nov 1", "Oct 8" */
+/** "Oct 3–10", "Sep 30–Nov 1", "Oct 8"; "Oct 2–Feb 7" into the next year; a run of a year or more names
+ *  both years ("Aug 28, 2026–Aug 13, 2027", "Oct 17, 2024–Oct 31, 2026"), which would otherwise read backwards */
 export function fmtDateRange(start, end) {
   if (!end || end === start) return fmtDate(start);
-  const [, m1, d1] = ymd(start), [, m2, d2] = ymd(end);
+  const [y1, m1, d1] = ymd(start), [y2, m2, d2] = ymd(end);
+  if (y1 !== y2 && (y2 - y1 > 1 || m2 >= m1)) return `${MON[m1 - 1]} ${d1}, ${y1}–${MON[m2 - 1]} ${d2}, ${y2}`;
   return m1 === m2 ? `${MON[m1 - 1]} ${d1}–${d2}` : `${MON[m1 - 1]} ${d1}–${MON[m2 - 1]} ${d2}`;
 }
 /** "Sat–Sat" (a weekday span, for ranges of 2–9 days); "" otherwise */

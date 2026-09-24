@@ -1,0 +1,690 @@
+{
+  "id": "scw",
+  "name": "StartupCincy Week 2026",
+  "short_name": "SUCW",
+  "tagline": "Ten Years of Bold Bets",
+  "tagline_text": "TEN YEARS OF BOLD BETS (homepage h1); footer: \"© 2026 STARTUPCINCY. A DECADE OF BOLD BETS.\"; cintrifuse.com promo: \"Celebrate 10 Years of Bold Bets\"",
+  "edition": "10th annual (2026 agenda: \"the 10th Annual StartupCincy Week\")",
+  "dates": {
+    "start": "2026-10-05",
+    "end": "2026-10-08"
+  },
+  "dates_text": "OCTOBER 5 – 8, 2026 | CINCINNATI, OHIO",
+  "date_discrepancies": [
+    "startupcincy.com/startupcincy-2026-sponsorship-opportunities/ still says \"StartupCincy Week – October 6-9, 2026\"; every other 2026 source (SCW homepage, agenda, startupcincy.com home, Cintrifuse) says October 5–8, 2026.",
+    "The Cintrifuse Annual Meeting ends at 10:00 per cintrifuse.com and 10:30 per the SCW registration add-on."
+  ],
+  "description": "StartupCincy Week 2026 marks a decade of backing founders who refused to play it safe, building companies that didn't ask permission, and proving Cincinnati is where bold bets belong.",
+  "description_more": [
+    "StartupCincy Week 2026 is four days of bold ideas, meaningful connections, and the people building what’s next. Explore the sessions, find the conversations that matter to you, and start mapping out your week.",
+    "Ten years of founders who refused to play it safe. One week where Cincinnati's startup community proves it all over again. Join 1,000+ founders, funders, and builders for four days of bold ideas, real deals, and unforgettable connections."
+  ],
+  "description_more_sources": [
+    "https://startupcincyweek.com/en/agenda-page",
+    "https://startupcincy.com/"
+  ],
+  "organizers": [
+    {
+      "name": "StartupCincy",
+      "url": "https://startupcincy.com/"
+    },
+    {
+      "name": "Cintrifuse",
+      "url": "https://cintrifuse.com/",
+      "note": "Nonprofit that leads StartupCincy and produces the week (Movers & Makers 2025: \"Organized by the nonprofit Cintrifuse\"); 2026 Title Sponsor."
+    }
+  ],
+  "organizer_people": [
+    {
+      "name": "Abby Grimm",
+      "title": "Director of engagement and experience at Cintrifuse",
+      "source_url": "https://soapboxmedia.com/startupcincy-week-marks-a-decade-of-building-cincinnatis-startup-community/",
+      "note": "Quoted as the week's spokesperson in Soapbox (2026); CDO Magazine (2024) also calls her \"chair of the StartupCincy planning committee\"."
+    },
+    {
+      "name": "J.B. Kropp",
+      "title": "CEO, Cintrifuse; Managing Director, Cintrifuse Capital",
+      "source_url": "https://cintrifuse.com/cintrifuse-annual-meeting-2026/"
+    }
+  ],
+  "url": "https://startupcincyweek.com/",
+  "venue_hub": {
+    "venue_id": "union-hall",
+    "text": "All attendees should check in each day at Union Hall (1311 Vine Street) before heading to sessions or events at other locations.",
+    "source_url": "https://startupcincyweek.com/en/faq-page"
+  },
+  "tickets": [
+    {
+      "name": "Startup Founder or Employee - General Admission",
+      "price": "$50.00",
+      "url": "https://startupcincyweek.com/en/registration-form",
+      "notes": "I founded or work for a venture-backable or high-growth potential startup. Includes: 4 days of programming, happy hours, and showcases.",
+      "includes": "4 days of programming, happy hours, and showcases",
+      "available_until": "10 October, 2026 23:59 PM (America/New_York)",
+      "add_ons": [
+        {
+          "name": "Cintrifuse Annual Meeting | Oct 6 at 8:30-10:30am",
+          "price": "$0.00"
+        }
+      ],
+      "vfairs_package_id": "773236",
+      "source_url": "https://startupcincyweek.com/en/registration-form"
+    },
+    {
+      "name": "Venture Capital Investor - Investor Admission",
+      "price": "$300.00",
+      "url": "https://startupcincyweek.com/en/registration-form",
+      "notes": "For individual or institutional venture capital investors. Includes: 4 days of programming, happy hours, and showcases.",
+      "includes": "4 days of programming, happy hours, and showcases",
+      "available_until": "10 October, 2026 23:59 PM (America/New_York)",
+      "add_ons": [
+        {
+          "name": "Cintrifuse Annual Meeting | Oct 6 at 8:30-10:30am",
+          "price": "$0.00"
+        },
+        {
+          "name": "Liquidity Event (Investor Happy Hour) | Oct 6 at 5:00pm",
+          "price": "$0.00"
+        }
+      ],
+      "vfairs_package_id": "773237",
+      "source_url": "https://startupcincyweek.com/en/registration-form"
+    },
+    {
+      "name": "Corporate Partner - Corporate Admission",
+      "price": "$250.00",
+      "url": "https://startupcincyweek.com/en/registration-form",
+      "notes": "I am a representative of an established organization seeking to connect with startups, explore collaboration opportunities, and stay informed on emerging technologies. Includes: 4 days of programming, happy hours, and showcases",
+      "includes": "4 days of programming, happy hours, and showcases",
+      "available_until": "10 October, 2026 23:59 PM (America/New_York)",
+      "add_ons": [
+        {
+          "name": "Cintrifuse Annual Meeting | Oct 6 at 8:30-10:30am",
+          "price": "$0.00"
+        }
+      ],
+      "vfairs_package_id": "773238",
+      "source_url": "https://startupcincyweek.com/en/registration-form"
+    },
+    {
+      "name": "Entrepreneur or Small Business Owner - General Admission",
+      "price": "$50.00",
+      "url": "https://startupcincyweek.com/en/registration-form",
+      "notes": "I am a business owner, solopreneur, or employee focused on generating revenue, steady and long-term growth, and maintaining ownership. Includes: 4 days of programming, happy hours, and showcases.",
+      "includes": "4 days of programming, happy hours, and showcases",
+      "available_until": "10 October, 2026 23:59 PM (America/New_York)",
+      "add_ons": [
+        {
+          "name": "Cintrifuse Annual Meeting | Oct 6 at 8:30-10:30am",
+          "price": "$0.00"
+        }
+      ],
+      "vfairs_package_id": "773239",
+      "source_url": "https://startupcincyweek.com/en/registration-form"
+    },
+    {
+      "name": "General Ecosystem - General Admission",
+      "price": "$50.00",
+      "url": "https://startupcincyweek.com/en/registration-form",
+      "notes": "I work, volunteer, or mentor within the ecosystem, providing resources, programming, or mentorship to founders and business owners. Includes: 4 days of programming, happy hours, and showcases.",
+      "includes": "4 days of programming, happy hours, and showcases",
+      "available_until": "10 October, 2026 23:59 PM (America/New_York)",
+      "add_ons": [
+        {
+          "name": "Cintrifuse Annual Meeting | Oct 6 at 8:30-10:30am",
+          "price": "$0.00"
+        }
+      ],
+      "vfairs_package_id": "773240",
+      "source_url": "https://startupcincyweek.com/en/registration-form"
+    },
+    {
+      "name": "Student Admission - General Admission",
+      "price": "$0.00",
+      "url": "https://startupcincyweek.com/en/registration-form",
+      "notes": "This ticket is exclusively for current students interested in innovation, entrepreneurship, and startups. Included access to the Student Summit on Thursday, October 8",
+      "includes": "access to the Student Summit on Thursday, October 8",
+      "available_until": "10 October, 2026 23:59 PM (America/New_York)",
+      "add_ons": [
+        {
+          "name": "Cintrifuse Annual Meeting | Oct 6 at 8:30-10:30am",
+          "price": "$0.00"
+        }
+      ],
+      "vfairs_package_id": "773241",
+      "source_url": "https://startupcincyweek.com/en/registration-form"
+    }
+  ],
+  "ticket_notes": [
+    "Payment by Stripe; registration asks for ticket type, school/graduation year (students), first-time attendance, industry, and optional demographic and accessibility questions.",
+    "By purchasing a ticket and attending this event, you consent to being photographed and/or recorded. Images and footage may be used by the organizers for marketing, promotional, and editorial purposes across digital and print channels, without additional approval or compensation.",
+    "The checkout form has an \"Apply Discount\" field; no discount codes are published on the site.",
+    "SCW FAQ: \"We never want cost to be a barrier for founders or entrepreneurs. If you're interested in attending but cost is holding you back, please reach out to us directly at info@startupcincy.com.\""
+  ],
+  "daily_themes": [
+    {
+      "date": "2026-10-05",
+      "day": "Monday",
+      "theme": "Kick-off",
+      "highlights": [
+        "Opening Keynote",
+        "Community Lunch",
+        "Upskilling Sessions"
+      ],
+      "source_url": "https://startupcincyweek.com/",
+      "theme_description": "Soapbox: \"beginning Monday with a kickoff and founder-focused content\""
+    },
+    {
+      "date": "2026-10-06",
+      "day": "Tuesday",
+      "theme": "Capital",
+      "highlights": [
+        "Cintrifuse AGM",
+        "Venture Panels",
+        "Best of Demo Night"
+      ],
+      "source_url": "https://startupcincyweek.com/",
+      "theme_description": "Soapbox: \"moving into venture capital on Tuesday\""
+    },
+    {
+      "date": "2026-10-07",
+      "day": "Wednesday",
+      "theme": "Growth",
+      "highlights": [
+        "10th Anniversary Party",
+        "Workshops & Panels",
+        "Breakout Sessions"
+      ],
+      "source_url": "https://startupcincyweek.com/",
+      "theme_description": "Soapbox: \"investment into early-stage and non-tech founders on Wednesday\""
+    },
+    {
+      "date": "2026-10-08",
+      "day": "Thursday",
+      "theme": "Students",
+      "highlights": [
+        "Fellows Lounge",
+        "Speaker Series",
+        "Founder Panels"
+      ],
+      "source_url": "https://startupcincyweek.com/",
+      "theme_description": "Soapbox: \"and programming specifically designed for students on Thursday.\" Also: \"Students will have an entire day of programming on Thursday, a change from previous years when student-focused sessions were spread throughout the week.\""
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Student Pitch Competition (first-ever)",
+      "date": "2026-10-08",
+      "text": "On Student Day, October 8, we're hosting our first-ever Student Pitch Competition, giving student founders the chance to take the stage, share what they're building, and put their ideas in front of Cincinnati's startup community.",
+      "bullets_lead": "Win a spot in the Startup Fellows program as a Builder Fellow:",
+      "bullets": [
+        "Receive a $10,000 non-dilutive grant to put toward your venture.",
+        "Get structured coaching and founder practice to keep building and growing.",
+        "Join a shared community of builders working alongside other founders."
+      ],
+      "apply_url": "https://airtable.com/appWcp9LICBcEHPK8/shrV6GMdulkZFgorD",
+      "builder_fellows": "Builder Fellows is a paid, full-time, 10-week summer program in Cincinnati for student founders.",
+      "builder_fellows_source": "https://airtable.com/appWcp9LICBcEHPK8/shrV6GMdulkZFgorD",
+      "deadline": "2026-09-30",
+      "notes": "Application form: undergraduates only; individuals or teams of up to four; applications close September 30, finalists notified by EOD October 2; pitch in person at Union Hall on the afternoon of October 8; prize is a \"Golden Ticket\" into Builder Fellows for Summer 2027. Agenda: \"Five student teams. Eight minutes each. One Golden Ticket.\" (2:15 pm).",
+      "source_url": "https://startupcincyweek.com/"
+    },
+    {
+      "title": "Cintrifuse Annual Meeting (AGM)",
+      "date": "2026-10-06",
+      "text": "Tuesday, October 6, 2026 – 8:30 – 10am, Union Hall. Join us for a fireside chat with Braxton Brewing, mainstage panels, featured community leaders, curated networking experiences, & our signature happy hours, as part of StartupCincy Week, Oct 5-8, 2026.",
+      "source_url": "https://cintrifuse.com/cintrifuse-annual-meeting-2026/"
+    },
+    {
+      "title": "Best of Demo Night",
+      "date": "2026-10-06",
+      "text": "Week at a Glance (Tuesday: Capital). Agenda session \"Cincy Does Demos: Best of Demo Night LIVE! at SUCW\", 3:30 pm.",
+      "source_url": "https://startupcincyweek.com/"
+    },
+    {
+      "title": "10th Anniversary Party",
+      "date": "2026-10-07",
+      "text": "Week at a Glance (Wednesday: Growth). Agenda: \"StartupCincy 10 Year Anniversary Party! Presented by VisitCincy\" at The Transept, 4:30 pm.",
+      "source_url": "https://startupcincyweek.com/"
+    },
+    {
+      "title": "VentureHaus",
+      "date": null,
+      "text": "VC Exclusive Lounge",
+      "source_url": "https://startupcincyweek.com/"
+    },
+    {
+      "title": "Startup Clubhouse",
+      "date": null,
+      "text": "The Startup Clubhouse was created as a more open environment for startup founders, employees and people looking for opportunities to mix and connect throughout the week.",
+      "source_url": "https://soapboxmedia.com/startupcincy-week-marks-a-decade-of-building-cincinnatis-startup-community/"
+    },
+    {
+      "title": "Signature events",
+      "date": null,
+      "text": "A handful of signature events anchor the week, including the kickoff, community lunch, and nightly happy hours. Beyond those staples, organizers open a public submission process and invite people throughout the ecosystem to propose sessions.",
+      "source_url": "https://soapboxmedia.com/startupcincy-week-marks-a-decade-of-building-cincinnatis-startup-community/"
+    },
+    {
+      "title": "2026 tracks",
+      "date": null,
+      "text": "This year’s tracks include venture, small business, food founders and artists as entrepreneurs, along with a new city-building focus.",
+      "source_url": "https://soapboxmedia.com/startupcincy-week-marks-a-decade-of-building-cincinnatis-startup-community/"
+    }
+  ],
+  "features": [
+    {
+      "title": "Networking",
+      "text": "Happy Hours, Coffee Connects +",
+      "source_url": "https://startupcincyweek.com/"
+    },
+    {
+      "title": "VENTUREHAUS",
+      "text": "VC Exclusive Lounge",
+      "source_url": "https://startupcincyweek.com/"
+    },
+    {
+      "title": "startup clubhouse",
+      "text": "Cintrifuse Annual Meeting",
+      "source_url": "https://startupcincyweek.com/",
+      "note": "Verbatim from the page: the \"startup clubhouse\" box repeats \"Cintrifuse Annual Meeting\" as its subtitle (likely a copy slip on the site)."
+    },
+    {
+      "title": "Top Tier Content",
+      "text": "Workshops, Panels, Labs +",
+      "source_url": "https://startupcincyweek.com/"
+    }
+  ],
+  "audiences": [
+    {
+      "name": "Corporate Partners",
+      "image_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1780898435corporate-partner-card-png1780898435.png",
+      "source_url": "https://startupcincyweek.com/"
+    },
+    {
+      "name": "Innovation Ecosystem",
+      "image_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1780898435innovation-eco-card-png1780898435.png",
+      "source_url": "https://startupcincyweek.com/"
+    },
+    {
+      "name": "Investors + Funders",
+      "image_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1780898435investor-card-png1780898435.png",
+      "source_url": "https://startupcincyweek.com/"
+    },
+    {
+      "name": "Small Biz Owners",
+      "image_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1780898435small-biz-owner-card-png1780898435.png",
+      "source_url": "https://startupcincyweek.com/"
+    },
+    {
+      "name": "Startup Founders + Teams",
+      "image_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1780898435startup-founder-card-png1780898435.png",
+      "source_url": "https://startupcincyweek.com/"
+    },
+    {
+      "name": "Students + Universities",
+      "image_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1780898435student-card-png1780898435.png",
+      "source_url": "https://startupcincyweek.com/"
+    }
+  ],
+  "audiences_note": "The 2026 \"WHO IS THIS FOR?\" section is six image cards (names read from the images; each links to registration). The FAQ answer: \"Honestly, everyone! ...\"",
+  "hours": null,
+  "hours_note": "No daily hours published for 2026. Breakfast: FAQ says \"Each day of StartupCincy Week, we’ll provide light bites and coffee for breakfast\". 2024 sessions ran 8 a.m. to 5 p.m. (Movers & Makers 2024), not confirmed for 2026.",
+  "food": "We’ve got you covered (and caffeinated)! Each day of StartupCincy Week, we’ll provide light bites and coffee for breakfast to help you start strong. We’re also hosting one community lunch during the week to bring everyone together over great food and conversation. (FAQ; the agenda has \"Community Lunch at Washington Park\" on Oct 5 and \"Student Day Community Lunch!\" on Oct 8.)",
+  "virtual": "At this time, StartupCincy Week is a fully live and in-person event. (FAQ)",
+  "accessibility": "Yes! We want everyone to have a great experience at our events. If you or someone in your group has specific accessibility needs, we ask that you please reach out to us in advance. (FAQ)",
+  "volunteer_url": "https://startupcincy.com/volunteer-application/",
+  "volunteer_signup_url": "https://docs.google.com/forms/d/e/1FAIpQLSelLJqR9teDo2yBO8gvdnSooBH6msyknqUy1BhpTTN_12zRCQ/viewform",
+  "volunteer_text": "Get in on the action! Volunteer at one of our signature programs or throw your hat in the ring for StartupCincy Week 2026 (October 5–8).",
+  "volunteer_source_url": "https://startupcincy.com/volunteer-application/",
+  "content_submission_url": "https://startupcincy.com/startupcincy-week-content-submission/",
+  "content_submission_status": "HTTP 404 on 2026-09-24 (capture raw/scw-info/misc/sc_content-submission_404.html); startupcincy.com/startupcincy-week-2026/ still links to it under \"Content submissions open for Startupcincy week 2026\".",
+  "hashtags": [
+    "#StartupCincy"
+  ],
+  "hashtags_note": "#StartupCincy is the community hashtag the movement grew from (Soapbox 2026; PR Newswire 2016 was \"News provided by #StartupCincy\"). No 2026 event-specific hashtag is published on the SCW site.",
+  "social": {
+    "instagram": "https://www.instagram.com/startupcincy/",
+    "x": "https://twitter.com/StartupCincy/",
+    "facebook": "https://www.facebook.com/StartupCincy/",
+    "linkedin": "https://www.linkedin.com/company/startupcincy/",
+    "tiktok": null
+  },
+  "social_note": "StartupCincy accounts from the startupcincy.com footer. The SCW site footer social icons all link to \"#\". Cintrifuse: https://www.instagram.com/cintrifuse/, https://twitter.com/cintrifuse, https://www.facebook.com/Cintrifuse, https://www.linkedin.com/company/cintrifuse/.",
+  "contact": {
+    "email": "info@startupcincy.com",
+    "phone": null,
+    "address": "1311 Vine Street, Cincinnati, Ohio 45202",
+    "sponsorship_email": "kate@cintrifuse.com",
+    "tech_support_email": "tech@vfairs.com (link target customersupport@vfairs.com)"
+  },
+  "sponsorship": {
+    "url": "https://startupcincy.com/startupcincy-2026-sponsorship-opportunities/",
+    "tiers_2026": [
+      {
+        "tier": "Title Sponsor",
+        "price": "$25,000",
+        "tickets": 15,
+        "benefits": "All marketing collateral: website, digital media, social media, print materials, all in-event signage; co-branded digital marketing; press; priority in content selection; customized content experience, mainstage event, workshop or small session, happy hour, Executive Welcome; invitation to Friends & Founders dinner; Liquidity Event"
+      },
+      {
+        "tier": "Presenting Sponsor",
+        "price": "$10,000",
+        "tickets": 10,
+        "benefits": "Website, select digital media, select social media, select print materials, select in-event signage; co-branded digital marketing; mainstage event, workshop or small session, happy hour, Executive Welcome; invitation to Friends & Founders dinner"
+      },
+      {
+        "tier": "Partner Sponsor",
+        "price": "$5,000",
+        "tickets": 7,
+        "benefits": "Website, select digital media, select social media, select print materials, select in-event signage; workshop or small session, happy hour, Executive Welcome"
+      },
+      {
+        "tier": "Advocate Sponsor",
+        "price": "$2,500",
+        "tickets": 5,
+        "benefits": "Website, select social media, select print materials & select in-event signage; workshop or small session"
+      },
+      {
+        "tier": "Community Sponsor",
+        "price": "$1,500",
+        "tickets": 3,
+        "benefits": "Website, select social media & print materials"
+      }
+    ],
+    "featured_2025": [
+      {
+        "name": "Photo Booth",
+        "price": "$5,000"
+      },
+      {
+        "name": "Latte Bar",
+        "price": "$7,500"
+      },
+      {
+        "name": "LunchPads",
+        "price": "$10,000"
+      },
+      {
+        "name": "VentureHaus",
+        "price": "$10,000"
+      },
+      {
+        "name": "Startup Clubhouse",
+        "price": "$10,000"
+      }
+    ],
+    "featured_2025_source": "https://startupcincy.com/startupcincy-week-2025-sponsorship/",
+    "note": "Benefits condensed from the 2026 page's bullet lists (wording kept). Sponsors may also support the StartupCincy Awards. \"Need immediate help? Reach out to kate@cintrifuse.com.\"",
+    "partners_page_text": "Help shape StartupCincy Week 2026 and support the founders, ideas, and companies building here.",
+    "partners_page_url": "https://startupcincyweek.com/en/partners-page",
+    "source_url": "https://startupcincy.com/startupcincy-2026-sponsorship-opportunities/"
+  },
+  "history": [
+    {
+      "year": 2016,
+      "fact": "Precursor: Techstars FounderCon 2016 brought \"More than 1,000 of the nation's top business builders\" to Cincinnati, Oct. 18–20, 2016 — \"the first time in six years that Techstars is hosting their annual innovation event in a location outside of their traditional network of startup hubs\". (Not a StartupCincy Week.)",
+      "source_url": "https://prnewswire.com/news-releases/startup-elite-converge-in-cincinnati-drawing-national-attention-to-midwest-business-innovation-scene-300346697.html"
+    },
+    {
+      "year": 2017,
+      "fact": "First edition, \"Techstars Startup Week Cincinnati, held Oct. 9-13 in Union Hall and other Downtown and Over-the-Rhine locations.\" Results reported by WCPO: 118 events (goal 60); attendance 4,500 (goal 3,000, counting people attending more than one event); $59,000 in sponsorship (goal $30,000); 1,441 unique names collected; 34% minority and 33% female participation; more than 4 million social impressions; guests from 50 cities, 17 states and five foreign countries. An attendee noted the week was free.",
+      "source_url": "https://www.wcpo.com/news/insider/startups-2018-the-techstars-startup-week-in-october-shows-as-much-promise-for-the-future-as-its-attendees"
+    },
+    {
+      "year": 2017,
+      "fact": "Origin story (2026 retelling): \"What began as a grassroots movement and a Twitter hashtag\" (#StartupCincy). Abby Grimm: \"I think the first year of StartupCincy Week was maybe around 100 people, and this year we’re expecting 1500 people to come.\" (Conflicts with WCPO's 2017 attendance count of 4,500.)",
+      "source_url": "https://soapboxmedia.com/startupcincy-week-marks-a-decade-of-building-cincinnatis-startup-community/"
+    },
+    {
+      "year": 2021,
+      "fact": "StartupCincy Week 2021, October 26–29, 2021: virtual-only sessions, in-person happy hours, a virtual $75K FinTech Frontier Pitch Competition and an in-person Startup Job Fair.",
+      "source_url": "https://startupcincyweek.sched.com/",
+      "verified": false,
+      "note": "From a search-engine summary of the sched.com page; the page itself was blocked (403/Cloudflare) and could not be read."
+    },
+    {
+      "year": 2022,
+      "fact": "Sixth annual StartupCincy Week, October 10–14, 2022: \"Union Hall welcomed over 1,000 people ... 35 events featuring over 150 speakers across four venues.\" Key partners: Alloy Development Co., Blue North, CincyTech, Cintrifuse, ECDI, Endeavor, Flywheel Social Enterprise Hub, Product Refinery, REDI Cincinnati, and Reversed Out Creative.",
+      "source_url": "https://startupcincy.com/spark-the-future/"
+    },
+    {
+      "year": 2023,
+      "fact": "StartupCincy Week 2023, October 23–26, theme \"Homegrown Hustle\": \"we welcomed over 1,000 dreamers to Union Hall ... 45 events featuring over 100 unique speakers.\" Planning committees: Alloy, Aviatra Accelerators, Blue North, CincyTech, Cintrifuse, ECDI, Flywheel Social Enterprise Hub, gener8tor, Gratitude Collective, Miami University, and the University of Cincinnati. First formal partnership with the Over-The-Rhine Chamber of Commerce (Movers & Makers).",
+      "source_url": "https://startupcincy.com/homegrown-hustle/"
+    },
+    {
+      "year": 2024,
+      "fact": "Eighth annual StartupCincy Week, October 7–10, 2024, in Over-the-Rhine, \"presented by Cintrifuse\" and \"sponsored by Fidelity Private Shares, P&G, and many other ecosystem partners\". Tickets: general admission ($50), corporate admission ($200), VC Investor ($300). Daily themes: Monday whole community, Tuesday high-growth tech founders and investors, Wednesday non-tech and early-stage founders, Thursday the region (Chamber Expo, small business and CPG workshops).",
+      "source_url": "https://www.cdomagazine.tech/others/startupcincy-week-2024-registration-open-for-eighth-annual-event"
+    },
+    {
+      "year": 2025,
+      "fact": "StartupCincy Week 2025, October 6–9, at Union Hall, Over-the-Rhine. New $200,000 live pitch competition, \"Organized by the nonprofit Cintrifuse and powered by Connetic Ventures\", with five finalists on Oct. 7 at Union Hall; judges Kirsten Moorefield (Cloverleaf), Somesh Saxena (Pantomath), Raf Garcia (Kernel). Organizers expected \"more than 70 venture capital investors\" and programming \"shaped by more than 20 ecosystem partners\".",
+      "source_url": "https://moversmakers.org/2025/09/08/200k-pitch-competition-to-anchor-startupcincy-week/"
+    },
+    {
+      "year": 2025,
+      "fact": "2025 day themes (leftover hidden text on startupcincyweek.com): MONDAY, OCT. 6: Kick off the week with founder stories, ecosystem content, and get plugged into everything Cincinnati has to offer. (Kick-Off & Keynote, Best of Demo Night, Founder Development); TUESDAY, OCT. 7: A deep dive into venture capital for startups scaling here in the Midwest. (Cintrifuse Annual Meeting, State of Venture Panel, Startup Pitch Competition); WEDNESDAY, OCT. 8: Calling all early-stage and non-tech founders, this day is all about getting started with confidence. (Speed Mentoring, Upskilling Workshops, Hard Rock Happy Hour); THURSDAY, OCT 9: Explore how our patchwork of businesses and collective action are making Cincinnati a great place to build, grow, and scale. (Small Biz & Creative Workshops, Food Truck Fair, Regional Chamber Expo)",
+      "source_url": "https://startupcincyweek.com/"
+    },
+    {
+      "year": 2025,
+      "fact": "2025 Title Sponsors: P&G, Cintrifuse (with Cintrifuse Capital) and Fidelity Investments (the 2025 sponsors page; see orgs_2025.json). The Startup Clubhouse was hosted at Somerhaus. StartupCincy.com \"was launched in 2025 as what Grimm called a “digital front door” for the region’s startup ecosystem\" (Soapbox).",
+      "source_url": "https://startupcincyweek.com/en/sponsors-page"
+    },
+    {
+      "year": 2026,
+      "fact": "First-ever StartupCincy Awards, April 30, 2026, 5:30–7:30 pm at Union Hall: \"This event kicks off StartupCincy’s 10th anniversary, honoring a decade of work and the people behind it.\"",
+      "source_url": "https://luma.com/SUCAwards2026"
+    },
+    {
+      "year": 2026,
+      "fact": "10th StartupCincy Week, October 5–8, 2026, theme \"Ten Years of Bold Bets\": first-ever Student Pitch Competition and a full Student Day (Thursday); new city-building track; expected about 1,500 people.",
+      "source_url": "https://soapboxmedia.com/startupcincy-week-marks-a-decade-of-building-cincinnatis-startup-community/"
+    }
+  ],
+  "stats": [
+    {
+      "label": "Panels, workshops & keynotes",
+      "value": "100+",
+      "source_url": "https://startupcincyweek.com/"
+    },
+    {
+      "label": "Sessions (agenda page)",
+      "value": "110+",
+      "source_url": "https://startupcincyweek.com/en/agenda-page"
+    },
+    {
+      "label": "Speakers (agenda page)",
+      "value": "75+",
+      "source_url": "https://startupcincyweek.com/en/agenda-page"
+    },
+    {
+      "label": "Expected attendance",
+      "value": "about 1,500",
+      "source_url": "https://soapboxmedia.com/startupcincy-week-marks-a-decade-of-building-cincinnatis-startup-community/"
+    },
+    {
+      "label": "Founders, funders, and builders (startupcincy.com promo)",
+      "value": "1,000+",
+      "source_url": "https://startupcincy.com/"
+    },
+    {
+      "label": "Edition",
+      "value": "10th annual",
+      "source_url": "https://startupcincyweek.com/en/agenda-page"
+    },
+    {
+      "label": "StartupCincy ecosystem: Startups",
+      "value": "397",
+      "source_url": "https://startupcincy.com/"
+    },
+    {
+      "label": "StartupCincy ecosystem: Ecosystem Value",
+      "value": "$8.2B",
+      "source_url": "https://startupcincy.com/"
+    },
+    {
+      "label": "StartupCincy ecosystem: Raised through venture funding in the last 5 years",
+      "value": "$1.68B",
+      "source_url": "https://startupcincy.com/"
+    },
+    {
+      "label": "StartupCincy ecosystem: raised through non-dilutive funding in the last 5 years",
+      "value": "$35.9M",
+      "source_url": "https://startupcincy.com/"
+    },
+    {
+      "label": "StartupCincy ecosystem: jobs associated with Cincy startups",
+      "value": "32.5K",
+      "source_url": "https://startupcincy.com/"
+    },
+    {
+      "label": "StartupCincy ecosystem: jobs created in the last 5 years",
+      "value": "9000",
+      "source_url": "https://startupcincy.com/"
+    },
+    {
+      "label": "StartupCincy coalition: Entrepreneur Support Organizations",
+      "value": "60+",
+      "source_url": "https://startupcincy.com/our-partners/"
+    },
+    {
+      "label": "StartupCincy coalition: Venture Capital Investors, Grantors, and other Funding Sources",
+      "value": "50+",
+      "source_url": "https://startupcincy.com/our-partners/"
+    },
+    {
+      "label": "StartupCincy coalition: Resources & Support Programs",
+      "value": "200+",
+      "source_url": "https://startupcincy.com/our-partners/"
+    },
+    {
+      "label": "StartupCincy coalition: Corporate Partners & Universities",
+      "value": "28",
+      "source_url": "https://startupcincy.com/our-partners/"
+    },
+    {
+      "label": "StartupCincy Slack members",
+      "value": "1500+",
+      "source_url": "https://startupcincy.com/resources/"
+    },
+    {
+      "label": "Fortune 500 companies headquartered in the region",
+      "value": "9",
+      "source_url": "https://startupcincy.com/about-startupcincy/"
+    },
+    {
+      "label": "STEM graduates annually",
+      "value": "over 33,000",
+      "source_url": "https://startupcincy.com/about-startupcincy/"
+    },
+    {
+      "label": "Cintrifuse Capital assets under management",
+      "value": "over $150 million",
+      "source_url": "https://cintrifuse.com/about-us/",
+      "note": "The SCW agenda bio of Max Dworin (Vice President, Cintrifuse Capital) says \"a $180mm AUM fund\"; the two sources differ."
+    }
+  ],
+  "logo": {
+    "url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1767721253sucw2026-logo-1-png1767721253.png",
+    "format": "png",
+    "on": "light",
+    "note": "1748x594 PNG, black STARTUPCINCY WEEK 2026 wordmark with \"UP\" and the \">>>\" chevrons in red (#EC4741 measured). No SVG published."
+  },
+  "brand": {
+    "colors": [
+      "#EB4840",
+      "#0B2734",
+      "#3C80BD",
+      "#63BEDC",
+      "#182A2C",
+      "#D9E7EF",
+      "#F6FAFD",
+      "#FFD600",
+      "#212121"
+    ],
+    "color_names": [
+      {
+        "name": "themeRed",
+        "hex": "#EB4840"
+      },
+      {
+        "name": "mainThemeColor (deep navy)",
+        "hex": "#0B2734"
+      },
+      {
+        "name": "themeBlue",
+        "hex": "#3C80BD"
+      },
+      {
+        "name": "themeAqua",
+        "hex": "#63BEDC"
+      },
+      {
+        "name": "themeGreen (near-black green)",
+        "hex": "#182A2C"
+      },
+      {
+        "name": "themeGrey",
+        "hex": "#D9E7EF"
+      },
+      {
+        "name": "themeLightGrey",
+        "hex": "#F6FAFD"
+      },
+      {
+        "name": "yellow",
+        "hex": "#FFD600"
+      },
+      {
+        "name": "footerBg",
+        "hex": "#212121"
+      }
+    ],
+    "fonts": [
+      "Knockout",
+      "Knockout 27 Junior Bantamwt",
+      "Montserrat",
+      "Nunito Sans",
+      "Bebas Neue",
+      "Anton"
+    ],
+    "font_roles": {
+      "--eventHeadingFont": "'Knockout 27 Junior Bantamwt'",
+      "--eventFont": "'Montserrat'"
+    },
+    "font_files": [
+      {
+        "family": "Knockout",
+        "url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1746009764knockout-htf49-liteweight-woff21746009764.woff2"
+      },
+      {
+        "family": "Knockout 27 Junior Bantamwt",
+        "url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1746009764knockout-27juniorbantamwt-woff21746009764.woff2"
+      }
+    ],
+    "google_fonts_imports": [
+      "https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap",
+      "https://fonts.googleapis.com/css2?family=Anton&display=swap",
+      "https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+    ],
+    "startupcincy_com_colors": {
+      "primary": "#00293B",
+      "accent": "#DB4B3E",
+      "aqua": "#62BFE1",
+      "yellow": "#F6CF49",
+      "dark red": "#B1271B",
+      "text": "#1D1D1D"
+    },
+    "startupcincy_com_fonts": [
+      "Montserrat",
+      "Barlow Condensed",
+      "Zilla Slab"
+    ],
+    "note": "SCW colors/fonts from https://vepcss.b8cdn.com/css/vjf_18090.css (the vFairs event stylesheet). startupcincy.com values from its Elementor global kit variables and locally hosted Google Fonts."
+  },
+  "resources_file": "resources.json",
+  "source_url": "https://startupcincyweek.com/"
+}

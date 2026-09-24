@@ -1,0 +1,545 @@
+[
+ {
+  "id": "union-hall",
+  "name": "Union Hall",
+  "address": "1311 Vine St, Cincinnati, OH 45202",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45202",
+  "neighborhood": "Over-the-Rhine",
+  "lat": 39.109898,
+  "lng": -84.515591,
+  "programs": [
+   "scw"
+  ],
+  "kind": "venue",
+  "url": "https://startupcincyweek.com/",
+  "notes": "StartupCincy Week home base (see scw-info / scw-agenda venues). Hub for walking-distance calculations.",
+  "source_url": "https://startupcincyweek.com/en/faq-page",
+  "coords_source": "nominatim",
+  "is_hub": true,
+  "nearest_streetcar": [
+   {
+    "station": "Washington Park",
+    "number": 14,
+    "straight_line_m": 176
+   },
+   {
+    "station": "12th & Vine",
+    "number": 7,
+    "straight_line_m": 192
+   }
+  ],
+  "nearest_redbike": [
+   {
+    "name": "12th & Vine",
+    "id": "redbike-2801",
+    "straight_line_m": 163
+   },
+   {
+    "name": "15th & Vine",
+    "id": "redbike-2803",
+    "straight_line_m": 199
+   },
+   {
+    "name": "Washington Park",
+    "id": "redbike-2804",
+    "straight_line_m": 236
+   }
+  ],
+  "walk_to": {
+   "caw-art-market-hq-1417-main": {
+    "straight_line_km": 0.34,
+    "straight_line_mi": 0.21,
+    "approx_walk_min_lower_bound": 4
+   },
+   "findlay-market": {
+    "straight_line_km": 0.67,
+    "straight_line_mi": 0.42,
+    "approx_walk_min_lower_bound": 8
+   },
+   "fountain-square": {
+    "straight_line_km": 0.93,
+    "straight_line_mi": 0.58,
+    "approx_walk_min_lower_bound": 12
+   },
+   "smale-riverfront-park": {
+    "straight_line_km": 1.66,
+    "straight_line_mi": 1.03,
+    "approx_walk_min_lower_bound": 21
+   },
+   "covington-riverfront-roebling-point": {
+    "straight_line_km": 2.35,
+    "straight_line_mi": 1.46,
+    "approx_walk_min_lower_bound": 29
+   },
+   "newport-on-the-levee": {
+    "straight_line_km": 2.35,
+    "straight_line_mi": 1.46,
+    "approx_walk_min_lower_bound": 29
+   }
+  }
+ },
+ {
+  "id": "caw-art-market-hq-1417-main",
+  "name": "Cincinnati Art Week HQ + Art Market (1417 Main St)",
+  "address": "1417 Main St, Cincinnati, OH 45202",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45202",
+  "neighborhood": "Over-the-Rhine",
+  "lat": 39.111849,
+  "lng": -84.51262,
+  "programs": [
+   "caw"
+  ],
+  "kind": "venue",
+  "url": "https://cincinnatiartweek.com/",
+  "notes": "Art Week HQ as recorded by the caw slice (same id as research/caw/venues.json). Hub for walking-distance calculations.",
+  "source_url": "https://cincinnatiartweek.com/",
+  "coords_source": "nominatim",
+  "is_hub": true,
+  "nearest_streetcar": [
+   {
+    "station": "12th & Main",
+    "number": 6,
+    "straight_line_m": 389
+   },
+   {
+    "station": "12th & Vine",
+    "number": 7,
+    "straight_line_m": 426
+   }
+  ],
+  "nearest_redbike": [
+   {
+    "name": "Main & Orchard",
+    "id": "redbike-2802",
+    "straight_line_m": 38
+   },
+   {
+    "name": "Ziegler Park North",
+    "id": "redbike-7767",
+    "straight_line_m": 197
+   },
+   {
+    "name": "15th & Vine",
+    "id": "redbike-2803",
+    "straight_line_m": 249
+   }
+  ],
+  "walk_to": {
+   "union-hall": {
+    "straight_line_km": 0.34,
+    "straight_line_mi": 0.21,
+    "approx_walk_min_lower_bound": 4
+   },
+   "findlay-market": {
+    "straight_line_km": 0.67,
+    "straight_line_mi": 0.42,
+    "approx_walk_min_lower_bound": 8
+   },
+   "fountain-square": {
+    "straight_line_km": 1.12,
+    "straight_line_mi": 0.69,
+    "approx_walk_min_lower_bound": 14
+   },
+   "smale-riverfront-park": {
+    "straight_line_km": 1.81,
+    "straight_line_mi": 1.13,
+    "approx_walk_min_lower_bound": 23
+   },
+   "covington-riverfront-roebling-point": {
+    "straight_line_km": 2.52,
+    "straight_line_mi": 1.56,
+    "approx_walk_min_lower_bound": 31
+   },
+   "newport-on-the-levee": {
+    "straight_line_km": 2.34,
+    "straight_line_mi": 1.46,
+    "approx_walk_min_lower_bound": 29
+   }
+  }
+ },
+ {
+  "id": "findlay-market",
+  "name": "Findlay Market",
+  "address": "1801 Race St, Cincinnati, OH 45202",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45202",
+  "neighborhood": "Over-the-Rhine (Findlay Market)",
+  "lat": 39.115366,
+  "lng": -84.518981,
+  "programs": [
+   "blink"
+  ],
+  "kind": "venue",
+  "url": "https://www.findlaymarket.org/",
+  "notes": "BLINK Findlay Market Zone anchor. Market hours: Tue–Fri 9 AM–6 PM, Sat 8 AM–6 PM, Sun 10 AM–4 PM, Monday CLOSED (findlaymarket.org/hours).",
+  "source_url": "https://www.findlaymarket.org/about",
+  "coords_source": "nominatim",
+  "is_hub": true,
+  "nearest_streetcar": [
+   {
+    "station": "Findlay Market - Race",
+    "number": 12,
+    "straight_line_m": 62
+   },
+   {
+    "station": "Findlay Market - Elm",
+    "number": 10,
+    "straight_line_m": 82
+   }
+  ],
+  "nearest_redbike": [
+   {
+    "name": "Findlay Market",
+    "id": "redbike-2805",
+    "straight_line_m": 91
+   },
+   {
+    "name": "Elm & Henry",
+    "id": "redbike-3503",
+    "straight_line_m": 250
+   },
+   {
+    "name": "Grant Park",
+    "id": "redbike-7332",
+    "straight_line_m": 401
+   }
+  ],
+  "walk_to": {
+   "union-hall": {
+    "straight_line_km": 0.67,
+    "straight_line_mi": 0.42,
+    "approx_walk_min_lower_bound": 8
+   },
+   "caw-art-market-hq-1417-main": {
+    "straight_line_km": 0.67,
+    "straight_line_mi": 0.42,
+    "approx_walk_min_lower_bound": 8
+   },
+   "fountain-square": {
+    "straight_line_km": 1.6,
+    "straight_line_mi": 0.99,
+    "approx_walk_min_lower_bound": 20
+   },
+   "smale-riverfront-park": {
+    "straight_line_km": 2.34,
+    "straight_line_mi": 1.45,
+    "approx_walk_min_lower_bound": 29
+   },
+   "covington-riverfront-roebling-point": {
+    "straight_line_km": 3.01,
+    "straight_line_mi": 1.87,
+    "approx_walk_min_lower_bound": 38
+   },
+   "newport-on-the-levee": {
+    "straight_line_km": 2.99,
+    "straight_line_mi": 1.86,
+    "approx_walk_min_lower_bound": 37
+   }
+  }
+ },
+ {
+  "id": "fountain-square",
+  "name": "Fountain Square",
+  "address": "520 Vine St, Cincinnati, OH 45202",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45202",
+  "neighborhood": "Downtown (Fountain District)",
+  "lat": 39.101794,
+  "lng": -84.512811,
+  "programs": [
+   "blink"
+  ],
+  "kind": "park",
+  "url": "https://myfountainsquare.com/",
+  "notes": "BLINK Fountain District Zone anchor. Fountain Square Garage (3CDC) is underneath at 520 Vine Street.",
+  "source_url": "https://www.visitcincy.com/neighborhoods/downtown/fountain-district/",
+  "coords_source": "nominatim",
+  "is_hub": true,
+  "nearest_streetcar": [
+   {
+    "station": "Fountain Square",
+    "number": 18,
+    "straight_line_m": 162
+   },
+   {
+    "station": "Aronoff Center",
+    "number": 17,
+    "straight_line_m": 264
+   }
+  ],
+  "nearest_redbike": [
+   {
+    "name": "Fountain Square",
+    "id": "redbike-2786",
+    "straight_line_m": 111
+   },
+   {
+    "name": "4th & Vine",
+    "id": "redbike-3040",
+    "straight_line_m": 204
+   },
+   {
+    "name": "Aronoff Center",
+    "id": "redbike-2788",
+    "straight_line_m": 243
+   }
+  ],
+  "walk_to": {
+   "union-hall": {
+    "straight_line_km": 0.93,
+    "straight_line_mi": 0.58,
+    "approx_walk_min_lower_bound": 12
+   },
+   "caw-art-market-hq-1417-main": {
+    "straight_line_km": 1.12,
+    "straight_line_mi": 0.69,
+    "approx_walk_min_lower_bound": 14
+   },
+   "findlay-market": {
+    "straight_line_km": 1.6,
+    "straight_line_mi": 0.99,
+    "approx_walk_min_lower_bound": 20
+   },
+   "smale-riverfront-park": {
+    "straight_line_km": 0.74,
+    "straight_line_mi": 0.46,
+    "approx_walk_min_lower_bound": 9
+   },
+   "covington-riverfront-roebling-point": {
+    "straight_line_km": 1.42,
+    "straight_line_mi": 0.88,
+    "approx_walk_min_lower_bound": 18
+   },
+   "newport-on-the-levee": {
+    "straight_line_km": 1.62,
+    "straight_line_mi": 1.01,
+    "approx_walk_min_lower_bound": 20
+   }
+  }
+ },
+ {
+  "id": "smale-riverfront-park",
+  "name": "The Banks / Smale Riverfront Park",
+  "address": "Freedom Way, Cincinnati, OH 45202",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45202",
+  "neighborhood": "The Banks",
+  "lat": 39.095734,
+  "lng": -84.509334,
+  "programs": [
+   "blink"
+  ],
+  "kind": "park",
+  "url": "https://thebankscincy.com/",
+  "notes": "BLINK Riverfront (The Banks) Zone anchor; the Connector streetcar stop is named \"The Banks\". Coordinates are the Visit Cincy listing point for Smale Riverfront Park. Address is the one The Banks prints in its site footer (lines \"The Banks\" / \"Freedom Way\" / \"Cincinnati, OH 45202\" on thebankscincy.com); the Visit Cincy park listing gives 4 Beech Lane, Cincinnati, OH 45208, which does not geocode to the riverfront.",
+  "source_url": "https://www.visitcincy.com/neighborhoods/downtown/the-banks/",
+  "coords_source": "visitcincy",
+  "is_hub": true,
+  "nearest_streetcar": [
+   {
+    "station": "The Banks",
+    "number": 1,
+    "straight_line_m": 282
+   },
+   {
+    "station": "4th & Main",
+    "number": 2,
+    "straight_line_m": 563
+   }
+  ],
+  "nearest_redbike": [
+   {
+    "name": "Smale Riverfront Park East",
+    "id": "redbike-7214",
+    "straight_line_m": 92
+   },
+   {
+    "name": "Smale Riverfront Park",
+    "id": "redbike-3495",
+    "straight_line_m": 146
+   },
+   {
+    "name": "Freedom Center",
+    "id": "redbike-2790",
+    "straight_line_m": 196
+   }
+  ],
+  "walk_to": {
+   "union-hall": {
+    "straight_line_km": 1.66,
+    "straight_line_mi": 1.03,
+    "approx_walk_min_lower_bound": 21
+   },
+   "caw-art-market-hq-1417-main": {
+    "straight_line_km": 1.81,
+    "straight_line_mi": 1.13,
+    "approx_walk_min_lower_bound": 23
+   },
+   "findlay-market": {
+    "straight_line_km": 2.34,
+    "straight_line_mi": 1.45,
+    "approx_walk_min_lower_bound": 29
+   },
+   "fountain-square": {
+    "straight_line_km": 0.74,
+    "straight_line_mi": 0.46,
+    "approx_walk_min_lower_bound": 9
+   },
+   "covington-riverfront-roebling-point": {
+    "straight_line_km": 0.71,
+    "straight_line_mi": 0.44,
+    "approx_walk_min_lower_bound": 9
+   },
+   "newport-on-the-levee": {
+    "straight_line_km": 1.14,
+    "straight_line_mi": 0.71,
+    "approx_walk_min_lower_bound": 14
+   }
+  }
+ },
+ {
+  "id": "covington-riverfront-roebling-point",
+  "name": "Covington riverfront (Kentucky end of the Roebling Suspension Bridge)",
+  "address": "Court Ave & E 2nd St, Covington, KY 41011",
+  "city": "Covington",
+  "state": "KY",
+  "zip": "41011",
+  "neighborhood": "Covington (Roebling Point)",
+  "lat": 39.089376,
+  "lng": -84.509072,
+  "programs": [
+   "blink"
+  ],
+  "kind": "zone",
+  "url": "https://www.covingtonky.gov/",
+  "notes": "Coordinates are the Visit Cincy listing point for the Roebling Suspension Bridge (address \"Court Ave. & E. 2nd Street, Covington\"), i.e. the Kentucky landing. The BLINK Covington Zone extends south along Madison Ave / Scott St (see blink-art venues: blink-zone-covington).",
+  "source_url": "https://www.visitcincy.com/listing/roebling-suspension-bridge/5621/",
+  "coords_source": "visitcincy",
+  "is_hub": true,
+  "nearest_streetcar": [],
+  "nearest_redbike": [
+   {
+    "name": "Roebling Point",
+    "id": "redbike-3244",
+    "straight_line_m": 125
+   },
+   {
+    "name": "Rivercenter & NKY Convention Center",
+    "id": "redbike-3245",
+    "straight_line_m": 222
+   },
+   {
+    "name": "Gateway College & Library",
+    "id": "redbike-3243",
+    "straight_line_m": 518
+   }
+  ],
+  "walk_to": {
+   "union-hall": {
+    "straight_line_km": 2.35,
+    "straight_line_mi": 1.46,
+    "approx_walk_min_lower_bound": 29
+   },
+   "caw-art-market-hq-1417-main": {
+    "straight_line_km": 2.52,
+    "straight_line_mi": 1.56,
+    "approx_walk_min_lower_bound": 31
+   },
+   "findlay-market": {
+    "straight_line_km": 3.01,
+    "straight_line_mi": 1.87,
+    "approx_walk_min_lower_bound": 38
+   },
+   "fountain-square": {
+    "straight_line_km": 1.42,
+    "straight_line_mi": 0.88,
+    "approx_walk_min_lower_bound": 18
+   },
+   "smale-riverfront-park": {
+    "straight_line_km": 0.71,
+    "straight_line_mi": 0.44,
+    "approx_walk_min_lower_bound": 9
+   },
+   "newport-on-the-levee": {
+    "straight_line_km": 1.28,
+    "straight_line_mi": 0.8,
+    "approx_walk_min_lower_bound": 16
+   }
+  }
+ },
+ {
+  "id": "newport-on-the-levee",
+  "name": "Newport on the Levee",
+  "address": "One Levee Way, Newport, KY 41071",
+  "city": "Newport",
+  "state": "KY",
+  "zip": "41071",
+  "neighborhood": "Newport",
+  "lat": 39.095069,
+  "lng": -84.496166,
+  "programs": [],
+  "kind": "venue",
+  "url": "http://newportonthelevee.com",
+  "notes": "Newport riverfront anchor (Purple People Bridge landing). Not a program venue; included as a lodging/dining hub.",
+  "source_url": "https://www.visitcincy.com/listing/newport-on-the-levee/4944/",
+  "coords_source": "visitcincy",
+  "is_hub": true,
+  "nearest_streetcar": [],
+  "nearest_redbike": [
+   {
+    "name": "Newport on the Levee East",
+    "id": "redbike-3248",
+    "straight_line_m": 91
+   },
+   {
+    "name": "Newport on the Levee West",
+    "id": "redbike-3249",
+    "straight_line_m": 102
+   },
+   {
+    "name": "East Row Historic District",
+    "id": "redbike-3251",
+    "straight_line_m": 518
+   }
+  ],
+  "walk_to": {
+   "union-hall": {
+    "straight_line_km": 2.35,
+    "straight_line_mi": 1.46,
+    "approx_walk_min_lower_bound": 29
+   },
+   "caw-art-market-hq-1417-main": {
+    "straight_line_km": 2.34,
+    "straight_line_mi": 1.46,
+    "approx_walk_min_lower_bound": 29
+   },
+   "findlay-market": {
+    "straight_line_km": 2.99,
+    "straight_line_mi": 1.86,
+    "approx_walk_min_lower_bound": 37
+   },
+   "fountain-square": {
+    "straight_line_km": 1.62,
+    "straight_line_mi": 1.01,
+    "approx_walk_min_lower_bound": 20
+   },
+   "smale-riverfront-park": {
+    "straight_line_km": 1.14,
+    "straight_line_mi": 0.71,
+    "approx_walk_min_lower_bound": 14
+   },
+   "covington-riverfront-roebling-point": {
+    "straight_line_km": 1.28,
+    "straight_line_mi": 0.8,
+    "approx_walk_min_lower_bound": 16
+   }
+  }
+ }
+]

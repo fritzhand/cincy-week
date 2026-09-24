@@ -1,0 +1,162 @@
+[
+ {
+  "program": "fotofocus",
+  "kind": "logo",
+  "url": "https://www.fotofocus.org/",
+  "format": "svg",
+  "notes": "Inline SVG wordmark from the site header, saved to raw/also/fotofocus_logo_inline.svg (black paths, viewBox 0 0 400 36.83).",
+  "source_url": "https://www.fotofocus.org/"
+ },
+ {
+  "program": "fotofocus",
+  "kind": "favicon",
+  "url": "https://www.fotofocus.org/wp-content/themes/fotofocus/assets/images/safari-pinned-tab-20260603.svg",
+  "format": "svg",
+  "notes": "Safari pinned-tab mask icon (color #333333).",
+  "source_url": "https://www.fotofocus.org/"
+ },
+ {
+  "program": "fotofocus",
+  "kind": "favicon",
+  "url": "https://www.fotofocus.org/wp-content/uploads/2026/05/cropped-android-chrome-512x512-1-192x192.png",
+  "format": "png",
+  "notes": "Site icon 192px (a 512px original is implied by the file name).",
+  "source_url": "https://www.fotofocus.org/"
+ },
+ {
+  "program": "fotofocus",
+  "kind": "key-art",
+  "url": "https://www.fotofocus.org/wp-content/uploads/2026/06/Biennial-Website-Banner-Desktop_3840x660-2.jpg",
+  "format": "jpg",
+  "notes": "2026 Biennial \"The Long View\" desktop banner, 3840x660.",
+  "source_url": "https://www.fotofocus.org/biennial/2026/"
+ },
+ {
+  "program": "fotofocus",
+  "kind": "key-art",
+  "url": "https://www.fotofocus.org/wp-content/uploads/2026/06/Biennial-Website-Banner-Mobile_1800x1800-2.jpg",
+  "format": "jpg",
+  "notes": "2026 Biennial mobile banner, 1800x1800.",
+  "source_url": "https://www.fotofocus.org/biennial/2026/"
+ },
+ {
+  "program": "fotofocus",
+  "kind": "key-art",
+  "url": "https://www.fotofocus.org/wp-content/uploads/2026/06/Biennial-Website-Poster_1116x1694-2.jpg",
+  "format": "jpg",
+  "notes": "2026 Biennial poster, 1116x1694 (HEAD 200, 1,027,216 bytes).",
+  "source_url": "https://www.fotofocus.org/"
+ },
+ {
+  "program": "fotofocus",
+  "kind": "key-art",
+  "url": "https://www.fotofocus.org/wp-content/uploads/2026/06/Biennial-Website-Program-Grid_1104x880.jpg",
+  "format": "jpg",
+  "notes": "Program grid tile (og:image of the Art and Map pages).",
+  "source_url": "https://www.fotofocus.org/biennial/2026/art"
+ },
+ {
+  "program": "fotofocus",
+  "kind": "key-art",
+  "url": "https://www.fotofocus.org/wp-content/uploads/2025/08/2026-Biennial-Colorful-FotoFocus_org-The-Lens-and-Featured-Image.jpg",
+  "format": "jpg",
+  "notes": "og:image of the 2026 Biennial landing page.",
+  "source_url": "https://www.fotofocus.org/biennial/2026/"
+ },
+ {
+  "program": "fotofocus",
+  "kind": "key-art",
+  "url": "https://www.fotofocus.org/wp-content/uploads/2026/06/Paglen-Website-Banner-Desktop_3840x660.jpg",
+  "format": "jpg",
+  "notes": "Trevor Paglen: the most merciful thing in the world banner (FotoFocus Center featured exhibition).",
+  "source_url": "https://www.fotofocus.org/exhibition/trevor-paglen"
+ },
+ {
+  "program": "fotofocus",
+  "kind": "photo",
+  "url": "https://www.fotofocus.org/wp-content/uploads/2026/05/ABOUT_2024-09-27-Chip-Thomas_CAC-Tour_EA_IMG_1321.jpg",
+  "format": "jpg",
+  "notes": "About page photo: 2024 Biennial, Chip Thomas and the Painted Desert Project at the CAC. Photo by Emily Akil.",
+  "source_url": "https://www.fotofocus.org/biennial/2026/about"
+ },
+ {
+  "program": "fotofocus",
+  "kind": "photo",
+  "url": "https://www.fotofocus.org/wp-content/uploads/2026/08/fotofocus.bigtent.2026-14-scaled-1.jpg",
+  "format": "jpg",
+  "notes": "Biennial Pass page photo (credit on page: Photo by Angie Lipscomb).",
+  "source_url": "https://www.fotofocus.org/biennial/2026/biennialpass"
+ },
+ {
+  "program": "fotofocus",
+  "kind": "font",
+  "url": "https://use.typekit.net/rvb1rlh.css",
+  "format": "css",
+  "notes": "Adobe Fonts kit: neue-haas-grotesk-display, neue-haas-grotesk-text (licensed; reference only).",
+  "source_url": "https://www.fotofocus.org/"
+ },
+ {
+  "program": "fotofocus",
+  "kind": "font",
+  "url": "https://use.typekit.net/nfo0dtf.js",
+  "format": "js",
+  "notes": "Adobe Fonts kit script referenced by the site head; theme CSS names franklin-gothic-urw (body/headings) and letter-gothic-std (labels). Licensed; reference only.",
+  "source_url": "https://www.fotofocus.org/"
+ },
+ {
+  "program": "fotofocus",
+  "kind": "logo",
+  "url": "https://www.fotofocus.org/wp-content/uploads/2026/05/Ohio-Arts-Council.jpg",
+  "format": "jpg",
+  "notes": "Ohio Arts Council logo (Programmatic Support).",
+  "source_url": "https://www.fotofocus.org/biennial/2026/about#sponsors"
+ },
+ {
+  "program": "fotofocus",
+  "kind": "logo",
+  "url": "https://www.fotofocus.org/wp-content/uploads/2026/05/Luther-Foundation.jpg",
+  "format": "jpg",
+  "notes": "Luther Foundation logo (Programmatic Support).",
+  "source_url": "https://www.fotofocus.org/biennial/2026/about#sponsors"
+ },
+ {
+  "program": "fotofocus",
+  "kind": "logo",
+  "url": "https://www.fotofocus.org/wp-content/uploads/2026/07/Ohio-Humanities.jpg",
+  "format": "jpg",
+  "notes": "Ohio Humanities logo (Programmatic Support).",
+  "source_url": "https://www.fotofocus.org/biennial/2026/about#sponsors"
+ },
+ {
+  "program": "fotofocus",
+  "kind": "logo",
+  "url": "https://www.fotofocus.org/wp-content/uploads/2026/05/Eat-Well.jpg",
+  "format": "jpg",
+  "notes": "Eat Well logo (Partners).",
+  "source_url": "https://www.fotofocus.org/biennial/2026/about#sponsors"
+ },
+ {
+  "program": "fotofocus",
+  "kind": "logo",
+  "url": "https://www.fotofocus.org/wp-content/uploads/2026/05/Spotted-Yeti.jpg",
+  "format": "jpg",
+  "notes": "Spotted Yeti logo (Partners).",
+  "source_url": "https://www.fotofocus.org/biennial/2026/about#sponsors"
+ },
+ {
+  "program": "fotofocus",
+  "kind": "logo",
+  "url": "https://www.fotofocus.org/wp-content/uploads/2026/05/Dot-Dash.jpg",
+  "format": "jpg",
+  "notes": "Dot Dash logo (Partners).",
+  "source_url": "https://www.fotofocus.org/biennial/2026/about#sponsors"
+ },
+ {
+  "program": "fotofocus",
+  "kind": "logo",
+  "url": "https://www.fotofocus.org/wp-content/uploads/2026/05/Lightborne.jpg",
+  "format": "jpg",
+  "notes": "Lightborne logo (Partners).",
+  "source_url": "https://www.fotofocus.org/biennial/2026/about#sponsors"
+ }
+]

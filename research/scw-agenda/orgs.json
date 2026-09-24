@@ -1,0 +1,352 @@
+[
+  {
+    "id": "book-plus-street",
+    "name": "Book + Street",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "session sponsor",
+    "logo_url": null,
+    "url": null,
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "sessions": [
+      "scw-top-5-hr-mistakes-startups-make-and-how-to-fix-them"
+    ],
+    "source_strings": [
+      "Book + Street"
+    ],
+    "notes": "Named as presenter/sponsor of SCW agenda session(s): \"Book + Street\". Logo and sponsorship tier are not on the agenda page (see the partners page slice)."
+  },
+  {
+    "id": "cincinnati-childrens",
+    "name": "Cincinnati Children's",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "session sponsor",
+    "logo_url": null,
+    "url": null,
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "sessions": [
+      "scw-building-businesses-with-cincinnati-childrens"
+    ],
+    "source_strings": [
+      "Cincinnati Children's"
+    ],
+    "notes": "Named as presenter/sponsor of SCW agenda session(s): \"Cincinnati Children's\". Logo and sponsorship tier are not on the agenda page (see the partners page slice)."
+  },
+  {
+    "id": "cincytech",
+    "name": "CincyTech",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "session sponsor",
+    "logo_url": null,
+    "url": null,
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "sessions": [
+      "scw-the-unicorn-asteroid-and-phoenix-the-80-acres-story"
+    ],
+    "source_strings": [
+      "CincyTech"
+    ],
+    "notes": "Named as presenter/sponsor of SCW agenda session(s): \"CincyTech\". Logo and sponsorship tier are not on the agenda page (see the partners page slice)."
+  },
+  {
+    "id": "ecdi",
+    "name": "ECDI",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "session sponsor",
+    "logo_url": null,
+    "url": null,
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "sessions": [
+      "scw-access-to-capital-finding-the-right-funding-for-your-business"
+    ],
+    "source_strings": [
+      "ECDI"
+    ],
+    "notes": "Named as presenter/sponsor of SCW agenda session(s): \"ECDI\". Logo and sponsorship tier are not on the agenda page (see the partners page slice)."
+  },
+  {
+    "id": "fbt-gibbons",
+    "name": "FBT Gibbons",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "session sponsor",
+    "logo_url": null,
+    "url": null,
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "sessions": [
+      "scw-adding-new-friends-understanding-equity-awards-for-co-founders-employees-and-advisors",
+      "scw-ai-and-ip-what-you-own-what-you-dont-and-what-could-blow-up-in-your-face"
+    ],
+    "source_strings": [
+      "FBT Gibbons"
+    ],
+    "notes": "Named as presenter/sponsor of SCW agenda session(s): \"FBT Gibbons\". Logo and sponsorship tier are not on the agenda page (see the partners page slice)."
+  },
+  {
+    "id": "forvis-mazars",
+    "name": "Forvis Mazars",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "session sponsor",
+    "logo_url": null,
+    "url": null,
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "sessions": [
+      "scw-building-a-smarter-startup-r-and-d-tax-credits-and-tax-strategies-that-fuel-growth"
+    ],
+    "source_strings": [
+      "Forvis Mazars"
+    ],
+    "notes": "Named as presenter/sponsor of SCW agenda session(s): \"Forvis Mazars\". Logo and sponsorship tier are not on the agenda page (see the partners page slice)."
+  },
+  {
+    "id": "hard-rock-casino",
+    "name": "Hard Rock Casino",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "session sponsor",
+    "logo_url": null,
+    "url": null,
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "sessions": [
+      "scw-the-big-bet-happy-hour-presented-by-hard-rock-casino"
+    ],
+    "source_strings": [
+      "Hard Rock Casino"
+    ],
+    "notes": "Named as presenter/sponsor of SCW agenda session(s): \"Hard Rock Casino\". Logo and sponsorship tier are not on the agenda page (see the partners page slice)."
+  },
+  {
+    "id": "insperity",
+    "name": "Insperity",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "session sponsor",
+    "logo_url": null,
+    "url": null,
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "sessions": [
+      "scw-employee-engagement-as-a-profitability-strategy"
+    ],
+    "source_strings": [
+      "Insperity"
+    ],
+    "notes": "Named as presenter/sponsor of SCW agenda session(s): \"Insperity\". Logo and sponsorship tier are not on the agenda page (see the partners page slice)."
+  },
+  {
+    "id": "kroger",
+    "name": "Kroger",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "session sponsor",
+    "logo_url": null,
+    "url": null,
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "sessions": [
+      "scw-food-founder-kickoff-presented-by-kroger"
+    ],
+    "source_strings": [
+      "Kroger"
+    ],
+    "notes": "Named as presenter/sponsor of SCW agenda session(s): \"Kroger\". Logo and sponsorship tier are not on the agenda page (see the partners page slice)."
+  },
+  {
+    "id": "lifesciky",
+    "name": "LifeSciKY",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "session sponsor",
+    "logo_url": null,
+    "url": null,
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "sessions": [
+      "scw-science-on-the-rocks-presented-by-lifesciky"
+    ],
+    "source_strings": [
+      "LifeSciKY"
+    ],
+    "notes": "Named as presenter/sponsor of SCW agenda session(s): \"LifeSciKY\". Logo and sponsorship tier are not on the agenda page (see the partners page slice)."
+  },
+  {
+    "id": "notion",
+    "name": "Notion",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "session sponsor",
+    "logo_url": null,
+    "url": null,
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "sessions": [
+      "scw-build-your-first-ai-agent-no-technical-skills-required-1006",
+      "scw-build-your-first-ai-agent-no-technical-skills-required-1007",
+      "scw-build-your-first-ai-agent-no-technical-skills-required-1008"
+    ],
+    "source_strings": [
+      "Notion"
+    ],
+    "notes": "Named as presenter/sponsor of SCW agenda session(s): \"Notion\". Logo and sponsorship tier are not on the agenda page (see the partners page slice)."
+  },
+  {
+    "id": "queen-city-angels",
+    "name": "Queen City Angels",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "session sponsor",
+    "logo_url": null,
+    "url": null,
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "sessions": [
+      "scw-the-investor-room-a-live-pitch-with-qca-ventures"
+    ],
+    "source_strings": [
+      "Queen City Angels"
+    ],
+    "notes": "Named as presenter/sponsor of SCW agenda session(s): \"Queen City Angels\". Logo and sponsorship tier are not on the agenda page (see the partners page slice)."
+  },
+  {
+    "id": "sam-adams",
+    "name": "Sam Adams",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "session sponsor",
+    "logo_url": null,
+    "url": null,
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "sessions": [
+      "scw-small-business-big-insights-turning-customer-understanding-into-growth",
+      "scw-speed-coaching-turning-customer-insights-into-action-consumer-insights-marketing-pr-selling-skills-and-more",
+      "scw-community-kickoff-happy-hour-presented-by-sam-adams"
+    ],
+    "source_strings": [
+      "Sam Adams, Brewing the American Dream",
+      "Sam Adams Brewing the American Dream",
+      "Sam Adams"
+    ],
+    "notes": "Named as presenter/sponsor of SCW agenda session(s): \"Sam Adams, Brewing the American Dream\", \"Sam Adams Brewing the American Dream\", \"Sam Adams\". Logo and sponsorship tier are not on the agenda page (see the partners page slice)."
+  },
+  {
+    "id": "the-gratitude-collective",
+    "name": "The Gratitude Collective",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "session sponsor",
+    "logo_url": null,
+    "url": null,
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "sessions": [
+      "scw-ten-year-vision-day-one-plan"
+    ],
+    "source_strings": [
+      "The Gratitude Collective"
+    ],
+    "notes": "Named as presenter/sponsor of SCW agenda session(s): \"The Gratitude Collective\". Logo and sponsorship tier are not on the agenda page (see the partners page slice)."
+  },
+  {
+    "id": "thompson-hine",
+    "name": "Thompson Hine",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "session sponsor",
+    "logo_url": null,
+    "url": null,
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "sessions": [
+      "scw-tackling-term-sheets-a-working-lunch-with-thompson-hines"
+    ],
+    "source_strings": [
+      "Thompson Hine"
+    ],
+    "notes": "Named as presenter/sponsor of SCW agenda session(s): \"Thompson Hine\". Logo and sponsorship tier are not on the agenda page (see the partners page slice)."
+  },
+  {
+    "id": "university-of-cincinnati",
+    "name": "University of Cincinnati",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "session sponsor",
+    "logo_url": null,
+    "url": null,
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "sessions": [
+      "scw-uc-tech-transfer-recruiting-venture-builders-connecting-startups-and-commercializing-innovation",
+      "scw-the-talent-engine-fueling-cincinnatis-entrepreneurial-ecosystem"
+    ],
+    "source_strings": [
+      "University of Cincinnati"
+    ],
+    "notes": "Named as presenter/sponsor of SCW agenda session(s): \"University of Cincinnati\". Logo and sponsorship tier are not on the agenda page (see the partners page slice)."
+  },
+  {
+    "id": "us-bank",
+    "name": "US Bank",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "session sponsor",
+    "logo_url": null,
+    "url": null,
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "sessions": [
+      "scw-ask-a-banker-funding-ready-business-breakouts"
+    ],
+    "source_strings": [
+      "US Bank"
+    ],
+    "notes": "Named as presenter/sponsor of SCW agenda session(s): \"US Bank\". Logo and sponsorship tier are not on the agenda page (see the partners page slice)."
+  },
+  {
+    "id": "visitcincy",
+    "name": "VisitCincy",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "session sponsor",
+    "logo_url": null,
+    "url": null,
+    "source_url": "https://startupcincyweek.com/en/agenda-page",
+    "sessions": [
+      "scw-startupcincy-10-year-anniversary-party-presented-by-visitcincy"
+    ],
+    "source_strings": [
+      "VisitCincy"
+    ],
+    "notes": "Named as presenter/sponsor of SCW agenda session(s): \"VisitCincy\". Logo and sponsorship tier are not on the agenda page (see the partners page slice)."
+  }
+]

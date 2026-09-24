@@ -12,7 +12,7 @@
 .map-bar .label { color: var(--text-muted); margin: 0; }
 .map-bar-acts { display: inline-flex; flex-wrap: wrap; align-items: center; gap: var(--sp-2); }
 .map-view {
-  position: relative; overflow: hidden; aspect-ratio: var(--map-ratio, 4 / 3); max-height: 72vh; background: var(--map-bg);
+  position: relative; overflow: hidden; width: 100%; aspect-ratio: var(--map-ratio, 4 / 3); max-height: 72vh; background: var(--map-bg);
   touch-action: none; user-select: none; -webkit-user-select: none; cursor: grab; outline-offset: -3px;
 }
 .map-view.is-dragging { cursor: grabbing; }
@@ -51,7 +51,9 @@ button.pin { cursor: pointer; }
   font-size: var(--fs-label); font-weight: 750; font-variant-numeric: tabular-nums; line-height: 1;
 }
 .pin-venue[data-prog2] > span { border-color: transparent; background: linear-gradient(var(--map-pin-bg), var(--map-pin-bg)) padding-box, conic-gradient(var(--ink-edge) 0 50%, var(--ink-fill-2) 0 100%) border-box; }
-button.pin-venue:hover > span, .pin-venue[aria-pressed="true"] > span { background: var(--primary); color: var(--primary-contrast); border-color: var(--primary); }
+button.pin-venue:hover > span { background: var(--primary); color: var(--primary-contrast); border-color: var(--primary); }
+/* selected: inverted to ink, larger, with a river ring, so it never reads as a cluster count */
+.pin-venue[aria-pressed="true"] > span { min-width: 36px; height: 36px; background: var(--primary); color: var(--primary-contrast); border-color: var(--map-pin-bg); box-shadow: 0 0 0 3px var(--accent); font-size: var(--fs-sm); }
 /* an artwork: the program's own shape (BLINK diamond, Art Week square, …), on a paper halo */
 .pin-work { --pshape: var(--shape-diamond); }
 .pin-work[data-prog="caw"] { --pshape: var(--shape-square); }
@@ -211,7 +213,7 @@ button.pin-stop:hover > span, .pin-stop[aria-pressed="true"] > span, button.pin-
 .map-sec-h .i { width: 16px; height: 16px; }
 .map-sec-h .label { margin-left: auto; }
 .map-items { list-style: none; padding: 0; margin: 0; }
-.map-li { display: grid; grid-template-columns: 34px minmax(0, 1fr) auto; align-items: center; gap: 4px 10px; min-height: 52px; padding: 4px 0; border-bottom: 1px solid var(--border); }
+.map-li { position: relative; display: grid; grid-template-columns: 34px minmax(0, 1fr) auto; align-items: center; gap: 4px 10px; min-height: 52px; padding: 4px 0; border-bottom: 1px solid var(--border); }
 .map-li[hidden] { display: none; }
 .map-li.is-hi, .map-li.is-sel { background: var(--surface-alt); box-shadow: inset 3px 0 0 var(--accent); }
 .map-li-b { display: grid; gap: 1px; min-width: 0; padding: 4px 0; }
@@ -219,7 +221,9 @@ button.pin-stop:hover > span, .pin-stop[aria-pressed="true"] > span, button.pin-
 .map-li .t:hover { text-decoration: underline; text-underline-offset: 0.16em; }
 .map-li .m { font-size: var(--fs-xs); color: var(--text-muted); overflow-wrap: anywhere; }
 .map-li .badge { justify-self: start; margin-top: 4px; }
-.map-show { display: grid; place-items: center; width: var(--tap); height: var(--tap); color: var(--text-muted); background: none; border: 1px solid transparent; border-radius: var(--radius-md); }
+.map-li .t.stretched:focus-visible { outline: none; }
+.map-li .t.stretched:focus-visible::after { outline: 3px solid var(--focus); outline-offset: -3px; }
+.map-show { position: relative; z-index: 1; display: grid; place-items: center; width: var(--tap); height: var(--tap); color: var(--text-muted); background: none; border: 1px solid transparent; border-radius: var(--radius-md); }
 .map-show:hover { color: var(--text); border-color: var(--border-strong); }
 .map-off-note { font-size: var(--fs-xs); margin: var(--sp-2) 0; }
 .map-li.is-off { grid-template-columns: 34px minmax(0, 1fr); }

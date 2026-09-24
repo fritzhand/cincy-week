@@ -1,0 +1,1141 @@
+[
+  {
+    "id": "cintrifuse",
+    "name": "Cintrifuse",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Title Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840219992026-sucw-sponsor-logos-achievers-png1784021999.png",
+    "url": "https://cintrifuse.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "year": 2026,
+    "agenda_org_id": null,
+    "url_check": "official site (Cintrifuse footer/links)",
+    "url_recheck": {
+      "date": "2026-09-24",
+      "method": "headless Chromium, fresh page per URL",
+      "status": 200,
+      "final_url": "https://cintrifuse.com/",
+      "title": "Home - Cintrifuse",
+      "error": null
+    },
+    "notes": "Identified from the logo image (logo text: \"cintrifuse wordmark\"); the page gives no alt text or link. File name says \"achievers\" but the image is the cintrifuse wordmark. Cintrifuse is also the organizer of StartupCincy Week (it leads the StartupCincy coalition).",
+    "tier_rank": 1
+  },
+  {
+    "id": "jobsohio-ventures",
+    "name": "JobsOhio Ventures",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Title Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew/18090/content/files/1788347851jobsohio-png1788347851.png",
+    "url": "https://www.jobsohioventures.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "year": 2026,
+    "agenda_org_id": null,
+    "url_check": "page title \"JobsOhio Ventures\"",
+    "url_recheck": {
+      "date": "2026-09-24",
+      "method": "headless Chromium, fresh page per URL",
+      "status": 200,
+      "final_url": "https://www.jobsohioventures.com/",
+      "title": "JobsOhio Ventures",
+      "error": null
+    },
+    "notes": "Identified from the logo image (logo text: \"JobsOhio VENTURES\"); the page gives no alt text or link.",
+    "tier_rank": 1,
+    "also_sponsors": [
+      {
+        "event": "Cintrifuse Annual Meeting 2026 (Oct 6, Union Hall)",
+        "evidence": "Under \"Thank you to our sponsors\" the AGM page shows one white lockup image with the JobsOhio Ventures and P&G logos (read from the image; see assets.json).",
+        "source_url": "https://cintrifuse.com/cintrifuse-annual-meeting-2026/"
+      }
+    ]
+  },
+  {
+    "id": "procter-and-gamble",
+    "name": "Procter & Gamble (P&G)",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Title Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840216182026-sucw-sponsor-logos-p-amp-g-png1784021618.png",
+    "url": "https://us.pg.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "year": 2026,
+    "agenda_org_id": null,
+    "url_check": "page title \"Procter & Gamble\"",
+    "url_recheck": {
+      "date": "2026-09-24",
+      "method": "headless Chromium, fresh page per URL",
+      "status": 200,
+      "final_url": "https://us.pg.com/",
+      "title": "Procter & Gamble",
+      "error": null
+    },
+    "notes": "Identified from the logo image (logo text: \"P&G\"); the page gives no alt text or link.",
+    "tier_rank": 1,
+    "also_sponsors": [
+      {
+        "event": "Cintrifuse Annual Meeting 2026 (Oct 6, Union Hall)",
+        "evidence": "Under \"Thank you to our sponsors\" the AGM page shows one white lockup image with the JobsOhio Ventures and P&G logos (read from the image; see assets.json).",
+        "source_url": "https://cintrifuse.com/cintrifuse-annual-meeting-2026/"
+      }
+    ]
+  },
+  {
+    "id": "sam-adams",
+    "name": "Samuel Adams: Brewing the American Dream",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Presenting Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840224732026-sucw-sponsor-logos-sam-adams-png1784022473.png",
+    "url": "https://www.samueladams.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "year": 2026,
+    "agenda_org_id": "sam-adams",
+    "url_check": "page title \"... | Samuel Adams\" (brewing-the-american-dream path returned 404)",
+    "url_recheck": {
+      "date": "2026-09-24",
+      "method": "headless Chromium, fresh page per URL",
+      "status": 200,
+      "final_url": "https://www.samueladams.com/",
+      "title": "For the Love of Beer | Samuel Adams",
+      "error": null
+    },
+    "notes": "Identified from the logo image (logo text: \"BREWING THE American DREAM / SAMUEL ADAMS\"); the page gives no alt text or link.",
+    "tier_rank": 2
+  },
+  {
+    "id": "cincinnati-childrens",
+    "name": "Cincinnati Children's",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Presenting Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840224722026-sucw-sponsor-logos-book-amp-street-png1784022472.png",
+    "url": "https://www.cincinnatichildrens.org/",
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "year": 2026,
+    "agenda_org_id": "cincinnati-childrens",
+    "url_check": "page title \"Cincinnati Children's Hospital Medical Center\"",
+    "url_recheck": {
+      "date": "2026-09-24",
+      "method": "headless Chromium, fresh page per URL",
+      "status": 200,
+      "final_url": "https://www.cincinnatichildrens.org/",
+      "title": "Cincinnati Children's Hospital Medical Center",
+      "error": null
+    },
+    "notes": "Identified from the logo image (logo text: \"Cincinnati Children's\"); the page gives no alt text or link. File name says \"book-amp-street\" but the image is the cincinnati children's logo.",
+    "tier_rank": 2
+  },
+  {
+    "id": "cincytech",
+    "name": "CincyTech",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Presenting Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840224722026-sucw-sponsor-logos-cincy-tech-png1784022472.png",
+    "url": "https://www.cincytechusa.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "year": 2026,
+    "agenda_org_id": "cincytech",
+    "url_check": "page title \"Home | CincyTech\"",
+    "url_recheck": {
+      "date": "2026-09-24",
+      "method": "headless Chromium, fresh page per URL",
+      "status": 200,
+      "final_url": "https://www.cincytechusa.com/",
+      "title": "Home | CincyTech",
+      "error": null
+    },
+    "notes": "Identified from the logo image (logo text: \"cincytech\"); the page gives no alt text or link.",
+    "tier_rank": 2
+  },
+  {
+    "id": "fbt-gibbons",
+    "name": "FBT Gibbons",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Presenting Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840924712026-sucw-sponsor-logos-png1784092471.png",
+    "url": "https://fbtgibbons.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "year": 2026,
+    "agenda_org_id": "fbt-gibbons",
+    "url_check": "page title \"FBT Gibbons | Law Firm Home\"",
+    "url_recheck": {
+      "date": "2026-09-24",
+      "method": "headless Chromium, fresh page per URL",
+      "status": 200,
+      "final_url": "https://fbtgibbons.com/",
+      "title": "FBT Gibbons | Law Firm Home",
+      "error": null
+    },
+    "notes": "Identified from the logo image (logo text: \"FBT Gibbons\"); the page gives no alt text or link. File name has no company name; identified from the image.",
+    "tier_rank": 2
+  },
+  {
+    "id": "fifth-third",
+    "name": "Fifth Third",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Presenting Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840224722026-sucw-sponsor-logos-fifth-third-png1784022472.png",
+    "url": "https://www.53.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "year": 2026,
+    "agenda_org_id": null,
+    "url_check": "HTTP 200; page had no <title> in the static HTML",
+    "url_recheck": {
+      "date": "2026-09-24",
+      "method": "headless Chromium, fresh page per URL",
+      "status": 200,
+      "final_url": "https://www.53.com/",
+      "title": null,
+      "error": null
+    },
+    "notes": "Identified from the logo image (logo text: \"FIFTH THIRD\"); the page gives no alt text or link.",
+    "tier_rank": 2
+  },
+  {
+    "id": "jumpstart",
+    "name": "JumpStart",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Presenting Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840224732026-sucw-sponsor-logos-jumpstart-png1784022473.png",
+    "url": "https://jumpstartinc.org/",
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "year": 2026,
+    "agenda_org_id": null,
+    "url_check": "page title \"JumpStart | Helping Entrepreneurs Grow\" (og:site_name \"JumpStart Inc.\")",
+    "url_recheck": {
+      "date": "2026-09-24",
+      "method": "headless Chromium, fresh page per URL",
+      "status": 200,
+      "final_url": "https://jumpstartinc.org/",
+      "title": "JumpStart | Helping Entrepreneurs Grow",
+      "error": null
+    },
+    "notes": "Identified from the logo image (logo text: \"JumpStart\"); the page gives no alt text or link.",
+    "tier_rank": 2
+  },
+  {
+    "id": "kernel",
+    "name": "Kernel",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Presenting Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840224732026-sucw-sponsor-logos-kernel-png1784022473.png",
+    "url": "https://www.kernel.sh/",
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "year": 2026,
+    "agenda_org_id": null,
+    "url_check": "identified in the verification pass: the SCW agenda session \"Two Cities, One Startup: Building & Backing Kernel\" describes \"Kernel’s experience building simultaneously in Cincinnati and San Francisco\", and co-founder Catherine Jue’s agenda bio calls Kernel \"an AI infrastructure company building the browser layer that allows AI agents to interact with the internet\"; startupcincy.com/awards lists \"Rafael Garcia — Kernel\" (\"Kernel is building an open-source infrastructure that enables AI web agents to access and interact with the internet at incredible speed and scale\"); kernel.sh (onkernel.com redirects there) is titled \"KERNEL: browser infrastructure for web agents and automations\" and its about page says it is operated by Kernel Technologies, Inc. kernel.ai is an unrelated entity-data company.",
+    "url_recheck": {
+      "date": "2026-09-24",
+      "method": "headless Chromium, fresh page per URL",
+      "status": 200,
+      "final_url": "https://www.kernel.sh/",
+      "title": "KERNEL: browser infrastructure for web agents and automations",
+      "error": null
+    },
+    "notes": "Identified from the logo image (logo text: \"KERNEL\"); the page gives no alt text or link.",
+    "tier_rank": 2
+  },
+  {
+    "id": "miami-university",
+    "name": "Miami University",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Presenting Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840224732026-sucw-sponsor-logos-miami-u-png1784022473.png",
+    "url": "https://miamioh.edu/",
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "year": 2026,
+    "agenda_org_id": null,
+    "url_check": "automated check failed on TLS; domain is the university's (also cited on the 1809 Capital page)",
+    "url_recheck": {
+      "date": "2026-09-24",
+      "method": "headless Chromium, fresh page per URL",
+      "status": 502,
+      "final_url": "https://miamioh.edu/",
+      "title": null,
+      "error": null
+    },
+    "notes": "Identified from the logo image (logo text: \"MIAMI UNIVERSITY\"); the page gives no alt text or link.",
+    "tier_rank": 2
+  },
+  {
+    "id": "mobile-infrastructure",
+    "name": "Mobile Infrastructure",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Presenting Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew/18090/content/files/1788516838mobile-infrastructure-png1788516838.png",
+    "url": "https://www.mobileit.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "year": 2026,
+    "agenda_org_id": null,
+    "url_check": "HTTP 200, parking-company site mentioning Cincinnati; title only \"Home\"",
+    "url_recheck": {
+      "date": "2026-09-24",
+      "method": "headless Chromium, fresh page per URL",
+      "status": 200,
+      "final_url": "https://www.mobileit.com/",
+      "title": "Home",
+      "error": null
+    },
+    "notes": "Identified from the logo image (logo text: \"MOBILE INFRASTRUCTURE\"); the page gives no alt text or link.",
+    "tier_rank": 2
+  },
+  {
+    "id": "notion",
+    "name": "Notion",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Presenting Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew/18090/content/files/1788364290notion-png1788364290.png",
+    "url": "https://www.notion.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "year": 2026,
+    "agenda_org_id": "notion",
+    "url_check": "page title \"... | Notion\"",
+    "url_recheck": {
+      "date": "2026-09-24",
+      "method": "headless Chromium, fresh page per URL",
+      "status": 200,
+      "final_url": "https://www.notion.com/",
+      "title": "The AI workspace that works for you. | Notion",
+      "error": null
+    },
+    "notes": "Identified from the logo image (logo text: \"Notion\"); the page gives no alt text or link.",
+    "tier_rank": 2
+  },
+  {
+    "id": "tembo",
+    "name": "Tembo",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Presenting Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840224732026-sucw-sponsor-logos-tembo-png1784022473.png",
+    "url": "https://www.tembo.io/",
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "year": 2026,
+    "agenda_org_id": null,
+    "url_check": "site structured data gives addressLocality \"Cincinnati\", Ohio",
+    "url_recheck": {
+      "date": "2026-09-24",
+      "method": "headless Chromium, fresh page per URL",
+      "status": 200,
+      "final_url": "https://www.tembo.io/",
+      "title": "Tembo - Move coding agents to the cloud",
+      "error": null
+    },
+    "notes": "Identified from the logo image (logo text: \"Tembo\"); the page gives no alt text or link.",
+    "tier_rank": 2
+  },
+  {
+    "id": "thompson-hine",
+    "name": "Thompson Hine",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Presenting Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840224732026-sucw-sponsor-logos-thompson-hine-png1784022473.png",
+    "url": "https://www.thompsonhine.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "year": 2026,
+    "agenda_org_id": "thompson-hine",
+    "url_check": "page title \"Home | Thompson Hine LLP\"",
+    "url_recheck": {
+      "date": "2026-09-24",
+      "method": "headless Chromium, fresh page per URL",
+      "status": 200,
+      "final_url": "https://www.thompsonhine.com/",
+      "title": "Home | Thompson Hine LLP",
+      "error": null
+    },
+    "notes": "Identified from the logo image (logo text: \"THOMPSON HINE\"); the page gives no alt text or link.",
+    "tier_rank": 2
+  },
+  {
+    "id": "university-of-cincinnati",
+    "name": "University of Cincinnati",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Presenting Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840224732026-sucw-sponsor-logos-university-of-cincinnati-png1784022473.png",
+    "url": "https://www.uc.edu/",
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "year": 2026,
+    "agenda_org_id": "university-of-cincinnati",
+    "url_check": "page title \"University of Cincinnati: ...\"",
+    "url_recheck": {
+      "date": "2026-09-24",
+      "method": "headless Chromium, fresh page per URL",
+      "status": 200,
+      "final_url": "https://www.uc.edu/",
+      "title": "University of Cincinnati: Founder of Co-op, Leader in Co-op | University of Cincinnati",
+      "error": null
+    },
+    "notes": "Identified from the logo image (logo text: \"University of CINCINNATI\"); the page gives no alt text or link.",
+    "tier_rank": 2
+  },
+  {
+    "id": "visitcincy",
+    "name": "VisitCincy",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Presenting Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1786339737b2026-sucw-sponsor-logos-visit-cincy-png1786339737.png",
+    "url": "https://www.visitcincy.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "year": 2026,
+    "agenda_org_id": "visitcincy",
+    "url_check": "page title \"... | Visit Cincy\"",
+    "url_recheck": {
+      "date": "2026-09-24",
+      "method": "headless Chromium, fresh page per URL",
+      "status": 200,
+      "final_url": "https://www.visitcincy.com/",
+      "title": "Cincinnati Region's Official Travel and Tourism Guide | Visit Cincy",
+      "error": null
+    },
+    "notes": "Identified from the logo image (logo text: \"Visit CINCY\"); the page gives no alt text or link.",
+    "tier_rank": 2
+  },
+  {
+    "id": "cincinnati-regional-chamber",
+    "name": "Cincinnati Regional Chamber",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Presenting Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1787834874b2026-sucw-sponsor-logos-cincinnati-regional-chamber-png1787834874.png",
+    "url": "https://cincinnatichamber.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "year": 2026,
+    "agenda_org_id": null,
+    "url_check": "page title \"Home - Cincinnati Regional Chamber\"",
+    "url_recheck": {
+      "date": "2026-09-24",
+      "method": "headless Chromium, fresh page per URL",
+      "status": 200,
+      "final_url": "https://cincinnatichamber.com/",
+      "title": "Home - Cincinnati Regional Chamber",
+      "error": null
+    },
+    "notes": "Identified from the logo image (logo text: \"CINCINNATI Regional Chamber\"); the page gives no alt text or link.",
+    "tier_rank": 2
+  },
+  {
+    "id": "alloy-growth-lab",
+    "name": "Alloy Growth Lab",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Partner Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840228232026-sucw-sponsor-logos-alloy-growth-lab-png1784022823.png",
+    "url": "https://www.alloygrowthlab.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "year": 2026,
+    "agenda_org_id": null,
+    "url_check": "redirects to alloydev.org/growth-lab/; page title \"Startup office spaces for rent | Alloy Development Co.\" (verification re-check in Chromium; the first check only reached a bot challenge)",
+    "url_recheck": {
+      "date": "2026-09-24",
+      "method": "headless Chromium, fresh page per URL",
+      "status": 202,
+      "final_url": "https://alloydev.org/growth-lab/startup-office-spaces-for-rent/",
+      "title": "Startup office spaces for rent | Alloy Development Co.",
+      "error": null
+    },
+    "notes": "Identified from the logo image (logo text: \"Alloy GROWTH LAB\"); the page gives no alt text or link.",
+    "tier_rank": 3
+  },
+  {
+    "id": "blue-north",
+    "name": "Blue North",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Partner Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840228232026-sucw-sponsor-logos-blue-north-png1784022823.png",
+    "url": "https://bluenorthky.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "year": 2026,
+    "agenda_org_id": null,
+    "url_check": "page title \"Home - Blue North KY\" (verification re-check in Chromium; the first automated check only reached a bot challenge)",
+    "url_recheck": {
+      "date": "2026-09-24",
+      "method": "headless Chromium, fresh page per URL",
+      "status": 202,
+      "final_url": "https://bluenorthky.com/",
+      "title": "Home - Blue North KY",
+      "error": null
+    },
+    "notes": "Identified from the logo image (logo text: \"Blue North\"); the page gives no alt text or link.",
+    "tier_rank": 3
+  },
+  {
+    "id": "forvis-mazars",
+    "name": "Forvis Mazars",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Partner Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840233822026-sucw-sponsor-logos-forvis-mazars-png1784023382.png",
+    "url": "https://www.forvismazars.us/",
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "year": 2026,
+    "agenda_org_id": "forvis-mazars",
+    "url_check": "page title \"Forvis Mazars US\"",
+    "url_recheck": {
+      "date": "2026-09-24",
+      "method": "headless Chromium, fresh page per URL",
+      "status": 200,
+      "final_url": "https://www.forvismazars.us/",
+      "title": "Forvis Mazars US | Forvis Mazars US",
+      "error": null
+    },
+    "notes": "Identified from the logo image (logo text: \"forvis mazars\"); the page gives no alt text or link.",
+    "tier_rank": 3
+  },
+  {
+    "id": "hard-rock-casino",
+    "name": "Hard Rock Casino Cincinnati",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Partner Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840228232026-sucw-sponsor-logos-hard-rock-png1784022823.png",
+    "url": "https://casino.hardrock.com/cincinnati",
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "year": 2026,
+    "agenda_org_id": "hard-rock-casino",
+    "url_check": "page title \"Hard Rock Casino Cincinnati in Ohio\"",
+    "url_recheck": {
+      "date": "2026-09-24",
+      "method": "headless Chromium, fresh page per URL",
+      "status": 200,
+      "final_url": "https://casino.hardrock.com/cincinnati",
+      "title": "Hard Rock Casino Cincinnati in Ohio",
+      "error": null
+    },
+    "notes": "Identified from the logo image (logo text: \"Hard Rock CASINO CINCINNATI\"); the page gives no alt text or link.",
+    "tier_rank": 3
+  },
+  {
+    "id": "kroger",
+    "name": "Kroger",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Partner Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew/18090/content/files/1788364290kroger-png1788364290.png",
+    "url": "https://www.kroger.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "year": 2026,
+    "agenda_org_id": "kroger",
+    "url_check": "HTTP 403 to the automated check (bot protection)",
+    "url_recheck": {
+      "date": "2026-09-24",
+      "method": "headless Chromium, fresh page per URL",
+      "status": 403,
+      "final_url": "https://www.kroger.com/",
+      "title": "Access Denied",
+      "error": null
+    },
+    "notes": "Identified from the logo image (logo text: \"Kroger\"); the page gives no alt text or link.",
+    "tier_rank": 3
+  },
+  {
+    "id": "pnc",
+    "name": "PNC",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Partner Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840228232026-sucw-sponsor-logos-pnc-png1784022823.png",
+    "url": "https://www.pnc.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "year": 2026,
+    "agenda_org_id": null,
+    "url_check": "automated check blocked (Access Denied)",
+    "url_recheck": {
+      "date": "2026-09-24",
+      "method": "headless Chromium, fresh page per URL",
+      "status": 502,
+      "final_url": "https://www.pnc.com/",
+      "title": null,
+      "error": null
+    },
+    "notes": "Identified from the logo image (logo text: \"PNC\"); the page gives no alt text or link.",
+    "tier_rank": 3
+  },
+  {
+    "id": "ramp",
+    "name": "Ramp",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Partner Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840228232026-sucw-sponsor-logos-ramp-png1784022823.png",
+    "url": "https://ramp.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "year": 2026,
+    "agenda_org_id": null,
+    "url_check": "HTTP 200; no static <title>",
+    "url_recheck": {
+      "date": "2026-09-24",
+      "method": "headless Chromium, fresh page per URL",
+      "status": 200,
+      "final_url": "https://ramp.com/",
+      "title": null,
+      "error": null
+    },
+    "notes": "Identified from the logo image (logo text: \"ramp\"); the page gives no alt text or link.",
+    "tier_rank": 3
+  },
+  {
+    "id": "redi-cincinnati",
+    "name": "REDI Cincinnati",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Partner Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840228232026-sucw-sponsor-logos-redi-png1784022823.png",
+    "url": "https://redicincinnati.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "year": 2026,
+    "agenda_org_id": null,
+    "url_check": "page title \"Home | REDI Cincinnati\"",
+    "url_recheck": {
+      "date": "2026-09-24",
+      "method": "headless Chromium, fresh page per URL",
+      "status": 200,
+      "final_url": "https://redicincinnati.com/",
+      "title": "Home | REDI Cincinnati",
+      "error": null
+    },
+    "notes": "Identified from the logo image (logo text: \"REDI CINCINNATI\"); the page gives no alt text or link.",
+    "tier_rank": 3
+  },
+  {
+    "id": "taft",
+    "name": "Taft",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Partner Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840228232026-sucw-sponsor-logos-taft-png1784022823.png",
+    "url": "https://www.taftlaw.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "year": 2026,
+    "agenda_org_id": null,
+    "url_check": "page title \"Taft | The Modern Law Firm\"",
+    "url_recheck": {
+      "date": "2026-09-24",
+      "method": "headless Chromium, fresh page per URL",
+      "status": 200,
+      "final_url": "https://www.taftlaw.com/",
+      "title": "Taft | The Modern Law Firm",
+      "error": null
+    },
+    "notes": "Identified from the logo image (logo text: \"Taft/\"); the page gives no alt text or link.",
+    "tier_rank": 3
+  },
+  {
+    "id": "book-plus-street",
+    "name": "Book + Street",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Advocate Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840230692026-sucw-sponsor-logos-book-street-png1784023069.png",
+    "url": "https://www.bookandstreet.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "year": 2026,
+    "agenda_org_id": "book-plus-street",
+    "url_check": "page title \"... | Book+Street\"",
+    "url_recheck": {
+      "date": "2026-09-24",
+      "method": "headless Chromium, fresh page per URL",
+      "status": 200,
+      "final_url": "https://www.bookandstreet.com/",
+      "title": "Fractional CFO, HR & Startup Back Office Services | Book+Street | Book+Street",
+      "error": null
+    },
+    "notes": "Identified from the logo image (logo text: \"book + street\"); the page gives no alt text or link.",
+    "tier_rank": 4
+  },
+  {
+    "id": "hyde-park-venture-partners",
+    "name": "Hyde Park Venture Partners",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Advocate Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840230692026-sucw-sponsor-logos-hype-park-png1784023069.png",
+    "url": "https://www.hydeparkvp.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "year": 2026,
+    "agenda_org_id": null,
+    "url_check": "page title \"Hyde Park Venture Partners — Mid-Continent Venture Capital\"",
+    "url_recheck": {
+      "date": "2026-09-24",
+      "method": "headless Chromium, fresh page per URL",
+      "status": 200,
+      "final_url": "https://www.hydeparkvp.com/",
+      "title": "Hyde Park Venture Partners — Mid-Continent Venture Capital",
+      "error": null
+    },
+    "notes": "Identified from the logo image (logo text: \"HYDE PARK VENTURE PARTNERS\"); the page gives no alt text or link. File name misspelled \"hype-park\".",
+    "tier_rank": 4
+  },
+  {
+    "id": "insperity",
+    "name": "Insperity",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Advocate Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840230692026-sucw-sponsor-logos-insperity-png1784023069.png",
+    "url": "https://www.insperity.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "year": 2026,
+    "agenda_org_id": "insperity",
+    "url_check": "page title \"Award-winning HR service and technology | Insperity\" (verification re-check in Chromium; the first automated check got HTTP 403)",
+    "url_recheck": {
+      "date": "2026-09-24",
+      "method": "headless Chromium, fresh page per URL",
+      "status": 200,
+      "final_url": "https://www.insperity.com/",
+      "title": "Award-winning HR service and technology | Insperity",
+      "error": null
+    },
+    "notes": "Identified from the logo image (logo text: \"Insperity / HR that makes a difference\"); the page gives no alt text or link.",
+    "tier_rank": 4
+  },
+  {
+    "id": "keyhorse-capital",
+    "name": "Keyhorse Capital",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Advocate Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840230692026-sucw-sponsor-logos-keyhorse-png1784023069.png",
+    "url": "https://www.keyhorse.vc/",
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "year": 2026,
+    "agenda_org_id": null,
+    "url_check": "page title \"Keyhorse Capital — Kentucky venture capital and the record\" (verification re-check; keyhorsecapital.com is a parked domain)",
+    "url_recheck": {
+      "date": "2026-09-24",
+      "method": "headless Chromium, fresh page per URL",
+      "status": 200,
+      "final_url": "https://www.keyhorse.vc/",
+      "title": "Keyhorse Capital — Kentucky venture capital and the record",
+      "error": null
+    },
+    "notes": "Identified from the logo image (logo text: \"KEYHORSE CAPITAL\"); the page gives no alt text or link.",
+    "tier_rank": 4
+  },
+  {
+    "id": "kmk-law",
+    "name": "KMK Law",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Advocate Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew/18090/content/files/1788516838kmk-law-png1788516838.png",
+    "url": "https://www.kmklaw.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "year": 2026,
+    "agenda_org_id": null,
+    "url_check": "page title \"Keating Muething & Klekamp PLL Home Page\"",
+    "url_recheck": {
+      "date": "2026-09-24",
+      "method": "headless Chromium, fresh page per URL",
+      "status": 200,
+      "final_url": "https://www.kmklaw.com/",
+      "title": "Keating Muething & Klekamp PLL Home Page",
+      "error": null
+    },
+    "notes": "Identified from the logo image (logo text: \"KMK | Law\"); the page gives no alt text or link.",
+    "tier_rank": 4
+  },
+  {
+    "id": "lifesciky",
+    "name": "LifeSciKY",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Advocate Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840230692026-sucw-sponsor-logos-lifesciky-png1784023069.png",
+    "url": "https://lifesciky.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "year": 2026,
+    "agenda_org_id": "lifesciky",
+    "url_check": "page title \"Home - LifeSciKY\"",
+    "url_recheck": {
+      "date": "2026-09-24",
+      "method": "headless Chromium, fresh page per URL",
+      "status": 200,
+      "final_url": "https://lifesciky.com/",
+      "title": "Home - LifeSciKY",
+      "error": null
+    },
+    "notes": "Identified from the logo image (logo text: \"LIFE SCI KY\"); the page gives no alt text or link.",
+    "tier_rank": 4
+  },
+  {
+    "id": "qca-ventures",
+    "name": "QCA Ventures",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Advocate Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840230692026-sucw-sponsor-logos-qca-ventures-png1784023069.png",
+    "url": "https://www.qca.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "year": 2026,
+    "agenda_org_id": "queen-city-angels",
+    "url_check": "page title \"QCA Ventures -\" once the SiteGround challenge cleared (verification re-check in Chromium; page text \"Smart Capital for Disruptive Startups\", \"25 YEARS\", phone 513.373.6972). QCA Ventures as the new name of Queen City Angels comes from the first extractor's web search; the SCW agenda session \"The Investor Room: A Live Pitch with QCA Ventures\" is presented by \"Queen City Angels\", consistent with it.",
+    "url_recheck": {
+      "date": "2026-09-24",
+      "method": "headless Chromium, fresh page per URL",
+      "status": 202,
+      "final_url": "https://www.qca.com/",
+      "title": "QCA Ventures -",
+      "error": null
+    },
+    "notes": "Identified from the logo image (logo text: \"QCA Ventures\"); the page gives no alt text or link. The scw-agenda slice lists this sponsor as \"queen-city-angels\" (session \"The Investor Room: A Live Pitch with QCA Ventures\").",
+    "tier_rank": 4
+  },
+  {
+    "id": "us-bank",
+    "name": "U.S. Bank",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Advocate Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840230692026-sucw-sponsor-logos-us-bank-png1784023069.png",
+    "url": "https://www.usbank.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "year": 2026,
+    "agenda_org_id": "us-bank",
+    "url_check": "page title \"... | U.S. Bank\"",
+    "url_recheck": {
+      "date": "2026-09-24",
+      "method": "headless Chromium, fresh page per URL",
+      "status": 200,
+      "final_url": "https://www.usbank.com/index.html",
+      "title": "Personal Banking, Credit Cards, Loans & Investing | U.S. Bank",
+      "error": null
+    },
+    "notes": "Identified from the logo image (logo text: \"us bank\"); the page gives no alt text or link.",
+    "tier_rank": 4
+  },
+  {
+    "id": "paycor",
+    "name": "Paycor",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Advocate Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1786339737b2026-sucw-sponsor-logos-svb-copy-png1786339737.png",
+    "url": "https://www.paycor.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "year": 2026,
+    "agenda_org_id": null,
+    "url_check": "page title \"HR and Payroll Solutions | Empowering Leaders\"",
+    "url_recheck": {
+      "date": "2026-09-24",
+      "method": "headless Chromium, fresh page per URL",
+      "status": 200,
+      "final_url": "https://www.paycor.com/",
+      "title": "HR and Payroll Solutions | Empowering Leaders",
+      "error": null
+    },
+    "notes": "Identified from the logo image (logo text: \"Paycor / A Paychex Company\"); the page gives no alt text or link. File name says \"svb-copy\" but the image is the paycor logo.",
+    "tier_rank": 4
+  },
+  {
+    "id": "ecdi",
+    "name": "ECDI",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Community Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840233152026-sucw-sponsor-logos-ecdi-png1784023315.png",
+    "url": "https://www.ecdi.org/",
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "year": 2026,
+    "agenda_org_id": "ecdi",
+    "url_check": "page title \"ECDI | Small business resources | Ohio\"",
+    "url_recheck": {
+      "date": "2026-09-24",
+      "method": "headless Chromium, fresh page per URL",
+      "status": 200,
+      "final_url": "https://www.ecdi.org/",
+      "title": "ECDI | Small business resources | Ohio",
+      "error": null
+    },
+    "notes": "Identified from the logo image (logo text: \"ECDI / Investing in the growth of small business\"); the page gives no alt text or link.",
+    "tier_rank": 5
+  },
+  {
+    "id": "hccusa",
+    "name": "Hispanic Chamber Cincinnati USA (HCCUSA)",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Community Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840233152026-sucw-sponsor-logos-hccusa-png1784023315.png",
+    "url": "https://hccusa.us/",
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "year": 2026,
+    "agenda_org_id": null,
+    "url_check": "page title \"Home - Hispanic Chamber Cincinnati USA\"",
+    "url_recheck": {
+      "date": "2026-09-24",
+      "method": "headless Chromium, fresh page per URL",
+      "status": 200,
+      "final_url": "https://hccusa.us/",
+      "title": "Home - Hispanic Chamber Cincinnati USA",
+      "error": null
+    },
+    "notes": "Identified from the logo image (logo text: \"HISPANIC CHAMBER CINCINNATI USA / HCCUSA\"); the page gives no alt text or link.",
+    "tier_rank": 5
+  },
+  {
+    "id": "origin-ventures",
+    "name": "Origin Ventures",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Community Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840233152026-sucw-sponsor-logos-origin-ventures-png1784023315.png",
+    "url": "https://www.originventures.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "year": 2026,
+    "agenda_org_id": null,
+    "url_check": "page title \"Origin Ventures\"",
+    "url_recheck": {
+      "date": "2026-09-24",
+      "method": "headless Chromium, fresh page per URL",
+      "status": 200,
+      "final_url": "https://www.originventures.com/",
+      "title": "Origin Ventures",
+      "error": null
+    },
+    "notes": "Identified from the logo image (logo text: \"Origin Ventures\"); the page gives no alt text or link.",
+    "tier_rank": 5
+  },
+  {
+    "id": "svb",
+    "name": "Silicon Valley Bank (SVB)",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Community Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840233152026-sucw-sponsor-logos-svb-png1784023315.png",
+    "url": "https://www.svb.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "year": 2026,
+    "agenda_org_id": null,
+    "url_check": "page title \"Silicon Valley Bank - Banking for Innovation Economy\"",
+    "url_recheck": {
+      "date": "2026-09-24",
+      "method": "headless Chromium, fresh page per URL",
+      "status": 200,
+      "final_url": "https://www.svb.com/",
+      "title": "Silicon Valley Bank - Banking for Innovation Economy",
+      "error": null
+    },
+    "notes": "Identified from the logo image (logo text: \"svb Silicon Valley Bank / A Division of First Citizens Bank\"); the page gives no alt text or link.",
+    "tier_rank": 5
+  },
+  {
+    "id": "the-gratitude-collective",
+    "name": "The Gratitude Collective (TGC)",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Community Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1787834874b2026-sucw-sponsor-logos-gratitude-collective-copy-png1787834874.png",
+    "url": "https://www.thegratitudecollective.net/",
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "year": 2026,
+    "agenda_org_id": "the-gratitude-collective",
+    "url_check": "site shows the \"TGC\" logo and links facebook.com/thegratitudecollective",
+    "url_recheck": {
+      "date": "2026-09-24",
+      "method": "headless Chromium, fresh page per URL",
+      "status": 200,
+      "final_url": "https://www.thegratitudecollective.net/",
+      "title": "TGC 2",
+      "error": null
+    },
+    "notes": "Identified from the logo image (logo text: \"TGC\"); the page gives no alt text or link.",
+    "tier_rank": 5
+  },
+  {
+    "id": "plante-moran",
+    "name": "Plante Moran",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Community Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1786339736b2026-sucw-sponsor-logos-plante-moran-png1786339736.png",
+    "url": "https://www.plantemoran.com/",
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "year": 2026,
+    "agenda_org_id": null,
+    "url_check": "page title \"... | Plante Moran\"",
+    "url_recheck": {
+      "date": "2026-09-24",
+      "method": "headless Chromium, fresh page per URL",
+      "status": 200,
+      "final_url": "https://www.plantemoran.com/",
+      "title": "Accounting, Tax, Consulting, and Wealth Management | Plante Moran",
+      "error": null
+    },
+    "notes": "Identified from the logo image (logo text: \"plante moran\"); the page gives no alt text or link.",
+    "tier_rank": 5
+  },
+  {
+    "id": "saint-ursula-academy",
+    "name": "Saint Ursula Academy",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "sponsor",
+    "tier": "Community Sponsor",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1787834874b2026-sucw-sponsor-logos-st-ursala-png1787834874.png",
+    "url": "https://www.saintursula.org/",
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "year": 2026,
+    "agenda_org_id": null,
+    "url_check": "HTTP 403 to the automated check (bot protection)",
+    "url_recheck": {
+      "date": "2026-09-24",
+      "method": "headless Chromium, fresh page per URL",
+      "status": 403,
+      "final_url": "https://www.saintursula.org/",
+      "title": "Access denied | www.saintursula.org used Cloudflare to restrict access | www.saintursula.org | Cloudflare",
+      "error": null
+    },
+    "notes": "Identified from the logo image (logo text: \"SAINT URSULA ACADEMY\"); the page gives no alt text or link. File name misspelled \"st-ursala\".",
+    "tier_rank": 5
+  },
+  {
+    "id": "startupcincy",
+    "name": "StartupCincy",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "organizer",
+    "tier": null,
+    "logo_url": "https://startupcincy.com/wp-content/uploads/2024/11/StartupCincy-Logo-_-Full-Color-1.png",
+    "url": "https://startupcincy.com/",
+    "source_url": "https://startupcincy.com/about-startupcincy/",
+    "year": 2026,
+    "agenda_org_id": null,
+    "url_check": "page title \"StartupCincy: Building Cincinnati's Startup Community\"",
+    "tier_rank": null,
+    "notes": "Site footer: \"© 2026 STARTUPCINCY.\" Contact info@startupcincy.com, 1311 Vine Street. startupcincy.com: \"StartupCincy is a community and coalition of entrepreneurial support organizations that inspires entrepreneurship at all stages and works to expand the pipeline of startups launching and scaling in the region.\" Soapbox (2026-09-15) quotes Abby Grimm: \"StartupCincy is not its own organization ... It is still a movement, a collaborative, a rallying cry that is made up of so many partners that are collaborating and coming together.\"",
+    "url_recheck": {
+      "date": "2026-09-24",
+      "method": "headless Chromium, fresh page per URL",
+      "status": 200,
+      "final_url": "https://startupcincy.com/",
+      "title": "StartupCincy: Building Cincinnati's Startup Community",
+      "error": null
+    }
+  },
+  {
+    "id": "vfairs",
+    "name": "vFairs",
+    "programs": [
+      "scw"
+    ],
+    "relationship": "partner",
+    "tier": "event platform",
+    "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1748437873poweredby-white-png1748437873.png",
+    "url": "https://www.vfairs.com/",
+    "source_url": "https://startupcincyweek.com/",
+    "year": 2026,
+    "agenda_org_id": null,
+    "url_check": "page title \"Event Management Software | ... | vFairs.com\"",
+    "tier_rank": null,
+    "notes": "startupcincyweek.com runs on vFairs (\"powered by vFairs\" footer badge); technical assistance line on the site: \"Need Technical Assistance? tech@vfairs.com\" (the link target is mailto:customersupport@vfairs.com). Not a sponsor.",
+    "url_recheck": {
+      "date": "2026-09-24",
+      "method": "headless Chromium, fresh page per URL",
+      "status": 200,
+      "final_url": "https://www.vfairs.com/",
+      "title": "Event Management Software | In-Person, Hybrid & Virtual",
+      "error": null
+    }
+  }
+]

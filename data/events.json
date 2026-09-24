@@ -4671,7 +4671,8 @@
     "description": "As the sun sets (approximately 7:00 p.m.), BLINK will officially begin with the Flip the Switch moment, launching a spectacular light and drone show featuring pyrotechnics.",
     "tracks": [],
     "tags": [
-      "opening"
+      "opening",
+      "approximate-time"
     ],
     "people": [],
     "people_roles": {},
@@ -6449,7 +6450,7 @@
     "occurrences": null,
     "venue_id": null,
     "room": null,
-    "location_text": "Location #2",
+    "location_text": "NO GRID Location #2 (venue not named by the organizers)",
     "description": null,
     "tracks": [
       "NO GRID"
@@ -6484,7 +6485,7 @@
     "occurrences": null,
     "venue_id": null,
     "room": null,
-    "location_text": "Location #2",
+    "location_text": "NO GRID Location #2 (venue not named by the organizers)",
     "description": null,
     "tracks": [
       "NO GRID"
@@ -6521,7 +6522,7 @@
     "occurrences": null,
     "venue_id": null,
     "room": null,
-    "location_text": "Location #2",
+    "location_text": "NO GRID Location #2 (venue not named by the organizers)",
     "description": null,
     "tracks": [
       "NO GRID"
@@ -6558,7 +6559,7 @@
     "occurrences": null,
     "venue_id": null,
     "room": null,
-    "location_text": "Location #3",
+    "location_text": "NO GRID Location #3 (venue not named by the organizers)",
     "description": null,
     "tracks": [
       "NO GRID"
@@ -6593,7 +6594,7 @@
     "occurrences": null,
     "venue_id": null,
     "room": null,
-    "location_text": "Location #3",
+    "location_text": "NO GRID Location #3 (venue not named by the organizers)",
     "description": null,
     "tracks": [
       "NO GRID"
@@ -6655,7 +6656,7 @@
     "program": "also",
     "title": "Sarah Rodriguez: Homespun",
     "kind": "exhibition",
-    "date": "2026-09-24",
+    "date": "2026-07-08",
     "end_date": "2026-10-04",
     "start": null,
     "end": null,
@@ -6683,14 +6684,14 @@
     "featured": false,
     "image_url": "https://contemporary.b-cdn.net/files/exhibitions/header/sarahrodriguez.png",
     "source_url": "https://www.contemporaryartscenter.org/visit/exhibitions/2026/07/sarah-rodriguez-homespun",
-    "notes": "Opening date not shown on the page (header says only \"On view through ...\"); date is null. Opening date not published; date is the research capture date (2026-09-24), when the page listed it as on view."
+    "notes": "Opening date not shown on the page (header says only \"On view through ...\"); date is null. Opening date 2026-07-08: the CAC's exhibition page is dated \"July 08, 2026\" (title \"Sarah Rodriguez: Homespun | July 08, 2026\"; the CAC dates exhibition pages with their opening day, e.g. SOFTlab's \"October 17, 2024\") (https://www.contemporaryartscenter.org/visit/exhibitions/2026/07/sarah-rodriguez-homespun)."
   },
   {
     "id": "also-cac-softlab-gravity-s-rainbow",
     "program": "also",
     "title": "SOFTlab: Gravity's Rainbow",
     "kind": "exhibition",
-    "date": "2026-09-24",
+    "date": "2024-10-17",
     "end_date": "2026-10-31",
     "start": null,
     "end": null,
@@ -6718,14 +6719,14 @@
     "featured": false,
     "image_url": "https://contemporary.b-cdn.net/files/exhibitions/header/2024.11.12softlab-cac044.jpg",
     "source_url": "https://www.contemporaryartscenter.org/visit/exhibitions/2024/10/softlab-gravitys-rainbow",
-    "notes": "Opening date not shown on the page (header says only \"On view through ...\"); date is null. Opening date not published; date is the research capture date (2026-09-24), when the page listed it as on view."
+    "notes": "Opening date not shown on the page (header says only \"On view through ...\"); date is null. Opening date 2024-10-17: the CAC's page is dated \"October 17, 2024\"; Movers & Makers (2024-10-07): \"CAC to unveil gravity-defying installation on Oct. 17\" (https://moversmakers.org/2024/10/07/cac-to-unveil-gravity-defying-installation-on-oct-17/)."
   },
   {
     "id": "also-cam-gifts-from-japan",
     "program": "also",
     "title": "Gifts from Japan",
     "kind": "exhibition",
-    "date": "2026-09-24",
+    "date": "2026-06-22",
     "end_date": "2026-10-08",
     "start": null,
     "end": null,
@@ -6754,14 +6755,14 @@
     "featured": false,
     "image_url": "https://www.cincinnatiartmuseum.org/media/qqtdvva0/202589.jpg",
     "source_url": "https://www.cincinnatiartmuseum.org/art/exhibitions/special-features/gifts-from-japan/",
-    "notes": "CAM \"Current Special Features\" page. Start not given (listed as \"Now\"); date is null. Opening date not published; date is the research capture date (2026-09-24), when the page listed it as on view."
+    "notes": "CAM \"Current Special Features\" page. Start not given (listed as \"Now\"); date is null. Opening date 2026-06-22: \"Gifts from Japan will display 18 selected works across two rotations: Rotation 1: June 22-August 24, 2026\" (the museum's announcement as published by Asia Week New York); the CAM page gives only \"Now–October 8, 2026\" (https://asiaweekny.com/a-celebration-of-japanese-art-at-the-cincinnati-art-museum/)."
   },
   {
     "id": "also-cmc-lego-jurassic-world-the-exhibition",
     "program": "also",
     "title": "LEGO® Jurassic World: The Exhibition",
     "kind": "exhibition",
-    "date": "2026-09-24",
+    "date": "2026-05-22",
     "end_date": "2027-01-04",
     "start": null,
     "end": null,
@@ -6791,7 +6792,7 @@
     "featured": false,
     "image_url": "https://www.cincymuseum.org/wp-content/uploads/2026/03/Desktop-Banner-Interior-Featured-Exhibit-JurassicWorld.jpg",
     "source_url": "https://www.cincymuseum.org/jurassic-world/",
-    "notes": "The exhibition closes promptly at 5 p.m. (museum open daily 10 a.m.-5 p.m.). Flex ticket option ($5 more). Opening date not stated on the page; date is null. Ball & Thomas Photographs (through Oct 14) is listed under program \"fotofocus\". Auschwitz exhibition page says \"Now Closed\" (excluded). Opening date not published; date is the research capture date (2026-09-24), when the page listed it as on view."
+    "notes": "The exhibition closes promptly at 5 p.m. (museum open daily 10 a.m.-5 p.m.). Flex ticket option ($5 more). Opening date not stated on the page; date is null. Ball & Thomas Photographs (through Oct 14) is listed under program \"fotofocus\". Auschwitz exhibition page says \"Now Closed\" (excluded). Opening date 2026-05-22: CMC press release of May 19, 2026: \"LEGO® Jurassic World: The Exhibition opens this Friday, May 22, at Cincinnati Museum Center\" (https://www.cincymuseum.org/press/lego-jurassic-world-now-open/)."
   },
   {
     "id": "also-taft-taft-tourist-sargents-in-conversation",
@@ -7118,7 +7119,83 @@
     "time_text": "October 2-31, 2026. Closed Oct 5, 12 & 19. Tuesdays & Wednesdays 5:30pm – 9pm; Thursday – Sunday 5:30pm – 10pm",
     "all_day": false,
     "hours_text": null,
-    "occurrences": null,
+    "occurrences": [
+      {
+        "date": "2026-10-02",
+        "start": "17:30",
+        "end": "22:00"
+      },
+      {
+        "date": "2026-10-03",
+        "start": "17:30",
+        "end": "22:00"
+      },
+      {
+        "date": "2026-10-04",
+        "start": "17:30",
+        "end": "22:00"
+      },
+      {
+        "date": "2026-10-06",
+        "start": "17:30",
+        "end": "21:00"
+      },
+      {
+        "date": "2026-10-07",
+        "start": "17:30",
+        "end": "21:00"
+      },
+      {
+        "date": "2026-10-08",
+        "start": "17:30",
+        "end": "22:00"
+      },
+      {
+        "date": "2026-10-09",
+        "start": "17:30",
+        "end": "22:00"
+      },
+      {
+        "date": "2026-10-10",
+        "start": "17:30",
+        "end": "22:00"
+      },
+      {
+        "date": "2026-10-11",
+        "start": "17:30",
+        "end": "22:00"
+      },
+      {
+        "date": "2026-10-13",
+        "start": "17:30",
+        "end": "21:00"
+      },
+      {
+        "date": "2026-10-14",
+        "start": "17:30",
+        "end": "21:00"
+      },
+      {
+        "date": "2026-10-15",
+        "start": "17:30",
+        "end": "22:00"
+      },
+      {
+        "date": "2026-10-16",
+        "start": "17:30",
+        "end": "22:00"
+      },
+      {
+        "date": "2026-10-17",
+        "start": "17:30",
+        "end": "22:00"
+      },
+      {
+        "date": "2026-10-18",
+        "start": "17:30",
+        "end": "22:00"
+      }
+    ],
     "venue_id": "cincinnati-zoo",
     "room": null,
     "location_text": null,
@@ -7142,7 +7219,7 @@
     "featured": false,
     "image_url": "https://cincinnatizoo.org/wp-content/uploads/2024/07/54038932506_2026d1f45f_b.jpg",
     "source_url": "https://cincinnatizoo.org/events/jack-olantern-glow/",
-    "notes": "Closed Monday, October 5, 12 & 19. End time varies by weekday (9pm Tue/Wed, 10pm Thu–Sun)."
+    "notes": "Closed Monday, October 5, 12 & 19. End time varies by weekday (9pm Tue/Wed, 10pm Thu–Sun). Occurrences (QA audit 2026-09-24): the Zoo's page: \"Closed Monday, October 5, 12 & 19\"; \"Tuesdays & Wednesdays 5:30pm - 9pm … Thursday - Sunday 5:30pm - 10pm\" (the research applied 5:30–10 PM to every day, closed Mondays included)."
   },
   {
     "id": "also-cac-10-03-the-creative-writing-project-fall",
@@ -8362,7 +8439,28 @@
     "time_text": "2026-10-08 12:30-23:30; 2026-10-09 12:30-23:30; 2026-10-10 09:00-16:00; 2026-10-11 09:00-16:00",
     "all_day": false,
     "hours_text": null,
-    "occurrences": null,
+    "occurrences": [
+      {
+        "date": "2026-10-08",
+        "start": "12:30",
+        "end": "23:30"
+      },
+      {
+        "date": "2026-10-09",
+        "start": "12:30",
+        "end": "23:30"
+      },
+      {
+        "date": "2026-10-10",
+        "start": "09:00",
+        "end": "16:00"
+      },
+      {
+        "date": "2026-10-11",
+        "start": "09:00",
+        "end": "16:00"
+      }
+    ],
     "venue_id": "findlay-market",
     "room": null,
     "location_text": null,
@@ -8384,7 +8482,7 @@
     "featured": false,
     "image_url": "https://static1.squarespace.com/static/5c094a9725bf026a08cb9f9f/5cf941d2aa416700014fcffc/6aa074b9289b6313ea656557/1789677627109/BLINK2026_Webslider.jpg",
     "source_url": "https://www.findlaymarket.org/marketevents/blink2026-9j7cn",
-    "notes": "All dates: 2026-10-08, 2026-10-09, 2026-10-10, 2026-10-11. Pages: https://www.findlaymarket.org/marketevents/blink2026-9j7cn, https://www.findlaymarket.org/marketevents/blink2026-9j7cn-z52sl, https://www.findlaymarket.org/marketevents/blink2026-9j7cn-z52sl-k372n, https://www.findlaymarket.org/marketevents/blink2026-9j7cn-z52sl-k372n-x7wmp"
+    "notes": "All dates: 2026-10-08, 2026-10-09, 2026-10-10, 2026-10-11. Pages: https://www.findlaymarket.org/marketevents/blink2026-9j7cn, https://www.findlaymarket.org/marketevents/blink2026-9j7cn-z52sl, https://www.findlaymarket.org/marketevents/blink2026-9j7cn-z52sl-k372n, https://www.findlaymarket.org/marketevents/blink2026-9j7cn-z52sl-k372n-x7wmp Occurrences (QA audit 2026-09-24): Findlay Market's four BLINK pages (schema.org startDate/endDate): Oct 8 and 9 12:30 PM–11:30 PM, Oct 10 and 11 9:00 AM–4:00 PM (the research applied the Thursday hours to all four days)."
   },
   {
     "id": "also-findlay-blink-lunchtime-tasting-tour-10-08",
@@ -8869,13 +8967,49 @@
     "title": "Disney & Cameron Mackintosh’s Mary Poppins JR.",
     "kind": "performance",
     "date": "2026-10-09",
-    "end_date": "2026-10-11",
+    "end_date": "2026-10-25",
     "start": "19:00",
     "end": null,
     "time_text": "October 9 Friday - 7:00pm; October 10 Saturday - 2:00pm; October 10 Saturday - 5:00pm; October 11 Sunday - 2:00pm",
     "all_day": false,
     "hours_text": null,
-    "occurrences": null,
+    "occurrences": [
+      {
+        "date": "2026-10-09",
+        "start": "19:00",
+        "end": null
+      },
+      {
+        "date": "2026-10-10",
+        "start": "14:00",
+        "end": null
+      },
+      {
+        "date": "2026-10-10",
+        "start": "17:00",
+        "end": null
+      },
+      {
+        "date": "2026-10-11",
+        "start": "14:00",
+        "end": null
+      },
+      {
+        "date": "2026-10-17",
+        "start": "11:00",
+        "end": null
+      },
+      {
+        "date": "2026-10-17",
+        "start": "14:00",
+        "end": null
+      },
+      {
+        "date": "2026-10-18",
+        "start": "14:00",
+        "end": null
+      }
+    ],
     "venue_id": "emery-theatre",
     "room": null,
     "location_text": null,
@@ -8905,7 +9039,7 @@
     "featured": false,
     "image_url": "https://thechildrenstheatre.com/wp-content/uploads/2026/02/WEB-Mary-Poppins-01.jpg",
     "source_url": "https://thechildrenstheatre.com/shows/disney-cameron-mackintoshs-mary-poppins-jr/",
-    "notes": "Run continues through October 25 (2026-10-09 19:00; 2026-10-10 14:00; 2026-10-10 17:00; 2026-10-11 14:00; 2026-10-17 11:00; 2026-10-17 14:00; 2026-10-18 14:00; 2026-10-24 14:00; 2026-10-24 17:00; 2026-10-25 14:00; 2026-10-22 13:00). Page lists month/day and weekday without a year; the weekdays match 2026 (e.g., October 9 = Friday) and the page is in The Children's Theatre 2026-27 season. Rendered with Playwright (curl gets 403)."
+    "notes": "Run continues through October 25 (2026-10-09 19:00; 2026-10-10 14:00; 2026-10-10 17:00; 2026-10-11 14:00; 2026-10-17 11:00; 2026-10-17 14:00; 2026-10-18 14:00; 2026-10-24 14:00; 2026-10-24 17:00; 2026-10-25 14:00; 2026-10-22 13:00). Page lists month/day and weekday without a year; the weekdays match 2026 (e.g., October 9 = Friday) and the page is in The Children's Theatre 2026-27 season. Rendered with Playwright (curl gets 403). Occurrences (QA audit 2026-09-24): The Children's Theatre's General Admission Show Times (\"October 9 Friday - 7:00pm; October 10 Saturday - 2:00pm; October 10 Saturday - 5:00pm; October 11 Sunday - 2:00pm; October 17 Saturday - 11:00am …\"; public run through October 25); the research applied 7:00 PM to Oct 10 and 11."
   },
   {
     "id": "also-taft-theatre-10-09-tab-benoit-soul-of-the-swamp-tour",
@@ -9706,11 +9840,9 @@
     ],
     "people": [
       "mallory-feltz",
-      "mary-leonard",
-      "andrea-sabugo"
+      "mary-leonard"
     ],
     "people_roles": {
-      "andrea-sabugo": "artist",
       "mallory-feltz": "curator",
       "mary-leonard": "curator"
     },
@@ -9728,6 +9860,7 @@
       {
         "role": "Visual Artists",
         "names": [
+          "Andrea Sabugo",
           "Rebecca Nava Soto",
           "Tina Gutierrez",
           "Ximena Flores"

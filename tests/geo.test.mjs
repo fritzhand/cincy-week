@@ -137,8 +137,11 @@ test("fixture build: map, venue and visit pages", () => {
     const V = json(dir, "data/venues.json");
     for (const v of V) assert.match(venues, new RegExp(`id="v-${v.id}"`), v.id);
     assert.match(venues, /<li class="venue"[^>]*id="v-union-hall"[^>]*data-ll="39\.109898,-84\.515591" data-n="1"/);
-    assert.match(venues, /id="v-far-gallery"[^>]*>(?:(?!<\/li>).)*Outside the map area/s, "an off-map venue says so");
-    assert.match(venues, /id="v-caw-footprint-otr"[^>]*>(?:(?!<\/li>).)*Address unconfirmed · not on the map/s);
+    // a venue row runs from its id to the next venue row
+    const rowOf = (id) => { const i = venues.indexOf(`id="v-${id}"`); const j = venues.indexOf('<li class="venue"', i); return venues.slice(i, j > -1 ? j : undefined); };
+    assert.match(rowOf("far-gallery"), /Outside the map area/, "an off-map venue says so");
+    assert.doesNotMatch(rowOf("far-gallery"), /data-ll=/, "and has no pin");
+    assert.match(rowOf("caw-footprint-otr"), /Address unconfirmed · not on the map/);
     assert.match(venues, /data-filter-group="p"/);
     assert.match(venues, /<select[^>]+data-filter="day"/);
     assert.match(venues, /data-venue-views/);

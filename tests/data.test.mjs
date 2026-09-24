@@ -137,7 +137,7 @@ test("hoods, aliases and orgs are consistent", { skip }, () => {
 });
 
 /* ---------------------------------------------------------------- 3. determinism */
-const RESEARCH = process.env.CW_RESEARCH || "/tmp/claude-0/-home-user/2c073cdf-a360-5298-a94c-59bd6e1e86ef/scratchpad/research";
+const RESEARCH = process.env.CW_RESEARCH || path.join(REPO, ".cache", "research");
 test("the merge is deterministic (two offline runs, byte-identical output)", { skip: !fs.existsSync(RESEARCH) && "research folder not present" }, () => {
   const outs = [".cache/test-merge-a", ".cache/test-merge-b"];
   try {

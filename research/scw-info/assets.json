@@ -1,0 +1,426 @@
+[
+  {
+    "program": "scw",
+    "kind": "logo",
+    "url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1767721253sucw2026-logo-1-png1767721253.png",
+    "format": "png",
+    "notes": "StartupCincy Week 2026 wordmark (site header/footer), 1748x594, black + red; for light backgrounds.",
+    "source_url": "https://startupcincyweek.com/"
+  },
+  {
+    "program": "scw",
+    "kind": "logo",
+    "url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1748610096sucw-logo-red-white-300x-1-png1748610096.png",
+    "format": "png",
+    "notes": "StartupCincy Week 2025 wordmark, white + red, 879x263 (history; for dark backgrounds).",
+    "source_url": "https://startupcincyweek.com/"
+  },
+  {
+    "program": "scw",
+    "kind": "favicon",
+    "url": "https://vepimg.b8cdn.com//uploads/vjfnew/18090/content/images/1748544159ut-icon-300x-png1748544159.png",
+    "format": "png",
+    "notes": "SCW site favicon: red (#DE4C3D) line icon of an arched building with a circle, above two wave lines; 522x385.",
+    "source_url": "https://startupcincyweek.com/"
+  },
+  {
+    "program": "scw",
+    "kind": "key-art",
+    "url": "https://cintrifuse.com/wp-content/uploads/2024/04/2Emma_SUCW26_Social-Marketing.png",
+    "format": "png",
+    "notes": "SUCW26 social graphic, 3334x3334: \"10\" mark with STARTUPCINCY WEEK 2026, skyline photo, wavy line pattern, red \"October 5-8\" pill. Linked from the cintrifuse.com nav promo \"Celebrate 10 Years of Bold Bets\".",
+    "source_url": "https://cintrifuse.com/cintrifuse-annual-meeting-2026/"
+  },
+  {
+    "program": "scw",
+    "kind": "key-art",
+    "url": "https://startupcincy.com/wp-content/uploads/2026/05/Screenshot-2026-05-27-at-3.10.56-PM.png",
+    "format": "png",
+    "notes": "og:image of startupcincy.com/startupcincy-week-2026/ (unscaled original, 3326x1568; the page references the WordPress \"-scaled\" 2560x1207 copy): event photo + red panel \"TEN YEARS OF BOLD BETS.\" with \"OCTOBER 5-8, 2026 | CINCINNATI, OH\".",
+    "source_url": "https://startupcincy.com/startupcincy-week-2026/"
+  },
+  {
+    "program": "scw",
+    "kind": "photo",
+    "url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17806700682026march9sucawardsbyrhinemedia-264-1-jpg1780670068.JPG",
+    "format": "jpg",
+    "notes": "Homepage hero image, 4672x7008 portrait (file name credits Rhine Media, StartupCincy Awards).",
+    "source_url": "https://startupcincyweek.com/"
+  },
+  {
+    "program": "scw",
+    "kind": "key-art",
+    "url": "https://vepimg.b8cdn.com/uploads/vjfnew/18090/uploads/vjf/content/misc/1789627633Student Row Image@300x.png",
+    "format": "png",
+    "notes": "Student Pitch Competition section image, 1689x824.",
+    "source_url": "https://startupcincyweek.com/"
+  },
+  {
+    "program": "scw",
+    "kind": "key-art",
+    "url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1780898435corporate-partner-card-png1780898435.png",
+    "format": "png",
+    "notes": "\"Who is this for?\" card: Corporate Partners (photo with Knockout-style condensed white type and GET YOUR TICKET), ~1435x2080.",
+    "source_url": "https://startupcincyweek.com/"
+  },
+  {
+    "program": "scw",
+    "kind": "key-art",
+    "url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1780898435innovation-eco-card-png1780898435.png",
+    "format": "png",
+    "notes": "\"Who is this for?\" card: Innovation Ecosystem (photo with Knockout-style condensed white type and GET YOUR TICKET), ~1435x2080.",
+    "source_url": "https://startupcincyweek.com/"
+  },
+  {
+    "program": "scw",
+    "kind": "key-art",
+    "url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1780898435investor-card-png1780898435.png",
+    "format": "png",
+    "notes": "\"Who is this for?\" card: Investors + Funders (photo with Knockout-style condensed white type and GET YOUR TICKET), ~1435x2080.",
+    "source_url": "https://startupcincyweek.com/"
+  },
+  {
+    "program": "scw",
+    "kind": "key-art",
+    "url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1780898435small-biz-owner-card-png1780898435.png",
+    "format": "png",
+    "notes": "\"Who is this for?\" card: Small Biz Owners (photo with Knockout-style condensed white type and GET YOUR TICKET), ~1435x2080.",
+    "source_url": "https://startupcincyweek.com/"
+  },
+  {
+    "program": "scw",
+    "kind": "key-art",
+    "url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1780898435startup-founder-card-png1780898435.png",
+    "format": "png",
+    "notes": "\"Who is this for?\" card: Startup Founders + Teams (photo with Knockout-style condensed white type and GET YOUR TICKET), ~1435x2080.",
+    "source_url": "https://startupcincyweek.com/"
+  },
+  {
+    "program": "scw",
+    "kind": "key-art",
+    "url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1780898435student-card-png1780898435.png",
+    "format": "png",
+    "notes": "\"Who is this for?\" card: Students + Universities (photo with Knockout-style condensed white type and GET YOUR TICKET), ~1435x2080.",
+    "source_url": "https://startupcincyweek.com/"
+  },
+  {
+    "program": "scw",
+    "kind": "photo",
+    "url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1787897738sucw2025previewbyrhinemedia-084-jpg1787897738.jpg",
+    "format": "jpg",
+    "notes": "Agenda page hero photo (SUCW 2025, Rhine Media per file name).",
+    "source_url": "https://startupcincyweek.com/en/agenda-page"
+  },
+  {
+    "program": "scw",
+    "kind": "photo",
+    "url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1746012790startup-amp-vc-connections-jpg1746012790.jpg",
+    "format": "jpg",
+    "notes": "Feature photo from the (hidden) 2025 homepage sections: Startup & VC Connections.",
+    "source_url": "https://startupcincyweek.com/"
+  },
+  {
+    "program": "scw",
+    "kind": "photo",
+    "url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1746012790networking-amp-happy-hours-jpg1746012790.jpg",
+    "format": "jpg",
+    "notes": "Feature photo from the (hidden) 2025 homepage sections: Curated Networking & Happy Hours.",
+    "source_url": "https://startupcincyweek.com/"
+  },
+  {
+    "program": "scw",
+    "kind": "photo",
+    "url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1746012790venturehaus-jpg1746012790.jpg",
+    "format": "jpg",
+    "notes": "Feature photo from the (hidden) 2025 homepage sections: VentureHaus.",
+    "source_url": "https://startupcincyweek.com/"
+  },
+  {
+    "program": "scw",
+    "kind": "photo",
+    "url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1746012790startup-showcases-jpg1746012790.jpg",
+    "format": "jpg",
+    "notes": "Feature photo from the (hidden) 2025 homepage sections: Startup Showcases.",
+    "source_url": "https://startupcincyweek.com/"
+  },
+  {
+    "program": "scw",
+    "kind": "photo",
+    "url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17484381312024sucwbyrhinemedia-0723-jpg1748438131.jpg",
+    "format": "jpg",
+    "notes": "Feature photo from the (hidden) 2025 homepage sections: Startup Clubhouse (2024 SUCW photo, Rhine Media).",
+    "source_url": "https://startupcincyweek.com/"
+  },
+  {
+    "program": "scw",
+    "kind": "photo",
+    "url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1746012790upskilling-workshops-jpg1746012790.jpg",
+    "format": "jpg",
+    "notes": "Feature photo from the (hidden) 2025 homepage sections: Upskilling Workshops.",
+    "source_url": "https://startupcincyweek.com/"
+  },
+  {
+    "program": "scw",
+    "kind": "photo",
+    "url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1746012578mayoraftab-jpg1746012578.jpg",
+    "format": "jpg",
+    "notes": "Feature photo from the (hidden) 2025 homepage sections: Mayor Aftab (Pureval) on stage.",
+    "source_url": "https://startupcincyweek.com/"
+  },
+  {
+    "program": "scw",
+    "kind": "photo",
+    "url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17460125782024sucwbyrhinemedia-1012-jpg1746012578.jpg",
+    "format": "jpg",
+    "notes": "Feature photo from the (hidden) 2025 homepage sections: 2024 SUCW panel photo (Rhine Media).",
+    "source_url": "https://startupcincyweek.com/"
+  },
+  {
+    "program": "scw",
+    "kind": "photo",
+    "url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1756472364asset-50-png1756472364.png",
+    "format": "png",
+    "notes": "Feature photo from the (hidden) 2025 homepage sections: Audience photo, 7528x5023.",
+    "source_url": "https://startupcincyweek.com/"
+  },
+  {
+    "program": "scw",
+    "kind": "photo",
+    "url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1756472365asset-49-png1756472365.png",
+    "format": "png",
+    "notes": "Feature photo from the (hidden) 2025 homepage sections: Panel photo with STARTUPCINCY WEEK 2024 banners, 7563x5042.",
+    "source_url": "https://startupcincyweek.com/"
+  },
+  {
+    "program": "scw",
+    "kind": "photo",
+    "url": "https://vepimg.b8cdn.com/uploads/vjfnew/18090/uploads/vjf/content/misc/1784874454Kinley photo.png",
+    "format": "png",
+    "notes": "Plan Your Visit card photo: Kinley entrance (\"KINLEY 636\").",
+    "source_url": "https://startupcincyweek.com/"
+  },
+  {
+    "program": "scw",
+    "kind": "photo",
+    "url": "https://vepimg.b8cdn.com/uploads/vjfnew/18090/uploads/vjf/content/misc/1784874472Fidelity photo.png",
+    "format": "png",
+    "notes": "Plan Your Visit card photo: Fidelity Hotel facade at night.",
+    "source_url": "https://startupcincyweek.com/"
+  },
+  {
+    "program": "scw",
+    "kind": "font",
+    "url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1746009764knockout-htf49-liteweight-woff21746009764.woff2",
+    "format": "woff2",
+    "notes": "@font-face \"Knockout\" from the SCW event stylesheet (a .woff fallback sits next to it). Commercial font (Hoefler&Co. Knockout); check licensing before reuse.",
+    "source_url": "https://vepcss.b8cdn.com/css/vjf_18090.css"
+  },
+  {
+    "program": "scw",
+    "kind": "font",
+    "url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1746009764knockout-27juniorbantamwt-woff21746009764.woff2",
+    "format": "woff2",
+    "notes": "@font-face \"Knockout 27 Junior Bantamwt\" from the SCW event stylesheet (a .woff fallback sits next to it). Commercial font (Hoefler&Co. Knockout); check licensing before reuse.",
+    "source_url": "https://vepcss.b8cdn.com/css/vjf_18090.css"
+  },
+  {
+    "program": "scw",
+    "kind": "font",
+    "url": "https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap",
+    "format": "css",
+    "notes": "Google Fonts import in the SCW event stylesheet.",
+    "source_url": "https://vepcss.b8cdn.com/css/vjf_18090.css"
+  },
+  {
+    "program": "scw",
+    "kind": "font",
+    "url": "https://fonts.googleapis.com/css2?family=Anton&display=swap",
+    "format": "css",
+    "notes": "Google Fonts import in the SCW event stylesheet.",
+    "source_url": "https://vepcss.b8cdn.com/css/vjf_18090.css"
+  },
+  {
+    "program": "scw",
+    "kind": "font",
+    "url": "https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap",
+    "format": "css",
+    "notes": "Google Fonts import in the SCW event stylesheet.",
+    "source_url": "https://vepcss.b8cdn.com/css/vjf_18090.css"
+  },
+  {
+    "program": "scw",
+    "kind": "logo",
+    "url": "https://startupcincy.com/wp-content/uploads/2024/11/StartupCincy-Logo-_-Full-Color-1.png",
+    "format": "png",
+    "notes": "StartupCincy full-color wordmark (navy #0B2939 + red #C43539), 2560x427. A larger 3405x568 RGBA copy: https://cintrifuse.com/wp-content/uploads/2024/05/StartupCincy-Logo-_-Full-Color.png",
+    "source_url": "https://startupcincy.com/"
+  },
+  {
+    "program": "scw",
+    "kind": "logo",
+    "url": "https://startupcincy.com/wp-content/uploads/2024/02/SUCW24_WebAssets-01.svg",
+    "format": "svg",
+    "notes": "StartupCincy icon (white line arch/dome with circle over waves), used in the startupcincy.com footer; for dark backgrounds.",
+    "source_url": "https://startupcincy.com/"
+  },
+  {
+    "program": "scw",
+    "kind": "favicon",
+    "url": "https://startupcincy.com/wp-content/uploads/2022/01/StartupCincy_Favicon.svg",
+    "format": "svg",
+    "notes": "StartupCincy favicon: navy icon in a white rounded square.",
+    "source_url": "https://startupcincy.com/"
+  },
+  {
+    "program": "scw",
+    "kind": "logo",
+    "url": "https://cintrifuse.com/wp-content/uploads/2022/01/Cintrifuse-logo.svg",
+    "format": "svg",
+    "notes": "Cintrifuse wordmark, navy with aqua and green accent bars; for light backgrounds.",
+    "source_url": "https://cintrifuse.com/"
+  },
+  {
+    "program": "scw",
+    "kind": "logo",
+    "url": "https://cintrifuse.com/wp-content/uploads/2022/01/Cintrifuse-logo-white.svg",
+    "format": "svg",
+    "notes": "Cintrifuse wordmark, white; for dark backgrounds.",
+    "source_url": "https://cintrifuse.com/"
+  },
+  {
+    "program": "scw",
+    "kind": "favicon",
+    "url": "https://cintrifuse.com/wp-content/uploads/2022/01/Cintrifuse-favicon.svg",
+    "format": "svg",
+    "notes": "Cintrifuse \"C\" favicon.",
+    "source_url": "https://cintrifuse.com/"
+  },
+  {
+    "program": "scw",
+    "kind": "logo",
+    "url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1781013006p-amp-g-logo-white-png1781013006.png",
+    "format": "png",
+    "notes": "P&G logo, white, 300x150 (SCW \"Brought to you by powerful partners\" strip).",
+    "source_url": "https://startupcincyweek.com/"
+  },
+  {
+    "program": "scw",
+    "kind": "logo",
+    "url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1781013006cintrifuse-logos-while-png1781013006.png",
+    "format": "png",
+    "notes": "Cintrifuse logo, white, 300x150 (SCW partners strip).",
+    "source_url": "https://startupcincyweek.com/"
+  },
+  {
+    "program": "scw",
+    "kind": "logo",
+    "url": "https://vepimg.b8cdn.com/uploads/vjfnew/18090/content/files/1788347541logo-png1788347541.png",
+    "format": "png",
+    "notes": "JobsOhio Ventures logo, white, 300x150 (SCW partners strip; file name is just \"logo\").",
+    "source_url": "https://startupcincyweek.com/"
+  },
+  {
+    "program": "scw",
+    "kind": "pattern",
+    "url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1780901010arrow-svg1780901010.svg",
+    "format": "svg",
+    "notes": "Arrow glyph used on SCW buttons (\"Save Your Seat\").",
+    "source_url": "https://startupcincyweek.com/"
+  },
+  {
+    "program": "scw",
+    "kind": "logo",
+    "url": "https://cintrifuse.com/wp-content/uploads/2026/09/New-Logo-lockup.png",
+    "format": "png",
+    "notes": "2026 title-sponsor lockup, white on transparent, 4759x528: \"BROUGHT TO YOU BY:\" JobsOhio Ventures, P&G, cintrifuse (read from the image). Unscaled original of the image on the Cintrifuse Annual Meeting page; for dark backgrounds.",
+    "source_url": "https://cintrifuse.com/cintrifuse-annual-meeting-2026/"
+  },
+  {
+    "program": "scw",
+    "kind": "logo",
+    "url": "https://cintrifuse.com/wp-content/uploads/2026/09/New-Logo-lockup-scaled-e1789744220476.png",
+    "format": "png",
+    "notes": "Cintrifuse Annual Meeting 2026 sponsor lockup (the crop shown under \"Thank you to our sponsors\"), white, 1233x284: JobsOhio Ventures + P&G.",
+    "source_url": "https://cintrifuse.com/cintrifuse-annual-meeting-2026/"
+  },
+  {
+    "program": "scw",
+    "kind": "logo",
+    "url": "https://cintrifuse.com/wp-content/uploads/2024/05/StartupCincy-Logo-_-Full-Color.png",
+    "format": "png",
+    "notes": "StartupCincy full-color wordmark, largest copy found (3405x568 RGBA), hosted on cintrifuse.com.",
+    "source_url": "https://cintrifuse.com/"
+  },
+  {
+    "program": "scw",
+    "kind": "wordmark",
+    "url": "https://vepimg.b8cdn.com/uploads/vjfnew/18090/uploads/vjf/content/misc/1784874886Fidelity-Title.png",
+    "format": "png",
+    "notes": "Plan Your Visit hotel card title image: shield icon + \"Kinley Cincinnati\", black on transparent, 1161x204 (file name says \"Fidelity-Title\").",
+    "source_url": "https://startupcincyweek.com/"
+  },
+  {
+    "program": "scw",
+    "kind": "wordmark",
+    "url": "https://vepimg.b8cdn.com/uploads/vjfnew/18090/uploads/vjf/content/misc/1784874516Fidelity Title.png",
+    "format": "png",
+    "notes": "Plan Your Visit hotel card title image: flower icon + \"Fidelity Hotel\", black on transparent, 1161x204.",
+    "source_url": "https://startupcincyweek.com/"
+  },
+  {
+    "program": "scw",
+    "kind": "photo",
+    "url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840238432025sucwbyrhinemedia-0597-jpg1784023843.JPG",
+    "format": "jpg",
+    "notes": "Partners page hero photo (SUCW 2025, Rhine Media per file name).",
+    "source_url": "https://startupcincyweek.com/en/partners-page"
+  },
+  {
+    "program": "scw",
+    "kind": "photo",
+    "url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1746167654partners-jpg1746167654.jpg",
+    "format": "jpg",
+    "notes": "Hero photo of the (2025) sponsors page, still live at /en/sponsors-page (history).",
+    "source_url": "https://startupcincyweek.com/en/sponsors-page"
+  },
+  {
+    "program": "scw",
+    "kind": "photo",
+    "url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1746012578startup-founders-amp-team-jpg1746012578.jpg",
+    "format": "jpg",
+    "notes": "Audience photo from the (hidden) 2025 homepage \"gallery\" section: Startup Founders & Teams.",
+    "source_url": "https://startupcincyweek.com/"
+  },
+  {
+    "program": "scw",
+    "kind": "photo",
+    "url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1746012578entrepreneurs-jpg1746012578.jpg",
+    "format": "jpg",
+    "notes": "Audience photo from the (hidden) 2025 homepage \"gallery\" section: Entrepreneurs.",
+    "source_url": "https://startupcincyweek.com/"
+  },
+  {
+    "program": "scw",
+    "kind": "photo",
+    "url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1746012578corporates-jpg1746012578.jpg",
+    "format": "jpg",
+    "notes": "Audience photo from the (hidden) 2025 homepage \"gallery\" section: Corporates.",
+    "source_url": "https://startupcincyweek.com/"
+  },
+  {
+    "program": "scw",
+    "kind": "photo",
+    "url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/1746012578investors-jpg1746012578.jpg",
+    "format": "jpg",
+    "notes": "Audience photo from the (hidden) 2025 homepage \"gallery\" section: Investors.",
+    "source_url": "https://startupcincyweek.com/"
+  },
+  {
+    "program": "scw",
+    "kind": "key-art",
+    "url": "https://images.lumacdn.com/uploads/4l/9ec89801-6de5-42b5-bd83-44f4674117cb.png",
+    "format": "png",
+    "notes": "Cover image of the \"StartupCincy Week Launch Party\" Luma event (Sept 24, 2026).",
+    "source_url": "https://luma.com/ppf114l2"
+  }
+]

@@ -66,7 +66,7 @@ export const SPECS = {
     description: text({ long: true }),
     organizers: list(obj({ name: text(R), url: url(), org_id: id(), role: text() })),
     url: url(), hub_venue_id: id(),
-    tickets: list(obj({ name: text(R), price: text(), url: url(), notes: text() })),
+    tickets: list(obj({ name: text(R), price: text(), url: url(), details: text(), notes: text() })),   // details = the organizer's words (shown); notes never shown
     daily_themes: list(obj({ date: { t: "date", req: true }, theme: text(R), highlights: list(text()) })),
     hours: text(), hashtags: list(text()),
     social: obj({ instagram: url(), x: url(), facebook: url(), linkedin: url(), tiktok: url(), youtube: url() }),

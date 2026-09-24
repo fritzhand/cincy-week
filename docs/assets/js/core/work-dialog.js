@@ -46,8 +46,10 @@ function render(data, x, w) {
     w.lt && (!v || w.lt !== v.n) ? esc(w.lt) : "",
   ].filter(Boolean);
   const where = whereBits.length ? whereBits.join(" · ") : '<span class="unk">Location not listed</span>';
-  const side = w.ll
-    ? `${e.mm ? e.mm.replace(/\{R\}/g, ROOT) : ""}<p class="evd-dir">${e.d ? `${ext(e.d.apple, `${I("walk")}Apple Maps`, "btn btn-secondary btn-sm")}${ext(e.d.google, `${I("walk")}Google Maps`, "btn btn-secondary btn-sm")}` : ""}<a class="btn btn-secondary btn-sm" href="${ROOT}map.html?focus=work:${encodeURIComponent(w.id)}">${I("map")}On the map</a></p>`
+  // QA: a work without its own spot shows its zone's map (art-extra `zv`), labeled as the zone, never as the spot
+  const zone = !w.ll && e.zv && e.mm;
+  const side = w.ll || zone
+    ? `${e.mm ? e.mm.replace(/\{R\}/g, ROOT) : ""}${zone ? `<p class="faint wd-zone-note">The map shows ${esc(v ? v.n : "its zone")}; the exact spot is not published.</p>` : ""}<p class="evd-dir">${e.d ? `${ext(e.d.apple, `${I("walk")}Apple Maps`, "btn btn-secondary btn-sm")}${ext(e.d.google, `${I("walk")}Google Maps`, "btn btn-secondary btn-sm")}` : ""}<a class="btn btn-secondary btn-sm" href="${ROOT}map.html?focus=${zone ? `venue:${encodeURIComponent(e.zv)}` : `work:${encodeURIComponent(w.id)}`}">${I("map")}On the map</a></p>`
     : '<p class="unk">Not on the map: the address is not listed</p>';
   const text = w.d
     ? `${e.ab ? '<h3 class="sub-h">About the artist, as published for this work</h3>' : ""}<div class="prose evd-desc">${paras(w.d).map((p) => `<p>${esc(p)}</p>`).join("")}</div>`

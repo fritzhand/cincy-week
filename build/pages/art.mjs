@@ -82,6 +82,14 @@ export function data(ctx) {
     if (w.lat != null) {
       x.mm = cards.miniMap("{R}", w.lat, w.lng, { prog: w.program, n: "", label: `Map of where to find ${w.title}` });
       x.d = cards.directions(w.lat, w.lng);
+    } else {
+      // QA: no published spot, but its zone or venue is on the map: show that, and say it is the zone, not the spot
+      const zv = w.venue_id ? db.byId.venue.get(w.venue_id) : null;
+      if (zv && zv.lat != null && zv.stall) {
+        x.mm = cards.miniMap("{R}", zv.lat, zv.lng, { prog: w.program, n: zv.stall, label: `Map of ${zv.name}, where ${w.title} is` });
+        x.d = cards.directions(zv.lat, zv.lng);
+        x.zv = zv.id;
+      }
     }
     works[w.id] = x;
     for (const a of w.artists || []) {

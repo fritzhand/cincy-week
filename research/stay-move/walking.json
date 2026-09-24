@@ -1,0 +1,205 @@
+{
+ "method": "Great-circle (haversine) distance between hub coordinates. approx_walk_min_lower_bound = straight-line km / 4.8 km/h (3 mph) * 60. Real walking routes are longer (street grid, bridge ramps, hills), so treat the minutes as a floor, not an official or measured time.",
+ "hubs": [
+  {
+   "id": "union-hall",
+   "name": "Union Hall",
+   "lat": 39.109898,
+   "lng": -84.515591,
+   "coords_source": "nominatim"
+  },
+  {
+   "id": "caw-art-market-hq-1417-main",
+   "name": "Cincinnati Art Week HQ + Art Market (1417 Main St)",
+   "lat": 39.111849,
+   "lng": -84.51262,
+   "coords_source": "nominatim"
+  },
+  {
+   "id": "findlay-market",
+   "name": "Findlay Market",
+   "lat": 39.115366,
+   "lng": -84.518981,
+   "coords_source": "nominatim"
+  },
+  {
+   "id": "fountain-square",
+   "name": "Fountain Square",
+   "lat": 39.101794,
+   "lng": -84.512811,
+   "coords_source": "nominatim"
+  },
+  {
+   "id": "smale-riverfront-park",
+   "name": "The Banks / Smale Riverfront Park",
+   "lat": 39.095734,
+   "lng": -84.509334,
+   "coords_source": "visitcincy"
+  },
+  {
+   "id": "covington-riverfront-roebling-point",
+   "name": "Covington riverfront (Kentucky end of the Roebling Suspension Bridge)",
+   "lat": 39.089376,
+   "lng": -84.509072,
+   "coords_source": "visitcincy"
+  },
+  {
+   "id": "newport-on-the-levee",
+   "name": "Newport on the Levee",
+   "lat": 39.095069,
+   "lng": -84.496166,
+   "coords_source": "visitcincy"
+  }
+ ],
+ "pairs": [
+  {
+   "from": "union-hall",
+   "to": "caw-art-market-hq-1417-main",
+   "straight_line_km": 0.34,
+   "straight_line_mi": 0.21,
+   "approx_walk_min_lower_bound": 4
+  },
+  {
+   "from": "union-hall",
+   "to": "findlay-market",
+   "straight_line_km": 0.67,
+   "straight_line_mi": 0.42,
+   "approx_walk_min_lower_bound": 8
+  },
+  {
+   "from": "union-hall",
+   "to": "fountain-square",
+   "straight_line_km": 0.93,
+   "straight_line_mi": 0.58,
+   "approx_walk_min_lower_bound": 12
+  },
+  {
+   "from": "union-hall",
+   "to": "smale-riverfront-park",
+   "straight_line_km": 1.66,
+   "straight_line_mi": 1.03,
+   "approx_walk_min_lower_bound": 21
+  },
+  {
+   "from": "union-hall",
+   "to": "covington-riverfront-roebling-point",
+   "straight_line_km": 2.35,
+   "straight_line_mi": 1.46,
+   "approx_walk_min_lower_bound": 29
+  },
+  {
+   "from": "union-hall",
+   "to": "newport-on-the-levee",
+   "straight_line_km": 2.35,
+   "straight_line_mi": 1.46,
+   "approx_walk_min_lower_bound": 29
+  },
+  {
+   "from": "caw-art-market-hq-1417-main",
+   "to": "findlay-market",
+   "straight_line_km": 0.67,
+   "straight_line_mi": 0.42,
+   "approx_walk_min_lower_bound": 8
+  },
+  {
+   "from": "caw-art-market-hq-1417-main",
+   "to": "fountain-square",
+   "straight_line_km": 1.12,
+   "straight_line_mi": 0.69,
+   "approx_walk_min_lower_bound": 14
+  },
+  {
+   "from": "caw-art-market-hq-1417-main",
+   "to": "smale-riverfront-park",
+   "straight_line_km": 1.81,
+   "straight_line_mi": 1.13,
+   "approx_walk_min_lower_bound": 23
+  },
+  {
+   "from": "caw-art-market-hq-1417-main",
+   "to": "covington-riverfront-roebling-point",
+   "straight_line_km": 2.52,
+   "straight_line_mi": 1.56,
+   "approx_walk_min_lower_bound": 31
+  },
+  {
+   "from": "caw-art-market-hq-1417-main",
+   "to": "newport-on-the-levee",
+   "straight_line_km": 2.34,
+   "straight_line_mi": 1.46,
+   "approx_walk_min_lower_bound": 29
+  },
+  {
+   "from": "findlay-market",
+   "to": "fountain-square",
+   "straight_line_km": 1.6,
+   "straight_line_mi": 0.99,
+   "approx_walk_min_lower_bound": 20
+  },
+  {
+   "from": "findlay-market",
+   "to": "smale-riverfront-park",
+   "straight_line_km": 2.34,
+   "straight_line_mi": 1.45,
+   "approx_walk_min_lower_bound": 29
+  },
+  {
+   "from": "findlay-market",
+   "to": "covington-riverfront-roebling-point",
+   "straight_line_km": 3.01,
+   "straight_line_mi": 1.87,
+   "approx_walk_min_lower_bound": 38
+  },
+  {
+   "from": "findlay-market",
+   "to": "newport-on-the-levee",
+   "straight_line_km": 2.99,
+   "straight_line_mi": 1.86,
+   "approx_walk_min_lower_bound": 37
+  },
+  {
+   "from": "fountain-square",
+   "to": "smale-riverfront-park",
+   "straight_line_km": 0.74,
+   "straight_line_mi": 0.46,
+   "approx_walk_min_lower_bound": 9
+  },
+  {
+   "from": "fountain-square",
+   "to": "covington-riverfront-roebling-point",
+   "straight_line_km": 1.42,
+   "straight_line_mi": 0.88,
+   "approx_walk_min_lower_bound": 18
+  },
+  {
+   "from": "fountain-square",
+   "to": "newport-on-the-levee",
+   "straight_line_km": 1.62,
+   "straight_line_mi": 1.01,
+   "approx_walk_min_lower_bound": 20
+  },
+  {
+   "from": "smale-riverfront-park",
+   "to": "covington-riverfront-roebling-point",
+   "straight_line_km": 0.71,
+   "straight_line_mi": 0.44,
+   "approx_walk_min_lower_bound": 9
+  },
+  {
+   "from": "smale-riverfront-park",
+   "to": "newport-on-the-levee",
+   "straight_line_km": 1.14,
+   "straight_line_mi": 0.71,
+   "approx_walk_min_lower_bound": 14
+  },
+  {
+   "from": "covington-riverfront-roebling-point",
+   "to": "newport-on-the-levee",
+   "straight_line_km": 1.28,
+   "straight_line_mi": 0.8,
+   "approx_walk_min_lower_bound": 16
+  }
+ ],
+ "cvg_to_fountain_square_straight_line_km": 13.4,
+ "cvg_note": "CVG publishes \"13 miles south of downtown Cincinnati\" (road distance context); the straight-line figure above is computed only."
+}

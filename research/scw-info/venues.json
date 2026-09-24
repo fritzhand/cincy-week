@@ -1,0 +1,146 @@
+[
+  {
+    "id": "union-hall",
+    "name": "Union Hall",
+    "address": "1311 Vine St",
+    "city": "Cincinnati",
+    "state": "OH",
+    "zip": "45202",
+    "neighborhood": "Over-the-Rhine",
+    "lat": 39.109898,
+    "lng": -84.515591,
+    "programs": [
+      "scw"
+    ],
+    "kind": "venue",
+    "url": "https://cintrifuse.com/union-hall/",
+    "notes": "StartupCincy Week hub and daily check-in. SCW FAQ: \"All attendees should check in each day at Union Hall (1311 Vine Street) before heading to sessions or events at other locations.\" Cintrifuse: \"Sitting at the center of Cincinnati’s vibrant and historic Over-the-Rhine district, Union Hall serves as the bustling hub of our startup ecosystem. With 38,000 square feet of private offices, coworking, and event space ...\" Event rooms listed by Cintrifuse: Beer Hall (seats up to 200), Homeroom, conference rooms (6–10 people); members also get a private rooftop. Coworking day pass: \"$25 / day / person\". Soapbox (2026-09-15): the week \"still uses Union Hall as a central gathering place, but its footprint has expanded into multiple blocks in Over-the-Rhine.\" Same id as the scw-agenda slice. Coordinates: Nominatim \"Union Hall, 1311, Vine Street, Vine Street Business District, Over-the-Rhine, Cincinnati, Hamilton County, Ohio, 45202, United States\".",
+    "source_url": "https://startupcincyweek.com/en/faq-page"
+  },
+  {
+    "id": "union-hall-beer-hall",
+    "name": "Beer Hall at Union Hall",
+    "address": "1311 Vine St",
+    "city": "Cincinnati",
+    "state": "OH",
+    "zip": "45202",
+    "neighborhood": "Over-the-Rhine",
+    "lat": 39.109898,
+    "lng": -84.515591,
+    "programs": [
+      "scw"
+    ],
+    "kind": "venue",
+    "url": "https://cintrifuse.com/union-hall/",
+    "notes": "A room inside Union Hall (parent venue: union-hall), not a separate building. Cintrifuse: \"Perfect for a full or half day seminar, our Beer Hall seats up to 200 guests. The space includes a projector and screen, accommodating large presentations.\" 2026 agenda: \"SUCW 2026 Kickoff!\" (Oct 5, \"Join us LIVE! from Beer Hall at Union Hall\") and \"SUCW Student Day Kickoff!\" (Oct 8, \"Union Hall - Beer Hall\").",
+    "source_url": "https://cintrifuse.com/union-hall/"
+  },
+  {
+    "id": "somerhaus",
+    "name": "Somerhaus",
+    "address": "1415 Republic St",
+    "city": "Cincinnati",
+    "state": "OH",
+    "zip": "45202",
+    "neighborhood": "Over-the-Rhine",
+    "lat": 39.110709,
+    "lng": -84.516322,
+    "programs": [
+      "scw"
+    ],
+    "kind": "venue",
+    "url": "https://somerhaus.space/",
+    "notes": "Startup Clubhouse host in 2025. Leftover (hidden) 2025 text on startupcincyweek.com: \"A pop-up HQ for startup operators during StartupCincy Week. Hosted at Somerhaus, it’s part coworking lounge, part skills lab, part community hub—built to connect and recharge founders, early employees, and builders at every stage.\" No 2026 source names the Clubhouse location, so Somerhaus is NOT confirmed for 2026. Address and phone ((513) 902-1415) from somerhaus.space; its contact page notes: \"Republic Street is permit parking only (visitors may be ticketed or towed)\". about 110 m straight-line from Union Hall (computed from coordinates). Coordinates: Nominatim \"1415, Republic Street, Over-the-Rhine Historic District, Over-the-Rhine, Cincinnati, Hamilton County, Ohio, 45202, United States\".",
+    "source_url": "https://somerhaus.space/contact-somerhaus-event-space/"
+  },
+  {
+    "id": "mercer-commons-garage",
+    "name": "Mercer Commons Garage",
+    "address": "1310 Vine St",
+    "city": "Cincinnati",
+    "state": "OH",
+    "zip": "45202",
+    "neighborhood": "Over-the-Rhine",
+    "lat": 39.110129,
+    "lng": -84.514543,
+    "programs": [
+      "scw"
+    ],
+    "kind": "other",
+    "url": null,
+    "notes": "Parking recommended by the SCW FAQ (\"Both garages are within a short walking distance to Union Hall ... Please note: we do not offer parking validation.\"). Across Vine Street from Union Hall; about 90 m straight-line from Union Hall (computed from coordinates). Coordinates: Nominatim \"Mercer Commons Garage, 1310, Vine Street, Vine Street Business District, Over-the-Rhine, Cincinnati, Hamilton County, Ohio, 45202, United States\".",
+    "source_url": "https://startupcincyweek.com/en/faq-page"
+  },
+  {
+    "id": "washington-park-garage",
+    "name": "Washington Park Garage",
+    "address": "1230 Elm St",
+    "city": "Cincinnati",
+    "state": "OH",
+    "zip": "45202",
+    "neighborhood": "Over-the-Rhine",
+    "lat": 39.109811,
+    "lng": -84.517668,
+    "programs": [
+      "scw"
+    ],
+    "kind": "other",
+    "url": null,
+    "notes": "Parking recommended by the SCW FAQ (address given there as 1230 Elm Street; no validation). The StartupCincy Awards Luma page lists it as \"Washington Park Garage | 1310 Elm St.\" (discrepancy). Coordinates are the OpenStreetMap \"Washington Park Garage\" feature (Washington Park Garage, Race Street, Over-the-Rhine Historic District, Over-the-Rhine, Cin...); the plain address 1230 Elm St geocodes to 39.108065, -84.517953. about 180 m straight-line from Union Hall (computed from coordinates).",
+    "source_url": "https://startupcincyweek.com/en/faq-page"
+  },
+  {
+    "id": "14th-and-vine-3cdc-public-parking",
+    "name": "14th & Vine 3CDC Public Parking",
+    "address": "1429 Vine St",
+    "city": "Cincinnati",
+    "state": "OH",
+    "zip": "45202",
+    "neighborhood": "Over-the-Rhine",
+    "lat": 39.11139,
+    "lng": -84.515714,
+    "programs": [
+      "scw"
+    ],
+    "kind": "other",
+    "url": null,
+    "notes": "Listed under \"Parking\" on the StartupCincy Awards (April 30, 2026, Union Hall) Luma page (\"14th & Vine 3CDC Public Parking | 1429 Vine St.\"), not on the SCW FAQ. Included as a third nearby option. Coordinates (added in the verification pass) are the Nominatim address point for 1429 Vine St (\"Ombré Gallery, 1429, Vine Street, Vine Street Business District, Over-the-Rhine, Cincinnat...\"), not a surveyed garage entrance. about 170 m straight-line from Union Hall (computed from coordinates).",
+    "source_url": "https://luma.com/SUCAwards2026"
+  },
+  {
+    "id": "the-marketer-collaborative",
+    "name": "The Marketer Collaborative",
+    "address": "15 E 14th St",
+    "city": "Cincinnati",
+    "state": "OH",
+    "zip": "45202",
+    "neighborhood": "Over-the-Rhine",
+    "lat": 39.110913,
+    "lng": -84.514555,
+    "programs": [
+      "scw"
+    ],
+    "kind": "venue",
+    "url": "https://themarketercollab.com/",
+    "notes": "1809 Capital lists \"RedHawk Founders & Funders Event, Cincinnati: October 5th @ The Marketer Collaborative\" among its StartupCincy Week activities; not on the SCW agenda. The Marketer Collaborative was a 2025 SCW Advocate Sponsor. Address from the venue's own site (verification pass; themarketercollab.com: \"The Marketer Building / 15 East 14th Street / Cincinnati, OH 45202\" and \"Located at 15 E 14th Street in Over-the-Rhine\"); coordinates from OpenStreetMap (\"The Marketer Building, 15, East 14th Street, Vine Street Business District, Over...\"). about 140 m straight-line from Union Hall (computed from coordinates).",
+    "source_url": "https://1809capital.com/event/startupcincy-week-october-5th-8th/"
+  },
+  {
+    "id": "mellotone-beer-project",
+    "name": "Mellotone Beer Project",
+    "address": "1429 Race St",
+    "city": "Cincinnati",
+    "state": "OH",
+    "zip": "45202",
+    "neighborhood": "Over-the-Rhine",
+    "lat": 39.1113049,
+    "lng": -84.517504,
+    "programs": [
+      "scw"
+    ],
+    "kind": "venue",
+    "url": null,
+    "notes": "Brewery taproom hosting the \"StartupCincy Week Launch Party\" (Sept 24, 2026; see events.json). Address and coordinates from the Luma event's Google place (\"Mellotone Beer Project, 1429 Race St, Cincinnati, OH 45202, USA\", sublocality \"Over-The-Rhine\"). Added in the verification pass. about 230 m straight-line from Union Hall (computed from coordinates).",
+    "source_url": "https://luma.com/ppf114l2"
+  }
+]

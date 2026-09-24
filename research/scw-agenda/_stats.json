@@ -1,0 +1,568 @@
+{
+  "landing_capture": "/tmp/claude-0/-home-user/2c073cdf-a360-5298-a94c-59bd6e1e86ef/scratchpad/raw/scw-agenda/agenda-page-fresh.html",
+  "hero_numbers": [
+    "110+ Sessions",
+    "75+ Speakers"
+  ],
+  "api_sessions": 116,
+  "week_rows": 113,
+  "topic_rows": 112,
+  "events": 116,
+  "people": 152,
+  "per_day": {
+    "2026-10-05": 40,
+    "2026-10-06": 24,
+    "2026-10-07": 37,
+    "2026-10-08": 15
+  },
+  "per_day_tab_rows": {
+    "Day 1": 39,
+    "Day 2": 24,
+    "Day 3": 36,
+    "Day 4": 14
+  },
+  "per_topic_rows": {
+    "Arts & Culture": 3,
+    "Funding": 7,
+    "Startup Ops": 6,
+    "Social": 6,
+    "Founder Journey": 11,
+    "Health & Life Sciences": 4,
+    "Marketing & Creative": 9,
+    "HardTech": 4,
+    "City Building": 4,
+    "University Tools": 4,
+    "Student": 12,
+    "Food Founder": 4,
+    "AI": 11,
+    "Small Business": 15,
+    "Venture Capital": 12
+  },
+  "per_topic_unique": {
+    "Food Founder": 4,
+    "City Building": 4,
+    "Small Business": 15,
+    "AI": 11,
+    "Marketing & Creative": 9,
+    "Venture Capital": 12,
+    "Social": 6,
+    "University Tools": 4,
+    "Arts & Culture": 3,
+    "Founder Journey": 11,
+    "Startup Ops": 6,
+    "Funding": 7,
+    "HardTech": 4,
+    "Health & Life Sciences": 4,
+    "Student": 12
+  },
+  "events_without_topic": [
+    "scw-sucw-2026-kickoff",
+    "scw-building-ecosystems-in-the-big-three-what-cincinnati-cleveland-and-columbus-can-learn-from-one-another",
+    "scw-community-lunch-at-washington-park",
+    "scw-welcome-to-the-ecosystem-startupcincy-week",
+    "scw-small-business-big-insights-turning-customer-understanding-into-growth",
+    "scw-cintrifuse-annual-meeting",
+    "scw-cincy-does-demos-best-of-demo-night-live-at-sucw",
+    "scw-wednesday-welcome"
+  ],
+  "events_multi_topic": [
+    [
+      "scw-ai-and-ip-what-you-own-what-you-dont-and-what-could-blow-up-in-your-face",
+      [
+        "AI",
+        "Venture Capital"
+      ]
+    ],
+    [
+      "scw-founder-tools",
+      [
+        "Student",
+        "AI"
+      ]
+    ],
+    [
+      "scw-the-next-wave-of-venture",
+      [
+        "Student",
+        "Venture Capital"
+      ]
+    ],
+    [
+      "scw-soft-launch-happy-hour-ice-cream-social",
+      [
+        "Social",
+        "Student"
+      ]
+    ]
+  ],
+  "events_only_in_topic_view": [
+    "scw-speed-coaching-turning-customer-insights-into-action-consumer-insights-marketing-pr-selling-skills-and-more",
+    "scw-lab-to-license-a-live-negotiation",
+    "scw-founder-tools"
+  ],
+  "per_kind": {
+    "other": 5,
+    "talk": 47,
+    "networking": 12,
+    "panel": 28,
+    "workshop": 19,
+    "fireside": 1,
+    "pitch": 3,
+    "party": 1
+  },
+  "events_without_speakers": [
+    "scw-rooted-and-real-how-small-business-owners-build-jobs-careers-and-community-when-competing-with-corporate",
+    "scw-community-lunch-at-washington-park",
+    "scw-releasing-blocks-to-action",
+    "scw-welcome-to-the-ecosystem-startupcincy-week",
+    "scw-latinos-in-entrepreneurship",
+    "scw-the-talent-engine-fueling-cincinnatis-entrepreneurial-ecosystem",
+    "scw-your-professor-wants-more-than-a-lab-how-universities-are-becoming-startup-engines",
+    "scw-the-outlier-advantage-what-atypical-founders-get-right-that-the-room-keeps-missing",
+    "scw-community-kickoff-happy-hour-presented-by-sam-adams",
+    "scw-ai-and-ip-what-you-own-what-you-dont-and-what-could-blow-up-in-your-face",
+    "scw-the-big-bet-happy-hour-presented-by-hard-rock-casino",
+    "scw-wednesday-welcome",
+    "scw-the-state-of-ohio-hard-tech-plus-investing-in-hard-tech",
+    "scw-employee-engagement-as-a-profitability-strategy",
+    "scw-startupcincy-10-year-anniversary-party-presented-by-visitcincy",
+    "scw-startup-fellows-lounge",
+    "scw-student-day-community-lunch",
+    "scw-get-unstuck-speed-coaching-for-startup-students"
+  ],
+  "events_without_description": [],
+  "speaker_slots": 182,
+  "people_no_headshot": [
+    "adam-tucker",
+    "andrew-caprariello",
+    "andrew-deye",
+    "ann-thompson",
+    "ben-wolber",
+    "broder-schmidt",
+    "bryan-mccleary",
+    "guy-persaud",
+    "jake-smierciak",
+    "kameron-seabrook",
+    "peter-schmidt",
+    "scott-edsall",
+    "tammie-scott"
+  ],
+  "people_no_bio": [
+    "andrew-deye",
+    "brendon-cull",
+    "bryan-mccleary",
+    "chase-dawson",
+    "guy-persaud",
+    "kameron-seabrook"
+  ],
+  "people_multi_session": [
+    [
+      "abby-grimm",
+      3
+    ],
+    [
+      "alex-yocum",
+      2
+    ],
+    [
+      "antony-seppi",
+      3
+    ],
+    [
+      "austin-zani",
+      2
+    ],
+    [
+      "chase-dawson",
+      2
+    ],
+    [
+      "christin-godale",
+      3
+    ],
+    [
+      "christy-johnson",
+      2
+    ],
+    [
+      "ilana-habib",
+      2
+    ],
+    [
+      "j-b-kropp",
+      2
+    ],
+    [
+      "jasmine-hughes",
+      3
+    ],
+    [
+      "jennifer-glanville-love",
+      2
+    ],
+    [
+      "jill-morenz",
+      3
+    ],
+    [
+      "john-hurley",
+      3
+    ],
+    [
+      "kara-willis",
+      2
+    ],
+    [
+      "katie-stratman",
+      2
+    ],
+    [
+      "mark-gagas",
+      3
+    ],
+    [
+      "max-dworin",
+      3
+    ],
+    [
+      "norlynn-story",
+      2
+    ],
+    [
+      "sierra-hayden",
+      2
+    ],
+    [
+      "sue-bevan-baggott",
+      3
+    ],
+    [
+      "torrey-babson",
+      2
+    ]
+  ],
+  "orgs": [
+    [
+      "Book + Street",
+      1
+    ],
+    [
+      "Cincinnati Children's",
+      1
+    ],
+    [
+      "CincyTech",
+      1
+    ],
+    [
+      "ECDI",
+      1
+    ],
+    [
+      "FBT Gibbons",
+      2
+    ],
+    [
+      "Forvis Mazars",
+      1
+    ],
+    [
+      "Hard Rock Casino",
+      1
+    ],
+    [
+      "Insperity",
+      1
+    ],
+    [
+      "Kroger",
+      1
+    ],
+    [
+      "LifeSciKY",
+      1
+    ],
+    [
+      "Notion",
+      3
+    ],
+    [
+      "Queen City Angels",
+      1
+    ],
+    [
+      "Sam Adams",
+      3
+    ],
+    [
+      "The Gratitude Collective",
+      1
+    ],
+    [
+      "Thompson Hine",
+      1
+    ],
+    [
+      "University of Cincinnati",
+      2
+    ],
+    [
+      "US Bank",
+      1
+    ],
+    [
+      "VisitCincy",
+      1
+    ]
+  ],
+  "per_day_kind": {
+    "2026-10-05": {
+      "other": 3,
+      "talk": 17,
+      "networking": 5,
+      "panel": 10,
+      "workshop": 5
+    },
+    "2026-10-06": {
+      "fireside": 1,
+      "talk": 12,
+      "panel": 7,
+      "workshop": 2,
+      "pitch": 1,
+      "networking": 1
+    },
+    "2026-10-07": {
+      "other": 1,
+      "talk": 14,
+      "workshop": 10,
+      "panel": 8,
+      "networking": 2,
+      "pitch": 1,
+      "party": 1
+    },
+    "2026-10-08": {
+      "other": 1,
+      "talk": 4,
+      "networking": 4,
+      "workshop": 2,
+      "panel": 3,
+      "pitch": 1
+    }
+  },
+  "events_with_venue": [
+    [
+      "scw-sucw-2026-kickoff",
+      "union-hall",
+      "Beer Hall"
+    ],
+    [
+      "scw-out-of-office-fresh-perspectives-1005",
+      "cincinnati-art-week-hq",
+      null
+    ],
+    [
+      "scw-beltways-debuts-americas-first-accelerator-at-first-financial-center",
+      "first-financial-center",
+      null
+    ],
+    [
+      "scw-community-lunch-at-washington-park",
+      "washington-park",
+      null
+    ],
+    [
+      "scw-cintrifuse-annual-meeting",
+      "union-hall",
+      null
+    ],
+    [
+      "scw-out-of-office-fresh-perspectives-1007",
+      "cincinnati-art-week-hq",
+      null
+    ],
+    [
+      "scw-startupcincy-10-year-anniversary-party-presented-by-visitcincy",
+      "the-transept",
+      null
+    ],
+    [
+      "scw-sucw-student-day-kickoff",
+      "union-hall",
+      "Beer Hall"
+    ],
+    [
+      "scw-student-pitch-competition",
+      "union-hall",
+      null
+    ],
+    [
+      "scw-soft-launch-happy-hour-ice-cream-social",
+      "imagination-alley",
+      null
+    ]
+  ],
+  "events_with_end": [
+    [
+      "scw-beltways-debuts-americas-first-accelerator-at-first-financial-center",
+      "12:00",
+      "13:00"
+    ],
+    [
+      "scw-cintrifuse-annual-meeting",
+      "08:30",
+      "10:30"
+    ]
+  ],
+  "events_with_other_sources": [
+    [
+      "scw-beltways-debuts-americas-first-accelerator-at-first-financial-center",
+      [
+        "https://luma.com/nf6e83vn"
+      ]
+    ],
+    [
+      "scw-cintrifuse-annual-meeting",
+      [
+        "https://startupcincyweek.com/en/registration-form",
+        "https://cintrifuse.com/cintrifuse-annual-meeting-2026/"
+      ]
+    ],
+    [
+      "scw-get-unstuck-speed-coaching-for-startup-students",
+      [
+        "https://forms.gle/qk6rKJDvTq4MMHNXA"
+      ]
+    ],
+    [
+      "scw-student-pitch-competition",
+      [
+        "https://airtable.com/appWcp9LICBcEHPK8/shrV6GMdulkZFgorD"
+      ]
+    ]
+  ],
+  "people_not_in_scw_speaker_list": [
+    "andrew-deye",
+    "bryan-mccleary",
+    "guy-persaud",
+    "kameron-seabrook"
+  ],
+  "kind_basis": {
+    "scw-food-founder-kickoff-presented-by-kroger": "kickoff / welcome",
+    "scw-ohios-1-for-business-now-what": "content session with a description",
+    "scw-beltways-debuts-americas-first-accelerator-at-first-financial-center": "media event",
+    "scw-sucw-2026-kickoff": "kickoff / welcome",
+    "scw-stop-building-audiences-start-building-community": "content session with a description",
+    "scw-chef-and-coffee-morning-happy-hour": "title: happy hour / social / on the rocks",
+    "scw-gen-z-unfiltered-the-future-of-ai-plus-society": "description says panel / panelists",
+    "scw-your-corner-of-the-internet": "title/description: workshop / hands-on / breakouts",
+    "scw-five-ingredients-for-building-the-future-economy-here": "content session with a description",
+    "scw-city-as-a-lab-from-what-if-to-whats-next": "content session with a description",
+    "scw-out-of-office-fresh-perspectives-1005": "lunch / lounge / walk-and-talk / meet the organizations",
+    "scw-the-consultant-you-didnt-think-to-hire-leveraging-fresh-perspectives-and-community-resources-with-esp461-entrepreneurial-consulting": "content session with a description",
+    "scw-building-a-movement-before-you-build-a-business": "content session with a description",
+    "scw-releasing-blocks-to-action": "title/description: workshop / hands-on / breakouts",
+    "scw-building-ecosystems-in-the-big-three-what-cincinnati-cleveland-and-columbus-can-learn-from-one-another": "3+ listed speakers",
+    "scw-a-brand-that-grows-with-you-brand-strategy-workshop": "title: workshop / work session / working lunch / speed coaching",
+    "scw-start-small-grow-slow-life-before-brick-and-mortar": "description says panel / panelists",
+    "scw-the-1-hour-pitch-deck-ai-workflows-to-turn-ideas-into-influence": "content session with a description",
+    "scw-the-cost-of-avoidance-the-hidden-psychology-behind-business-money-decisions": "content session with a description",
+    "scw-building-a-show-like-a-startup-the-making-of-coworking": "3+ listed speakers",
+    "scw-uc-tech-transfer-recruiting-venture-builders-connecting-startups-and-commercializing-innovation": "3+ listed speakers",
+    "scw-speed-coaching-turning-customer-insights-into-action-consumer-insights-marketing-pr-selling-skills-and-more": "title: workshop / work session / working lunch / speed coaching",
+    "scw-community-kickoff-happy-hour-presented-by-sam-adams": "title: happy hour / social / on the rocks",
+    "scw-building-a-better-brainstorm-lessons-from-cincinnatis-most-creative-minds": "content session with a description",
+    "scw-rooted-and-real-how-small-business-owners-build-jobs-careers-and-community-when-competing-with-corporate": "content session with a description",
+    "scw-community-lunch-at-washington-park": "lunch / lounge / walk-and-talk / meet the organizations",
+    "scw-latinos-in-entrepreneurship": "description: conversation between / hear from <group> / come together",
+    "scw-the-talent-engine-fueling-cincinnatis-entrepreneurial-ecosystem": "description says panel / panelists",
+    "scw-community-by-design": "description: conversation between / hear from <group> / come together",
+    "scw-personal-branding-for-the-99": "content session with a description",
+    "scw-welcome-to-the-ecosystem-startupcincy-week": "lunch / lounge / walk-and-talk / meet the organizations",
+    "scw-your-professor-wants-more-than-a-lab-how-universities-are-becoming-startup-engines": "content session with a description",
+    "scw-beyond-product-market-fit-why-co-founder-fit-matters-more-than-you-think": "3+ listed speakers",
+    "scw-communicating-your-design-needs-how-and-when-to-ask-for-help": "content session with a description",
+    "scw-the-outlier-advantage-what-atypical-founders-get-right-that-the-room-keeps-missing": "content session with a description",
+    "scw-from-strategy-to-story-building-your-company-and-personal-narrative": "content session with a description",
+    "scw-organizing-the-story-how-to-build-a-narrative-system-for-startups-and-small-businesses": "title/description: workshop / hands-on / breakouts",
+    "scw-the-human-edge-why-your-story-is-your-strongest-marketing-asset-in-an-ai-world": "content session with a description",
+    "scw-buried-why-mission-driven-founders-sound-generic-and-how-to-lead-with-story-instead": "content session with a description",
+    "scw-small-business-big-insights-turning-customer-understanding-into-growth": "description says panel / panelists",
+    "scw-cintrifuse-annual-meeting": "description says fireside chat",
+    "scw-top-5-hr-mistakes-startups-make-and-how-to-fix-them": "content session with a description",
+    "scw-building-a-smarter-startup-r-and-d-tax-credits-and-tax-strategies-that-fuel-growth": "3+ listed speakers",
+    "scw-entrepreneurship-in-franchising": "content session with a description",
+    "scw-build-your-first-ai-agent-no-technical-skills-required-1006": "title/description: workshop / hands-on / breakouts",
+    "scw-adding-new-friends-understanding-equity-awards-for-co-founders-employees-and-advisors": "content session with a description",
+    "scw-mapping-technology-from-idea-to-market": "content session with a description",
+    "scw-put-down-the-slop-cannon-how-i-design-and-build-for-quality-with-ai": "content session with a description",
+    "scw-how-fractional-leadership-accelerates-startup-commercialization-success": "content session with a description",
+    "scw-the-big-bet-happy-hour-presented-by-hard-rock-casino": "title: happy hour / social / on the rocks",
+    "scw-beyond-the-safe": "description: conversation between / hear from <group> / come together",
+    "scw-buying-a-business-the-path-to-entrepreneurship-with-a-huge-headstart": "content session with a description",
+    "scw-responsible-ai-simple-steps-for-privacy-security-and-governance-actionable-best-practices-for-startups": "description says panel / panelists",
+    "scw-how-hypergrowth-leaders-are-rethinking-talent-in-the-age-of-ai": "description says panel / panelists",
+    "scw-two-cities-one-startup-building-and-backing-kernel": "3+ listed speakers",
+    "scw-how-ai-has-changed-the-way-we-speak-to-our-customers": "content session with a description",
+    "scw-stop-rewarding-your-best-people-with-more-work-how-the-competence-tax-quietly-burns-out-high-performers-and-what-founders-can-do-instead": "content session with a description",
+    "scw-founder-financial-discipline-make-better-decisions-with-limited-capital": "title/description: workshop / hands-on / breakouts",
+    "scw-cincy-does-demos-best-of-demo-night-live-at-sucw": "title: pitch competition / live pitch / demo night",
+    "scw-ai-and-ip-what-you-own-what-you-dont-and-what-could-blow-up-in-your-face": "content session with a description",
+    "scw-connecting-the-conversation-main-street-to-vc": "description: conversation between / hear from <group> / come together",
+    "scw-building-in-cincinnati-what-works-what-doesnt-and-whats-next": "description says panel / panelists",
+    "scw-90-days-to-industry-fluency": "content session with a description",
+    "scw-the-unicorn-asteroid-and-phoenix-the-80-acres-story": "content session with a description",
+    "scw-wednesday-welcome": "kickoff / welcome",
+    "scw-the-state-of-ohio-hard-tech-plus-investing-in-hard-tech": "content session with a description",
+    "scw-building-businesses-with-cincinnati-childrens": "description says panel / panelists",
+    "scw-pop-up-to-permanent-rethinking-the-path-to-brick-and-mortar": "content session with a description",
+    "scw-impact-investing-in-action-building-economic-and-social-opportunity-in-the-midwest": "title/description: workshop / hands-on / breakouts",
+    "scw-the-factory-floor-robotics-evolution": "3+ listed speakers",
+    "scw-nobody-moves-a-biotech-startup-to-kentucky-until-they-do": "3+ listed speakers",
+    "scw-growing-our-region-through-bold-bets": "description: conversation between / hear from <group> / come together",
+    "scw-ten-year-vision-day-one-plan": "content session with a description",
+    "scw-whats-your-number-the-skill-nobody-teaches-you-and-the-one-that-changes-everything": "content session with a description",
+    "scw-unlocking-technology-transfer-powerhouses": "3+ listed speakers",
+    "scw-lab-to-license-a-live-negotiation": "content session with a description",
+    "scw-the-5-000-leap-how-small-dollar-leapfrog-capital-can-unlock-your-next-stage-of-growth": "title/description: workshop / hands-on / breakouts",
+    "scw-out-of-office-fresh-perspectives-1007": "lunch / lounge / walk-and-talk / meet the organizations",
+    "scw-ideation-to-validation-work-session": "title: workshop / work session / working lunch / speed coaching",
+    "scw-access-to-capital-finding-the-right-funding-for-your-business": "description: conversation between / hear from <group> / come together",
+    "scw-startupcincy-10-year-anniversary-party-presented-by-visitcincy": "title says party",
+    "scw-the-lonely-founder-building-connection-community-and-emotional-safety-while-you-build-your-business": "title/description: workshop / hands-on / breakouts",
+    "scw-the-investor-room-a-live-pitch-with-qca-ventures": "title: pitch competition / live pitch / demo night",
+    "scw-tackling-term-sheets-a-working-lunch-with-thompson-hines": "title: workshop / work session / working lunch / speed coaching",
+    "scw-imposter-freedom": "content session with a description",
+    "scw-ask-a-banker-funding-ready-business-breakouts": "title/description: workshop / hands-on / breakouts",
+    "scw-build-your-first-ai-agent-no-technical-skills-required-1007": "title/description: workshop / hands-on / breakouts",
+    "scw-hot-wings-and-hard-truths-stop-waiting-for-permission": "3+ listed speakers",
+    "scw-women-in-entrepreneurship-real-talk-lunchpad": "lunch / lounge / walk-and-talk / meet the organizations",
+    "scw-anyone-can-code-use-ai-to-make-your-first-100-000": "title/description: workshop / hands-on / breakouts",
+    "scw-sex-shame-and-success-the-hidden-path-to-creativity-connection-and-impact": "content session with a description",
+    "scw-the-automated-client-journey-how-to-build-a-business-that-runs-while-youre-not-watching": "content session with a description",
+    "scw-making-technology-more-human": "content session with a description",
+    "scw-still-your-voice-human-leadership-in-the-age-of-ai": "content session with a description",
+    "scw-ditch-the-script-a-sales-approach-that-actually-fits-you": "content session with a description",
+    "scw-resilience-requires-creativity-why-the-organizations-built-to-survive-uncertainty-arent-necessarily-the-ones-built-for-efficiency": "content session with a description",
+    "scw-magnetic-communication-the-guide-to-confidence-on-and-off-stage": "title/description: workshop / hands-on / breakouts",
+    "scw-know-your-numbers-financial-clarity-for-confident-small-business-decisions": "description says panel / panelists",
+    "scw-mission-to-measurement-a-simple-framework-for-making-smarter-business-decisions": "title/description: workshop / hands-on / breakouts",
+    "scw-build-the-business-you-actually-want-an-operating-model-for-bootstrapped-entrepreneurs": "content session with a description",
+    "scw-employee-engagement-as-a-profitability-strategy": "content session with a description",
+    "scw-sucw-student-day-kickoff": "kickoff / welcome",
+    "scw-the-money-behind-the-startups-a-venture-capital-primer": "content session with a description",
+    "scw-founder-tools": "content session with a description",
+    "scw-startup-fellows-lounge": "lunch / lounge / walk-and-talk / meet the organizations",
+    "scw-the-two-loop-founder-how-lean-teams-build-and-sell-at-the-same-time": "content session with a description",
+    "scw-science-on-the-rocks-presented-by-lifesciky": "title: happy hour / social / on the rocks",
+    "scw-build-your-first-ai-agent-no-technical-skills-required-1008": "title/description: workshop / hands-on / breakouts",
+    "scw-startup-internships-demystified-real-talk-from-students-and-educators": "description says panel / panelists",
+    "scw-the-next-wave-of-venture": "3+ listed speakers",
+    "scw-soft-launch-happy-hour-ice-cream-social": "title: happy hour / social / on the rocks",
+    "scw-student-day-community-lunch": "lunch / lounge / walk-and-talk / meet the organizations",
+    "scw-make-yourself-impossible-not-to-hire": "content session with a description",
+    "scw-the-future-founder-building-your-career-startup-and-personal-brand-in-the-age-of-ai": "description: conversation between / hear from <group> / come together",
+    "scw-student-pitch-competition": "title: pitch competition / live pitch / demo night",
+    "scw-get-unstuck-speed-coaching-for-startup-students": "title: workshop / work session / working lunch / speed coaching"
+  },
+  "problems": []
+}

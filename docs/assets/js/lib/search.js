@@ -71,7 +71,7 @@ export function search(items, q, { now = 0, limit = 200 } = {}) {
     if (s >= 0) hits.push({ e, s });
   }
   hits.sort((a, b) => b.s - a.s || (a.e.t < b.e.t ? -1 : a.e.t > b.e.t ? 1 : 0));
-  return hits.slice(0, limit).map((h) => ({ ...h.e, score: h.s }));
+  return hits.slice(0, limit).map((h) => ({ ...h.e, score: h.s, exact: phrase.length > 1 && h.e._t === phrase }));
 }
 
 /** Group hits by kind label in GROUP_ORDER, at most `per` per group; `total` keeps the full count. */
@@ -82,7 +82,11 @@ export function group(hits, per = 5) {
     if (!by.has(g)) by.set(g, []);
     by.get(g).push(h);
   }
-  return GROUP_ORDER.filter((g) => by.has(g)).map((g) => ({ label: g, total: by.get(g).length, items: by.get(g).slice(0, per) }));
+  // QA: when the best hit's title is exactly the query ("Findlay Market", "Memorial Hall"), its group leads, so the
+  // place, person or program asked for is the first result instead of sitting under the events that mention it
+  const lead = hits[0] && hits[0].exact ? (KINDS[hits[0].k] || "Programs and pages") : null;
+  const order = lead ? [lead, ...GROUP_ORDER.filter((g) => g !== lead)] : GROUP_ORDER;
+  return order.filter((g) => by.has(g)).map((g) => ({ label: g, total: by.get(g).length, items: by.get(g).slice(0, per) }));
 }
 
 /** Wrap matches of the query terms in <mark> (input must be plain text; output is escaped HTML). */

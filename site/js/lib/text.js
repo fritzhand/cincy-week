@@ -41,3 +41,23 @@ const norm0 = (s) => String(s ?? "").normalize("NFKD").replace(/[\u0300-\u036f]/
 
 /** Normalized key for alias lookups: lowercase, & → and, punctuation stripped, spaces collapsed. */
 export const aliasKey = (s) => norm0(s).replace(/&/g, " and ").replace(/[^a-z0-9]+/g, " ").trim();
+
+/** The part of an event's room worth printing after its venue's name (QA, additive). A room the venue name already
+ *  holds prints nothing ("Central Parkway between …" under "Ready. Set. BLINK! footprint: Central Parkway between …");
+ *  a room that repeats the venue name first prints only the rest, verbatim ("Court Street Plaza, East Court Street"
+ *  → "East Court Street"). Anything else is returned unchanged. Words are compared without case or accents. */
+export function roomText(venueName, room) {
+  const r = String(room ?? "").trim();
+  if (!r) return "";
+  const toks = (s) => [...String(s ?? "").matchAll(/[\p{L}\p{N}]+/gu)].map((m) => ({ w: norm0(m[0]), end: m.index + m[0].length }));
+  const vt = toks(venueName).map((t) => t.w), rt = toks(r);
+  if (!vt.length || !rt.length) return r;
+  const rw = rt.map((t) => t.w);
+  for (let i = 0; i + rw.length <= vt.length; i++) if (rw.every((w, j) => vt[i + j] === w)) return "";
+  if (rw.length > vt.length && vt.every((w, j) => rw[j] === w)) {
+    const rest = r.slice(rt[vt.length - 1].end);
+    if (!/^\s*[,;:·–—(-]/.test(rest)) return r;   // "Hall of Mirrors" is a room name, not "Hall" + a note
+    return rest.replace(/^[\s,;:·–—-]+/, "").replace(/^\((.*)\)$/, "$1").trim();
+  }
+  return r;
+}

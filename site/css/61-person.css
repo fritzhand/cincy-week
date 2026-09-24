@@ -22,6 +22,15 @@
 .dp-portrait .photo img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 28%; filter: var(--photo-filter); }
 .dp-portrait .photo .mono { position: absolute; inset: 0; display: grid; place-items: center; font-family: var(--font-display); font-style: italic; font-weight: 500; font-size: clamp(2.5rem, 9vw, 4.5rem); line-height: 1; color: var(--ink-text); }
 .dp-portrait .credit { margin-top: 6px; color: var(--text-faint); overflow-wrap: anywhere; }
+/* QA: on phones the 120px portrait column broke a long credit inside its host name ("CINCINNATIMAG / AZINE.COM");
+   the credit now runs the full width under the portrait and the name */
+@media (max-width: 859px) {
+  .dp { grid-template-areas: "portrait head" "credit credit" "main main"; row-gap: 0; }
+  .dp-portrait { display: contents; }
+  .dp-portrait .photo { grid-area: portrait; align-self: end; }
+  .dp-portrait .credit { grid-area: credit; margin-top: 6px; overflow-wrap: normal; }
+  .dp-main { margin-top: var(--sp-4); }
+}
 .dp-head h1 { max-width: 20ch; overflow-wrap: anywhere; }
 @media (max-width: 559px) { .dp-head h1 { font-size: clamp(1.5rem, 7vw, 1.875rem); } }
 .dp-head .lede { margin-top: var(--sp-2); }

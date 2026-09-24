@@ -41,7 +41,9 @@ export function makeOrgLogos(ctx) {
       const t = slugify(tier);
       const lg = i === 0 && xs.length <= 4 ? " lg" : "";
       const plates = xs.map((x) => { const a = !seen.has(x.org.id); seen.add(x.org.id); return orgLogo(root, x.org, { anchor: a, prog: prog || x.role.program, tier: t }); }).join("");
-      return `<div class="wall-tier" data-dir-group><p class="tier label">${esc(tier.charAt(0).toUpperCase() + tier.slice(1))}</p><div class="plates${lg}" data-dir>${plates}</div></div>`;
+      // QA: after the headline tier, a tier of one or two logos is sized to them, so small tiers share a row
+      const sm = i > 0 && xs.length <= 2 ? ` n${xs.length}` : "";
+      return `<div class="wall-tier${sm}" data-dir-group><p class="tier label">${esc(tier.charAt(0).toUpperCase() + tier.slice(1))}</p><div class="plates${lg}" data-dir>${plates}</div></div>`;
     }).join("");
   }
   return { orgLogo, logoWall, tierLabel };

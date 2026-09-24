@@ -1,0 +1,98 @@
+[
+  {
+    "id": "dealroom",
+    "name": "Dealroom (Cincinnati)",
+    "url": "https://cincinnati.dealroom.co/dashboard",
+    "description": "Venture activity is a key measure of an ecosystem’s vitality—and Cincinnati is thriving. Dive into Dealroom to explore the region’s top startups, recent fundraises, and exciting investment opportunities.",
+    "source_url": "https://startupcincy.com/resources/"
+  },
+  {
+    "id": "resource-compass",
+    "name": "Resource Compass",
+    "url": "https://startupcincy.com/resource-compass/",
+    "description": "Your personalized guide to navigating Cincinnati’s entrepreneurial ecosystem. Whether you need funding, mentorship, or access to accelerators, the Resource Compass points you to the right opportunities for your unique business stage and goals.",
+    "stats": "200+ Resources; 60+ Support Organizations",
+    "source_url": "https://startupcincy.com/resources/"
+  },
+  {
+    "id": "job-board",
+    "name": "StartupCincy Job Board",
+    "url": "https://jobs.startupcincy.com/jobs",
+    "description": "Discover impactful roles at startups and small businesses shaping the future. Whether you’re job hunting or hiring, our job board connects top talent with growing companies—expanding opportunities for both seekers and startups.",
+    "stats": "396 startups; 8000+ Jobs Created",
+    "source_url": "https://startupcincy.com/resources/",
+    "notes": "startupcincy.com/job-board/ redirects to jobs.startupcincy.com/jobs; the About page links startupcincy.getro.com/jobs."
+  },
+  {
+    "id": "slack",
+    "name": "StartupCincy Slack",
+    "url": "https://join.slack.com/t/startupcincy/shared_invite/zt-32mblrlbb-JJRNikGDN3TsRsX4dYq52A",
+    "description": "The StartupCincy Slack is the go-to digital hub for founders, investors, and ecosystem partners to connect, collaborate, and stay in the know. Whether you’re looking for funding opportunities, hiring talent, sharing resources, or just keeping up with the latest in Cincinnati’s startup scene, this is where the community comes together in real time.",
+    "stats": "1500+ Members",
+    "source_url": "https://startupcincy.com/resources/",
+    "notes": "The Entrepreneur Support Organizations page uses a different invite link: https://startupcincy.slack.com/join/shared_invite/zt-3zs9pip87-_xW1XCubAMe0HZKNjE1Quw"
+  },
+  {
+    "id": "ecosystem-passport",
+    "name": "Ecosystem Passport",
+    "url": "https://soundspace.co/auth/sign-in?multitenancy-network-id=7d342b41-ce01-4a2b-9d98-0adf77dcdc04",
+    "description": "Unlock Cincinnati’s innovation spaces with our Ecosystem Passport. Explore cutting-edge hubs, co-working spaces, and maker studios—all at no cost. It’s your all-access pass to the spaces and support shaping the future of business.",
+    "stats": "8 Spaces",
+    "source_url": "https://startupcincy.com/resources/"
+  },
+  {
+    "id": "calendar-of-events",
+    "name": "Calendar of Events",
+    "url": "https://startupcincy.com/resource-compass/upcoming-events/",
+    "description": "Stay connected and in the loop with our ecosystem-wide calendar. From networking events to workshops and pitch nights, discover opportunities to build relationships and gain insights that drive your startup forward.",
+    "source_url": "https://startupcincy.com/resources/"
+  },
+  {
+    "id": "organizations",
+    "name": "Organizations (Entrepreneur Support Organizations / Partners of StartupCincy)",
+    "url": "https://startupcincy.com/resource-compass/entrepreneur-support-organizations/",
+    "description": "StartupCincy is more than a network—it’s a dynamic, collaborative ecosystem where startups thrive.",
+    "source_url": "https://startupcincy.com/our-partners/",
+    "notes": "Partner logos are in ecosystem_orgs.json (from startupcincy.com/our-partners/). The \"Explore all Partners\" link (resources.startupcincy.com/organizations) returned 404 on 2026-09-24; the ESO directory page loads its list with JavaScript and was not scraped."
+  },
+  {
+    "id": "city-as-a-lab",
+    "name": "City as a Lab",
+    "url": "mailto:citylab@startupcincy.com?subject=City%20as%20a%20Lab%20Inquiry",
+    "title_on_page": "City as a Lab: Build with Cincinnati",
+    "description": "The City of Cincinnati is opening doors for startups to test, pilot, and scale new solutions right here in our community. Through City as a Lab, founders can partner with city leaders, access real-world environments, and shape the future of how our city works. If you’re building bold technology that can improve lives, Cincinnati wants to be your testing ground.",
+    "source_url": "https://startupcincy.com/resources/"
+  },
+  {
+    "id": "welcome-to-the-ecosystem",
+    "name": "Welcome to the Ecosystem",
+    "url": "https://startupcincy.com/welcome-to-the-ecosystem/",
+    "description": "Your first step into Cincinnati’s thriving startup community.\n\nOur Welcome to the Ecosystem programming helps you navigate the region’s vast network of accelerators, investors, coworking spaces, and support organizations—so you can find exactly what you need to succeed.",
+    "source_url": "https://startupcincy.com/welcome-to-the-ecosystem/",
+    "notes": "Its \"Register Today\" button links https://luma.com/zht10jt0, which is a past session (Luma: 2026-02-25, 10:00-12:00 ET, Union Hall). Description filled in the verification pass (it was null)."
+  },
+  {
+    "id": "startupcincy-store",
+    "name": "StartupCincy Store",
+    "url": "https://store.startupcincy.com/",
+    "description": "Show your pride in Cincinnati’s startup community with exclusive StartupCincy gear, limited-edition apparel, accessories, and branded merch that celebrates the bold founders, builders, and innovators shaping our region.\n\nEvery purchase helps fuel the momentum of our ecosystem, supporting the programs, events, and resources that make Cincinnati the best place in the Midwest to grow a startup.",
+    "source_url": "https://startupcincy.com/"
+  },
+  {
+    "id": "volunteer",
+    "name": "Volunteer Application",
+    "url": "https://startupcincy.com/volunteer-application/",
+    "signup_url": "https://docs.google.com/forms/d/e/1FAIpQLSelLJqR9teDo2yBO8gvdnSooBH6msyknqUy1BhpTTN_12zRCQ/viewform",
+    "description": "This ecosystem doesn’t run on its own. It’s powered by volunteers. From events to everyday moments, your energy and hustle keep StartupCincy moving forward.\n\nGet in on the action! Volunteer at one of our signature programs or throw your hat in the ring for StartupCincy Week 2026 (October 5–8).",
+    "source_url": "https://startupcincy.com/volunteer-application/",
+    "notes": "Linked from the SCW FAQ (\"How can I get involved or volunteer?\")."
+  },
+  {
+    "id": "union-hall-day-pass",
+    "name": "Union Hall coworking day pass",
+    "url": "https://cintrifuse.coworksapp.com/day-pass-signup/196",
+    "description": "Just visiting? A day pass is perfect for those visiting the city or working offsite. For a contactless entry, please purchase within 24 hours of your anticipated visit.",
+    "price": "$25 / day / person",
+    "source_url": "https://cintrifuse.com/union-hall/"
+  }
+]

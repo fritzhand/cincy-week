@@ -1,0 +1,3573 @@
+[
+  {
+    "id": "blink-future-cities-no-1-2-and-3",
+    "program": "blink",
+    "title": "Future Cities No. 1, 2, and 3",
+    "alt_title": null,
+    "artists": [
+      "cedric-michael-cox-and-studio-181-brent-keltch"
+    ],
+    "medium": "light installation",
+    "category": "Light Installations",
+    "zone": "The Banks",
+    "venue_id": "blink-zone-the-banks",
+    "location_text": null,
+    "lat": 39.096308,
+    "lng": -84.509396,
+    "description": "Cedric Michael Cox creates vibrant paintings that fuse abstraction and recognizable imagery into rhythmic compositions inspired by music, nature, architecture, and art history, ranging from cubist geometric forms to surreal cityscapes and floral-like environments. Brent’s bio: Brent Keltch is a multifaceted Cincinnati-based visual artist, sculptor, and gallery owner. Operating out of Studio 181 at the historic Essex Studios colony in Walnut Hills, his work blends diverse artistic disciplines with community advocacy.\n\nCEDRIC: https://www.instagram.com/cedric_michael_cox?igsh=MW05Mm9rdmZjc2FsYg\n\nBRENT: https://www.facebook.com/share/1KgUCsgS97/",
+    "description_is_artist_bio": true,
+    "image_url": "https://blinkcincinnati.b-cdn.net/files/locations/original/ngp7564.jpg",
+    "image_variants": {
+      "header": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/header/ngp7564.jpg",
+        "w": 1600,
+        "h": 1200,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "original": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/original/ngp7564.jpg",
+        "w": 350,
+        "h": 350,
+        "verified": true,
+        "dims": "measured"
+      },
+      "featured": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/featured/ngp7564.jpg",
+        "w": 1000,
+        "h": 568,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "square": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/square/ngp7564.jpg",
+        "w": 600,
+        "h": 600,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      }
+    },
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/future-cities-no-1-2-and-3",
+    "map_url": "https://www.blinkcincinnati.com/map/future-cities-no-1-2-and-3",
+    "blink_location_id": 769,
+    "on_map": true,
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement.",
+    "nearest_address_osm": "East Mehring Way, Central Business District, Cincinnati"
+  },
+  {
+    "id": "blink-in-light-of-us",
+    "program": "blink",
+    "title": "In Light of Us",
+    "alt_title": null,
+    "artists": [
+      "the-mz-icar-collective"
+    ],
+    "medium": "light installation",
+    "category": "Light Installations",
+    "zone": "Fountain District",
+    "venue_id": "blink-zone-fountain-district",
+    "location_text": null,
+    "lat": 39.104086,
+    "lng": -84.513855,
+    "description": "Mz.Icar Collective is an interdisciplinary group of artists creating bold, community-centered public art that blends storytelling, material culture, and speculative imagination. Their collaborative practice spans murals, sculptural installations, textiles, projection mapping, and immersive environments that invite audiences into experiences of joy, reflection, and belonging. Rooted in deep engagement with local communities and cultural histories, their work amplifies underrepresented voices while exploring how emerging technologies like augmented reality and interactive projection can support cultural storytelling and memory-making. Their projects have been installed across cities including Boston, Brooklyn, Cincinnati, Green Bay, and Philadelphia, and have been featured in collaborations with festivals and institutions such as BLINK and The Roots Picnic.",
+    "description_is_artist_bio": true,
+    "image_url": "https://blinkcincinnati.b-cdn.net/files/locations/original/inlightofus.png",
+    "image_variants": {
+      "header": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/header/inlightofus.png",
+        "w": 1600,
+        "h": 1200,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "original": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/original/inlightofus.png",
+        "w": 451,
+        "h": 378,
+        "verified": true,
+        "dims": "measured"
+      },
+      "featured": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/featured/inlightofus.png",
+        "w": 1000,
+        "h": 568,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "square": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/square/inlightofus.png",
+        "w": 600,
+        "h": 600,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      }
+    },
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/in-light-of-us",
+    "map_url": "https://www.blinkcincinnati.com/map/in-light-of-us",
+    "blink_location_id": 789,
+    "on_map": true,
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement.",
+    "nearest_address_osm": "2 Oneida Alley, Court Street Historic District, Cincinnati"
+  },
+  {
+    "id": "blink-somnius",
+    "program": "blink",
+    "title": "SomniUs",
+    "alt_title": null,
+    "artists": [
+      "illumaphonium"
+    ],
+    "medium": "light installation",
+    "category": "Light Installations",
+    "zone": "Covington",
+    "venue_id": "blink-zone-covington",
+    "location_text": null,
+    "lat": 39.088021,
+    "lng": -84.508766,
+    "description": "This family-led creative team specializes in the design, fabrication, installation, and maintenance of large-scale interactive light art installations around the world. Drawing on expertise in design, engineering, computer science, creative therapies, music, and a proudly neurodiverse perspective, the team creates immersive works that blur the boundaries between art, entertainment, and participation. Their installations prioritize accessibility and human connection, inviting people of all ages and backgrounds to engage through intuitive, collaborative experiences that require no instruction or prior knowledge. Rooted in a belief that art should bring people together, their work fosters creativity, equality, wonder, and shared moments of discovery in public spaces.",
+    "description_is_artist_bio": true,
+    "image_url": "https://blinkcincinnati.b-cdn.net/files/locations/original/somnius.png",
+    "image_variants": {
+      "header": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/header/somnius.png",
+        "w": 1600,
+        "h": 1200,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "original": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/original/somnius.png",
+        "w": 768,
+        "h": 512,
+        "verified": true,
+        "dims": "measured"
+      },
+      "featured": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/featured/somnius.png",
+        "w": 1000,
+        "h": 568,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "square": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/square/somnius.png",
+        "w": 600,
+        "h": 600,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": false
+      }
+    },
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/somnius",
+    "map_url": "https://www.blinkcincinnati.com/map/somnius",
+    "blink_location_id": 773,
+    "on_map": true,
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement.",
+    "nearest_address_osm": "Smoke Justis, 302 Court Street, Licking Riverside Historic District, Covington"
+  },
+  {
+    "id": "blink-mycelium-network",
+    "program": "blink",
+    "title": "Mycelium Network",
+    "alt_title": null,
+    "artists": [
+      "custom-fibre-optics-ltd"
+    ],
+    "medium": "light installation",
+    "category": "Light Installations",
+    "zone": "BLINK at Lytle Park",
+    "venue_id": "blink-zone-blink-at-lytle-park",
+    "location_text": null,
+    "lat": 39.100882,
+    "lng": -84.503886,
+    "description": "Custom Fibre Optics Ltd creates immersive light installations inspired by natural forms and systems, using fiber optic lighting to evoke mycelium networks, plant life, and flowing water. Working intuitively with each environment, they design installations that feel organically connected to the spaces they inhabit, from forest floors and gardens to public events and gathering places. Their work transforms ordinary settings into magical experiences that inspire wonder, curiosity, and reflection. Through light, they encourage audiences to notice overlooked beauty and foster deeper connections with the natural world and one another.",
+    "description_is_artist_bio": true,
+    "image_url": "https://blinkcincinnati.b-cdn.net/files/locations/original/myceliumnetwork.png",
+    "image_variants": {
+      "header": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/header/myceliumnetwork.png",
+        "w": 1600,
+        "h": 1200,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "original": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/original/myceliumnetwork.png",
+        "w": 1246,
+        "h": 816,
+        "verified": true,
+        "dims": "measured"
+      },
+      "featured": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/featured/myceliumnetwork.png",
+        "w": 1000,
+        "h": 568,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": false
+      },
+      "square": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/square/myceliumnetwork.png",
+        "w": 600,
+        "h": 600,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": false
+      }
+    },
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/mycelium-network",
+    "map_url": "https://www.blinkcincinnati.com/map/mycelium-network",
+    "blink_location_id": 770,
+    "on_map": true,
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. Zone \"BLINK at Lytle Park\" is marked inactive (zone_status 0) in the site data but appears on the 2026 zone map (\"BLINK at Lytle Park with support from Western & Southern Financial Group\").",
+    "nearest_address_osm": "Lytle Tunnel, Lytle Park Historic District, Cincinnati"
+  },
+  {
+    "id": "blink-incandescent",
+    "program": "blink",
+    "title": "Incandescent",
+    "alt_title": null,
+    "artists": [
+      "keep-cincinnati-beautiful"
+    ],
+    "medium": "light installation",
+    "category": "Light Installations",
+    "zone": "Findlay Market",
+    "venue_id": "blink-zone-findlay-market",
+    "location_text": null,
+    "lat": 39.11388,
+    "lng": -84.519344,
+    "description": "Keep Cincinnati Beautiful is a grassroots nonprofit that has connected people, passion, and place since 1978, fostering community-driven public spaces and environmental stewardship throughout Cincinnati. Since 2009, its team of artists has partnered with neighborhoods, nonprofits, businesses, and volunteers to transform overlooked and neglected spaces into vibrant public art installations. Through this collaborative approach, Keep Cincinnati Beautiful works to reduce blight, increase community pride, promote environmental awareness, and improve quality of life for residents across the city.",
+    "description_is_artist_bio": true,
+    "image_url": "https://blinkcincinnati.b-cdn.net/files/locations/original/incandescent.png",
+    "image_variants": {
+      "header": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/header/incandescent.png",
+        "w": 1600,
+        "h": 1200,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "original": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/original/incandescent.png",
+        "w": 917,
+        "h": 755,
+        "verified": true,
+        "dims": "measured"
+      },
+      "featured": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/featured/incandescent.png",
+        "w": 1000,
+        "h": 568,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": false
+      },
+      "square": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/square/incandescent.png",
+        "w": 600,
+        "h": 600,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": false
+      }
+    },
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/incandescent",
+    "map_url": "https://www.blinkcincinnati.com/map/incandescent",
+    "blink_location_id": 778,
+    "on_map": true,
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement.",
+    "nearest_address_osm": "1618 Elm Street, Brewery District, Cincinnati"
+  },
+  {
+    "id": "blink-connected",
+    "program": "blink",
+    "title": "Connected",
+    "alt_title": null,
+    "artists": [
+      "koros-design-studio"
+    ],
+    "medium": "light installation",
+    "category": "Light Installations",
+    "zone": "Covington",
+    "venue_id": "blink-zone-covington",
+    "location_text": null,
+    "lat": 39.085232,
+    "lng": -84.508664,
+    "description": "This creative practice develops immersive light-based installations that explore the intersection of nature, technology, and human perception. Combining digitally generated designs with experimental materials such as lightweight inflatable fabrics, the team creates walkable environments that encourage both reflection and play. Their work uses light as both a sculptural medium and a metaphor for connection, transforming spaces while inviting audiences to engage with the world in new ways. By blending tactile materials with digital innovation, they create experiences that celebrate the harmony between natural phenomena, emerging technologies, and the human spirit.",
+    "description_is_artist_bio": true,
+    "image_url": "https://blinkcincinnati.b-cdn.net/files/locations/original/connected.png",
+    "image_variants": {
+      "header": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/header/connected.png",
+        "w": 1600,
+        "h": 1200,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "original": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/original/connected.png",
+        "w": 454,
+        "h": 546,
+        "verified": true,
+        "dims": "measured"
+      },
+      "featured": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/featured/connected.png",
+        "w": 1000,
+        "h": 568,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "square": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/square/connected.png",
+        "w": 600,
+        "h": 600,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      }
+    },
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/connected",
+    "map_url": "https://www.blinkcincinnati.com/map/connected",
+    "blink_location_id": 780,
+    "on_map": true,
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement.",
+    "nearest_address_osm": "Legacy Way, Licking Riverside Historic District, Covington"
+  },
+  {
+    "id": "blink-0h10m1ke-light-installation",
+    "program": "blink",
+    "title": "0H10M1ke Light Installation",
+    "alt_title": null,
+    "artists": [
+      "0h10m1ke"
+    ],
+    "medium": "light installation",
+    "category": "Light Installations",
+    "zone": "The Banks",
+    "venue_id": "blink-zone-the-banks",
+    "location_text": null,
+    "lat": null,
+    "lng": null,
+    "description": "0H10M1ke is a Brooklyn-based interdisciplinary artist known as “The One-Line Master,” recognized for creating more than 15,000 live portraits and light-based performances across cities including New York, Miami, Tokyo, Kyoto, and Berlin. Working at the intersection of drawing, performance, and light, he translates real-time gesture into luminous forms using a Wacom tablet and stylus, treating each mark as an immediate, unrepeatable response to the moment. His ongoing series L1ght Graff1t1 Make0vers transforms participants into vivid, reimagined identities through live digital light performance, blending street aesthetics, improvisation, and spectacle. Across international exhibitions at venues such as the Park Avenue Armory, the Guggenheim Museum, and the Museum of Graffiti, his work explores light as both medium and metaphor for connection, impermanence, and shared human presence.",
+    "description_is_artist_bio": true,
+    "image_url": "https://blinkcincinnati.b-cdn.net/files/locations/original/0h10m1ke.jpg",
+    "image_variants": {
+      "header": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/header/0h10m1ke.jpg",
+        "w": 1600,
+        "h": 1200,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "original": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/original/0h10m1ke.jpg",
+        "w": 350,
+        "h": 263,
+        "verified": true,
+        "dims": "measured"
+      },
+      "featured": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/featured/0h10m1ke.jpg",
+        "w": 1000,
+        "h": 568,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "square": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/square/0h10m1ke.jpg",
+        "w": 600,
+        "h": 600,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      }
+    },
+    "gallery": [],
+    "sponsor": null,
+    "dates": [
+      "2026-10-09"
+    ],
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/0h10m1ke-light-installation",
+    "map_url": "https://www.blinkcincinnati.com/map/0h10m1ke-light-installation",
+    "blink_location_id": 765,
+    "on_map": false,
+    "notes": "No by-line on the artwork page; artist matched by the name in the title (\"0H10M1ke\"). The published artwork description is the artist biography (same text as the artist page), not an artwork statement. Not pinned on the BLINK map (no coordinates published); zone from the Art and Artists zone filter. The Art and Artists date filter lists this item only under 2026-10-09.",
+    "nearest_address_osm": null
+  },
+  {
+    "id": "blink-lumifolia",
+    "program": "blink",
+    "title": "Lumifolia",
+    "alt_title": null,
+    "artists": [
+      "paper-acorn"
+    ],
+    "medium": "light installation",
+    "category": "Light Installations",
+    "zone": "Covington",
+    "venue_id": "blink-zone-covington",
+    "location_text": null,
+    "lat": 39.083359,
+    "lng": -84.510933,
+    "description": "Jessica Wolf creates ceiling-suspended kinetic sculptures inspired by the vastness and patterns of the natural world, crafting immersive environments that evoke wonder, peace, and a sense of uplift. Using lightweight materials such as polycarbonate and synthetic paper, her sculptures balance strength and grace through movement and translucency, allowing light to cast ethereal shadows that transform her organic forms into dynamic, meditative experiences.",
+    "description_is_artist_bio": true,
+    "image_url": "https://blinkcincinnati.b-cdn.net/files/locations/original/lumifolia.png",
+    "image_variants": {
+      "header": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/header/lumifolia.png",
+        "w": 1600,
+        "h": 1200,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "original": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/original/lumifolia.png",
+        "w": 644,
+        "h": 534,
+        "verified": true,
+        "dims": "measured"
+      },
+      "featured": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/featured/lumifolia.png",
+        "w": 1000,
+        "h": 568,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "square": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/square/lumifolia.png",
+        "w": 600,
+        "h": 600,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      }
+    },
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/lumifolia",
+    "map_url": "https://www.blinkcincinnati.com/map/lumifolia",
+    "blink_location_id": 774,
+    "on_map": true,
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement.",
+    "nearest_address_osm": "Braxton Brewing, 27 West 7th Street, Covington"
+  },
+  {
+    "id": "blink-mural-by-ellna-lourens",
+    "program": "blink",
+    "title": "Mural by Elléna Lourens",
+    "alt_title": null,
+    "artists": [
+      "ellena-lourens"
+    ],
+    "medium": "mural",
+    "category": "Murals",
+    "zone": "Covington",
+    "venue_id": "blink-zone-covington",
+    "location_text": null,
+    "lat": 39.084342,
+    "lng": -84.510169,
+    "description": "South African artist Elléna Lourens began working on personal and collaborative creative projects while in school. Since then she has further pursued illustration, street art, painting and embroidery. Her style lends itself to the past in its representation of ancient symbols, patterns and colour schemes , while voicing an intuitively current aesthetic that resonates and seeks to redefine emotional iconography. She has immersed herself in the creative world, working alongside established artists, as well as furthering her own practice, taking part in shows and creating murals in both South Africa and internationally.",
+    "description_is_artist_bio": true,
+    "image_url": "https://blinkcincinnati.b-cdn.net/files/locations/original/ellna-lourens.jpeg",
+    "image_variants": {
+      "header": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/header/ellna-lourens.jpeg",
+        "w": 1600,
+        "h": 1200,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "original": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/original/ellna-lourens.jpeg",
+        "w": 350,
+        "h": 210,
+        "verified": true,
+        "dims": "measured"
+      },
+      "featured": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/featured/ellna-lourens.jpeg",
+        "w": 1000,
+        "h": 568,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "square": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/square/ellna-lourens.jpeg",
+        "w": 600,
+        "h": 600,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      }
+    },
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/murals/mural-by-ellna-lourens",
+    "map_url": "https://www.blinkcincinnati.com/map/mural-by-ellna-lourens",
+    "blink_location_id": 800,
+    "on_map": true,
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement.",
+    "nearest_address_osm": "East Pike Street, Covington"
+  },
+  {
+    "id": "blink-string-theory-for-dummies-20",
+    "program": "blink",
+    "title": "String Theory for Dummies 2.0",
+    "alt_title": null,
+    "artists": [
+      "daniel-shields"
+    ],
+    "medium": "light installation",
+    "category": "Light Installations",
+    "zone": "Fountain District",
+    "venue_id": "blink-zone-fountain-district",
+    "location_text": null,
+    "lat": 39.100949,
+    "lng": -84.515599,
+    "description": "Daniel Shields is a Kentucky-based installation artist currently living outside of Cincinnati, Ohio who has used soft yarn to create immersive pieces that cover or enclose large outdoor areas since 2014, but who has only taken art seriously since 2019. Typically, his creations are, at their core, public art which manipulates innate perception of well-known locations in largely unconscious ways by segmenting and dividing 3D space with simple, sparse lines. Most installations use fluorescent acrylic yarn with UV light and UV lasers to create vibrant effects that trick the senses. Some woven installations are visitor-created, where yarn balls are provided and anyone can add their own elements, creating a truly democratic experience where signs read “please touch the art.” Like people and the relationships between them, yarn is seemingly fragile but can be stretched thin and made to endure a tremendous amount of stress without breaking – but there is a limit to everything, and strength in numbers.",
+    "description_is_artist_bio": true,
+    "image_url": "https://blinkcincinnati.b-cdn.net/files/locations/original/daniel-shields.jpg",
+    "image_variants": {
+      "header": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/header/daniel-shields.jpg",
+        "w": 1600,
+        "h": 1200,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "original": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/original/daniel-shields.jpg",
+        "w": 350,
+        "h": 262,
+        "verified": true,
+        "dims": "measured"
+      },
+      "featured": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/featured/daniel-shields.jpg",
+        "w": 1000,
+        "h": 568,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "square": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/square/daniel-shields.jpg",
+        "w": 600,
+        "h": 600,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      }
+    },
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/string-theory-for-dummies-20",
+    "map_url": "https://www.blinkcincinnati.com/map/string-theory-for-dummies-20",
+    "blink_location_id": 771,
+    "on_map": true,
+    "notes": "The published artwork description is a biography of the artist, not an artwork statement.",
+    "nearest_address_osm": "Red Roost Tavern, 151 West 5th Street, West Fourth Street Historic District, Cincinnati"
+  },
+  {
+    "id": "blink-mural-by-gera-1",
+    "program": "blink",
+    "title": "Mural by GERA 1",
+    "alt_title": null,
+    "artists": [
+      "gera-1"
+    ],
+    "medium": "mural",
+    "category": "Murals",
+    "zone": "Covington",
+    "venue_id": "blink-zone-covington",
+    "location_text": null,
+    "lat": 39.087536,
+    "lng": -84.509366,
+    "description": "This artist’s journey began in 2009 with graffiti in their hometown, later expanding into formal training in painting, drawing, and fine arts studies beginning in 2015. After three years of academic exploration in printmaking, painting, and photography, they began traveling and creating murals across European festivals, eventually holding their first solo exhibition in San Francisco in 2023. Now based in Athens, Greece, their practice draws heavily from photography as a source of inspiration, using captured textures, reflections, and human presence as the foundation for layered compositions. Through painting and mixed-media experimentation across surfaces such as canvas, aluminum composite, and plexiglass, they distort and reconfigure imagery to create vibrant visual worlds where color drives movement, emotion, and form.",
+    "description_is_artist_bio": true,
+    "image_url": "https://blinkcincinnati.b-cdn.net/files/locations/original/gera-1.jpeg",
+    "image_variants": {
+      "header": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/header/gera-1.jpeg",
+        "w": 1600,
+        "h": 1200,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "original": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/original/gera-1.jpeg",
+        "w": 196,
+        "h": 350,
+        "verified": true,
+        "dims": "measured"
+      },
+      "featured": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/featured/gera-1.jpeg",
+        "w": 1000,
+        "h": 568,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "square": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/square/gera-1.jpeg",
+        "w": 600,
+        "h": 600,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      }
+    },
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/murals/mural-by-gera-1",
+    "map_url": "https://www.blinkcincinnati.com/map/mural-by-gera-1",
+    "blink_location_id": 801,
+    "on_map": true,
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement.",
+    "nearest_address_osm": "East 4th Street, Licking Riverside Historic District, Covington"
+  },
+  {
+    "id": "blink-light-falls",
+    "program": "blink",
+    "title": "Light Falls",
+    "alt_title": null,
+    "artists": [
+      "vigas"
+    ],
+    "medium": "light installation",
+    "category": "Light Installations",
+    "zone": "Fountain District",
+    "venue_id": "blink-zone-fountain-district",
+    "location_text": null,
+    "lat": 39.100086,
+    "lng": -84.512352,
+    "description": "Vigas is a Brazilian multimedia artist known for his large-scale projections, light installations, 360 projections, and live performances. His practice explores the relationship between art, technology, and the environment, transforming public spaces into experiences that inspire new ways of perceiving both urban and natural landscapes.",
+    "description_is_artist_bio": true,
+    "image_url": "https://blinkcincinnati.b-cdn.net/files/locations/original/lightfalls.png",
+    "image_variants": {
+      "header": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/header/lightfalls.png",
+        "w": 1600,
+        "h": 1200,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "original": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/original/lightfalls.png",
+        "w": 662,
+        "h": 787,
+        "verified": true,
+        "dims": "measured"
+      },
+      "featured": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/featured/lightfalls.png",
+        "w": 1000,
+        "h": 568,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "square": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/square/lightfalls.png",
+        "w": 600,
+        "h": 600,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": false
+      }
+    },
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/light-falls",
+    "map_url": "https://www.blinkcincinnati.com/map/light-falls",
+    "blink_location_id": 791,
+    "on_map": true,
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement.",
+    "nearest_address_osm": "Sleepy Bee Cafe, East 4th Street, West Fourth Street Historic District, Cincinnati"
+  },
+  {
+    "id": "blink-spiral-bound",
+    "program": "blink",
+    "title": "Spiral Bound",
+    "alt_title": null,
+    "artists": [
+      "jp-jackson-and-brian-havener"
+    ],
+    "medium": "light installation",
+    "category": "Light Installations",
+    "zone": "The Banks",
+    "venue_id": "blink-zone-the-banks",
+    "location_text": null,
+    "lat": 39.095686,
+    "lng": -84.509362,
+    "description": "Architects by trade, JP Jackson and Brian Havener began their friendship and collaboration while at the University of Cincinnati's College of Design, Architecture, Art & Planning. Although separate paths led them to settle in Nashville and Seattle respectively, JP and Brian's shared work continues through a mutual appreciation for immersive experiences that are shaped by craft and latent material qualities. Their projects often re-imagine the mundane, transforming conventional objects into unexpected spatial encounters. Lighting plays a constant and formative role in amplifying the underlying intention of each work.",
+    "description_is_artist_bio": true,
+    "image_url": "https://blinkcincinnati.b-cdn.net/files/locations/original/spiralbound.png",
+    "image_variants": {
+      "header": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/header/spiralbound.png",
+        "w": 1600,
+        "h": 1200,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "original": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/original/spiralbound.png",
+        "w": 151,
+        "h": 153,
+        "verified": true,
+        "dims": "measured"
+      },
+      "featured": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/featured/spiralbound.png",
+        "w": 1000,
+        "h": 568,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "square": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/square/spiralbound.png",
+        "w": 600,
+        "h": 600,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      }
+    },
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/spiral-bound",
+    "map_url": "https://www.blinkcincinnati.com/map/spiral-bound",
+    "blink_location_id": 776,
+    "on_map": true,
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement.",
+    "nearest_address_osm": "East Mehring Way, Central Business District, Cincinnati"
+  },
+  {
+    "id": "blink-dreamscape",
+    "program": "blink",
+    "title": "Dreamscape",
+    "alt_title": null,
+    "artists": [
+      "lindsay-glatz-and-william-nemitoff"
+    ],
+    "medium": "light installation",
+    "category": "Light Installations",
+    "zone": "The Banks",
+    "venue_id": "blink-zone-the-banks",
+    "location_text": null,
+    "lat": 39.094863,
+    "lng": -84.510961,
+    "description": "Lindsay Glatz is a visual storyteller dedicated to bringing wonder and vibrancy into public space, often drawing on themes of childhood and nostalgia to explore human connection. William Nemitoff, founder of Curious Form, combines expertise in materials, construction methods, science, and technology to develop innovative collaborative artworks and public installations. Together, their studio practice bridges art, architecture, and fabrication, transforming ambitious concepts into built realities through precise craftsmanship and digital fabrication. Their work—especially in light-based installation—merges advanced technology with hands-on making to create striking, durable environments that invite wonder, interaction, and connection.",
+    "description_is_artist_bio": true,
+    "image_url": "https://blinkcincinnati.b-cdn.net/files/locations/original/dreamscape.png",
+    "image_variants": {
+      "header": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/header/dreamscape.png",
+        "w": 1600,
+        "h": 1200,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "original": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/original/dreamscape.png",
+        "w": 1136,
+        "h": 726,
+        "verified": true,
+        "dims": "measured"
+      },
+      "featured": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/featured/dreamscape.png",
+        "w": 1000,
+        "h": 568,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": false
+      },
+      "square": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/square/dreamscape.png",
+        "w": 600,
+        "h": 600,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": false
+      }
+    },
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/dreamscape",
+    "map_url": "https://www.blinkcincinnati.com/map/dreamscape",
+    "blink_location_id": 783,
+    "on_map": true,
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement.",
+    "nearest_address_osm": "East Mehring Way, West Fourth Street Historic District, Cincinnati"
+  },
+  {
+    "id": "blink-mural-by-medianeras",
+    "program": "blink",
+    "title": "Mural by MEDIANERAS",
+    "alt_title": null,
+    "artists": [
+      "medianeras"
+    ],
+    "medium": "mural",
+    "category": "Murals",
+    "zone": "Findlay Market",
+    "venue_id": "blink-zone-findlay-market",
+    "location_text": null,
+    "lat": 39.116482,
+    "lng": -84.520024,
+    "description": "Medianeras is an artistic duo formed by architect Vanesa Galdeano (Argentina–Spain) and visual artist Analí Chanquía (Argentina), who have collaborated for more than fourteen years on large-scale public art projects. Their practice is rooted in the concept of “medianeras,” or side walls, which they reinterpret as spaces that connect rather than divide, using murals to foster connection, belonging, and collective identity within urban environments. Through color, geometry, and architectural sensitivity, they transform city walls into reflective surfaces that engage in dialogue with their social and spatial context. Working internationally across more than 20 countries, their large-format murals merge precision and human scale, turning public space into a site for visual rhythm, interaction, and shared experience.",
+    "description_is_artist_bio": true,
+    "image_url": "https://blinkcincinnati.b-cdn.net/files/locations/original/medianeras.jpeg",
+    "image_variants": {
+      "header": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/header/medianeras.jpeg",
+        "w": 1600,
+        "h": 1200,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "original": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/original/medianeras.jpeg",
+        "w": 262,
+        "h": 350,
+        "verified": true,
+        "dims": "measured"
+      },
+      "featured": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/featured/medianeras.jpeg",
+        "w": 1000,
+        "h": 568,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "square": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/square/medianeras.jpeg",
+        "w": 600,
+        "h": 600,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      }
+    },
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/murals/mural-by-medianeras",
+    "map_url": "https://www.blinkcincinnati.com/map/mural-by-medianeras",
+    "blink_location_id": 806,
+    "on_map": true,
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement.",
+    "nearest_address_osm": "194 Findlay Street, Brewery District, Cincinnati"
+  },
+  {
+    "id": "blink-light-lane",
+    "program": "blink",
+    "title": "Light Lane",
+    "alt_title": null,
+    "artists": [
+      "lemonde-studio"
+    ],
+    "medium": "light installation",
+    "category": "Light Installations",
+    "zone": "Covington",
+    "venue_id": "blink-zone-covington",
+    "location_text": null,
+    "lat": 39.085555,
+    "lng": -84.510502,
+    "description": null,
+    "description_is_artist_bio": false,
+    "image_url": "https://blinkcincinnati.b-cdn.net/files/locations/original/lightlane.png",
+    "image_variants": {
+      "header": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/header/lightlane.png",
+        "w": 1600,
+        "h": 1200,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "original": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/original/lightlane.png",
+        "w": 885,
+        "h": 824,
+        "verified": true,
+        "dims": "measured"
+      },
+      "featured": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/featured/lightlane.png",
+        "w": 1000,
+        "h": 568,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": false
+      },
+      "square": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/square/lightlane.png",
+        "w": 600,
+        "h": 600,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": false
+      }
+    },
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/light-lane",
+    "map_url": "https://www.blinkcincinnati.com/map/light-lane",
+    "blink_location_id": 815,
+    "on_map": true,
+    "notes": "No description published yet (2026-09-24).",
+    "nearest_address_osm": "Riverside Korean Restaurant, 512 Madison Avenue, Covington"
+  },
+  {
+    "id": "blink-forealism",
+    "program": "blink",
+    "title": "Forealism",
+    "alt_title": null,
+    "artists": [
+      "lawrence-malott-forealism"
+    ],
+    "medium": "light installation",
+    "category": "Light Installations",
+    "zone": "Findlay Market",
+    "venue_id": "blink-zone-findlay-market",
+    "location_text": null,
+    "lat": 39.115132,
+    "lng": -84.520245,
+    "description": "Forealism is a father-and-son creative duo consisting of Lawrence and Thomas Malott, working across DJing, costume design, performance art, music, and visual installations. Their multidisciplinary practice blends sound, movement, and handmade, often recycled materials to create immersive, otherworldly experiences centered on audience engagement and personal expression. A defining element of their work is the integration of light through reflective, illuminated costumes and their signature DJ installation, the “Light Ship,” which extends their performative process into a shared space with audiences. Since forming in 2012, they have performed internationally at venues and festivals including the Cincinnati Art Museum, Riverfest, Art Basel Miami, and LIV Miami, while continually evolving their practice between music production and live performance.",
+    "description_is_artist_bio": true,
+    "image_url": "https://blinkcincinnati.b-cdn.net/files/locations/original/forealism.png",
+    "image_variants": {
+      "header": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/header/forealism.png",
+        "w": 1600,
+        "h": 1200,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "original": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/original/forealism.png",
+        "w": 1248,
+        "h": 829,
+        "verified": true,
+        "dims": "measured"
+      },
+      "featured": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/featured/forealism.png",
+        "w": 1000,
+        "h": 568,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": false
+      },
+      "square": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/square/forealism.png",
+        "w": 600,
+        "h": 600,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": false
+      }
+    },
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/forealism",
+    "map_url": "https://www.blinkcincinnati.com/map/forealism",
+    "blink_location_id": 781,
+    "on_map": true,
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement.",
+    "nearest_address_osm": "292 West Elder Street, Over-the-Rhine, Cincinnati"
+  },
+  {
+    "id": "blink-interlace",
+    "program": "blink",
+    "title": "Interlace",
+    "alt_title": null,
+    "artists": [
+      "looking-up-arts"
+    ],
+    "medium": "light installation",
+    "category": "Light Installations",
+    "zone": "The Banks",
+    "venue_id": "blink-zone-the-banks",
+    "location_text": null,
+    "lat": 39.095279,
+    "lng": -84.509672,
+    "description": "This collaborative practice creates sculptural light installations that transform public spaces into immersive environments for shared discovery, blending art, engineering, and community engagement. Nearly all components are fabricated in-house, combining digital fabrication with hands-on craft to produce works that feel both precise and deeply human. Each project begins with a site and evolves into a responsive environment shaped by movement, sound, and participation, using light as both material and metaphor. The team’s origins trace back to a formative public artwork that shifted their focus from gallery-based work to community-centered installations, leading to a long-term partnership between Sri and Josh that merges technical expertise, scientific principles, and sculptural design into experiential works that invite connection and wonder.",
+    "description_is_artist_bio": true,
+    "image_url": "https://blinkcincinnati.b-cdn.net/files/locations/original/interlace.png",
+    "image_variants": {
+      "header": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/header/interlace.png",
+        "w": 1600,
+        "h": 1200,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "original": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/original/interlace.png",
+        "w": 1294,
+        "h": 855,
+        "verified": true,
+        "dims": "measured"
+      },
+      "featured": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/featured/interlace.png",
+        "w": 1000,
+        "h": 568,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": false
+      },
+      "square": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/square/interlace.png",
+        "w": 600,
+        "h": 600,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": false
+      }
+    },
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/interlace",
+    "map_url": "https://www.blinkcincinnati.com/map/interlace",
+    "blink_location_id": 775,
+    "on_map": true,
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement.",
+    "nearest_address_osm": "The Heekin Family/PNC Grow Up Great Adventure Playground, John A. Roebling Suspension Bridge, Central Business District, Cincinnati"
+  },
+  {
+    "id": "blink-geist",
+    "program": "blink",
+    "title": "Geist",
+    "alt_title": null,
+    "artists": [
+      "this-is-loop"
+    ],
+    "medium": "light installation",
+    "category": "Light Installations",
+    "zone": "Fountain District",
+    "venue_id": "blink-zone-fountain-district",
+    "location_text": null,
+    "lat": 39.105946,
+    "lng": -84.515259,
+    "description": "Loop is the collaborative artistic partnership of artists Harriet Lumby and Alan Hayes. Based in their Somerset studio they have established a reputation for creating large scale experiential installations. With over thirty years combined practice focussing on utilising reflections and illusion at the intersection of technology, science and art this has created a common theme throughout their visually impactful architectural style work. Their installations invite audiences to be engulfed by intense and thought provoking choreographed audio visual journeys. Frequently working collaboratively with sound artists and musicians has helped to elevate their work allowing deeper exploration of ideas and concepts and enhancing the bond between audience members and the works themselves. They have a track record in creating both large scale site specific work as well as touring installations and have successfully done this in both the UK and internationally.",
+    "description_is_artist_bio": true,
+    "image_url": "https://blinkcincinnati.b-cdn.net/files/locations/original/geist.png",
+    "image_variants": {
+      "header": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/header/geist.png",
+        "w": 1600,
+        "h": 1200,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "original": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/original/geist.png",
+        "w": 1021,
+        "h": 420,
+        "verified": true,
+        "dims": "measured"
+      },
+      "featured": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/featured/geist.png",
+        "w": 1000,
+        "h": 568,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "square": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/square/geist.png",
+        "w": 600,
+        "h": 600,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": false
+      }
+    },
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/geist",
+    "map_url": "https://www.blinkcincinnati.com/map/geist",
+    "blink_location_id": 790,
+    "on_map": true,
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement.",
+    "nearest_address_osm": "West Court Street, Court Street Historic District, Cincinnati"
+  },
+  {
+    "id": "blink-yelled",
+    "program": "blink",
+    "title": "Yelled",
+    "alt_title": null,
+    "artists": [
+      "kemper-sauce-studios"
+    ],
+    "medium": "light installation",
+    "category": "Light Installations",
+    "zone": "The Banks",
+    "venue_id": "blink-zone-the-banks",
+    "location_text": null,
+    "lat": 39.095699,
+    "lng": -84.512469,
+    "description": "Kemper Sauce Studios is a Cincinnati based engineering and arts collective with an inventive spirit and a whole list of bad ideas. Ultimately, our goal is to bring communities together by providing fun and memorable experiences in the form of large scale light based art installations.",
+    "description_is_artist_bio": true,
+    "image_url": "https://blinkcincinnati.b-cdn.net/files/locations/original/yelled.png",
+    "image_variants": {
+      "header": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/header/yelled.png",
+        "w": 1600,
+        "h": 1200,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "original": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/original/yelled.png",
+        "w": 1431,
+        "h": 796,
+        "verified": true,
+        "dims": "measured"
+      },
+      "featured": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/featured/yelled.png",
+        "w": 1000,
+        "h": 568,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": false
+      },
+      "square": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/square/yelled.png",
+        "w": 600,
+        "h": 600,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": false
+      }
+    },
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/yelled",
+    "map_url": "https://www.blinkcincinnati.com/map/yelled",
+    "blink_location_id": 779,
+    "on_map": true,
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement.",
+    "nearest_address_osm": "Central Riverfront Garage, Barry Larkin Way, Central Business District, Cincinnati"
+  },
+  {
+    "id": "blink-interactive-projection",
+    "program": "blink",
+    "title": "Interactive Projection",
+    "alt_title": null,
+    "artists": [
+      "christo-squier-and-thomas-blackburn"
+    ],
+    "medium": "projection mapping",
+    "category": "Projections",
+    "zone": "Fountain District",
+    "venue_id": "blink-zone-fountain-district",
+    "location_text": null,
+    "lat": 39.105543,
+    "lng": -84.514366,
+    "description": "Christo Squier is a composer, installation artist, and creative director whose work explores the intersection of music, science, and immersive experience. Drawing on fields such as particle physics and cognitive science, he creates generative environments that investigate perception, energy, and the boundaries between the tangible and intangible. His practice blends electronic and classical composition with installation, performance, and interactive systems, and he has collaborated with companies including Punchdrunk, Secret Cinema, and Les Enfants Terribles. He has also received commissions from Science Gallery London and Britten Pears Arts, along with awards for innovation in immersive sound. Thomas Blackburn is a creative code and audiovisual specialist with over 20 years of experience designing and programming complex audiovisual systems for performance and installation. His work spans technical production, visual art, and custom instrument design, supporting large-scale immersive projects. He has collaborated with artists including Aphex Twin, Grace Jones, Amon Tobin, and institutions such as Tate Modern and FOLD, focusing on pushing the boundaries of audiovisual performance through technology.",
+    "description_is_artist_bio": true,
+    "image_url": "https://blinkcincinnati.b-cdn.net/files/locations/original/christo-squier-thomas-blackburn.jpg",
+    "image_variants": {
+      "header": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/header/christo-squier-thomas-blackburn.jpg",
+        "w": 1600,
+        "h": 1200,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "original": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/original/christo-squier-thomas-blackburn.jpg",
+        "w": 233,
+        "h": 350,
+        "verified": true,
+        "dims": "measured"
+      },
+      "featured": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/featured/christo-squier-thomas-blackburn.jpg",
+        "w": 1000,
+        "h": 568,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "square": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/square/christo-squier-thomas-blackburn.jpg",
+        "w": 600,
+        "h": 600,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      }
+    },
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/projections/interactive-projection",
+    "map_url": "https://www.blinkcincinnati.com/map/interactive-projection",
+    "blink_location_id": 796,
+    "on_map": true,
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement.",
+    "nearest_address_osm": "The Cincinnati Free Presse Company, 905 Vine Street, Court Street Historic District, Cincinnati"
+  },
+  {
+    "id": "blink-mural-by-wayne-horse",
+    "program": "blink",
+    "title": "Mural by Wayne Horse",
+    "alt_title": null,
+    "artists": [
+      "wayne-horse"
+    ],
+    "medium": "mural",
+    "category": "Murals",
+    "zone": "Covington",
+    "venue_id": "blink-zone-covington",
+    "location_text": null,
+    "lat": 39.087492,
+    "lng": -84.509043,
+    "description": "Willehad Eilers is a German artist also known under the pseudonym Wayne Horse, whose practice spans painting, drawing, video, and installation. Emerging from the German graffiti scene and later graduating from the Rijksakademie in Amsterdam, he continues to live and work in the Netherlands. His work is characterized by a raw, expressive visual language infused with humor and lyrical distortion, often exploring the bizarre, uncomfortable, and compelling aspects of contemporary human behavior. Through a practice that blends ethnographic observation with surreal reinterpretation, Eilers examines cultural and social norms, transforming everyday scenes into unsettling, poetic reflections on the modern condition.",
+    "description_is_artist_bio": true,
+    "image_url": "https://blinkcincinnati.b-cdn.net/files/locations/original/wayne-horse.jpg",
+    "image_variants": {
+      "header": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/header/wayne-horse.jpg",
+        "w": 1600,
+        "h": 1200,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "original": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/original/wayne-horse.jpg",
+        "w": 280,
+        "h": 350,
+        "verified": true,
+        "dims": "measured"
+      },
+      "featured": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/featured/wayne-horse.jpg",
+        "w": 1000,
+        "h": 568,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "square": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/square/wayne-horse.jpg",
+        "w": 600,
+        "h": 600,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      }
+    },
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/murals/mural-by-wayne-horse",
+    "map_url": "https://www.blinkcincinnati.com/map/mural-by-wayne-horse",
+    "blink_location_id": 809,
+    "on_map": true,
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement.",
+    "nearest_address_osm": "East 4th Street, Licking Riverside Historic District, Covington"
+  },
+  {
+    "id": "blink-bg-tv",
+    "program": "blink",
+    "title": "B!g TV",
+    "alt_title": null,
+    "artists": [],
+    "medium": "light installation",
+    "category": "Light Installations",
+    "zone": "The Banks",
+    "venue_id": "blink-zone-the-banks",
+    "location_text": null,
+    "lat": 39.097358,
+    "lng": -84.51104,
+    "description": null,
+    "description_is_artist_bio": false,
+    "image_url": "https://blinkcincinnati.b-cdn.net/files/locations/original/bgtv.png",
+    "image_variants": {
+      "header": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/header/bgtv.png",
+        "w": 1600,
+        "h": 1200,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "original": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/original/bgtv.png",
+        "w": 1292,
+        "h": 761,
+        "verified": true,
+        "dims": "measured"
+      },
+      "featured": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/featured/bgtv.png",
+        "w": 1000,
+        "h": 568,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": false
+      },
+      "square": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/square/bgtv.png",
+        "w": 600,
+        "h": 600,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": false
+      }
+    },
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/bg-tv",
+    "map_url": "https://www.blinkcincinnati.com/map/bg-tv",
+    "blink_location_id": 814,
+    "on_map": true,
+    "notes": "No description published yet (2026-09-24).",
+    "nearest_address_osm": "Red Bike, East Freedom Way, Central Business District, Cincinnati"
+  },
+  {
+    "id": "blink-mural-by-drew-merritt",
+    "program": "blink",
+    "title": "Mural by Drew Merritt",
+    "alt_title": null,
+    "artists": [
+      "drew-merritt"
+    ],
+    "medium": "mural",
+    "category": "Murals",
+    "zone": "Findlay Market",
+    "venue_id": "blink-zone-findlay-market",
+    "location_text": null,
+    "lat": 39.114731,
+    "lng": -84.517339,
+    "description": "Drew Merritt is an American painter and muralist known for his striking realism and his ability to merge classical aesthetics with contemporary urban environments. Beginning his career nearly three decades ago as a graffiti writer in New Mexico, he has since created monumental murals across the United States and internationally, working with brands and organizations such as Tesla, Adidas, UFC, Converse, and Virgin Hotels. His work often juxtaposes Renaissance-inspired portraiture with modern settings, exploring themes of empathy, vulnerability, and time while translating fine art realism to architectural scale through spray paint and latex. Alongside his mural practice, he maintains a fine art studio practice in oil painting, exhibiting work in galleries worldwide and bridging the worlds of street art, fine art, and cultural storytelling.",
+    "description_is_artist_bio": true,
+    "image_url": "https://blinkcincinnati.b-cdn.net/files/locations/original/drew-merritt.jpeg",
+    "image_variants": {
+      "header": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/header/drew-merritt.jpeg",
+        "w": 1600,
+        "h": 1200,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "original": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/original/drew-merritt.jpeg",
+        "w": 220,
+        "h": 350,
+        "verified": true,
+        "dims": "measured"
+      },
+      "featured": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/featured/drew-merritt.jpeg",
+        "w": 1000,
+        "h": 568,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "square": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/square/drew-merritt.jpeg",
+        "w": 600,
+        "h": 600,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      }
+    },
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/murals/mural-by-drew-merritt",
+    "map_url": "https://www.blinkcincinnati.com/map/mural-by-drew-merritt",
+    "blink_location_id": 798,
+    "on_map": true,
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement.",
+    "nearest_address_osm": "Crossroad Health Center, 1712 Race Street, Over-the-Rhine, Cincinnati"
+  },
+  {
+    "id": "blink-mural-by-chase-melendez",
+    "program": "blink",
+    "title": "Mural by Chase Melendez",
+    "alt_title": null,
+    "artists": [
+      "chase-melendez"
+    ],
+    "medium": "mural",
+    "category": "Murals",
+    "zone": "Covington",
+    "venue_id": "blink-zone-covington",
+    "location_text": null,
+    "lat": 39.08426,
+    "lng": -84.508332,
+    "description": "This artist’s work is formally inspired by the aesthetics of early video games, 1980s and 1990s cartoons, and cinema, with a focus on color, background art, and narrative-driven visual storytelling. They have developed a personal visual language called “Candy Pop Sci-Fi Abstraction,” using it as a framework for worldbuilding through vibrant color combinations, sharp geometric forms, and layered compositions. Their work spans painting, object-based surfaces, and immersive installations that aim to activate space, reimagine overlooked environments, and create playful, energetic visual experiences for the public. Raised in the Pacific Northwest and currently based in Cincinnati’s Camp Washington neighborhood, they hold an MFA from the University of Cincinnati and a BA from San Diego State University, alongside experience in event production, film, and theater.",
+    "description_is_artist_bio": true,
+    "image_url": "https://blinkcincinnati.b-cdn.net/files/locations/original/chase-melendez.jpg",
+    "image_variants": {
+      "header": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/header/chase-melendez.jpg",
+        "w": 1600,
+        "h": 1200,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "original": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/original/chase-melendez.jpg",
+        "w": 350,
+        "h": 350,
+        "verified": true,
+        "dims": "measured"
+      },
+      "featured": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/featured/chase-melendez.jpg",
+        "w": 1000,
+        "h": 568,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "square": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/square/chase-melendez.jpg",
+        "w": 600,
+        "h": 600,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      }
+    },
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/murals/mural-by-chase-melendez",
+    "map_url": "https://www.blinkcincinnati.com/map/mural-by-chase-melendez",
+    "blink_location_id": 797,
+    "on_map": true,
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement.",
+    "nearest_address_osm": "Legacy Way, Licking Riverside Historic District, Covington"
+  },
+  {
+    "id": "blink-allium",
+    "program": "blink",
+    "title": "Allium",
+    "alt_title": null,
+    "artists": [
+      "everything-good-studio"
+    ],
+    "medium": "light installation",
+    "category": "Light Installations",
+    "zone": "BLINK at Lytle Park",
+    "venue_id": "blink-zone-blink-at-lytle-park",
+    "location_text": null,
+    "lat": 39.101227,
+    "lng": -84.504161,
+    "description": "Everything Good Studio is a Brooklyn-based multidisciplinary art and design collaboration between Rachel Ciavarella and Jack Kalish, focused on the creative use of emerging technologies. Their practice centers on light as a dynamic and immersive medium, using tools such as digital LEDs and projection to create kinetic, participatory environments that engage audiences directly. They believe art is completed through audience interaction and design their work to challenge perception, inviting viewers to experience the world with a sense of childlike openness and imagination. Through public art commissions and international exhibitions across the United States, Europe, and Asia, the studio creates immersive experiences that explore light as a universal and emotionally resonant force.",
+    "description_is_artist_bio": true,
+    "image_url": "https://blinkcincinnati.b-cdn.net/files/locations/original/allium.png",
+    "image_variants": {
+      "header": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/header/allium.png",
+        "w": 1600,
+        "h": 1200,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "original": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/original/allium.png",
+        "w": 1410,
+        "h": 787,
+        "verified": true,
+        "dims": "measured"
+      },
+      "featured": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/featured/allium.png",
+        "w": 1000,
+        "h": 568,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": false
+      },
+      "square": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/square/allium.png",
+        "w": 600,
+        "h": 600,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": false
+      }
+    },
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/allium",
+    "map_url": "https://www.blinkcincinnati.com/map/allium",
+    "blink_location_id": 772,
+    "on_map": true,
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. Zone \"BLINK at Lytle Park\" is marked inactive (zone_status 0) in the site data but appears on the 2026 zone map (\"BLINK at Lytle Park with support from Western & Southern Financial Group\").",
+    "nearest_address_osm": "Lytle Tunnel, Lytle Park Historic District, Cincinnati"
+  },
+  {
+    "id": "blink-psychedelic-car-wash",
+    "program": "blink",
+    "title": "Psychedelic Car Wash",
+    "alt_title": null,
+    "artists": [
+      "radius-concepts"
+    ],
+    "medium": "light installation",
+    "category": "Light Installations",
+    "zone": "Fountain District",
+    "venue_id": "blink-zone-fountain-district",
+    "location_text": null,
+    "lat": 39.104383,
+    "lng": -84.514692,
+    "description": "Radius Concepts is a design and fabrication studio specializing in furniture, sculpture, and architectural components for commercial and residential spaces, while also creating immersive public installations that transform ordinary environments into surreal experiences of light, humor, and communal play. Using materials such as steel, foam, sound, and illumination, the studio reimagines everyday interactions as moments of wonder, curiosity, and connection.",
+    "description_is_artist_bio": true,
+    "image_url": "https://blinkcincinnati.b-cdn.net/files/locations/original/psychedeliccarwash.png",
+    "image_variants": {
+      "header": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/header/psychedeliccarwash.png",
+        "w": 1600,
+        "h": 1200,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "original": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/original/psychedeliccarwash.png",
+        "w": 1256,
+        "h": 823,
+        "verified": true,
+        "dims": "measured"
+      },
+      "featured": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/featured/psychedeliccarwash.png",
+        "w": 1000,
+        "h": 568,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": false
+      },
+      "square": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/square/psychedeliccarwash.png",
+        "w": 600,
+        "h": 600,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": false
+      }
+    },
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/psychedelic-car-wash",
+    "map_url": "https://www.blinkcincinnati.com/map/psychedelic-car-wash",
+    "blink_location_id": 786,
+    "on_map": true,
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement.",
+    "nearest_address_osm": "65 Garfield Place, Court Street Historic District, Cincinnati"
+  },
+  {
+    "id": "blink-kinetic",
+    "program": "blink",
+    "title": "Kinetic",
+    "alt_title": null,
+    "artists": [
+      "juan-fuentes"
+    ],
+    "medium": "light installation",
+    "category": "Light Installations",
+    "zone": "Covington",
+    "venue_id": "blink-zone-covington",
+    "location_text": null,
+    "lat": 39.086562,
+    "lng": -84.510251,
+    "description": "After studying architecture, he specialized in lighting and digital manufacturing. His multidisciplinary training allows him to fully develop his designs. Juan Fuentes' artistic line is based on perception and geometry, evoking immersive sensations and experiences in the audience, blurring the line between the real and the virtual. He works on his projects within biomimicry, using nature as a source of inspiration. In recent years, he has exhibited in Light Art exhibitions around the world, including Madrid, Sydney, Singapore, Vancouver, Brussels, London, Stockholm. In 2021, he received the 40under40 award as one of the top 40 lighting designers in the world.",
+    "description_is_artist_bio": true,
+    "image_url": "https://blinkcincinnati.b-cdn.net/files/locations/original/kinetic.png",
+    "image_variants": {
+      "header": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/header/kinetic.png",
+        "w": 1600,
+        "h": 1200,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "original": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/original/kinetic.png",
+        "w": 600,
+        "h": 820,
+        "verified": true,
+        "dims": "measured"
+      },
+      "featured": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/featured/kinetic.png",
+        "w": 1000,
+        "h": 568,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "square": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/square/kinetic.png",
+        "w": 600,
+        "h": 600,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": false
+      }
+    },
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/kinetic",
+    "map_url": "https://www.blinkcincinnati.com/map/kinetic",
+    "blink_location_id": 777,
+    "on_map": true,
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement.",
+    "nearest_address_osm": "Tobacco Alley, Covington"
+  },
+  {
+    "id": "blink-mural-by-polina-soloveichik",
+    "program": "blink",
+    "title": "Mural by Polina Soloveichik",
+    "alt_title": null,
+    "artists": [
+      "polina-soloveichik"
+    ],
+    "medium": "mural",
+    "category": "Murals",
+    "zone": "Covington",
+    "venue_id": "blink-zone-covington",
+    "location_text": null,
+    "lat": 39.085282,
+    "lng": -84.509389,
+    "description": "Polina Soloveichik is a Berlin-based artist and muralist born in Russia and raised in the United States. She studied illustration at Pratt Institute in Brooklyn, where she first began painting murals and discovered a passion for creating art in public spaces. For more than 20 years, murals have been at the core of her artistic practice, allowing her to transform spaces and engage directly with communities. Her work can be found on walls large and small throughout Europe and the United States. Through site-specific projects, she explores the unique relationship between art, place, and the public.",
+    "description_is_artist_bio": true,
+    "image_url": "https://blinkcincinnati.b-cdn.net/files/locations/original/polina-soloveichik.png",
+    "image_variants": {
+      "header": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/header/polina-soloveichik.png",
+        "w": 1600,
+        "h": 1200,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "original": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/original/polina-soloveichik.png",
+        "w": 331,
+        "h": 350,
+        "verified": true,
+        "dims": "measured"
+      },
+      "featured": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/featured/polina-soloveichik.png",
+        "w": 1000,
+        "h": 568,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "square": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/square/polina-soloveichik.png",
+        "w": 600,
+        "h": 600,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      }
+    },
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/murals/mural-by-polina-soloveichik",
+    "map_url": "https://www.blinkcincinnati.com/map/mural-by-polina-soloveichik",
+    "blink_location_id": 807,
+    "on_map": true,
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement.",
+    "nearest_address_osm": "Midtown Parking Garage, East 5th Street, Licking Riverside Historic District, Covington"
+  },
+  {
+    "id": "blink-maestro-musical-notes",
+    "program": "blink",
+    "title": "Maestro Musical Notes",
+    "alt_title": null,
+    "artists": [
+      "lemonde-studio"
+    ],
+    "medium": "light installation",
+    "category": "Light Installations",
+    "zone": "The Banks",
+    "venue_id": "blink-zone-the-banks",
+    "location_text": null,
+    "lat": 39.095306,
+    "lng": -84.513078,
+    "description": null,
+    "description_is_artist_bio": false,
+    "image_url": "https://blinkcincinnati.b-cdn.net/files/locations/original/maestromusicalnotes.png",
+    "image_variants": {
+      "header": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/header/maestromusicalnotes.png",
+        "w": 1600,
+        "h": 1200,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "original": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/original/maestromusicalnotes.png",
+        "w": 1107,
+        "h": 823,
+        "verified": true,
+        "dims": "measured"
+      },
+      "featured": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/featured/maestromusicalnotes.png",
+        "w": 1000,
+        "h": 568,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": false
+      },
+      "square": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/square/maestromusicalnotes.png",
+        "w": 600,
+        "h": 600,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": false
+      }
+    },
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/maestro-musical-notes",
+    "map_url": "https://www.blinkcincinnati.com/map/maestro-musical-notes",
+    "blink_location_id": 816,
+    "on_map": true,
+    "notes": "No description published yet (2026-09-24).",
+    "nearest_address_osm": "The Andrew J Brady Music Center, Race Street, Central Business District, Cincinnati"
+  },
+  {
+    "id": "blink-the-blinkatorium",
+    "program": "blink",
+    "title": "The Blinkatorium",
+    "alt_title": null,
+    "artists": [
+      "scott-pennington"
+    ],
+    "medium": "light installation",
+    "category": "Light Installations",
+    "zone": "Over the Rhine",
+    "venue_id": "blink-zone-over-the-rhine",
+    "location_text": null,
+    "lat": 39.108283,
+    "lng": -84.517285,
+    "description": "Scott Pennington is a Baltimore-based artist specializing in large-scale participatory installation and sculptural assemblage works. Drawing upon his background as a furniture and cabinet-maker, Pennington utilizes woodworking and construction techniques to create colorful, detailed works of art that engage varied audiences and invigorate public spaces. Pennington’s work suggests a tangible, yet illusory reality that examines labor, consumer culture, the pursuit of simple pleasures, and the construction of nostalgic human connections both genuine and fictitious.",
+    "description_is_artist_bio": true,
+    "image_url": "https://blinkcincinnati.b-cdn.net/files/locations/original/theblinkatorium.png",
+    "image_variants": {
+      "header": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/header/theblinkatorium.png",
+        "w": 1600,
+        "h": 1200,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "original": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/original/theblinkatorium.png",
+        "w": 1427,
+        "h": 766,
+        "verified": true,
+        "dims": "measured"
+      },
+      "featured": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/featured/theblinkatorium.png",
+        "w": 1000,
+        "h": 568,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": false
+      },
+      "square": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/square/theblinkatorium.png",
+        "w": 600,
+        "h": 600,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": false
+      }
+    },
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/the-blinkatorium",
+    "map_url": "https://www.blinkcincinnati.com/map/the-blinkatorium",
+    "blink_location_id": 787,
+    "on_map": true,
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement.",
+    "nearest_address_osm": "West 12th Street, Over-the-Rhine, Cincinnati"
+  },
+  {
+    "id": "blink-lemonde-icebergs",
+    "program": "blink",
+    "title": "LeMonde Icebergs",
+    "alt_title": null,
+    "artists": [
+      "lemonde-studio"
+    ],
+    "medium": "light installation",
+    "category": "Light Installations",
+    "zone": "BLINK at Lytle Park",
+    "venue_id": "blink-zone-blink-at-lytle-park",
+    "location_text": null,
+    "lat": 39.101175,
+    "lng": -84.504386,
+    "description": "LeMonde Studio is a multidisciplinary creative practice that designs and produces large-scale, light-based installations that bring people together through play, energy, and collective wonder. Our work exists at the intersection of art, design, and technology, transforming light into a medium for connection and storytelling. Based on collaboration and innovation, we partner with local musicians, visual artists, and engineers to create experiences that respond to human interaction and the rhythm of community life.",
+    "description_is_artist_bio": true,
+    "image_url": "https://blinkcincinnati.b-cdn.net/files/locations/original/lemondeicebergs.png",
+    "image_variants": {
+      "header": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/header/lemondeicebergs.png",
+        "w": 1600,
+        "h": 1200,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "original": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/original/lemondeicebergs.png",
+        "w": 915,
+        "h": 825,
+        "verified": true,
+        "dims": "measured"
+      },
+      "featured": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/featured/lemondeicebergs.png",
+        "w": 1000,
+        "h": 568,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": false
+      },
+      "square": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/square/lemondeicebergs.png",
+        "w": 600,
+        "h": 600,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": false
+      }
+    },
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/lemonde-icebergs",
+    "map_url": "https://www.blinkcincinnati.com/map/lemonde-icebergs",
+    "blink_location_id": 782,
+    "on_map": true,
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement. Zone \"BLINK at Lytle Park\" is marked inactive (zone_status 0) in the site data but appears on the 2026 zone map (\"BLINK at Lytle Park with support from Western & Southern Financial Group\").",
+    "nearest_address_osm": "East 4th Street, Lytle Park Historic District, Cincinnati"
+  },
+  {
+    "id": "blink-mural-by-dulk",
+    "program": "blink",
+    "title": "Mural by Dulk",
+    "alt_title": null,
+    "artists": [
+      "dulk"
+    ],
+    "medium": "mural",
+    "category": "Murals",
+    "zone": "Findlay Market",
+    "venue_id": "blink-zone-findlay-market",
+    "location_text": null,
+    "lat": 39.11667,
+    "lng": -84.519299,
+    "description": "Spanish artist Antonio Segura, Dulk, is one of the most important names in Spanish painting of the moment internationally. His body of work begins to form in urban art and mural painting to which he remains closely linked today along with study work, but does not stop there. He continues to research and constantly create new forms of expression through different media, drawing, sculpture or photography among others. Dulk’s paintings are the immediate byproduct of his travels into remote areas and his memories of a natural wonder and wildlife. He has witnessed first hand both the beauty of these landscapes and the terrible collapse that is creeping over them like a fatal tide. By painting something beautiful he asks audiences to gather the strength to look away from art and toward nature, as painful as that may be. With a strong ecological conviction to defend ecosystems and the most vulnerable species, his work invites the viewer to be part of a unique imaginarium, full of energy and with a special sensitivity to color. A dream world with animals and natural spaces that tells personal, universal and unique stories.",
+    "description_is_artist_bio": true,
+    "image_url": "https://blinkcincinnati.b-cdn.net/files/locations/original/dulk.jpeg",
+    "image_variants": {
+      "header": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/header/dulk.jpeg",
+        "w": 1600,
+        "h": 1200,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "original": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/original/dulk.jpeg",
+        "w": 270,
+        "h": 350,
+        "verified": true,
+        "dims": "measured"
+      },
+      "featured": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/featured/dulk.jpeg",
+        "w": 1000,
+        "h": 568,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "square": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/square/dulk.jpeg",
+        "w": 600,
+        "h": 600,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      }
+    },
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/murals/mural-by-dulk",
+    "map_url": "https://www.blinkcincinnati.com/map/mural-by-dulk",
+    "blink_location_id": 799,
+    "on_map": true,
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement.",
+    "nearest_address_osm": "Pleasant Street, Brewery District, Cincinnati"
+  },
+  {
+    "id": "blink-millennial-pink",
+    "program": "blink",
+    "title": "MILLENNIAL PINK",
+    "alt_title": null,
+    "artists": [
+      "mike-stasny"
+    ],
+    "medium": "light installation",
+    "category": "Light Installations",
+    "zone": "The Banks",
+    "venue_id": "blink-zone-the-banks",
+    "location_text": null,
+    "lat": 39.097192,
+    "lng": -84.510295,
+    "description": "Mike Stasny creates large-scale sculptures, inflatables, and installations that channel joy, absurdity, and a sense of childlike wonder. His work invites audiences into playful, immersive experiences that prioritize feeling and curiosity over fixed meaning, encouraging people to reconnect with creativity and awe. Rooted in the belief that fun can be a radical act, Stasny’s practice uses silliness and spectacle as tools for connection in a culture often driven by productivity over presence.",
+    "description_is_artist_bio": true,
+    "image_url": "https://blinkcincinnati.b-cdn.net/files/locations/original/millennialpink.png",
+    "image_variants": {
+      "header": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/header/millennialpink.png",
+        "w": 1600,
+        "h": 1200,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "original": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/original/millennialpink.png",
+        "w": 880,
+        "h": 443,
+        "verified": true,
+        "dims": "measured"
+      },
+      "featured": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/featured/millennialpink.png",
+        "w": 1000,
+        "h": 568,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "square": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/square/millennialpink.png",
+        "w": 600,
+        "h": 600,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": false
+      }
+    },
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/millennial-pink",
+    "map_url": "https://www.blinkcincinnati.com/map/millennial-pink",
+    "blink_location_id": 784,
+    "on_map": true,
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement.",
+    "nearest_address_osm": "Marian Spencer Way, Central Business District, Cincinnati"
+  },
+  {
+    "id": "blink-jacobs-wall",
+    "program": "blink",
+    "title": "Jacob's Wall",
+    "alt_title": null,
+    "artists": [
+      "parker-heyl"
+    ],
+    "medium": "light installation",
+    "category": "Light Installations",
+    "zone": "Over the Rhine",
+    "venue_id": "blink-zone-over-the-rhine",
+    "location_text": null,
+    "lat": 39.112423,
+    "lng": -84.518126,
+    "description": "Parker is an installation artist, kinetic sculptor, educator, and mechanical engineer whose work explores the relationship between physical objects and digital technologies in art, music, and architecture. Through kinetic sculptures and immersive environments, he examines what is lost when experiences are translated into digital form, emphasizing the presence and aura of physical objects. Trained as a carpenter and currently teaching at the Bartlett School of Architecture at University College London, he combines technical expertise with artistic inquiry to create thought-provoking electromechanical works. His installations and set designs have been presented internationally at leading galleries, festivals, and cultural events, including the Venice Biennale of Architecture, Munich Biennale, Salon del Mobile Milan, and Coachella Music Festival.",
+    "description_is_artist_bio": true,
+    "image_url": "https://blinkcincinnati.b-cdn.net/files/locations/original/jacobswall.png",
+    "image_variants": {
+      "header": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/header/jacobswall.png",
+        "w": 1600,
+        "h": 1200,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "original": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/original/jacobswall.png",
+        "w": 532,
+        "h": 290,
+        "verified": true,
+        "dims": "measured"
+      },
+      "featured": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/featured/jacobswall.png",
+        "w": 1000,
+        "h": 568,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "square": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/square/jacobswall.png",
+        "w": 600,
+        "h": 600,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      }
+    },
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/jacobs-wall",
+    "map_url": "https://www.blinkcincinnati.com/map/jacobs-wall",
+    "blink_location_id": 785,
+    "on_map": true,
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement.",
+    "nearest_address_osm": "Pleasant Street, Over-the-Rhine Historic District, Cincinnati"
+  },
+  {
+    "id": "blink-mural-by-max-sansing",
+    "program": "blink",
+    "title": "Mural by Max Sansing",
+    "alt_title": null,
+    "artists": [
+      "max-sansing"
+    ],
+    "medium": "mural",
+    "category": "Murals",
+    "zone": "Findlay Market",
+    "venue_id": "blink-zone-findlay-market",
+    "location_text": null,
+    "lat": 39.116037,
+    "lng": -84.517069,
+    "description": "Max Sansing is a Chicago-based fine artist and one of the city’s most prolific and talented muralists. His distinct aesthetic fuses the color-drenched dynamism of street art with the technical elegance of photorealism. Born and raised on the South Side by two artistic parents, Sansing discovered his passion and creative gift at an early age. During his youth he was involved with several graffiti crews and taught himself oil painting before completing formal training at the American Academy of Art. In addition to his studio practice, Sansing is frequently commissioned to create large-scale murals and experiential installations across the country. He is deeply committed to supporting his Chicago community and is involved with numerous youth programs that expand arts opportunities in underserved areas. His work has been featured in gallery shows and special events in Chicago, New York, and Miami among others.",
+    "description_is_artist_bio": true,
+    "image_url": "https://blinkcincinnati.b-cdn.net/files/locations/original/maxsansing.jpeg",
+    "image_variants": {
+      "header": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/header/maxsansing.jpeg",
+        "w": 1600,
+        "h": 1200,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "original": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/original/maxsansing.jpeg",
+        "w": 350,
+        "h": 197,
+        "verified": true,
+        "dims": "measured"
+      },
+      "featured": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/featured/maxsansing.jpeg",
+        "w": 1000,
+        "h": 568,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "square": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/square/maxsansing.jpeg",
+        "w": 600,
+        "h": 600,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      }
+    },
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/murals/mural-by-max-sansing",
+    "map_url": "https://www.blinkcincinnati.com/map/mural-by-max-sansing",
+    "blink_location_id": 805,
+    "on_map": true,
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement.",
+    "nearest_address_osm": "Bardes Alley, Brewery District, Cincinnati"
+  },
+  {
+    "id": "blink-threaded-light",
+    "program": "blink",
+    "title": "Threaded Light",
+    "alt_title": null,
+    "artists": [
+      "sew-valley"
+    ],
+    "medium": "light installation",
+    "category": "Light Installations",
+    "zone": "Over the Rhine",
+    "venue_id": "blink-zone-over-the-rhine",
+    "location_text": null,
+    "lat": 39.110045,
+    "lng": -84.515417,
+    "description": "Sew Valley is a Cincinnati-based nonprofit collective of designers, patternmakers, prototypers, samplemakers, and sewists who create immersive, large-scale textile installations using repurposed materials. Their work combines craftsmanship, sustainability, and storytelling, transforming everyday fabrics into dynamic environments that engage audiences through texture, color, movement, and light. By integrating illuminated textiles, projection surfaces, and interactive design elements, Sew Valley creates memorable experiences that foster curiosity, connection, and community engagement.",
+    "description_is_artist_bio": true,
+    "image_url": "https://blinkcincinnati.b-cdn.net/files/locations/original/threadedlight.png",
+    "image_variants": {
+      "header": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/header/threadedlight.png",
+        "w": 1600,
+        "h": 1200,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "original": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/original/threadedlight.png",
+        "w": 586,
+        "h": 569,
+        "verified": true,
+        "dims": "measured"
+      },
+      "featured": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/featured/threadedlight.png",
+        "w": 1000,
+        "h": 568,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "square": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/square/threadedlight.png",
+        "w": 600,
+        "h": 600,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      }
+    },
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/threaded-light",
+    "map_url": "https://www.blinkcincinnati.com/map/threaded-light",
+    "blink_location_id": 788,
+    "on_map": true,
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement.",
+    "nearest_address_osm": "Union Hall, 1311 Vine Street, Over-the-Rhine, Cincinnati"
+  },
+  {
+    "id": "blink-mural-by-marie-ajras",
+    "program": "blink",
+    "title": "Mural by Marie AJRAS",
+    "alt_title": null,
+    "artists": [
+      "marie-ajras"
+    ],
+    "medium": "mural",
+    "category": "Murals",
+    "zone": "Findlay Market",
+    "venue_id": "blink-zone-findlay-market",
+    "location_text": null,
+    "lat": 39.114174,
+    "lng": -84.520761,
+    "description": "Maria AJRAS is an Argentine muralist and visual artist currently based in Brooklyn, New York and working internationally across Argentina, Mexico, Europe, and the United States on large-scale public art projects. Her practice is rooted in the belief that art can reveal what is not yet visible, treating murals as collective thresholds where memory, identity, and emotion emerge into form through color, scale, and gesture. With a background in psychology, she approaches each work through deep listening and community dialogue, translating local narratives into poetic visual compositions that balance realism and abstraction. Her murals—often depicting monumental female figures—function as acts of visibility and reparation, transforming architecture into emotionally resonant spaces that reflect both personal and collective experience.",
+    "description_is_artist_bio": true,
+    "image_url": "https://blinkcincinnati.b-cdn.net/files/locations/original/marie-ajras.jpg",
+    "image_variants": {
+      "header": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/header/marie-ajras.jpg",
+        "w": 1600,
+        "h": 1200,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "original": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/original/marie-ajras.jpg",
+        "w": 350,
+        "h": 221,
+        "verified": true,
+        "dims": "measured"
+      },
+      "featured": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/featured/marie-ajras.jpg",
+        "w": 1000,
+        "h": 568,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "square": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/square/marie-ajras.jpg",
+        "w": 600,
+        "h": 600,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      }
+    },
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/murals/mural-by-marie-ajras",
+    "map_url": "https://www.blinkcincinnati.com/map/mural-by-marie-ajras",
+    "blink_location_id": 804,
+    "on_map": true,
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement.",
+    "nearest_address_osm": "1621 Central Parkway, Brewery District, Cincinnati"
+  },
+  {
+    "id": "blink-crescendo",
+    "program": "blink",
+    "title": "Crescendo",
+    "alt_title": null,
+    "artists": [],
+    "medium": "light installation",
+    "category": "Light Installations",
+    "zone": "BLINK at Lytle Park",
+    "venue_id": "blink-zone-blink-at-lytle-park",
+    "location_text": null,
+    "lat": 39.100956,
+    "lng": -84.504367,
+    "description": "Just as a trees roots connect to the forest's ecosystem, music can compose connections within a community. While most pianos create only sound, this particular piano transforms sound into light. Open for anyone to play, the Crescendo light installation invites viewers to step up and perform. As you play, lights illuminate the piano and create a radiant halo around you. Each keystroke orchestrates a dance of light through the branches, crafting a breathtaking spectacle for both you and the audience.",
+    "description_is_artist_bio": false,
+    "image_url": "https://blinkcincinnati.b-cdn.net/files/locations/original/blink2024-55.png",
+    "image_variants": {
+      "header": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/header/blink2024-55.png",
+        "w": 1600,
+        "h": 1200,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": false
+      },
+      "original": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/original/blink2024-55.png",
+        "w": 8000,
+        "h": 5333,
+        "verified": true,
+        "dims": "measured"
+      },
+      "featured": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/featured/blink2024-55.png",
+        "w": 1000,
+        "h": 568,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": false
+      },
+      "square": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/square/blink2024-55.png",
+        "w": 600,
+        "h": 600,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": false
+      }
+    },
+    "gallery": [
+      {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/original/blink2024-552.jpg",
+        "w": 8000,
+        "h": 5333,
+        "detail_url": "https://blinkcincinnati.b-cdn.net/files/locations/detail/blink2024-552.jpg"
+      },
+      {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/original/blink2024-56.jpg",
+        "w": 4032,
+        "h": 6048,
+        "detail_url": "https://blinkcincinnati.b-cdn.net/files/locations/detail/blink2024-56.jpg"
+      }
+    ],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/crescendo",
+    "map_url": "https://www.blinkcincinnati.com/map/crescendo",
+    "blink_location_id": 192,
+    "on_map": true,
+    "notes": "Record carried over from BLINK 2024 (BLINK location id 192, record dated August 23; its photos are named blink2024-*). It is listed in the 2026 Art and Artists guide and pinned in the BLINK at Lytle Park zone. Zone \"BLINK at Lytle Park\" is marked inactive (zone_status 0) in the site data but appears on the 2026 zone map (\"BLINK at Lytle Park with support from Western & Southern Financial Group\").",
+    "nearest_address_osm": "Lytle Tunnel, Lytle Park Historic District, Cincinnati"
+  },
+  {
+    "id": "blink-mural-by-james-bullough",
+    "program": "blink",
+    "title": "Mural by James Bullough",
+    "alt_title": null,
+    "artists": [
+      "james-bullough"
+    ],
+    "medium": "mural",
+    "category": "Murals",
+    "zone": "Findlay Market",
+    "venue_id": "blink-zone-findlay-market",
+    "location_text": null,
+    "lat": 39.113426,
+    "lng": -84.518018,
+    "description": "James Bullough is an American-born artist living and working in Berlin, Germany, known for his large-scale murals and studio paintings that merge realistic portraiture with graphic distortion and abstraction. His practice is shaped by a combination of influences, including the raw energy of urban graffiti he encountered growing up in Washington, D.C., and the disciplined study of Old Master oil painting techniques. By combining these contrasting approaches, he creates visually striking works that balance technical precision with expressive disruption. His murals and studio works have been exhibited internationally in galleries, museums, and art fairs, and can be found on landmark walls across Europe, the Americas, and beyond.",
+    "description_is_artist_bio": true,
+    "image_url": "https://blinkcincinnati.b-cdn.net/files/locations/original/james-bullough.jpg",
+    "image_variants": {
+      "header": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/header/james-bullough.jpg",
+        "w": 1600,
+        "h": 1200,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "original": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/original/james-bullough.jpg",
+        "w": 350,
+        "h": 233,
+        "verified": true,
+        "dims": "measured"
+      },
+      "featured": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/featured/james-bullough.jpg",
+        "w": 1000,
+        "h": 568,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "square": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/square/james-bullough.jpg",
+        "w": 600,
+        "h": 600,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      }
+    },
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/murals/mural-by-james-bullough",
+    "map_url": "https://www.blinkcincinnati.com/map/mural-by-james-bullough",
+    "blink_location_id": 802,
+    "on_map": true,
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement.",
+    "nearest_address_osm": "1611 Race Street, Over-the-Rhine Historic District, Cincinnati"
+  },
+  {
+    "id": "blink-the-hive",
+    "program": "blink",
+    "title": "The Hive",
+    "alt_title": null,
+    "artists": [
+      "beamhacker"
+    ],
+    "medium": "light installation",
+    "category": "Light Installations",
+    "zone": "The Banks",
+    "venue_id": "blink-zone-the-banks",
+    "location_text": null,
+    "lat": 39.097936,
+    "lng": -84.511647,
+    "description": "Beamhacker is a light installation artist whose practice explores the space where technology meets imagination and strives to spark curiosity and transform human perception. With roots in the events industry, his early work embraced a lo-fi, set-design aesthetic before evolving into more complex, technology driven artworks that merge DIY electronics with cutting-edge systems. His installations have employed LED, fibre optics, lasers, video projection, VR, and interactive sensors to create immersive environments that blur the boundary between the physical and the imagined.",
+    "description_is_artist_bio": true,
+    "image_url": "https://blinkcincinnati.b-cdn.net/files/locations/original/thehive.png",
+    "image_variants": {
+      "header": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/header/thehive.png",
+        "w": 1600,
+        "h": 1200,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "original": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/original/thehive.png",
+        "w": 697,
+        "h": 452,
+        "verified": true,
+        "dims": "measured"
+      },
+      "featured": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/featured/thehive.png",
+        "w": 1000,
+        "h": 568,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "square": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/square/thehive.png",
+        "w": 600,
+        "h": 600,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      }
+    },
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/the-hive",
+    "map_url": "https://www.blinkcincinnati.com/map/the-hive",
+    "blink_location_id": 766,
+    "on_map": true,
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement.",
+    "nearest_address_osm": "Transit Center, East 2nd Street, Central Business District, Cincinnati"
+  },
+  {
+    "id": "blink-flower-power",
+    "program": "blink",
+    "title": "Flower Power",
+    "alt_title": null,
+    "artists": [
+      "aerosculpture"
+    ],
+    "medium": "light installation",
+    "category": "Light Installations",
+    "zone": "The Banks",
+    "venue_id": "blink-zone-the-banks",
+    "location_text": null,
+    "lat": 39.09464,
+    "lng": -84.511584,
+    "description": "Inspired by airships and the dream of flight, Jean-Pierre David creates immersive artworks that explore the possibilities of aerostatic forms, light, and movement. Since the mid-1990s, he has developed inflatable sculptures, aerial performances, and illuminated installations that combine suspended performers, giant puppets, music, and visual spectacle. As advances in LED technology enabled light to become an integral part of his work, he expanded into increasingly sophisticated creations that merge digital systems, electromechanics, transparency, and motion. His large-scale installations invite audiences into imaginative worlds where art, technology, and the wonder of floating converge.",
+    "description_is_artist_bio": true,
+    "image_url": "https://blinkcincinnati.b-cdn.net/files/locations/original/flowerpower.png",
+    "image_variants": {
+      "header": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/header/flowerpower.png",
+        "w": 1600,
+        "h": 1200,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "original": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/original/flowerpower.png",
+        "w": 702,
+        "h": 464,
+        "verified": true,
+        "dims": "measured"
+      },
+      "featured": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/featured/flowerpower.png",
+        "w": 1000,
+        "h": 568,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "square": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/square/flowerpower.png",
+        "w": 600,
+        "h": 600,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      }
+    },
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/flower-power",
+    "map_url": "https://www.blinkcincinnati.com/map/flower-power",
+    "blink_location_id": 767,
+    "on_map": true,
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement.",
+    "nearest_address_osm": "1 Vine Street, Central Business District, Cincinnati"
+  },
+  {
+    "id": "blink-sprayzers",
+    "program": "blink",
+    "title": "Sprayzers",
+    "alt_title": null,
+    "artists": [
+      "big-art"
+    ],
+    "medium": "light installation",
+    "category": "Light Installations",
+    "zone": "Fountain District",
+    "venue_id": "blink-zone-fountain-district",
+    "location_text": null,
+    "lat": 39.101624,
+    "lng": -84.512431,
+    "description": "Big Art exists to ignite imagination and wonder through large-scale, interactive, and immersive public art installations. With a purpose rooted in inspiring creativity, we craft experiences that captivate audiences, spark curiosity, and transform public spaces into vibrant playgrounds for exploration. Our team designs, builds, and tours robust, safe, and unforgettable installations across North America, whether through our existing catalogue or custom commissions.",
+    "description_is_artist_bio": true,
+    "image_url": "https://blinkcincinnati.b-cdn.net/files/locations/original/big-art2.jpg",
+    "image_variants": {
+      "header": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/header/big-art2.jpg",
+        "w": 1600,
+        "h": 1200,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "original": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/original/big-art2.jpg",
+        "w": 350,
+        "h": 234,
+        "verified": true,
+        "dims": "measured"
+      },
+      "featured": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/featured/big-art2.jpg",
+        "w": 1000,
+        "h": 568,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      },
+      "square": {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/square/big-art2.jpg",
+        "w": 600,
+        "h": 600,
+        "verified": true,
+        "dims": "measured",
+        "upscaled_from_original": true
+      }
+    },
+    "gallery": [
+      {
+        "url": "https://blinkcincinnati.b-cdn.net/files/locations/detail/big-art.jpg",
+        "w": 1200,
+        "h": 802
+      }
+    ],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/sprayzers",
+    "map_url": "https://www.blinkcincinnati.com/map/sprayzers",
+    "blink_location_id": 768,
+    "on_map": true,
+    "notes": "The published artwork description is a biography of the artist, not an artwork statement.",
+    "nearest_address_osm": "The Genius of Water, Fountain Square Plaza, Main Street Historic District, Cincinnati"
+  },
+  {
+    "id": "blink-madison-theater",
+    "program": "blink",
+    "title": "Madison Theater",
+    "alt_title": null,
+    "artists": [
+      "miami-university"
+    ],
+    "medium": "projection mapping",
+    "category": "Projections",
+    "zone": "Covington",
+    "venue_id": "blink-zone-covington",
+    "location_text": null,
+    "lat": 39.082646,
+    "lng": -84.509809,
+    "description": null,
+    "description_is_artist_bio": false,
+    "image_url": null,
+    "image_variants": {},
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/projections/madison-theater",
+    "map_url": "https://www.blinkcincinnati.com/map/madison-theater",
+    "blink_location_id": 838,
+    "on_map": true,
+    "notes": "No description published yet (2026-09-24).",
+    "nearest_address_osm": "Madison Theater, 730 Madison Avenue, Covington"
+  },
+  {
+    "id": "blink-projection-by-inka-kendzia",
+    "program": "blink",
+    "title": "Projection by Inka Kendzia",
+    "alt_title": null,
+    "artists": [
+      "inka-kendzia"
+    ],
+    "medium": "projection mapping",
+    "category": "Projections",
+    "zone": "Covington",
+    "venue_id": "blink-zone-covington",
+    "location_text": null,
+    "lat": 39.084618,
+    "lng": -84.509275,
+    "description": null,
+    "description_is_artist_bio": false,
+    "image_url": null,
+    "image_variants": {},
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/projections/projection-by-inka-kendzia",
+    "map_url": "https://www.blinkcincinnati.com/map/projection-by-inka-kendzia",
+    "blink_location_id": 842,
+    "on_map": true,
+    "notes": "No description published yet (2026-09-24).",
+    "nearest_address_osm": "Scott @ Sixth, Scott Boulevard, Covington"
+  },
+  {
+    "id": "blink-funk-glasses",
+    "program": "blink",
+    "title": "Funk Glasses",
+    "alt_title": null,
+    "artists": [
+      "black-art-speaks"
+    ],
+    "medium": "light installation",
+    "category": "Light Installations",
+    "zone": "Fountain District",
+    "venue_id": "blink-zone-fountain-district",
+    "location_text": null,
+    "lat": 39.101108,
+    "lng": -84.515811,
+    "description": null,
+    "description_is_artist_bio": false,
+    "image_url": null,
+    "image_variants": {},
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/funk-glasses",
+    "map_url": "https://www.blinkcincinnati.com/map/funk-glasses",
+    "blink_location_id": 817,
+    "on_map": true,
+    "notes": "No description published yet (2026-09-24).",
+    "nearest_address_osm": "West 5th Street, West Fourth Street Historic District, Cincinnati"
+  },
+  {
+    "id": "blink-mural-by-sofles",
+    "program": "blink",
+    "title": "Mural by Sofles",
+    "alt_title": null,
+    "artists": [
+      "sofles"
+    ],
+    "medium": "mural",
+    "category": "Murals",
+    "zone": "Findlay Market",
+    "venue_id": "blink-zone-findlay-market",
+    "location_text": null,
+    "lat": 39.116739,
+    "lng": -84.518818,
+    "description": "Russell Fenn, better known as Sofles, is an Australian graffiti artist originating from Brisbane. Self-taught, he has been honing his skills for over 20 years, exploring various mediums such as spraypaint, acrylic, drawing and brush painting, as well as digital and illustration works.",
+    "description_is_artist_bio": true,
+    "image_url": null,
+    "image_variants": {},
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/murals/mural-by-sofles",
+    "map_url": "https://www.blinkcincinnati.com/map/mural-by-sofles",
+    "blink_location_id": 808,
+    "on_map": true,
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement.",
+    "nearest_address_osm": "102 Findlay Street, Brewery District, Cincinnati"
+  },
+  {
+    "id": "blink-3rd-st-wall",
+    "program": "blink",
+    "title": "3rd St Wall",
+    "alt_title": null,
+    "artists": [
+      "vince-fraser",
+      "kasumi-art-studios",
+      "the-great-paper-massacre"
+    ],
+    "medium": "projection mapping",
+    "category": "Projections",
+    "zone": "Fountain District",
+    "venue_id": "blink-zone-fountain-district",
+    "location_text": null,
+    "lat": 39.098843,
+    "lng": -84.513801,
+    "description": null,
+    "description_is_artist_bio": false,
+    "image_url": null,
+    "image_variants": {},
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/projections/3rd-st-wall",
+    "map_url": "https://www.blinkcincinnati.com/map/3rd-st-wall",
+    "blink_location_id": 844,
+    "on_map": true,
+    "notes": "No description published yet (2026-09-24).",
+    "nearest_address_osm": "Race Street, West Fourth Street Historic District, Cincinnati"
+  },
+  {
+    "id": "blink-birds-mural",
+    "program": "blink",
+    "title": "Birds Mural",
+    "alt_title": null,
+    "artists": [
+      "decidekit"
+    ],
+    "medium": "projection mapping",
+    "category": "Projections",
+    "zone": "Fountain District",
+    "venue_id": "blink-zone-fountain-district",
+    "location_text": null,
+    "lat": 39.104301,
+    "lng": -84.513478,
+    "description": null,
+    "description_is_artist_bio": false,
+    "image_url": null,
+    "image_variants": {},
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/projections/birds-mural",
+    "map_url": "https://www.blinkcincinnati.com/map/birds-mural",
+    "blink_location_id": 828,
+    "on_map": true,
+    "notes": "No description published yet (2026-09-24).",
+    "nearest_address_osm": "Oneida Alley, Main Street Historic District, Cincinnati"
+  },
+  {
+    "id": "blink-artswave-projection-aronoff-center",
+    "program": "blink",
+    "title": "Artswave Projection Aronoff Center",
+    "alt_title": null,
+    "artists": [],
+    "medium": "projection mapping",
+    "category": "Projections",
+    "zone": "Fountain District",
+    "venue_id": "blink-zone-fountain-district",
+    "location_text": null,
+    "lat": 39.103831,
+    "lng": -84.511969,
+    "description": null,
+    "description_is_artist_bio": false,
+    "image_url": null,
+    "image_variants": {},
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/projections/artswave-projection-aronoff-center",
+    "map_url": "https://www.blinkcincinnati.com/map/artswave-projection-aronoff-center",
+    "blink_location_id": 840,
+    "on_map": true,
+    "notes": "No description published yet (2026-09-24).",
+    "nearest_address_osm": "Weston Art Gallery, 650 Walnut Street, Main Street Historic District, Cincinnati"
+  },
+  {
+    "id": "blink-neil-armstrong-mural",
+    "program": "blink",
+    "title": "Neil Armstrong Mural",
+    "alt_title": null,
+    "artists": [
+      "justin-boh"
+    ],
+    "medium": "projection mapping",
+    "category": "Projections",
+    "zone": "Fountain District",
+    "venue_id": "blink-zone-fountain-district",
+    "location_text": null,
+    "lat": 39.102358,
+    "lng": -84.511786,
+    "description": null,
+    "description_is_artist_bio": false,
+    "image_url": null,
+    "image_variants": {},
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/projections/neil-armstrong-mural",
+    "map_url": "https://www.blinkcincinnati.com/map/neil-armstrong-mural",
+    "blink_location_id": 831,
+    "on_map": true,
+    "notes": "No description published yet (2026-09-24).",
+    "nearest_address_osm": "Bru Burger Bar, 41 East 6th Street, Main Street Historic District, Cincinnati"
+  },
+  {
+    "id": "blink-covenant-first",
+    "program": "blink",
+    "title": "Covenant First",
+    "alt_title": null,
+    "artists": [
+      "ana-tomashvili",
+      "felix-frank",
+      "mindscape-studio"
+    ],
+    "medium": "projection mapping",
+    "category": "Projections",
+    "zone": "Fountain District",
+    "venue_id": "blink-zone-fountain-district",
+    "location_text": null,
+    "lat": 39.104017,
+    "lng": -84.517044,
+    "description": null,
+    "description_is_artist_bio": false,
+    "image_url": null,
+    "image_variants": {},
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/projections/covenant-first",
+    "map_url": "https://www.blinkcincinnati.com/map/covenant-first",
+    "blink_location_id": 810,
+    "on_map": true,
+    "notes": "No description published yet (2026-09-24).",
+    "nearest_address_osm": "Covenant-First Presbyterian Church, 717 Elm Street, Betts-Longworth Historic District, Cincinnati"
+  },
+  {
+    "id": "blink-performance-stage",
+    "program": "blink",
+    "title": "Performance Stage",
+    "alt_title": null,
+    "artists": [
+      "spencer-sterling",
+      "structurals"
+    ],
+    "medium": "projection mapping",
+    "category": "Projections",
+    "zone": "Fountain District",
+    "venue_id": "blink-zone-fountain-district",
+    "location_text": null,
+    "lat": 39.105878,
+    "lng": -84.515581,
+    "description": null,
+    "description_is_artist_bio": false,
+    "image_url": null,
+    "image_variants": {},
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/projections/performance-stage",
+    "map_url": "https://www.blinkcincinnati.com/map/performance-stage",
+    "blink_location_id": 823,
+    "on_map": true,
+    "notes": "No description published yet (2026-09-24).",
+    "nearest_address_osm": "West Court Street, Court Street Historic District, Cincinnati"
+  },
+  {
+    "id": "blink-projection-by-kyle-ebersole",
+    "program": "blink",
+    "title": "Projection by Kyle Ebersole",
+    "alt_title": null,
+    "artists": [
+      "kyle-eli-ebersole"
+    ],
+    "medium": "projection mapping",
+    "category": "Projections",
+    "zone": "Findlay Market",
+    "venue_id": "blink-zone-findlay-market",
+    "location_text": null,
+    "lat": 39.116607,
+    "lng": -84.519935,
+    "description": null,
+    "description_is_artist_bio": false,
+    "image_url": null,
+    "image_variants": {},
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/projections/projection-by-kyle-ebersole",
+    "map_url": "https://www.blinkcincinnati.com/map/projection-by-kyle-ebersole",
+    "blink_location_id": 845,
+    "on_map": true,
+    "notes": "No by-line on the artwork page; artist matched by the name in the title (\"Kyle Ebersole\"). No description published yet (2026-09-24).",
+    "nearest_address_osm": "177 Eton Place, Brewery District, Cincinnati"
+  },
+  {
+    "id": "blink-scpa",
+    "program": "blink",
+    "title": "SCPA",
+    "alt_title": null,
+    "artists": [
+      "onda-studio"
+    ],
+    "medium": "projection mapping",
+    "category": "Projections",
+    "zone": "Over the Rhine",
+    "venue_id": "blink-zone-over-the-rhine",
+    "location_text": null,
+    "lat": 39.107723,
+    "lng": -84.5172,
+    "description": null,
+    "description_is_artist_bio": false,
+    "image_url": null,
+    "image_variants": {},
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/projections/scpa",
+    "map_url": "https://www.blinkcincinnati.com/map/scpa",
+    "blink_location_id": 843,
+    "on_map": true,
+    "notes": "No description published yet (2026-09-24).",
+    "nearest_address_osm": "West 12th Street, Over-the-Rhine, Cincinnati"
+  },
+  {
+    "id": "blink-hannaford",
+    "program": "blink",
+    "title": "Hannaford",
+    "alt_title": null,
+    "artists": [
+      "sean-van-praag"
+    ],
+    "medium": "projection mapping",
+    "category": "Projections",
+    "zone": "Covington",
+    "venue_id": "blink-zone-covington",
+    "location_text": null,
+    "lat": 39.08388,
+    "lng": -84.510472,
+    "description": null,
+    "description_is_artist_bio": false,
+    "image_url": null,
+    "image_variants": {},
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/projections/hannaford",
+    "map_url": "https://www.blinkcincinnati.com/map/hannaford",
+    "blink_location_id": 837,
+    "on_map": true,
+    "notes": "No description published yet (2026-09-24).",
+    "nearest_address_osm": "The Hannaford at Pike & Madison, 619 Madison Avenue, Covington"
+  },
+  {
+    "id": "blink-mural-by-jim-tucker-and-frank-young",
+    "program": "blink",
+    "title": "Mural by Jim Tucker and Frank Young",
+    "alt_title": null,
+    "artists": [
+      "jim-tucker-and-frank-young"
+    ],
+    "medium": "mural",
+    "category": "Murals",
+    "zone": "Findlay Market",
+    "venue_id": "blink-zone-findlay-market",
+    "location_text": null,
+    "lat": 39.115298,
+    "lng": -84.517851,
+    "description": "Frank D. Young Frank D. Young is an American fine art photographer whose portraits treat their subjects as living documents of their existence. Though he has always had a camera in his hands, he began his journey as an artist in 2008, building a practice rooted in analog processes and equipment while moving fluidly between film and digital capture. Since 2012, he has documented the Black residents of Cincinnati's Over-the-Rhine, a neighborhood reshaped by economic revitalization and gentrification, creating a portrait record of a community in the midst of change. His clients include the Cincinnati Regional Chamber, the World Affairs Council of America, 1001 Colors, Duke Energy, Mortar, 3CDC, and The City Flea. Drawing on influences from Gordon Parks and Richard Avedon to Carrie Mae Weems, Jamel Shabazz, and Spike Lee, his work bridges documentary tradition and fine art portraiture, framing everyday people with the dignity and permanence of the historical record. Jim Tucker Jim Tucker is a British-born artist and educator whose passion is to use art to build community through collaboration and education. Since leaving England in 2007, he traveled extensively before settling in Cincinnati in 2021, carrying with him a belief in \"eating what the locals eat,\" a phrase that signifies reverence and respect for the culture of every new place. He interprets his surroundings through site-specific automatic painting, generating imagery and characters that he contrasts with work inspired by historical and contemporary photography of the area. Since moving to Cincinnati, he has produced and painted over twenty murals, many in partnership with 1001 Colors and now recognized as city landmarks, and collaborated with institutions including the Cincinnati Art Museum, the Marketer Collaborative, and several Big Tech companies. Across a combined career of more than twenty years, his work bridges fine art, murals, and community building. The Collaboration Jim and Frank have been working together for several years, with Jim licensing Frank's photographs as references in his paintings and installations. BLINK 2026 marks the first time the two are coming together for a unique hybrid mural, combining a wheat paste of Frank's photography against Jim's painted interpretation of the mural's location.",
+    "description_is_artist_bio": true,
+    "image_url": null,
+    "image_variants": {},
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/murals/mural-by-jim-tucker-and-frank-young",
+    "map_url": "https://www.blinkcincinnati.com/map/mural-by-jim-tucker-and-frank-young",
+    "blink_location_id": 803,
+    "on_map": true,
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement.",
+    "nearest_address_osm": "Our Daily Bread, 1730 Race Street, Over-the-Rhine, Cincinnati"
+  },
+  {
+    "id": "blink-welcome-in",
+    "program": "blink",
+    "title": "Welcome in",
+    "alt_title": null,
+    "artists": [
+      "xavier-university-art-department"
+    ],
+    "medium": "light installation",
+    "category": "Light Installations",
+    "zone": "Over the Rhine",
+    "venue_id": "blink-zone-over-the-rhine",
+    "location_text": null,
+    "lat": 39.111748,
+    "lng": -84.515783,
+    "description": "At Xavier University, the Art Department trains artists and thinkers who are grounded in integrity, intellectual curiosity, and a deep-seated sense of belonging. Innovation leads the curriculum. New materials, new contexts, and new audiences come together to push expectations; and Xavier Art students meet them. Between the traditional concentrations of fine Arts, the innovative Graphic Design Program, and the 3D Animation and Immersive Game Design Program, Xavier Art Students bring professional fluency, a portfolio of substance, and a habit of reflection that sustains careers in galleries, museums, design, education, and beyond.",
+    "description_is_artist_bio": true,
+    "image_url": null,
+    "image_variants": {},
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/light-installations/welcome-in",
+    "map_url": "https://www.blinkcincinnati.com/map/welcome-in",
+    "blink_location_id": 792,
+    "on_map": true,
+    "notes": "The published artwork description is the artist biography (same text as the artist page), not an artwork statement.",
+    "nearest_address_osm": "West 15th Street, Over-the-Rhine, Cincinnati"
+  },
+  {
+    "id": "blink-american-building",
+    "program": "blink",
+    "title": "American Building",
+    "alt_title": null,
+    "artists": [
+      "susan-kosti",
+      "filip-roca",
+      "daniel-rossa"
+    ],
+    "medium": "projection mapping",
+    "category": "Projections",
+    "zone": "Over the Rhine",
+    "venue_id": "blink-zone-over-the-rhine",
+    "location_text": null,
+    "lat": 39.107521,
+    "lng": -84.513291,
+    "description": null,
+    "description_is_artist_bio": false,
+    "image_url": null,
+    "image_variants": {},
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/projections/american-building",
+    "map_url": "https://www.blinkcincinnati.com/map/american-building",
+    "blink_location_id": 825,
+    "on_map": true,
+    "notes": "No description published yet (2026-09-24).",
+    "nearest_address_osm": "American Building, 30 East Central Parkway, Over-the-Rhine, Cincinnati"
+  },
+  {
+    "id": "blink-payphone-mural-projection",
+    "program": "blink",
+    "title": "\"Payphone\" Mural Projection",
+    "alt_title": null,
+    "artists": [],
+    "medium": "projection mapping",
+    "category": "Projections",
+    "zone": "Findlay Market",
+    "venue_id": "blink-zone-findlay-market",
+    "location_text": null,
+    "lat": 39.113466,
+    "lng": -84.517578,
+    "description": null,
+    "description_is_artist_bio": false,
+    "image_url": null,
+    "image_variants": {},
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/projections/payphone-mural-projection",
+    "map_url": "https://www.blinkcincinnati.com/map/payphone-mural-projection",
+    "blink_location_id": 839,
+    "on_map": true,
+    "notes": "No description published yet (2026-09-24).",
+    "nearest_address_osm": "Goose Alley, Over-the-Rhine Historic District, Cincinnati"
+  },
+  {
+    "id": "blink-projection-by-jason-snell",
+    "program": "blink",
+    "title": "Projection by Jason Snell",
+    "alt_title": null,
+    "artists": [
+      "snellbeast"
+    ],
+    "medium": "projection mapping",
+    "category": "Projections",
+    "zone": "Covington",
+    "venue_id": "blink-zone-covington",
+    "location_text": null,
+    "lat": 39.087356,
+    "lng": -84.50924,
+    "description": null,
+    "description_is_artist_bio": false,
+    "image_url": null,
+    "image_variants": {},
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/projections/projection-by-jason-snell",
+    "map_url": "https://www.blinkcincinnati.com/map/projection-by-jason-snell",
+    "blink_location_id": 846,
+    "on_map": true,
+    "notes": "No by-line on the artwork page; the title names \"Jason Snell\", who is the 2026 participating-artists list's \"SnellBeast\" (snellbeast.com, the link BLINK gives for SnellBeast, introduces \"Jason Snell\"). No description published yet (2026-09-24).",
+    "nearest_address_osm": "110 East 4th Street, Licking Riverside Historic District, Covington"
+  },
+  {
+    "id": "blink-kroger-south",
+    "program": "blink",
+    "title": "Kroger South",
+    "alt_title": null,
+    "artists": [],
+    "medium": "projection mapping",
+    "category": "Projections",
+    "zone": "Fountain District",
+    "venue_id": "blink-zone-fountain-district",
+    "location_text": null,
+    "lat": 39.106509,
+    "lng": -84.513831,
+    "description": null,
+    "description_is_artist_bio": false,
+    "image_url": null,
+    "image_variants": {},
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/projections/kroger-south",
+    "map_url": "https://www.blinkcincinnati.com/map/kroger-south",
+    "blink_location_id": 827,
+    "on_map": true,
+    "notes": "No description published yet (2026-09-24).",
+    "nearest_address_osm": "Kroger Building, 1014 Vine Street, Court Street Historic District, Cincinnati"
+  },
+  {
+    "id": "blink-music-hall",
+    "program": "blink",
+    "title": "Music Hall",
+    "alt_title": null,
+    "artists": [
+      "brett-bolton",
+      "jonas-denzel",
+      "silent-partners-studio",
+      "strangeloop"
+    ],
+    "medium": "projection mapping",
+    "category": "Projections",
+    "zone": "Over the Rhine",
+    "venue_id": "blink-zone-over-the-rhine",
+    "location_text": null,
+    "lat": 39.109566,
+    "lng": -84.518588,
+    "description": null,
+    "description_is_artist_bio": false,
+    "image_url": null,
+    "image_variants": {},
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/projections/music-hall",
+    "map_url": "https://www.blinkcincinnati.com/map/music-hall",
+    "blink_location_id": 794,
+    "on_map": true,
+    "notes": "No description published yet (2026-09-24).",
+    "nearest_address_osm": "Music Hall, 1241 Elm Street, Over-the-Rhine Historic District, Cincinnati"
+  },
+  {
+    "id": "blink-ywca",
+    "program": "blink",
+    "title": "YWCA",
+    "alt_title": null,
+    "artists": [
+      "smash-studio"
+    ],
+    "medium": "projection mapping",
+    "category": "Projections",
+    "zone": "Fountain District",
+    "venue_id": "blink-zone-fountain-district",
+    "location_text": null,
+    "lat": 39.105052,
+    "lng": -84.512426,
+    "description": null,
+    "description_is_artist_bio": false,
+    "image_url": null,
+    "image_variants": {},
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/projections/ywca",
+    "map_url": "https://www.blinkcincinnati.com/map/ywca",
+    "blink_location_id": 833,
+    "on_map": true,
+    "notes": "No description published yet (2026-09-24).",
+    "nearest_address_osm": "Main Library, 800 Vine Street, Court Street Historic District, Cincinnati"
+  },
+  {
+    "id": "blink-kroger-north",
+    "program": "blink",
+    "title": "Kroger North",
+    "alt_title": null,
+    "artists": [],
+    "medium": "projection mapping",
+    "category": "Projections",
+    "zone": "Fountain District",
+    "venue_id": "blink-zone-fountain-district",
+    "location_text": null,
+    "lat": 39.10702,
+    "lng": -84.513967,
+    "description": null,
+    "description_is_artist_bio": false,
+    "image_url": null,
+    "image_variants": {},
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/projections/kroger-north",
+    "map_url": "https://www.blinkcincinnati.com/map/kroger-north",
+    "blink_location_id": 826,
+    "on_map": true,
+    "notes": "No description published yet (2026-09-24).",
+    "nearest_address_osm": "The Kroger Company, 1014 Vine Street, Court Street Historic District, Cincinnati"
+  },
+  {
+    "id": "blink-mural-by-pastel",
+    "program": "blink",
+    "title": "Mural by Pastel",
+    "alt_title": null,
+    "artists": [
+      "pastel"
+    ],
+    "medium": "mural",
+    "category": "Murals",
+    "zone": "Findlay Market",
+    "venue_id": "blink-zone-findlay-market",
+    "location_text": null,
+    "lat": 39.114389,
+    "lng": -84.520489,
+    "description": null,
+    "description_is_artist_bio": false,
+    "image_url": null,
+    "image_variants": {},
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/murals/mural-by-pastel",
+    "map_url": "https://www.blinkcincinnati.com/map/mural-by-pastel",
+    "blink_location_id": 812,
+    "on_map": true,
+    "notes": "No description published yet (2026-09-24).",
+    "nearest_address_osm": "Logan Commons, 1750 Logan Street, Over-the-Rhine, Cincinnati"
+  },
+  {
+    "id": "blink-tobacco-alley-mural",
+    "program": "blink",
+    "title": "Tobacco Alley Mural",
+    "alt_title": null,
+    "artists": [],
+    "medium": "mural",
+    "category": "Murals",
+    "zone": "Covington",
+    "venue_id": "blink-zone-covington",
+    "location_text": null,
+    "lat": 39.086725,
+    "lng": -84.509075,
+    "description": null,
+    "description_is_artist_bio": false,
+    "image_url": null,
+    "image_variants": {},
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/murals/tobacco-alley-mural",
+    "map_url": "https://www.blinkcincinnati.com/map/tobacco-alley-mural",
+    "blink_location_id": 813,
+    "on_map": true,
+    "notes": "No description published yet (2026-09-24).",
+    "nearest_address_osm": "Tobacco Alley, Covington"
+  },
+  {
+    "id": "blink-corner-map",
+    "program": "blink",
+    "title": "Corner Map",
+    "alt_title": null,
+    "artists": [
+      "chaske-haverkos",
+      "ke-jyun-wu"
+    ],
+    "medium": "projection mapping",
+    "category": "Projections",
+    "zone": "Fountain District",
+    "venue_id": "blink-zone-fountain-district",
+    "location_text": null,
+    "lat": 39.102214,
+    "lng": -84.513418,
+    "description": null,
+    "description_is_artist_bio": false,
+    "image_url": null,
+    "image_variants": {},
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/projections/corner-map",
+    "map_url": "https://www.blinkcincinnati.com/map/corner-map",
+    "blink_location_id": 830,
+    "on_map": true,
+    "notes": "No description published yet (2026-09-24).",
+    "nearest_address_osm": "Terrace Plaza, 15 West 6th Street, Main Street Historic District, Cincinnati"
+  },
+  {
+    "id": "blink-insane-51-cool-lighting",
+    "program": "blink",
+    "title": "Insane 51- cool lighting",
+    "alt_title": null,
+    "artists": [],
+    "medium": "projection mapping",
+    "category": "Projections",
+    "zone": "Over the Rhine",
+    "venue_id": "blink-zone-over-the-rhine",
+    "location_text": null,
+    "lat": 39.112826,
+    "lng": -84.518,
+    "description": null,
+    "description_is_artist_bio": false,
+    "image_url": null,
+    "image_variants": {},
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/projections/insane-51-cool-lighting",
+    "map_url": "https://www.blinkcincinnati.com/map/insane-51-cool-lighting",
+    "blink_location_id": 834,
+    "on_map": true,
+    "notes": "No description published yet (2026-09-24).",
+    "nearest_address_osm": "West Liberty Street, Over-the-Rhine Historic District, Cincinnati"
+  },
+  {
+    "id": "blink-shahzia-sikander-mural-mapping",
+    "program": "blink",
+    "title": "Shahzia Sikander mural mapping",
+    "alt_title": null,
+    "artists": [
+      "chaske-haverkos",
+      "1001-colors"
+    ],
+    "medium": "projection mapping",
+    "category": "Projections",
+    "zone": "Fountain District",
+    "venue_id": "blink-zone-fountain-district",
+    "location_text": null,
+    "lat": 39.105611,
+    "lng": -84.516426,
+    "description": null,
+    "description_is_artist_bio": false,
+    "image_url": null,
+    "image_variants": {},
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/projections/shahzia-sikander-mural-mapping",
+    "map_url": "https://www.blinkcincinnati.com/map/shahzia-sikander-mural-mapping",
+    "blink_location_id": 824,
+    "on_map": true,
+    "notes": "No description published yet (2026-09-24). Projection mapping onto a mural by Shahzia Sikander (person id shahzia-sikander), who is in the 2026 artist list.",
+    "nearest_address_osm": "Ira Alley, Court Street Historic District, Cincinnati"
+  },
+  {
+    "id": "blink-mother-of-god",
+    "program": "blink",
+    "title": "Mother of God",
+    "alt_title": null,
+    "artists": [
+      "jeremie-bellot",
+      "jeremy-oury",
+      "leslie-epsztein"
+    ],
+    "medium": "projection mapping",
+    "category": "Projections",
+    "zone": "Covington",
+    "venue_id": "blink-zone-covington",
+    "location_text": null,
+    "lat": 39.084692,
+    "lng": -84.512603,
+    "description": null,
+    "description_is_artist_bio": false,
+    "image_url": null,
+    "image_variants": {},
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/projections/mother-of-god",
+    "map_url": "https://www.blinkcincinnati.com/map/mother-of-god",
+    "blink_location_id": 836,
+    "on_map": true,
+    "notes": "No description published yet (2026-09-24).",
+    "nearest_address_osm": "599 Montgomery Street, Covington"
+  },
+  {
+    "id": "blink-onenky-center",
+    "program": "blink",
+    "title": "OneNKY Center",
+    "alt_title": null,
+    "artists": [],
+    "medium": "projection mapping",
+    "category": "Projections",
+    "zone": "Covington",
+    "venue_id": "blink-zone-covington",
+    "location_text": null,
+    "lat": 39.088881,
+    "lng": -84.508915,
+    "description": null,
+    "description_is_artist_bio": false,
+    "image_url": null,
+    "image_variants": {},
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/projections/onenky-center",
+    "map_url": "https://www.blinkcincinnati.com/map/onenky-center",
+    "blink_location_id": 835,
+    "on_map": true,
+    "notes": "No description published yet (2026-09-24).",
+    "nearest_address_osm": "Court Street;Market Street, Covington"
+  },
+  {
+    "id": "blink-garfield-place-lighting",
+    "program": "blink",
+    "title": "Garfield Place - Lighting",
+    "alt_title": null,
+    "artists": [],
+    "medium": "projection mapping",
+    "category": "Projections",
+    "zone": "Fountain District",
+    "venue_id": "blink-zone-fountain-district",
+    "location_text": null,
+    "lat": 39.104403,
+    "lng": -84.515138,
+    "description": null,
+    "description_is_artist_bio": false,
+    "image_url": null,
+    "image_variants": {},
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/projections/garfield-place--lighting",
+    "map_url": "https://www.blinkcincinnati.com/map/garfield-place--lighting",
+    "blink_location_id": 829,
+    "on_map": true,
+    "notes": "No description published yet (2026-09-24).",
+    "nearest_address_osm": "Frankie's Sips & Savories, 14 Garfield Place, Court Street Historic District, Cincinnati"
+  },
+  {
+    "id": "blink-tristan-eaton-lighting-show",
+    "program": "blink",
+    "title": "Tristan Eaton (lighting show)",
+    "alt_title": "Echoes of Light",
+    "artists": [
+      "the-university-of-cincinnati-college-conservatory-of-music-lighting-design-and-technology",
+      "jacob-kaplan",
+      "lia-lubinsky",
+      "lucy-dunn",
+      "jack-walter",
+      "sharon-huizinga"
+    ],
+    "medium": "projection mapping",
+    "category": "Projections",
+    "zone": "Fountain District",
+    "venue_id": "blink-zone-fountain-district",
+    "location_text": null,
+    "lat": 39.101516,
+    "lng": -84.515682,
+    "description": null,
+    "description_is_artist_bio": false,
+    "image_url": null,
+    "image_variants": {},
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/projections/tristan-eaton-lighting-show",
+    "map_url": "https://www.blinkcincinnati.com/map/tristan-eaton-lighting-show",
+    "blink_location_id": 832,
+    "on_map": true,
+    "notes": "BLINK lists no artist for this item. UC News (2026-08-08, https://www.uc.edu/news/articles/2026/06/ccm-students-create-installation-for-blink-2026.html) says CCM Lighting Design and Technology students are creating \"Echoes of Light\", a lighting display on Tristan Eaton's 2022 mural at Elm Street Plaza, which matches this map point and title. No description published yet (2026-09-24).",
+    "nearest_address_osm": "West 6th Street, West Fourth Street Historic District, Cincinnati"
+  },
+  {
+    "id": "blink-hotel-covington",
+    "program": "blink",
+    "title": "Hotel Covington",
+    "alt_title": null,
+    "artists": [
+      "vamos-animation"
+    ],
+    "medium": "projection mapping",
+    "category": "Projections",
+    "zone": "Covington",
+    "venue_id": "blink-zone-covington",
+    "location_text": null,
+    "lat": 39.083766,
+    "lng": -84.509985,
+    "description": null,
+    "description_is_artist_bio": false,
+    "image_url": null,
+    "image_variants": {},
+    "gallery": [],
+    "sponsor": null,
+    "dates": null,
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/art-and-artists/projections/hotel-covington",
+    "map_url": "https://www.blinkcincinnati.com/map/hotel-covington",
+    "blink_location_id": 841,
+    "on_map": true,
+    "notes": "No description published yet (2026-09-24).",
+    "nearest_address_osm": "Coppin's Restaurant & Bar, 638 Madison Avenue, Covington"
+  }
+]

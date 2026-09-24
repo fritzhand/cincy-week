@@ -1,0 +1,437 @@
+[
+ {
+  "id": "fotofocus",
+  "name": "FotoFocus",
+  "programs": [
+   "fotofocus"
+  ],
+  "relationship": "organizer",
+  "tier": null,
+  "logo_url": null,
+  "url": "https://www.fotofocus.org/",
+  "source_url": "https://www.fotofocus.org/biennial/2026/",
+  "notes": "Logo is an inline SVG in the site header (saved as raw/also/fotofocus_logo_inline.svg). Contact: info@fotofocus.org, (513) 400-4027."
+ },
+ {
+  "id": "ohio-arts-council",
+  "name": "Ohio Arts Council",
+  "programs": [
+   "fotofocus"
+  ],
+  "relationship": "sponsor",
+  "tier": "Programmatic Support",
+  "logo_url": "https://www.fotofocus.org/wp-content/uploads/2026/05/Ohio-Arts-Council.jpg",
+  "url": "https://oac.ohio.gov/",
+  "source_url": "https://www.fotofocus.org/biennial/2026/about#sponsors"
+ },
+ {
+  "id": "luther-foundation",
+  "name": "Luther Foundation",
+  "programs": [
+   "fotofocus"
+  ],
+  "relationship": "sponsor",
+  "tier": "Programmatic Support",
+  "logo_url": "https://www.fotofocus.org/wp-content/uploads/2026/05/Luther-Foundation.jpg",
+  "url": null,
+  "source_url": "https://www.fotofocus.org/biennial/2026/about#sponsors"
+ },
+ {
+  "id": "ohio-humanities",
+  "name": "Ohio Humanities",
+  "programs": [
+   "fotofocus"
+  ],
+  "relationship": "sponsor",
+  "tier": "Programmatic Support",
+  "logo_url": "https://www.fotofocus.org/wp-content/uploads/2026/07/Ohio-Humanities.jpg",
+  "url": "https://www.ohiohumanities.org/connect/alliance/",
+  "source_url": "https://www.fotofocus.org/biennial/2026/about#sponsors"
+ },
+ {
+  "id": "eat-well",
+  "name": "Eat Well",
+  "programs": [
+   "fotofocus"
+  ],
+  "relationship": "partner",
+  "tier": "Partners",
+  "logo_url": "https://www.fotofocus.org/wp-content/uploads/2026/05/Eat-Well.jpg",
+  "url": "https://www.eatwellonline.com",
+  "source_url": "https://www.fotofocus.org/biennial/2026/about#sponsors"
+ },
+ {
+  "id": "spotted-yeti",
+  "name": "Spotted Yeti",
+  "programs": [
+   "fotofocus"
+  ],
+  "relationship": "partner",
+  "tier": "Partners",
+  "logo_url": "https://www.fotofocus.org/wp-content/uploads/2026/05/Spotted-Yeti.jpg",
+  "url": "https://www.spottedyeti.com",
+  "source_url": "https://www.fotofocus.org/biennial/2026/about#sponsors"
+ },
+ {
+  "id": "dot-dash",
+  "name": "Dot Dash",
+  "programs": [
+   "fotofocus"
+  ],
+  "relationship": "partner",
+  "tier": "Partners",
+  "logo_url": "https://www.fotofocus.org/wp-content/uploads/2026/05/Dot-Dash.jpg",
+  "url": "https://dotdash.io",
+  "source_url": "https://www.fotofocus.org/biennial/2026/about#sponsors"
+ },
+ {
+  "id": "lightborne",
+  "name": "Lightborne",
+  "programs": [
+   "fotofocus"
+  ],
+  "relationship": "partner",
+  "tier": "Partners",
+  "logo_url": "https://www.fotofocus.org/wp-content/uploads/2026/05/Lightborne.jpg",
+  "url": "https://lightborne.com",
+  "source_url": "https://www.fotofocus.org/biennial/2026/about#sponsors"
+ },
+ {
+  "id": "bloomberg-connects",
+  "name": "Bloomberg Connects",
+  "programs": [
+   "fotofocus"
+  ],
+  "relationship": "partner",
+  "tier": "Digital guide",
+  "logo_url": null,
+  "url": "https://guides.bloombergconnects.org/en-US/guide/fotoFocus",
+  "source_url": "https://www.fotofocus.org/biennial/2026/",
+  "notes": "FotoFocus digital guide (\"To access supplemental Exhibition content and plan your visit, explore our digital guide\")."
+ },
+ {
+  "id": "artswave",
+  "name": "ArtsWave",
+  "programs": [
+   "also"
+  ],
+  "relationship": "partner",
+  "tier": null,
+  "logo_url": null,
+  "url": "https://artswave.org/",
+  "source_url": "https://artswave.org/what-is-artswave/the-artswave-app/",
+  "notes": "The ArtsWave App: The free ArtsWave App is the Cincinnati region’s arts and entertainment discovery tool. Find Cincy’s most comprehensive events calendar, discover new experiences, get ArtsWave’s weekly event picks, build itineraries and get exclusive offers, all year long and during BLINK® 2026. Download: https://onelink.to/artswaveapp . October + BLINK bonus: the ArtsWave Pass (normally $100 per year) is free throughout BLINK and the entire month of October (50% off 100s of tickets to local arts experiences; free and last-minute ticket offers; restaurant and retail deals); afterwards $9.99/month."
+ },
+ {
+  "id": "cincinnati-art-museum",
+  "name": "Cincinnati Art Museum",
+  "programs": [
+   "also"
+  ],
+  "relationship": "venue",
+  "tier": null,
+  "logo_url": null,
+  "url": "https://www.cincinnatiartmuseum.org/",
+  "source_url": "https://www.cincinnatiartmuseum.org/events/events-list/",
+  "notes": null
+ },
+ {
+  "id": "contemporary-arts-center",
+  "name": "Contemporary Arts Center",
+  "programs": [
+   "also"
+  ],
+  "relationship": "venue",
+  "tier": null,
+  "logo_url": null,
+  "url": "https://www.contemporaryartscenter.org/",
+  "source_url": "https://www.contemporaryartscenter.org/events-programs/calendar",
+  "notes": null
+ },
+ {
+  "id": "taft-museum-of-art",
+  "name": "Taft Museum of Art",
+  "programs": [
+   "also"
+  ],
+  "relationship": "venue",
+  "tier": null,
+  "logo_url": null,
+  "url": "https://www.taftmuseum.org/",
+  "source_url": "https://www.taftmuseum.org/exhibitions/",
+  "notes": null
+ },
+ {
+  "id": "cincinnati-museum-center",
+  "name": "Cincinnati Museum Center",
+  "programs": [
+   "also"
+  ],
+  "relationship": "venue",
+  "tier": null,
+  "logo_url": null,
+  "url": "https://www.cincymuseum.org/",
+  "source_url": "https://www.cincymuseum.org/special-exhibits/",
+  "notes": null
+ },
+ {
+  "id": "kennedy-heights-arts-center",
+  "name": "Kennedy Heights Arts Center",
+  "programs": [
+   "also"
+  ],
+  "relationship": "venue",
+  "tier": null,
+  "logo_url": null,
+  "url": "https://kennedyarts.org/",
+  "source_url": "https://kennedyarts.org/exhibitions/",
+  "notes": null
+ },
+ {
+  "id": "cincinnati-zoo-botanical-garden",
+  "name": "Cincinnati Zoo & Botanical Garden",
+  "programs": [
+   "also"
+  ],
+  "relationship": "venue",
+  "tier": null,
+  "logo_url": null,
+  "url": "https://cincinnatizoo.org/",
+  "source_url": "https://cincinnatizoo.org/events/",
+  "notes": null
+ },
+ {
+  "id": "cincinnati-symphony-orchestra",
+  "name": "Cincinnati Symphony Orchestra / Cincinnati Pops",
+  "programs": [
+   "also"
+  ],
+  "relationship": "organizer",
+  "tier": null,
+  "logo_url": null,
+  "url": "https://www.cincinnatisymphony.org/",
+  "source_url": "https://www.cincinnatisymphony.org/tickets-and-events/",
+  "notes": null
+ },
+ {
+  "id": "cincinnati-arts-association",
+  "name": "Cincinnati Arts Association (Aronoff Center, Music Hall, Weston Art Gallery)",
+  "programs": [
+   "also"
+  ],
+  "relationship": "venue",
+  "tier": null,
+  "logo_url": null,
+  "url": "https://www.cincinnatiarts.org/",
+  "source_url": "https://www.cincinnatiarts.org/events",
+  "notes": null
+ },
+ {
+  "id": "mutual-dance-theatre",
+  "name": "Mutual Dance Theatre",
+  "programs": [
+   "also"
+  ],
+  "relationship": "organizer",
+  "tier": null,
+  "logo_url": null,
+  "url": "https://mutualdance.org/",
+  "source_url": "https://www.cincinnatiarts.org/events/detail/mutual-dance-theatre-presents-south-chicago-dance-theatre",
+  "notes": null
+ },
+ {
+  "id": "urban-native-collective",
+  "name": "Urban Native Collective",
+  "programs": [
+   "also"
+  ],
+  "relationship": "organizer",
+  "tier": null,
+  "logo_url": null,
+  "url": "https://urbannativecollective.org/",
+  "source_url": "https://urbannativecollective.org/ipdc",
+  "notes": "Presents the eighth Indigenous Peoples' Day Convergence, Fri Oct 9 - Mon Oct 12, 2026 (all events free). Address in site footer: 1710 Blue Rock Street, Cincinnati, OH 45223."
+ },
+ {
+  "id": "andrew-j-brady-music-center",
+  "name": "The Andrew J Brady Music Center",
+  "programs": [
+   "also"
+  ],
+  "relationship": "venue",
+  "tier": null,
+  "logo_url": null,
+  "url": "https://bradymusiccenter.com/",
+  "source_url": "https://bradymusiccenter.com/",
+  "notes": null
+ },
+ {
+  "id": "memorial-hall-otr",
+  "name": "Memorial Hall OTR",
+  "programs": [
+   "also"
+  ],
+  "relationship": "venue",
+  "tier": null,
+  "logo_url": null,
+  "url": "https://www.memorialhallotr.com/",
+  "source_url": "https://www.memorialhallotr.com/cincinnati-shows/",
+  "notes": "A collaboration of the Cincinnati Memorial Hall Society, 3CDC, and Hamilton County (site footer). Also the FotoFocus Opening Program venue on Oct 3."
+ },
+ {
+  "id": "heart-of-northside",
+  "name": "Heart of Northside",
+  "programs": [
+   "also"
+  ],
+  "relationship": "venue",
+  "tier": null,
+  "logo_url": null,
+  "url": "https://www.heartofnorthside.org/",
+  "source_url": "https://www.heartofnorthside.org/contact/",
+  "notes": null
+ },
+ {
+  "id": "cincy-bookstore-crawl",
+  "name": "Cincy Bookstore Crawl",
+  "programs": [
+   "also"
+  ],
+  "relationship": "organizer",
+  "tier": null,
+  "logo_url": null,
+  "url": "https://cincybookstorecrawl.com/",
+  "source_url": "https://cincybookstorecrawl.com/crawldetails",
+  "notes": null
+ },
+ {
+  "id": "cincinnati-playhouse-in-the-park",
+  "name": "Cincinnati Playhouse in the Park",
+  "programs": [
+   "also"
+  ],
+  "relationship": "organizer",
+  "tier": null,
+  "logo_url": null,
+  "url": "https://www.cincyplay.com/",
+  "source_url": "https://www.cincyplay.com/",
+  "notes": null
+ },
+ {
+  "id": "cincinnati-shakespeare-company",
+  "name": "Cincinnati Shakespeare Company",
+  "programs": [
+   "also"
+  ],
+  "relationship": "organizer",
+  "tier": null,
+  "logo_url": null,
+  "url": "https://cincyshakes.com/",
+  "source_url": "https://cincyshakes.com/",
+  "notes": null
+ },
+ {
+  "id": "the-childrens-theatre-of-cincinnati",
+  "name": "The Children’s Theatre of Cincinnati",
+  "programs": [
+   "also"
+  ],
+  "relationship": "organizer",
+  "tier": null,
+  "logo_url": null,
+  "url": "https://thechildrenstheatre.com/",
+  "source_url": "https://thechildrenstheatre.com/shows/disney-cameron-mackintoshs-mary-poppins-jr/",
+  "notes": null
+ },
+ {
+  "id": "taft-theatre",
+  "name": "Taft Theatre",
+  "programs": [
+   "also"
+  ],
+  "relationship": "venue",
+  "tier": null,
+  "logo_url": null,
+  "url": "https://tafttheatre.org/",
+  "source_url": "https://tafttheatre.org/events",
+  "notes": null
+ },
+ {
+  "id": "heritage-bank-center",
+  "name": "Heritage Bank Center",
+  "programs": [
+   "also"
+  ],
+  "relationship": "venue",
+  "tier": null,
+  "logo_url": null,
+  "url": "https://www.heritagebankcenter.com/",
+  "source_url": "https://www.heritagebankcenter.com/events",
+  "notes": null
+ },
+ {
+  "id": "findlay-market",
+  "name": "Findlay Market",
+  "programs": [
+   "also"
+  ],
+  "relationship": "venue",
+  "tier": null,
+  "logo_url": null,
+  "url": "https://www.findlaymarket.org/",
+  "source_url": "https://www.findlaymarket.org/events",
+  "notes": null
+ },
+ {
+  "id": "hyde-park-square-art-show-committee",
+  "name": "Hyde Park Square Art Show Committee",
+  "programs": [
+   "also"
+  ],
+  "relationship": "organizer",
+  "tier": null,
+  "logo_url": null,
+  "url": "https://www.hydeparksquare.org/",
+  "source_url": "https://www.hydeparksquare.org/event/hyde-park-square-art-show",
+  "notes": null
+ },
+ {
+  "id": "flying-pig-marathon",
+  "name": "Flying Pig Marathon (Queen Bee Half Marathon)",
+  "programs": [
+   "also"
+  ],
+  "relationship": "organizer",
+  "tier": null,
+  "logo_url": null,
+  "url": "https://flyingpigmarathon.com/",
+  "source_url": "https://flyingpigmarathon.com/queen-bee-half-marathon-weekend/event/queen-bee-half-marathon",
+  "notes": null
+ },
+ {
+  "id": "cincinnati-bengals",
+  "name": "Cincinnati Bengals",
+  "programs": [
+   "also"
+  ],
+  "relationship": "organizer",
+  "tier": null,
+  "logo_url": null,
+  "url": "https://www.bengals.com/",
+  "source_url": "https://www.bengals.com/schedule/",
+  "notes": null
+ },
+ {
+  "id": "the-banks",
+  "name": "The Banks",
+  "programs": [
+   "also"
+  ],
+  "relationship": "organizer",
+  "tier": null,
+  "logo_url": null,
+  "url": "https://thebankscincy.com/",
+  "source_url": "https://thebankscincy.com/event/bengals-pregame-at-the-banks-2/",
+  "notes": null
+ }
+]

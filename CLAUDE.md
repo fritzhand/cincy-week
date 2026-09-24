@@ -12,6 +12,11 @@ TOC, footer), hardened with `fritzhand/quickstart` (QS: fail-before-write, crawl
 search). The visual system is **"Interchange"**: a city paper's special section routed like a transit map
 (each program is a line, each day a station, Thursday Oct 8 the interchange). Owner: Jeremy Fritzhand.
 
+**Status (Sep 24, 2026): built, audited and integrated.** Seven agents built it in parallel lanes (A engine, B design,
+C data, D schedule, E map, F directory, G home and programs), then two QA passes (data accuracy, UX) and an
+integration pass. From here the site is in **maintenance mode**: one maintainer at a time owns the whole tree, and
+most work is correcting or adding records in `data/*.json`. Start with "Maintaining the site during the week" below.
+
 ## The rules that never bend
 
 1. **Never invent a fact.** No invented time, room, price, address, person, quote, count or claim. Every
@@ -25,8 +30,149 @@ search). The visual system is **"Interchange"**: a city paper's special section 
    in generated `style=""`. Program color marks program identity only (DESIGN §3.2).
 5. **Nothing under 12px; touch targets ≥ 44px on phones; every state is a word, never color alone.**
 6. **`docs/` is generated.** Never hand-edit it. Run `node build.mjs` and commit `docs/` with your change.
-7. **Stay in your lane** (ownership table below). If you need a change in someone else's file, say so in
-   your report instead of editing it. `build/core/*` contracts are only extended, never renamed.
+7. **Never rename an id.** Event, work, person and venue ids are in URLs (`?e=`, `people/<id>.html`), in
+   shared My Plan links (5-character codes derived from the id) and in readers' saved plans. Cancel instead of
+   deleting; add instead of renaming. `build/core/*` contracts are only extended (the Changelog at the end of
+   `build/CONTRACTS.md` records every change, including the one removal: `d` moved to `event-text.json`).
+
+## Maintaining the site during the week
+
+### The loop (every change, however small)
+
+1. **Find the record.** The id is in the page URL: `schedule.html?e=<event id>`, `people/<id>.html`,
+   `venues/<id>.html`, `art.html?w=<work id>`, `partners.html#o-<org id>`. Then `grep -n '"id": "<id>"' data/*.json`.
+2. **Check the fact at its source** (the organizer's page, not a repost). No source, no change.
+3. **Edit `data/<file>.json`.** Keep `source_url` pointing at the page that now states the fact. Record why in the
+   record's `notes` (never rendered), e.g. `"notes": "2026-10-06: start 18:00 → 18:30 per the BLINK schedule page"`.
+4. **Build and read every line:** `node build.mjs`. Errors name `data/<file>.json#<id>.<field>`; fix them and
+   rebuild. `docs/` is only replaced when there are no errors. Warnings are listed (grouped); a new one is worth reading.
+5. **Test:** `npm test` (about 30 s).
+6. **Look:** `npm run dev`, open the page you changed at http://localhost:8000/cincy-week/ (add
+   `?now=2026-10-08T19:30` for the during-the-week states), or run the audit:
+   `NODE_PATH=<global node_modules> node scripts/shots.mjs --pages schedule,index` (overflow, text under 12px, targets
+   under 44px, console errors; PNGs in `.cache/shots/`).
+7. **Commit `data/` and `docs/` together** on `main` (the `test.yml` check fails when `docs/` was not rebuilt).
+   Publishing follows from the push (see Deploy).
+
+`data/*.json` is the source of truth now. The research it was merged from is a frozen snapshot in `research/` (see
+"Regenerating data/" below), kept for provenance: never try to fix a record by re-running the merge.
+
+### Correct an event (time, date, room, venue, price)
+
+Fields (`build/core/schema.mjs` → `events`): `date` `YYYY-MM-DD`; `start`/`end` `HH:MM`, 24-hour New York time
+(`end: null` when the source gives none: pages say "end time not listed"; an end before the start means after
+midnight and must be ≤ 06:00); `room`; `venue_id` (an id in `venues.json`) or `location_text`; `cost` (the source's
+words) and `is_free` (`true`/`false`/`null`, never inferred from `cost`); `registration_url`; `time_text` (the source's
+own wording when it is vague). An approximate time gets the tag `approximate-time` in `tags`: pages print "About 7:00 PM".
+- **Several days:** `date` + `end_date` (a run: an exhibition, a nightly show). When hours differ by day or days are
+  skipped, list them in `occurrences: [{ date, start, end }]` (only days inside `dataWindow` in `site.config.json`,
+  Sep 26–Oct 18). `hours_text` holds opening hours the source gives as prose ("Tue–Sun 11–5").
+- **Cancelled:** `"status": "cancelled"`. Do not delete the record: the card and dialog say "Cancelled", it leaves
+  the counts, "Now" and the live pill, and saved plans and links keep working.
+- **Changed at short notice:** update the fields and set `"status": "changed"` (a "Changed" badge) for the rest of the day.
+
+### Add an event
+
+Append a record to `data/events.json` (order does not matter; the build sorts):
+```json
+{
+  "id": "blink-2026-10-09-example-talk",
+  "program": "blink", "title": "Exact title from the source", "kind": "talk",
+  "date": "2026-10-09", "start": "18:00", "end": null,
+  "venue_id": "court-street-plaza", "room": null, "location_text": null,
+  "description": "Verbatim from the source; paragraphs separated by a blank line (\n\n).",
+  "people": ["person-id"], "people_roles": { "person-id": "Moderator" },
+  "cost": null, "is_free": true, "registration_url": null,
+  "tags": [], "source_url": "https://www.blinkcincinnati.com/…"
+}
+```
+- `id`: lowercase, hyphens, **starts with its program** (`caw- scw- blink- fotofocus- also-`), unique across
+  `events.json` and `works.json`. `kind` is one of `keynote panel workshop fireside networking party pitch exhibition
+  installation performance talk tour market screening other`.
+- People without a person record go in `credits: [{ "role": "Artists", "names": ["…"] }]` (plain text, searchable).
+- `featured: true` only when the organizer features it: it feeds the home page's highlights and day summaries.
+
+### Add or correct a person
+
+`data/people.json`: `id` (the name, slugified), `name`, `roles` (`speaker artist curator performer moderator organizer
+judge host founder panelist facilitator mentor`), `programs`, `title`, `org`, `bio` (verbatim), `headshot_url` (the
+image on the organizer's page), `location`, `links` (`website instagram linkedin x …`), `source_url`, `also_sources`
+(other pages the bio or photo came from). Roles and programs are merged with what their events and works imply, so
+linking is done from the event: add the person's id to `events[].people` (and a role label in `people_roles`) or to
+`works[].artists`. A person with no event, work or bio gets a "people with nothing to show" warning.
+- **Headshot:** set `headshot_url`, then `python3 scripts/fetch-images.py` (Pillow needed; incremental; writes
+  `site/img/p/<id>.webp` + `data/images.json`), then build. Check the crop on the person page.
+- **Remove a person:** delete the record and every reference to the id (the build lists each dangling one).
+- **Takedown request** (a photo or bio someone wants removed): set `headshot_url` (or `bio`) to `null`, run
+  `python3 scripts/fetch-images.py --offline` (drops the manifest entry and the file), build, commit. Same for
+  `orgs[].logo_url` and `works[].image_url`.
+
+### Add a sponsor or partner
+
+`data/orgs.json`: `id`, `name`, `roles: [{ "program": "blink", "relationship": "sponsor", "tier": "the program's own
+tier label", "tier_rank": 1 }]` (`relationship`: `presenting sponsor sponsor partner organizer founding partner media
+partner venue community partner funder`; `tier_rank` 1 is the top tier and orders the wall), `logo_url`, `url`,
+`source_url`. Then `python3 scripts/fetch-images.py` for the logo. If a logo lands on the wrong plate (dark ink on
+black), add its id to `TONE_OVERRIDE` in `scripts/fetch-images.py` and re-run with `--force`.
+
+### Add or fix a venue
+
+`data/venues.json`: `id`, `name`, `kind` (`venue zone gallery studio museum hotel park street bar restaurant outdoor
+other`), `address`, `city`, `state`, `zip`, `hood` (a `places.json` id with `kind: "neighborhood"`) or free-text
+`neighborhood` (resolved through `aliases.json`), `lat`/`lng` (both or neither; take them from OpenStreetMap),
+`url`, `accessibility`, `source_url`. **Append new venues at the end:** map pin numbers are assigned in file order
+to venues on the basemap, so inserting one in the middle renumbers the pins after it. A venue without coordinates
+prints "Address unconfirmed · not on the map" and gets a warning; that is correct when the organizers give no place.
+
+### Other records
+
+- **Where to stay** (`stays.json`): `room_block` only for a published block (`group_code`, `rate`, `deadline`,
+  `booking_url`, `status`, e.g. "Closed: block full (checked Oct 2, 2026)"); `booking_portal` for BLINK's portal hotels.
+- **FAQ** (`faqs.json`): `q` and `a` verbatim, `topic` = the source's own heading. **Facts** (`facts.json`): `label`,
+  `value`, `as_of`, `source`, `quote` (the sentence it rests on). The home stat tiles use the ids in `HOME_FACTS`
+  (`build/pages/home.mjs`).
+- **Program pages** (`programs.json`): `tickets[].details` is shown (the organizer's words); `tickets[].notes` never is.
+
+### News
+
+`refresh-news.yml` runs `scripts/fetch-cincy-news.py` on a schedule (daily in September, every 6 hours Oct 1–12,
+daily to Oct 31), rebuilds, commits `data/news.json` + `docs/` and deploys. By hand: `python3 scripts/fetch-cincy-news.py`
+(`--dry-run` to preview), then build. Only allowlisted outlets and headlines that name a program get in (the
+allowlist and queries are at the top of the script). A curated item is added by hand to `data/news.json` (`id`,
+`title`, `source`, `date`, `url`, `programs`, `summary`: one factual line of our own or `null`, `kind`); the fetcher never
+changes curated items, and both writers keep the file sorted newest first, then by title.
+
+### Images
+
+`python3 scripts/fetch-images.py` downloads what `headshot_url`, `logo_url`, `programs[].logo.url` and
+`works[].image_url` point at, once, and writes small WebP/SVG copies to `site/img/{p,o,w}/` and the manifest
+`data/images.json`. Flags: `--retry-failed` (earlier failures), `--force` (reprocess cached originals),
+`--offline` (no network), `--only p/<id>,o/<id>` (just those). Originals are cached in `.cache/img-src/` (gitignored,
+262 MB); without that cache a `--force` run re-downloads. Never hotlink; the build fails on a manifest file that does not exist.
+
+### The clock, the week and the phases
+
+`site.config.json` holds `week` (Oct 3–11), `dataWindow` (Sep 26–Oct 18) and the time zone. Before Oct 3 the home
+page counts down; during the week it shows "At this hour" and the live pill; after Oct 12 05:00 ET it switches to
+the "after" state. Nothing needs rebuilding for these: the client reads the clock. Test any moment with
+`?now=2026-10-08T19:30` on localhost (or after `localStorage.setItem("cw-debug","1")` on the live site).
+
+### Regenerating data/ (rarely; read this first)
+
+`scripts/merge-research.mjs` merged the eight research slices into `data/` once. The research is kept in the repo as
+a frozen Sep 24, 2026 snapshot in `research/` (one folder per slice, each with its JSON, parser reports and
+`SCHEMA.md` at the top, plus the Nominatim cache `research/geocode.json`), so every record's provenance survives.
+`node scripts/merge-research.mjs --offline` reproduces today's `data/` byte for byte from it. Re-running it
+**replaces data/** and loses every hand edit made since, so after Sep 24 correct records by hand as above and never
+re-run the merge to fix a record. If a regeneration is ever needed, run it, then `git diff data/` and re-apply the
+hand edits (their `notes` say what and why). Its judgment calls are named tables (`QA_*`, `PERSON_MERGES` …) logged in
+`data/README.md`. The raw page captures behind the research (about 640 MB) were not kept.
+
+### What lives in .cache/ (gitignored, never committed)
+
+`geocode.json` (Nominatim cache for new lookups when `research/geocode.json` is absent), `img-src/` (image originals), `osm/`
+(Overpass responses for `scripts/build-basemap.mjs`), `shots/` (audit screenshots), `out-*/` (private builds). None
+of it is needed to build the site; each is needed only to re-run the script that made it.
 
 ## Commands
 
@@ -37,10 +183,14 @@ npm run dev                         # build, then serve docs/ at http://localhos
 NODE_PATH=/opt/node22/lib/node_modules node scripts/shots.mjs [--pages a,b] [--now 2026-10-08T16:40] [--states] [--full]
 NODE_PATH=/opt/node22/lib/node_modules node scripts/og.mjs && node build.mjs    # social cards (site/og*.png)
 
-# working in parallel (domain agents): never write the shared docs/ — build, serve and shoot a private copy
-CW_OUT=.cache/out-d node build.mjs
-CW_OUT=.cache/out-d PORT=8124 node scripts/serve.mjs          # http://localhost:8124/cincy-week/
-CW_OUT=.cache/out-d NODE_PATH=/opt/node22/lib/node_modules node scripts/shots.mjs --pages schedule --states
+python3 scripts/fetch-cincy-news.py [--dry-run]    # news → data/news.json (then build)
+python3 scripts/fetch-images.py [--retry-failed]    # images → site/img + data/images.json (then build)
+node scripts/merge-research.mjs --check             # validate a regeneration without writing (reads research/)
+
+# a private build next to docs/ (for trying something without touching docs/, or two people at once)
+CW_OUT=.cache/out-me node build.mjs
+CW_OUT=.cache/out-me PORT=8124 node scripts/serve.mjs         # http://localhost:8124/cincy-week/
+CW_OUT=.cache/out-me NODE_PATH=/opt/node22/lib/node_modules node scripts/shots.mjs --pages schedule --states
 ```
 **`build/CONTRACTS.md` is the exact API reference** (page modules, `ctx`, `db`, components, markup, client
 `app`, JSON outputs, deep-link values, tests). Read it before coding a domain module.
@@ -53,7 +203,7 @@ with `?now=2026-10-08T16:40` (New York time); it works on localhost, or anywhere
 ```
 site.config.json        siteName, siteTagline, siteBase, pathPrefix (/cincy-week/), repo, author, timezone,
                         week {start,end}, dataWindow {start,end}, analyticsId (empty = no analytics)
-data/*.json             the single source of truth (shapes below; provisional fixture until Agent C lands)
+data/*.json             the single source of truth (shapes below; data/README.md = provenance and merge log)
 build.mjs               orchestrator: config → load+validate → tokens/CSS lint → page modules → render into
                         docs.tmp/ → crawl → atomic swap to docs/
 build/nav.mjs           the navigation: NAV (5 numbered sections), PROGRAM_PAGES, DOCK, PARAMS (accepted query keys)
@@ -70,21 +220,25 @@ tests/                  node:test suites + tests/fixtures/mini (the fixture ever
 docs/                   GENERATED — what Pages serves (docs/assets holds css, js, fonts, img, map, data/*.json)
 ```
 
-## File ownership (engine spec §5.1, as landed)
+## Who built what (and who maintains it now)
 
-| Agent | Owns |
+Since the integration pass (Sep 24) the **maintainer owns every file**; there are no lanes to respect. The table
+records where each part came from, so you know whose header comments and tests describe it. Every file's header
+names its original owner.
+
+| Built by | Files |
 |---|---|
-| **A · Core engine** | `build.mjs`, `build/nav.mjs`, `build/core/*` (except the two below), `build/pages/_stub.mjs`, `site/js/main.js`, `site/js/core/*` (except the two below), `site/js/lib/{time,filters,search,share,text}.js`, `site/css/{00-base,10-shell,20-content,80-dialogs,90-pages,99-print}.css`, `scripts/{serve,shots}.mjs`, `tests/build.test.mjs`, `tests/helpers.mjs`, `tests/{time,filters,search,share}.test.mjs`, `tests/fixtures/mini/*`, `build/CONTRACTS.md`, `.github/workflows/*`, `package.json`, `CLAUDE.md`, `README.md`, `.gitignore` |
-| **B · Design system** | `site/css/tokens.css`, `site/fonts/*`, `site/favicon.svg`, `site/img/brand/*`, `scripts/og.mjs`, `site/og*.png` (landed by A from design/final) |
-| **C · Data** | `scripts/merge-research.mjs`, `data/*.json` except `images.json`, `map.json`, `news.json`; `data/aliases.json`; `data/README.md` |
-| **D · Schedule & plan** | `build/pages/{schedule,plan}.mjs`, `build/components/event-card.mjs`, `site/js/features/{schedule,plan}.js`, `site/js/core/event-dialog.js`*, `site/js/lib/ics.js`, `site/css/{40-schedule,41-plan,81-event-dialog}.css`, `tests/ics.test.mjs` |
+| **A · Core engine** (and the integrator) | `build.mjs`, `build/nav.mjs`, `build/core/*` (except the two below), `build/pages/_stub.mjs`, `site/js/main.js`, `site/js/core/*` (except the two below), `site/js/lib/{time,filters,search,share,text}.js`, `site/css/{00-base,10-shell,20-content,80-dialogs,90-pages,99-print}.css`, `scripts/{serve,shots}.mjs`, `tests/build.test.mjs`, `tests/helpers.mjs`, `tests/{time,filters,search,share,integration}.test.mjs`, `tests/fixtures/mini/*`, `build/CONTRACTS.md`, `.github/workflows/*`, `package.json`, `CLAUDE.md`, `README.md`, `.github/screenshots/*`, `.gitignore` |
+| **B · Design system** | `site/css/tokens.css`, `site/fonts/*`, `site/favicon.svg`, `site/img/brand/*`, `scripts/og.mjs`, `site/og*.png` |
+| **C · Data** | `scripts/merge-research.mjs`, `scripts/merge-lib.mjs`, `data/*.json` except `images.json`, `map.json`, `news.json`; `data/aliases.json`; `data/README.md`; `tests/data.test.mjs` |
+| **D · Schedule & plan** | `build/pages/{schedule,plan}.mjs`, `build/components/event-card.mjs`, `site/js/features/{schedule,plan}.js`, `site/js/core/event-dialog.js`*, `site/js/lib/{ics,agenda}.js`, `site/css/{40-schedule,41-plan,81-event-dialog}.css`, `tests/{ics,agenda,schedule}.test.mjs` |
 | **E · Map, venues & visit** | `scripts/build-basemap.mjs`, `site/map/*`, `data/map.json`, `site/js/lib/geo.js`, `site/js/features/map.js`, `build/components/venue-card.mjs`, `build/pages/{map,venues,visit}.mjs`, `site/css/{50-map,51-venues,70-visit}.css`, `tests/geo.test.mjs` |
-| **F · Directory** | `scripts/fetch-images.py`, `site/img/{p,o,w}/`, `data/images.json`, `build/core/images.mjs`*, `build/components/{person-card,work-card,org-logo}.mjs`, `build/pages/{people,art,partners}.mjs`, `site/js/features/directory.js`, `site/js/core/work-dialog.js`*, `site/css/{60-directory,61-person}.css` |
-| **G · Home, programs & info** | `build/pages/{home,program,news,faq,about}.mjs`, `site/js/features/{home,faq}.js`, `scripts/fetch-cincy-news.py`, `data/news.json`, `site/css/{30-home,31-program,85-news,86-faq}.css` |
+| **F · Directory** | `scripts/fetch-images.py`, `site/img/{p,o,w}/`, `data/images.json`, `build/core/images.mjs`*, `build/components/{person-card,work-card,org-logo}.mjs`, `build/pages/{people,art,partners,_directory}.mjs`, `site/js/features/directory.js`, `site/js/lib/directory.js`, `site/js/core/work-dialog.js`*, `site/css/{60-directory,61-person,62-art}.css`, `tests/directory.test.mjs` |
+| **G · Home, programs & info** | `build/pages/{home,program,news,faq,about}.mjs`, `site/js/features/{home,faq,news,progdays}.js`, `site/js/lib/{week,athour}.js`, `scripts/fetch-cincy-news.py`, `data/news.json`, `site/css/{30-home,31-program,85-news,86-faq}.css`, `tests/{home,week,athour}.test.mjs` |
+| **QA passes** | `tests/qa-data.test.mjs` (data-accuracy audit), `tests/qa-ux.test.mjs` (UX audit); their write-ups are `.cache/qa-data.md` and `.cache/qa-ux.md` (local only) |
 
-\* lives under `core/` for path reasons; owned by the listed agent. Every stub says so in its header.
-The CSS partials keep the design's numbering (00…90); mixed-ownership design files were split so no two
-agents share a file. Each partial's header names its owner. New partials: `NN-name.css`, in your range.
+\* lives under `core/` for path reasons. The CSS partials keep the design's numbering (00…99) and are concatenated
+in name order; a new partial is `NN-name.css`. Tokens (colors, fonts, sizes) only ever change in `tokens.css`.
 
 ## Contracts (code against these)
 
@@ -159,7 +313,8 @@ festival day; multi-day items expand to one instance per day inside `dataWindow`
 clear, list, count, subscribe, refresh }, modal: { show(el, { trigger, focus, onClose }), hide(), current() },
 toast(text, { link, ms }), status: { update(now, root), statusOf }, share({ title, text, url }), copyText,
 openEvent(id), openWork(id), openSearch(trigger, q) }`.
-- `assets/data/events.json` / `works.json` shapes: header of `build/core/client-data.mjs`.
+- `assets/data/events.json` / `event-text.json` (descriptions, loaded on first dialog open or .ics export) /
+  `works.json` shapes: header of `build/core/client-data.mjs`.
 - `assets/data/search.json`: `{ v: 1, items: [{ k, id, t, s, u, p, g, i, st, en }] }`; kinds `ev pe wo ve pr pg or fq pl st nw`.
 - Storage keys (`cw-theme cw-rail cw-plan cw-prefs cw-seen-shared cw-debug`): header of `site/js/core/store.js`.
 - Live state: any element with `data-s`/`data-e` gets `data-status` (upcoming | soon | live | started | past) and a
@@ -185,15 +340,17 @@ Program bullets: `<svg class="bullet"><use href="#b-caw"/></svg>` (via `h.bullet
 sprite is inline once per page; unknown icon names fail the build).
 
 ### Where things go (per domain)
-- CSS: your partial(s) in `site/css/` (ownership table); tokens only. Need a new token? Ask B (tokens.css).
+- CSS: the partial that styles that part (table above); tokens only. A new color or size is a new token in `tokens.css`
+  (light and dark blocks both).
 - Client JS: `site/js/features/<name>.js` exporting `init(app)`, listed in your page's `features`; pure logic in
   `site/js/lib/<name>.js` with a `tests/<name>.test.mjs`.
 - Build: your `build/pages/*.mjs` and `build/components/*.mjs`. Deep links must use the params in `PARAMS`
   (`build/nav.mjs`) with values that exist (`paramValues`: `p=` a program, `e=` an event, `day=` a day…);
-  a new param is a one-line addition there (A). `k=` takes kind groups or single kinds (cards carry `data-k`).
-- Tests: your own `tests/<domain>.test.mjs` using `tests/helpers.mjs` (never edit `build.test.mjs`).
+  a new param is a one-line addition there. `k=` takes kind groups or single kinds (cards carry `data-k`).
+- Tests: `tests/<area>.test.mjs` using `tests/helpers.mjs` (build tests run on a copy with `tests/fixtures/mini` as
+  data, so they never touch `data/` or `docs/`). Tests that read the real `data/` skip when it is not the merged data.
 
-## Data rules (for Agent C and anyone adding a record)
+## Data rules (for anyone adding or correcting a record)
 
 Shapes: engine spec §4.3, enforced field by field in `build/core/schema.mjs` (unknown keys fail, listing
 the allowed ones; `notes` is allowed everywhere and never rendered). Highlights:

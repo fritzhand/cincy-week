@@ -1,0 +1,1391 @@
+[
+ {
+  "id": "artswave",
+  "name": "ArtsWave",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "presenting sponsor",
+  "tier": "Illuminated by",
+  "tiers": [
+   "Illuminated by"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/arts-wave2.jpg",
+  "url": "https://artswave.org/",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 1,
+  "notes": "Logo alt text on the page: \"Arts wave2\". Logo file is white artwork on black, 734x530 JPG. On the sponsors page the logo links to ArtsWave's donation page (artswave.givenow.stratuslive.com).",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "city-of-cincinnati",
+  "name": "City of Cincinnati",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "sponsor",
+  "tier": "Aurora Sponsors",
+  "tiers": [
+   "Aurora Sponsors"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/city-of-cincinnati.jpg",
+  "url": "https://www.cincinnati-oh.gov/cityofcincinnati/",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 2,
+  "notes": "Logo alt text on the page: \"City of cincinnati\". Logo file is white artwork on black, 734x530 JPG.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "meetnky",
+  "name": "meetNKY",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "sponsor",
+  "tier": "Aurora Sponsors",
+  "tiers": [
+   "Aurora Sponsors",
+   "Madison Walls Mural Sponsor"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/meetnkylogo.jpg",
+  "url": "https://www.meetnky.com/",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 3,
+  "notes": "Logo alt text on the page: \"Meetnkylogo\". Logo file is white artwork on black, 1146x858 JPG. Listed twice: Aurora Sponsors and Madison Walls Mural Sponsor.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "carol-ann-and-ralph-v-haile-jr-foundation",
+  "name": "Carol Ann and Ralph V. Haile, Jr. Foundation",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "founding partner",
+  "tier": "Philanthropic Founding Partner",
+  "tiers": [
+   "Philanthropic Founding Partner",
+   "Footer: Executive Partners"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/hailefoundation.jpg",
+  "url": "https://www.hailefoundation.org/",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 4,
+  "notes": "Logo alt text on the page: \"Hailefoundation\". Logo file is white artwork on black, 734x530 JPG. Also shown in the site footer under \"Executive Partners\" with logo https://blinkcincinnati.b-cdn.net/images/partners/carol-ann-ralph-v-haile-jr-foundation.png.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "p-and-g",
+  "name": "P&G",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "sponsor",
+  "tier": "Zone Sponsors",
+  "tiers": [
+   "Zone Sponsors"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/pg.jpg",
+  "url": "https://us.pg.com/",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 5,
+  "notes": "Logo alt text on the page: \"Pg\". Logo file is white artwork on black, 734x530 JPG.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "fifth-third",
+  "name": "Fifth Third",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "sponsor",
+  "tier": "Zone Sponsors",
+  "tiers": [
+   "Zone Sponsors"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/fifththirdlogo.jpg",
+  "url": "https://www.53.com/content/fifth-third/en.html",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 6,
+  "notes": "Logo alt text on the page: \"Fifththirdlogo\". Logo file is white artwork on black, 932x696 JPG.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "hamilton-county-board-of-county-commissioners",
+  "name": "Hamilton County Board of County Commissioners",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "sponsor",
+  "tier": "Zone Sponsors",
+  "tiers": [
+   "Zone Sponsors"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/ham-co-commissioners3.jpg",
+  "url": "https://www.hamiltoncountyohio.gov/",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 7,
+  "notes": "Logo alt text on the page: \"Ham co commissioners3\". Logo file is white artwork on black, 734x530 JPG.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "western-and-southern-financial-group",
+  "name": "Western & Southern Financial Group",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "sponsor",
+  "tier": "Zone Sponsors",
+  "tiers": [
+   "Zone Sponsors",
+   "Glow Sponsors"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/westernsouthernlogo.jpg",
+  "url": null,
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 8,
+  "notes": "Logo alt text on the page: \"Westernsouthernlogo\". Logo file is white artwork on black, 734x548 JPG. Listed twice: Zone Sponsors and Glow Sponsors. The 2026 zone map image labels \"BLINK at Lytle Park\" as presented with support from Western & Southern Financial Group.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "the-johnson-foundation",
+  "name": "The Johnson Foundation",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "sponsor",
+  "tier": "Market Walls Mural Sponsor",
+  "tiers": [
+   "Market Walls Mural Sponsor"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/the-johnson-foundation.jpg",
+  "url": "https://www.johnson-foundation.org/",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 9,
+  "notes": "Logo alt text on the page: \"The johnson foundation\". Logo file is white artwork on black, 734x530 JPG.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "kroger",
+  "name": "Kroger",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "sponsor",
+  "tier": "Radiance Sponsors",
+  "tiers": [
+   "Radiance Sponsors"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/kroger2.jpg",
+  "url": "https://www.kroger.com/",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 10,
+  "notes": "Logo alt text on the page: \"Kroger2\". Logo file is white artwork on black, 734x530 JPG.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "duke-energy",
+  "name": "Duke Energy",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "sponsor",
+  "tier": "Glow Sponsors",
+  "tiers": [
+   "Glow Sponsors"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/duke-energy.jpg",
+  "url": "https://www.duke-energy.com/home",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 11,
+  "notes": "Logo alt text on the page: \"Duke energy\". Logo file is white artwork on black, 734x530 JPG.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "jacob-g-schmidlapp-trusts-fifth-third-bank-trustee",
+  "name": "Jacob G. Schmidlapp Trusts (Fifth Third Bank, Trustee)",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "sponsor",
+  "tier": "Glow Sponsors",
+  "tiers": [
+   "Glow Sponsors"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/schmidlapplogo.jpg",
+  "url": "https://www.53.com/content/fifth-third/en/media-center/press-releases/2023/press-release-2023-10-10.html",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 12,
+  "notes": "Logo alt text on the page: \"Schmidlapplogo\". Logo file is white artwork on black, 1292x966 JPG.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "greater-cincinnati-foundation",
+  "name": "Greater Cincinnati Foundation",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "sponsor",
+  "tier": "Luminary Sponsors",
+  "tiers": [
+   "Luminary Sponsors"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/greatercincinnatifoundation.jpg",
+  "url": "https://www.gcfdn.org/",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 13,
+  "notes": "Logo alt text on the page: \"Greatercincinnatifoundation\". Logo file is white artwork on black, 734x530 JPG.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "cvg-airport",
+  "name": "CVG Airport",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "sponsor",
+  "tier": "Luminary Sponsors",
+  "tiers": [
+   "Luminary Sponsors"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/cvglogo.jpg",
+  "url": "https://www.cvgairport.com/",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 14,
+  "notes": "Logo alt text on the page: \"Cvglogo\". Logo file is white artwork on black, 932x696 JPG.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "american-financial-group-inc",
+  "name": "American Financial Group, Inc.",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "sponsor",
+  "tier": "Luminary Sponsors",
+  "tiers": [
+   "Luminary Sponsors"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/americanfinancialgrouplogo.jpg",
+  "url": null,
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 15,
+  "notes": "Logo alt text on the page: \"Americanfinancialgrouplogo\". Logo file is white artwork on black, 932x696 JPG.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "visit-cincy",
+  "name": "Visit Cincy",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "sponsor",
+  "tier": "Luminary Sponsors",
+  "tiers": [
+   "Luminary Sponsors"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/visit-cincy.jpg",
+  "url": "https://www.visitcincy.com/",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 16,
+  "notes": "Logo alt text on the page: \"Visit cincy\". Logo file is white artwork on black, 734x530 JPG.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "h-b-e-w-and-f-r-luther-foundation",
+  "name": "H.B., E.W. & F.R. Luther Foundation",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "sponsor",
+  "tier": "Luminary Sponsors",
+  "tiers": [
+   "Luminary Sponsors"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/lutherfoundationlogo.jpg",
+  "url": null,
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 17,
+  "notes": "Logo alt text on the page: \"Lutherfoundationlogo\". Logo file is white artwork on black, 932x696 JPG.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "merus",
+  "name": "Merus",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "sponsor",
+  "tier": "Luminary Sponsors",
+  "tiers": [
+   "Luminary Sponsors"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/merus2.jpg",
+  "url": null,
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 18,
+  "notes": "Logo alt text on the page: \"Merus2\". Logo file is white artwork on black, 734x530 JPG.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "scripps",
+  "name": "Scripps",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "sponsor",
+  "tier": "Beacon Sponsors",
+  "tiers": [
+   "Beacon Sponsors"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/scripps2.jpg",
+  "url": "https://scripps.com/",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 19,
+  "notes": "Logo alt text on the page: \"Scripps2\". Logo file is white artwork on black, 734x530 JPG.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "the-bob-and-jeanne-coughlin-foundation",
+  "name": "The Bob & Jeanne Coughlin Foundation",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "sponsor",
+  "tier": "Beacon Sponsors",
+  "tiers": [
+   "Beacon Sponsors"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/bobcoughlin.jpg",
+  "url": null,
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 20,
+  "notes": "Logo alt text on the page: \"Bobcoughlin\". Logo file is white artwork on black, 734x530 JPG.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "corporex",
+  "name": "Corporex",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "sponsor",
+  "tier": "Beacon Sponsors",
+  "tiers": [
+   "Beacon Sponsors"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/corporexlogo.jpg",
+  "url": null,
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 21,
+  "notes": "Logo alt text on the page: \"Corporexlogo\". Logo file is white artwork on black, 932x696 JPG.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "altafiber",
+  "name": "altafiber",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "sponsor",
+  "tier": "Beacon Sponsors",
+  "tiers": [
+   "Beacon Sponsors"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/altafiber2.jpg",
+  "url": null,
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 22,
+  "notes": "Logo alt text on the page: \"Altafiber2\". Logo file is white artwork on black, 734x530 JPG.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "skyline-chili",
+  "name": "Skyline Chili",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "sponsor",
+  "tier": "Beacon Sponsors",
+  "tiers": [
+   "Beacon Sponsors"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/skyline3.jpg",
+  "url": null,
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 23,
+  "notes": "Logo alt text on the page: \"Skyline3\". Logo file is white artwork on black, 734x530 JPG.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "ikea",
+  "name": "IKEA",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "sponsor",
+  "tier": "Beacon Sponsors",
+  "tiers": [
+   "Beacon Sponsors"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/ikealogo.jpg",
+  "url": null,
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 24,
+  "notes": "Logo alt text on the page: \"Ikealogo\". Logo file is white artwork on black, 932x696 JPG.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "towne-properties",
+  "name": "Towne Properties",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "sponsor",
+  "tier": "Beacon Sponsors",
+  "tiers": [
+   "Beacon Sponsors"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/towne-properties.jpg",
+  "url": null,
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 25,
+  "notes": "Logo alt text on the page: \"Towne properties\". Logo file is white artwork on black, 734x530 JPG.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "cincinnati-parks-foundation",
+  "name": "Cincinnati Parks Foundation",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "sponsor",
+  "tier": "Beacon Sponsors",
+  "tiers": [
+   "Beacon Sponsors"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/cincinnati-parks-foundation2.jpg",
+  "url": "https://www.cincinnatiparksfoundation.org/",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 26,
+  "notes": "Logo alt text on the page: \"Cincinnati parks foundation2\". Logo file is white artwork on black, 734x530 JPG.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "millstone-fund",
+  "name": "Millstone Fund",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "sponsor",
+  "tier": "Beacon Sponsors",
+  "tiers": [
+   "Beacon Sponsors"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/millstonefundlogo.jpg",
+  "url": null,
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 27,
+  "notes": "Logo alt text on the page: \"Millstonefundlogo\". Logo file is white artwork on black, 526x392 JPG.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "the-louise-taft-semple-foundation",
+  "name": "The Louise Taft Semple Foundation",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "sponsor",
+  "tier": "Beacon Sponsors",
+  "tiers": [
+   "Beacon Sponsors"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/louisetaftsemplefoundation.jpg",
+  "url": "https://ignitephilanthropy.com/lts/",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 28,
+  "notes": "Logo alt text on the page: \"Louisetaftsemplefoundation\". Logo file is white artwork on black, 734x530 JPG.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "national-endowment-for-the-arts",
+  "name": "National Endowment for the Arts",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "sponsor",
+  "tier": "Beacon Sponsors",
+  "tiers": [
+   "Beacon Sponsors"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/nationalendowment.jpg",
+  "url": null,
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 29,
+  "notes": "Logo alt text on the page: \"Nationalendowment\". Logo file is white artwork on black, 734x530 JPG.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "the-harry-t-wilks-family-foundation",
+  "name": "The Harry T. Wilks Family Foundation",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "sponsor",
+  "tier": "Twilight Sponsors",
+  "tiers": [
+   "Twilight Sponsors"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/harrytwilks.jpg",
+  "url": null,
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 30,
+  "notes": "Logo alt text on the page: \"Harrytwilks\". Logo file is white artwork on black, 734x530 JPG.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "richter-and-phillips",
+  "name": "Richter & Phillips",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "sponsor",
+  "tier": "Twilight Sponsors",
+  "tiers": [
+   "Twilight Sponsors"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/richterphillips.jpg",
+  "url": null,
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 31,
+  "notes": "Logo alt text on the page: \"Richterphillips\". Logo file is white artwork on black, 734x530 JPG.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "fischer-homes",
+  "name": "Fischer Homes",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "sponsor",
+  "tier": "Twilight Sponsors",
+  "tiers": [
+   "Twilight Sponsors"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/fischerhomeslogo.jpg",
+  "url": null,
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 32,
+  "notes": "Logo alt text on the page: \"Fischerhomeslogo\". Logo file is white artwork on black, 932x696 JPG.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "the-unnewehr-foundation",
+  "name": "The Unnewehr Foundation",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "sponsor",
+  "tier": "Twilight Sponsors",
+  "tiers": [
+   "Twilight Sponsors"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/the-unnewehr-foundation.jpg",
+  "url": null,
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 33,
+  "notes": "Logo alt text on the page: \"The unnewehr foundation\". Logo file is white artwork on black, 734x530 JPG.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "the-edelweiss-foundation",
+  "name": "The Edelweiss Foundation",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "sponsor",
+  "tier": "Twilight Sponsors",
+  "tiers": [
+   "Twilight Sponsors"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/the-edelweiss-foundation.jpg",
+  "url": null,
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 34,
+  "notes": "Logo alt text on the page: \"The edelweiss foundation\". Logo file is white artwork on black, 734x530 JPG.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "urban-sites",
+  "name": "Urban Sites",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "sponsor",
+  "tier": "Twilight Sponsors",
+  "tiers": [
+   "Twilight Sponsors"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/urbansiteslogo.jpg",
+  "url": null,
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 35,
+  "notes": "Logo alt text on the page: \"Urbansiteslogo\". Logo file is white artwork on black, 526x392 JPG.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "cintas",
+  "name": "Cintas",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "sponsor",
+  "tier": "Twilight Sponsors",
+  "tiers": [
+   "Twilight Sponsors"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/cintas.jpg",
+  "url": null,
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 36,
+  "notes": "Logo alt text on the page: \"Cintas\". Logo file is white artwork on black, 734x530 JPG.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "ohio-arts-council",
+  "name": "Ohio Arts Council",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "sponsor",
+  "tier": "Twilight Sponsors",
+  "tiers": [
+   "Twilight Sponsors"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/ohioartscouncil2.jpg",
+  "url": null,
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 37,
+  "notes": "Logo alt text on the page: \"Ohioartscouncil2\". Logo file is white artwork on black, 734x530 JPG.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "america-250-ohio",
+  "name": "America 250 Ohio",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "sponsor",
+  "tier": "Twilight Sponsors",
+  "tiers": [
+   "Twilight Sponsors"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/america250logo.jpg",
+  "url": null,
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 38,
+  "notes": "Logo alt text on the page: \"America250logo\". Logo file is white artwork on black, 526x392 JPG.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "huntington-bank",
+  "name": "Huntington Bank",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "sponsor",
+  "tier": "Twilight Sponsors",
+  "tiers": [
+   "Twilight Sponsors"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/huntingtonbank.jpg",
+  "url": null,
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 39,
+  "notes": "Logo alt text on the page: \"Huntingtonbank\". Logo file is white artwork on black, 734x530 JPG.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "ge-aerospace",
+  "name": "GE Aerospace",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "sponsor",
+  "tier": "Twilight Sponsors",
+  "tiers": [
+   "Twilight Sponsors"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/ge-aerospace.jpg",
+  "url": null,
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 40,
+  "notes": "Logo alt text on the page: \"Ge aerospace\". Logo file is white artwork on black, 734x530 JPG.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "bartlett-wealth-management",
+  "name": "Bartlett Wealth Management",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "sponsor",
+  "tier": "Spark Sponsors",
+  "tiers": [
+   "Spark Sponsors"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/bartlett.jpg",
+  "url": "https://bartlett1898.com/",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 41,
+  "notes": "Logo alt text on the page: \"Bartlett\". Logo file is white artwork on black, 734x530 JPG.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "pepsi",
+  "name": "Pepsi",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "sponsor",
+  "tier": "Spark Sponsors",
+  "tiers": [
+   "Spark Sponsors"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/pepsilogo.jpg",
+  "url": null,
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 42,
+  "notes": "Logo alt text on the page: \"Pepsilogo\". Logo file is white artwork on black, 932x696 JPG.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "metro",
+  "name": "Metro",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "sponsor",
+  "tier": "Spark Sponsors",
+  "tiers": [
+   "Spark Sponsors"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/metrologo.jpg",
+  "url": "https://www.go-metro.com/",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 43,
+  "notes": "Logo alt text on the page: \"Metrologo\". Logo file is white artwork on black, 932x696 JPG. Also the transit partner running Park & Ride from Cincinnati State and Crossroads Oakley (Park and Ride page).",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "turner-construction-company",
+  "name": "Turner Construction Company",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "sponsor",
+  "tier": "Spark Sponsors",
+  "tiers": [
+   "Spark Sponsors"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/turner-construction.jpg",
+  "url": "https://www.turnerconstruction.com/",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 44,
+  "notes": "Logo alt text on the page: \"Turner construction\". Logo file is white artwork on black, 734x530 JPG.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "the-enquirer-cincinnati-com",
+  "name": "The Enquirer / Cincinnati.com",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "sponsor",
+  "tier": "Spark Sponsors",
+  "tiers": [
+   "Spark Sponsors"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/the-enquirer.jpg",
+  "url": "https://www.cincinnati.com/",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 45,
+  "notes": "Logo alt text on the page: \"The enquirer\". Logo file is white artwork on black, 526x378 JPG.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "great-parks",
+  "name": "Great Parks",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "sponsor",
+  "tier": "Spark Sponsors",
+  "tiers": [
+   "Spark Sponsors"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/great-parks.jpg",
+  "url": "https://www.greatparks.org/",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 46,
+  "notes": "Logo alt text on the page: \"Great parks\". Logo file is white artwork on black, 734x530 JPG.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "the-christ-hospital-health-network",
+  "name": "The Christ Hospital Health Network",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "sponsor",
+  "tier": "Spark Sponsors",
+  "tiers": [
+   "Spark Sponsors"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/christhospitallogo.jpg",
+  "url": null,
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 47,
+  "notes": "Logo alt text on the page: \"Christhospitallogo\". Logo file is white artwork on black, 932x696 JPG.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "oswald",
+  "name": "Oswald",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "sponsor",
+  "tier": "Spark Sponsors",
+  "tiers": [
+   "Spark Sponsors"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/oswald.jpg",
+  "url": null,
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 48,
+  "notes": "Logo alt text on the page: \"Oswald\". Logo file is white artwork on black, 734x530 JPG.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "dmg-divisions-maintenance-group",
+  "name": "DMG (Divisions Maintenance Group)",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "sponsor",
+  "tier": "Spark Sponsors",
+  "tiers": [
+   "Spark Sponsors"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/dmggrouplogo.jpg",
+  "url": null,
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 49,
+  "notes": "Logo alt text on the page: \"Dmggrouplogo\". Logo file is white artwork on black, 932x696 JPG.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "first-financial-bank",
+  "name": "First Financial Bank",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "sponsor",
+  "tier": "Turn the Lights On Contest Sponsor",
+  "tiers": [
+   "Turn the Lights On Contest Sponsor"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/first-national-bank.jpg",
+  "url": "https://www.bankatfirst.com/",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 50,
+  "notes": "Logo alt text on the page: \"First national bank\". Logo file is white artwork on black, 734x530 JPG. Alt text says \"First national bank\" but the logo and link (bankatfirst.com) are First Financial Bank, which the site credits for the Turn the Lights On Contest.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "delta",
+  "name": "Delta",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "sponsor",
+  "tier": "Official Airline",
+  "tiers": [
+   "Official Airline"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/delta.jpg",
+  "url": null,
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 51,
+  "notes": "Logo alt text on the page: \"Delta\". Logo file is white artwork on black, 734x530 JPG.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "monster-energy",
+  "name": "Monster Energy",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "sponsor",
+  "tier": "Official Energy Partner",
+  "tiers": [
+   "Official Energy Partner"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/monster-energy.jpg",
+  "url": "https://www.monsterenergy.com/en-us/",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 52,
+  "notes": "Logo alt text on the page: \"Monster energy\". Logo file is white artwork on black, 734x530 JPG.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "garage-beer",
+  "name": "Garage Beer",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "sponsor",
+  "tier": "Official Beer",
+  "tiers": [
+   "Official Beer"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/garage-beer2.jpg",
+  "url": null,
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 53,
+  "notes": "Logo alt text on the page: \"Garage beer2\". Logo file is white artwork on black, 734x530 JPG.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "mevix-panasonic-projector-and-display-americas",
+  "name": "MEVIX (Panasonic Projector & Display Americas)",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "partner",
+  "tier": "Official Projection Technology Partner",
+  "tiers": [
+   "Official Projection Technology Partner"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/panasonic-mevixlogo.jpg",
+  "url": "https://connect.na.panasonic.com/ppnda",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 54,
+  "notes": "Logo alt text on the page: \"Panasonic mevixlogo\". Logo file is white artwork on black, 734x548 JPG.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "disguise",
+  "name": "Disguise",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "partner",
+  "tier": "Technology Partners",
+  "tiers": [
+   "Technology Partners"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/disguise.jpg",
+  "url": null,
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 55,
+  "notes": "Logo alt text on the page: \"Disguise\". Logo file is white artwork on black, 734x530 JPG.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "lightact",
+  "name": "LightAct",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "partner",
+  "tier": "Technology Partners",
+  "tiers": [
+   "Technology Partners"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/lightact.jpg",
+  "url": null,
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 56,
+  "notes": "Logo alt text on the page: \"Lightact\". Logo file is white artwork on black, 734x530 JPG.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "pixera",
+  "name": "Pixera",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "partner",
+  "tier": "Technology Partners",
+  "tiers": [
+   "Technology Partners"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/pixera.jpg",
+  "url": null,
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 57,
+  "notes": "Logo alt text on the page: \"Pixera\". Logo file is white artwork on black, 734x530 JPG.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "vurvey",
+  "name": "Vurvey",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "partner",
+  "tier": "Official AI Partner",
+  "tiers": [
+   "Official AI Partner"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/vurvey.jpg",
+  "url": null,
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 58,
+  "notes": "Logo alt text on the page: \"Vurvey\". Logo file is white artwork on black, 734x530 JPG.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "godutch",
+  "name": "godutch",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "partner",
+  "tier": "Official Design Partner",
+  "tiers": [
+   "Official Design Partner"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/godutch12.jpg",
+  "url": null,
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 59,
+  "notes": "Logo alt text on the page: \"Godutch12\". Logo file is white artwork on black, 734x530 JPG.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "university-of-cincinnati",
+  "name": "University of Cincinnati",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "sponsor",
+  "tier": "Supported By",
+  "tiers": [
+   "Supported By"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/uclogo2.jpg",
+  "url": null,
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 60,
+  "notes": "Logo alt text on the page: \"Uclogo2\". Logo file is white artwork on black, 670x500 JPG.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "dbl-law",
+  "name": "DBL Law",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "sponsor",
+  "tier": "Supported By",
+  "tiers": [
+   "Supported By"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/dbllawlogo.jpg",
+  "url": null,
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 61,
+  "notes": "Logo alt text on the page: \"Dbllawlogo\". Logo file is white artwork on black, 1292x966 JPG.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "d-crane-rental",
+  "name": "D-Crane Rental",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "sponsor",
+  "tier": "Supported By",
+  "tiers": [
+   "Supported By"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/d-crane-rentallogo.jpg",
+  "url": null,
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
+  "order": 62,
+  "notes": "Logo alt text on the page: \"D crane rentallogo\". Logo file is white artwork on black, 1292x966 JPG.",
+  "status_2026": "on the 2026 sponsors page"
+ },
+ {
+  "id": "agar",
+  "name": "AGAR",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "organizer",
+  "tier": "Footer: Executive Partners",
+  "tiers": [
+   "Footer: Executive Partners"
+  ],
+  "logo_url": "https://blinkcincinnati.b-cdn.net/images/partners/agar.png",
+  "url": "https://theagar.com/",
+  "source_url": "https://www.blinkcincinnati.com/",
+  "order": 63,
+  "notes": "Executive producing partner (About page). Andrew Salzbrun, AGAR Managing Partner, is a co-creator of BLINK.",
+  "status_2026": "in the 2026 site footer"
+ },
+ {
+  "id": "cincinnati-regional-chamber",
+  "name": "Cincinnati Regional Chamber",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "organizer",
+  "tier": "Footer: Executive Partners",
+  "tiers": [
+   "Footer: Executive Partners"
+  ],
+  "logo_url": "https://blinkcincinnati.b-cdn.net/images/partners/regional-chamber_tm.png",
+  "url": "https://www.cincinnatichamber.com/",
+  "source_url": "https://www.blinkcincinnati.com/",
+  "order": 64,
+  "notes": "Executive producing partner; BLINK is produced by the Chamber since 2022 (transition from founder Brave Berlin, About page). Logo alt text on site: \"Cincnnati USA Regional Chamber\" (sic). Also runs the Center for Research & Data that writes the impact reports.",
+  "status_2026": "in the 2026 site footer"
+ },
+ {
+  "id": "1001-colors",
+  "name": "1001 Colors",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "founding partner",
+  "tier": "Footer: Additional Founding Partners",
+  "tiers": [
+   "Footer: Additional Founding Partners"
+  ],
+  "logo_url": "https://blinkcincinnati.b-cdn.net/images/partners/1001colors-logo.png",
+  "url": "https://www.1001colors.org/",
+  "source_url": "https://www.blinkcincinnati.com/",
+  "order": 65,
+  "notes": "Listed as an Additional Founding Partner in the site footer (no other role stated on the site). Also listed among 2026 participating artists (1001 Colors, Cincinnati, OH).",
+  "status_2026": "in the 2026 site footer"
+ },
+ {
+  "id": "brave-berlin",
+  "name": "Brave Berlin",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "founding partner",
+  "tier": "Footer: Additional Founding Partners",
+  "tiers": [
+   "Footer: Additional Founding Partners"
+  ],
+  "logo_url": "https://blinkcincinnati.b-cdn.net/images/partners/BB-Logo-Stacked-White-82x46-SVG.svg",
+  "url": "https://braveberlin.com/",
+  "source_url": "https://www.blinkcincinnati.com/",
+  "order": 66,
+  "notes": "Local creative agency that produced BLINK in 2017 and 2019 (About page); listed as an Additional Founding Partner in the site footer.",
+  "status_2026": "in the 2026 site footer"
+ },
+ {
+  "id": "ish",
+  "name": "ish",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "partner",
+  "tier": "Footer: Parade Partner",
+  "tiers": [
+   "Footer: Parade Partner"
+  ],
+  "logo_url": "https://blinkcincinnati.b-cdn.net/images/partners/ish.png",
+  "url": "https://www.ishfestival.org/",
+  "source_url": "https://www.blinkcincinnati.com/",
+  "order": 67,
+  "notes": "The \"Parade Partner\" footer block (ish) is commented out in the 2026 site HTML, so it is not displayed; ish was a producing partner in 2022 and 2024 (impact reports, releases). There is no parade in 2026.",
+  "status_2026": "past partner; its footer block is commented out (hidden) on the 2026 site"
+ },
+ {
+  "id": "artworks",
+  "name": "ArtWorks",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "founding partner",
+  "tier": "Founding partner (2017) and 2022 producing partner",
+  "tiers": [
+   "Founding partner (2017) and 2022 producing partner"
+  ],
+  "logo_url": null,
+  "url": null,
+  "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf",
+  "order": 68,
+  "notes": "Named as a 2017 founding partner in the 2024 impact report and as a partner in 2022 releases. Not listed on the 2026 sponsors page.",
+  "status_2026": "past partner; not listed for 2026"
+ },
+ {
+  "id": "cincy-nice",
+  "name": "Cincy Nice",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "partner",
+  "tier": "Producing partner (2022, 2024)",
+  "tiers": [
+   "Producing partner (2022, 2024)"
+  ],
+  "logo_url": null,
+  "url": "https://www.cincynice.com/",
+  "source_url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf",
+  "order": 69,
+  "notes": "Partner in 2022 and 2024 per the impact reports and releases. Cincy Nice also organizes Cincinnati Art Week (see program caw). Not listed on the 2026 sponsors page.",
+  "status_2026": "past partner; not listed for 2026"
+ },
+ {
+  "id": "laz-parking",
+  "name": "LAZ Parking",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "partner",
+  "tier": "Reserved parking partner",
+  "tiers": [
+   "Reserved parking partner"
+  ],
+  "logo_url": null,
+  "url": "https://www.lazparking.com/",
+  "source_url": "https://www.blinkcincinnati.com/reserve-parking",
+  "order": 70,
+  "notes": "Offers reserved parking spaces at select locations (Reserve Parking page).",
+  "status_2026": "named on 2026 BLINK pages"
+ },
+ {
+  "id": "all-in-events",
+  "name": "ALL IN EVENTS",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "partner",
+  "tier": "Accessibility partner",
+  "tiers": [
+   "Accessibility partner"
+  ],
+  "logo_url": null,
+  "url": "https://www.allinevents.co/",
+  "source_url": "https://www.blinkcincinnati.com/faqs",
+  "order": 71,
+  "notes": "Staffs the BLINK Access Team; Accessibility Director Holly Maniatty.",
+  "status_2026": "named on 2026 BLINK pages"
+ },
+ {
+  "id": "urban-hikers",
+  "name": "Urban Hikers",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "partner",
+  "tier": "Walking tours partner",
+  "tiers": [
+   "Walking tours partner"
+  ],
+  "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/circle-logo75-blackbackground2.jpg",
+  "url": "https://urban-hikers.com/",
+  "source_url": "https://www.blinkcincinnati.com/resources/walking-tours",
+  "order": 72,
+  "notes": "Guided BLINK walks ($10) from five departure hubs. Logo shown on the Walking Tours page.",
+  "status_2026": "named on 2026 BLINK pages"
+ },
+ {
+  "id": "tank",
+  "name": "Transit Authority of Northern Kentucky (TANK)",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "partner",
+  "tier": "Transit partner",
+  "tiers": [
+   "Transit partner"
+  ],
+  "logo_url": null,
+  "url": "https://www.tankbus.org/",
+  "source_url": "https://www.blinkcincinnati.com/resources/park-and-ride",
+  "order": 73,
+  "notes": "NKU Park & Ride (Fri/Sat) and regular routes; discounted BLINK passes in the Transit app.",
+  "status_2026": "named on 2026 BLINK pages"
+ },
+ {
+  "id": "butler-county-regional-transit-authority",
+  "name": "Butler County Regional Transit Authority (BCRTA)",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "partner",
+  "tier": "Transit partner",
+  "tiers": [
+   "Transit partner"
+  ],
+  "logo_url": null,
+  "url": "https://www.butlercountyrta.com/",
+  "source_url": "https://www.blinkcincinnati.com/resources/park-and-ride",
+  "order": 74,
+  "notes": "CincyLink service from Middletown and West Chester Meijer lots.",
+  "status_2026": "named on 2026 BLINK pages"
+ },
+ {
+  "id": "red-bike",
+  "name": "Red Bike",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "partner",
+  "tier": "Transit partner (bike share)",
+  "tiers": [
+   "Transit partner (bike share)"
+  ],
+  "logo_url": null,
+  "url": "https://www.cincyredbike.org/",
+  "source_url": "https://www.blinkcincinnati.com/resources/park-and-ride",
+  "order": 75,
+  "notes": "$20 BLINK 1-Week Pass, Oct. 5-12.",
+  "status_2026": "named on 2026 BLINK pages"
+ },
+ {
+  "id": "gameday-pr",
+  "name": "Gameday PR",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "partner",
+  "tier": "Press / media relations",
+  "tiers": [
+   "Press / media relations"
+  ],
+  "logo_url": null,
+  "url": null,
+  "source_url": "https://www.blinkcincinnati.com/about-blink/press-room",
+  "order": 76,
+  "notes": "Media inquiries: Kathrine Nero, knero@gamedaypr.com.",
+  "status_2026": "named on 2026 BLINK pages"
+ },
+ {
+  "id": "trihealth",
+  "name": "TriHealth",
+  "programs": [
+   "blink"
+  ],
+  "relationship": "sponsor",
+  "tier": "Accessibility sponsor",
+  "tiers": [
+   "Accessibility sponsor"
+  ],
+  "logo_url": null,
+  "url": null,
+  "source_url": "https://www.blinkcincinnati.com/resources/accessibility",
+  "order": 77,
+  "notes": "Accessibility page: \"BLINK ACCESSIBILITY SUPPORTED AND SPONSORED BY OUR FRIENDS AT TRI-HEALTH\". That page describes \"BLINK's 2024 Access Program\", and TriHealth is not on the 2026 sponsors page, so 2026 status is unconfirmed.",
+  "status_2026": "unconfirmed for 2026 (sponsor of the 2024 Access Program per the Accessibility page)"
+ }
+]

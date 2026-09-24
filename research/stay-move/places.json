@@ -1,0 +1,3143 @@
+[
+ {
+  "id": "over-the-rhine",
+  "kind": "neighborhood",
+  "name": "Over-the-Rhine (OTR)",
+  "summary": "Over-the-Rhine sits just north of downtown and grew from 19th-century German immigrant settlement; Visit Cincy notes it is on the National Register of Historic Places and holds the country's largest collection of well-preserved Italianate architecture. Vine and Main streets are lined with restaurants, bars, breweries and boutiques, and Washington Park faces Music Hall. It is the home base for StartupCincy Week (Union Hall, 1311 Vine St) and for Cincinnati Art Week's storefront galleries, and it hosts BLINK's Over-the-Rhine zone.",
+  "details": "Getting around (Visit Cincy): \"On foot: OTR is a very compact and walkable neighborhood.\" Red Bike stations and the free Connector streetcar serve the neighborhood.",
+  "address": null,
+  "lat": 39.111504,
+  "lng": -84.514393,
+  "url": null,
+  "source_url": "https://www.visitcincy.com/neighborhoods/downtown/over-the-rhine/",
+  "sources": [
+   "https://www.visitcincy.com/neighborhoods/downtown/over-the-rhine/",
+   "https://www.findlaymarket.org/history",
+   "https://www.blinkcincinnati.com/plan-your-blink-visit/overview"
+  ],
+  "anchors": [
+   "Washington Park",
+   "Cincinnati Music Hall",
+   "Union Hall (1311 Vine St)",
+   "Cincinnati Art Week HQ (1417 Main St)",
+   "Findlay Market (north end)"
+  ],
+  "coords_source": "nominatim",
+  "notes": "Center point: Nominatim result \"Over-the-Rhine, Cincinnati, Hamilton County, Ohio, 45210, United States\"."
+ },
+ {
+  "id": "downtown-cbd",
+  "kind": "neighborhood",
+  "name": "Downtown / Central Business District (Fountain District)",
+  "summary": "Downtown is Cincinnati's compact urban core, centered on Fountain Square, which Visit Cincy calls the city's symbolic center since 1871 (the Tyler Davidson Fountain). The Fountain District around it holds the Contemporary Arts Center, the Aronoff Center, and the main Public Library. Many of the largest hotels are within a few blocks of the square (see stays.json distances), and the Connector streetcar loops through the district. It is BLINK's Fountain District zone and sits between OTR to the north and The Banks to the south.",
+  "details": "Visit Cincy: \"The Fountain District is totally walkable, stretching just two blocks on each side from the Tyler Davidson Fountain.\"",
+  "address": null,
+  "lat": 39.101484,
+  "lng": -84.5125,
+  "url": null,
+  "source_url": "https://www.visitcincy.com/neighborhoods/downtown/fountain-district/",
+  "sources": [
+   "https://www.visitcincy.com/neighborhoods/downtown/",
+   "https://www.visitcincy.com/neighborhoods/downtown/fountain-district/"
+  ],
+  "anchors": [
+   "Fountain Square",
+   "Contemporary Arts Center",
+   "Aronoff Center for the Arts",
+   "Public Library of Cincinnati and Hamilton County",
+   "Mercantile Library"
+  ],
+  "coords_source": "nominatim",
+  "notes": "Center point: Nominatim result \"Fountain Square, Main Street Historic District, Central Business District, Cincinnati, Hamilton County, Ohio, 45210, United States\"."
+ },
+ {
+  "id": "the-banks",
+  "kind": "neighborhood",
+  "name": "The Banks (Central Riverfront)",
+  "summary": "The Banks is the riverfront entertainment district between Great American Ball Park and Paycor Stadium, with Smale Riverfront Park, the National Underground Railroad Freedom Center, the Andrew J. Brady Music Center and views of the Roebling Suspension Bridge. It is a designated DORA district (drinks in the official cup, 11am–1am daily) and sits on top of the Central Riverfront Garage. The Connector's first station is named The Banks, and BLINK's Riverfront zone and drone shows are here.",
+  "details": "The Banks FAQ: \"The plaza (pedestrian-only area) is 21+ on Friday and Saturday evenings from 10:00 p.m. to 2:00 a.m.\"",
+  "address": null,
+  "lat": 39.095734,
+  "lng": -84.509334,
+  "url": null,
+  "source_url": "https://www.visitcincy.com/neighborhoods/downtown/the-banks/",
+  "sources": [
+   "https://www.visitcincy.com/neighborhoods/downtown/the-banks/",
+   "https://thebankscincy.com/about/resources/",
+   "https://thebankscincy.com/event/blink-cincinnati-2/"
+  ],
+  "anchors": [
+   "Smale Riverfront Park",
+   "National Underground Railroad Freedom Center",
+   "Great American Ball Park",
+   "Paycor Stadium",
+   "Roebling Suspension Bridge (north end)"
+  ],
+  "coords_source": "visitcincy (Smale Riverfront Park listing)",
+  "notes": null
+ },
+ {
+  "id": "findlay-market-district",
+  "kind": "neighborhood",
+  "name": "Findlay Market (north Over-the-Rhine)",
+  "summary": "Findlay Market, at 1801 Race Street in northern Over-the-Rhine, has operated in the same iron-framed market house since 1855 and is Ohio's oldest surviving municipal market house. The surrounding blocks (Elder, Race and Elm streets) are packed with food merchants, and Jane's outdoor bar sits on the Elm Street side. It anchors BLINK's Findlay Market zone, and the streetcar stops at stations 10 (Elm) and 12 (Race).",
+  "details": "Market hours: Tuesday–Friday 9 AM–6 PM, Saturday 8 AM–6 PM, Sunday 10 AM–4 PM, Monday CLOSED.",
+  "address": null,
+  "lat": 39.115366,
+  "lng": -84.518981,
+  "url": null,
+  "source_url": "https://www.findlaymarket.org/history",
+  "sources": [
+   "https://www.findlaymarket.org/about",
+   "https://www.findlaymarket.org/history",
+   "https://www.findlaymarket.org/hours",
+   "https://www.findlaymarket.org/janes",
+   "https://www.findlaymarket.org/parking"
+  ],
+  "anchors": [
+   "Findlay Market house",
+   "Jane's (outdoor bar, Elm Street side)",
+   "Rhinegeist Brewery (1910 Elm St)",
+   "TQL Stadium (west across Central Parkway)"
+  ],
+  "coords_source": "nominatim",
+  "notes": null
+ },
+ {
+  "id": "pendleton",
+  "kind": "neighborhood",
+  "name": "Pendleton",
+  "summary": "Pendleton is the neighborhood on OTR's eastern edge. Ziegler Park (1322 Sycamore St), with a garage beneath its great lawn, straddles Over-the-Rhine and Pendleton, and the Pendleton Art Center at 1310 Pendleton St opens its artist studios to the public on the last Friday of each month (Final Friday).",
+  "details": "Pendleton Art Center: \"Some studios are open daily; some are open by appointment with the artist.\" Final Friday dates listed on the site: September 25, 2026 (the next falls after Cincy Week).",
+  "address": null,
+  "lat": 39.1105,
+  "lng": -84.507756,
+  "url": null,
+  "source_url": "https://zieglerpark.org/",
+  "sources": [
+   "https://zieglerpark.org/",
+   "https://pendletonartcenter.com/",
+   "https://www.3cdc.org/parking/"
+  ],
+  "anchors": [
+   "Ziegler Park",
+   "Pendleton Art Center (1310 Pendleton St)"
+  ],
+  "coords_source": "nominatim",
+  "notes": "Center point: Nominatim result \"Pendleton, Cincinnati, Hamilton County, Ohio, 45202, United States\"."
+ },
+ {
+  "id": "west-end",
+  "kind": "neighborhood",
+  "name": "West End",
+  "summary": "The West End is the neighborhood across Central Parkway to the west of OTR. TQL Stadium (1501 Central Parkway), home of FC Cincinnati, is there, and BLINK's Ready. Set. BLINK! opening event on Oct 8 uses Central Parkway between Liberty Street and West 14th Street against the stadium backdrop. Cincinnati Museum Center at Union Terminal (1301 Western Ave) is a short drive or long walk southwest.",
+  "details": "TQL Stadium events list shows no FC Cincinnati home match Oct 3–11, 2026 (next: Oct 14 vs. New England Revolution).",
+  "address": null,
+  "lat": 39.109834,
+  "lng": -84.528863,
+  "url": null,
+  "source_url": "https://www.visitcincy.com/meetings/meet-in-cincinnati/new-developments/",
+  "sources": [
+   "https://www.visitcincy.com/meetings/meet-in-cincinnati/new-developments/",
+   "https://tqlstadium.com/events/",
+   "https://www.blinkcincinnati.com/blink-event-guide/ready-set-blink"
+  ],
+  "anchors": [
+   "TQL Stadium",
+   "Central Parkway (Ready. Set. BLINK!)",
+   "Cincinnati Museum Center at Union Terminal"
+  ],
+  "coords_source": "nominatim",
+  "notes": "Center point: Nominatim result \"West End, Cincinnati, Hamilton County, Ohio, United States\"."
+ },
+ {
+  "id": "covington",
+  "kind": "neighborhood",
+  "name": "Covington, Kentucky",
+  "summary": "Covington is across the Ohio River from downtown Cincinnati, linked by the Roebling Suspension Bridge (opened 1867, the precursor to the Brooklyn Bridge). Visit Cincy describes historic buildings, murals, nightlife and many locally owned restaurants, several of them stops on The B-Line bourbon trail. BLINK's Covington zone runs through downtown Covington, where the city creates a pedestrian Entertainment Destination Center with street closures during the festival.",
+  "details": "During BLINK the Roebling Bridge is closed to vehicles nightly 6:45–11 p.m. (Oct 8–11) but open to pedestrians (City of Covington).",
+  "address": null,
+  "lat": 39.083171,
+  "lng": -84.510755,
+  "url": null,
+  "source_url": "https://www.visitcincy.com/neighborhoods/northern-kentucky/covington/",
+  "sources": [
+   "https://www.visitcincy.com/neighborhoods/northern-kentucky/covington/",
+   "https://www.covingtonky.gov/news/2026/09/14/getting-around-covington-during-blink-road-closure-traffic-information"
+  ],
+  "anchors": [
+   "Roebling Suspension Bridge (south end)",
+   "Hotel Covington (638 Madison Ave)",
+   "Madison Avenue / Pike Street",
+   "Cincinnati Marriott at RiverCenter / Embassy Suites RiverCenter",
+   "MainStrasse Village (west)"
+  ],
+  "coords_source": "nominatim",
+  "notes": "Center point: Nominatim result \"Covington, Kenton County, Kentucky, United States\"."
+ },
+ {
+  "id": "mainstrasse-village",
+  "kind": "neighborhood",
+  "name": "MainStrasse Village (Covington)",
+  "summary": "MainStrasse Village is a 19th-century German neighborhood in Covington listed on the National Register of Historic Places, a few blocks' walk from the Northern Kentucky Convention Center and the riverfront hotels. It has restaurants, bars and shops around the Goose Girl Fountain, and Goebel Park's Carroll Chimes Bell Tower plays on the hour.",
+  "details": null,
+  "address": null,
+  "lat": 39.081404,
+  "lng": -84.518122,
+  "url": null,
+  "source_url": "https://www.visitcincy.com/neighborhoods/northern-kentucky/mainstrasse-village/",
+  "sources": [
+   "https://www.visitcincy.com/neighborhoods/northern-kentucky/mainstrasse-village/",
+   "https://www.visitcincy.com/neighborhoods/northern-kentucky/covington/",
+   "https://www.blinkcincinnati.com/plan-your-blink-visit/blink-around-town"
+  ],
+  "anchors": [
+   "Goose Girl Fountain",
+   "Goebel Park / Carroll Chimes Bell Tower",
+   "Sixth Street Promenade"
+  ],
+  "coords_source": "nominatim",
+  "notes": "Center point: Nominatim result \"Mainstrasse Village, Covington, Kenton County, Kentucky, United States\"."
+ },
+ {
+  "id": "newport",
+  "kind": "neighborhood",
+  "name": "Newport, Kentucky",
+  "summary": "Newport sits across the Ohio River from Cincinnati's east riverfront, reached on foot by the Purple People Bridge. Visit Cincy notes it was established in 1795 and is now known for family attractions like the Newport Aquarium at Newport on the Levee, bourbon at New Riff Distilling and Pensive Distilling Co., and festivals. It is not a program venue, but its riverfront hotels are walkable to The Banks.",
+  "details": null,
+  "address": null,
+  "lat": 39.088947,
+  "lng": -84.491952,
+  "url": null,
+  "source_url": "https://www.visitcincy.com/neighborhoods/northern-kentucky/newport/",
+  "sources": [
+   "https://www.visitcincy.com/neighborhoods/northern-kentucky/newport/"
+  ],
+  "anchors": [
+   "Newport on the Levee",
+   "Newport Aquarium",
+   "Purple People Bridge",
+   "New Riff Distilling"
+  ],
+  "coords_source": "nominatim",
+  "notes": "Center point: Nominatim result \"Newport, Campbell County, Kentucky, 41071, United States\"."
+ },
+ {
+  "id": "connector-streetcar",
+  "kind": "transit",
+  "name": "The Connector (streetcar)",
+  "summary": "The Connector is an electric-powered streetcar that operates along a 3.6-mile loop connecting Cincinnati's Over-the-Rhine and Banks neighborhoods via the Central Business District. It is free to ride.",
+  "details": "Hours (365 days a year, \"core schedule with extended service hours for select events\"): Monday through Friday 7:30 a.m.–11:30 p.m.; Saturday 8:30 a.m.–11:30 p.m.; Sunday 9:30 a.m.–9:30 p.m. \"There are 18 stations along the route.\" Fare: \"FARE FREE EVERY DAY\" (Ordinance No. 353-2020). Frequency: the city's How To Ride page says \"Streetcars arrive every 15 minutes\"; Visit Cincy says \"generally comes by a stop every 20 - 25 minutes\". Real-time arrivals: Transit app. \"Service animals are allowed on board.\" Owned by the City of Cincinnati; operated and maintained by Transdev.",
+  "address": null,
+  "lat": null,
+  "lng": null,
+  "url": "https://www.cincinnati-oh.gov/streetcar/",
+  "source_url": "https://www.cincinnati-oh.gov/streetcar/how-to-ride/hours-of-operation/",
+  "sources": [
+   "https://www.cincinnati-oh.gov/streetcar/",
+   "https://www.cincinnati-oh.gov/streetcar/how-to-ride/hours-route-and-station-stops/",
+   "https://www.cincinnati-oh.gov/streetcar/how-to-ride/fares/",
+   "https://www.cincinnati-oh.gov/streetcar/how-to-ride/",
+   "https://www.cincinnati-oh.gov/streetcar/about-the-streetcar/faqs/",
+   "https://www.visitcincy.com/plan-your-visit/transportation/streetcar/"
+  ],
+  "stations": [
+   "1. The Banks",
+   "2. 4th & Main",
+   "3. 6th & Main",
+   "4. 8th & Main",
+   "5. Court & Main",
+   "6. 12th & Main",
+   "7. 12th & Vine",
+   "8. 14th & Elm",
+   "9. Liberty & Elm",
+   "10. Findlay Market - Elm",
+   "11. Brewery District",
+   "12. Findlay Market - Race",
+   "13. Liberty & Race",
+   "14. Washington Park",
+   "15. Central Parkway",
+   "16. Public Library",
+   "17. Aronoff Center",
+   "18. Fountain Square"
+  ],
+  "route_map_pdf": "https://www.cincinnati-oh.gov/sites/streetcar/assets/Maps/streetcar_map_2023.pdf",
+  "notes": "Station order and names from the official 2023 route map legend. The city FAQ says the Cincinnati Bell naming-rights agreement \"is expected to remain in effect until August 2026\". BLINK FAQ (blink-info slice) also says streetcar ridership is free and suggests exiting at each stop to view installations."
+ },
+ {
+  "id": "connector-station-01-the-banks",
+  "kind": "transit",
+  "name": "Connector station 1: The Banks",
+  "summary": "Station 1 of 18 on the Connector streetcar loop.",
+  "details": "Station number and name from the official route map legend; free to ride; see connector-streetcar for hours.",
+  "address": null,
+  "lat": 39.098247,
+  "lng": -84.509744,
+  "url": "https://www.cincinnati-oh.gov/streetcar/",
+  "source_url": "https://www.cincinnati-oh.gov/sites/streetcar/assets/Maps/streetcar_map_2023.pdf",
+  "coords_source": "openstreetmap (railway=tram_stop, ref=1, node 3994656261)",
+  "nearest_hub": {
+   "hub": "smale-riverfront-park",
+   "straight_line_m": 282
+  },
+  "notes": null
+ },
+ {
+  "id": "connector-station-02-4th-and-main",
+  "kind": "transit",
+  "name": "Connector station 2: 4th & Main",
+  "summary": "Station 2 of 18 on the Connector streetcar loop.",
+  "details": "Station number and name from the official route map legend; free to ride; see connector-streetcar for hours.",
+  "address": null,
+  "lat": 39.100797,
+  "lng": -84.509492,
+  "url": "https://www.cincinnati-oh.gov/streetcar/",
+  "source_url": "https://www.cincinnati-oh.gov/sites/streetcar/assets/Maps/streetcar_map_2023.pdf",
+  "coords_source": "openstreetmap (railway=tram_stop, ref=2, node 4394273096)",
+  "nearest_hub": {
+   "hub": "fountain-square",
+   "straight_line_m": 307
+  },
+  "notes": null
+ },
+ {
+  "id": "connector-station-03-6th-and-main",
+  "kind": "transit",
+  "name": "Connector station 3: 6th & Main",
+  "summary": "Station 3 of 18 on the Connector streetcar loop.",
+  "details": "Station number and name from the official route map legend; free to ride; see connector-streetcar for hours.",
+  "address": null,
+  "lat": 39.103264,
+  "lng": -84.510198,
+  "url": "https://www.cincinnati-oh.gov/streetcar/",
+  "source_url": "https://www.cincinnati-oh.gov/sites/streetcar/assets/Maps/streetcar_map_2023.pdf",
+  "coords_source": "openstreetmap (railway=tram_stop, ref=3, node 4394273097)",
+  "nearest_hub": {
+   "hub": "fountain-square",
+   "straight_line_m": 278
+  },
+  "notes": null
+ },
+ {
+  "id": "connector-station-04-8th-and-main",
+  "kind": "transit",
+  "name": "Connector station 4: 8th & Main",
+  "summary": "Station 4 of 18 on the Connector streetcar loop.",
+  "details": "Station number and name from the official route map legend; free to ride; see connector-streetcar for hours.",
+  "address": null,
+  "lat": 39.105325,
+  "lng": -84.510709,
+  "url": "https://www.cincinnati-oh.gov/streetcar/",
+  "source_url": "https://www.cincinnati-oh.gov/sites/streetcar/assets/Maps/streetcar_map_2023.pdf",
+  "coords_source": "openstreetmap (railway=tram_stop, ref=4, node 4394273104)",
+  "nearest_hub": {
+   "hub": "fountain-square",
+   "straight_line_m": 432
+  },
+  "notes": null
+ },
+ {
+  "id": "connector-station-05-court-and-main",
+  "kind": "transit",
+  "name": "Connector station 5: Court & Main",
+  "summary": "Station 5 of 18 on the Connector streetcar loop.",
+  "details": "Station number and name from the official route map legend; free to ride; see connector-streetcar for hours.",
+  "address": null,
+  "lat": 39.107124,
+  "lng": -84.511161,
+  "url": "https://www.cincinnati-oh.gov/streetcar/",
+  "source_url": "https://www.cincinnati-oh.gov/sites/streetcar/assets/Maps/streetcar_map_2023.pdf",
+  "coords_source": "openstreetmap (railway=tram_stop, ref=5, node 4394273098)",
+  "nearest_hub": {
+   "hub": "union-hall",
+   "straight_line_m": 491
+  },
+  "notes": null
+ },
+ {
+  "id": "connector-station-06-12th-and-main",
+  "kind": "transit",
+  "name": "Connector station 6: 12th & Main",
+  "summary": "Station 6 of 18 on the Connector streetcar loop.",
+  "details": "Station number and name from the official route map legend; free to ride; see connector-streetcar for hours.",
+  "address": null,
+  "lat": 39.108465,
+  "lng": -84.511489,
+  "url": "https://www.cincinnati-oh.gov/streetcar/",
+  "source_url": "https://www.cincinnati-oh.gov/sites/streetcar/assets/Maps/streetcar_map_2023.pdf",
+  "coords_source": "openstreetmap (railway=tram_stop, ref=6, node 4394278584)",
+  "nearest_hub": {
+   "hub": "union-hall",
+   "straight_line_m": 388
+  },
+  "notes": "OpenStreetMap names this stop \"Hanke Exchange\"."
+ },
+ {
+  "id": "connector-station-07-12th-and-vine",
+  "kind": "transit",
+  "name": "Connector station 7: 12th & Vine",
+  "summary": "Station 7 of 18 on the Connector streetcar loop.",
+  "details": "Station number and name from the official route map legend; free to ride; see connector-streetcar for hours.",
+  "address": null,
+  "lat": 39.108345,
+  "lng": -84.514627,
+  "url": "https://www.cincinnati-oh.gov/streetcar/",
+  "source_url": "https://www.cincinnati-oh.gov/sites/streetcar/assets/Maps/streetcar_map_2023.pdf",
+  "coords_source": "openstreetmap (railway=tram_stop, ref=7, node 4394273099)",
+  "nearest_hub": {
+   "hub": "union-hall",
+   "straight_line_m": 192
+  },
+  "notes": null
+ },
+ {
+  "id": "connector-station-08-14th-and-elm",
+  "kind": "transit",
+  "name": "Connector station 8: 14th & Elm",
+  "summary": "Station 8 of 18 on the Connector streetcar loop.",
+  "details": "Station number and name from the official route map legend; free to ride; see connector-streetcar for hours.",
+  "address": null,
+  "lat": 39.109906,
+  "lng": -84.518501,
+  "url": "https://www.cincinnati-oh.gov/streetcar/",
+  "source_url": "https://www.cincinnati-oh.gov/sites/streetcar/assets/Maps/streetcar_map_2023.pdf",
+  "coords_source": "openstreetmap (railway=tram_stop, ref=8, node 4394273094)",
+  "nearest_hub": {
+   "hub": "union-hall",
+   "straight_line_m": 251
+  },
+  "notes": null
+ },
+ {
+  "id": "connector-station-09-liberty-and-elm",
+  "kind": "transit",
+  "name": "Connector station 9: Liberty & Elm",
+  "summary": "Station 9 of 18 on the Connector streetcar loop.",
+  "details": "Station number and name from the official route map legend; free to ride; see connector-streetcar for hours.",
+  "address": null,
+  "lat": 39.112865,
+  "lng": -84.519253,
+  "url": "https://www.cincinnati-oh.gov/streetcar/",
+  "source_url": "https://www.cincinnati-oh.gov/sites/streetcar/assets/Maps/streetcar_map_2023.pdf",
+  "coords_source": "openstreetmap (railway=tram_stop, ref=9, node 4394273093)",
+  "nearest_hub": {
+   "hub": "findlay-market",
+   "straight_line_m": 279
+  },
+  "notes": null
+ },
+ {
+  "id": "connector-station-10-findlay-market-elm",
+  "kind": "transit",
+  "name": "Connector station 10: Findlay Market - Elm",
+  "summary": "Station 10 of 18 on the Connector streetcar loop.",
+  "details": "Station number and name from the official route map legend; free to ride; see connector-streetcar for hours.",
+  "address": null,
+  "lat": 39.114971,
+  "lng": -84.519788,
+  "url": "https://www.cincinnati-oh.gov/streetcar/",
+  "source_url": "https://www.cincinnati-oh.gov/sites/streetcar/assets/Maps/streetcar_map_2023.pdf",
+  "coords_source": "openstreetmap (railway=tram_stop, ref=10, node 4394273095)",
+  "nearest_hub": {
+   "hub": "findlay-market",
+   "straight_line_m": 82
+  },
+  "notes": null
+ },
+ {
+  "id": "connector-station-11-brewery-district",
+  "kind": "transit",
+  "name": "Connector station 11: Brewery District",
+  "summary": "Station 11 of 18 on the Connector streetcar loop.",
+  "details": "Station number and name from the official route map legend; free to ride; see connector-streetcar for hours.",
+  "address": null,
+  "lat": 39.117226,
+  "lng": -84.520361,
+  "url": "https://www.cincinnati-oh.gov/streetcar/",
+  "source_url": "https://www.cincinnati-oh.gov/sites/streetcar/assets/Maps/streetcar_map_2023.pdf",
+  "coords_source": "openstreetmap (railway=tram_stop, ref=11, node 4394273092)",
+  "nearest_hub": {
+   "hub": "findlay-market",
+   "straight_line_m": 239
+  },
+  "notes": null
+ },
+ {
+  "id": "connector-station-12-findlay-market-race",
+  "kind": "transit",
+  "name": "Connector station 12: Findlay Market - Race",
+  "summary": "Station 12 of 18 on the Connector streetcar loop.",
+  "details": "Station number and name from the official route map legend; free to ride; see connector-streetcar for hours.",
+  "address": null,
+  "lat": 39.115645,
+  "lng": -84.518353,
+  "url": "https://www.cincinnati-oh.gov/streetcar/",
+  "source_url": "https://www.cincinnati-oh.gov/sites/streetcar/assets/Maps/streetcar_map_2023.pdf",
+  "coords_source": "openstreetmap (railway=tram_stop, ref=12, node 4394273103)",
+  "nearest_hub": {
+   "hub": "findlay-market",
+   "straight_line_m": 62
+  },
+  "notes": null
+ },
+ {
+  "id": "connector-station-13-liberty-and-race",
+  "kind": "transit",
+  "name": "Connector station 13: Liberty & Race",
+  "summary": "Station 13 of 18 on the Connector streetcar loop.",
+  "details": "Station number and name from the official route map legend; free to ride; see connector-streetcar for hours.",
+  "address": null,
+  "lat": 39.112616,
+  "lng": -84.517509,
+  "url": "https://www.cincinnati-oh.gov/streetcar/",
+  "source_url": "https://www.cincinnati-oh.gov/sites/streetcar/assets/Maps/streetcar_map_2023.pdf",
+  "coords_source": "openstreetmap (railway=tram_stop, ref=13, node 4394279189)",
+  "nearest_hub": {
+   "hub": "findlay-market",
+   "straight_line_m": 331
+  },
+  "notes": null
+ },
+ {
+  "id": "connector-station-14-washington-park",
+  "kind": "transit",
+  "name": "Connector station 14: Washington Park",
+  "summary": "Station 14 of 18 on the Connector streetcar loop.",
+  "details": "Station number and name from the official route map legend; free to ride; see connector-streetcar for hours.",
+  "address": null,
+  "lat": 39.108469,
+  "lng": -84.516471,
+  "url": "https://www.cincinnati-oh.gov/streetcar/",
+  "source_url": "https://www.cincinnati-oh.gov/sites/streetcar/assets/Maps/streetcar_map_2023.pdf",
+  "coords_source": "openstreetmap (railway=tram_stop, ref=14, node 5246049346)",
+  "nearest_hub": {
+   "hub": "union-hall",
+   "straight_line_m": 176
+  },
+  "notes": null
+ },
+ {
+  "id": "connector-station-15-central-parkway",
+  "kind": "transit",
+  "name": "Connector station 15: Central Parkway",
+  "summary": "Station 15 of 18 on the Connector streetcar loop.",
+  "details": "Station number and name from the official route map legend; free to ride; see connector-streetcar for hours.",
+  "address": null,
+  "lat": 39.107151,
+  "lng": -84.514104,
+  "url": "https://www.cincinnati-oh.gov/streetcar/",
+  "source_url": "https://www.cincinnati-oh.gov/sites/streetcar/assets/Maps/streetcar_map_2023.pdf",
+  "coords_source": "openstreetmap (railway=tram_stop, ref=15, node 5246049389)",
+  "nearest_hub": {
+   "hub": "union-hall",
+   "straight_line_m": 331
+  },
+  "notes": null
+ },
+ {
+  "id": "connector-station-16-public-library",
+  "kind": "transit",
+  "name": "Connector station 16: Public Library",
+  "summary": "Station 16 of 18 on the Connector streetcar loop.",
+  "details": "Station number and name from the official route map legend; free to ride; see connector-streetcar for hours.",
+  "address": null,
+  "lat": 39.105329,
+  "lng": -84.51238,
+  "url": "https://www.cincinnati-oh.gov/streetcar/",
+  "source_url": "https://www.cincinnati-oh.gov/sites/streetcar/assets/Maps/streetcar_map_2023.pdf",
+  "coords_source": "openstreetmap (railway=tram_stop, ref=16, node 4394278586)",
+  "nearest_hub": {
+   "hub": "fountain-square",
+   "straight_line_m": 395
+  },
+  "notes": null
+ },
+ {
+  "id": "connector-station-17-aronoff-center",
+  "kind": "transit",
+  "name": "Connector station 17: Aronoff Center",
+  "summary": "Station 17 of 18 on the Connector streetcar loop.",
+  "details": "Station number and name from the official route map legend; free to ride; see connector-streetcar for hours.",
+  "address": null,
+  "lat": 39.104093,
+  "lng": -84.512065,
+  "url": "https://www.cincinnati-oh.gov/streetcar/",
+  "source_url": "https://www.cincinnati-oh.gov/sites/streetcar/assets/Maps/streetcar_map_2023.pdf",
+  "coords_source": "openstreetmap (railway=tram_stop, ref=17, node 4394279190)",
+  "nearest_hub": {
+   "hub": "fountain-square",
+   "straight_line_m": 264
+  },
+  "notes": null
+ },
+ {
+  "id": "connector-station-18-fountain-square",
+  "kind": "transit",
+  "name": "Connector station 18: Fountain Square",
+  "summary": "Station 18 of 18 on the Connector streetcar loop.",
+  "details": "Station number and name from the official route map legend; free to ride; see connector-streetcar for hours.",
+  "address": null,
+  "lat": 39.100933,
+  "lng": -84.511295,
+  "url": "https://www.cincinnati-oh.gov/streetcar/",
+  "source_url": "https://www.cincinnati-oh.gov/sites/streetcar/assets/Maps/streetcar_map_2023.pdf",
+  "coords_source": "openstreetmap (railway=tram_stop, ref=18, node 8421663046)",
+  "nearest_hub": {
+   "hub": "fountain-square",
+   "straight_line_m": 162
+  },
+  "notes": null
+ },
+ {
+  "id": "metro-bus",
+  "kind": "transit",
+  "name": "Metro (SORTA) buses",
+  "summary": "Metro is Southwest Ohio’s public transit system, serving Hamilton County residents along with providing commuter service to Clermont, Butler and Warren counties into Cincinnati.",
+  "details": "Fares: $2.20 Local Routes; $3.00 Express Routes (\"designated with an X\"). Transfers free with rides bought in the Transit App, good on up to two buses for 120 minutes. Day Pass: $4.40 Local (24 hours from activation); $6.00 Express; $5.00 Metro/TANK day pass, \"Available for purchase onboard the bus\". Tap&Save in the Transit app with EZfare caps local fares at $4.40/day. \"Cash is always accepted on board; however, you must have exact change.\" Children under 55 inches ride free with a paying adult (limit two). Sales office: Mercantile Center Arcade, 115 E 5th St, Mon.–Fri. 7:30 a.m.–4:30 p.m. Customer service (513) 632-7575.",
+  "address": "115 E 5th St, Cincinnati, OH 45202 (Metro sales office)",
+  "lat": null,
+  "lng": null,
+  "url": "https://www.go-metro.com/",
+  "source_url": "https://www.go-metro.com/fares-passes/fare-information/",
+  "sources": [
+   "https://www.go-metro.com/fares-passes/",
+   "https://www.go-metro.com/fares-passes/fare-information/",
+   "https://www.visitcincy.com/listing/sorta-metro/4761/"
+  ]
+ },
+ {
+  "id": "government-square",
+  "kind": "transit",
+  "name": "Government Square (Metro hub, 5th St at Walnut St)",
+  "summary": "Metro’s downtown transit hub; ticket vending machines at \"Government Square ( 5th St at Walnut St )\".",
+  "details": "During BLINK (Metro, Sept. 23, 2026): \"Due to street closures, Government Square will close nightly at 6 p.m. Service will relocate to the Riverfront Transit Center until 12:30 a.m.\" \"The Government Square information booth will be staffed from 5 p.m. – 1 a.m. nightly during the event.\" TANK 2X Airporter stops at \"Government Square Area F\".",
+  "address": "5th St at Walnut St, Cincinnati, OH 45202",
+  "lat": 39.101527,
+  "lng": -84.511151,
+  "url": "https://www.go-metro.com/",
+  "source_url": "https://www.go-metro.com/less-think-more-blink-regional-transit-partners-announce-blink-2026-service/",
+  "coords_source": "nominatim",
+  "sources": [
+   "https://www.go-metro.com/fares-passes/",
+   "https://www.go-metro.com/less-think-more-blink-regional-transit-partners-announce-blink-2026-service/",
+   "https://www.tankbus.org/bus_routes/airporter/"
+  ],
+  "notes": "Coordinates: Nominatim \"Charles P. Taft Government Square, Main Street Historic District, Central Business District, Cincinnati, Hamilton County, Ohio, 45202, United States\".",
+  "nearest_hub": {
+   "hub": "fountain-square",
+   "straight_line_m": 146
+  }
+ },
+ {
+  "id": "riverfront-transit-center",
+  "kind": "transit",
+  "name": "Riverfront Transit Center",
+  "summary": "\"Park & Ride service will drop attendees off at the Riverfront Transit Center.\"",
+  "details": "BLINK nights: Metro Park & Rides (Cincinnati State, 3658 Central Pkwy; Crossroads Oakley, 3500 Madison Rd) run 6 p.m.–midnight with direct service here; Government Square service relocates here from 6 p.m. until 12:30 a.m.",
+  "address": null,
+  "lat": 39.097977,
+  "lng": -84.512142,
+  "url": "https://www.go-metro.com/blink",
+  "source_url": "https://www.go-metro.com/less-think-more-blink-regional-transit-partners-announce-blink-2026-service/",
+  "coords_source": "nominatim",
+  "notes": "Coordinates: Nominatim \"Riverfront Transit Center, West Fourth Street Historic District, Central Business District, Cincinnati, Hamilton County, Ohio, 45210, United States\".",
+  "nearest_hub": {
+   "hub": "smale-riverfront-park",
+   "straight_line_m": 348
+  }
+ },
+ {
+  "id": "blink-transit-passes-2026",
+  "kind": "transit",
+  "name": "BLINK 2026 discounted transit passes (Transit app)",
+  "summary": "\"Discounted tickets go on sale Oct. 5 through the Transit app.\"",
+  "details": "\"A One-Day BLINK Pass, valid October 8-11 for 24 hours after activation – $2.20\"; \"A Four-Day BLINK Pass, valid October 8-11 – $8.00\"; \"A One-Day Group Pass, valid October 8-11 for up to four people for 24 hours after activation – $8.00\". Passes are valid on regular service and designated Park & Ride service (Metro, TANK, BCRTA). \"TANK Park & Ride service will be cashless. All BCRTA services will be cashless.\" Metro Customer Care Center (513-632-7575) open until midnight nightly during the event. BCRTA CincyLink to BLINK: Oct 8–11, 4:30 PM–Midnight from Meijer Middletown and Meijer Tylersville Rd (West Chester).",
+  "address": null,
+  "lat": null,
+  "lng": null,
+  "url": "https://www.go-metro.com/blink",
+  "source_url": "https://www.go-metro.com/less-think-more-blink-regional-transit-partners-announce-blink-2026-service/",
+  "notes": "Metro press release dated September 23, 2026. The blink-info slice (from blinkcincinnati.com/resources/park-and-ride) lists BCRTA hours as 5:30–11 p.m.; Metro's newer release says 4:30 PM–Midnight (service from the Tylersville Road Meijer begins at 5:00 p.m.)."
+ },
+ {
+  "id": "tank-bus",
+  "kind": "transit",
+  "name": "TANK (Transit Authority of Northern Kentucky)",
+  "summary": "Northern Kentucky’s bus system; routes connect Covington and Newport with downtown Cincinnati.",
+  "details": "Fares: \"Local Cash Fare – $2\"; \"Southbank Shuttle Fare – $2\"; \"TANK 1-Day Pass – $4\"; \"Metro/TANK 1-Day Pass – $5\"; \"Children under 48” ride free with a paying adult\". Pay with Transit (EZfare), exact cash, or in person. \"Transfers cost $0.25 and are good within two hours of issue.\" BLINK: TANK Park & Ride from Northern Kentucky University (Lots K, L, M) Friday Oct 9 and Saturday Oct 10 only, 6–11 p.m., straight to the Covington Transit Center; other nights use regular routes.",
+  "address": null,
+  "lat": null,
+  "lng": null,
+  "url": "https://www.tankbus.org/",
+  "source_url": "https://www.tankbus.org/fares-guides/fare/",
+  "sources": [
+   "https://www.tankbus.org/fares-guides/fare/",
+   "https://www.go-metro.com/less-think-more-blink-regional-transit-partners-announce-blink-2026-service/",
+   "https://www.tankbus.org/blink-shuttle-service-parking-2026/"
+  ],
+  "notes": "Visit Cincy's Fountain District page still says TANK to CVG costs \"$1.50\"; TANK's own fare page lists $2 local cash fare and the Visit Cincy TANK Airporter listing says \"Only $2!\"."
+ },
+ {
+  "id": "tank-2x-airporter",
+  "kind": "transit",
+  "name": "TANK Route 2X Airporter (downtown Cincinnati – CVG Airport)",
+  "summary": "\"Yes, TANK does provide service to CVG Airport on Route 2X, from downtown Cincinnati. This bus runs every 30 minutes.\"",
+  "details": "Downtown stops (inbound to CVG): 5th at Elm, 5th at Vine, Government Square Area F, 4th at Sycamore, 4th at Vine, Race at 3rd, then CVG Airport Terminal and on to the Florence Hub. Published timetable (tankbus.org route page, captured 2026-09-24): first bus leaves 5th at Elm 03:41, last 02:11; scheduled 5th at Elm → CVG Airport Terminal time 24 minutes on every trip; CVG Airport Terminal → 5th at Elm first 04:26, last 02:56, scheduled 24 minutes. At CVG it \"Departs from Baggage Claim level. Follow signs for Ground Transport East to Public Transit.\" Fare: $2 local cash fare (TANK fare page).",
+  "address": "5th St at Elm St, Cincinnati, OH (first downtown stop)",
+  "lat": null,
+  "lng": null,
+  "url": "https://www.tankbus.org/bus_routes/airporter/",
+  "source_url": "https://www.tankbus.org/bus_routes/airporter/",
+  "sources": [
+   "https://www.tankbus.org/faq/",
+   "https://www.tankbus.org/bus_routes/airporter/",
+   "https://www.cvgairport.com/terminal-information/ground-transportation/",
+   "https://www.visitcincy.com/listing/tank-airporter/5740/"
+  ],
+  "notes": "Times parsed by scripts/stay-move-tank.py from the route page timetable (the Monday–Friday, Saturday and Sunday tabs rendered identical first/last trips in the capture). The route page shows a \"Service Improvements Coming November 7th\" alert, after Cincy Week."
+ },
+ {
+  "id": "tank-southbank-shuttle",
+  "kind": "transit",
+  "name": "TANK Southbank Shuttle (Covington – Cincinnati – Newport – Bellevue)",
+  "summary": "TANK route serving \"Cities: Bellevue, Cincinnati, Covington, Newport\".",
+  "details": "Hours \"April – October: Monday-Friday: 6AM-11PM; Weekend: 10AM-11PM\". Visit Cincy: \"Affectionally known as the trolly, the Southbank Shuttle runs every 15 minutes\". Stops include Park at Court, Rivercenter at Madison, Madison at 4th, 3rd at Courtyard Marriott (Covington), 2nd at Vine (Cincinnati), 3rd at Newport on the Levee, Dave Cowens at Riverboat (Newport) and Landmark at Riviera (Bellevue). Fare \"Southbank Shuttle Fare – $2\".",
+  "address": null,
+  "lat": null,
+  "lng": null,
+  "url": "https://www.tankbus.org/bus_routes/southbank-shuttle/",
+  "source_url": "https://www.tankbus.org/bus_routes/southbank-shuttle/",
+  "sources": [
+   "https://www.tankbus.org/bus_routes/southbank-shuttle/",
+   "https://www.tankbus.org/fares-guides/fare/",
+   "https://www.visitcincy.com/plan-your-visit/transportation/ground-transportation/"
+  ]
+ },
+ {
+  "id": "red-bike",
+  "kind": "transit",
+  "name": "Red Bike (bike share)",
+  "summary": "\"Red Bike is Cincinnati’s non-profit station-based bike share system.\"",
+  "details": "Pricing (cincyredbike.org/pricing): Two-Hour Pass $12 (\"Unlimited 2-hour rides for 24 hours, $5 per additional for rides lasting longer than 2 hours\" per the system pricing feed); Monthly Pass $30; Annual Pass $150. Rentals through the BCycle app. The live station feed lists 79 stations (see redbike_stations.json). BLINK: \"Ride all week with the BLINK 1-Week Pass ($20)\"; \"plan to dock your bike at a Red Bike station before entering the pedestrian festival area\"; \"Do not ride Red Bikes through BLINK’s pedestrian area or closed streets.\" Contact: 600 Central Ave., (513) 621-2453.",
+  "address": "600 Central Ave, Cincinnati, OH 45202 (office)",
+  "lat": null,
+  "lng": null,
+  "url": "https://www.cincyredbike.org/",
+  "source_url": "https://www.cincyredbike.org/pricing/",
+  "sources": [
+   "https://www.cincyredbike.org/",
+   "https://www.cincyredbike.org/pricing/",
+   "https://gbfs.bcycle.com/bcycle_cincyredbike/system_pricing_plans.json",
+   "https://www.cincyredbike.org/wp-content/uploads/2026/09/BLINK-1-Week-Pass.pdf",
+   "https://www.blinkcincinnati.com/resources/park-and-ride",
+   "https://www.visitcincy.com/plan-your-visit/transportation/ground-transportation/"
+  ],
+  "notes": "Visit Cincy's ground transportation page still says \"A $10 day pass offers unlimited 60-minute rides\" and \"More than 50 stations\"; Red Bike's own pricing page and live feed are newer and were used here."
+ },
+ {
+  "id": "e-scooters",
+  "kind": "transit",
+  "name": "Shared e-scooters (Bird, Lime)",
+  "summary": "\"Electric scooters, known commonly as e-scooters, are available for rent from Bird and Lime seven days a week 6:00 a.m. to 11:00 p.m.\"",
+  "details": "\"Riding small vehicles is prohibited on pedestrian sidewalks but permissible on multiuse (bike/pedestrian) paths.\" \"You are allowed to complete your trip if you start the session before 11:00 p.m. and end after.\" \"Riders must be 16 years of age or older.\" Scooters are \"more concentrated in the downtown, Over-The-Rhine, and CUF areas.\" Do not park blocking bus stops, curb ramps or Red Bike kiosks.",
+  "address": null,
+  "lat": null,
+  "lng": null,
+  "url": "https://www.cincinnati-oh.gov/dote/dote-projects/electric-scooters/",
+  "source_url": "https://www.cincinnati-oh.gov/dote/dote-projects/electric-scooters/",
+  "notes": "The city page (checked 2026-09-24) names Bird and Lime."
+ },
+ {
+  "id": "gest-carts",
+  "kind": "transit",
+  "name": "GEST Carts (free downtown electric carts)",
+  "summary": "\"GEST Carts: Another free option to get around downtown Cincinnati! The only fee is tipping the driver. GEST carts can be called like any other rideshare.\"",
+  "details": "Visit Cincy listing: \"Our fleet of carts offers zero-emission and multiple passengers ... we are completely free for our riders!\" Visit Cincy ground transportation page: \"Carts can be requested by calling 513-421-4378 or downloading their app.\"",
+  "address": null,
+  "lat": null,
+  "lng": null,
+  "url": "http://www.gestcarts.com",
+  "source_url": "https://www.visitcincy.com/neighborhoods/downtown/fountain-district/",
+  "sources": [
+   "https://www.visitcincy.com/neighborhoods/downtown/fountain-district/",
+   "https://www.visitcincy.com/listing/gest-carts/5258/",
+   "https://www.visitcincy.com/plan-your-visit/transportation/ground-transportation/"
+  ]
+ },
+ {
+  "id": "walking-roebling-bridge",
+  "kind": "transit",
+  "name": "Walking across the Roebling Suspension Bridge",
+  "summary": "\"Pedestrians will be able to use the Roebling Suspension Bridge to travel between Covington and Cincinnati, making it easy to experience BLINK on both sides of the river.\"",
+  "details": "Roebling Way and the Roebling Bridge are closed to vehicles \"Nightly from 6:45-11 p.m., October 8-11\". Visit Cincy calls it an \"Iconic suspension (and pedestrian) bridge joining Northern Kentucky to Cincinnati.\"",
+  "address": null,
+  "lat": 39.0893762899,
+  "lng": -84.5090718598,
+  "url": "https://www.covingtonky.gov/",
+  "source_url": "https://www.covingtonky.gov/news/2026/09/14/getting-around-covington-during-blink-road-closure-traffic-information",
+  "coords_source": "visitcincy",
+  "sources": [
+   "https://www.covingtonky.gov/news/2026/09/14/getting-around-covington-during-blink-road-closure-traffic-information",
+   "https://www.visitcincy.com/neighborhoods/downtown/the-banks/"
+  ],
+  "nearest_hub": {
+   "hub": "covington-riverfront-roebling-point",
+   "straight_line_m": 0
+  }
+ },
+ {
+  "id": "rideshare-and-taxi-cvg",
+  "kind": "transit",
+  "name": "Rideshare and taxi pickup at CVG",
+  "summary": "\"Rideshare Services: Follow signage to Ground Transport East on the Baggage Claim level.\" (Lyft, Uber)",
+  "details": "Taxi: \"Provided by: zTrip, Phone number: 513-962-1122\", also from Ground Transport East. \"Most of the below providers will be available from either Ground Transport East or Ground Transport West. This is not located at the Terminal curbfront.\" \"Service after 12 a.m. midnight may be limited for walk-ups.\" Hotel courtesy shuttles (incl. Hotel Covington, 859-905-6600) leave from Ground Transport West.",
+  "address": null,
+  "lat": null,
+  "lng": null,
+  "url": "https://www.cvgairport.com/terminal-information/ground-transportation/",
+  "source_url": "https://www.cvgairport.com/terminal-information/ground-transportation/",
+  "notes": "Downtown rideshare/drop-off guidance during BLINK is in the blink-info slice (accessible drop-off points)."
+ },
+ {
+  "id": "cvg-airport",
+  "kind": "airport",
+  "name": "Cincinnati/Northern Kentucky International Airport (CVG)",
+  "summary": "\"The airport is located 13 miles south of downtown Cincinnati in Northern Kentucky.\"",
+  "details": "Address: 3087 Terminal Dr, Hebron, KY 41048. \"From Cincinnati: Drive south on I-71 or I-75 across the Ohio River. Take Exit 185 and follow the I-275 Highway west to Exit 4B (State Route 212). Follow the signs to the airport terminals and parking facilities.\" Public transit: TANK Route 2X Airporter (every 30 minutes; scheduled 24 minutes CVG Terminal ↔ 5th at Elm). Rideshare and taxis: Ground Transport East, Baggage Claim level.",
+  "address": "3087 Terminal Dr, Hebron, KY 41048",
+  "lat": 39.053292,
+  "lng": -84.655539,
+  "url": "https://www.cvgairport.com/",
+  "source_url": "https://www.cvgairport.com/directions-and-traffic/",
+  "coords_source": "nominatim",
+  "sources": [
+   "https://www.cvgairport.com/directions-and-traffic/",
+   "https://www.cvgairport.com/terminal-information/ground-transportation/",
+   "https://www.visitcincy.com/plan-your-visit/transportation/getting-here/",
+   "https://hotelcovington.com/"
+  ],
+  "notes": "CVG itself publishes the distance but no drive time. Visit Cincy (the regional CVB) lists \"Cincinnati/N. Kentucky International Airport (CVG) 15 min. from downtown\" under \"Drive times to regional airports\"; Hotel Covington says it is \"15 minutes by car\" from CVG. Straight-line distance to Fountain Square is computed in walking.json. Coordinates: Nominatim match for 3087 Terminal Drive (a shop inside the terminal building), i.e. the terminal, not the airfield centroid.",
+  "drive_time_text": "15 min. from downtown (Visit Cincy, plan-your-visit/transportation/getting-here)"
+ },
+ {
+  "id": "taxi",
+  "kind": "transit",
+  "name": "Taxis (Cincinnati and Northern Kentucky)",
+  "summary": "\"Taxis are available downtown and arrangements can be made through the hotel front desk, or valet.\"",
+  "details": "Visit Cincy lists Community Yellow Cab (859.727.2900 or 859.261.4400; \"Dual licensed in Ohio & in Kentucky; vans are available\") and General Cab (513.353.3824). \"Important note: Cincinnati taxi companies cannot pick up passengers in Kentucky and Kentucky taxi companies cannot pick up passengers in Ohio. However, any company that holds a dual state license can pick up at the airport.\" Visit Cincy also states \"The rate from Cincinnati/Northern KY airport (CVG) to downtown Cincinnati is $34 for one to four people.\" CVG's own page names zTrip (513-962-1122) as its taxicab service.",
+  "address": null,
+  "lat": null,
+  "lng": null,
+  "url": "https://www.visitcincy.com/plan-your-visit/transportation/ground-transportation/",
+  "source_url": "https://www.visitcincy.com/plan-your-visit/transportation/ground-transportation/",
+  "sources": [
+   "https://www.visitcincy.com/plan-your-visit/transportation/ground-transportation/",
+   "https://www.cvgairport.com/terminal-information/ground-transportation/"
+  ],
+  "notes": "Visit Cincy labels its meter figures \"an approximate fee schedule\"; the CVG taxi rate and cab company list may be dated. The $34 flat rate is Visit Cincy's statement, not CVG's or a cab company's."
+ },
+ {
+  "id": "amtrak-cincinnati-union-terminal",
+  "kind": "transit",
+  "name": "Amtrak Cardinal at Cincinnati Union Terminal",
+  "summary": "\"Amtrak’s Cardinal Line stops in Cincinnati as it travels between New York and Chicago three days a week.\"",
+  "details": "\"The Amtrak is located inside Union Terminal on the western edge of the downtown Cincinnati area.\" Union Terminal (Cincinnati Museum Center) address: 1301 Western Avenue, Cincinnati, OH 45203.",
+  "address": "1301 Western Avenue, Cincinnati, OH 45203",
+  "lat": 39.1095233,
+  "lng": -84.5322215,
+  "url": "https://www.amtrak.com/stations/cin",
+  "source_url": "https://www.visitcincy.com/plan-your-visit/transportation/getting-here/",
+  "coords_source": "visitcincy (Cincinnati Museum Center listing)",
+  "sources": [
+   "https://www.visitcincy.com/plan-your-visit/transportation/getting-here/",
+   "https://www.cincymuseum.org/visit/"
+  ],
+  "notes": "amtrak.com could not be fetched from this environment (connection reset), so train days and times were not verified.",
+  "nearest_hub": {
+   "hub": "findlay-market",
+   "straight_line_m": 1314
+  }
+ },
+ {
+  "id": "parking-3cdc-1200-vine-street-lot",
+  "kind": "parking",
+  "name": "1200 Vine Street Lot (3CDC)",
+  "summary": "Northeast corner of 12th & Vine streets. Entrances/exits on 12th and Jackson streets. Machine does not give change.",
+  "details": "Posted rates: 1 hr – $4.50; 2 hrs – $6.50; 3 hrs – $8.50; 4 hrs – $10.50; 24 hrs – $15; Weekday evenings after 4pm (max 8 hrs) – $8 flat; Weekends (max 8 hrs) – $8 flat. Contact: Phone: (513) 977-8042, Email: parking@3cdc.org, Hours: 24/7",
+  "address": "1202 Vine Street, Cincinnati, OH 45202",
+  "lat": 39.10846,
+  "lng": -84.514707,
+  "url": "https://www.3cdc.org/parking/",
+  "source_url": "https://www.3cdc.org/parking/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "union-hall",
+   "straight_line_m": 177
+  },
+  "sources": [
+   "https://www.3cdc.org/parking/",
+   "https://www.blinkcincinnati.com/resources/parking"
+  ],
+  "notes": "BLINK: \"All parking garages outside of the BLINK footprint will be open at event pricing\" (blinkcincinnati.com/resources/parking); posted rates may not apply on BLINK nights."
+ },
+ {
+  "id": "parking-3cdc-1400-vine-lot",
+  "kind": "parking",
+  "name": "1400 Vine Lot (3CDC)",
+  "summary": "On Vine Street business district. Access via Walnut and Vine streets. Machine does not give change.",
+  "details": "Posted rates: 1 hr – $4.50; 2 hrs – $6.50; 3 hrs – $8.50; 4 hrs – $12; 24 hrs – $15; Weekday evenings after 4pm (max 8 hrs) – $8 flat; Weekends (max 8 hrs) – $8 flat. Monthly Parking Pass: $150/month Opened: May 2020. Contact: Phone: (513) 977-8042, Email: parking@3cdc.org, Hours: 24/7",
+  "address": "1420 Vine Street, Cincinnati, OH 45202",
+  "lat": 39.11168,
+  "lng": -84.51548,
+  "url": "https://www.3cdc.org/parking/",
+  "source_url": "https://www.3cdc.org/parking/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "union-hall",
+   "straight_line_m": 198
+  },
+  "sources": [
+   "https://www.3cdc.org/parking/",
+   "https://www.blinkcincinnati.com/resources/parking"
+  ],
+  "notes": "BLINK: \"All parking garages outside of the BLINK footprint will be open at event pricing\" (blinkcincinnati.com/resources/parking); posted rates may not apply on BLINK nights."
+ },
+ {
+  "id": "parking-3cdc-4th-and-race-garage",
+  "kind": "parking",
+  "name": "4th & Race Garage (3CDC)",
+  "summary": "Above-grade garage. Entrances/exits on Elm and Race streets. Southwest corner of Fountain District.",
+  "details": "Posted rates: 0–30 min – $2; 31–59 min – $4; 1–3 hrs – $9; 3–5 hrs – $13; 5–6 hrs – $15; 6–7 hrs – $19; 7–18 hrs – $23; 18–24 hrs – $28; Early bird M–F (in before 9am, out 2–6pm) – $9; Weekday evenings after 4pm (max 8 hrs) – $8.50 flat; Weekends (max 8 hrs) – $8.50 flat. Height Restriction: 7'1\" Monthly Parking Pass: $200/month (introductory rate) EV Charging: 3 stations serving 6 vehicles. Rates: $0.25/kWh plus $1/hour dwell fee after first hour (dwell fee waived 7PM–7AM). Opened: November 2020. Contact: Phone: (513) 977-8042, Email: parking@3cdc.org, Hours: 24/7",
+  "address": "411 Race Street, Cincinnati, OH 45202",
+  "lat": 39.099892,
+  "lng": -84.514449,
+  "url": "https://www.3cdc.org/parking/",
+  "source_url": "https://www.3cdc.org/parking/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "fountain-square",
+   "straight_line_m": 254
+  },
+  "sources": [
+   "https://www.3cdc.org/parking/",
+   "https://www.blinkcincinnati.com/resources/parking"
+  ],
+  "notes": "BLINK: \"All parking garages outside of the BLINK footprint will be open at event pricing\" (blinkcincinnati.com/resources/parking); posted rates may not apply on BLINK nights."
+ },
+ {
+  "id": "parking-3cdc-5th-and-race-garage",
+  "kind": "parking",
+  "name": "5th & Race Garage (3CDC)",
+  "summary": "Entrances on both 5th and 6th Streets.",
+  "details": "Posted rates: 0–30 min – $2; 31–59 min – $4; 1–2 hrs – $7; 2–3 hrs – $12; 3–6 hrs – $17; 6–7 hrs – $20; 7–18 hrs – $25; 18–24 hrs – $28; Weekday evenings after 4pm (max 8 hrs) – $8.50 flat; Weekends (max 8 hrs) – $8.50 flat. Height Restriction: 7'4\" Monthly Parking Pass: $200/month EV Charging: 6 Level 2 charging stations reserved for electric vehicles; no fee for chargers (normal parking rates apply).. Contact: Phone: (513) 977-8042, Email: parking@3cdc.org, Hours: 24/7",
+  "address": "120 W. 5th Street, Cincinnati, OH 45202",
+  "lat": 39.100974,
+  "lng": -84.515045,
+  "url": "https://www.3cdc.org/parking/",
+  "source_url": "https://www.3cdc.org/parking/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "fountain-square",
+   "straight_line_m": 213
+  },
+  "sources": [
+   "https://www.3cdc.org/parking/",
+   "https://www.blinkcincinnati.com/resources/parking"
+  ],
+  "notes": "BLINK: \"All parking garages outside of the BLINK footprint will be open at event pricing\" (blinkcincinnati.com/resources/parking); posted rates may not apply on BLINK nights."
+ },
+ {
+  "id": "parking-3cdc-7th-and-sycamore-garage",
+  "kind": "parking",
+  "name": "7th & Sycamore Garage (3CDC)",
+  "summary": "Mixed-use development between 7th and 8th Streets.",
+  "details": "Posted rates: 0–1 hr – $3.50; 1–2 hrs – $7; 2–3 hrs – $10; 3–24 hrs – $12.50; Weekday evenings after 4pm (max 8 hrs) – $6 flat; Weekends (max 8 hrs) – $6 flat. Height Restriction: 8'2\" Monthly Parking Pass: $170/month EV Charging: 4 charging stations serving 8 cars. Rates: $0.25/kWh plus $1/hour dwell fee after first hour (dwell fee waived 7PM–7AM). Opened: August 2016. Contact: Phone: (513) 977-8042, Email: parking@3cdc.org, Hours: 24/7",
+  "address": "313 E 8th Street, Cincinnati, OH 45202",
+  "lat": 39.105299,
+  "lng": -84.508624,
+  "url": "https://www.3cdc.org/parking/",
+  "source_url": "https://www.3cdc.org/parking/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "fountain-square",
+   "straight_line_m": 531
+  },
+  "sources": [
+   "https://www.3cdc.org/parking/",
+   "https://www.blinkcincinnati.com/resources/parking"
+  ],
+  "notes": "BLINK: \"All parking garages outside of the BLINK footprint will be open at event pricing\" (blinkcincinnati.com/resources/parking); posted rates may not apply on BLINK nights."
+ },
+ {
+  "id": "parking-3cdc-7th-and-vine-lot",
+  "kind": "parking",
+  "name": "7th & Vine Lot (3CDC)",
+  "summary": "Street-level lot in Fountain District near Aronoff Center, Fountain Square, and Court Street Plaza.",
+  "details": "Posted rates: 1 hr – $7; 2–12 hrs – $15; 12–24 hrs – $25. Monthly Parking Pass: $165/month (introductory rate). Contact: Phone: (513) 977-8042, Email: parking@3cdc.org, Hours: 24/7",
+  "address": "710 Vine Street, Cincinnati, OH 45202",
+  "lat": 39.104213,
+  "lng": -84.51364,
+  "url": "https://www.3cdc.org/parking/",
+  "source_url": "https://www.3cdc.org/parking/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "fountain-square",
+   "straight_line_m": 278
+  },
+  "sources": [
+   "https://www.3cdc.org/parking/",
+   "https://www.blinkcincinnati.com/resources/parking"
+  ],
+  "notes": "BLINK: \"All parking garages outside of the BLINK footprint will be open at event pricing\" (blinkcincinnati.com/resources/parking); posted rates may not apply on BLINK nights."
+ },
+ {
+  "id": "parking-3cdc-central-and-walnut-lot",
+  "kind": "parking",
+  "name": "Central & Walnut Lot (3CDC)",
+  "summary": "Corner of Walnut and Central Parkway. Near Court Street Condos, Mid-City, and Onolicious.",
+  "details": "Posted rates: 1 hr – $5; 2 hrs – $7; 2–24 hrs – $12; Weekday evenings after 4pm (max 8 hrs) – $6 flat; Weekends (max 8 hrs) – $6 flat. Opened: June 2019. Contact: Phone: (513) 977-8042, Email: parking@3cdc.org, Hours: 24/7",
+  "address": "35 E Central Parkway, Cincinnati, OH 45202",
+  "lat": 39.107251,
+  "lng": -84.513328,
+  "url": "https://www.3cdc.org/parking/",
+  "source_url": "https://www.3cdc.org/parking/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "union-hall",
+   "straight_line_m": 353
+  },
+  "sources": [
+   "https://www.3cdc.org/parking/",
+   "https://www.blinkcincinnati.com/resources/parking"
+  ],
+  "notes": "BLINK: \"All parking garages outside of the BLINK footprint will be open at event pricing\" (blinkcincinnati.com/resources/parking); posted rates may not apply on BLINK nights."
+ },
+ {
+  "id": "parking-3cdc-court-and-walnut-garage",
+  "kind": "parking",
+  "name": "Court & Walnut Garage (3CDC)",
+  "summary": "Part of 18-story mixed-use development with Kroger grocery store. Entry/exit on Central Parkway between Walnut and Main streets.",
+  "details": "Posted rates: 0–1 hr – $4; 1–2 hrs – $7; 2–3 hrs – $10; 3–4 hrs – $13; 4–7 hrs – $16; Over 7 hrs – $20; Early bird (in before 8:30am, out 2–6pm) – $9; Weekday evenings after 4pm (max 8 hrs) – $7 flat; Weekends (max 8 hrs) – $7 flat. Height Restriction: 7'0\" Monthly Parking Pass: $165/month EV Charging: 8 stations serving 16 vehicles. Rates: $0.25/kWh plus $1/hour dwell fee after first hour (dwell fee waived 7PM–7AM). Validations: Kroger validation: first 30 min free on Levels 3 & 4 regardless of purchase; $15 minimum purchase = 2 hours free parking. Validate at Pay on Foot machines in Kroger lobbies (Levels 1 & 2). Longer than 2 hours = double rate charged (max $34). No receipt = charged daily max rate. Opened: February 2019. Contact: Phone: (513) 977-8042, Email: parking@3cdc.org, Hours: 24/7",
+  "address": "107 E Central Parkway, Cincinnati, OH 45202",
+  "lat": 39.107348,
+  "lng": -84.512678,
+  "url": "https://www.3cdc.org/parking/",
+  "source_url": "https://www.3cdc.org/parking/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "union-hall",
+   "straight_line_m": 379
+  },
+  "sources": [
+   "https://www.3cdc.org/parking/",
+   "https://www.blinkcincinnati.com/resources/parking"
+  ],
+  "notes": "BLINK: \"All parking garages outside of the BLINK footprint will be open at event pricing\" (blinkcincinnati.com/resources/parking); posted rates may not apply on BLINK nights."
+ },
+ {
+  "id": "parking-3cdc-elm-street-lot",
+  "kind": "parking",
+  "name": "Elm Street Lot (3CDC)",
+  "summary": "Next to Central Parkway YMCA, across from School for Creative and Performing Arts. Near Memorial Hall, Washington Park, bars & restaurants. Machine does not give change. Rates subject to change due to demand from special events.",
+  "details": "Posted rates: 1 hr – $3.50; 2 hrs – $5.50; 3 hrs – $7.50; 4 hrs – $9.50; 24 hrs – $15; Weekends (max 8 hrs) – $10 flat. Monthly Parking Pass: $140/month EV Charging: EV charging available. Rates: $0.25/kWh plus $1/hour dwell fee after first hour (dwell fee waived 7PM–7AM).. Contact: Phone: (513) 977-8042, Email: parking@3cdc.org, Hours: 24/7 (new day starts at 4am)",
+  "address": "1119 Elm Street, Cincinnati, OH 45202",
+  "lat": 39.10763,
+  "lng": -84.517848,
+  "url": "https://www.3cdc.org/parking/",
+  "source_url": "https://www.3cdc.org/parking/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "union-hall",
+   "straight_line_m": 319
+  },
+  "sources": [
+   "https://www.3cdc.org/parking/",
+   "https://www.blinkcincinnati.com/resources/parking"
+  ],
+  "notes": "BLINK: \"All parking garages outside of the BLINK footprint will be open at event pricing\" (blinkcincinnati.com/resources/parking); posted rates may not apply on BLINK nights."
+ },
+ {
+  "id": "parking-3cdc-findlay-lot",
+  "kind": "parking",
+  "name": "Findlay Lot (3CDC)",
+  "summary": "Situated along Race Street between W Elder and Green Streets, this 109-space parking lot is conveniently located in close proximity to Findlay Market, Crossroad Health Center, and the forthcoming Findlay Community Hub. Vehicular entry/exit is located along W Elder Street, Green Street, and Race Street. The lot officially opened in April 2026.",
+  "details": "Posted rates: 90 minutes - $2.50; 2 Hours - $5.00; 3 Hours - $7.50; 4 Hours - $8.00; 24 Hours - $25.00; Evening Rate (4 PM - Midnight) - $8 flat rate (max 8 hours, after which normal rates apply); Your account will be charged as soon as your card is inserted. Please be sure to read any messaging displayed on the screen carefully, as it pertains to current parking rates. By entering your card, you are agreeing to pay the current rate.; The machine DOES NOT give change. Please pay accordingly.. Contact: Phone: (513) 977-8042, Email: parking@3cdc.org, Hours: 24/7 (evening rate 4PM–Midnight)",
+  "address": "Between W Elder and Green Streets along Race Street, Cincinnati, OH 45202",
+  "lat": null,
+  "lng": null,
+  "url": "https://www.3cdc.org/parking/",
+  "source_url": "https://www.3cdc.org/parking/",
+  "coords_source": null,
+  "nearest_hub": null,
+  "sources": [
+   "https://www.3cdc.org/parking/",
+   "https://www.blinkcincinnati.com/resources/parking"
+  ],
+  "notes": "No street number published (\"Between W Elder and Green Streets along Race Street\"); not geocoded. BLINK: \"All parking garages outside of the BLINK footprint will be open at event pricing\" (blinkcincinnati.com/resources/parking); posted rates may not apply on BLINK nights."
+ },
+ {
+  "id": "parking-3cdc-fountain-square-garage",
+  "kind": "parking",
+  "name": "Fountain Square Garage (3CDC)",
+  "summary": "Underground garage with 4 levels. Renovated facility with new lighting, ventilation, signage, restrooms, security system and personnel. Entrances/exits on Vine and Walnut streets. Pay-on-foot stations on Plaza level and Level 1.",
+  "details": "Posted rates: 10–30 min – $2; 31–59 min – $4; 1–2 hrs – $7; 2–4 hrs – $11; 4–6 hrs – $16; 6–7 hrs – $20; 7–18 hrs – $25; 18–24 hrs – $30; Weekday evenings after 4pm (max 8 hrs) – $9 flat; Weekends (max 8 hrs) – $9 flat. Height Restriction: 6'8\" Monthly Parking Pass: $220/month. Contact: Phone: (513) 977-8042, Email: parking@3cdc.org, Hours: 24/7",
+  "address": "520 Vine Street, Cincinnati, OH 45202",
+  "lat": 39.101794,
+  "lng": -84.512811,
+  "url": "https://www.3cdc.org/parking/",
+  "source_url": "https://www.3cdc.org/parking/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "fountain-square",
+   "straight_line_m": 0
+  },
+  "sources": [
+   "https://www.3cdc.org/parking/",
+   "https://www.blinkcincinnati.com/resources/parking"
+  ],
+  "notes": "BLINK: \"All parking garages outside of the BLINK footprint will be open at event pricing\" (blinkcincinnati.com/resources/parking); posted rates may not apply on BLINK nights."
+ },
+ {
+  "id": "parking-3cdc-liberty-and-elm-lot",
+  "kind": "parking",
+  "name": "Liberty & Elm Lot (3CDC)",
+  "summary": "Corner of Liberty and Elm streets. Near Over-the-Rhine, TQL Stadium, and Findlay Market. Entry/exit on Elm Street. Machine does not give change.",
+  "details": "Posted rates: 1 hr – $2.50; 2–3 hrs – $6.50; 4 hrs – $9.50; 24 hrs – $15; Weekends (max 8 hrs) – $8 flat. Monthly Parking Pass: $90/month Opened: July 2021. Contact: Phone: (513) 977-8042, Email: parking@3cdc.org, Hours: 24/7 (new day starts at 4am)",
+  "address": "123 W Liberty Street, Cincinnati, OH 45202",
+  "lat": 39.11299,
+  "lng": -84.518769,
+  "url": "https://www.3cdc.org/parking/",
+  "source_url": "https://www.3cdc.org/parking/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "findlay-market",
+   "straight_line_m": 265
+  },
+  "sources": [
+   "https://www.3cdc.org/parking/",
+   "https://www.blinkcincinnati.com/resources/parking"
+  ],
+  "notes": "BLINK: \"All parking garages outside of the BLINK footprint will be open at event pricing\" (blinkcincinnati.com/resources/parking); posted rates may not apply on BLINK nights."
+ },
+ {
+  "id": "parking-3cdc-liberty-and-race-lot",
+  "kind": "parking",
+  "name": "Liberty & Race Lot (3CDC)",
+  "summary": "Corner of Liberty and Race streets. Near Over-the-Rhine, Pendleton, and Findlay Market. Single entry/exit point on Race Street. Machine does not give change.",
+  "details": "Posted rates: 1 hr – $2.50; 2–3 hrs – $6.50; 4 hrs – $9.50; 24 hrs – $15; Weekday evenings after 4pm (max 8 hrs) – $8 flat. EV Charging: EV charging available. Rates: $0.25/kWh plus $1/hour dwell fee after first hour (dwell fee waived 7PM–7AM). Opened: July 2018. Contact: Phone: (513) 977-8042, Email: parking@3cdc.org, Hours: 24/7 (new day starts at 4am)",
+  "address": "1545 Race Street, Cincinnati, OH 45202",
+  "lat": 39.112179,
+  "lng": -84.517529,
+  "url": "https://www.3cdc.org/parking/",
+  "source_url": "https://www.3cdc.org/parking/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "union-hall",
+   "straight_line_m": 304
+  },
+  "sources": [
+   "https://www.3cdc.org/parking/",
+   "https://www.blinkcincinnati.com/resources/parking"
+  ],
+  "notes": "BLINK: \"All parking garages outside of the BLINK footprint will be open at event pricing\" (blinkcincinnati.com/resources/parking); posted rates may not apply on BLINK nights."
+ },
+ {
+  "id": "parking-3cdc-mercer-commons-garage",
+  "kind": "parking",
+  "name": "Mercer Commons Garage (3CDC)",
+  "summary": "Entry from Vine Street, exit onto Mercer Street. Surrounded by condos, townhomes, and commercial spaces.",
+  "details": "Posted rates: 0–2 hrs – $3; 2–3 hrs – $8; 3–4 hrs – $10; Over 4 hrs – $15; Weekday evenings after 4pm (max 8 hrs) – $8 flat; Weekends (max 8 hrs) – $8 flat. Height Restriction: 7'0\" Monthly Parking Pass: $135/month (M–F 6AM–7PM only). Contact: Phone: (513) 977-8042, Email: parking@3cdc.org, Hours: M–F 6AM–7PM for monthly parkers; additional fees after 7PM",
+  "address": "1310 Vine Street, Cincinnati, OH 45202",
+  "lat": 39.110129,
+  "lng": -84.514543,
+  "url": "https://www.3cdc.org/parking/",
+  "source_url": "https://www.3cdc.org/parking/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "union-hall",
+   "straight_line_m": 94
+  },
+  "sources": [
+   "https://www.3cdc.org/parking/",
+   "https://www.blinkcincinnati.com/resources/parking",
+   "https://startupcincyweek.com/en/faq-page"
+  ],
+  "notes": "StartupCincy Week FAQ recommends this garage for Union Hall (\"we do not offer parking validation\"). BLINK: \"All parking garages outside of the BLINK footprint will be open at event pricing\" (blinkcincinnati.com/resources/parking); posted rates may not apply on BLINK nights."
+ },
+ {
+  "id": "parking-3cdc-the-foundry-garage",
+  "kind": "parking",
+  "name": "The Foundry Garage (3CDC)",
+  "summary": "One-level underground garage. Single entrance/exit on Race Street. Located one block from Fountain Square.",
+  "details": "Posted rates: 0–30 min – $4; 30–60 min – $7; 1–1.5 hrs – $10; 1.5–2 hrs – $13; 2–3 hrs – $16; 3–18 hrs – $25; 18–24 hrs – $30; Weekday evenings after 4pm (max 8 hrs) – $9 flat; Weekends (max 8 hrs) – $9 flat. Height Restriction: 6'10\" Monthly Parking Pass: $230/month (introductory rate) EV Charging: EV charging available. Rates: $0.25/kWh plus $1/hour dwell fee after first hour (dwell fee waived 7PM–7AM).. Contact: Phone: (513) 977-8042, Email: parking@3cdc.org, Hours: 24/7",
+  "address": "526 Race Street, Cincinnati, OH 45202",
+  "lat": 39.102022,
+  "lng": -84.514782,
+  "url": "https://www.3cdc.org/parking/",
+  "source_url": "https://www.3cdc.org/parking/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "fountain-square",
+   "straight_line_m": 172
+  },
+  "sources": [
+   "https://www.3cdc.org/parking/",
+   "https://www.blinkcincinnati.com/resources/parking"
+  ],
+  "notes": "BLINK: \"All parking garages outside of the BLINK footprint will be open at event pricing\" (blinkcincinnati.com/resources/parking); posted rates may not apply on BLINK nights."
+ },
+ {
+  "id": "parking-3cdc-washington-park-garage",
+  "kind": "parking",
+  "name": "Washington Park Garage (3CDC)",
+  "summary": "Underground two-level garage beneath northern end of Washington Park. Entrances/exits: Race Street at 13th Street, and Elm Street across from Music Hall. Natural sunlight illumination, glass elevator shafts, free bike parking on first level, valet-assist program M–F 7am–4pm.",
+  "details": "Posted rates: 0–1 hr – $4; 1–2 hrs – $6; 2–4 hrs – $8; 4–6 hrs – $10; Over 6 hrs – $15; Weekday evenings after 4pm (max 8 hrs) – $8 flat; Weekends (max 8 hrs) – $8 flat. Height Restriction: 8'4\" Monthly Parking Pass: $135/month (M–F 6AM–7PM only; additional fees after 7PM). Contact: Phone: (513) 977-8042, Email: parking@3cdc.org, Hours: 24/7",
+  "address": "1230 Elm Street, Cincinnati, OH 45202",
+  "lat": 39.108065,
+  "lng": -84.517953,
+  "url": "https://www.3cdc.org/parking/",
+  "source_url": "https://www.3cdc.org/parking/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "union-hall",
+   "straight_line_m": 288
+  },
+  "sources": [
+   "https://www.3cdc.org/parking/",
+   "https://www.blinkcincinnati.com/resources/parking",
+   "https://startupcincyweek.com/en/faq-page"
+  ],
+  "notes": "StartupCincy Week FAQ recommends this garage for Union Hall (\"we do not offer parking validation\"). BLINK: \"All parking garages outside of the BLINK footprint will be open at event pricing\" (blinkcincinnati.com/resources/parking); posted rates may not apply on BLINK nights."
+ },
+ {
+  "id": "parking-3cdc-ziegler-park-garage",
+  "kind": "parking",
+  "name": "Ziegler Park Garage (3CDC)",
+  "summary": "Underground two-level garage beneath Ziegler Park great lawn. Entry/exit on Sycamore Street between 13th and 14th streets. Free bike parking on top level.",
+  "details": "Posted rates: 0–1 hr – $2; 1–2 hrs – $5; 2–4 hrs – $10; Over 4 hrs – $12; Weekday evenings after 4pm (max 8 hrs) – $6 flat; Weekends (max 8 hrs) – $6 flat. Height Restriction: 7'9\" Monthly Parking Pass: $130/month EV Charging: 4 stations serving 8 vehicles simultaneously, reserved for electric vehicles. Rates: $0.25/kWh plus $1/hour dwell fee after first hour (dwell fee waived 7PM–7AM). Opened: July 2017. Contact: Phone: (513) 977-8042, Email: parking@3cdc.org, Hours: 24/7",
+  "address": "1322 Sycamore Street, Cincinnati, OH 45202",
+  "lat": 39.11028,
+  "lng": -84.510178,
+  "url": "https://www.3cdc.org/parking/",
+  "source_url": "https://www.3cdc.org/parking/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "caw-art-market-hq-1417-main",
+   "straight_line_m": 274
+  },
+  "sources": [
+   "https://www.3cdc.org/parking/",
+   "https://www.blinkcincinnati.com/resources/parking"
+  ],
+  "notes": "BLINK: \"All parking garages outside of the BLINK footprint will be open at event pricing\" (blinkcincinnati.com/resources/parking); posted rates may not apply on BLINK nights."
+ },
+ {
+  "id": "parking-findlay-market-lots",
+  "kind": "parking",
+  "name": "Findlay Market North Lot and South Lot",
+  "summary": "\"Findlay Market manages 2 surface lots - the North Lot and the South Lot.\"",
+  "details": "\"Rates: $3/hour - 24/7\". Cincy EZPark app zone # 4523; discount via EZPark \"Monday-Friday: up to $3 OFF; Saturday & Sunday: $1 OFF\" with a merchant code. \"1 hour free, M-F, 8a-6p, if you choose a 1 hour stay\". North Lot: \"From Central Parkway turn East on Findlay St. The parking lot will be on your right.\" South Lot: \"From Central Parkway turn East on Findlay St. Make a right on Race St. and the lot will be on your right.\" EV charging: two FLO stations in the North Lot near Eckerlin Meats.",
+  "address": "Findlay St / Race St, Cincinnati, OH 45202",
+  "lat": null,
+  "lng": null,
+  "url": "https://www.findlaymarket.org/parking",
+  "source_url": "https://www.findlaymarket.org/parking",
+  "notes": "Separate lots with no published street numbers; see the Findlay Market hub for coordinates."
+ },
+ {
+  "id": "parking-findlay-garage",
+  "kind": "parking",
+  "name": "The Findlay Garage (SP+)",
+  "summary": "\"The Findlay Garage (though we love it!) is not managed by Findlay Market.\"",
+  "details": "\"Enter from Langston Street off Central Parkway.\" Daily rates: \"0-1 hour: $3; 1-2 hours: $5; 2-3 hours: $7; 3-9 hours: $15; Daily Max: $20\". \"The Findlay Garage is subject to price increases on FC Cincinnati match days at TQL Stadium.\"",
+  "address": null,
+  "lat": null,
+  "lng": null,
+  "url": "https://www.findlaymarket.org/parking",
+  "source_url": "https://www.findlaymarket.org/parking",
+  "notes": "No FC Cincinnati home match is listed at TQL Stadium Oct 3–11, 2026 (tqlstadium.com/events)."
+ },
+ {
+  "id": "parking-central-riverfront-garage",
+  "kind": "parking",
+  "name": "Central Riverfront Garage (The Banks)",
+  "summary": "\"Owned by Hamilton County and operated by Ace Parking, the Central Riverfront Garage spans five city blocks between Broadway and Race Street and also accounts for over 4,500 of the total number of spaces available.\"",
+  "details": "Daily rates: \"1st Hour: $4; 2nd Hour: $7; 3rd Hour: $9; Daily Max Parking Rate: $13\". Event rates listed for Reds, Bengals (\"Passes and dynamic pricing\"), Brady Music Center shows ($15), \"Other Special Events: Varies $10 and up\". \"over 8,600 parking spaces are now available in garages and surface lots at The Banks.\" Parking Guidance System lights show open spaces.",
+  "address": "Between Broadway and Race Street, beneath The Banks, Cincinnati, OH 45202",
+  "lat": 39.097174,
+  "lng": -84.510803,
+  "url": "https://thebankspublicpartnership.com/parking-at-the-banks/",
+  "source_url": "https://thebankspublicpartnership.com/parking-at-the-banks/",
+  "coords_source": "nominatim",
+  "sources": [
+   "https://thebankspublicpartnership.com/parking-at-the-banks/",
+   "https://thebankscincy.com/about/resources/"
+  ],
+  "notes": "Coordinates: Nominatim \"Central Riverfront Garage, Barry Larkin Way, Central Business District, Cincinnati, Hamilton County, Ohio, 45202, United States\". The Banks' own FAQ says the garage \"is managed by SP+ Parking\"; the Hamilton County Banks Public Partnership page says Ace Parking. Sunday Oct 4, 2026 is a Bengals home game (vs. Jacksonville Jaguars) per The Banks events calendar, when event pricing applies.",
+  "nearest_hub": {
+   "hub": "smale-riverfront-park",
+   "straight_line_m": 204
+  }
+ },
+ {
+  "id": "parking-blink-overview",
+  "kind": "parking",
+  "name": "Parking during BLINK (Oct 8–11)",
+  "summary": "BLINK: \"All parking garages outside of the BLINK footprint will be open at event pricing.\"",
+  "details": "BLINK recommends it as \"a walking event -- Park Once, See Everything!\" and offers reserved parking and Park & Rides; see the blink-info slice (places.json) for Park & Ride lots, accessible parking and road closures.",
+  "address": null,
+  "lat": null,
+  "lng": null,
+  "url": "https://www.blinkcincinnati.com/resources/parking",
+  "source_url": "https://www.blinkcincinnati.com/resources/parking",
+  "sources": [
+   "https://www.blinkcincinnati.com/resources/parking",
+   "https://www.blinkcincinnati.com/blink-event-guide/maps-guides"
+  ],
+  "notes": "Pointer record; details are owned by the blink-info slice. The \"Park Once, See Everything!\" line is from BLINK's Maps & Guides page."
+ },
+ {
+  "id": "parking-clay-wade-bailey-park-and-ride",
+  "kind": "parking",
+  "name": "Free Park & Ride below the Clay Wade Bailey Bridge (Covington)",
+  "summary": "\"You can also park for free at the Park & Ride location below the Clay Wade Bailey Bridge (access the lot via Pete Rose Pier just next to the Courtyard hotel at 500 W. 3rd St).\"",
+  "details": "The TANK Southbank Shuttle stops at \"3rd at Clay Wade Bailey Lot\".",
+  "address": "Pete Rose Pier, next to 500 W. 3rd St, Covington, KY 41011",
+  "lat": null,
+  "lng": null,
+  "url": "https://www.visitcincy.com/plan-your-visit/transportation/parking/",
+  "source_url": "https://www.visitcincy.com/plan-your-visit/transportation/parking/",
+  "sources": [
+   "https://www.visitcincy.com/plan-your-visit/transportation/parking/",
+   "https://www.tankbus.org/bus_routes/southbank-shuttle/"
+  ],
+  "notes": "No coordinates: the lot has no published street address. It is next to the Courtyard Cincinnati Covington (see stays.json)."
+ },
+ {
+  "id": "parking-covington-and-newport",
+  "kind": "parking",
+  "name": "Parking in Covington and Newport",
+  "summary": "\"Covington and Newport in Northern Kentucky also offer convenient and affordable (some free) parking options, close enough to enjoy a walk across one of the scenic bridges including the Roebling Suspension Bridge, Purple People Bridge.\"",
+  "details": "\"Paid parking garages are available near 2nd & Madison Streets and are convenient to the bridge and shuttle stops. Parking at Newport on the Levee is just $12 for 24 hours.\" \"Parking meters are free on weekdays from 9 p.m. to 8 a.m. the following morning, Monday through Saturday, and free all day on Sundays.\"",
+  "address": null,
+  "lat": null,
+  "lng": null,
+  "url": "https://www.visitcincy.com/plan-your-visit/transportation/parking/",
+  "source_url": "https://www.visitcincy.com/plan-your-visit/transportation/parking/",
+  "notes": "Visit Cincy does not say which city's meters the free-hours sentence covers; it appears in the Northern Kentucky section. Covington closes several streets for BLINK (see tip-covington-street-closures)."
+ },
+ {
+  "id": "parking-downtown-otr-overview",
+  "kind": "parking",
+  "name": "Where to park downtown and in OTR (Visit Cincy overview)",
+  "summary": "\"The Fountain Square Garage offers parking for $2 for the first 30 minutes and is probably the most centrally located lot in the city.\"",
+  "details": "\"Parking in Over-the-Rhine can be found below Washington Park, near Findlay Market and Ziegler Park, and there are some lots and garages on Vine Street between Central Parkway and 14th Street.\" \"it's easy to park and hop on the free Connector electric streetcar and ride to your destination.\"",
+  "address": null,
+  "lat": null,
+  "lng": null,
+  "url": "https://www.visitcincy.com/plan-your-visit/transportation/parking/",
+  "source_url": "https://www.visitcincy.com/plan-your-visit/transportation/parking/"
+ },
+ {
+  "id": "accessibility-connector",
+  "kind": "accessibility",
+  "name": "Streetcar accessibility",
+  "summary": "\"The Connector is accessible to everyone. It is one of only two systems in the country to feature 100 percent low-floor streetcar vehicles.\"",
+  "details": "\"This means the floor of the streetcar is level with the curb, allowing quick access for wheeled vehicles (bicycles, strollers, wheelchairs, scooters and personal shopping carts).\" \"Audio announcements and visual aids such as Braille and designated seating for individuals with disabilities.\" \"Those who use wheelchairs, scooters and other mobility aids should enter through the center double doors.\"",
+  "address": null,
+  "lat": null,
+  "lng": null,
+  "url": "https://www.cincinnati-oh.gov/streetcar/how-to-ride/accessibility/",
+  "source_url": "https://www.cincinnati-oh.gov/streetcar/how-to-ride/accessibility/",
+  "sources": [
+   "https://www.cincinnati-oh.gov/streetcar/how-to-ride/accessibility/",
+   "https://www.cincinnati-oh.gov/streetcar/how-to-ride/"
+  ]
+ },
+ {
+  "id": "accessibility-metro-access",
+  "kind": "accessibility",
+  "name": "Metro Access paratransit",
+  "summary": "\"Access is a shared-ride public transportation service, providing origin-to-destination transportation services for individuals whose disabilities prevent them from riding Metro buses.\"",
+  "details": "\"To use Access, you must first apply and be approved for service, a process that can take up to three weeks.\" \"Cost: $4.40 Dollars Per Ride\". Service area: \"3/4 mile of regular (non-express) Metro service\". Contact 513-632-7586. The streetcar page adds: \"If your origin and destination is within ¾ mile of the Connector’s route, your ride on Access is also fare free!\" Metro says Access will serve eligible customers to and from BLINK; contact Access in advance.",
+  "address": null,
+  "lat": null,
+  "lng": null,
+  "url": "https://www.go-metro.com/accessibility/access-paratransit/",
+  "source_url": "https://www.go-metro.com/accessibility/access-paratransit/",
+  "sources": [
+   "https://www.go-metro.com/accessibility/access-paratransit/",
+   "https://www.cincinnati-oh.gov/streetcar/how-to-ride/accessibility/",
+   "https://www.go-metro.com/less-think-more-blink-regional-transit-partners-announce-blink-2026-service/"
+  ]
+ },
+ {
+  "id": "accessibility-tank-ramp",
+  "kind": "accessibility",
+  "name": "TANK RAMP paratransit (Northern Kentucky)",
+  "summary": "TANK’s paratransit service; fares \"RAMP Fare – Zone 1 – $2.50\" and \"RAMP Fare – Zone 2 – $5\".",
+  "details": "TANK reduced fare: \"Senior/Disabled/Military Fare – Fixed Route Service – $1\" with a TANK Reduced Fare Photo ID or Medicare card.",
+  "address": null,
+  "lat": null,
+  "lng": null,
+  "url": "https://www.tankbus.org/ramp-paratransit/",
+  "source_url": "https://www.tankbus.org/fares-guides/fare/"
+ },
+ {
+  "id": "accessibility-cvg-ground-transport",
+  "kind": "accessibility",
+  "name": "Accessible ground transportation at CVG",
+  "summary": "\"We have multiple Authorized Operators who offer ADA transportation for your convenience. We highly recommend contacting the business ahead of time to schedule.\"",
+  "details": "ADA Authorized Operators: Executive Transportation 859-261-8841; Express Mobile ADA 859-655-4600; Ride A WAV Cincy 859-918-9900; zTrip 513-962-1122.",
+  "address": null,
+  "lat": null,
+  "lng": null,
+  "url": "https://www.cvgairport.com/terminal-information/ground-transportation/",
+  "source_url": "https://www.cvgairport.com/terminal-information/ground-transportation/"
+ },
+ {
+  "id": "accessibility-blink-access",
+  "kind": "accessibility",
+  "name": "BLINK Access Program (pointer)",
+  "summary": "BLINK publishes accessible drop-off points, accessible-only parking and a text-based Access Team.",
+  "details": "See the blink-info slice (places.json, kind=accessibility) for the full list captured from blinkcincinnati.com/resources/accessibility and the FAQ.",
+  "address": null,
+  "lat": null,
+  "lng": null,
+  "url": "https://www.blinkcincinnati.com/resources/accessibility",
+  "source_url": "https://www.blinkcincinnati.com/resources/accessibility",
+  "notes": "Pointer record; details are owned by the blink-info slice."
+ },
+ {
+  "id": "tip-bengals-home-game-oct-4",
+  "kind": "tip",
+  "name": "Bengals home game Sunday, Oct 4, 2026 (The Banks)",
+  "summary": "The Banks calendar lists \"Bengals Pregame at The Banks\" on 2026-10-04, 10:00–13:00, with \"Bengals Opponent: Jacksonville Jaguars\".",
+  "details": "Pregame is \"located on Freedom Way between Race Street and Joe Nuxhall Way. Entry is free.\" Expect game-day crowds and event parking pricing at The Banks the day before StartupCincy Week begins.",
+  "address": null,
+  "lat": null,
+  "lng": null,
+  "url": "https://thebankscincy.com/event/bengals-pregame-at-the-banks-2/",
+  "source_url": "https://thebankscincy.com/wp-json/tribe/events/v1/events?start_date=2026-10-01&end_date=2026-10-12",
+  "notes": "Kickoff time was not published on the page captured."
+ },
+ {
+  "id": "tip-no-fc-cincinnati-home-match",
+  "kind": "tip",
+  "name": "No FC Cincinnati home match Oct 3–11",
+  "summary": "The TQL Stadium events list shows FC Cincinnati home matches on Oct 14, Oct 18 and Oct 31, 2026, and none between Oct 3 and Oct 11.",
+  "details": "Matters for the Findlay Garage, which \"is subject to price increases on FC Cincinnati match days\".",
+  "address": null,
+  "lat": null,
+  "lng": null,
+  "url": "https://tqlstadium.com/events/",
+  "source_url": "https://tqlstadium.com/events/",
+  "sources": [
+   "https://tqlstadium.com/events/",
+   "https://www.findlaymarket.org/parking"
+  ]
+ },
+ {
+  "id": "tip-banks-dora",
+  "kind": "tip",
+  "name": "DORA at The Banks (drinks to go)",
+  "summary": "\"DORA – the designated outdoor refreshment area – is an 85-acre district at The Bank that allows guests to take their beverage purchased from one of the 18 Banks establishments and explore our public plazas and green spaces. It simply needs to be in the Official DORA Cup. From 11am – 1am daily.\"",
+  "details": null,
+  "address": null,
+  "lat": null,
+  "lng": null,
+  "url": "https://thebankscincy.com/about/resources/",
+  "source_url": "https://thebankscincy.com/about/resources/"
+ },
+ {
+  "id": "tip-banks-plaza-21-plus",
+  "kind": "tip",
+  "name": "The Banks plaza is 21+ late on Friday and Saturday",
+  "summary": "\"The plaza (pedestrian-only area) is 21+ on Friday and Saturday evenings from 10:00 p.m. to 2:00 a.m. ID checkpoints and staffing will be in place to support a safe and enjoyable experience for those 21+.\"",
+  "details": "Applies on BLINK Friday Oct 9 and Saturday Oct 10. \"If an event at the ballpark or stadium lets out after 10:00 p.m., minors under 21 can access the Plaza with a parent who has an ID and is 21+.\"",
+  "address": null,
+  "lat": null,
+  "lng": null,
+  "url": "https://thebankscincy.com/weekend-policy-at-the-banks/",
+  "source_url": "https://thebankscincy.com/about/resources/"
+ },
+ {
+  "id": "tip-findlay-market-closed-mondays",
+  "kind": "tip",
+  "name": "Findlay Market is closed on Mondays",
+  "summary": "\"The Market is open year-round, 6 days per week.\" Tuesday–Friday 9 AM–6 PM; Saturday 8 AM–6 PM; Sunday 10 AM–4 PM; Monday CLOSED.",
+  "details": "Monday, Oct 5, 2026 is the first day of StartupCincy Week.",
+  "address": null,
+  "lat": 39.115366,
+  "lng": -84.518981,
+  "url": "https://www.findlaymarket.org/hours",
+  "source_url": "https://www.findlaymarket.org/hours",
+  "coords_source": "hub",
+  "nearest_hub": {
+   "hub": "findlay-market",
+   "straight_line_m": 0
+  }
+ },
+ {
+  "id": "tip-findlay-market-blink-late-hours",
+  "kind": "tip",
+  "name": "Findlay Market merchants open late during BLINK",
+  "summary": "\"Findlay Market will be your food and drink destination for this year’s art and light festival.\"",
+  "details": "\"Merchants Open Late\": Artichoke until 8 PM Thu–Fri; Bee Haven until 9 PM Thu–Sun; Churchill’s Fine Teas until 9 PM Fri–Sat; The Empanada’s Box until 11 PM Thu–Sun; Market Wines until 11 PM Thu–Sat, 10 PM Sun; Maverick Chocolate until 10 PM; OTR Premium Cigars until 11 PM; Pho Lang Thang until 11 PM Thu–Sat, 10 PM Sun; The Rhined until 10 PM Thu–Sat, 8 PM Sun; uGOgelato until 11:30 PM.",
+  "address": null,
+  "lat": 39.115366,
+  "lng": -84.518981,
+  "url": "https://www.findlaymarket.org/news/blink2026",
+  "source_url": "https://www.findlaymarket.org/news/blink2026",
+  "coords_source": "hub",
+  "notes": "The same page lists ticketed BLINK experiences (Indoor BLINK Experience at Coughlin Commons, 132 W. Elder St, Oct 8–11 6:30–10:30 PM; Cincinnati Public Radio Silent Disco Oct 9 & 10, 8–10:30 PM, free; daily BLINK Tasting Tours 12:30–2 PM and 3:30–5 PM). Flagged for the events slices.",
+  "nearest_hub": {
+   "hub": "findlay-market",
+   "straight_line_m": 0
+  }
+ },
+ {
+  "id": "tip-covington-street-closures",
+  "kind": "tip",
+  "name": "Covington street closures around BLINK (Oct 3–13)",
+  "summary": "\"To create a pedestrian-friendly Entertainment Destination Center (EDC) and accommodate BLINK visitors, several Covington streets will be closed to vehicle traffic during the festival.\"",
+  "details": "\"Beginning at 8 a.m. Saturday, October 3, through 5 p.m. Monday, October 12: Park Place from Scott Street to Greenup Street; Court Street.\" \"Beginning at 8 a.m. Monday, October 5, through 5 p.m. Tuesday, October 13: Tobacco Alley from Madison Avenue to Scott Street.\" \"Nightly from 6:45-11 p.m., October 8-11: Roebling Way and the Roebling Bridge; E. Third Street from Scott Street to Greenup Street; Electric Alley from E. Fourth Street to E. Fifth Street; W. Pike Street from Washington Street to Madison Avenue.\" EDC also closes E. Fourth St (Madison–Greenup), Scott St (E. Third–E. Fifth), Madison Ave (E. Fourth–E. Eighth) and W. Seventh St (Washington–Madison). \"W. Fifth Street and Greenup Street will remain open to vehicle traffic.\"",
+  "address": null,
+  "lat": null,
+  "lng": null,
+  "url": "https://www.covingtonky.gov/news/2026/09/14/getting-around-covington-during-blink-road-closure-traffic-information",
+  "source_url": "https://www.covingtonky.gov/news/2026/09/14/getting-around-covington-during-blink-road-closure-traffic-information",
+  "notes": "Tobacco Alley (closed Oct 5–13) is the street address of The Pickle Factory hotel (13 Tobacco Alley)."
+ },
+ {
+  "id": "findlay-market",
+  "kind": "landmark",
+  "name": "Findlay Market",
+  "summary": "Ohio’s oldest operating public market",
+  "details": null,
+  "address": "1801 Race St., Race & Elder Sts., Cincinnati, OH 45202",
+  "lat": 39.115366,
+  "lng": -84.518981,
+  "url": "http://findlaymarket.org",
+  "source_url": "https://www.visitcincy.com/neighborhoods/downtown/over-the-rhine/",
+  "listing_url": "https://www.visitcincy.com/listing/findlay-market/4800/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "findlay-market",
+   "straight_line_m": 0
+  },
+  "notes": null
+ },
+ {
+  "id": "washington-park",
+  "kind": "landmark",
+  "name": "Washington Park",
+  "summary": "Beautiful park in front of Music Hall with free events, playground, splash pad, and dog park",
+  "details": null,
+  "address": "1230 Elm Street, Cincinnati, OH 45202",
+  "lat": 39.108065,
+  "lng": -84.517953,
+  "url": "http://washingtonpark.org",
+  "source_url": "https://www.visitcincy.com/neighborhoods/downtown/over-the-rhine/",
+  "listing_url": "https://www.visitcincy.com/listing/washington-park/5517/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "union-hall",
+   "straight_line_m": 288
+  },
+  "notes": null
+ },
+ {
+  "id": "cincinnati-music-hall",
+  "kind": "landmark",
+  "name": "Cincinnati Music Hall",
+  "summary": "One of Cincy’s most iconic buildings, the Cincinnati Music Hall is also home to the Cincinnati Ballet, Cincinnati Symphony Orchestra, Cincinnati Opera, May Festival Chorus, and the Cincinnati Pops Orchestra. Architecture tours are also available.",
+  "details": null,
+  "address": "1241 Elm Street, Cincinnati, OH 45202",
+  "lat": 39.109386,
+  "lng": -84.519189,
+  "url": "http://cincinnatiarts.org",
+  "source_url": "https://www.visitcincy.com/neighborhoods/downtown/over-the-rhine/",
+  "listing_url": "https://www.visitcincy.com/listing/cincinnati-music-hall/4965/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "union-hall",
+   "straight_line_m": 316
+  },
+  "notes": null
+ },
+ {
+  "id": "fountain-square",
+  "kind": "landmark",
+  "name": "Fountain Square",
+  "summary": "Fountain Square, which is considered the epicenter of downtown Cincinnati, has served as a communal gathering space for quite some time.",
+  "details": null,
+  "address": "520 Vine Street, Cincinnati, OH 45202",
+  "lat": 39.101794,
+  "lng": -84.512811,
+  "url": "http://myfountainsquare.com",
+  "source_url": "https://www.visitcincy.com/neighborhoods/downtown/fountain-district/",
+  "listing_url": "https://www.visitcincy.com/listing/fountain-square/5506/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "fountain-square",
+   "straight_line_m": 0
+  },
+  "notes": null
+ },
+ {
+  "id": "contemporary-arts-center",
+  "kind": "landmark",
+  "name": "Contemporary Arts Center",
+  "summary": "Creatively presents exhibitions, performances and experiences that will change visitors’ view of the world.",
+  "details": null,
+  "address": "44 East 6th Street, Cincinnati, OH 45202",
+  "lat": 39.102839,
+  "lng": -84.512109,
+  "url": "http://contemporaryartscenter.org",
+  "source_url": "https://www.visitcincy.com/neighborhoods/downtown/fountain-district/",
+  "listing_url": "https://www.visitcincy.com/listing/contemporary-arts-center/4797/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "fountain-square",
+   "straight_line_m": 131
+  },
+  "notes": null
+ },
+ {
+  "id": "aronoff-center-for-the-arts",
+  "kind": "landmark",
+  "name": "Aronoff Center for the Arts",
+  "summary": "Home to several resident companies including Cincinnati’s Broadway.",
+  "details": null,
+  "address": "650 Walnut Street, Cincinnati, OH 45202",
+  "lat": 39.10361,
+  "lng": -84.511256,
+  "url": "http://cincinnatiarts.org",
+  "source_url": "https://www.visitcincy.com/neighborhoods/downtown/fountain-district/",
+  "listing_url": "https://www.visitcincy.com/listing/aronoff-center-for-the-arts/5444/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "fountain-square",
+   "straight_line_m": 242
+  },
+  "notes": null
+ },
+ {
+  "id": "public-library-of-cincinnati",
+  "kind": "landmark",
+  "name": "The Public Library of Cincinnati and Hamilton County",
+  "summary": "The main branch of Cincinnati's public library is one of the most beloved institutions in the city. This newly renovated and sprawling facility has multiple floors of media, as well as historic exhibits of Cincinnati and special craft stations. It's worth checking out!",
+  "details": null,
+  "address": "800 Vine St., Library Square, Cincinnati, OH 45202",
+  "lat": 39.105143,
+  "lng": -84.513371,
+  "url": "http://cincinnatilibrary.org",
+  "source_url": "https://www.visitcincy.com/neighborhoods/downtown/fountain-district/",
+  "listing_url": "https://www.visitcincy.com/listing/the-public-library-of-cincinnati-and-hamilton-county/4798/",
+  "coords_source": "visitcincy",
+  "nearest_hub": {
+   "hub": "fountain-square",
+   "straight_line_m": 376
+  },
+  "notes": null
+ },
+ {
+  "id": "smale-riverfront-park",
+  "kind": "landmark",
+  "name": "Smale Riverfront Park",
+  "summary": "Beautiful riverfront park with giant swings, gardens, water features, and special events",
+  "details": null,
+  "address": "4 Beech Lane, Cincinnati, OH 45208",
+  "lat": 39.095734,
+  "lng": -84.509334,
+  "url": "http://mysmaleriverfrontpark.org",
+  "source_url": "https://www.visitcincy.com/neighborhoods/downtown/the-banks/",
+  "listing_url": "https://www.visitcincy.com/listing/smale-riverfront-park/5509/",
+  "coords_source": "visitcincy",
+  "nearest_hub": {
+   "hub": "smale-riverfront-park",
+   "straight_line_m": 0
+  },
+  "notes": "Nominatim matched a different place (6288 m away); used the Visit Cincy listing coordinates. Visit Cincy gives the park's address as 4 Beech Lane with ZIP 45208 (a Hyde Park ZIP); it does not geocode to the riverfront, so treat it as a mailing address. The park is on the riverfront at The Banks (see the smale-riverfront-park hub in venues.json)."
+ },
+ {
+  "id": "national-underground-railroad-freedom-center",
+  "kind": "landmark",
+  "name": "National Underground Railroad Freedom Center",
+  "summary": "Sharing the stories of freedom fighters of yesterday and today",
+  "details": null,
+  "address": "50 East Freedom Way, Cincinnati, OH 45202",
+  "lat": 39.097628,
+  "lng": -84.511045,
+  "url": "http://freedomcenter.org",
+  "source_url": "https://www.visitcincy.com/neighborhoods/downtown/the-banks/",
+  "listing_url": "https://www.visitcincy.com/listing/national-underground-railroad-freedom-center/4909/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "smale-riverfront-park",
+   "straight_line_m": 257
+  },
+  "notes": null
+ },
+ {
+  "id": "great-american-ball-park",
+  "kind": "landmark",
+  "name": "Great American Ball Park",
+  "summary": "Home of the Cincinnati Reds and the official Cincinnati Reds Hall of Fame and Museum",
+  "details": null,
+  "address": "Great American Ball Park, 100 Joe Nuxhall Way, Cincinnati, OH 45202-4109",
+  "lat": 39.097432,
+  "lng": -84.508692,
+  "url": "http://cincinnati.reds.mlb.com",
+  "source_url": "https://www.visitcincy.com/neighborhoods/downtown/the-banks/",
+  "listing_url": "https://www.visitcincy.com/listing/great-american-ball-park/4952/",
+  "coords_source": "visitcincy",
+  "nearest_hub": {
+   "hub": "smale-riverfront-park",
+   "straight_line_m": 197
+  },
+  "notes": null
+ },
+ {
+  "id": "cincinnati-black-music-walk-of-fame",
+  "kind": "landmark",
+  "name": "Cincinnati Black Music Walk of Fame",
+  "summary": "Free, family-friendly interactive attraction that celebrates Black musicians and artists who call Southwest Ohio home. Open year-round.",
+  "details": null,
+  "address": "190 W Mehring Way, Cincinnati, OH 45202",
+  "lat": 39.094715,
+  "lng": -84.513621,
+  "url": "https://www.cincyblackmusicwalkoffame.org/",
+  "source_url": "https://www.visitcincy.com/neighborhoods/downtown/the-banks/",
+  "listing_url": "https://www.visitcincy.com/listing/cincinnati-black-music-walk-of-fame/6146/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "smale-riverfront-park",
+   "straight_line_m": 387
+  },
+  "notes": null
+ },
+ {
+  "id": "roebling-suspension-bridge",
+  "kind": "landmark",
+  "name": "Roebling Suspension Bridge",
+  "summary": "Iconic suspension (and pedestrian) bridge joining Northern Kentucky to Cincinnati. The prototype to the Brooklyn Bridge in New York City - totally Insta-worthy!",
+  "details": null,
+  "address": "Court Ave. & E. 2nd Street, Covington, KY 41011",
+  "lat": 39.089376,
+  "lng": -84.509072,
+  "url": "http://www.roeblingbridge.org/",
+  "source_url": "https://www.visitcincy.com/neighborhoods/downtown/the-banks/",
+  "listing_url": "https://www.visitcincy.com/listing/roebling-suspension-bridge/5621/",
+  "coords_source": "visitcincy",
+  "nearest_hub": {
+   "hub": "covington-riverfront-roebling-point",
+   "straight_line_m": 0
+  },
+  "notes": null
+ },
+ {
+  "id": "cincinnati-museum-center-union-terminal",
+  "kind": "landmark",
+  "name": "Cincinnati Museum Center at Union Terminal",
+  "summary": "Inside the historic Cincinnati Union Terminal building -- a magnificently preserved, Art Deco landmark built in 1933 as a passenger railroad terminal -- is an award-winning complex of distinct museums and attractions including the Cincinnati History Museum, the Cincinnati Children's Museum, the Museum of Natural History & Science and the Lindner Family OMNIMAX Theater, along with special exhibitions, exhibits, events and much more.",
+  "details": null,
+  "address": "1301 Western Avenue, Cincinnati, OH 45203",
+  "lat": 39.109939,
+  "lng": -84.537245,
+  "url": "http://www.cincymuseum.org",
+  "source_url": "https://www.visitcincy.com/listing/cincinnati-museum-center-at-union-terminal/4832/",
+  "listing_url": "https://www.visitcincy.com/listing/cincinnati-museum-center-at-union-terminal/4832/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "findlay-market",
+   "straight_line_m": 1687
+  },
+  "notes": "Nominatim and Visit Cincy coordinates differ by 436 m; checked by hand and kept Nominatim."
+ },
+ {
+  "id": "cincinnati-art-museum",
+  "kind": "landmark",
+  "name": "Cincinnati Art Museum",
+  "summary": "Located in scenic Eden Park, the Cincinnati Art Museum features a diverse, encyclopedic art collection of more than 73,000 works spanning 6,000 years.",
+  "details": null,
+  "address": "953 Eden Park Dr., Cincinnati, OH 45202",
+  "lat": 39.113987,
+  "lng": -84.496783,
+  "url": "http://cincinnatiartmuseum.org",
+  "source_url": "https://www.visitcincy.com/listing/cincinnati-art-museum/4766/",
+  "listing_url": "https://www.visitcincy.com/listing/cincinnati-art-museum/4766/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "caw-art-market-hq-1417-main",
+   "straight_line_m": 1387
+  },
+  "notes": null
+ },
+ {
+  "id": "taft-museum-of-art",
+  "kind": "landmark",
+  "name": "Taft Museum of Art",
+  "summary": "Built in 1820, this National Historic Landmark is one of the nation's finest small art museums, featuring paintings by Whistler, Rembrandt, and Turner, Chinese ceramics and European decorative arts.",
+  "details": null,
+  "address": "316 Pike St., Cincinnati, OH 45202",
+  "lat": 39.102265,
+  "lng": -84.502293,
+  "url": "http://taftmuseum.org",
+  "source_url": "https://www.visitcincy.com/listing/taft-museum-of-art/4815/",
+  "listing_url": "https://www.visitcincy.com/listing/taft-museum-of-art/4815/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "fountain-square",
+   "straight_line_m": 909
+  },
+  "notes": null
+ },
+ {
+  "id": "newport-on-the-levee",
+  "kind": "landmark",
+  "name": "Newport on the Levee",
+  "summary": "Home to a variety of retail, dining, lodging, and entertainment options.",
+  "details": null,
+  "address": "One Levee Way, Ste. 1113, Newport, KY 41071",
+  "lat": 39.095069,
+  "lng": -84.496166,
+  "url": "http://newportonthelevee.com",
+  "source_url": "https://www.visitcincy.com/neighborhoods/northern-kentucky/newport/",
+  "listing_url": "https://www.visitcincy.com/listing/newport-on-the-levee/4944/",
+  "coords_source": "visitcincy",
+  "nearest_hub": {
+   "hub": "newport-on-the-levee",
+   "straight_line_m": 0
+  },
+  "notes": null
+ },
+ {
+  "id": "purple-people-bridge",
+  "kind": "landmark",
+  "name": "Purple People Bridge",
+  "summary": "Of the nine bridges crossing the Ohio River in the Cincinnati area, only one is purple and just for people.",
+  "details": null,
+  "address": "One Levee Way, Newport, KY 41071",
+  "lat": 39.094985,
+  "lng": -84.49605,
+  "url": "http://www.purplepeoplebridge.com/",
+  "source_url": "https://www.visitcincy.com/neighborhoods/northern-kentucky/newport/",
+  "listing_url": "https://www.visitcincy.com/listing/purple-people-bridge/5617/",
+  "coords_source": "visitcincy",
+  "nearest_hub": {
+   "hub": "newport-on-the-levee",
+   "straight_line_m": 14
+  },
+  "notes": null
+ },
+ {
+  "id": "newport-aquarium",
+  "kind": "landmark",
+  "name": "Newport Aquarium",
+  "summary": "Pet a stingray, waddle with penguins, and walk across the first-in-the-world shark bridge, where you can walk across a rope bridge only inches above a tank full of sharks.",
+  "details": null,
+  "address": "One Aquarium Way, Newport, KY 41071",
+  "lat": 39.09426,
+  "lng": -84.49655,
+  "url": "https://www.newportaquarium.com/",
+  "source_url": "https://www.visitcincy.com/neighborhoods/northern-kentucky/newport/",
+  "listing_url": "https://www.visitcincy.com/listing/newport-aquarium/4907/",
+  "coords_source": "visitcincy",
+  "nearest_hub": {
+   "hub": "newport-on-the-levee",
+   "straight_line_m": 96
+  },
+  "notes": null
+ },
+ {
+  "id": "goebel-park",
+  "kind": "landmark",
+  "name": "Goebel Park",
+  "summary": "Goebel Park has the Carroll Chimes Bell Tower, a 43-bell carillon that plays on the hour.",
+  "details": null,
+  "address": "501 Philadelphia St, Covington, KY 41011",
+  "lat": 39.085236,
+  "lng": -84.520125,
+  "url": "https://www.covingtonky.gov/government/departments/neighborhood-services/parks-recreation/parks/goebel-park",
+  "source_url": "https://www.visitcincy.com/neighborhoods/northern-kentucky/covington/",
+  "listing_url": "https://www.visitcincy.com/listing/goebel-park/6554/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "covington-riverfront-roebling-point",
+   "straight_line_m": 1059
+  },
+  "notes": null
+ },
+ {
+  "id": "andrew-j-brady-music-center",
+  "kind": "landmark",
+  "name": "Andrew J Brady Music Center",
+  "summary": "Year-round music venue with both indoor and outdoor stages",
+  "details": null,
+  "address": "25 Race Street, Cincinnati, OH 45202",
+  "lat": 39.09537,
+  "lng": -84.51367,
+  "url": "https://bradymusiccenter.com/",
+  "source_url": "https://www.visitcincy.com/neighborhoods/downtown/the-banks/",
+  "listing_url": "https://www.visitcincy.com/listing/andrew-j-brady-music-center/5372/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "smale-riverfront-park",
+   "straight_line_m": 376
+  },
+  "notes": null
+ },
+ {
+  "id": "paycor-stadium",
+  "kind": "landmark",
+  "name": "Paycor Stadium",
+  "summary": "Home of Cincinnati Bengals",
+  "details": null,
+  "address": "One Paycor Stadium, Cincinnati, OH 45202",
+  "lat": 39.095458,
+  "lng": -84.516058,
+  "url": "https://www.bengals.com/stadium/",
+  "source_url": "https://www.visitcincy.com/neighborhoods/downtown/the-banks/",
+  "listing_url": "https://www.visitcincy.com/listing/paycor-stadium/4943/",
+  "coords_source": "visitcincy",
+  "nearest_hub": {
+   "hub": "smale-riverfront-park",
+   "straight_line_m": 581
+  },
+  "notes": null
+ },
+ {
+  "id": "mercantile-library",
+  "kind": "landmark",
+  "name": "Mercantile Library",
+  "summary": "A private library that holds over 85,000 books and hosts hundreds of events every year.",
+  "details": null,
+  "address": "414 Walnut St., Cincinnati, OH 45202",
+  "lat": 39.100637,
+  "lng": -84.510936,
+  "url": null,
+  "source_url": "https://www.visitcincy.com/neighborhoods/downtown/fountain-district/",
+  "listing_url": "https://www.visitcincy.com/listing/mercantile-library/7153/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "fountain-square",
+   "straight_line_m": 207
+  },
+  "notes": null
+ },
+ {
+  "id": "st-marys-cathedral-basilica-of-the-assumption",
+  "kind": "landmark",
+  "name": "St. Mary's Cathedral Basilica of the Assumption",
+  "summary": "This 100+ year old cathedral is inspired by Notre Dame in Paris and is home to over 80 stained glass windows, including the largest hand-pieced window. You will also find large scale murals, gargoyles, and a collection of over 350 relics.",
+  "details": null,
+  "address": "1140 Madison Ave., Covington, KY 41011",
+  "lat": 39.078616,
+  "lng": -84.508962,
+  "url": "http://covcathedral.com",
+  "source_url": "https://www.visitcincy.com/neighborhoods/northern-kentucky/covington/",
+  "listing_url": "https://www.visitcincy.com/listing/st-marys-cathedral-basilica-of-the-assumption/4799/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "covington-riverfront-roebling-point",
+   "straight_line_m": 1197
+  },
+  "notes": null
+ },
+ {
+  "id": "pendleton-art-center",
+  "kind": "landmark",
+  "name": "Pendleton Art Center (Cincinnati)",
+  "summary": "\"On the last Friday of each month, artists open their studios to the public throughout the PAC complex. Experience the world’s largest collection of artists under one roof.\"",
+  "details": "\"Some studios are open daily; some are open by appointment with the artist.\" Final Friday listed: September 25, 2026, 5–9pm.",
+  "address": "1310 Pendleton St, Cincinnati, OH 45202",
+  "lat": 39.111178,
+  "lng": -84.506654,
+  "url": "https://pendletonartcenter.com/",
+  "source_url": "https://pendletonartcenter.com/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "caw-art-market-hq-1417-main",
+   "straight_line_m": 520
+  }
+ },
+ {
+  "id": "ziegler-park",
+  "kind": "landmark",
+  "name": "Ziegler Park",
+  "summary": "\"Ziegler Park’s unique 4.5-acre footprint straddles the neighborhoods of Over-the-Rhine and Pendleton. The park features east and west sections, separated by Sycamore Street.\"",
+  "details": null,
+  "address": "1322 Sycamore Street, Cincinnati, OH 45202",
+  "lat": 39.11028,
+  "lng": -84.510178,
+  "url": "https://zieglerpark.org/",
+  "source_url": "https://zieglerpark.org/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "caw-art-market-hq-1417-main",
+   "straight_line_m": 274
+  }
+ },
+ {
+  "id": "the-eagle-otr",
+  "kind": "food",
+  "name": "The Eagle OTR",
+  "summary": "Beer and food hall specializing in fried chicken and craft beer",
+  "details": null,
+  "address": "1342 Vine Street, Cincinnati, OH 45202",
+  "lat": 39.110687,
+  "lng": -84.515192,
+  "url": "http://theeagleotr.com/",
+  "source_url": "https://www.visitcincy.com/neighborhoods/downtown/over-the-rhine/",
+  "listing_url": "https://www.visitcincy.com/listing/the-eagle-otr/5589/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "union-hall",
+   "straight_line_m": 94
+  },
+  "notes": null
+ },
+ {
+  "id": "brown-bear-bakery",
+  "kind": "food",
+  "name": "Brown Bear Bakery",
+  "summary": "Artisanal pastries and coffee bar",
+  "details": null,
+  "address": "116 E. 13th St., Cincinnati, OH 45202",
+  "lat": 39.109935,
+  "lng": -84.512576,
+  "url": "https://www.brownbearbakes.com/",
+  "source_url": "https://www.visitcincy.com/neighborhoods/downtown/over-the-rhine/",
+  "listing_url": "https://www.visitcincy.com/listing/brown-bear-bakery/6211/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "caw-art-market-hq-1417-main",
+   "straight_line_m": 213
+  },
+  "notes": null
+ },
+ {
+  "id": "rhinegeist-brewery",
+  "kind": "drink",
+  "name": "Rhinegeist Brewery",
+  "summary": "Big indoor brewery and taproom with a rooftop bar serving craft beer, ciders, teas, and more.",
+  "details": null,
+  "address": "1910 Elm St, Cincinnati, OH 45202",
+  "lat": 39.117101,
+  "lng": -84.519892,
+  "url": "https://rhinegeist.com/",
+  "source_url": "https://www.visitcincy.com/neighborhoods/downtown/over-the-rhine/",
+  "listing_url": "https://www.visitcincy.com/listing/rhinegeist-brewery/5311/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "findlay-market",
+   "straight_line_m": 208
+  },
+  "notes": null
+ },
+ {
+  "id": "alcove-by-madtree-brewing",
+  "kind": "drink",
+  "name": "Alcove by MadTree Brewing",
+  "summary": "Greenhouse meets restaurant serving craft beer, craft cocktails, and shareable bites",
+  "details": null,
+  "address": "1410 Vine St, Cincinnati, OH 45202",
+  "lat": 39.111271,
+  "lng": -84.51525,
+  "url": null,
+  "source_url": "https://www.visitcincy.com/neighborhoods/downtown/over-the-rhine/",
+  "listing_url": "https://www.visitcincy.com/listing/alcove-by-madtree-brewing/6293/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "union-hall",
+   "straight_line_m": 156
+  },
+  "notes": null
+ },
+ {
+  "id": "somerset-otr",
+  "kind": "drink",
+  "name": "Somerset OTR",
+  "summary": "Trendy craft cocktail bar, featuring infused spirits with a picturesque indoor/outdoor setting decked with curated decor from around the world",
+  "details": null,
+  "address": "139 E McMicken Ave, Cincinnati, OH 45202",
+  "lat": 39.113733,
+  "lng": -84.513819,
+  "url": "https://somersetotr.com/",
+  "source_url": "https://www.visitcincy.com/neighborhoods/downtown/over-the-rhine/",
+  "listing_url": "https://www.visitcincy.com/listing/somerset-otr/6357/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "caw-art-market-hq-1417-main",
+   "straight_line_m": 234
+  },
+  "notes": null
+ },
+ {
+  "id": "holy-grail-banks",
+  "kind": "drink",
+  "name": "Holy Grail Banks",
+  "summary": "Local favorite sports bar for before, during, and after games",
+  "details": "Hours (The Banks directory): Monday – Sunday: 11am – 2:30am. Phone: 513.621.2222.",
+  "address": "161 Joe Nuxhall Way, Cincinnati, OH 45202",
+  "lat": 39.097578,
+  "lng": -84.509014,
+  "url": "https://www.facebook.com/holygrailbanks/",
+  "source_url": "https://www.visitcincy.com/neighborhoods/downtown/the-banks/",
+  "listing_url": "https://www.visitcincy.com/listing/holy-grail-banks/5551/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "smale-riverfront-park",
+   "straight_line_m": 207
+  },
+  "notes": null,
+  "sources": [
+   "https://www.visitcincy.com/neighborhoods/downtown/the-banks/",
+   "https://thebankscincy.com/attractions/holy-grail/"
+  ]
+ },
+ {
+  "id": "cincinnati-lager-house",
+  "kind": "drink",
+  "name": "Cincinnati Lager House",
+  "summary": "Cincinnati legacy brewery with excellent pub fare, craft beer, and one of the best views",
+  "details": "Hours (The Banks directory): Mon-Thurs: 11am-10pm; Friday: 11am-11pm; Saturday: 10am-11pm; Sunday: 10am-9pm; Saturday and Sunday Brunch Served 10am-2pm. Phone: 513.421.2337.",
+  "address": "115 Joe Nuxhall Way, Cincinnati, OH 45202",
+  "lat": 39.096288,
+  "lng": -84.508701,
+  "url": "http://www.cincylagerhouse.com",
+  "source_url": "https://www.visitcincy.com/neighborhoods/downtown/the-banks/",
+  "listing_url": "https://www.visitcincy.com/listing/moerlein-lager-house/5060/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "smale-riverfront-park",
+   "straight_line_m": 82
+  },
+  "notes": null,
+  "sources": [
+   "https://www.visitcincy.com/neighborhoods/downtown/the-banks/",
+   "https://thebankscincy.com/attractions/moerlein-lager-house/"
+  ]
+ },
+ {
+  "id": "the-butcher-and-barrel",
+  "kind": "food",
+  "name": "The Butcher and Barrel",
+  "summary": "Argentinian and Italian steakhouse with a menu focusing on fresh and locally sourced ingredients.",
+  "details": null,
+  "address": "700 Race St., Cincinnati, OH 45202",
+  "lat": 39.1036,
+  "lng": -84.515121,
+  "url": "http://www.thebutcherbarrel.com/",
+  "source_url": "https://www.visitcincy.com/neighborhoods/downtown/fountain-district/",
+  "listing_url": "https://www.visitcincy.com/listing/the-butcher-and-barrel/5185/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "fountain-square",
+   "straight_line_m": 283
+  },
+  "notes": null
+ },
+ {
+  "id": "the-davidson",
+  "kind": "food",
+  "name": "The Davidson",
+  "summary": "An upscale spot located right on Fountain Square that serves a la carte style French, Italian and American dishes.",
+  "details": null,
+  "address": "501 Vine St, Cincinnati, OH 45202",
+  "lat": 39.101309,
+  "lng": -84.513122,
+  "url": null,
+  "source_url": "https://www.visitcincy.com/neighborhoods/downtown/fountain-district/",
+  "listing_url": "https://www.visitcincy.com/listing/the-davidson/7052/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "fountain-square",
+   "straight_line_m": 60
+  },
+  "notes": null
+ },
+ {
+  "id": "nada",
+  "kind": "food",
+  "name": "nada",
+  "summary": "Modern Mexican food featuring tacos, margaritas, and killer outdoor seating.",
+  "details": null,
+  "address": "600 Walnut Street, Cincinnati, OH 45202",
+  "lat": 39.10297,
+  "lng": -84.511394,
+  "url": "http://eatdrinknada.com",
+  "source_url": "https://www.visitcincy.com/neighborhoods/downtown/fountain-district/",
+  "listing_url": "https://www.visitcincy.com/listing/nada/4996/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "fountain-square",
+   "straight_line_m": 179
+  },
+  "notes": null
+ },
+ {
+  "id": "sotto",
+  "kind": "food",
+  "name": "Sotto",
+  "summary": "This iconic Cincy spot boasts an ambience as comforting as it's menu . The dining room is located below street level, in a beautiful setting that oozes vibes. The short rib capellacci and ricotta doughnuts are revered by locals for a reason!",
+  "details": null,
+  "address": "118 E. 6th St., Cincinnati, OH 45202",
+  "lat": 39.103009,
+  "lng": -84.511119,
+  "url": "http://www.sottocincinnati.com/",
+  "source_url": "https://www.visitcincy.com/neighborhoods/downtown/fountain-district/",
+  "listing_url": "https://www.visitcincy.com/listing/sotto/5090/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "fountain-square",
+   "straight_line_m": 199
+  },
+  "notes": null
+ },
+ {
+  "id": "urbana-cafe",
+  "kind": "food",
+  "name": "Urbana Cafe",
+  "summary": "A local favorite coffee shop; enjoy with some baked goods!",
+  "details": null,
+  "address": "1130 Broadway St, Cincinnati, OH 45202",
+  "lat": 39.109616,
+  "lng": -84.508239,
+  "url": null,
+  "source_url": "https://www.visitcincy.com/neighborhoods/downtown/fountain-district/",
+  "listing_url": "https://www.visitcincy.com/listing/urbana-cafe/6967/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "caw-art-market-hq-1417-main",
+   "straight_line_m": 452
+  },
+  "notes": null
+ },
+ {
+  "id": "jeff-rubys-steakhouse",
+  "kind": "food",
+  "name": "Jeff Ruby's Steakhouse",
+  "summary": "THE steakhouse in Cincy. Whether you're looking for an extravagant meal to celebrate something special - or just want to treat yourself for no good reason - this is the spot to do it. A local fine(st) dining experience.",
+  "details": null,
+  "address": "505 Vine St, Cincinnati, OH 45202",
+  "lat": 39.101393,
+  "lng": -84.513143,
+  "url": null,
+  "source_url": "https://www.visitcincy.com/neighborhoods/downtown/fountain-district/",
+  "listing_url": "https://www.visitcincy.com/listing/jeff-rubys-steakhouse/7511/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "fountain-square",
+   "straight_line_m": 53
+  },
+  "notes": null
+ },
+ {
+  "id": "golden-gelato",
+  "kind": "food",
+  "name": "Golden Gelato",
+  "summary": "Authentic Italian gelato and sorbetto, hand crafted in small batches. The rotating menu is offered alongside espresso, lattes, and coffee from local roaster Deeper Roots Coffee.",
+  "details": null,
+  "address": "130 W. Pike St., Covington, KY 41011",
+  "lat": 39.083057,
+  "lng": -84.512586,
+  "url": "https://www.goldengelatocov.com/",
+  "source_url": "https://www.visitcincy.com/neighborhoods/northern-kentucky/covington/",
+  "listing_url": "https://www.visitcincy.com/listing/golden-gelato/6013/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "covington-riverfront-roebling-point",
+   "straight_line_m": 765
+  },
+  "notes": null
+ },
+ {
+  "id": "blinkers-tavern",
+  "kind": "food",
+  "name": "Blinkers Tavern",
+  "summary": "Voted \"Best Steak\" in NKY for 12 years running, this steakhouse is open for lunch, dinner, and weekend brunch.",
+  "details": null,
+  "address": "318 Greenup St, Covington, KY 41011",
+  "lat": 39.088268,
+  "lng": -84.507757,
+  "url": "http://blinkerstavern.com",
+  "source_url": "https://www.visitcincy.com/neighborhoods/northern-kentucky/covington/",
+  "listing_url": "https://www.visitcincy.com/listing/blinkers-tavern/5518/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "covington-riverfront-roebling-point",
+   "straight_line_m": 168
+  },
+  "notes": null
+ },
+ {
+  "id": "mamas-on-main",
+  "kind": "food",
+  "name": "Mama's on Main",
+  "summary": "Classic Italian dishes served in a cozy, eclectic atmosphere. Scratch made pasta, gluten free options, a delightful rooftop patio, and espresso martinis are waiting for you.",
+  "details": null,
+  "address": "621 Main Street, Covington, KY 41011",
+  "lat": 39.083419,
+  "lng": -84.517732,
+  "url": "https://www.mamasonmain.com/",
+  "source_url": "https://www.visitcincy.com/neighborhoods/northern-kentucky/covington/",
+  "listing_url": "https://www.visitcincy.com/listing/mamas-on-main/5996/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "covington-riverfront-roebling-point",
+   "straight_line_m": 999
+  },
+  "notes": null
+ },
+ {
+  "id": "smoke-justis",
+  "kind": "food",
+  "name": "Smoke Justis",
+  "summary": "Smoked wings, delicious bbq, and a large selection of bourbon - what more could you want? Regular bourbon events, specials, barrel picks and more.",
+  "details": null,
+  "address": "302 Court Street, Covington, KY 41011",
+  "lat": 39.088391,
+  "lng": -84.50867,
+  "url": "https://www.smokejustis.com/",
+  "source_url": "https://www.visitcincy.com/neighborhoods/northern-kentucky/covington/",
+  "listing_url": "https://www.visitcincy.com/listing/smoke-justis/5792/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "covington-riverfront-roebling-point",
+   "straight_line_m": 115
+  },
+  "notes": null
+ },
+ {
+  "id": "bouquet-restaurant",
+  "kind": "food",
+  "name": "Bouquet Restaurant & Wine Bar",
+  "summary": "An upscale, farm-to-table bistro featuring a seasonal, locally sourced menu. Don’t miss out on The Motherboard with its house-made, pickled selections.",
+  "details": null,
+  "address": "519 Main St., Covington, KY 41011",
+  "lat": 39.08475,
+  "lng": -84.517786,
+  "url": "http://www.bouquetrestaurant.com",
+  "source_url": "https://www.visitcincy.com/neighborhoods/northern-kentucky/covington/",
+  "listing_url": "https://www.visitcincy.com/listing/bouquet-restaurant-%26-wine-bar/5193/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "covington-riverfront-roebling-point",
+   "straight_line_m": 911
+  },
+  "notes": null
+ },
+ {
+  "id": "coppins-at-hotel-covington",
+  "kind": "food",
+  "name": "Coppin's at Hotel Covington",
+  "summary": "Coppin’s in Hotel Covington offers a carefully crafted menu of elevated American bistro classics. Weekend brunch is not to be missed.",
+  "details": null,
+  "address": "638 Madison Ave., Covington, KY 41011",
+  "lat": 39.083713,
+  "lng": -84.509713,
+  "url": "http://hotelcovington.com/dining",
+  "source_url": "https://www.visitcincy.com/neighborhoods/northern-kentucky/covington/",
+  "listing_url": "https://www.visitcincy.com/listing/coppins-at-hotel-covington/5802/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "covington-riverfront-roebling-point",
+   "straight_line_m": 632
+  },
+  "notes": null
+ },
+ {
+  "id": "libbys-southern-comfort",
+  "kind": "food",
+  "name": "Libby's Southern Comfort",
+  "summary": "Southern classics done right. Known for their fried chicken and bourbon slushes, but the menu has plenty more to offer. Look for Goetta Hush Puppies, a Libby’s original using the region’s signature breakfast meat.",
+  "details": null,
+  "address": "35 West 8th Street, Covington, KY 41011",
+  "lat": 39.081821,
+  "lng": -84.510924,
+  "url": "http://www.libbyssoutherncomfort.com",
+  "source_url": "https://www.visitcincy.com/neighborhoods/northern-kentucky/covington/",
+  "listing_url": "https://www.visitcincy.com/listing/libbys-southern-comfort/5850/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "covington-riverfront-roebling-point",
+   "straight_line_m": 855
+  },
+  "notes": null
+ },
+ {
+  "id": "the-globe-covington",
+  "kind": "drink",
+  "name": "The Globe Covington",
+  "summary": "Neighborhood bar with a welcoming atmosphere. Refreshing cocktails and an impressive selection of bourbon.",
+  "details": null,
+  "address": "12 East 5th Street, Covington, KY 41011",
+  "lat": 39.085951,
+  "lng": -84.510534,
+  "url": "http://Theglobecov.com",
+  "source_url": "https://www.visitcincy.com/neighborhoods/northern-kentucky/covington/",
+  "listing_url": "https://www.visitcincy.com/listing/the-globe-covington/5823/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "covington-riverfront-roebling-point",
+   "straight_line_m": 401
+  },
+  "notes": null
+ },
+ {
+  "id": "knowledge-bar-and-social-room",
+  "kind": "drink",
+  "name": "Knowledge Bar & Social Room",
+  "summary": "Intimate, upscale and inviting. Fresh cocktails, a large champagne selection, and wines from around the world await.",
+  "details": null,
+  "address": "620 Madison Ave, Covington, KY 41011",
+  "lat": 39.083974,
+  "lng": -84.510158,
+  "url": "https://hotelcovington.com/dining/knowledge-bar-social-room/",
+  "source_url": "https://www.visitcincy.com/neighborhoods/northern-kentucky/covington/",
+  "listing_url": "https://www.visitcincy.com/listing/knowledge-bar-%26-social-room/6380/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "covington-riverfront-roebling-point",
+   "straight_line_m": 608
+  },
+  "notes": null
+ },
+ {
+  "id": "old-kentucky-bourbon-bar",
+  "kind": "drink",
+  "name": "Old Kentucky Bourbon Bar (OKBB)",
+  "summary": "Friendly and approachable bourbon bar with knowledgeable bartenders and amazing craft cocktails.",
+  "details": null,
+  "address": "629 Main St., Covington, KY 41011",
+  "lat": 39.0832,
+  "lng": -84.517687,
+  "url": "http://www.oldkybourbonbar.com/",
+  "source_url": "https://www.visitcincy.com/neighborhoods/northern-kentucky/covington/",
+  "listing_url": "https://www.visitcincy.com/listing/old-kentucky-bourbon-bar-(okbb)/5114/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "covington-riverfront-roebling-point",
+   "straight_line_m": 1012
+  },
+  "notes": null
+ },
+ {
+  "id": "wiseguy-lounge",
+  "kind": "drink",
+  "name": "Wiseguy Lounge",
+  "summary": "Old school speakeasy above Goodfella’s pizza. Dark wood, low lighting, elite bourbon and craft cocktails beckon you.",
+  "details": null,
+  "address": "603 Main Street, Covington, KY 41011",
+  "lat": 39.083977,
+  "lng": -84.51772,
+  "url": "http://goodfellaspizzeria.com",
+  "source_url": "https://www.visitcincy.com/neighborhoods/northern-kentucky/covington/",
+  "listing_url": "https://www.visitcincy.com/listing/wiseguy-lounge/5525/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "covington-riverfront-roebling-point",
+   "straight_line_m": 958
+  },
+  "notes": null
+ },
+ {
+  "id": "hofbrauhaus-newport",
+  "kind": "drink",
+  "name": "Hofbrauhaus Newport",
+  "summary": "The first Hofbräuhaus outside of Munich and proudly continuing the German brewing tradition.",
+  "details": null,
+  "address": "200 East Third Street, Newport, KY 41071",
+  "lat": 39.09519,
+  "lng": -84.493721,
+  "url": "http://hofbrauhausnewport.com",
+  "source_url": "https://www.visitcincy.com/neighborhoods/northern-kentucky/newport/",
+  "listing_url": "https://www.visitcincy.com/listing/hofbrauhaus-newport/4956/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "newport-on-the-levee",
+   "straight_line_m": 211
+  },
+  "notes": null
+ },
+ {
+  "id": "wooden-cask-brewing-company",
+  "kind": "drink",
+  "name": "Wooden Cask Brewing Company",
+  "summary": "Wooden Cask was founded in 2015 based on the owners' love of Scottish, Irish, and English beers. It boasts a robust and varied tap list.",
+  "details": null,
+  "address": "629 York St., Newport, KY 41071",
+  "lat": 39.090119,
+  "lng": -84.494123,
+  "url": "http://woodencask.com/",
+  "source_url": "https://www.visitcincy.com/neighborhoods/northern-kentucky/newport/",
+  "listing_url": "https://www.visitcincy.com/listing/wooden-cask-brewing-company/5805/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "newport-on-the-levee",
+   "straight_line_m": 578
+  },
+  "notes": null
+ },
+ {
+  "id": "new-riff-distilling",
+  "kind": "drink",
+  "name": "New Riff Distilling",
+  "summary": "One of the original B-Line stops, New Riff has been distilling and creating a new riff on bourbon since 2014.",
+  "details": null,
+  "address": "24 Distillery Way, Newport, KY 41071",
+  "lat": 39.100699,
+  "lng": -84.488894,
+  "url": "http://newriffdistilling.com",
+  "source_url": "https://www.visitcincy.com/neighborhoods/northern-kentucky/newport/",
+  "listing_url": "https://www.visitcincy.com/listing/new-riff-distilling/5109/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "newport-on-the-levee",
+   "straight_line_m": 886
+  },
+  "notes": "Nominatim and Visit Cincy coordinates differ by 1188 m; checked by hand and kept Nominatim."
+ },
+ {
+  "id": "newberry-bros-prohibition-bourbon-bar",
+  "kind": "drink",
+  "name": "Newberry Bros. Coffee & The Prohibition Bourbon Bar",
+  "summary": "Home to the largest collection of bourbon and rye whiskeys anywhere in the world. Enjoy a flight or hunt for a rare bottle in their bottle shop.",
+  "details": null,
+  "address": "530 Washington Ave., Newport, KY 41071",
+  "lat": 39.093511,
+  "lng": -84.491456,
+  "url": "http://www.newberrybroscoffee.com",
+  "source_url": "https://www.visitcincy.com/neighborhoods/northern-kentucky/newport/",
+  "listing_url": "https://www.visitcincy.com/listing/newberry-bros-coffee-%26-the-prohibition-bourbon-bar/5134/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "newport-on-the-levee",
+   "straight_line_m": 442
+  },
+  "notes": null
+ },
+ {
+  "id": "pompilios",
+  "kind": "food",
+  "name": "Pompilio's",
+  "summary": "This award-winning, iconic restaurant has been serving traditional Italian fare for over 90 years.",
+  "details": null,
+  "address": "600 Washington Ave., Newport, KY 41071",
+  "lat": 39.092807,
+  "lng": -84.490933,
+  "url": "http://www.pompilios.com/",
+  "source_url": "https://www.visitcincy.com/neighborhoods/northern-kentucky/newport/",
+  "listing_url": "https://www.visitcincy.com/listing/pompilios/4813/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "newport-on-the-levee",
+   "straight_line_m": 517
+  },
+  "notes": null
+ },
+ {
+  "id": "tokyo-kitty",
+  "kind": "drink",
+  "name": "Tokyo Kitty",
+  "summary": "Karaoke, anyone? Belt your favorite ballad in this trendy bar, or rent a private room for you and your close friends (WITH robot bar tender service!).",
+  "details": null,
+  "address": "575 Race Street, Cincinnati, OH 45202",
+  "lat": 39.101806,
+  "lng": -84.515023,
+  "url": "http://www.thattokyobar.com",
+  "source_url": "https://www.visitcincy.com/neighborhoods/downtown/fountain-district/",
+  "listing_url": "https://www.visitcincy.com/listing/tokyo-kitty/5263/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "fountain-square",
+   "straight_line_m": 191
+  },
+  "notes": null
+ },
+ {
+  "id": "junipers",
+  "kind": "drink",
+  "name": "Juniper's",
+  "summary": "Over 200 gins from around the world plus a regular full bar. A rotating tapas menu, Sunday brunch, and frequent live music add to your experience.",
+  "details": null,
+  "address": "409 W 6th St, Covington, KY 41011",
+  "lat": 39.084028,
+  "lng": -84.518128,
+  "url": "https://www.junipersginbar.net/",
+  "source_url": "https://www.visitcincy.com/neighborhoods/northern-kentucky/covington/",
+  "listing_url": "https://www.visitcincy.com/listing/junipers/6310/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "covington-riverfront-roebling-point",
+   "straight_line_m": 982
+  },
+  "notes": null
+ },
+ {
+  "id": "kungfood-chus-amerasia",
+  "kind": "food",
+  "name": "KungFood Chu's AmerAsia",
+  "summary": "Come for the pun filled menu, stay for the delicious, scratch cooked stir fries, noodles, and more. Gluten free, vegetarian, and vegan options available.",
+  "details": null,
+  "address": "521 Madison Ave., Covington, KY 41011",
+  "lat": 39.085135,
+  "lng": -84.51092,
+  "url": "https://www.kungfood.online/",
+  "source_url": "https://www.visitcincy.com/neighborhoods/northern-kentucky/covington/",
+  "listing_url": "https://www.visitcincy.com/listing/kungfood-chus-amerasia/5706/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "covington-riverfront-roebling-point",
+   "straight_line_m": 498
+  },
+  "notes": null
+ },
+ {
+  "id": "olla-taqueria",
+  "kind": "food",
+  "name": "OLLA Taqueria",
+  "summary": "Serving fresh Mexican street food in a fun, vibrant setting. Their birria creations get rave reviews. Weekend brunch and patio seating available.",
+  "details": null,
+  "address": "302 W. MLK Jr. Boulevard, Covington, KY 41011",
+  "lat": 39.077081,
+  "lng": -84.513834,
+  "url": "https://www.ollacov.com/",
+  "source_url": "https://www.visitcincy.com/neighborhoods/northern-kentucky/covington/",
+  "listing_url": "https://www.visitcincy.com/listing/olla-taqueria/5947/",
+  "coords_source": "visitcincy",
+  "nearest_hub": {
+   "hub": "covington-riverfront-roebling-point",
+   "straight_line_m": 1428
+  },
+  "notes": null
+ },
+ {
+  "id": "revival-vintage-bottle-shop",
+  "kind": "drink",
+  "name": "Revival Vintage Bottle Shop",
+  "summary": "Full bar downstairs serving a variety of craft cocktails. Upstairs is the vintage bottle shop - everything from pre-prohibition to more recent rares. Bourbons are common, but look for other spirits. Vintage samplings and the ability to make your cocktail “vintage”.",
+  "details": null,
+  "address": "614 Madison Ave, Covington, KY 41011",
+  "lat": 39.084168,
+  "lng": -84.510169,
+  "url": "https://www.revivalky.com/",
+  "source_url": "https://www.visitcincy.com/neighborhoods/northern-kentucky/covington/",
+  "listing_url": "https://www.visitcincy.com/listing/revival-vintage-bottle-shop/5989/",
+  "coords_source": "visitcincy",
+  "nearest_hub": {
+   "hub": "covington-riverfront-roebling-point",
+   "straight_line_m": 587
+  },
+  "notes": null
+ },
+ {
+  "id": "wenzel-distillery",
+  "kind": "drink",
+  "name": "Wenzel Distillery",
+  "summary": "Wenzel offers bourbon blending experiences for groups of all size as well as custom blends for corporate, wedding, or other gifting needs. While there be sure to check out Wenzel House, the large scale, interactive art installation right outside their front door.",
+  "details": null,
+  "address": "412 Madison Ave, Covington, KY 41011",
+  "lat": 39.086569,
+  "lng": -84.510813,
+  "url": "https://www.wenzelwhiskey.com/",
+  "source_url": "https://www.visitcincy.com/neighborhoods/northern-kentucky/covington/",
+  "listing_url": "https://www.visitcincy.com/listing/wenzel-distillery/6365/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "covington-riverfront-roebling-point",
+   "straight_line_m": 346
+  },
+  "notes": null
+ },
+ {
+  "id": "pensive-distilling-co",
+  "kind": "drink",
+  "name": "Pensive Distilling Co.",
+  "summary": "Housed in a former Prohibition speakeasy with a full kitchen, come for a tour, stay for dinner.",
+  "details": null,
+  "address": "720 Monmouth St., Newport, KY 41071",
+  "lat": 39.090019,
+  "lng": -84.492253,
+  "url": "https://www.pensivedistilling.com/",
+  "source_url": "https://www.visitcincy.com/neighborhoods/northern-kentucky/newport/",
+  "listing_url": "https://www.visitcincy.com/listing/pensive-distilling-co/5998/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "newport-on-the-levee",
+   "straight_line_m": 655
+  },
+  "notes": null
+ },
+ {
+  "id": "findlay-eckerlin-meats",
+  "kind": "food",
+  "name": "Eckerlin Meats (Findlay Market)",
+  "summary": "When Findlay Market opened for business in 1855, Eckerlin Meats was there.",
+  "details": "Hours: Tuesday - Friday: 8 AM - 5 PM; Saturday: 6 AM - 5 PM; Sunday: 9 AM - 4 PM; Monday: CLOSED",
+  "address": "116 W. Elder St. Cincinnati, OH 45202",
+  "lat": 39.115525,
+  "lng": -84.519027,
+  "url": "https://www.eckerlinmeats.com/",
+  "source_url": "https://www.findlaymarket.org/merchant/eckerlinmeats",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "findlay-market",
+   "straight_line_m": 18
+  }
+ },
+ {
+  "id": "findlay-taste-of-belgium",
+  "kind": "food",
+  "name": "Taste of Belgium (Findlay Market)",
+  "summary": "Flechet uses all natural ingredients to make his tasty waffles, and a traditional cast iron press to create the perfect waffle.",
+  "details": "Hours: Tuesday - Friday: 9 AM - 6 PM; Saturday: 8 AM - 6 PM; Sunday: 10 AM - 4 PM; Monday: CLOSED",
+  "address": "Market House, Findlay Market, 1801 Race St, Cincinnati, OH 45202",
+  "lat": 39.115366,
+  "lng": -84.518981,
+  "url": "https://authenticwaffle.com/",
+  "source_url": "https://www.findlaymarket.org/merchant/tasteofbelgium",
+  "coords_source": "hub (Findlay Market)",
+  "nearest_hub": {
+   "hub": "findlay-market",
+   "straight_line_m": 0
+  },
+  "notes": "Visit Cincy's OTR page describes Taste of Belgium as \"Belgian-inspired recipes with an American twist.\" (its Visit Cincy listing for the OTR bistro, /listing/taste-of-belgium-belgium-bistro-otr/5018/, returns 404, so the OTR bistro has no record; the Findlay Market stand is here and The Banks location is taste-of-belgium-the-banks).",
+  "sources": [
+   "https://www.findlaymarket.org/merchant/tasteofbelgium",
+   "https://www.visitcincy.com/neighborhoods/downtown/over-the-rhine/"
+  ]
+ },
+ {
+  "id": "findlay-dojo-gelato",
+  "kind": "food",
+  "name": "Dojo Gelato (Findlay Market)",
+  "summary": "For Dojo Gelato, that craft is making Italian-style ice creams from scratch.",
+  "details": "Hours: Tuesday - Friday: 9 AM - 6 PM; Saturday: 8 AM - 6 PM; Sunday: 10 AM - 4 PM; Monday: CLOSED",
+  "address": "Market House, Findlay Market, 1801 Race St, Cincinnati, OH 45202",
+  "lat": 39.115366,
+  "lng": -84.518981,
+  "url": "https://www.dojogelato.com/",
+  "source_url": "https://www.findlaymarket.org/merchant/dojogelato",
+  "coords_source": "hub (Findlay Market)",
+  "nearest_hub": {
+   "hub": "findlay-market",
+   "straight_line_m": 0
+  }
+ },
+ {
+  "id": "findlay-pho-lang-thang",
+  "kind": "food",
+  "name": "Pho Lang Thang (Findlay Market)",
+  "summary": "Pho Lang Thang brings traditional Vietnamese cuisine to Cincinnati with unique flavors and a variety of vegan and vegetarian options.",
+  "details": "Hours: Tuesday-Saturday: 11 AM - 10 PM; Sunday - Monday: 11 AM - 9 PM",
+  "address": "1828 Race St. Cincinnati, OH 45202",
+  "lat": 39.116309,
+  "lng": -84.518316,
+  "url": "https://www.pholangthang.com/",
+  "source_url": "https://www.findlaymarket.org/merchant/pholangthang",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "findlay-market",
+   "straight_line_m": 119
+  }
+ },
+ {
+  "id": "findlay-maverick-chocolate-co",
+  "kind": "food",
+  "name": "Maverick Chocolate Co. (Findlay Market)",
+  "summary": "Maverick Chocolate is a family-owned and -operated bean-to-bar chocolate company.",
+  "details": "Hours: Tuesday - Friday: 10 AM - 6 PM; Saturday: 9 AM - 6 PM; Sunday: 10 AM - 4 PM; Monday: CLOSED",
+  "address": "129 W. Elder St. Cincinnati, OH 45202",
+  "lat": 39.11536,
+  "lng": -84.518907,
+  "url": "https://maverickchocolate.com/",
+  "source_url": "https://www.findlaymarket.org/merchant/maverickchocolateco",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "findlay-market",
+   "straight_line_m": 6
+  }
+ },
+ {
+  "id": "findlay-the-rhined",
+  "kind": "food",
+  "name": "The Rhined (Findlay Market)",
+  "summary": "The Rhined is a specialty cut-to-order cheese shop located in a historic building in the Over-the-Rhine neighborhood of Cincinnati.",
+  "details": "Take cheese home or sit at the counter of their intimate, tiny shop and enjoy cheese flights, wine, beer, education events, and Raclette Night. Hours: Tuesday - Saturday: 9 AM - 6 PM; Sunday: 10 AM - 6 PM; Monday: CLOSED",
+  "address": "1737 Elm St. Cincinnati, Ohio 45202",
+  "lat": 39.114866,
+  "lng": -84.519895,
+  "url": "https://www.therhined.com/",
+  "source_url": "https://www.findlaymarket.org/merchant/therhined",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "findlay-market",
+   "straight_line_m": 96
+  }
+ },
+ {
+  "id": "findlay-market-wines",
+  "kind": "drink",
+  "name": "Market Wines (Findlay Market)",
+  "summary": "Market Wines has over 600 wines and 300 craft beers from all over the world as well as wine glasses and beer and wine accessories.",
+  "details": "Join Market Wines every Sunday and Saturday from 11 AM - 3 PM for their weekly wine tastings. Hours: Tuesday - Friday: 9 AM - 8 PM; Saturday: 8 AM - 7 PM; Sunday: 10 AM - 6 PM; Monday: CLOSED",
+  "address": "128 W. Elder St. Cincinnati, OH 45202",
+  "lat": 39.115432,
+  "lng": -84.51933,
+  "url": "http://marketwines.net/",
+  "source_url": "https://www.findlaymarket.org/merchant/marketwines",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "findlay-market",
+   "straight_line_m": 31
+  },
+  "notes": "During BLINK: \"Market Wines: Open until 11 PM Thursday - Saturday, 10 PM Sunday\" (findlaymarket.org/news/blink2026).",
+  "sources": [
+   "https://www.findlaymarket.org/merchant/marketwines",
+   "https://www.findlaymarket.org/news/blink2026"
+  ]
+ },
+ {
+  "id": "findlay-churchills-fine-teas",
+  "kind": "drink",
+  "name": "Churchill’s Fine Teas (Findlay Market)",
+  "summary": "Churchill’s Fine Teas has been serving tea and promoting its health benefits for over 20 years.",
+  "details": "Stop by the Findlay Market storefront and enjoy free tea samples, shop for high quality loose leaf teas, or buy a cup of tea to-go. Hours: Tuesday–Thursday: 10 AM – 4 PM; Friday: 10 AM – 5 PM; Saturday: 8 AM – 5 PM; Sunday: 10 AM – 4 PM; Monday: CLOSED",
+  "address": "122 W Elder St. Cincinnati, OH 45202",
+  "lat": 39.115536,
+  "lng": -84.519351,
+  "url": "https://churchillsteas.com/",
+  "source_url": "https://www.findlaymarket.org/merchant/churchillsfineteas",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "findlay-market",
+   "straight_line_m": 37
+  }
+ },
+ {
+  "id": "findlay-yee-mama",
+  "kind": "food",
+  "name": "Yee Mama (Findlay Market)",
+  "summary": "Yee Mama is a Cantonese homestyle kitchen specializing in handmade dumplings and small-batch sauces.",
+  "details": "Hours: Tuesday - Friday: 9 AM - 6 PM; Saturday: 8 AM - 6 PM; Sunday: 10 AM - 4 PM; Monday: CLOSED",
+  "address": "Market House, Findlay Market, 1801 Race St, Cincinnati, OH 45202",
+  "lat": 39.115366,
+  "lng": -84.518981,
+  "url": "https://www.yeemama.com/",
+  "source_url": "https://www.findlaymarket.org/merchant/yeemama",
+  "coords_source": "hub (Findlay Market)",
+  "nearest_hub": {
+   "hub": "findlay-market",
+   "straight_line_m": 0
+  }
+ },
+ {
+  "id": "findlay-janes",
+  "kind": "drink",
+  "name": "Jane's (Findlay Market outdoor bar)",
+  "summary": "Jane's, our outdoor bar located on the Elm Street side of the market, is a program operated by the Corporation for Findlay Market (CFFM), a 501c3 non-profit.",
+  "details": "Hours: Tuesday - Thursday 11 AM - 8 PM; Friday - Saturday : 10 AM - 8 PM; Sunday : 10 AM - 4 PM.",
+  "address": "Elm Street side of Findlay Market, Cincinnati, OH 45202",
+  "lat": 39.115366,
+  "lng": -84.518981,
+  "url": "https://www.findlaymarket.org/janes",
+  "source_url": "https://www.findlaymarket.org/janes",
+  "coords_source": "hub (Findlay Market)",
+  "nearest_hub": {
+   "hub": "findlay-market",
+   "straight_line_m": 0
+  }
+ },
+ {
+  "id": "betmgm-sportsbook-and-toms-watch-bar-the-banks",
+  "kind": "drink",
+  "name": "BetMGM Sportsbook and Tom’s Watch Bar",
+  "summary": "The King of Sportsbooks is here! Our first-class venue is designed to bring Cincinnati the ultimate gaming and dining experience.",
+  "details": "Hours (The Banks directory): Hours of operation of the Sportsbook: Monday - Friday 11:00 a.m.- 10:00 p.m.; Saturday 10:00 a.m.-11:00 p.m.; Sunday 10:00 a.m.-10:00 p.m.; Nation At The Banks: Monday- Thursday 11:00 a.m.-9:00 p.m.; Friday 11:00 a.m.-10:00 p.m.; Saturday 10:00 a.m.-10:00 p.m.; Sunday 10:00 a.m.-8:00 p.m. Phone: (513) 381-0948.",
+  "address": "175 Joe Nuxhall Wy, Cincinnati, OH 45202",
+  "lat": 39.098157,
+  "lng": -84.50917,
+  "url": null,
+  "source_url": "https://thebankscincy.com/attractions/betmgm-sportsbook-and-nation-kitchen/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "smale-riverfront-park",
+   "straight_line_m": 270
+  },
+  "notes": "Listed in The Banks Shop + Dine directory (thebankscincy.com/shop-dine/). The directory text still says Tom’s Watch Bar is \"coming summer 2025\" inside BetMGM; the listing title now includes it. Hours listed are for the Sportsbook."
+ },
+ {
+  "id": "condado-tacos-the-banks",
+  "kind": "food",
+  "name": "Condado Tacos",
+  "summary": "At Condado, we’re all about the tacos, tequila, and margaritas.",
+  "details": "Hours (The Banks directory): Monday - Sunday 11am-2am.",
+  "address": "195 E. Freedom Way, Cincinnati, OH 45202",
+  "lat": 39.09725,
+  "lng": -84.508876,
+  "url": "http://www.condadotacos.com",
+  "source_url": "https://thebankscincy.com/attractions/condado/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "smale-riverfront-park",
+   "straight_line_m": 173
+  },
+  "notes": "Listed in The Banks Shop + Dine directory (thebankscincy.com/shop-dine/)."
+ },
+ {
+  "id": "e-o-kitchen-the-banks",
+  "kind": "food",
+  "name": "E+O Kitchen",
+  "summary": "E+O Kitchen is defined by a passion for Asian Cuisine. Calling upon influences from the Philippines, Korea, Vietnam, and other Asian countries, E+O starts with a dish then works backwards, procuring the highest quality local ingredients before bringing it to life.",
+  "details": "Hours (The Banks directory): Monday-Thursday: 11am-10pm; Friday: 11am-10pm; Saturday: 10am-10pm; Sunday: 10am-10pm. Phone: 513.684.1720.",
+  "address": "56 W. Freedom Way, Cincinnati, OH 45202",
+  "lat": 39.096837,
+  "lng": -84.512851,
+  "url": "https://www.eokitchen.com/",
+  "source_url": "https://thebankscincy.com/attractions/eo-kitchen/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "smale-riverfront-park",
+   "straight_line_m": 327
+  },
+  "notes": "Listed in The Banks Shop + Dine directory (thebankscincy.com/shop-dine/)."
+ },
+ {
+  "id": "fishbowl-the-banks",
+  "kind": "drink",
+  "name": "Fishbowl",
+  "summary": "Welcome to Fishbowl, a modern, funky take on a tropical party bar.",
+  "details": "Hours (The Banks directory): Mon-Fri: 4PM-2AM; Sat-Sun: 11AM-2AM. Phone: (513) 508-7417.",
+  "address": "141 E. Freedom Way, Cincinnati, OH 45202",
+  "lat": 39.09708,
+  "lng": -84.509835,
+  "url": "https://www.fishbowlatthebanks.com/",
+  "source_url": "https://thebankscincy.com/attractions/fishbowl-coming-soon/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "smale-riverfront-park",
+   "straight_line_m": 156
+  },
+  "notes": "Listed in The Banks Shop + Dine directory (thebankscincy.com/shop-dine/). The directory page URL still ends in \"fishbowl-coming-soon\"; the page itself lists opening hours."
+ },
+ {
+  "id": "jefferson-social-the-banks",
+  "kind": "drink",
+  "name": "Jefferson Social",
+  "summary": "Jefferson Social channels the comfort and familiarity of a neighborhood gathering place.",
+  "details": "Hours (The Banks directory): Monday – Sunday: 11am – 2am. Phone: 513.381.2623.",
+  "address": "101 E. Freedom Way, Cincinnati, Ohio 45202",
+  "lat": 39.097071,
+  "lng": -84.509994,
+  "url": "http://www.jeffersonsocial.com/",
+  "source_url": "https://thebankscincy.com/attractions/jefferson-social/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "smale-riverfront-park",
+   "straight_line_m": 159
+  },
+  "notes": "Listed in The Banks Shop + Dine directory (thebankscincy.com/shop-dine/)."
+ },
+ {
+  "id": "jimmy-johns-the-banks",
+  "kind": "food",
+  "name": "Jimmy John’s",
+  "summary": "Jimmy John’s is Where Fresh and Fast Meet® . All-natural meats and fresh veggies are hand sliced daily, homemade bread is baked fresh all day,and tasty sandwiches are made in 30 seconds – that’s Freaky Fast!",
+  "details": "Hours (The Banks directory): Sunday – Thursday: 11am – 9pm; Friday – Saturday: 11am – 2am. Phone: 513.381.4800.",
+  "address": "171 E. Freedom Way, Cincinnati, Ohio 45202",
+  "lat": 39.097137,
+  "lng": -84.509483,
+  "url": "https://online.jimmyjohns.com/#/",
+  "source_url": "https://thebankscincy.com/attractions/jimmy-johns/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "smale-riverfront-park",
+   "straight_line_m": 157
+  },
+  "notes": "Listed in The Banks Shop + Dine directory (thebankscincy.com/shop-dine/)."
+ },
+ {
+  "id": "killer-queen-the-banks",
+  "kind": "drink",
+  "name": "Killer Queen",
+  "summary": "Killer Queen, named in honor of the Queen City, has an Americana-influenced interior with neon signs, ornate light fixtures and disco balls.",
+  "details": "Hours (The Banks directory): Monday: 4 PM–12 AM; Tuesday: 4 PM–2:30 AM; Wednesday: 4 PM–2:30 AM; Thursday: 4 PM–2:30 AM; Friday: 4 PM–2:30 AM; Saturday: 12 PM–2:30 AM; Sunday: 12 PM–12 AM.",
+  "address": "180 E. Freedom Way, Cincinnati, OH 45202",
+  "lat": 39.097542,
+  "lng": -84.50934,
+  "url": "https://www.killerqueenbar.com/",
+  "source_url": "https://thebankscincy.com/attractions/killer-queen/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "smale-riverfront-park",
+   "straight_line_m": 201
+  },
+  "notes": "Listed in The Banks Shop + Dine directory (thebankscincy.com/shop-dine/)."
+ },
+ {
+  "id": "red-leprechaun-the-banks",
+  "kind": "drink",
+  "name": "Red Leprechaun",
+  "summary": "With an imported bar from Malahide, Ireland (north of Dublin), that was built in 1957, the Red Leprechaun has everything you want in an Irish Pub.",
+  "details": "Hours (The Banks directory): Monday - Thursday: 4 PM–12 AM; Friday: 4 PM–2 AM; Saturday: 12 PM–2 AM; Sunday: 12 PM–12 AM.",
+  "address": "20 West Freedom Way, Cincinnati, OH 45202",
+  "lat": 39.097061,
+  "lng": -84.512483,
+  "url": "https://www.redleprechaun.com/",
+  "source_url": "https://thebankscincy.com/attractions/red-leprechaun/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "smale-riverfront-park",
+   "straight_line_m": 309
+  },
+  "notes": "Listed in The Banks Shop + Dine directory (thebankscincy.com/shop-dine/)."
+ },
+ {
+  "id": "ruths-chris-steakhouse-the-banks",
+  "kind": "food",
+  "name": "Ruth’s Chris Steakhouse",
+  "summary": "Ruth’s Chris Steak House in Cincinnati, OH serves the finest USDA Prime beef available, broiled at 1,800° and served on 500° plates, so your steak stays hot, juicy and delicious from first bite to last.",
+  "details": "Hours (The Banks directory): Monday-Saturday: 4:00 p.m. to 10:00 p.m.; Sunday: 4:00 p.m. - 9:00 p.m.; Happy Hour: 4:00 p.m to 6:00 p.m. (Bar Lounge and Patio areas). Phone: 513.381.0491.",
+  "address": "100 E. Freedom Way, Suite 160, Cincinnati, OH 45202",
+  "lat": 39.097408,
+  "lng": -84.510133,
+  "url": "http://www.ruthschris.com/",
+  "source_url": "https://thebankscincy.com/attractions/ruths-chris-steakhouse/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "smale-riverfront-park",
+   "straight_line_m": 199
+  },
+  "notes": "Listed in The Banks Shop + Dine directory (thebankscincy.com/shop-dine/)."
+ },
+ {
+  "id": "street-corner-market-the-banks",
+  "kind": "food",
+  "name": "Street Corner Market",
+  "summary": "Street Corner Market at The Banks is a local fresh market, serving the booming Banks area.",
+  "details": "Hours (The Banks directory): Sunday-Thursday: 10:00 a.m. to 11:00 p.m.; Friday-Saturday: 10:00 a.m. to 2:30 a.m. Phone: 513- 421-1414.",
+  "address": "160 Marian Spencer Way, Cincinnati, OH 45208",
+  "lat": 39.097504,
+  "lng": -84.510206,
+  "url": "https://www.facebook.com/streetcornermarketatthebanks/",
+  "source_url": "https://thebankscincy.com/attractions/street-corner-market/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "smale-riverfront-park",
+   "straight_line_m": 211
+  },
+  "notes": "Listed in The Banks Shop + Dine directory (thebankscincy.com/shop-dine/). ZIP 45208 is as printed on the directory page; the rest of The Banks uses 45202."
+ },
+ {
+  "id": "taste-of-belgium-the-banks",
+  "kind": "food",
+  "name": "Taste of Belgium",
+  "summary": "Taste of Belgium is a Cincinnati original that specializes in great beers and Belgian food with an American twist.",
+  "details": "Hours (The Banks directory): Sun: 8:00 a.m. – 8:00 p.m.; Mon – Thu: 8:00 a.m. – 9:00 p.m.; Fri – Sat: 8:00 a.m.– 10:00 p.m. Phone: 513-396-5800.",
+  "address": "16 W. Freedom Way, Cincinnati, OH 45202",
+  "lat": 39.097071,
+  "lng": -84.512167,
+  "url": "http://www.authenticwaffle.com/",
+  "source_url": "https://thebankscincy.com/attractions/taste-of-belgium/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "smale-riverfront-park",
+   "straight_line_m": 286
+  },
+  "notes": "Listed in The Banks Shop + Dine directory (thebankscincy.com/shop-dine/). The Banks location; the Findlay Market stand is findlay-taste-of-belgium."
+ },
+ {
+  "id": "the-filson-the-banks",
+  "kind": "food",
+  "name": "The Filson – Queen City Kitchen & Bar",
+  "summary": "Meet me at The Filson",
+  "details": "Hours (The Banks directory): Sun-Thurs: 11AM-9PM; Fri-Sat: 11AM-11PM. Phone: (513) 653-6700.",
+  "address": "25 E. Freedom Way, Cincinnati, OH 45202",
+  "lat": 39.096932,
+  "lng": -84.511367,
+  "url": "https://thefilson.com/",
+  "source_url": "https://thebankscincy.com/attractions/the-filson-queen-city-kitchen-bar/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "smale-riverfront-park",
+   "straight_line_m": 220
+  },
+  "notes": "Listed in The Banks Shop + Dine directory (thebankscincy.com/shop-dine/)."
+ },
+ {
+  "id": "the-park-the-banks",
+  "kind": "drink",
+  "name": "The Park",
+  "summary": "The newest bar and restaurant at The Banks, The Park , is now open.",
+  "details": "Hours (The Banks directory): Mon: 3pm (on game days); Tues: 4pm-1am; Wed: 11am-1am; Thurs-Fri: 11am-2:30am; Sat: 10am-2:30am; Sun: 11am-12am.",
+  "address": "161 E. Freedom Way, Cincinnati, OH 45202",
+  "lat": 39.097119,
+  "lng": -84.509657,
+  "url": "https://theparkcincy.com/",
+  "source_url": "https://thebankscincy.com/attractions/the-park/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "smale-riverfront-park",
+   "straight_line_m": 157
+  },
+  "notes": "Listed in The Banks Shop + Dine directory (thebankscincy.com/shop-dine/)."
+ },
+ {
+  "id": "the-stretch-the-banks",
+  "kind": "drink",
+  "name": "The Stretch",
+  "summary": "Popular with locals and visitors alike, and located within walking distance from Great American Ballpark and Paul Brown Stadium, you just never know who you might see at The Stretch!",
+  "details": "Hours (The Banks directory): Monday - Sunday from 3pm-2:30am. Phone: 513-229-9065.",
+  "address": "191 E. Freedom Way Cincinnati, OH 45202",
+  "lat": 39.097176,
+  "lng": -84.509332,
+  "url": "http://www.thestretchcincy.com/",
+  "source_url": "https://thebankscincy.com/attractions/the-stretch/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "smale-riverfront-park",
+   "straight_line_m": 160
+  },
+  "notes": "Listed in The Banks Shop + Dine directory (thebankscincy.com/shop-dine/)."
+ },
+ {
+  "id": "tin-roof-the-banks",
+  "kind": "drink",
+  "name": "Tin Roof",
+  "summary": "The Tin Roof originally opened to give musicians a place to play and a place to hang when they weren’t on stage.",
+  "details": "Hours (The Banks directory): Monday – Sunday: 11am – 3am. Phone: 513.381.2176.",
+  "address": "160 E. Freedom Way, Suite 150, Cincinnati, Ohio 45202",
+  "lat": 39.097505,
+  "lng": -84.509614,
+  "url": "http://www.tinroofcincinnati.com/",
+  "source_url": "https://thebankscincy.com/attractions/tin-roof/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "smale-riverfront-park",
+   "straight_line_m": 198
+  },
+  "notes": "Listed in The Banks Shop + Dine directory (thebankscincy.com/shop-dine/). Coordinates: Nominatim free-form match \"Tin Roof, 160, East Freedom Way, The Banks, Central Business District, Cincinnati, Hamilto\"."
+ },
+ {
+  "id": "yard-house-the-banks",
+  "kind": "food",
+  "name": "Yard House",
+  "summary": "Yard House is an upscale-casual eatery known for great food, classic rock music and 250 taps of imported, craft and specialty ales & lagers.",
+  "details": "Hours (The Banks directory): Monday – Thursday: 11am – 12am; Friday – Saturday: 11am – 1:20am; Sunday: 11am – 11pm; Happy Hour: Monday through Friday 3-6pm; Sunday through Wednesday 10pm – Close. Phone: 513.381.4071.",
+  "address": "95 E. Freedom Way, Cincinnati, OH 45202",
+  "lat": 39.096798,
+  "lng": -84.510517,
+  "url": "http://www.yardhouse.com/locations/oh/cincinnati/cincinnati-the-banks/8344",
+  "source_url": "https://thebankscincy.com/attractions/yard-house/",
+  "coords_source": "nominatim",
+  "nearest_hub": {
+   "hub": "smale-riverfront-park",
+   "straight_line_m": 156
+  },
+  "notes": "Listed in The Banks Shop + Dine directory (thebankscincy.com/shop-dine/)."
+ }
+]

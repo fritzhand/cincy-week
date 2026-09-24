@@ -1,0 +1,3206 @@
+{
+ "q:120 E 4th St, Cincinnati, OH 45202": {
+  "slim": 1,
+  "hits": [
+   {
+    "lat": "39.1010009",
+    "lon": "-84.5106505",
+    "osm_type": "node",
+    "osm_id": 2323190801,
+    "place_rank": 30,
+    "addresstype": "shop",
+    "display_name": "Metro Sales Office, 120, East 4th Street, Main Street Historic District, Central Business District, Cincinnati, Hamilton County, Ohio, 45202, United States"
+   }
+  ]
+ },
+ "q:Avondale, Cincinnati, Ohio": {
+  "slim": 1,
+  "hits": [
+   {
+    "lat": "39.1478370",
+    "lon": "-84.4949428",
+    "osm_type": "relation",
+    "osm_id": 10022000,
+    "place_rank": 20,
+    "addresstype": "suburb",
+    "display_name": "Avondale, Cincinnati, Hamilton County, Ohio, 45229, United States"
+   }
+  ]
+ },
+ "q:Camp Washington, Cincinnati, Ohio": {
+  "slim": 1,
+  "hits": [
+   {
+    "lat": "39.1369816",
+    "lon": "-84.5371682",
+    "osm_type": "relation",
+    "osm_id": 4040672,
+    "place_rank": 20,
+    "addresstype": "suburb",
+    "display_name": "Camp Washington, Cincinnati, Hamilton County, Ohio, 45225, United States"
+   }
+  ]
+ },
+ "q:Clifton, Cincinnati, Ohio": {
+  "slim": 1,
+  "hits": [
+   {
+    "lat": "39.1449771",
+    "lon": "-84.5204487",
+    "osm_type": "relation",
+    "osm_id": 1198698,
+    "place_rank": 20,
+    "addresstype": "suburb",
+    "display_name": "Clifton, Cincinnati, Hamilton County, Ohio, 45220, United States"
+   }
+  ]
+ },
+ "q:East Walnut Hills, Cincinnati, Ohio": {
+  "slim": 1,
+  "hits": [
+   {
+    "lat": "39.1295430",
+    "lon": "-84.4770398",
+    "osm_type": "relation",
+    "osm_id": 10001723,
+    "place_rank": 20,
+    "addresstype": "suburb",
+    "display_name": "East Walnut Hills, Cincinnati, Hamilton County, Ohio, United States"
+   }
+  ]
+ },
+ "q:Hyde Park, Cincinnati, Ohio": {
+  "slim": 1,
+  "hits": [
+   {
+    "lat": "39.1395957",
+    "lon": "-84.4423972",
+    "osm_type": "relation",
+    "osm_id": 19292161,
+    "place_rank": 20,
+    "addresstype": "suburb",
+    "display_name": "Hyde Park, Cincinnati, Hamilton County, Ohio, 45208, United States"
+   }
+  ]
+ },
+ "q:Kennedy Heights, Cincinnati, Ohio": {
+  "slim": 1,
+  "hits": [
+   {
+    "lat": "39.1856147",
+    "lon": "-84.4082740",
+    "osm_type": "relation",
+    "osm_id": 19775925,
+    "place_rank": 20,
+    "addresstype": "hamlet",
+    "display_name": "Kennedy Heights, Cincinnati, Hamilton County, Ohio, United States"
+   }
+  ]
+ },
+ "q:Mount Adams, Cincinnati, Ohio": {
+  "slim": 1,
+  "hits": [
+   {
+    "lat": "39.1092265",
+    "lon": "-84.4960536",
+    "osm_type": "relation",
+    "osm_id": 9995015,
+    "place_rank": 20,
+    "addresstype": "suburb",
+    "display_name": "Mount Adams, Cincinnati, Hamilton County, Ohio, United States"
+   }
+  ]
+ },
+ "q:Mount Auburn, Cincinnati, Ohio": {
+  "slim": 1,
+  "hits": [
+   {
+    "lat": "39.1186028",
+    "lon": "-84.5033413",
+    "osm_type": "relation",
+    "osm_id": 9994937,
+    "place_rank": 20,
+    "addresstype": "suburb",
+    "display_name": "Mount Auburn, Cincinnati, Hamilton County, Ohio, 45219, United States"
+   }
+  ]
+ },
+ "q:Northside, Cincinnati, Ohio": {
+  "slim": 1,
+  "hits": [
+   {
+    "lat": "39.1634176",
+    "lon": "-84.5398743",
+    "osm_type": "relation",
+    "osm_id": 12311570,
+    "place_rank": 20,
+    "addresstype": "suburb",
+    "display_name": "Northside, Cincinnati, Hamilton County, Ohio, 45223, United States"
+   }
+  ]
+ },
+ "q:Queensgate, Cincinnati, Ohio": {
+  "slim": 1,
+  "hits": [
+   {
+    "lat": "39.1037497",
+    "lon": "-84.5377193",
+    "osm_type": "relation",
+    "osm_id": 9994633,
+    "place_rank": 20,
+    "addresstype": "suburb",
+    "display_name": "Queensgate, Cincinnati, Hamilton County, Ohio, United States"
+   }
+  ]
+ },
+ "q:University Heights, Cincinnati, Ohio": {
+  "slim": 1,
+  "hits": [
+   {
+    "lat": "39.1323237",
+    "lon": "-84.5226397",
+    "osm_type": "node",
+    "osm_id": 2840375859,
+    "place_rank": 19,
+    "addresstype": "suburb",
+    "display_name": "University Heights, Clifton Heights–University Heights–Fairview, Cincinnati, Hamilton County, Ohio, 45221, United States"
+   }
+  ]
+ },
+ "q:Walnut Hills, Cincinnati, Ohio": {
+  "slim": 1,
+  "hits": [
+   {
+    "lat": "39.1256891",
+    "lon": "-84.4932249",
+    "osm_type": "relation",
+    "osm_id": 9997659,
+    "place_rank": 20,
+    "addresstype": "suburb",
+    "display_name": "Walnut Hills, Cincinnati, Hamilton County, Ohio, 45206, United States"
+   }
+  ]
+ },
+ "q:Westwood, Cincinnati, Ohio": {
+  "slim": 1,
+  "hits": [
+   {
+    "lat": "39.1486697",
+    "lon": "-84.5993894",
+    "osm_type": "node",
+    "osm_id": 154192862,
+    "place_rank": 19,
+    "addresstype": "suburb",
+    "display_name": "Westwood, Cincinnati, Hamilton County, Ohio, 46211, United States"
+   }
+  ]
+ },
+ "rev:39.00900,-84.63350": {
+  "slim": 1,
+  "address": {
+   "town": "Florence",
+   "county": "Boone County",
+   "state": "Kentucky",
+   "postcode": "41042"
+  }
+ },
+ "rev:39.00940,-84.63440": {
+  "slim": 1,
+  "address": {
+   "town": "Florence",
+   "county": "Boone County",
+   "state": "Kentucky",
+   "postcode": "41042"
+  }
+ },
+ "rev:39.00980,-84.63270": {
+  "slim": 1,
+  "address": {
+   "town": "Florence",
+   "county": "Boone County",
+   "state": "Kentucky",
+   "postcode": "41042"
+  }
+ },
+ "rev:39.01110,-84.63200": {
+  "slim": 1,
+  "address": {
+   "town": "Florence",
+   "county": "Boone County",
+   "state": "Kentucky",
+   "postcode": "41042"
+  }
+ },
+ "rev:39.01190,-84.63520": {
+  "slim": 1,
+  "address": {
+   "town": "Florence",
+   "county": "Boone County",
+   "state": "Kentucky",
+   "postcode": "41042"
+  }
+ },
+ "rev:39.01210,-84.63620": {
+  "slim": 1,
+  "address": {
+   "town": "Florence",
+   "county": "Boone County",
+   "state": "Kentucky",
+   "postcode": "41042"
+  }
+ },
+ "rev:39.01260,-84.63700": {
+  "slim": 1,
+  "address": {
+   "town": "Florence",
+   "county": "Boone County",
+   "state": "Kentucky",
+   "postcode": "41042"
+  }
+ },
+ "rev:39.01350,-84.63290": {
+  "slim": 1,
+  "address": {
+   "town": "Florence",
+   "county": "Boone County",
+   "state": "Kentucky",
+   "postcode": "41018"
+  }
+ },
+ "rev:39.01410,-84.63150": {
+  "slim": 1,
+  "address": {
+   "town": "Florence",
+   "county": "Boone County",
+   "state": "Kentucky",
+   "postcode": "41042"
+  }
+ },
+ "rev:39.01540,-84.63500": {
+  "slim": 1,
+  "address": {
+   "town": "Florence",
+   "county": "Boone County",
+   "state": "Kentucky",
+   "postcode": "41042"
+  }
+ },
+ "rev:39.01740,-84.63510": {
+  "slim": 1,
+  "address": {
+   "town": "Florence",
+   "county": "Boone County",
+   "state": "Kentucky",
+   "postcode": "41042"
+  }
+ },
+ "rev:39.01760,-84.48310": {
+  "slim": 1,
+  "address": {
+   "village": "Wilder",
+   "county": "Campbell County",
+   "state": "Kentucky",
+   "postcode": "41076"
+  }
+ },
+ "rev:39.01800,-84.63570": {
+  "slim": 1,
+  "address": {
+   "town": "Florence",
+   "county": "Boone County",
+   "state": "Kentucky",
+   "postcode": "41042"
+  }
+ },
+ "rev:39.01920,-84.63520": {
+  "slim": 1,
+  "address": {
+   "town": "Florence",
+   "county": "Boone County",
+   "state": "Kentucky",
+   "postcode": "41042"
+  }
+ },
+ "rev:39.01940,-84.63020": {
+  "slim": 1,
+  "address": {
+   "town": "Florence",
+   "county": "Boone County",
+   "state": "Kentucky",
+   "postcode": "41042"
+  }
+ },
+ "rev:39.02560,-84.47960": {
+  "slim": 1,
+  "address": {
+   "village": "Wilder",
+   "county": "Campbell County",
+   "state": "Kentucky",
+   "postcode": "41076"
+  }
+ },
+ "rev:39.02720,-84.61640": {
+  "slim": 1,
+  "address": {
+   "town": "Erlanger",
+   "county": "Kenton County",
+   "state": "Kentucky",
+   "postcode": "41018"
+  }
+ },
+ "rev:39.02860,-84.48240": {
+  "slim": 1,
+  "address": {
+   "village": "Wilder",
+   "county": "Campbell County",
+   "state": "Kentucky",
+   "postcode": "41015"
+  }
+ },
+ "rev:39.02900,-84.61550": {
+  "slim": 1,
+  "address": {
+   "town": "Erlanger",
+   "county": "Kenton County",
+   "state": "Kentucky",
+   "postcode": "41018"
+  }
+ },
+ "rev:39.02910,-84.61230": {
+  "slim": 1,
+  "address": {
+   "town": "Erlanger",
+   "county": "Kenton County",
+   "state": "Kentucky",
+   "postcode": "41018"
+  }
+ },
+ "rev:39.03129,-84.46369": {
+  "slim": 1,
+  "address": {
+   "village": "Highland Heights",
+   "county": "Campbell County",
+   "state": "Kentucky",
+   "postcode": "41099"
+  }
+ },
+ "rev:39.03469,-84.46596": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "village": "Highland Heights",
+   "county": "Campbell County",
+   "state": "Kentucky",
+   "postcode": "41099"
+  }
+ },
+ "rev:39.04850,-84.57320": {
+  "slim": 1,
+  "address": {
+   "village": "Fort Mitchell",
+   "county": "Kenton County",
+   "state": "Kentucky",
+   "postcode": "41017"
+  }
+ },
+ "rev:39.05250,-84.62880": {
+  "slim": 1,
+  "address": {
+   "town": "Erlanger",
+   "county": "Boone County",
+   "state": "Kentucky",
+   "postcode": "41018"
+  }
+ },
+ "rev:39.05260,-84.63150": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "Rolling Green Acres",
+   "county": "Boone County",
+   "state": "Kentucky",
+   "postcode": "41025"
+  }
+ },
+ "rev:39.05329,-84.65554": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "village": "Hebron",
+   "county": "Boone County",
+   "state": "Kentucky",
+   "postcode": "41005"
+  }
+ },
+ "rev:39.05690,-84.62770": {
+  "slim": 1,
+  "address": {
+   "town": "Erlanger",
+   "county": "Boone County",
+   "state": "Kentucky",
+   "postcode": "41018"
+  }
+ },
+ "rev:39.05700,-84.62920": {
+  "slim": 1,
+  "address": {
+   "town": "Erlanger",
+   "county": "Boone County",
+   "state": "Kentucky",
+   "postcode": "41018"
+  }
+ },
+ "rev:39.05700,-84.66040": {
+  "slim": 1,
+  "address": {
+   "village": "Hebron",
+   "county": "Boone County",
+   "state": "Kentucky",
+   "postcode": "41048"
+  }
+ },
+ "rev:39.07530,-84.65790": {
+  "slim": 1,
+  "address": {
+   "village": "Hebron",
+   "hamlet": "Stringtown",
+   "county": "Boone County",
+   "state": "Kentucky",
+   "postcode": "41048"
+  }
+ },
+ "rev:39.07580,-84.65620": {
+  "slim": 1,
+  "address": {
+   "village": "Hebron",
+   "hamlet": "Stringtown",
+   "county": "Boone County",
+   "state": "Kentucky",
+   "postcode": "41048"
+  }
+ },
+ "rev:39.07610,-84.65810": {
+  "slim": 1,
+  "address": {
+   "village": "Hebron",
+   "hamlet": "Stringtown",
+   "county": "Boone County",
+   "state": "Kentucky",
+   "postcode": "41048"
+  }
+ },
+ "rev:39.07708,-84.51383": {
+  "slim": 1,
+  "address": {
+   "city": "Covington",
+   "hamlet": "Eastside",
+   "county": "Kenton County",
+   "state": "Kentucky",
+   "postcode": "41011"
+  }
+ },
+ "rev:39.07720,-84.66090": {
+  "slim": 1,
+  "address": {
+   "village": "Hebron",
+   "county": "Boone County",
+   "state": "Kentucky",
+   "postcode": "41048"
+  }
+ },
+ "rev:39.07862,-84.50896": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "city": "Covington",
+   "hamlet": "Eastside",
+   "county": "Kenton County",
+   "state": "Kentucky",
+   "postcode": "41011"
+  }
+ },
+ "rev:39.07983,-84.53765": {
+  "slim": 1,
+  "address": {
+   "city": "Covington",
+   "hamlet": "Kenton Hills",
+   "county": "Kenton County",
+   "state": "Kentucky",
+   "postcode": "41016"
+  }
+ },
+ "rev:39.08022,-84.50686": {
+  "slim": 1,
+  "address": {
+   "city": "Covington",
+   "hamlet": "Eastside",
+   "county": "Kenton County",
+   "state": "Kentucky",
+   "postcode": "41011"
+  }
+ },
+ "rev:39.08182,-84.51092": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "city": "Covington",
+   "county": "Kenton County",
+   "state": "Kentucky",
+   "postcode": "41011"
+  }
+ },
+ "rev:39.08306,-84.51259": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "city": "Covington",
+   "hamlet": "Eastside",
+   "county": "Kenton County",
+   "state": "Kentucky",
+   "postcode": "41011"
+  }
+ },
+ "rev:39.08317,-84.51076": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "town": "Covington",
+   "county": "Kenton County",
+   "state": "Kentucky"
+  }
+ },
+ "rev:39.08320,-84.51769": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Mainstrasse Village",
+   "city": "Covington",
+   "county": "Kenton County",
+   "state": "Kentucky",
+   "postcode": "41011"
+  }
+ },
+ "rev:39.08342,-84.51773": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Mainstrasse Village",
+   "city": "Covington",
+   "county": "Kenton County",
+   "state": "Kentucky",
+   "postcode": "41011"
+  }
+ },
+ "rev:39.08371,-84.50971": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "city": "Covington",
+   "hamlet": "Eastside",
+   "county": "Kenton County",
+   "state": "Kentucky",
+   "postcode": "41011"
+  }
+ },
+ "rev:39.08372,-84.50849": {
+  "slim": 1,
+  "address": {
+   "city": "Covington",
+   "hamlet": "Eastside",
+   "county": "Kenton County",
+   "state": "Kentucky",
+   "postcode": "41011"
+  }
+ },
+ "rev:39.08397,-84.51016": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "city": "Covington",
+   "county": "Kenton County",
+   "state": "Kentucky",
+   "postcode": "41011"
+  }
+ },
+ "rev:39.08398,-84.51772": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Mainstrasse Village",
+   "city": "Covington",
+   "county": "Kenton County",
+   "state": "Kentucky",
+   "postcode": "41011"
+  }
+ },
+ "rev:39.08403,-84.51813": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "neighbourhood": "Mainstrasse Village",
+   "suburb": "Mainstrasse Village",
+   "city": "Covington",
+   "county": "Kenton County",
+   "state": "Kentucky",
+   "postcode": "41011"
+  }
+ },
+ "rev:39.08417,-84.51017": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "city": "Covington",
+   "county": "Kenton County",
+   "state": "Kentucky",
+   "postcode": "41011"
+  }
+ },
+ "rev:39.08475,-84.51779": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "neighbourhood": "Mainstrasse Village",
+   "suburb": "Mainstrasse Village",
+   "city": "Covington",
+   "county": "Kenton County",
+   "state": "Kentucky",
+   "postcode": "41011"
+  }
+ },
+ "rev:39.08514,-84.51092": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "city": "Covington",
+   "county": "Kenton County",
+   "state": "Kentucky",
+   "postcode": "41011"
+  }
+ },
+ "rev:39.08524,-84.52012": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "neighbourhood": "Mainstrasse Village",
+   "suburb": "Mainstrasse Village",
+   "city": "Covington",
+   "county": "Kenton County",
+   "state": "Kentucky",
+   "postcode": "41011"
+  }
+ },
+ "rev:39.08595,-84.51053": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Licking Riverside Historic District",
+   "city": "Covington",
+   "county": "Kenton County",
+   "state": "Kentucky",
+   "postcode": "41011"
+  }
+ },
+ "rev:39.08657,-84.51081": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "city": "Covington",
+   "county": "Kenton County",
+   "state": "Kentucky",
+   "postcode": "41011"
+  }
+ },
+ "rev:39.08776,-84.50865": {
+  "slim": 1,
+  "address": {
+   "suburb": "Licking Riverside Historic District",
+   "city": "Covington",
+   "county": "Kenton County",
+   "state": "Kentucky",
+   "postcode": "41011"
+  }
+ },
+ "rev:39.08825,-84.51045": {
+  "slim": 1,
+  "address": {
+   "city": "Covington",
+   "county": "Kenton County",
+   "state": "Kentucky",
+   "postcode": "41011"
+  }
+ },
+ "rev:39.08827,-84.50776": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Licking Riverside Historic District",
+   "city": "Covington",
+   "county": "Kenton County",
+   "state": "Kentucky",
+   "postcode": "41011"
+  }
+ },
+ "rev:39.08830,-84.52460": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "city": "Covington",
+   "hamlet": "Kenton Hills",
+   "county": "Kenton County",
+   "state": "Kentucky",
+   "postcode": "41011"
+  }
+ },
+ "rev:39.08839,-84.50867": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Licking Riverside Historic District",
+   "city": "Covington",
+   "county": "Kenton County",
+   "state": "Kentucky",
+   "postcode": "41011"
+  }
+ },
+ "rev:39.08882,-84.51061": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "city": "Covington",
+   "county": "Kenton County",
+   "state": "Kentucky",
+   "postcode": "41011"
+  }
+ },
+ "rev:39.08926,-84.50948": {
+  "slim": 1,
+  "address": {
+   "city": "Covington",
+   "county": "Kenton County",
+   "state": "Kentucky",
+   "postcode": "41011"
+  }
+ },
+ "rev:39.08935,-84.50862": {
+  "slim": 1,
+  "address": {
+   "suburb": "Licking Riverside Historic District",
+   "city": "Covington",
+   "county": "Kenton County",
+   "state": "Kentucky",
+   "postcode": "41011"
+  }
+ },
+ "rev:39.08938,-84.50907": {
+  "slim": 1,
+  "address": {
+   "city": "Covington",
+   "county": "Kenton County",
+   "state": "Kentucky",
+   "postcode": "41011"
+  }
+ },
+ "rev:39.09002,-84.49225": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "town": "Newport",
+   "hamlet": "Clifton",
+   "county": "Campbell County",
+   "state": "Kentucky",
+   "postcode": "41071"
+  }
+ },
+ "rev:39.09012,-84.49412": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "town": "Newport",
+   "hamlet": "Clifton",
+   "county": "Campbell County",
+   "state": "Kentucky",
+   "postcode": "41071"
+  }
+ },
+ "rev:39.09025,-84.51193": {
+  "slim": 1,
+  "address": {
+   "city": "Covington",
+   "county": "Kenton County",
+   "state": "Kentucky",
+   "postcode": "41011"
+  }
+ },
+ "rev:39.09062,-84.50894": {
+  "slim": 1,
+  "address": {
+   "suburb": "Licking Riverside Historic District",
+   "city": "Covington",
+   "county": "Kenton County",
+   "state": "Kentucky",
+   "postcode": "41011"
+  }
+ },
+ "rev:39.09080,-84.48598": {
+  "slim": 1,
+  "address": {
+   "town": "Newport",
+   "hamlet": "The Estates at Wiedemann Mansion",
+   "county": "Campbell County",
+   "state": "Kentucky",
+   "postcode": "41071"
+  }
+ },
+ "rev:39.09099,-84.50889": {
+  "slim": 1,
+  "address": {
+   "suburb": "Licking Riverside Historic District",
+   "city": "Covington",
+   "county": "Kenton County",
+   "state": "Kentucky",
+   "postcode": "41011"
+  }
+ },
+ "rev:39.09281,-84.49093": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "town": "Newport",
+   "hamlet": "The Estates at Wiedemann Mansion",
+   "county": "Campbell County",
+   "state": "Kentucky",
+   "postcode": "41071"
+  }
+ },
+ "rev:39.09290,-84.50987": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Central Business District",
+   "city": "Covington",
+   "county": "Kenton County",
+   "state": "Kentucky",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.09329,-84.61094": {
+  "slim": 1,
+  "address": {
+   "hamlet": "Delhi",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45238"
+  }
+ },
+ "rev:39.09351,-84.49146": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "town": "Newport",
+   "hamlet": "The Estates at Wiedemann Mansion",
+   "county": "Campbell County",
+   "state": "Kentucky",
+   "postcode": "41071"
+  }
+ },
+ "rev:39.09426,-84.49655": {
+  "slim": 1,
+  "address": {
+   "town": "Newport",
+   "county": "Campbell County",
+   "state": "Kentucky",
+   "postcode": "41071"
+  }
+ },
+ "rev:39.09472,-84.51362": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.09487,-84.63996": {
+  "slim": 1,
+  "address": {
+   "hamlet": "Mount Saint Joseph",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45233"
+  }
+ },
+ "rev:39.09499,-84.49605": {
+  "slim": 1,
+  "address": {
+   "town": "Newport",
+   "county": "Campbell County",
+   "state": "Kentucky",
+   "postcode": "41071"
+  }
+ },
+ "rev:39.09507,-84.49617": {
+  "slim": 1,
+  "address": {
+   "town": "Newport",
+   "county": "Campbell County",
+   "state": "Kentucky",
+   "postcode": "41071"
+  }
+ },
+ "rev:39.09519,-84.49372": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "town": "Newport",
+   "hamlet": "The Estates at Wiedemann Mansion",
+   "county": "Campbell County",
+   "state": "Kentucky",
+   "postcode": "41071"
+  }
+ },
+ "rev:39.09537,-84.51367": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.09546,-84.51606": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.09573,-84.50933": {
+  "slim": 1,
+  "address": {
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.09628,-84.51111": {
+  "slim": 1,
+  "address": {
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.09629,-84.50870": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.09638,-84.51039": {
+  "slim": 1,
+  "address": {
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.09680,-84.51052": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.09684,-84.51285": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.09693,-84.51137": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.09694,-84.51198": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.09706,-84.51248": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.09707,-84.50999": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.09707,-84.51217": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.09708,-84.50983": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.09712,-84.50966": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.09714,-84.50948": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.09717,-84.51080": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.09718,-84.50933": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.09725,-84.50888": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.09741,-84.51013": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.09743,-84.50869": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.09750,-84.50961": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.09750,-84.51021": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.09754,-84.50934": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.09754,-84.51123": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.09758,-84.50901": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.09763,-84.51104": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.09787,-84.51036": {
+  "slim": 1,
+  "address": {
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.09798,-84.51214": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "neighbourhood": "West Fourth Street Historic District",
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45210"
+  }
+ },
+ "rev:39.09816,-84.50917": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.09825,-84.50974": {
+  "slim": 1,
+  "address": {
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.09839,-84.51551": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "neighbourhood": "West Fourth Street Historic District",
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.09904,-84.51078": {
+  "slim": 1,
+  "address": {
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.09920,-84.50955": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "neighbourhood": "Lytle Park Historic District",
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.09989,-84.51445": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "neighbourhood": "West Fourth Street Historic District",
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.10000,-84.48480": {
+  "slim": 1,
+  "address": {
+   "town": "Bellevue",
+   "county": "Campbell County",
+   "state": "Kentucky",
+   "postcode": "41073"
+  }
+ },
+ "rev:39.10064,-84.51094": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "neighbourhood": "Main Street Historic District",
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.10070,-84.48889": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "town": "Newport",
+   "county": "Campbell County",
+   "state": "Kentucky",
+   "postcode": "41073"
+  }
+ },
+ "rev:39.10072,-84.51674": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "neighbourhood": "West Fourth Street Historic District",
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.10080,-84.50949": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "Main Street Historic District",
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.10093,-84.51130": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "neighbourhood": "Main Street Historic District",
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.10097,-84.51505": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "neighbourhood": "West Fourth Street Historic District",
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.10100,-84.51065": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "Main Street Historic District",
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.10106,-84.50420": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "Lytle Park Historic District",
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.10118,-84.50419": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "Lytle Park Historic District",
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.10130,-84.51598": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "West Fourth Street Historic District",
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45203"
+  }
+ },
+ "rev:39.10131,-84.51312": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "neighbourhood": "Main Street Historic District",
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.10139,-84.51314": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "neighbourhood": "Main Street Historic District",
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.10153,-84.51115": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "neighbourhood": "Main Street Historic District",
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.10179,-84.51281": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "neighbourhood": "Main Street Historic District",
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.10181,-84.51502": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "neighbourhood": "West Fourth Street Historic District",
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.10185,-84.51247": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "Main Street Historic District",
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45210"
+  }
+ },
+ "rev:39.10202,-84.51478": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "neighbourhood": "West Fourth Street Historic District",
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.10208,-84.50281": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "Lytle Park Historic District",
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.10227,-84.50229": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "neighbourhood": "Lytle Park Historic District",
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.10281,-84.51201": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "neighbourhood": "Main Street Historic District",
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.10284,-84.51211": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "neighbourhood": "Main Street Historic District",
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.10285,-84.51210": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "neighbourhood": "Main Street Historic District",
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.10288,-84.49667": {
+  "slim": 1,
+  "address": {
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.10297,-84.51139": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "neighbourhood": "Main Street Historic District",
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.10301,-84.51112": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "neighbourhood": "Main Street Historic District",
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.10311,-84.51194": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "neighbourhood": "Main Street Historic District",
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.10326,-84.51020": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "Main Street Historic District",
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.10353,-84.51171": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "Main Street Historic District",
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.10358,-84.51126": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "neighbourhood": "Main Street Historic District",
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.10360,-84.51512": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "neighbourhood": "Court Street Historic District",
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.10361,-84.51126": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "neighbourhood": "Main Street Historic District",
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.10408,-84.51259": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "neighbourhood": "Main Street Historic District",
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.10409,-84.51207": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "Main Street Historic District",
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45210"
+  }
+ },
+ "rev:39.10415,-84.51533": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "Court Street Historic District",
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45210"
+  }
+ },
+ "rev:39.10421,-84.51364": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "neighbourhood": "Court Street Historic District",
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.10480,-84.50750": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "neighbourhood": "Main Street Historic District",
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.10481,-84.50898": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "neighbourhood": "Main Street Historic District",
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.10511,-84.51365": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "Court Street Historic District",
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.10514,-84.51337": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "Court Street Historic District",
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.10530,-84.50862": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "neighbourhood": "Main Street Historic District",
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.10532,-84.50912": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "neighbourhood": "Main Street Historic District",
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.10533,-84.51071": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "Main Street Historic District",
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.10533,-84.51238": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "Court Street Historic District",
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45210"
+  }
+ },
+ "rev:39.10537,-84.51918": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "Betts-Longworth Historic District",
+   "suburb": "West End",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.10623,-84.51701": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "Court Street Historic District",
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.10691,-84.51315": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "Court Street Historic District",
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45210"
+  }
+ },
+ "rev:39.10712,-84.51116": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "Court Street Historic District",
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45210"
+  }
+ },
+ "rev:39.10715,-84.51410": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "Court Street Historic District",
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45210"
+  }
+ },
+ "rev:39.10725,-84.51333": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "neighbourhood": "Court Street Historic District",
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.10735,-84.51268": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "neighbourhood": "Court Street Historic District",
+   "suburb": "Central Business District",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.10763,-84.51785": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Over-the-Rhine",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.10805,-84.51292": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Over-the-Rhine",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.10807,-84.51795": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "neighbourhood": "Over-the-Rhine Historic District",
+   "suburb": "Over-the-Rhine",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.10829,-84.51836": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "Over-the-Rhine Historic District",
+   "suburb": "Over-the-Rhine",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.10834,-84.51463": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Over-the-Rhine",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.10846,-84.51471": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Over-the-Rhine",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.10847,-84.51149": {
+  "slim": 1,
+  "address": {
+   "suburb": "Over-the-Rhine",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45210"
+  }
+ },
+ "rev:39.10847,-84.51647": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "neighbourhood": "Over-the-Rhine Historic District",
+   "suburb": "Over-the-Rhine",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45210"
+  }
+ },
+ "rev:39.10858,-84.51378": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "Over-the-Rhine Historic District",
+   "suburb": "Over-the-Rhine",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.10859,-84.51849": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Over-the-Rhine",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45210"
+  }
+ },
+ "rev:39.10870,-84.50910": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Pendleton",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.10893,-84.51387": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "Over-the-Rhine Historic District",
+   "suburb": "Over-the-Rhine",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.10910,-84.51390": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "Over-the-Rhine Historic District",
+   "suburb": "Over-the-Rhine",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.10931,-84.51862": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "Over-the-Rhine Historic District",
+   "suburb": "Over-the-Rhine",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45210"
+  }
+ },
+ "rev:39.10937,-84.51831": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "Over-the-Rhine Historic District",
+   "suburb": "Over-the-Rhine",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45210"
+  }
+ },
+ "rev:39.10939,-84.51919": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "neighbourhood": "Over-the-Rhine Historic District",
+   "suburb": "Over-the-Rhine",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45210"
+  }
+ },
+ "rev:39.10945,-84.51511": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Over-the-Rhine",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.10952,-84.53222": {
+  "slim": 1,
+  "address": {
+   "suburb": "Queensgate",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45214"
+  }
+ },
+ "rev:39.10962,-84.50824": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Pendleton",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.10991,-84.51850": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "Over-the-Rhine Historic District",
+   "suburb": "Over-the-Rhine",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45210"
+  }
+ },
+ "rev:39.10994,-84.51258": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Over-the-Rhine",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.10994,-84.53724": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Queensgate",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45203"
+  }
+ },
+ "rev:39.10994,-84.53725": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Queensgate",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45203"
+  }
+ },
+ "rev:39.11013,-84.51454": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Over-the-Rhine",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.11016,-84.49364": {
+  "slim": 1,
+  "address": {
+   "suburb": "Mount Adams",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.11028,-84.51018": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Pendleton",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.11069,-84.51519": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Over-the-Rhine",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.11074,-84.51233": {
+  "slim": 1,
+  "address": {
+   "suburb": "Over-the-Rhine",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.11098,-84.47751": {
+  "slim": 1,
+  "address": {
+   "village": "Dayton",
+   "county": "Campbell County",
+   "state": "Kentucky",
+   "postcode": "41074"
+  }
+ },
+ "rev:39.11109,-84.50681": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Pendleton",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.11118,-84.50665": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Pendleton",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.11118,-84.52223": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "neighbourhood": "Betts-Longworth Historic District",
+   "suburb": "West End",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45214"
+  }
+ },
+ "rev:39.11127,-84.51525": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Over-the-Rhine",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.11128,-84.51201": {
+  "slim": 1,
+  "address": {
+   "suburb": "Over-the-Rhine",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.11150,-84.49767": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Walnut Hills",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.11156,-84.51206": {
+  "slim": 1,
+  "address": {
+   "suburb": "Over-the-Rhine",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.11168,-84.51548": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Over-the-Rhine",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45210"
+  }
+ },
+ "rev:39.11218,-84.51753": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "neighbourhood": "Over-the-Rhine Historic District",
+   "suburb": "Over-the-Rhine",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.11258,-84.51120": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "Over-the-Rhine Historic District",
+   "suburb": "Mount Auburn",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.11262,-84.51751": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "Over-the-Rhine Historic District",
+   "suburb": "Over-the-Rhine",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45210"
+  }
+ },
+ "rev:39.11286,-84.51925": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "Over-the-Rhine Historic District",
+   "suburb": "Over-the-Rhine",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45210"
+  }
+ },
+ "rev:39.11295,-84.51602": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "Over-the-Rhine Historic District",
+   "suburb": "Over-the-Rhine",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.11299,-84.51877": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "neighbourhood": "Over-the-Rhine Historic District",
+   "suburb": "Over-the-Rhine",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.11373,-84.51382": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Over-the-Rhine",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.11398,-84.49686": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "neighbourhood": "Gilbert-Sinton Historic District",
+   "suburb": "Walnut Hills",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.11399,-84.49678": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "neighbourhood": "Gilbert-Sinton Historic District",
+   "suburb": "Walnut Hills",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.11487,-84.51990": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Over-the-Rhine",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.11494,-84.52139": {
+  "slim": 1,
+  "address": {
+   "suburb": "Over-the-Rhine",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.11497,-84.51979": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Over-the-Rhine",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.11536,-84.51891": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Over-the-Rhine",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.11537,-84.51898": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Over-the-Rhine",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.11543,-84.51933": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Over-the-Rhine",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.11552,-84.51903": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Over-the-Rhine",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.11554,-84.51935": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Over-the-Rhine",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.11565,-84.51835": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Over-the-Rhine",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45210"
+  }
+ },
+ "rev:39.11631,-84.51832": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Over-the-Rhine",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.11690,-84.51748": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "Brewery District",
+   "suburb": "Over-the-Rhine",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45210"
+  }
+ },
+ "rev:39.11710,-84.51989": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "neighbourhood": "Brewery District",
+   "suburb": "Over-the-Rhine",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.11723,-84.52036": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "Brewery District",
+   "suburb": "Over-the-Rhine",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45210"
+  }
+ },
+ "rev:39.11728,-84.51870": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "Brewery District",
+   "suburb": "Over-the-Rhine",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.11760,-84.49870": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "Gilbert-Sinton Historic District",
+   "suburb": "Walnut Hills",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.12470,-84.50240": {
+  "slim": 1,
+  "address": {
+   "suburb": "Mount Auburn",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.12480,-84.50240": {
+  "slim": 1,
+  "address": {
+   "suburb": "Mount Auburn",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45202"
+  }
+ },
+ "rev:39.12518,-84.49102": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "Peebles Corner",
+   "suburb": "Walnut Hills",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45206"
+  }
+ },
+ "rev:39.12554,-84.49086": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "Peebles Corner",
+   "suburb": "Walnut Hills",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45206"
+  }
+ },
+ "rev:39.12565,-84.49020": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "Peebles Corner",
+   "suburb": "Walnut Hills",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45206"
+  }
+ },
+ "rev:39.12606,-84.48974": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "neighbourhood": "Peebles Corner",
+   "suburb": "Walnut Hills",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45206"
+  }
+ },
+ "rev:39.12790,-84.51670": {
+  "slim": 1,
+  "address": {
+   "suburb": "University Heights",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45219"
+  }
+ },
+ "rev:39.12866,-84.47759": {
+  "slim": 1,
+  "address": {
+   "suburb": "East Walnut Hills",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45206"
+  }
+ },
+ "rev:39.12980,-84.52080": {
+  "slim": 1,
+  "address": {
+   "suburb": "University Heights",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45214"
+  }
+ },
+ "rev:39.13434,-84.51853": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "Uptown Cincinnati",
+   "suburb": "University Heights",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45221"
+  }
+ },
+ "rev:39.13440,-84.50860": {
+  "slim": 1,
+  "address": {
+   "suburb": "University Heights",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45267"
+  }
+ },
+ "rev:39.13444,-84.51934": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "Uptown Cincinnati",
+   "suburb": "University Heights",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45221"
+  }
+ },
+ "rev:39.13582,-84.53667": {
+  "slim": 1,
+  "address": {
+   "suburb": "Camp Washington",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45225"
+  }
+ },
+ "rev:39.13604,-84.53676": {
+  "slim": 1,
+  "address": {
+   "suburb": "Camp Washington",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45225"
+  }
+ },
+ "rev:39.13670,-84.50720": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "Pill Hill",
+   "suburb": "University Heights",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45219"
+  }
+ },
+ "rev:39.13736,-84.43718": {
+  "slim": 1,
+  "address": {
+   "suburb": "Hyde Park",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45208"
+  }
+ },
+ "rev:39.13962,-84.44251": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Hyde Park",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45208"
+  }
+ },
+ "rev:39.14421,-84.51871": {
+  "slim": 1,
+  "address": {
+   "suburb": "Clifton",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45220"
+  }
+ },
+ "rev:39.14440,-84.45960": {
+  "slim": 1,
+  "address": {
+   "suburb": "O’Bryonville",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45207"
+  }
+ },
+ "rev:39.14475,-84.50829": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "neighbourhood": "Pill Hill",
+   "suburb": "University Heights",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45267"
+  }
+ },
+ "rev:39.14530,-84.37500": {
+  "slim": 1,
+  "address": {
+   "city": "Cincinnati",
+   "hamlet": "Clare",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45227"
+  }
+ },
+ "rev:39.14718,-84.53708": {
+  "slim": 1,
+  "address": {
+   "suburb": "Clifton",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45223"
+  }
+ },
+ "rev:39.14870,-84.44280": {
+  "slim": 1,
+  "address": {
+   "suburb": "Oakley",
+   "town": "Norwood",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45209"
+  }
+ },
+ "rev:39.14880,-84.44250": {
+  "slim": 1,
+  "address": {
+   "suburb": "Oakley",
+   "town": "Norwood",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45209"
+  }
+ },
+ "rev:39.15079,-84.60062": {
+  "slim": 1,
+  "address": {
+   "suburb": "Westwood",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45211"
+  }
+ },
+ "rev:39.15244,-84.53653": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Clifton",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45223"
+  }
+ },
+ "rev:39.15669,-84.54104": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "Knowltons Corner",
+   "suburb": "Northside",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45223"
+  }
+ },
+ "rev:39.15760,-84.40330": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "Madison-Stewart Historic District",
+   "suburb": "Madisonville",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45227"
+  }
+ },
+ "rev:39.15850,-84.40320": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "Madison-Stewart Historic District",
+   "suburb": "Madisonville",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45227"
+  }
+ },
+ "rev:39.15900,-84.42930": {
+  "slim": 1,
+  "address": {
+   "suburb": "Oakley",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45209"
+  }
+ },
+ "rev:39.15920,-84.43300": {
+  "slim": 1,
+  "address": {
+   "suburb": "Oakley",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45209"
+  }
+ },
+ "rev:39.15951,-84.42336": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Oakley",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45209"
+  }
+ },
+ "rev:39.16384,-84.54010": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "suburb": "Northside",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45223"
+  }
+ },
+ "rev:39.17150,-84.42450": {
+  "slim": 1,
+  "address": {
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45213"
+  }
+ },
+ "rev:39.18660,-84.54490": {
+  "slim": 1,
+  "address": {
+   "suburb": "College Hill",
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45224"
+  }
+ },
+ "rev:39.18775,-84.41498": {
+  "slim": 1,
+  "address": {
+   "city": "Cincinnati",
+   "hamlet": "Kennedy Heights",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45213"
+  }
+ },
+ "rev:39.18940,-84.41161": {
+  "slim": 1,
+  "seed": 1,
+  "address": {
+   "city": "Cincinnati",
+   "hamlet": "Kennedy Heights",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45213"
+  }
+ },
+ "rev:39.21410,-84.58590": {
+  "slim": 1,
+  "address": {
+   "hamlet": "White Oak",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45239"
+  }
+ },
+ "rev:39.23195,-84.50697": {
+  "slim": 1,
+  "address": {
+   "hamlet": "Compton Park",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45231"
+  }
+ },
+ "rev:39.25455,-84.42168": {
+  "slim": 1,
+  "address": {
+   "city": "Cincinnati",
+   "county": "Hamilton County",
+   "state": "Ohio",
+   "postcode": "45241"
+  }
+ },
+ "rev:39.37302,-84.58116": {
+  "slim": 1,
+  "address": {
+   "county": "Butler County",
+   "state": "Ohio",
+   "postcode": "45015"
+  }
+ },
+ "rev:39.39968,-84.56558": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "Main Street Historic District",
+   "suburb": "South Hamilton",
+   "quarter": "Rossville Historic District",
+   "city": "Hamilton",
+   "county": "Butler County",
+   "state": "Ohio",
+   "postcode": "45011"
+  }
+ },
+ "rev:39.50551,-84.73250": {
+  "slim": 1,
+  "address": {
+   "town": "Oxford",
+   "county": "Butler County",
+   "state": "Ohio",
+   "postcode": "45056"
+  }
+ },
+ "rev:39.50994,-84.74603": {
+  "slim": 1,
+  "address": {
+   "town": "Oxford",
+   "county": "Butler County",
+   "state": "Ohio",
+   "postcode": "45056"
+  }
+ },
+ "rev:39.69531,-84.11717": {
+  "slim": 1,
+  "address": {
+   "town": "Kettering",
+   "county": "Montgomery County",
+   "state": "Ohio",
+   "postcode": "45420"
+  }
+ },
+ "rev:39.74022,-84.18582": {
+  "slim": 1,
+  "address": {
+   "city": "Dayton",
+   "county": "Montgomery County",
+   "state": "Ohio",
+   "postcode": "45479"
+  }
+ },
+ "rev:39.75583,-84.19603": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "Dayton Terra-Cotta Historic District",
+   "city": "Dayton",
+   "county": "Montgomery County",
+   "state": "Ohio",
+   "postcode": "45402"
+  }
+ },
+ "rev:39.75725,-84.17395": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "Saint Annes Hill Historic District",
+   "city": "Dayton",
+   "county": "Montgomery County",
+   "state": "Ohio",
+   "postcode": "45410"
+  }
+ },
+ "rev:39.75819,-84.19235": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "Dayton Terra-Cotta Historic District",
+   "city": "Dayton",
+   "county": "Montgomery County",
+   "state": "Ohio",
+   "postcode": "45402"
+  }
+ },
+ "rev:39.75854,-84.19223": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "Dayton Terra-Cotta Historic District",
+   "city": "Dayton",
+   "county": "Montgomery County",
+   "state": "Ohio",
+   "postcode": "45402"
+  }
+ },
+ "rev:39.75910,-84.17534": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "Saint Annes Hill Historic District",
+   "city": "Dayton",
+   "county": "Montgomery County",
+   "state": "Ohio",
+   "postcode": "45402"
+  }
+ },
+ "rev:39.76360,-84.18905": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "East Second Street Historic District",
+   "city": "Dayton",
+   "hamlet": "Riverdale",
+   "county": "Montgomery County",
+   "state": "Ohio",
+   "postcode": "45423"
+  }
+ },
+ "rev:39.76557,-84.20180": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "Steeles Hill-Grafton Hill Historic District",
+   "city": "Dayton",
+   "hamlet": "Daytonview",
+   "county": "Montgomery County",
+   "state": "Ohio",
+   "postcode": "45405"
+  }
+ },
+ "rev:39.78193,-84.06076": {
+  "slim": 1,
+  "address": {
+   "town": "Fairborn",
+   "county": "Greene County",
+   "state": "Ohio",
+   "postcode": "45435"
+  }
+ },
+ "rev:39.95601,-83.01116": {
+  "slim": 1,
+  "address": {
+   "quarter": "Franklinton",
+   "city": "Columbus",
+   "county": "Franklin County",
+   "state": "Ohio",
+   "postcode": "43215"
+  }
+ },
+ "rev:39.96436,-82.98786": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "Discovery District",
+   "quarter": "Downtown",
+   "city": "Columbus",
+   "county": "Franklin County",
+   "state": "Ohio",
+   "postcode": "43215"
+  }
+ },
+ "rev:39.96484,-82.99005": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "Discovery District",
+   "quarter": "Downtown",
+   "city": "Columbus",
+   "county": "Franklin County",
+   "state": "Ohio",
+   "postcode": "43216"
+  }
+ },
+ "rev:39.97456,-82.98758": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "Fort Hayes",
+   "quarter": "Milo-Grogan",
+   "city": "Columbus",
+   "county": "Franklin County",
+   "state": "Ohio",
+   "postcode": "43215"
+  }
+ },
+ "rev:40.00047,-83.00939": {
+  "slim": 1,
+  "address": {
+   "neighbourhood": "Indianola Terrace",
+   "quarter": "University District District 1",
+   "city": "Columbus",
+   "county": "Franklin County",
+   "state": "Ohio",
+   "postcode": "43210"
+  }
+ }
+}

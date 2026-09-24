@@ -26,3 +26,4 @@
 }
 /* verbatim texts can hold long bare URLs: let them wrap instead of widening the dialog or the page */
 #work-dialog .prose, .dp .prose, .wk-full .prose { overflow-wrap: anywhere; }
+.wd-zone-note { margin-top: 6px; font-size: var(--fs-xs); }   /* QA: a work shown at its zone says so */

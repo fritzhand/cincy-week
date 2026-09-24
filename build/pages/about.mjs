@@ -23,7 +23,7 @@ export function pages(ctx) {
     .map((p) => `${c.progName(p.id)} (${h.fmtDateRange(p.dates.start, p.dates.end)})`);
   const counts = [
     [db.counts.events, "events and exhibitions"], [db.counts.people, "people"], [db.counts.venues, "venues"], [db.counts.works, "works of art"],
-    [db.orgs.length, "sponsors and partners"], [db.stays.length, "hotels"], [db.faqs.length, "questions and answers"], [db.news.length, "news stories"],
+    [db.orgs.length, "sponsors and partners"], [db.stays.length, "places to stay"], [db.faqs.length, "questions and answers"], [db.news.length, "news stories"],
   ];
 
   /* ---------- unknowns, counted from the data ---------- */

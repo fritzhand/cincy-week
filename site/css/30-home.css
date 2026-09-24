@@ -224,6 +224,7 @@
 [data-prog="fotofocus"].prog-card { border-top-color: var(--ink-edge); }
 .prog-card .pk { display: flex; align-items: flex-start; gap: 10px; color: var(--ink-text); }
 .prog-card .pk .nw { white-space: nowrap; }
+.lead .byline .nw { white-space: nowrap; }
 .prog-card h3 { margin-top: var(--sp-2); font-size: var(--fs-lg); }
 .prog-card p { margin-top: var(--sp-2); font-size: var(--fs-sm); color: var(--text-muted); line-height: 1.5; }
 .prog-card dl { margin-top: var(--sp-3); font-size: var(--fs-xs); border-top: 1px solid var(--border); }
@@ -234,13 +235,15 @@
 .prog-card .links a { display: inline-flex; align-items: center; gap: 4px; min-height: var(--tap); font-size: var(--fs-sm); font-weight: var(--wght-strong); }
 
 /* ---------- stats and quick doors ---------- */
-.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); border-top: var(--rule-heavy) solid var(--rule-ink); margin-top: var(--sp-6); }
-.stat { position: relative; padding: var(--sp-3) var(--sp-3) var(--sp-4) 0; border-bottom: 1px solid var(--border); color: var(--text); text-decoration: none; }
-.stat + .stat { padding-left: var(--sp-3); border-left: 1px solid var(--border); }
+/* QA: fixed columns (2 on phones, 4 above) so the first tile of every row is flush with the rule; auto-fit
+   wrapped rows left their first tile indented behind a stray column rule */
+.stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); border-top: var(--rule-heavy) solid var(--rule-ink); margin-top: var(--sp-6); }
+.stat { position: relative; padding: var(--sp-3) var(--sp-3) var(--sp-4); border-bottom: 1px solid var(--border); border-left: 1px solid var(--border); color: var(--text); text-decoration: none; min-width: 0; }
+.stat:nth-child(4n+1) { padding-left: 0; border-left: 0; }
 .stat .n { display: block; font-family: var(--font-display); font-weight: var(--wght-head); font-size: 2.25rem; line-height: 1.05; font-variant-numeric: lining-nums tabular-nums; }
 .stat .l { font-size: var(--fs-xs); color: var(--text-muted); }
 a.stat:hover .l { text-decoration: underline; }
-@media (max-width: 559px) { .stats { grid-template-columns: 1fr 1fr; } .stat:nth-child(odd) { padding-left: 0; border-left: 0; } }
+@media (max-width: 559px) { .stats { grid-template-columns: 1fr 1fr; } .stat:nth-child(4n+1) { padding-left: var(--sp-3); border-left: 1px solid var(--border); } .stat:nth-child(odd) { padding-left: 0; border-left: 0; } }
 .doors { display: grid; gap: var(--sp-3); grid-template-columns: repeat(auto-fill, minmax(min(100%, 230px), 1fr)); }
 .door { position: relative; display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 12px; min-height: 64px; padding: 12px 14px; background: var(--surface); border: 1px solid var(--border); color: var(--text); text-decoration: none; }
 .door:hover { border-color: var(--text); color: var(--text); }
@@ -251,6 +254,7 @@ a.stat:hover .l { text-decoration: underline; }
 /* ---------- G additions: ear details, program card lines, fact tiles, highlights ---------- */
 .ear .nn-st:empty { display: none; }
 .ear .nn-st { font-weight: var(--wght-strong); color: var(--text); }
+.ear .nn-st::before { content: "· "; font-weight: var(--wght-body); color: var(--text-muted); }   /* QA: the state word never runs into the place */
 .ear [data-status="live"] .nn-st { color: var(--live-ink); }
 .ear [data-status="past"] .nn-st { color: var(--text-faint); }
 .ear [data-status="past"] .t { color: var(--text-muted); }

@@ -237,7 +237,10 @@ def load_existing():
 
 
 def sort_items(items):
-    return sorted(items, key=lambda x: x.get("date") or "", reverse=True)  # stable: ties keep their order
+    # the same order as scripts/merge-research.mjs (newest date first, then title), so running one after the
+    # other never reshuffles data/news.json; stable: full ties keep their order
+    by_title = sorted(items, key=lambda x: x.get("title") or "")
+    return sorted(by_title, key=lambda x: x.get("date") or "", reverse=True)
 
 
 def main():

@@ -1,0 +1,551 @@
+{
+  "id": "caw",
+  "name": "Cincinnati Art Week",
+  "short_name": "CAW",
+  "tagline": "A CELEBRATION OF ART & IDEAS & CREATIVE COMMUNITY",
+  "dates": {
+    "start": "2026-10-03",
+    "end": "2026-10-10"
+  },
+  "description": "From October 3–10 2026, Cincinnati Art Week brings exhibitions, pop-up galleries, social gatherings, and special programming to Over-the-Rhine.\n\nCincinnati is an art city. It’s home to one of the Midwest's most vibrant creative communities. Cincinnati Art Week invites you to experience it.\n\nDesigned by artists, the week connects residents and visitors with exhibitions, conversations, creative experiences, public programming and the people shaping Cincinnati’s cultural landscape.\n\nCincinnati Art Week begins in Over-the-Rhine and grows from there. Each year, we'll expand into new neighborhoods, strengthening connections between artists, organizations, and the communities they call home.",
+  "creators_note": "A note from the\ncreators of\nCincinnati Art Week\n\nFrom October 3–10, 2026, Cincinnati Art Week (CAW) debuts as a new annual celebration of connection, culture, and creativity.\n\nCAW is created by Cincy Nice in partnership with No Standing and community partners. More than a week of exhibitions, Cincinnati Art Week is an invitation to experience the city through the people making it.\n\nIt’s born from admiration for our artist community and a shared commitment to:\n\n• Honor who's already here and invest in their potential\n\n• Welcome bold ideas and the people who carry them\n\n• Create space for connection, collaboration, & what's next\n\nWe believe it's merrier with more, that good ideas like company, and the magic happens when we unite.\n\nThis is gonna be an ambitious year one (we’re gonna keep it real). We're intentionally focused on building a strong foundation to build upon.\n\nWe'd love your support as we bring Cincinnati Art Week to life. Whether you're a sponsor, artist, volunteer, business owner, neighbor, or simply curious, there's a place for you here. Please don't hesitate to get in touch, share an idea, or attend an upcoming event. We can’t wait to connect.\n\nWe're going for it. Let's go together and see what's possible.\n\nTo who’s already here!\nAnd to what’s next!\n\nWith anticipation,\n\nthe Cincinnati Art Week team",
+  "invitation": "Cincinnati Art Week invites you to explore independent artists, neighborhoods, cultural spaces, & creative communities that make our city unique.",
+  "features_text": "The inaugural week comes to life across Over-the-Rhine and features:\n\nExhibitions Step inside pop-up galleries, cultural spaces, and artist studios.\n\nPublic Programming Enjoy artist talks, demos, art walks and more.\n\nSocial Events Gather with Cincinnati’s creative scene at the week’s central hub.\nFull map, program schedule, and featured artists to be announced.",
+  "site_description": "Cincinnati Art Week | October 3–10, 2026\n\nCincinnati Art Week is a new annual celebration of exhibitions, artists, galleries, and creative experiences across Cincinnati. Join us October 3–10, 2026.",
+  "organizers": [
+    {
+      "name": "Cincy Nice",
+      "url": "https://www.cincynice.com/",
+      "role": "creator (Cincinnati Art Week is a project of Cincy Nice)"
+    },
+    {
+      "name": "No Standing",
+      "url": "https://www.nostandingonlydancing.com/",
+      "role": "partner (in partnership with No Standing)"
+    }
+  ],
+  "url": "https://cincinnatiartweek.com/",
+  "tickets": [
+    {
+      "name": "General (exhibitions, pop-up galleries, most programming)",
+      "price": "Free",
+      "url": "https://cincinnatiartweek.com/faqs-2",
+      "notes": "Most experiences are free to attend. Select special programs may require reservations or tickets. We also encourage visitors to support participating artists and local businesses whenever possible."
+    },
+    {
+      "name": "NO GRID: A Creative Conversation Series (Wed Oct 7) — free RSVP",
+      "price": "Free",
+      "url": "https://www.eventbrite.com/e/no-grid-a-creative-conversation-series-tickets-2000523175671",
+      "notes": "Free ticket via Eventbrite (organizer: Cincy Nice); sales open 2026-09-10, close 2026-10-07."
+    }
+  ],
+  "daily_themes": [
+    {
+      "date": "2026-10-03",
+      "theme": "OPENING DAY",
+      "date_text": "SATURDAY, OCTOBER 3",
+      "highlights": [
+        "Exhibitions + Art Market",
+        "Meet the Artists",
+        "CAW Offsite Opening Celebration"
+      ],
+      "source_url": "https://cincinnatiartweek.com/schedule"
+    },
+    {
+      "date": "2026-10-04",
+      "theme": "MAKE IT",
+      "date_text": "SUNDAY, OCTOBER 4",
+      "highlights": [
+        "Exhibitions + Art Market",
+        "MAKE IT",
+        "Meet the Artists"
+      ],
+      "source_url": "https://cincinnatiartweek.com/schedule"
+    },
+    {
+      "date": "2026-10-05",
+      "theme": "TAKE IT EASY",
+      "date_text": "MONDAY, OCTOBER 5",
+      "highlights": [
+        "Exhibitions + Art Market"
+      ],
+      "source_url": "https://cincinnatiartweek.com/schedule"
+    },
+    {
+      "date": "2026-10-06",
+      "theme": "NEIGHBOR NITE",
+      "date_text": "TUESDAY, OCTOBER 6",
+      "highlights": [
+        "Exhibitions + Art Market",
+        "Meet the Artists",
+        "Neighborhood Programming"
+      ],
+      "source_url": "https://cincinnatiartweek.com/schedule"
+    },
+    {
+      "date": "2026-10-07",
+      "theme": "WELCOME + NO GRID",
+      "date_text": "WEDNESDAY, OCTOBER 7",
+      "highlights": [
+        "Exhibitions + Art Market",
+        "Visiting Artist Welcome",
+        "CAW Happy Hour",
+        "Meet the Artists",
+        "NO GRID"
+      ],
+      "source_url": "https://cincinnatiartweek.com/schedule"
+    },
+    {
+      "date": "2026-10-08",
+      "theme": "BLINK BEGINS",
+      "date_text": "THURSDAY, OCTOBER 8",
+      "highlights": [
+        "Exhibitions + Art Market",
+        "Meet the Artists",
+        "CAW Offsite"
+      ],
+      "source_url": "https://cincinnatiartweek.com/schedule"
+    },
+    {
+      "date": "2026-10-09",
+      "theme": "FRIDAY FREEDOM",
+      "date_text": "FRIDAY, OCTOBER 9",
+      "highlights": [
+        "Exhibitions + Art Market",
+        "Meet the Artists"
+      ],
+      "source_url": "https://cincinnatiartweek.com/schedule"
+    },
+    {
+      "date": "2026-10-10",
+      "theme": "CLOSING DAY",
+      "date_text": "SATURDAY, OCTOBER 10",
+      "highlights": [
+        "Final Day of Exhibitions + Art Market",
+        "Final Meet the Artists"
+      ],
+      "source_url": "https://cincinnatiartweek.com/schedule"
+    }
+  ],
+  "hours": "SAT 10/3 4–7 PM; SUN 10/4 12–6 PM; MON 10/5 4–7 PM; TUE 10/6 - SAT 10/10 12–7 PM",
+  "hours_by_day": [
+    {
+      "days": "SAT 10/3",
+      "hours_text": "4–7 PM",
+      "open": "16:00",
+      "close": "19:00"
+    },
+    {
+      "days": "SUN 10/4",
+      "hours_text": "12–6 PM",
+      "open": "12:00",
+      "close": "18:00"
+    },
+    {
+      "days": "MON 10/5",
+      "hours_text": "4–7 PM",
+      "open": "16:00",
+      "close": "19:00"
+    },
+    {
+      "days": "TUE 10/6 - SAT 10/10",
+      "hours_text": "12–7 PM",
+      "open": "12:00",
+      "close": "19:00"
+    }
+  ],
+  "hours_notes": "Daily hours come from the unlisted draft page cincinnatiartweek.com/schedule (Cargo display:false, not linked from the nav; it says \"Plans change\"). Other sources differ: the CAW artist-submission Typeform says CAW hours are \"12-8p, Oct 3-10th\"; the Gallery Host Typeform lists shifts Oct 3 (4-7PM), Oct 4 (12-6PM), Oct 5 (4-7PM), Oct 6 (4-7PM), Oct 7-10 (12-4PM / 4-7PM).",
+  "hashtags": null,
+  "social": {
+    "instagram": "https://www.instagram.com/cincinnatiartweek",
+    "threads": "https://www.threads.com/@cincinnatiartweek",
+    "x": null,
+    "facebook": null,
+    "linkedin": null,
+    "tiktok": null
+  },
+  "social_notes": "The desktop nav links https://instagram.com/cincinnartweek (typo, missing \"ati\"); the mobile nav and press use @cincinnatiartweek.",
+  "contact": {
+    "email": "team@cincinnatiartweek.com",
+    "phone": null,
+    "meeting_link": "https://calendly.com/team-cincinnatiartweek/30min",
+    "mailing_list": "https://form.typeform.com/to/I4fAh7Cr"
+  },
+  "headquarters": {
+    "name": "Cincinnati Art Week HQ / Temporary HQ + Art Market",
+    "address": "1417 Main St, Cincinnati, OH",
+    "venue_id": "caw-art-market-hq-1417-main",
+    "office_hours": "Office Hours + Artist Co-Working 11AM - 3PM Monday - Wednesday 1417 Main St, OTR",
+    "source_url": "https://cincinnatiartweek.com/support-us"
+  },
+  "happy_hour_series": {
+    "text": "Art Week Happy Hour Kinley Cincinnati Downtown 4:30PM - 6:30PM Wednesdays Aug 05 - Oct 07",
+    "venue_id": "kinley-cincinnati-downtown",
+    "source_url": "https://cincinnatiartweek.com/support-us"
+  },
+  "join_in": "Join In!\n\nWhether you're an artist, neighbor, visitor, or business, there's a place for you.\n\nDrop By\n\nOffice Hours\n\n+ Artist Co-Working\n\n11AM - 3PM\n\nMonday - Wednesday\n\n1417 Main St, OTR\n\nMeet with us\n\nGather\n\nArt Week Happy Hour\nKinley Cincinnati Downtown\n\n4:30PM - 6:30PM\n\nWednesdays\nAug 05 - Oct 07\n\nCreate\n\nHave a storefront activation, exhibition, or collaboration in mind?\n\nWe’d love to hear it.\n\nCommunity Note: While we're not commissioning original projects this year, we're excited to connect artists with spaces and help amplify creative activity that aligns with Cincinnati Art Week.",
+  "related_programs_text": "There’s more to explore\n\nSee what else Cincinnati has to offer, from the return of BLINK, FotoFocus, StartupCincy Week & so much more.\n\nTry the ArtsWave App\n\nGet early access\n\nBe the first to know about exhibitions, artist announcements, and new programming.\n\nLearn more",
+  "footer_text": "About\nFAQs\nContact\nMailing list\n\nSponsorship opportunities\n\nCincinnati Art Week is a project of Cincy Nice in partnership with No Standing\n\nFor general info & partnership opportunities\n\nteam@cincinnatiartweek.com\n\n© Cincy Nice Social House, LLC\n\nAll Rights Reserved\n\nWebsite design by Evan Verrilli",
+  "website_credit": "Website design by Evan Verrilli (https://evanverrilli.com/)",
+  "legal_entity": "Cincy Nice Social House, LLC (footer: \"© Cincy Nice Social House, LLC All Rights Reserved\")",
+  "history": [
+    {
+      "year": 2026,
+      "fact": "Cincinnati Art Week is a new annual celebration of Cincinnati's creative community, bringing together artists, galleries, cultural spaces, neighborhoods, and visitors for one highly visible, energized week.",
+      "source_url": "https://cincinnatiartweek.com/faqs-2"
+    },
+    {
+      "year": 2026,
+      "fact": "2026 — PILOT YEAR Establish the platform, build recognition, and build key partnerships.",
+      "source_url": "https://docs.google.com/presentation/d/1_AFrLKzGofgz3-Dkjgfe6Psb_Q-v_fexPEAPVNIPoTo/edit?usp=sharing"
+    },
+    {
+      "year": 2027,
+      "fact": "2027 — EXPANSION Solidify and grow with more widespread activations and presence. (plan)",
+      "source_url": "https://docs.google.com/presentation/d/1_AFrLKzGofgz3-Dkjgfe6Psb_Q-v_fexPEAPVNIPoTo/edit?usp=sharing"
+    },
+    {
+      "year": 2028,
+      "fact": "2028 — CULTURAL MOMENTUM Expand into a citywide cultural moment with growing regional and national attention. (plan)",
+      "source_url": "https://docs.google.com/presentation/d/1_AFrLKzGofgz3-Dkjgfe6Psb_Q-v_fexPEAPVNIPoTo/edit?usp=sharing"
+    },
+    {
+      "year": 2036,
+      "fact": "2036 — INTERNATIONAL DESTINATION Recognized globally by visitors and major brands, activators, & satellite festivals. (plan)",
+      "source_url": "https://docs.google.com/presentation/d/1_AFrLKzGofgz3-Dkjgfe6Psb_Q-v_fexPEAPVNIPoTo/edit?usp=sharing"
+    },
+    {
+      "year": 2022,
+      "fact": "Cincy Nice founders Billy and Destinee Thomas previously served as co-producers of BLINK in 2022 and 2024, helping bring to life projects including the Cincy Nice Social House artist lounge, and several festival firsts including the Cincinnati Skate Park pop-up, Asha Ama’s fashion show, Brazilian artist VJ Suave’s moving tricycle projection and the Breonna’s Garden augmented reality experience.",
+      "source_url": "https://www.citybeat.com/arts/visual-arts/cincinnati-arts-week-launches-october/"
+    },
+    {
+      "year": 2019,
+      "fact": "During BLINK 2019 and again in BLINK 2022, we transformed retail space into a vibrant and ephemeral cultural hub and lounge co-created by 45+ artists and collaborators. (Cincy Nice Social House)",
+      "source_url": "https://www.cincynice.com/work/socialhouse"
+    }
+  ],
+  "stats": [
+    {
+      "label": "Storefronts activated (plan, sponsorship deck)",
+      "value": "8",
+      "source_url": "https://docs.google.com/presentation/d/1_AFrLKzGofgz3-Dkjgfe6Psb_Q-v_fexPEAPVNIPoTo/edit?usp=sharing"
+    },
+    {
+      "label": "Local artists featured (plan, sponsorship deck)",
+      "value": "30+",
+      "source_url": "https://docs.google.com/presentation/d/1_AFrLKzGofgz3-Dkjgfe6Psb_Q-v_fexPEAPVNIPoTo/edit?usp=sharing"
+    },
+    {
+      "label": "Artists / storefront galleries (Founding Circle invitation)",
+      "value": "30+ artists, 8+ storefront galleries",
+      "source_url": "https://www.cincynice.com/founding-circle-rsvp"
+    },
+    {
+      "label": "Vacant storefronts transformed (CityBeat, Aug 4)",
+      "value": "six to eight",
+      "source_url": "https://www.citybeat.com/arts/visual-arts/cincinnati-arts-week-launches-october/"
+    },
+    {
+      "label": "Spaces (Cincinnati Magazine, Sep 23)",
+      "value": "over eight spaces",
+      "source_url": "https://www.cincinnatimagazine.com/article/cincinnati-art-week/"
+    },
+    {
+      "label": "Spaces in one walkable footprint (@cincinnatiartweek on Threads, Sep 15)",
+      "value": "10+",
+      "source_url": "https://www.threads.com/@cincinnatiartweek"
+    },
+    {
+      "label": "Self-guided Art Walks through Over-the-Rhine (CityBeat)",
+      "value": "two",
+      "source_url": "https://www.citybeat.com/arts/visual-arts/cincinnati-arts-week-launches-october/"
+    }
+  ],
+  "plans_announced": "During the inaugural Cincinnati Art Week, visitors can expect two self-guided Art Walks through Over-the-Rhine; six to eight vacant storefronts transformed into exhibitions, pop-up galleries and experiences through a partnership with developers 3CDC, Urban Sites and Model Group; featured projects from emerging, established and visiting artists; a central Cincinnati Art Week hub for creative gatherings and social experiences; artist talks, demonstrations and community conversations; opportunities to discover local artists, galleries and creative spaces; and neighborhood partnerships and community programming.",
+  "visitor_tip": "So what’s the best way to experience Cincinnati Art Week? Begin at the Welcome Center at 1600 Race St., the main hub for the week. There, you can ask questions, grab a map and pick up merch before heading out to explore.",
+  "visitcincy_description": "Discover Cincinnati’s creative side during Cincinnati Art Week, an annual celebration of art, ideas and creativity taking place Oct. 3-10, 2026, in Over-the-Rhine. Presented by ArtsWave and Fifth Third, the event is a project by Cincy Nice in partnership with No Standing. Throughout the week, storefronts and unexpected spaces across the neighborhood will transform into temporary galleries and gathering places. Visitors can view exhibitions, meet artists, shop original work and take part in special programming, including artist-led events, the Cincinnati Art Week Art Market, special projects and after-dark experiences. Follow the map, find a new favorite piece or connect with the people shaping Cincinnati’s creative scene. With free events and experiences throughout Over-the-Rhine, there’s plenty to see and do. Come explore Over-the-Rhine, discover new work and experience Cincinnati’s creative scene during this weeklong celebration.",
+  "sponsorship": {
+    "deck_url": "https://docs.google.com/presentation/d/1_AFrLKzGofgz3-Dkjgfe6Psb_Q-v_fexPEAPVNIPoTo/edit?usp=sharing",
+    "contact": "team@cincinnatiartweek.com",
+    "packages": [
+      {
+        "name": "FOUNDING TITLE SPONSOR",
+        "tagline": "Help build Cincinnati's newest cultural tradition.",
+        "description": "As the Founding Title Partner, your organization will play a defining role in launching Cincinnati Art Week and positioning Cincinnati as a leading destination for artists, creatives, and cultural tourism. This partnership is designed for a company that wants to invest in the city's future while receiving unmatched visibility and community impact.",
+        "request": null,
+        "status": "CLAIMED : )",
+        "deck_page": 11
+      },
+      {
+        "name": "OTR ART WALK",
+        "tagline": "Bring the city to life through art.",
+        "description": "Support Cincinnati Art Week's signature public experience, transforming Over-the-Rhine into a walkable celebration of artists, galleries, performances, and creative discovery. Help create an unforgettable experience that invites thousands of residents and visitors to explore the neighborhood through art through transformation of 8 vacant storefronts.",
+        "request": "$30,000",
+        "status": null,
+        "deck_page": 12
+      },
+      {
+        "name": "OTR STOREFRONT GALLERY",
+        "tagline": "Transform vacant spaces into places of possibility.",
+        "description": "Help activate vacant storefronts by turning them into temporary galleries featuring local and regional artists. Your support creates paid opportunities for artists while bringing new energy, foot traffic, and vibrancy to the neighborhood.",
+        "request": "$10,000",
+        "status": "4/8 CLAIMED : )",
+        "deck_page": 13
+      },
+      {
+        "name": "THE FOREST",
+        "tagline": "Create the gathering spot for the creative community.",
+        "description": "Support the festival hub where artists, collectors, community leaders, visitors, and partners come together to connect, celebrate, and build relationships. The Social House makes its return and becomes the heartbeat of Cincinnati Art Week.",
+        "request": "$20,000",
+        "status": null,
+        "deck_page": 14
+      },
+      {
+        "name": "APPRECIATION BRUNCH",
+        "tagline": "Celebrate the folks shaping Cincinnati's cultural economy.",
+        "description": "Support an intimate gathering honoring the artists, visionaries, and community leaders helping build a more creative and connected city. A space for meaningful conversation, recognition, and new partnerships as we collectively build a brighter future.",
+        "request": "$7,500",
+        "status": null,
+        "deck_page": 15
+      },
+      {
+        "name": "HOSTING",
+        "tagline": "Welcome the voices that will tell Cincinnati's story.",
+        "description": "Help bring curators, artists, journalists, cultural leaders, and influential storytellers to experience Cincinnati firsthand. Your support expands the city's national visibility and creates lasting relationships beyond the week.",
+        "request": "$10,000",
+        "status": null,
+        "deck_page": 16
+      },
+      {
+        "name": "ART TALKS",
+        "tagline": "Inspire conversation that lasts beyond the exhibition.",
+        "description": "Support engaging conversations with artists, curators, and creative leaders exploring the ideas, stories, and perspectives shaping today's cultural landscape. Free, accessible programming that deepens the festival experience.",
+        "request": "$5,000",
+        "status": null,
+        "deck_page": 17
+      },
+      {
+        "name": "PERFORMANCES",
+        "tagline": "Create unforgettable cultural moments.",
+        "description": "Support unique performances that activate public spaces and surprise audiences throughout the week. From music and dance to multidisciplinary collaborations, these experiences celebrate the creativity and diversity of Cincinnati.",
+        "request": "$1,000 - 2,500",
+        "status": null,
+        "deck_page": 18
+      }
+    ],
+    "notes": "Deck: \"A NEW PROJECT FROM CINCY NICE & NO STANDING ONLY DANCING\". \"THE FOREST\" package text says \"The Social House makes its return and becomes the heartbeat of Cincinnati Art Week.\"",
+    "deck_pdf_url": "https://docs.google.com/presentation/d/1_AFrLKzGofgz3-Dkjgfe6Psb_Q-v_fexPEAPVNIPoTo/export/pdf",
+    "deck_text_url": "https://docs.google.com/presentation/d/1_AFrLKzGofgz3-Dkjgfe6Psb_Q-v_fexPEAPVNIPoTo/export/txt"
+  },
+  "founding_circle": {
+    "event": "Founding Circle gathering, Friday, August 28, 2026, 4:30PM-6:30PM (program begins at 5:15PM), 1417 Main St. (Cincinnati Art Week Temporary HQ + Art Market); RSVP requested, invite-only",
+    "text": "The Founding Circle is a group of individuals helping us establish Cincinnati Art Week as a lasting tradition. Your support helps fund the artists, spaces, programming, and infrastructure needed to make the first year possible and create a strong foundation for future years.",
+    "giving_levels": [
+      {
+        "level": "Visionary",
+        "amount": "$10,000+"
+      },
+      {
+        "level": "Patron",
+        "amount": "$5,000"
+      },
+      {
+        "level": "Champion",
+        "amount": "$2,500"
+      },
+      {
+        "level": "Supporter",
+        "amount": "$1,000"
+      }
+    ],
+    "source_url": "https://www.cincynice.com/founding-circle-rsvp"
+  },
+  "logo": {
+    "url": "https://freight.cargo.site/t/original/i/N3016534495316871470170954571130/CAW_FULL_DARK.svg",
+    "format": "svg",
+    "on": "light"
+  },
+  "brand": {
+    "colors": [
+      "#3d162a",
+      "#f5f4eb",
+      "#e00042",
+      "#f9f7ed",
+      "#26060e",
+      "#8b3a64",
+      "#e1e1d5"
+    ],
+    "color_roles": {
+      "#3d162a": "aubergine / plum — Cargo --swatch-15; body text, h1/h2 color, footer + quote + intro + projects section backgrounds",
+      "#f5f4eb": "cream — --swatch-1; header/welcome backgrounds, text on dark sections, button text",
+      "#e00042": "signal red — --swatch-2; the date marquee band, highlighted words, schedule links, calendar-listing key art background",
+      "#f9f7ed": "page background (body)",
+      "#26060e": "overlay hex used on quote/projects backdrops (rgba(38,6,14,0.07))",
+      "#8b3a64": "rgb(139,58,100) inline color in the nav",
+      "#e1e1d5": "rgb(225,225,213) inline h2 color on sponsors page"
+    },
+    "fonts": [
+      "darker-grotesque (Adobe Fonts kit rrx7gee; weights 500, 800) — h1 800 / h2 500 at 48pt, line-height 0.8",
+      "Monument Grotesk Semi-Mono Variable (Cargo type) — body copy 14pt, captions, footer, buttons",
+      "Monument Grotesk Mono Variable (Cargo type) — .button-10",
+      "Diatype Variable (Cargo type) — shop/audio defaults",
+      "azeret-mono (Adobe Fonts kit rrx7gee; weight 400) — loaded in kit"
+    ],
+    "font_sources": [
+      "https://use.typekit.net/rrx7gee.css",
+      "https://type.cargo.site/files/CargoMonumentGroteskPlusVariable.woff2",
+      "https://type.cargo.site/files/Cargo-DiatypePlusVariable.woff2"
+    ],
+    "mark": "Crow/bird head mark (CAW_LOGO_DARK.svg; animated CROW.gif in nav). Opportunities page calls it \"the Cincinnati Art Week bird\".",
+    "sponsor_deck_palette_note": "The Google Slides sponsorship deck uses a different look (royal blue headings, yellow footer line) — not the website system.",
+    "source_url": "https://cincinnatiartweek.com/"
+  },
+  "source_url": "https://cincinnatiartweek.com/",
+  "organizer_profiles": {
+    "cincy-nice": {
+      "name": "Cincy Nice",
+      "legal_name": "Cincy Nice Social House LLC",
+      "url": "https://www.cincynice.com/",
+      "instagram": "https://instagram.com/cincynice",
+      "email": "cincynice@gmail.com",
+      "hq": "2411 Gilbert Ave, Walnut Hills, Cincinnati (venue id cincy-nice-hq)",
+      "tagline": "Helping bold ideas find momentum.",
+      "who_we_are": "Cincy Nice is a Cultural Strategy & Civic Experience Studio based in Cincinnati, Ohio. Our work lives at the intersection of culture, participation, and possibility.",
+      "team": "Cincy Nice is led by co-founders Destinee and William Thomas. Together, our work spans public art, citywide festivals, community engagement, partnerships, and neighborhood initiatives across Cincinnati.",
+      "how_we_work": "Still Smiling. It's more than a mantra. It's our theory of change. We believe the most meaningful change begins with human connection.",
+      "story": "In the years that followed, we hosted dinners for strangers, produced the nation’s largest light festival (twice), supported artists, activated public spaces, built partnerships, and spent countless hours helping people gather around ideas worth pursuing.",
+      "building": [
+        "BLINK Cincinnati",
+        "Social House",
+        "Five Points Alley",
+        "Peebles Gallery",
+        "Cincinnati Art Week"
+      ],
+      "past_collaborators": [
+        "BLINK Cincinnati",
+        "ArtWorks",
+        "Walnut Hills Redevelopment Foundation",
+        "Model Group",
+        "3CDC",
+        "Findlay Market",
+        "ArtsWave"
+      ],
+      "services": [
+        "Cultural Strategy",
+        "Civic Innovation",
+        "Public Life & Placemaking",
+        "Experience Design",
+        "Communications & Engagement",
+        "Creative Ecosystems"
+      ],
+      "projects": [
+        {
+          "title": "Our Tables | Public Repair",
+          "categories": [
+            "equity"
+          ],
+          "url": "https://www.cincynice.com/work/ourtables-chrlr",
+          "image_url": "https://images.squarespace-cdn.com/content/v1/5d4b5b052a6d5300014bc77f/1617307396156-3MJLMYW4OODI5GQABXCI/IMG_3675.JPG",
+          "text": "Our Tables\n\nTurning a moment of unrest into a shared table.\n\nIn the summer of 2020, Cincinnati was hurting. Windows were boarded, tensions were high, and people were searching for a way to move forward.\n\nCreated on Juneteenth by Cincy Nice alongside a coalition of Black artists, organizers, activists, and cultural leaders, the project transformed boarded-up window art from Over-the-Rhine businesses into long communal tables on Main Street. What had been used as a barrier became an invitation.",
+          "source_url": "https://www.cincynice.com/work/ourtables-chrlr"
+        },
+        {
+          "title": "More Free 2020 | Civic Participation",
+          "categories": [
+            "civic engagement"
+          ],
+          "url": "https://www.cincynice.com/work/morefree2020-bmezx",
+          "image_url": "https://images.squarespace-cdn.com/content/v1/5d4b5b052a6d5300014bc77f/1617384132290-HFZG8SOWD8XYWHXNJQB5/PAC_3395_website.png",
+          "text": "MORE FREE 2020\n\nA little more joy. A little more action. A little more free.\n\nLaunched during one of the most uncertain years in recent memory, More Free was a community movement built around a simple idea: participation should feel hopeful.\n\nThrough creative campaigns, neighborhood activations, mutual aid, and a pop-up storefront “voter resource” community hub, we encouraged people to connect, contribute, and take action together. Along the way, we helped hundreds get registered to vote, launched Cincinnati's first free fridge and created a platform that blended civic engagement with creativity, generosity, and joy.",
+          "source_url": "https://www.cincynice.com/work/morefree2020-bmezx"
+        },
+        {
+          "title": "Social House | A Welcoming Space",
+          "categories": [
+            "experience design"
+          ],
+          "url": "https://www.cincynice.com/work/socialhouse",
+          "image_url": "https://images.squarespace-cdn.com/content/v1/5d4b5b052a6d5300014bc77f/1781881817290-WMGYBE9I1T28CZ2C9SGN/IMG_8259.jpg",
+          "text": "Cincy Nice Social House\n\nExpanding visibility, connection, and creative exchange during BLINK Cincinnati.\n\nDuring BLINK 2019 and again in BLINK 2022, we transformed retail space into a vibrant and ephemeral cultural hub and lounge co-created by 45+ artists and collaborators.\n\nAlongside creating a welcoming gathering space, the project provided increased visibility for Black artists, creatives, and cultural leaders during one of Cincinnati's largest cultural events. More than 1,100 people participated over three days, helping spark relationships, collaborations, and ideas that continue to influence our work today.",
+          "source_url": "https://www.cincynice.com/work/socialhouse"
+        },
+        {
+          "title": "Mural Project | Imagine 876 x Five Points Alley",
+          "categories": [
+            "art",
+            "community building"
+          ],
+          "url": "https://www.cincynice.com/work/5pointsalley-mural",
+          "image_url": "https://images.squarespace-cdn.com/content/v1/5d4b5b052a6d5300014bc77f/1658768655454-27UQ9AKPL77GQJJOKA32/Screen+Shot+2022-07-25+at+1.00.27+PM.png",
+          "text": "ADDING ART TO DEFINE SPACE AND CREATE A FEELING OF JOY, WELCOMENESS, AND HOPE\n\n5 POINTS ALLEY MURAL BY IMAGINE 876\n\nIn our continued effort to add vibrancy and establish 5 Points Alley as a lasting creative, community gathering space for Walnut Hills, Cincy Nice commissioned Nepalese artist Imagine 876 to create a large scale mural on the back exterior of the The Dillard Center building.\n\nSince late 2020, Cincy Nice has partnered with the Walnut Hills Redevelopment Foundation to manage and program Five Points Alley as a community gathering space.",
+          "source_url": "https://www.cincynice.com/work/5pointsalley-mural"
+        },
+        {
+          "title": "Still Smiling Fest | A Celebration of Joy",
+          "categories": [
+            "space",
+            "programming",
+            "art"
+          ],
+          "url": "https://www.cincynice.com/work/soulplates-h2mf3",
+          "image_url": "https://images.squarespace-cdn.com/content/v1/5d4b5b052a6d5300014bc77f/1658766591066-99WU1IN681TSQX6PJKIL/Mya_Still+Smiling+Fest.png",
+          "text": "stillsmilingfest.com\n\nWOW. YOUR SMILE SHINES SO BRIGHT.\n\nThe first Still Smiling Fest festival invited attendees to join Cincy Nice in Five Points Alley for a moment of shared joy as we collectively shook off the trying times of the past two years, and welcomed a new era of good times in.\n\nThe two-night event transformed Walnut Hill's’ Five Points Alley community courtyard into a happy oasis featuring national music acts with headliners including grammy-awarding artist Mýa and Cincinnati-native Sudan Archives with emerging local music acts including Soul Criminals, Siri Imani, Lauren Eylise and more + live art making, and local food vendors.",
+          "source_url": "https://www.cincynice.com/work/soulplates-h2mf3"
+        },
+        {
+          "title": "Soul Plates | Passing the Culture",
+          "categories": [
+            "space",
+            "programming",
+            "art"
+          ],
+          "url": "https://www.cincynice.com/work/soulplates",
+          "image_url": "https://images.squarespace-cdn.com/content/v1/5d4b5b052a6d5300014bc77f/1617309428511-D2ZVB8XRCIS5V6CY5YPZ/SOULPLATES_409.jpg",
+          "text": "soulplates.org\n\nCREATING THE TOGETHERNESS OF A SHARED MEAL VIRTUALLY THROUGH SMELL, TASTE, SOUND & STORYTELLING.\n\nBy December 2020, everyone was feeling the weight of the on-going COVID pandemic and longing to gather around the table like holidays past. We set out to find a way to connect with one another, as we would around the dinner table, in what had become a virtual world.\n\nTo do this, we invited guests to travel deeper into the diverse flavors and traditions that define cultures, communities and individuals by reflecting on the idea of “soul food” and our connection to cooking and eating as a form of resistance, an act of joy, an expression of love—an essential part of who we are at our core.",
+          "source_url": "https://www.cincynice.com/work/soulplates"
+        },
+        {
+          "title": "5 Points Alley | Back to Community",
+          "categories": [
+            "space",
+            "programming"
+          ],
+          "url": "https://www.cincynice.com/work/5pointsalley",
+          "image_url": "https://images.squarespace-cdn.com/content/v1/5d4b5b052a6d5300014bc77f/1617307295162-LZCL67EMTFXMJEPTLITV/IMG_8511.jpg",
+          "text": "fivepointsalley.org | @5pointsalley\n\nA NEW CREATIVE COMMUNITY COURTYARD EMERGES.\n\nTucked away, nestled in the heart of Walnut Hills, 5 Points Alley is a central meeting point for all that the neighborhood has to offer. It is our community courtyard, a place where local residents, businesses & visitors come together to form friendships, share smiles, and spark connections.\n\nWe designed and programmed 5 Points Alley with intentionality and respect for our shared goal of creating a black-forward community space where joyful experiences thrive and all who enter feel a sense of belonging.",
+          "source_url": "https://www.cincynice.com/work/5pointsalley"
+        }
+      ],
+      "source_url": "https://www.cincynice.com/about"
+    },
+    "no-standing": {
+      "name": "No Standing",
+      "aka": "No Standing Only Dancing (domain and sponsorship deck)",
+      "url": "https://www.nostandingonlydancing.com/",
+      "instagram": "https://www.instagram.com/nostandingstudio",
+      "about": "No Standing is an event production studio on a mission to move people through powerful art-based experiences.",
+      "mission": "No standing produces progressive and diverse events that celebrate art and build a lasting impact on local culture.",
+      "founder": "Megyn Norbut",
+      "work": [
+        "Cincinnati Art Week",
+        "Blink",
+        "This Time Tomorrow",
+        "concertnova",
+        "Second Sunday on Main",
+        "Celebrate the King",
+        "OTR Made Awards",
+        "Jazz Age Lawn Party",
+        "Riverside Revival",
+        "Winter Market"
+      ],
+      "blink_role": "In 2024 and 2022 The Cincinnati USA Regional Chamber hired No Standing as an Event Producer. Working directly with BLINK’s core production team No Standing led the full production of over 35 light based art installations and illuminated art sculptures.",
+      "source_url": "https://www.nostandingonlydancing.com/"
+    }
+  },
+  "blink_listing": {
+    "text": "From October 3–10, 2026, Cincinnati Art Week (CAW) debuts as a new annual celebration of connection, culture, and creativity.",
+    "source_url": "https://www.blinkcincinnati.com/plan-your-blink-visit/cincinnati-art-week",
+    "notes": "BLINK lists CAW under Plan Your Visit > BLINK Around Town (/plan-your-blink-visit/cincinnati-art-week redirects to /plan-your-blink-visit/blink-around-town#caw) with a Learn More link to cincinnatiartweek.com and the CAW partner lockup image."
+  }
+}

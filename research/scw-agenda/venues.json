@@ -1,0 +1,116 @@
+[
+  {
+    "id": "union-hall",
+    "name": "Union Hall",
+    "address": "1311 Vine St",
+    "city": "Cincinnati",
+    "state": "OH",
+    "zip": "45202",
+    "neighborhood": "Over-the-Rhine",
+    "lat": 39.109898,
+    "lng": -84.515591,
+    "programs": [
+      "scw"
+    ],
+    "kind": "venue",
+    "url": null,
+    "same_as": null,
+    "notes": "StartupCincy Week hub and daily check-in. SCW FAQ: \"All attendees should check in each day at Union Hall (1311 Vine Street) before heading to sessions or events at other locations.\" Parking per the FAQ: Mercer Commons Garage (1310 Vine Street) or Washington Park Garage (1230 Elm Street); no parking validation. The agenda gives no room or venue per session, so only sessions whose own text names Union Hall (room \"Beer Hall\") or whose official host/application page names it (Cintrifuse Annual Meeting: cintrifuse.com; Student Pitch Competition: the SCW application form) are linked here. Linked events: 4. Coordinates from Nominatim: \"Union Hall, 1311, Vine Street, Vine Street Business District, Over-the-Rhine, Cincinnati, Hamilton County, Ohio, 45202, United States\".",
+    "source_url": "https://startupcincyweek.com/en/faq-page"
+  },
+  {
+    "id": "washington-park",
+    "name": "Washington Park",
+    "address": "1230 Elm St",
+    "city": "Cincinnati",
+    "state": "OH",
+    "zip": "45202",
+    "neighborhood": "Over-the-Rhine",
+    "lat": 39.109091,
+    "lng": -84.517478,
+    "programs": [
+      "scw"
+    ],
+    "kind": "park",
+    "url": "https://washingtonpark.org/",
+    "same_as": null,
+    "notes": "Session \"Community Lunch at Washington Park\" (Oct 5): \"Join us for lunch at Washington Park\". Address from the park's own site (washingtonpark.org footer: \"1230 Elm Street | Cincinnati, Ohio 45202\"). The SCW FAQ also names the Washington Park Garage (1230 Elm Street) for parking. Linked events: 1. Coordinates from Nominatim: \"Washington Park, 1230, Over-the-Rhine, Cincinnati, Hamilton County, Ohio, 45202, United States\".",
+    "source_url": "https://washingtonpark.org/"
+  },
+  {
+    "id": "first-financial-center",
+    "name": "First Financial Center",
+    "address": "525 Elm St",
+    "city": "Cincinnati",
+    "state": "OH",
+    "zip": "45202",
+    "neighborhood": "Downtown",
+    "lat": 39.101047,
+    "lng": -84.516395,
+    "programs": [
+      "scw"
+    ],
+    "kind": "venue",
+    "url": null,
+    "same_as": null,
+    "notes": "Session \"Beltways Debuts America's First Accelerator at First Financial Center\" (Oct 5): \"Join Beltways at First Financial Center for an invitation-only media event\". Address from the linked Luma page (full_address \"First Financial Center, 525 Elm St, Cincinnati, OH 45202, USA\"), i.e. the convention center, not the office tower of the same name at 255 E 5th St. Linked events: 1. Coordinates from Nominatim: \"525, Elm Street, West Fourth Street Historic District, Central Business District, Cincinnati, Hamilton County, Ohio, 45202, United States\".",
+    "source_url": "https://luma.com/nf6e83vn"
+  },
+  {
+    "id": "the-transept",
+    "name": "The Transept",
+    "address": "1205 Elm St",
+    "city": "Cincinnati",
+    "state": "OH",
+    "zip": "45202",
+    "neighborhood": "Over-the-Rhine",
+    "lat": 39.107919,
+    "lng": -84.518241,
+    "programs": [
+      "scw"
+    ],
+    "kind": "venue",
+    "url": "https://www.thetransept.com/",
+    "same_as": null,
+    "notes": "Session \"StartupCincy 10 Year Anniversary Party! Presented by VisitCincy\" (Oct 7): \"Join us at The Transept for a bigger-than-usual anniversary party\". Address from the venue's own site (thetransept.com: \"1205 Elm St, Cincinnati, OH 45202\"; read with WebFetch because the site returns HTTP 403 to curl), matching OpenStreetMap. Linked events: 1. Coordinates from Nominatim: \"The Transept, 1205, Elm Street, Over-the-Rhine Historic District, Over-the-Rhine, Cincinnati, Hamilton County, Ohio, 45202, United States\".",
+    "source_url": "https://www.thetransept.com/"
+  },
+  {
+    "id": "imagination-alley",
+    "name": "Imagination Alley",
+    "address": "1319 Vine St",
+    "city": "Cincinnati",
+    "state": "OH",
+    "zip": "45202",
+    "neighborhood": "Over-the-Rhine",
+    "lat": 39.110043,
+    "lng": -84.515662,
+    "programs": [
+      "scw"
+    ],
+    "kind": "park",
+    "url": "https://www.3cdc.org/project/imagination-alley/",
+    "same_as": null,
+    "notes": "Session \"Soft Launch: Happy Hour Ice Cream Social\" (Oct 8): \"one last chance to connect in Imagination Alley\". Address from 3CDC's project page (\"1319 Vine Street Cincinnati, OH 45202\"), a pocket park on Vine Street next to Union Hall (1311 Vine). Linked events: 1. Coordinates from Nominatim: \"Imagination Alley, 1317, Over-the-Rhine, Cincinnati, Hamilton County, Ohio, 45202, United States\".",
+    "source_url": "https://startupcincyweek.com/en/agenda-page"
+  },
+  {
+    "id": "cincinnati-art-week-hq",
+    "name": "Cincinnati Art Week HQ",
+    "address": "1417 Main St",
+    "city": "Cincinnati",
+    "state": "OH",
+    "zip": "45202",
+    "neighborhood": "Over-the-Rhine",
+    "lat": 39.111849,
+    "lng": -84.51262,
+    "programs": [
+      "scw"
+    ],
+    "kind": "venue",
+    "url": "https://cincinnatiartweek.com/",
+    "same_as": "caw-art-market-hq-1417-main",
+    "notes": "Sessions \"Out of Office: Fresh Perspectives\" (Oct 5 and Oct 7): \"This session will meet at the Cincinnat Art Week HQ!\" (sic). The SCW site gives no address. The organizer's own page (Cincy Nice, https://www.cincynice.com/founding-circle-rsvp) gives \"Location: 1417 Main St. Cincinnati Art Week Temporary HQ + Art Market\", and CityBeat (Aug 4 2026) reports Art Week's \"new headquarters at 1417 Main St. in Over-the-Rhine\" (https://www.citybeat.com/arts/visual-arts/cincinnati-arts-week-launches-october/). Not to be confused with the Art Week Welcome Center / hub at 1600 Race St. (Cincinnati Magazine, Sep 23 2026, https://www.cincinnatimagazine.com/article/cincinnati-art-week/). Same place as the caw slice venue \"caw-art-market-hq-1417-main\". Linked events: 2. Coordinates from Nominatim: \"1417, Main Street, Main Street Business District, Over-the-Rhine, Cincinnati, Hamilton County, Ohio, 45202, United States\".",
+    "source_url": "https://www.cincynice.com/founding-circle-rsvp"
+  }
+]

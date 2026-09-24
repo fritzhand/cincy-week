@@ -20,7 +20,8 @@ export function items(data) {
   const out = [];
   for (const e of data.events || []) {
     if (e.st === "cancelled") continue;
-    for (const [day, s, en, f] of e.i || []) out.push({ id: e.id, p: e.p, t: e.t, v: e.v, lt: e.lt, fe: !!e.fe, k: e.k, day, s, e: en, f });
+    const ab = (e.tg || []).includes("approximate-time");   // QA: the source gives the time as approximate
+    for (const [day, s, en, f] of e.i || []) out.push({ id: e.id, p: e.p, t: e.t, v: e.v, lt: e.lt, fe: !!e.fe, k: e.k, day, s, e: en, f, ...(ab ? { ab } : {}) });
   }
   return out.sort((a, b) => a.s - b.s || rank(a) - rank(b));
 }
@@ -35,9 +36,9 @@ const byRank = (a, b) => rank(a) - rank(b) || a.s - b.s;
 
 /** "4:00–9:00 PM", "4:00 PM · end time not listed" (for an item with listed hours) */
 export function hoursText(it) {
-  const a = nyParts(it.s).hhmm;
-  if (it.f & FL.END_UNKNOWN) return `${fmtTime(a)} · end time not listed`;
-  return fmtRange(a, nyParts(it.e).hhmm);
+  const a = nyParts(it.s).hhmm, about = it.ab ? "About " : "";
+  if (it.f & FL.END_UNKNOWN) return `${about}${fmtTime(a)} · end time not listed`;
+  return about + fmtRange(a, nyParts(it.e).hhmm);
 }
 
 /** "in 20 min", "in 1 h 40 min", "Started 40 min ago" */

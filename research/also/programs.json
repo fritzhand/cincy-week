@@ -1,0 +1,262 @@
+[
+ {
+  "id": "fotofocus",
+  "name": "FotoFocus Biennial 2026: The Long View",
+  "short_name": "FotoFocus Biennial",
+  "tagline": "The Long View",
+  "dates": {
+   "start": "2026-09-30",
+   "end": "2026-11-01"
+  },
+  "description": "An ambitious collaboration between FotoFocus and the region’s museums, galleries, universities, and alternative spaces, the Biennial is a month-long celebration of photography that unites artists, curators, and participants from around the world. Now in its eighth iteration, the 2026 Biennial encompasses 74 exhibitions at 65 Biennial Venues across Greater Cincinnati, Dayton, Columbus, and Northern Kentucky—the largest of its kind in America.\n\nBiennial venues present a wide range of original exhibitions and reflective programs, all centered around the theme, The Long View, which considers aspects of time and perspective in photography and film, and how these mediums shape our understanding of the world. The 2026 Biennial presents six Featured Exhibitions that embody the theme of The Long View. This includes artists who examine the crossroads of technology and philosophy (Trevor Paglen at FotoFocus Center); consider concepts of time and challenge linear narratives (group exhibitions at Contemporary Arts Center and The Carnegie); reimagine portraiture through a Black, queer lens (Paul Mpagi Sepuya at Alice F. and Harris K. Weston Art Gallery); explore Haitian identity and the Black diaspora (Widline Cadet at Contemporary Arts Center); and a major retrospective exploring the life, work, and archive of Nancy Rexroth (Cincinnati Art Museum).\n\nThe Biennial Opening Program (Wednesday, September 30–Saturday, October 3, 2026) constitutes the core of the Biennial, establishing the theme and dialogues that unite the broader programming. Featuring a keynote lecture, artist talks, curator tours, and receptions, the Opening Program inspires conversations about the world through photography and lens-based art. Biennial Events continue throughout the month of October.\n\nWhile many venues are free and open to the public, the official Biennial Pass offers access to Biennial Events during the month of October; invitations to members-only events; and entry into the Opening Program. Free registration for the Pass begins in August.\n\nDirector’s Statement Curator’s Statement Biennial History Sponsors 2024 FotoFocus Biennial: Chip Thomas and the Painted Desert Project at the Contemporary Arts Center. Photo by Emily Akil The largest of its kind in America, the Biennial is a month-long celebration of photography and lens-based art. Launched in October 2012, the Biennial is held throughout the Greater Cincinnati, Dayton, Columbus, and Northern Kentucky region every two years. Over 3,500 artists and participants have been featured in more than 800 exhibitions and programs throughout its history. Each iteration centers around a unifying theme and is realized through the cooperation of museums, galleries, universities, and alternative spaces that connect artists, curators, and creatives. Cumulatively, the Biennial has welcomed over one million visitors since its inception. The Biennial Opening Program features special events and programs, establishing the theme and dialogues that unite the broader programming. Biennial Events continue at venues throughout the month and include artist and curator talks, tours, performances, screenings, and receptions. 2026 BIENNIAL The Long View Jump to... About the Biennial Theme Director’s Statement Curator’s Statement Biennial History Sponsors ENGAGE Facebook Instagram Join the Mailing List The Lens CONTACT info@fotofocus.org (513) 400-4027 PRESS & MEDIA Press Contact Press Releases Media Coverage Theme Each Biennial is structured around a unifying theme. The 2026 Biennial theme, The Long View, considers aspects of time and perspective in photography and film, and how these mediums shape our understanding of the world. “The long view” is a phrase used to invoke a broader perspective. It suggests both distance and duration, i.e., looking far into the distance and/or looking for a long period of time. As an attitude toward history, the long view suggests a wise and measured perspective, one that takes into consideration the distant past as well as the distant future. The long view also describes in literal terms two primary functions of photography: photographic lenses enable both long-distance vision and long-duration viewing. The Long View acknowledges the semiquincentennial of the United States, encouraging a posture of reflection in regards to the grand sweep of our country’s history, its past, present, and future. Photography can show us many moments from that history but it can also serve as a metaphor for how we understand our past and decide to shape it over time.",
+  "organizers": [
+   {
+    "name": "FotoFocus",
+    "url": "https://www.fotofocus.org/"
+   }
+  ],
+  "url": "https://www.fotofocus.org/biennial/2026/",
+  "tickets": [
+   {
+    "name": "Biennial Pass",
+    "price": "Free",
+    "url": "https://www.fotofocus.org/biennial-pass-sign-up",
+    "notes": "The Biennial Pass offers free access to 70+ photography and lens-based exhibitions during the month of October with invitations to exclusive events, including entry into the Opening Program (September 30–October 3). Pass valid September 30th–October 31st; required for entry into Opening Program events. Free thanks to William & Kate Baumann and Robert & Rachel Eckman."
+   }
+  ],
+  "daily_themes": [
+   {
+    "date": "2026-09-30",
+    "theme": "Opening Program: The Carnegie",
+    "highlights": [
+     "Natural Fictions Opening Reception, 5–8pm (Covington)"
+    ]
+   },
+   {
+    "date": "2026-10-01",
+    "theme": "Opening Program: Cincinnati Art Museum",
+    "highlights": [
+     "Nancy Rexroth: Secrets of My Power reception 5pm, lecture with Nathaniel M. Stein 6pm, book signing with Nancy Rexroth 7pm"
+    ]
+   },
+   {
+    "date": "2026-10-02",
+    "theme": "Opening Program: Contemporary Arts Center + Weston Art Gallery",
+    "highlights": [
+     "In the Interest of Time gallery tour 5pm (CAC)",
+     "Paul Mpagi Sepuya: Compressed Tenses opening reception 6pm (Weston)",
+     "Widline Cadet conversation 7pm and opening receptions 8pm (CAC)"
+    ]
+   },
+   {
+    "date": "2026-10-03",
+    "theme": "Opening Program: Memorial Hall + FotoFocus Center",
+    "highlights": [
+     "Artist talks 1–4pm and keynote lecture by Daniel Immerwahr 5pm (Memorial Hall)",
+     "Trevor Paglen: the most merciful thing in the world reception 6pm (FotoFocus Center)"
+    ]
+   },
+   {
+    "date": "2026-10-16",
+    "theme": "Dayton Spotlight Weekend (Oct 16–18)",
+    "highlights": [
+     "Spotlight Bus Tour: Dayton, Oct 17"
+    ]
+   },
+   {
+    "date": "2026-10-23",
+    "theme": "Columbus Spotlight Weekend (Oct 23–25)",
+    "highlights": [
+     "Spotlight Bus Tour: Columbus, Oct 24"
+    ]
+   },
+   {
+    "date": "2026-10-30",
+    "theme": "Cincinnati Spotlight Weekend (Oct 30–Nov 1)",
+    "highlights": [
+     "Spotlight Bus Tour: Greater Cincinnati, Oct 31"
+    ]
+   }
+  ],
+  "hours": "FotoFocus Center (228 E Liberty St): Thursday and Friday 11am–6pm, Saturday 11am–5pm; reopens Thursday, October 1 with Trevor Paglen: the most merciful thing in the world. Other venues: see venues.json notes.",
+  "hashtags": [
+   "#FotoFocus",
+   "#TheLongView",
+   "#FotoFocus2026"
+  ],
+  "social": {
+   "instagram": "https://www.instagram.com/fotofocuscincinnati/",
+   "x": null,
+   "facebook": "https://www.facebook.com/FotoFocusCincinnati/",
+   "linkedin": "https://www.linkedin.com/company/fotofocus-cincinnati/",
+   "tiktok": null,
+   "threads": "https://www.threads.net/@fotofocuscincinnati",
+   "vimeo": "https://vimeo.com/fotofocus/"
+  },
+  "contact": {
+   "email": "info@fotofocus.org",
+   "phone": "(513) 400-4027"
+  },
+  "history": [
+   {
+    "year": 2024,
+    "fact": "backstories: Encompassing more than 100 projects at over 80 Participating Venues with 15 Featured Projects, backstories focused on stories not evident at first glance, offering context for what happened previously or out of view, providing narratives not yet told or presented from a new perspective.",
+    "source_url": "https://www.fotofocus.org/biennial/2026/about#biennial-history"
+   },
+   {
+    "year": 2022,
+    "fact": "World Record: The sixth iteration presented major new artist commissions and a wide range of original exhibitions and events, featuring over 100 projects centered around the theme of World Record. The theme considered photography’s extensive record of life on earth, humankind’s impact on the natural world, and the choices we now face as a global community.",
+    "source_url": "https://www.fotofocus.org/biennial/2026/about#biennial-history"
+   },
+   {
+    "year": 2020,
+    "fact": "light&: In lieu of presenting the fifth Biennial, FotoFocus pledged its 2020 Biennial budget to financially support the region’s art community during the COVID-19 pandemic. FotoFocus distributed Emergency Art Grants to over 100 Participating Venues and Partners that were selected to present as part of the Biennial.",
+    "source_url": "https://www.fotofocus.org/biennial/2026/about#biennial-history"
+   },
+   {
+    "year": 2018,
+    "fact": "Open Archive: Featuring 90 Biennial projects and a comprehensive film program, Open Archive emphasized the centrality of photography and lens-based art to modernism, and examined our fundamental need to preserve photographs and to tell stories through their collection, organization, and interpretation.",
+    "source_url": "https://www.fotofocus.org/biennial/2026/about#biennial-history"
+   },
+   {
+    "year": 2016,
+    "fact": "Photography, the Undocument: The third Biennial included eight major exhibitions exploring the documentary nature of photography, and featured over 60 exhibitions and more than 100 events. Venues took diverse approaches to the theme, breaking apart assumptions about photography’s documentary character by emphasizing the medium’s natural tendency to distort and reshape the visible world.",
+    "source_url": "https://www.fotofocus.org/biennial/2026/about#biennial-history"
+   },
+   {
+    "year": 2014,
+    "fact": "Photography in Dialogue: The second edition included six original exhibitions and the premiere of the ArtHub, as well as exhibitions by over 60 Participating Venues. The Biennial Program included five days of lectures, panel discussions, screenings, and performances with curators, critics, and art world professionals, all focused on one common theme: Photography in Dialogue.",
+    "source_url": "https://www.fotofocus.org/biennial/2026/about#biennial-history"
+   },
+   {
+    "year": 2012,
+    "fact": "People. Places. Photography.: In October 2012, the Biennial became the region’s first event to bring together over 60 venues to simultaneously present contemporary and historical photography, as well as artistic and educational programing.",
+    "source_url": "https://www.fotofocus.org/biennial/2026/about#biennial-history"
+   }
+  ],
+  "stats": [
+   {
+    "label": "Exhibitions in 2026",
+    "value": "74",
+    "source_url": "https://www.fotofocus.org/biennial/2026/"
+   },
+   {
+    "label": "Venues in 2026",
+    "value": "65",
+    "source_url": "https://www.fotofocus.org/biennial/2026/"
+   },
+   {
+    "label": "Artists, archivists, filmmakers, curators, and participants in 2026",
+    "value": "more than 500",
+    "source_url": "https://www.fotofocus.org/biennial/2026/artists-and-participants/"
+   },
+   {
+    "label": "Iteration",
+    "value": "eighth",
+    "source_url": "https://www.fotofocus.org/biennial/2026/"
+   },
+   {
+    "label": "Featured Exhibitions",
+    "value": "6",
+    "source_url": "https://www.fotofocus.org/biennial/2026/art"
+   },
+   {
+    "label": "Artists and participants featured since 2012",
+    "value": "over 3,500",
+    "source_url": "https://www.fotofocus.org/biennial/2026/about"
+   },
+   {
+    "label": "Exhibitions and programs since 2012",
+    "value": "more than 800",
+    "source_url": "https://www.fotofocus.org/biennial/2026/about"
+   },
+   {
+    "label": "Cumulative visitors since 2012",
+    "value": "over one million",
+    "source_url": "https://www.fotofocus.org/biennial/2026/about"
+   },
+   {
+    "label": "Scale",
+    "value": "the largest of its kind in America",
+    "source_url": "https://www.fotofocus.org/biennial/2026/"
+   },
+   {
+    "label": "FotoFocus Center size",
+    "value": "14,700 square foot",
+    "source_url": "https://www.fotofocus.org/visit/"
+   }
+  ],
+  "logo": {
+   "url": "https://www.fotofocus.org/",
+   "format": "svg",
+   "on": "light",
+   "local_file": "raw/also/fotofocus_logo_inline.svg",
+   "notes": "Inline <svg> wordmark in the site header (viewBox 0 0 400 36.83); no standalone logo file is published."
+  },
+  "brand": {
+   "colors": [
+    "#000000",
+    "#ffffff",
+    "#b01d1e",
+    "#333333",
+    "#707070",
+    "#989898",
+    "#efefef",
+    "#f0f0f0"
+   ],
+   "fonts": [
+    "franklin-gothic-urw",
+    "letter-gothic-std",
+    "neue-haas-grotesk-display",
+    "neue-haas-grotesk-text"
+   ],
+   "notes": "From the theme stylesheet https://www.fotofocus.org/wp-content/themes/fotofocus/dist/styles/main.css (saved raw/also/verify/ff_main.css; fetched with User-Agent \"anthropic-ai\", which robots.txt allows everywhere) and Adobe Fonts kit https://use.typekit.net/rvb1rlh.css. Site chrome is black (#000) on white; #b01d1e is the theme's Bootstrap primary/link red (buttons, .text-primary); #333 base text; CSS variables --ff-dark-grey #707070, --ff-darker-grey #989898, --ff-light-grey #efefef; 2026 Biennial pages set --biennial-color #f0f0f0 (nav). Fonts: --font-body/--font-heading = franklin-gothic-urw (Adobe Fonts, kit script use.typekit.net/nfo0dtf.js); letter-gothic-std for tags/labels; neue-haas-grotesk-display/-text (kit rvb1rlh) apply only under body.font-variant-new, which the captured 2026 pages do not set.",
+   "source_url": "https://www.fotofocus.org/wp-content/themes/fotofocus/dist/styles/main.css"
+  },
+  "leadership": [
+   {
+    "name": "Katherine Ryckman Siegwarth",
+    "title": "Executive Director"
+   },
+   {
+    "name": "Kevin Moore",
+    "title": "Artistic Director and Curator"
+   }
+  ],
+  "digital_guide": "https://guides.bloombergconnects.org/en-US/guide/fotoFocus",
+  "source_url": "https://www.fotofocus.org/biennial/2026/"
+ },
+ {
+  "id": "also",
+  "name": "Also in Cincinnati, Oct 3–11, 2026",
+  "short_name": "Also this week",
+  "tagline": null,
+  "dates": {
+   "start": "2026-10-03",
+   "end": "2026-10-11"
+  },
+  "description": null,
+  "organizers": [],
+  "url": null,
+  "tickets": [],
+  "daily_themes": [],
+  "hours": null,
+  "hashtags": [],
+  "social": {},
+  "contact": {},
+  "history": [],
+  "stats": [],
+  "logo": null,
+  "brand": null,
+  "calendar_app": {
+   "name": "The ArtsWave App",
+   "description": "The free ArtsWave App is the Cincinnati region’s arts and entertainment discovery tool. Find Cincy’s most comprehensive events calendar, discover new experiences, get ArtsWave’s weekly event picks, build itineraries and get exclusive offers, all year long and during BLINK® 2026.",
+   "download_url": "https://onelink.to/artswaveapp",
+   "offer": "Download the ArtsWave App and, throughout BLINK and the entire month of October, you’ll get the ArtsWave Pass at no cost. Normally $100 per year, the ArtsWave Pass gives you access to: 50% off 100s of tickets to local arts experiences; Free and last-minute ticket offers; Restaurant and retail deals more!",
+   "after_october": "keep your ArtsWave Pass benefits going for just $9.99/month",
+   "source_url": "https://artswave.org/what-is-artswave/the-artswave-app/"
+  },
+  "notes": "Umbrella for other verifiable happenings in Cincinnati/Northern Kentucky during Oct 3-11, 2026 (plus the Oct 2-4 Cincy Bookstore Crawl, which overlaps it) (museum exhibitions and programs, performing arts, Findlay Market, festivals, pro sports). Each event carries its own source_url; only items whose official page states a 2026 date (or an unambiguous current-season date) are included. See REPORT.md for what was checked and found to have nothing in the window.",
+  "source_url": "https://artswave.org/what-is-artswave/the-artswave-app/"
+ }
+]

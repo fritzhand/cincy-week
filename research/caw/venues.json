@@ -1,0 +1,146 @@
+[
+  {
+    "id": "caw-art-market-hq-1417-main",
+    "name": "Cincinnati Art Week HQ + Art Market (1417 Main St)",
+    "address": "1417 Main St",
+    "city": "Cincinnati",
+    "state": "OH",
+    "zip": "45202",
+    "neighborhood": "Over-the-Rhine",
+    "lat": 39.1118491,
+    "lng": -84.5126203,
+    "programs": [
+      "caw"
+    ],
+    "kind": "venue",
+    "url": "https://cincinnatiartweek.com/support-us",
+    "notes": "Names used: \"new headquarters at 1417 Main St.\" (CityBeat); \"Cincinnati Art Week Temporary HQ + Art Market\" (Cincy Nice Founding Circle page); \"Cincinnati Art Week Art Market\" (Eventbrite, which gives ZIP 45206 and lat 39.1118189, lng -84.5126129). Office hours + artist co-working 11AM–3PM Mon–Wed. NO GRID starts here. Geocode: Nominatim (OSM ZIP 45202).",
+    "source_url": "https://cincinnatiartweek.com/support-us"
+  },
+  {
+    "id": "caw-hub-1600-race",
+    "name": "CAW Hub / Welcome Center (1600 Race St)",
+    "address": "1600 Race St",
+    "city": "Cincinnati",
+    "state": "OH",
+    "zip": "45202",
+    "neighborhood": "Over-the-Rhine",
+    "lat": 39.113152,
+    "lng": -84.51756,
+    "programs": [
+      "caw"
+    ],
+    "kind": "venue",
+    "url": "https://www.cincinnatimagazine.com/article/cincinnati-art-week/",
+    "notes": "Cincinnati Magazine: \"Begin at the Welcome Center at 1600 Race St., the main hub for the week. There, you can ask questions, grab a map and pick up merch.\" Draft schedule: \"Visiting Artist Welcome — CAW Hub · 1600 Race Street\" (Wed Oct 7, 3–5 PM). VisitCincy lists \"Multiple Locations in Over-the-Rhine\", 1600 Race St., 45202. Geocode: Nominatim.",
+    "source_url": "https://www.cincinnatimagazine.com/article/cincinnati-art-week/"
+  },
+  {
+    "id": "caw-offsite-25-e-15th",
+    "name": "Cincinnati Art Week — OFFSITE (25 E. 15th St.)",
+    "address": "25 E. 15th St",
+    "city": "Cincinnati",
+    "state": "OH",
+    "zip": "45202",
+    "neighborhood": "Over-the-Rhine",
+    "lat": 39.1121133,
+    "lng": -84.5142661,
+    "programs": [
+      "caw"
+    ],
+    "kind": "venue",
+    "url": "https://www.instagram.com/p/DdUlIEdlEg4/",
+    "notes": "Pop-up CAW night venue. Address from Jason Snell's Instagram NO GRID post; Eventbrite calls it \"OFFSITE - a pop-up Cincinnati Art Week experience\". Draft schedule: CAW Offsite Opening Celebration (Sat Oct 3, 7–11 PM) and CAW Offsite (Thu Oct 8, after dark). Geocode: Nominatim (house-level).",
+    "source_url": "https://www.instagram.com/p/DdUlIEdlEg4/"
+  },
+  {
+    "id": "kinley-cincinnati-downtown",
+    "name": "Kinley Cincinnati Downtown — The Exchange (lobby bar)",
+    "address": "636 Race St",
+    "city": "Cincinnati",
+    "state": "OH",
+    "zip": "45202",
+    "neighborhood": "Downtown (Central Business District)",
+    "lat": 39.103287,
+    "lng": -84.5149594,
+    "programs": [
+      "caw"
+    ],
+    "kind": "hotel",
+    "url": "https://www.kinleycincinnati.com/",
+    "notes": "CAW community partner. Weekly \"Art Week Happy Hour\" Wednesdays Aug 05 – Oct 07, 4:30–6:30 PM; draft schedule: \"CAW Happy Hour — The Exchange at Kinley Hotel\" (Oct 7). Address from kinleycincinnati.com/drink-and-dine. Geocode: Nominatim.",
+    "source_url": "https://cincinnatiartweek.com/support-us"
+  },
+  {
+    "id": "motr-pub",
+    "name": "MOTR Pub",
+    "address": "1345 Main St",
+    "city": "Cincinnati",
+    "state": "OH",
+    "zip": "45202",
+    "neighborhood": "Over-the-Rhine",
+    "lat": 39.1110977,
+    "lng": -84.5122838,
+    "programs": [
+      "caw"
+    ],
+    "kind": "venue",
+    "url": "https://www.motrpub.com/",
+    "notes": "One of the three NO GRID spaces named in Jason Snell's Instagram post (\"CAW Art Market, MOTR and OFFSITE\"); which agenda slot is held here is not stated. Address from motrpub.com. Geocode: Nominatim.",
+    "source_url": "https://www.instagram.com/p/DdUlIEdlEg4/"
+  },
+  {
+    "id": "esoteric-brewing",
+    "name": "Esoteric Brewing Co.",
+    "address": "918 E McMillan St",
+    "city": "Cincinnati",
+    "state": "OH",
+    "zip": "45206",
+    "neighborhood": "Walnut Hills",
+    "lat": 39.1260609,
+    "lng": -84.4897364,
+    "programs": [
+      "caw"
+    ],
+    "kind": "venue",
+    "url": "https://esotericbrewing.com/",
+    "notes": "Pours \"Art City\", a Japanese-style rice lager made with CAW (Cincinnati Magazine: \"If you're thirsty and willing to venture out into Walnut Hills, you can try the exclusive Art City beer at Esoteric Brewing.\"). Address from esotericbrewing.com JSON-LD. Geocode: Nominatim.",
+    "source_url": "https://www.cincinnatimagazine.com/article/cincinnati-art-week/"
+  },
+  {
+    "id": "caw-footprint-otr",
+    "name": "Cincinnati Art Week footprint — Over-the-Rhine storefront galleries",
+    "address": null,
+    "city": "Cincinnati",
+    "state": "OH",
+    "zip": null,
+    "neighborhood": "Over-the-Rhine",
+    "lat": null,
+    "lng": null,
+    "programs": [
+      "caw"
+    ],
+    "kind": "zone",
+    "url": "https://cincinnatiartweek.com/",
+    "notes": "FAQ: \"The inaugural week takes place throughout storefronts and cultural spaces across Over-the-Rhine. The full schedule and interactive map will be announced soon.\" Counts vary: 6–8 storefronts (CityBeat), 8+ storefront galleries (Founding Circle), over eight spaces (Cincinnati Magazine), 10+ spaces (Threads). Storefronts come via developers 3CDC, Urban Sites and Model Group. Individual gallery addresses were NOT public as of 2026-09-24.",
+    "source_url": "https://cincinnatiartweek.com/faqs-2"
+  },
+  {
+    "id": "cincy-nice-hq",
+    "name": "Cincy Nice HQ (organizer office)",
+    "address": "2411 Gilbert Ave",
+    "city": "Cincinnati",
+    "state": "OH",
+    "zip": "45206",
+    "neighborhood": "Walnut Hills",
+    "lat": 39.1246152,
+    "lng": -84.4911818,
+    "programs": [
+      "caw"
+    ],
+    "kind": "other",
+    "url": "https://www.cincynice.com/",
+    "notes": "Organizer office (\"VISIT Cincy Nice HQ 2411 GILBERT AVE Walnut hills, OHIO\"); not an Art Week venue.",
+    "source_url": "https://www.cincynice.com/"
+  }
+]

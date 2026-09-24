@@ -1,0 +1,40 @@
+[
+  {
+    "agenda_event_id": "scw-cintrifuse-annual-meeting",
+    "venue_id": "union-hall",
+    "start": "08:30",
+    "end": "10:00",
+    "time_text_sources": [
+      "cintrifuse.com: \"Tuesday, October 6, 2026 – 8:30 – 10am\"",
+      "SCW registration add-on: \"Cintrifuse Annual Meeting | Oct 6 at 8:30-10:30am\""
+    ],
+    "title_long": "Cintrifuse & Cintrifuse Capital Annual Meeting",
+    "registration": "Free add-on on every SCW ticket; cintrifuse.com: \"If you plan on joining us for the Cintrifuse Annual Meeting, please register for StartupCincy Week.\"",
+    "speakers_listed": [
+      "J.B. Kropp — CEO, Cintrifuse; Managing Director, Cintrifuse Capital",
+      "Guy Persaud — President of Habitat Care, P&G; Cintrifuse Board Chair",
+      "Mark Gagas — Co-Founder & COO, Sensory Robotics",
+      "Jake Rouse — Co-Founder & CEO, Braxton Brewing"
+    ],
+    "sponsors": [
+      "jobsohio-ventures",
+      "procter-and-gamble"
+    ],
+    "text": "Join us for a focused, fast-moving morning as we share how Cintrifuse is bridging the early-stage capital gap, attracting top talent and national venture investment to our region, and fueling the creation and growth of startups, jobs, and opportunity.",
+    "source_url": "https://cintrifuse.com/cintrifuse-annual-meeting-2026/",
+    "notes": "Venue from cintrifuse.com (\"Union Hall, 1311 Vine Street, Cincinnati OH 45202\"). The two sources disagree on the end time (10:00 vs 10:30)."
+  },
+  {
+    "agenda_event_id": "scw-student-pitch-competition",
+    "venue_id": "union-hall",
+    "start": null,
+    "end": null,
+    "time_text_sources": [
+      "Airtable application form: \"The competition runs on the afternoon of October 8th and you must pitch in person at Union Hall.\""
+    ],
+    "registration": "Apply: https://airtable.com/appWcp9LICBcEHPK8/shrV6GMdulkZFgorD (undergraduates; individuals or teams of up to four; one application per company). \"Applications close September 30th and will be reviewed on a rolling basis. Teams selected to pitch will be notified no later than EOD on October 2nd.\"",
+    "prize": "The winning team will take home a \"Golden Ticket\" which holds your spot in the Builder Fellows program for Summer 2027. (Homepage: \"Win a spot in the Startup Fellows program as a Builder Fellow: Receive a $10,000 non-dilutive grant ...\")",
+    "source_url": "https://airtable.com/appWcp9LICBcEHPK8/shrV6GMdulkZFgorD",
+    "notes": "Venue from the application form. Homepage calls it \"our first-ever Student Pitch Competition\"."
+  }
+]

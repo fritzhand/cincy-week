@@ -107,7 +107,7 @@ ${days}
     ? `${WORDS[solid.length] || solid.length} festivals share one week, and on ${h.fmtDayLong(ixDay).split(",")[0]} all ${WORDS[solid.length].toLowerCase()} run at once.`
     : `${WORDS[lanes.length] || lanes.length} programs share the first week of October.`;
   const names = solid.map((l) => l.name);
-  const dek = `${h.listJoin(names)}${thruLane ? `, plus the ${thruLane.name}` : ""}: every session, show, installation and venue in one guide.`;
+  const dek = `${h.listJoin(names)}${thruLane ? `, plus the ${thruLane.name}` : ""}: their published sessions, shows, installations and venues in one guide.`;
   const before = firstLane ? `The week ahead · ${firstLane.short} opens ${h.fmtDay(firstLane.start)}` : "The week ahead";
 
   // "First up", server-rendered from the first days with listed hours (festival programs); the client refreshes it
@@ -150,7 +150,8 @@ ${news.length ? `<div class="nn-group"><p class="nn-label label">Latest news</p>
     const p = P.get(pp.programs[0]);
     if (!p) return "";
     const evs = pp.programs.flatMap((id) => db.eventsByProgram.get(id) || []).filter(shown);
-    const venueIds = new Set(evs.map((e) => e.venue_id).filter(Boolean));
+    // the same venue set the program page and venues.html?p= count (venue.programs: events and works)
+    const venueIds = new Set(db.venues.filter((v) => v.programs.some((pr) => pp.programs.includes(pr))).map((v) => v.id));
     const lane = lanes.find((l) => l.id === p.id);
     const hub = p.hub_venue_id ? db.byId.venue.get(p.hub_venue_id) : null;
     const hood = hub?.hood ? db.byId.place.get(hub.hood) : null;
@@ -178,7 +179,7 @@ ${quote ? `<p class="pc-q">${esc(quote)}</p>` : ""}
   const worksMapped = db.works.length;
   const derived = [
     [db.counts.events, "events and exhibitions in the guide", "schedule.html"],
-    [db.counts.people, "speakers, artists and curators", "people.html"],
+    [db.counts.people, "speakers, artists, curators and organizers", "people.html"],
     [db.counts.venues, "venues", "venues.html"],
     [worksMapped, "works of art and installations", "art.html"],
   ];
@@ -203,8 +204,8 @@ ${facts.length ? `<div class="stats stats-facts" aria-label="By the organizers' 
   const doors = [
     ["map.html", "map", "Map", `${h.plural(onMap, "venue")} with a number on the map`],
     ["plan.html", "star", "My Plan", "Star events and art, then export them to your calendar"],
-    ["stay.html", "bed", "Where to stay", `${h.plural(db.stays.length, "hotel")}${blocks ? `, ${h.plural(blocks, "program room block")} first` : ""}`],
-    ["getting-around.html", "tram", "Getting around", kinds.length ? `${h.listJoin(kinds.map((k) => KIND_WORD[k]))}, from the programs and the transit agencies` : "Transit and parking"],
+    ["stay.html", "bed", "Where to stay", `${h.plural(db.stays.length, "place to stay", "places to stay")}${blocks ? `, ${h.plural(blocks, "program room block")} first` : ""}`],
+    ["getting-around.html", "tram", "Getting around", kinds.length ? (([t]) => t.charAt(0).toUpperCase() + t.slice(1))([h.listJoin(kinds.map((k) => KIND_WORD[k]))]) + ", from the programs and the transit agencies" : "Transit and parking"],
   ];
 
   const primary = `<span data-show="before after">See the schedule</span><span data-show="during">See today's schedule</span>`;
@@ -223,7 +224,7 @@ ${facts.length ? `<div class="stats stats-facts" aria-label="By the organizers' 
 </div>
 <div class="lead-body">
 <p class="dek">${esc(dek)}</p>
-<p class="byline">An independent guide, not affiliated with the organizers · Sources linked on every page · <a href="${root}about.html">How it is made</a></p>
+<p class="byline">An independent guide, not affiliated with the organizers · Sources linked on every page · <a class="nw" href="${root}about.html">How it is made</a></p>
 <div class="btn-row stack-sm spaced"><a class="btn btn-primary" href="${root}schedule.html">${icon("calendar")}${primary}</a><a class="btn btn-secondary" href="${root}map.html">${icon("map")}Open the map</a></div>
 <button class="hero-search" type="button" data-search-open>${icon("search")}<span>Try “BLINK”, “Union Hall” or a speaker's name</span><kbd data-k-hint>⌘K</kbd></button>
 </div>
@@ -240,7 +241,7 @@ ${news.length ? c.section({ id: "news", num: 5, kicker: "News", title: "Latest c
 
   return [{
     path: "index.html", nav: "index", title: "Overview", features: ["home"],
-    description: `${config.siteName}: ${config.siteTagline}. Every session, show, installation and venue of the first week of October in Cincinnati, with sources.`,
+    description: `${config.siteName}: ${config.siteTagline}. The published sessions, shows, installations and venues of Cincinnati Art Week, StartupCincy Week, BLINK and the FotoFocus Biennial, with sources.`,
     body,
   }];
 }

@@ -43,8 +43,10 @@ export function init(app) {
   function item(x, notes) {
     const { ev, day, s, e, f } = x;
     const multi = ev.i.length > 1;
-    const timeCol = multi ? `<small>${esc(fmtDateRange(...(XT.spans[ev.id] || [ev.i[0][0], ev.i[ev.i.length - 1][0]])))}</small>` : f & 4 ? "<small>All day</small>" : f & 2 ? "<small>Time not listed</small>" : (() => { const [a, b] = fmtTime(hm(s)).split(" "); return `${esc(a)}<small>${esc(b)}</small>`; })();
-    const hours = f & 4 ? "All day" : f & 2 ? (ev.ht ? esc(ev.ht) : '<span class="unk">Hours not listed</span>') : f & 1 ? `${esc(fmtTime(hm(s)))} <span class="unk">end time not listed</span>` : esc(fmtRange(hm(s), hm(e)));
+    const rng = multi ? fmtDateRange(...(XT.spans[ev.id] || [ev.i[0][0], ev.i[ev.i.length - 1][0]])) : "";
+    const timeCol = multi ? `<small${rng.length <= 8 ? ' class="rng"' : ""}>${esc(rng)}</small>` : f & 4 ? "<small>All day</small>" : f & 2 ? "<small>Time not listed</small>" : (() => { const [a, b] = fmtTime(hm(s)).split(" "); return `${esc(a)}<small>${esc(b)}</small>`; })();
+    const about = (ev.tg || []).includes("approximate-time") ? "About " : "";   // QA: an approximate source time
+    const hours = f & 4 ? "All day" : f & 2 ? (ev.ht ? esc(ev.ht) : '<span class="unk">Hours not listed</span>') : f & 1 ? `${about}${esc(fmtTime(hm(s)))} <span class="unk">end time not listed</span>` : about + esc(fmtRange(hm(s), hm(e)));
     const st = f & 2 ? ' data-time-unknown="1"' : `${multi ? ` data-inst="${ev.i.map(([, a, b]) => `${a}:${b}`).join(",")}"` : ""} data-s="${s}" data-e="${e}"${f & 1 ? ' data-end-unknown="1"' : ""}`;
     const late = f & 16 ? ` · after midnight (${esc(fmtDay(nyParts(s).date))})` : "";
     return `<li class="plan-item" data-prog="${esc(ev.p)}" data-id="${esc(ev.id)}"${st}><time${f & 6 || multi ? "" : ` datetime="${new Date(s).toISOString()}"`}>${timeCol}</time>
@@ -167,8 +169,9 @@ ${star(w.id, w.t, "w")}</li>`;
     if (e.target.closest("[data-plan-ics]")) {
       await load(false);
       const ics = await import("../lib/ics.js");
-      const base = new URL(R, location.href).href;
-      const items = app.plan.list().e.map((id) => EV.events.find((x) => x.id === id)).filter(Boolean).flatMap((ev) => ics.eventItems(ev, EV, { base, span: XT.spans[ev.id] }));
+      const base = new URL(R || "./", location.href).href;   // QA: "" resolved to this page (plan.html?…), not the site root
+      const TX = await app.data("event-text.json").catch(() => null);   // descriptions (core/client-data.mjs)
+      const items = app.plan.list().e.map((id) => EV.events.find((x) => x.id === id)).filter(Boolean).map((ev) => (TX && TX.d ? { ...ev, d: TX.d[ev.id] || null } : ev)).flatMap((ev) => ics.eventItems(ev, EV, { base, span: XT.spans[ev.id] }));
       if (!items.length) { app.toast("Only works of art are starred: they have no set times to export"); return; }
       const url = URL.createObjectURL(new Blob([ics.vcalendar(items, { name: "My Plan · Cincy Week" })], { type: "text/calendar;charset=utf-8" }));
       const a = document.createElement("a"); a.href = url; a.download = "cincy-week-my-plan.ics"; a.hidden = true;

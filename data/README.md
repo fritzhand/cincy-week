@@ -14,7 +14,7 @@ node scripts/merge-research.mjs --check         # validate without writing
 CW_OUT=.cache/out-c node build.mjs              # private build (never a plain build while agents work)
 ```
 
-Research input: `$CW_RESEARCH` (default `/tmp/claude-0/-home-user/2c073cdf-a360-5298-a94c-59bd6e1e86ef/scratchpad/research`), one folder per slice. Geocoding cache:
+Research input: `$CW_RESEARCH` (default `.cache/research/`, a local copy that is not in the repo), one folder per slice. Geocoding cache:
 `.cache/geocode.json` (OpenStreetMap Nominatim, ≤ 1 request/second, User-Agent `cincy-week-build`).
 
 ## Counts
@@ -23,15 +23,15 @@ Research input: `$CW_RESEARCH` (default `/tmp/claude-0/-home-user/2c073cdf-a360-
 |---|---:|---:|---:|---:|---:|---:|
 | events | 31 | 120 | 25 | 121 | 67 | 364 |
 | works | 4 | 0 | 75 | 0 | 0 | 79 |
-| people (by program) | 20 | 152 | 105 | 74 | 29 | 377 |
+| people (by program) | 16 | 152 | 105 | 73 | 29 | 373 |
 | venues (by program) | 7 | 7 | 14 | 67 | 21 | 108 |
 | orgs (by role) | 15 | 45 | 73 | 9 | 25 | 155 |
 | faqs | 12 | 31 | 42 | 18 | 0 | 103 |
 | facts | 13 | 37 | 132 | 24 | 0 | 213 |
-| news (tagged) | 11 | 23 | 142 | 47 | 1 | 211 |
+| news (tagged) | 11 | 23 | 143 | 47 | 1 | 212 |
 
-Also: 5 programs, 140 stays (2 with a room block, 128 on BLINK's hotel portal), 248 places (22 neighborhood, 37 transit, 31 parking, 1 airport, 34 food, 30 drink, 34 landmark, 36 accessibility, 19 tip, 2 bike, 2 rideshare), 4 venue aliases, 29 hood aliases.
-FotoFocus / also people: 103 kept as person records, 587 name-only artists and participants kept as plain-text `credits` on their events (641 credit names).
+Also: 5 programs, 140 stays (2 with a room block, 128 on BLINK's hotel portal), 248 places (22 neighborhood, 37 transit, 31 parking, 1 airport, 34 food, 30 drink, 34 landmark, 36 accessibility, 19 tip, 2 bike, 2 rideshare), 5 venue aliases, 29 hood aliases.
+FotoFocus / also people: 102 kept as person records, 588 name-only artists and participants kept as plain-text `credits` on their events (642 credit names).
 
 ## Provenance per file
 
@@ -73,6 +73,41 @@ FotoFocus / also people: 103 kept as person records, 587 name-only artists and p
 - news.json mixes 2026 coverage with older background (`kind: "history"`, back to 2017); filter by `kind` or `date` for "latest news".
 - Merged person ids: `snellbeast` → `jason-snell`, `the-mz-icar-collective` → `mz-icar`. An images.json entry under the old id is no longer used.
 
+## QA audit (2026-09-24)
+
+A data-accuracy audit re-checked records against the live sources (every StartupCincy Week session time, every BLINK and Art Week
+event, 31 FotoFocus and 25 other events, 25 people plus all 242 headshots, BLINK work points, 87 venue addresses, all 120 logos, both
+room blocks, facts and news). These corrections come from its named tables in the script (`QA_*`), each with its evidence:
+
+- event caw-10-07-no-grid-slot-04-walk-and-talk-move-to-location-2: location "Location #2" → "NO GRID Location #2 (venue not named by the organizers)" (Eventbrite's agenda names the stop only "Location #2"; the three spaces are named on Instagram without saying which is which)
+- event caw-10-07-no-grid-slot-05-in-conversation-aaron-sechrist: location "Location #2" → "NO GRID Location #2 (venue not named by the organizers)" (Eventbrite's agenda names the stop only "Location #2"; the three spaces are named on Instagram without saying which is which)
+- event caw-10-07-no-grid-slot-06-in-conversation-javarri-lewis: location "Location #2" → "NO GRID Location #2 (venue not named by the organizers)" (Eventbrite's agenda names the stop only "Location #2"; the three spaces are named on Instagram without saying which is which)
+- event caw-10-07-no-grid-slot-07-walk-and-talk-move-to-location-3: location "Location #3" → "NO GRID Location #3 (venue not named by the organizers)" (Eventbrite's agenda names the stop only "Location #3"; the three spaces are named on Instagram without saying which is which)
+- event caw-10-07-no-grid-slot-08-in-conversation-oliver-barrett: location "Location #3" → "NO GRID Location #3 (venue not named by the organizers)" (Eventbrite's agenda names the stop only "Location #3"; the three spaces are named on Instagram without saying which is which)
+- event also-cac-sarah-rodriguez-homespun: opening date 2026-07-08 (was the research capture date 2026-09-24, which the pages printed as the start of the run): the CAC's exhibition page is dated "July 08, 2026" (title "Sarah Rodriguez: Homespun | July 08, 2026"; the CAC dates exhibition pages with their opening day, e.g. SOFTlab's "October 17, 2024")
+- event also-cac-softlab-gravity-s-rainbow: opening date 2024-10-17 (was the research capture date 2026-09-24, which the pages printed as the start of the run): the CAC's page is dated "October 17, 2024"; Movers & Makers (2024-10-07): "CAC to unveil gravity-defying installation on Oct. 17"
+- event also-cam-gifts-from-japan: opening date 2026-06-22 (was the research capture date 2026-09-24, which the pages printed as the start of the run): "Gifts from Japan will display 18 selected works across two rotations: Rotation 1: June 22-August 24, 2026" (the museum's announcement as published by Asia Week New York); the CAM page gives only "Now–October 8, 2026"
+- event also-cmc-lego-jurassic-world-the-exhibition: opening date 2026-05-22 (was the research capture date 2026-09-24, which the pages printed as the start of the run): CMC press release of May 19, 2026: "LEGO® Jurassic World: The Exhibition opens this Friday, May 22, at Cincinnati Museum Center"
+- event also-zoo-jack-olantern-glow: 2026-10-02–2026-10-31 17:30–22:00 every day → 15 dated occurrences inside the window: the Zoo's page: "Closed Monday, October 5, 12 & 19"; "Tuesdays & Wednesdays 5:30pm - 9pm … Thursday - Sunday 5:30pm - 10pm" (the research applied 5:30–10 PM to every day, closed Mondays included)
+- event also-tct-mary-poppins-jr: 2026-10-09–2026-10-11 19:00–? every day → 7 dated occurrences inside the window: The Children's Theatre's General Admission Show Times ("October 9 Friday - 7:00pm; October 10 Saturday - 2:00pm; October 10 Saturday - 5:00pm; October 11 Sunday - 2:00pm; October 17 Saturday - 11:00am …"; public run through October 25); the research applied 7:00 PM to Oct 10 and 11
+- event also-findlay-blink-10-08: 2026-10-08–2026-10-11 12:30–23:30 every day → 4 dated occurrences inside the window: Findlay Market's four BLINK pages (schema.org startDate/endDate): Oct 8 and 9 12:30 PM–11:30 PM, Oct 10 and 11 9:00 AM–4:00 PM (the research applied the Thursday hours to all four days)
+- event blink-2026-10-08-flip-the-switch: tags + approximate-time: BLINK gives the time as "approximately 7:00 p.m." ("As the sun sets"); the tag marks the start as approximate until the card can print "About 7:00 PM"
+- person caw:bailey-elderberry → **bailey-elder**, name "Bailey Elderberry" → "Bailey Elder": the research turned the Instagram handle @baileyelderberry into the name "Bailey Elderberry"; the artist's own site ("Info - Bailey Elder", "I am an artist living in Ludlow, Kentucky") links instagram.com/baileyelderberry
+- person caw:daniel-iroh ("Daniel Iroh") dropped: on the same template draft (image placeholder "YOUR-DANIEL-IMAGE-URL") and pictured in the sponsorship deck; participation not confirmed
+- person caw:brandon-hill ("Brandon Hill") dropped: only on the unlisted cincinnatiartweek.com/artists draft, a template whose "Brandon Hill" card repeats 8 times with placeholder images; not confirmed as a 2026 participant
+- person caw:isaiah-armstrong ("Isaiah Armstrong") dropped: only on the same unlisted template draft (links to a 404 page); not confirmed as a 2026 participant
+- person caw:andrea-sabugo ("Andrea Sabugo") dropped: credited only for photographs on CAW's homepage and in Cincinnati Magazine; a photo credit is not Art Week participation (she stays a FotoFocus "Cultural Ties" artist)
+- venue mercantile-immersive: address "120 E 4th St, Cincinnati, OH 45202" added: the venue's contact page gives "120 E 4th St, Cincinnati, OH 45202" (https://mercantileimmersive.com/contact/); BLINK names the venue without an address
+- venue daap-galleries-reed-gallery: name "DAAP Galleries:: Reed Gallery" → "DAAP Galleries: Reed Gallery": FotoFocus's venue announcement (fotofocus.org, 2026-06-16) writes "DAAP Galleries: Reed Gallery"; the double colon comes from its map widget
+- hood → findlay-market-district for 16 records named for Findlay Market within 250 m of the market house (the neighborhood the guide defines by the market): venue findlay-market (over-the-rhine), place connector-station-10-findlay-market-elm (over-the-rhine), place connector-station-12-findlay-market-race (over-the-rhine), place tip-findlay-market-closed-mondays (over-the-rhine), place tip-findlay-market-blink-late-hours (over-the-rhine), place findlay-market (over-the-rhine), place findlay-eckerlin-meats (over-the-rhine), place findlay-taste-of-belgium (over-the-rhine), place findlay-dojo-gelato (over-the-rhine), place findlay-pho-lang-thang (over-the-rhine), place findlay-maverick-chocolate-co (over-the-rhine), place findlay-the-rhined (over-the-rhine), place findlay-market-wines (over-the-rhine), place findlay-churchills-fine-teas (over-the-rhine), place findlay-yee-mama (over-the-rhine), place findlay-janes (over-the-rhine)
+- FAQ topic "About StartupCincy FAQ (startupcincy.com)" → "About StartupCincy FAQ" (the parenthesis was a research aside)
+- FAQ topic "Startup Fellows Program FAQ (Cintrifuse; the Student Pitch Competition prize is a Builder Fellows spot)" → "Startup Fellows Program FAQ" (the parenthesis was a research aside)
+- ticket "NO GRID: A Creative Conversation Series (Wed Oct 7) — free RSVP": notes kept as research notes, not shown (Eventbrite sale dates and organizer as noted by the researcher)
+- ticket "Guided BLINK walk with Urban Hikers": notes kept as research notes, not shown (a summary of two pages (Urban Hikers and BLINK Walking Tours), not one source's words)
+- ticket "LAZ Parking reserved spaces": notes kept as research notes, not shown (a note about the capture ("not captured"), not the operator's text)
+
+Also fixed outside data/: `site/js/lib/time.js` `fmtDateRange` names both years for runs of a year or more ("Aug 28–13" was printed for Aug 28, 2026–Aug 13, 2027), and page copy that claimed "every" session or called all stays hotels. The full check list is in `.cache/qa-data.md` (not committed).
+
 ## Merges and deduplication
 
 - venue **union-hall** ← scw-info:union-hall + scw-agenda:union-hall + stay-move:union-hall + scw-info:union-hall-beer-hall (names kept as aliases: "Beer Hall at Union Hall")
@@ -94,7 +129,6 @@ FotoFocus / also people: 103 kept as person records, 587 name-only artists and p
 - event **blink-nightly** ← blink-2026-10-08-nightly + blink-2026-10-09-nightly + blink-2026-10-10-nightly + blink-2026-10-11-nightly (identical nightly hours 19:00–23:00; location text from the BLINK FAQ)
 - person **jason-snell** ← caw:jason-snell + blink-art:snellbeast: BLINK credits "SnellBeast" with the map item "Projection by Jason Snell"; snellbeast.com (the link BLINK gives) reads "I’m Jason Snell"; CAW names NO GRID "by SnellBeast" and "by Jason Snell".
 - person **mz-icar** ← caw:mz-icar + blink-art:the-mz-icar-collective: Same collective: CAW (Cincinnati Magazine, bio from mzicar.com) "Mz. Icar, an anonymous art collective"; BLINK "The Mz.Icar Collective" (Instagram @mz.icar).
-- person **andrea-sabugo** ← caw:andrea-sabugo + also:andrea-sabugo (exact normalized-name match)
 - stay **kinley-cincinnati-downtown** ← scw-info:kinley-cincinnati-downtown + stay-move:kinley-cincinnati-downtown + caw:kinley-cincinnati-downtown + blink-info:kinley-cincinnati-downtown-a-tribute-portfolio-hotel
 - stay **cincinnatis-fidelity-hotel** ← scw-info:cincinnatis-fidelity-hotel + stay-move:cincinnatis-fidelity-hotel
 - stay **21c-museum-hotel-cincinnati** ← stay-move:21c-museum-hotel-cincinnati + blink-info:21c-museum-hotel-cincinnati
@@ -119,7 +153,7 @@ FotoFocus / also people: 103 kept as person records, 587 name-only artists and p
 - stay **fairfield-inn-suites-newport-cincinnati** ← stay-move:fairfield-inn-suites-newport-cincinnati + blink-info:fairfield-by-marriott-inn-and-suites-newport-cincinnati
 - stay **hampton-inn-suites-newport-cincinnati** ← stay-move:hampton-inn-suites-newport-cincinnati + blink-info:hampton-inn-and-suites-newport-cincinnati
 - stay **the-symphony-hotel** ← stay-move:the-symphony-hotel + blink-info:symphony-hotel-and-restaurant
-- news: 211 items after deduplicating by URL: 211 from the research slices, 0 only in the existing data/news.json (kept: Agent G's refresher)
+- news: 212 items after deduplicating by URL: 211 from the research slices, 1 only in the existing data/news.json (kept: Agent G's refresher)
 
 ## Dropped on purpose
 
@@ -198,10 +232,6 @@ FotoFocus / also people: 103 kept as person records, 587 name-only artists and p
 
 ## Corrections and normalizations
 
-- event also-cac-sarah-rodriguez-homespun: no opening date ("On view through 04 October 2026") → date 2026-09-24 (capture date, on view then), end 2026-10-04
-- event also-cac-softlab-gravity-s-rainbow: no opening date ("On view through 31 October 2026") → date 2026-09-24 (capture date, on view then), end 2026-10-31
-- event also-cam-gifts-from-japan: no opening date ("Now–October 8, 2026") → date 2026-09-24 (capture date, on view then), end 2026-10-08
-- event also-cmc-lego-jurassic-world-the-exhibition: no opening date ("Open through January 4, 2027") → date 2026-09-24 (capture date, on view then), end 2027-01-04
 - work caw-mz-icar-experiential-piece: storefront not published → venue caw-footprint-otr (the CAW Over-the-Rhine footprint; research zone "Over-the-Rhine")
 - work caw-chas-wiederhold-identity-installation: storefront not published → venue caw-footprint-otr (the CAW Over-the-Rhine footprint; research zone "Over-the-Rhine")
 - work caw-prints-and-plants-gee-horton: storefront not published → venue caw-footprint-otr (the CAW Over-the-Rhine footprint; research zone "Over-the-Rhine")
@@ -246,7 +276,9 @@ FotoFocus / also people: 103 kept as person records, 587 name-only artists and p
 ## Coordinates and geocoding
 
 - venue blink-ready-set-blink-central-parkway: no published point; pinned at TQL Stadium (39.111179, -84.522229), which the footprint surrounds (BLINK FAQ; research/blink-info place blink-ready-set-blink-footprint)
+- venue mercantile-immersive: geocoded "120 E 4th St, Cincinnati, OH 45202" → 39.101001, -84.51065 (Metro Sales Office, 120, East 4th Street, Main Street Historic District, Central Business District, Cincinnati, Hamilton County, Ohio, 45202, United States)
 - venue cincinnati-playhouse-in-the-park: research neighborhood "Mount Adams (Eden Park)" kept; OpenStreetMap says Walnut Hills
+- venue cincinnati-zoo: research neighborhood "Avondale" kept; OpenStreetMap says University Heights
 
 ## Known gaps
 
@@ -254,12 +286,11 @@ FotoFocus / also people: 103 kept as person records, 587 name-only artists and p
 - StartupCincy Week: the agenda publishes no room or venue for most sessions ("Location not listed"); only 11 SCW events have a venue from their own text or an official host page. Speaker roles (moderator vs panelist) are not published, so SCW events carry no people_roles.
 - BLINK: Ready. Set. BLINK! performers and the Asianati Night Market's Thursday performances are not announced; 32 of 75 works have no description and 32 no image yet; 42 works publish the artist's biography as their description (flagged in notes).
 - FotoFocus: most exhibition hours are venue hours, not listed per exhibition (events are all-day, "hours not listed"). Venues in Dayton and Columbus are listed but fall outside the map region.
-- research/*/REPORT.md files were not present in the research folder when this ran; provenance above comes from the JSON records and their notes.
+- Each research slice documents its capture and verification in research/<slice>/REPORT-extract.md (and REPORT-verify.md where a verification pass ran); provenance above also comes from the JSON records and their notes.
 - StartupCincy coalition partners (research/scw-info/ecosystem_orgs.json, 51) and 2025 SCW sponsors (orgs_2025.json, 44) are not 2026 week partners and are not merged.
 - venue caw-footprint-otr ("Cincinnati Art Week footprint — Over-the-Rhine storefront galleries") has events but no published point: CAW storefront addresses were not public on 2026-09-24
 - venue blink-ohio-river-drone-show ("Over the Ohio River (drone show)") has events but no published point: BLINK gives only "over the Ohio River"
 - venue court-street-plaza ("Court Street Plaza") has events but no published point: no address or point published
-- venue mercantile-immersive ("The Mercantile Immersive") has events but no published point: no address or point published
 
 ## Research inputs read
 

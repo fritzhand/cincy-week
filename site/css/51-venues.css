@@ -28,6 +28,8 @@
 .venue .roles li { display: flex; align-items: center; gap: 8px; color: var(--text); }
 .venue .today { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; margin: 6px 0 0; font-size: var(--fs-sm); color: var(--text-muted); }
 .venue .acts { position: relative; z-index: 1; display: flex; flex-wrap: wrap; align-items: center; gap: var(--sp-2); margin-top: var(--sp-2); }
+/* QA: the label gets its own line, so the buttons sit together on the next one instead of wrapping one by one */
+.venue .acts .acts-l, .vp-dir .acts-l { flex-basis: 100%; }
 .venue:hover .stall:not(.is-off), .venue.is-hi .stall:not(.is-off) { background: var(--accent-strong); color: var(--accent-contrast); }
 .venue.is-hi { background: var(--surface-alt); box-shadow: inset 3px 0 0 var(--accent); }
 
@@ -38,7 +40,7 @@
 .vn-bar .dir-status { margin: var(--sp-2) 0 var(--sp-3); flex: 1 1 280px; }
 .vn-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; border-bottom: 0; margin-bottom: 0; }
 .vn-head .label { font-family: var(--font-body); }
-.vn-hood-link { margin-left: auto; font-family: var(--font-body); font-size: var(--fs-sm); font-weight: var(--wght-ui); }
+.vn-hood-link { margin-left: auto; display: inline-flex; align-items: center; min-height: var(--tap); font-family: var(--font-body); font-size: var(--fs-sm); font-weight: var(--wght-ui); }
 .vn-group { margin-bottom: var(--sp-6); scroll-margin-top: calc(var(--topbar-h) + var(--sp-4)); }
 .vn-group[hidden] { display: none; }
 .vn-map { display: none; min-width: 0; }

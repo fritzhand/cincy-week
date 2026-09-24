@@ -8,10 +8,12 @@
      node scripts/merge-research.mjs --offline  # never touch the network: cache misses stay unknown
      node scripts/merge-research.mjs --check    # merge + validate, write nothing
 
-   Input:  $CW_RESEARCH or the scratchpad research folder (one folder per slice: scw-agenda,
-           scw-info, blink-art, blink-info, caw, also, news, stay-move). A missing slice file
-           is logged and treated as empty, so a slice under re-verification never breaks a run.
-   Cache:  .cache/geocode.json (Nominatim search + reverse, ≤ 1 request/second,
+   Input:  $CW_RESEARCH, default research/ (the frozen Sep 24, 2026 research snapshot committed in the repo:
+           one folder per slice: scw-agenda, scw-info, blink-art, blink-info, caw, also, news, stay-move),
+           falling back to .cache/research/. Without all eight slice folders the script refuses to run (it would write
+           empty data/ files); --allow-missing overrides that for a slice under re-verification, and a
+           missing file inside a present slice is logged and treated as empty.
+   Cache:  research/geocode.json when present, else .cache/geocode.json (Nominatim search + reverse, ≤ 1 request/second,
            User-Agent "cincy-week-build"). Same research + same cache → byte-identical output.
    Writes: data/{programs,events,people,works,venues,orgs,stays,places,faqs,facts,news,aliases}.json
            and data/README.md (provenance, counts, every merge/drop decision, gaps).
@@ -34,17 +36,28 @@ const REPO = join(dirname(fileURLToPath(import.meta.url)), "..");
 const ARGS = new Set(process.argv.slice(2));
 const OFFLINE = ARGS.has("--offline");
 const CHECK = ARGS.has("--check");
-const RESEARCH = process.env.CW_RESEARCH || "/tmp/claude-0/-home-user/2c073cdf-a360-5298-a94c-59bd6e1e86ef/scratchpad/research";
+const RESEARCH = process.env.CW_RESEARCH || [join(REPO, "research"), join(REPO, ".cache", "research")].find((d) => existsSync(d)) || join(REPO, "research");
+const SLICES = ["scw-agenda", "scw-info", "blink-art", "blink-info", "caw", "also", "news", "stay-move"];
+{ // never turn a missing research folder into empty data/ files (integration pass, 2026-09-24)
+  const missing = SLICES.filter((s) => !existsSync(join(RESEARCH, s)));
+  if (missing.length && !ARGS.has("--allow-missing")) {
+    console.error(`merge-research: the research folder ${RESEARCH} lacks ${missing.join(", ")}.\n` +
+      "The research is not in the repo, so data/*.json is the source of truth: edit it directly (see CLAUDE.md,\n" +
+      "\"Maintaining the site during the week\"). Point CW_RESEARCH at a full copy of the research to regenerate data/,\n" +
+      "or pass --allow-missing to treat the missing slices as empty (that drops their records).");
+    process.exit(2);
+  }
+}
 const DATA = join(REPO, "data");
 const DATA_OUT = process.env.CW_DATA_OUT ? join(REPO, process.env.CW_DATA_OUT) : DATA;   // tests and dry runs write elsewhere
-const CACHE_FILE = join(REPO, ".cache", "geocode.json");
+const CACHE_FILE = [join(REPO, "research", "geocode.json"), join(REPO, ".cache", "geocode.json")].find((f) => existsSync(f)) || join(REPO, ".cache", "geocode.json");
 const CONFIG = JSON.parse(readFileSync(join(REPO, "site.config.json"), "utf8"));
 const WIN = CONFIG.dataWindow;            // { start, end } — anything outside is dropped
 const WEEK = CONFIG.week;                 // { start: 2026-10-03, end: 2026-10-11 }
 const CAPTURE_DATE = "2026-09-24";        // the day every research slice was captured
 
 /* ---------------------------------------------------------------- log ---------------------------------------------------------------- */
-const LOG = { merge: [], drop: [], fix: [], geo: [], gap: [], input: [] };
+const LOG = { merge: [], drop: [], fix: [], geo: [], gap: [], input: [], qa: [] };
 const note = (kind, msg) => LOG[kind].push(msg);
 
 /* ---------------------------------------------------------------- io ---------------------------------------------------------------- */
@@ -124,7 +137,8 @@ function reverse(lat, lng) {
   if (!(k in cache)) {
     let best = null, bd = 25;
     for (const s of seeds()) { const d = haversine({ lat, lng }, s); if (d <= bd) { bd = d; best = s; } }
-    if (best) return best.address;
+    // a seed hit is cached too, so .cache/geocode.json alone reproduces the output (the raw captures are not kept)
+    if (best) { cache[k] = { slim: 1, seed: 1, address: best.address }; cacheDirty = true; return best.address; }
   }
   const r = nominatim(k, `https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=${lat.toFixed(6)}&lon=${lng.toFixed(6)}&zoom=18&addressdetails=1`);
   if (r && r.address && !r.slim) { cache[k] = { slim: 1, address: Object.fromEntries(ADDR_KEYS.filter((x) => r.address[x]).map((x) => [x, r.address[x]])) }; cacheDirty = true; }
@@ -215,6 +229,80 @@ const DROP_TRACKS = new Set(["FotoFocus Biennial 2026: The Long View"]);
 /** People dropped on purpose. */
 const LOCATION_UNLISTED = "Location not listed";
 
+/* ================================================================ QA AUDIT TABLES (data-accuracy audit of 2026-09-24) ================================================================
+   Each entry was checked against the live source on 2026-09-24 and carries its evidence; every applied entry is
+   logged under "QA audit" in data/README.md (the full check list is in .cache/qa-data.md). */
+/** Exhibitions the research dated with the capture day because the page shows only "through …": the published opening. */
+const QA_OPENING = {
+  "also-cac-sarah-rodriguez-homespun": ["2026-07-08", "the CAC's exhibition page is dated \"July 08, 2026\" (title \"Sarah Rodriguez: Homespun | July 08, 2026\"; the CAC dates exhibition pages with their opening day, e.g. SOFTlab's \"October 17, 2024\")", "https://www.contemporaryartscenter.org/visit/exhibitions/2026/07/sarah-rodriguez-homespun"],
+  "also-cac-softlab-gravity-s-rainbow": ["2024-10-17", "the CAC's page is dated \"October 17, 2024\"; Movers & Makers (2024-10-07): \"CAC to unveil gravity-defying installation on Oct. 17\"", "https://moversmakers.org/2024/10/07/cac-to-unveil-gravity-defying-installation-on-oct-17/"],
+  "also-cam-gifts-from-japan": ["2026-06-22", "\"Gifts from Japan will display 18 selected works across two rotations: Rotation 1: June 22-August 24, 2026\" (the museum's announcement as published by Asia Week New York); the CAM page gives only \"Now–October 8, 2026\"", "https://asiaweekny.com/a-celebration-of-japanese-art-at-the-cincinnati-art-museum/"],
+  "also-cmc-lego-jurassic-world-the-exhibition": ["2026-05-22", "CMC press release of May 19, 2026: \"LEGO® Jurassic World: The Exhibition opens this Friday, May 22, at Cincinnati Museum Center\"", "https://www.cincymuseum.org/press/lego-jurassic-world-now-open/"],
+};
+/** Multi-day events whose hours differ by day or skip closed days: the published schedule as occurrences (inside the data window). */
+const QA_OCCURRENCES = {
+  "also-zoo-jack-olantern-glow": {
+    occ: () => daySpan("2026-10-02", WIN.end).filter((d) => !["2026-10-05", "2026-10-12", "2026-10-19"].includes(d))
+      .map((d) => ({ date: d, start: "17:30", end: [2, 3].includes(new Date(`${d}T12:00:00Z`).getUTCDay()) ? "21:00" : "22:00" })),
+    why: "the Zoo's page: \"Closed Monday, October 5, 12 & 19\"; \"Tuesdays & Wednesdays 5:30pm - 9pm … Thursday - Sunday 5:30pm - 10pm\" (the research applied 5:30–10 PM to every day, closed Mondays included)",
+  },
+  "also-tct-mary-poppins-jr": {
+    occ: () => [["2026-10-09", "19:00"], ["2026-10-10", "14:00"], ["2026-10-10", "17:00"], ["2026-10-11", "14:00"], ["2026-10-17", "11:00"], ["2026-10-17", "14:00"], ["2026-10-18", "14:00"]].map(([date, start]) => ({ date, start, end: null })),
+    end_date: "2026-10-25",
+    why: "The Children's Theatre's General Admission Show Times (\"October 9 Friday - 7:00pm; October 10 Saturday - 2:00pm; October 10 Saturday - 5:00pm; October 11 Sunday - 2:00pm; October 17 Saturday - 11:00am …\"; public run through October 25); the research applied 7:00 PM to Oct 10 and 11",
+  },
+  "also-findlay-blink-10-08": {
+    occ: () => [["2026-10-08", "12:30", "23:30"], ["2026-10-09", "12:30", "23:30"], ["2026-10-10", "09:00", "16:00"], ["2026-10-11", "09:00", "16:00"]].map(([date, start, end]) => ({ date, start, end })),
+    why: "Findlay Market's four BLINK pages (schema.org startDate/endDate): Oct 8 and 9 12:30 PM–11:30 PM, Oct 10 and 11 9:00 AM–4:00 PM (the research applied the Thursday hours to all four days)",
+  },
+};
+/** Event fields clarified at the source's own wording. */
+const QA_EVENT_FIX = {
+  "blink-2026-10-08-flip-the-switch": { tags: ["approximate-time"], why: "BLINK gives the time as \"approximately 7:00 p.m.\" (\"As the sun sets\"); the tag marks the start as approximate until the card can print \"About 7:00 PM\"" },
+};
+/** NO GRID agenda slots whose stop Eventbrite names only "Location #2/#3": say that the venue is not named. */
+const QA_LOCATION_LABEL = (t) => (/^Location #\d+$/.test(t || "") ? `NO GRID ${t} (venue not named by the organizers)` : t);
+/** Research people who are not program participants on the evidence, or whose name was guessed. */
+const QA_PERSON_DROP = {
+  "caw:brandon-hill": "only on the unlisted cincinnatiartweek.com/artists draft, a template whose \"Brandon Hill\" card repeats 8 times with placeholder images; not confirmed as a 2026 participant",
+  "caw:isaiah-armstrong": "only on the same unlisted template draft (links to a 404 page); not confirmed as a 2026 participant",
+  "caw:daniel-iroh": "on the same template draft (image placeholder \"YOUR-DANIEL-IMAGE-URL\") and pictured in the sponsorship deck; participation not confirmed",
+  "caw:andrea-sabugo": "credited only for photographs on CAW's homepage and in Cincinnati Magazine; a photo credit is not Art Week participation (she stays a FotoFocus \"Cultural Ties\" artist)",
+};
+const QA_PERSON_FIX = {
+  "bailey-elderberry": {
+    id: "bailey-elder", name: "Bailey Elder", title: null, location: "Ludlow, Kentucky",
+    links: { website: "https://bailey-elder.com/", instagram: "https://www.instagram.com/baileyelderberry/" }, also: ["https://bailey-elder.com/about"],
+    why: "the research turned the Instagram handle @baileyelderberry into the name \"Bailey Elderberry\"; the artist's own site (\"Info - Bailey Elder\", \"I am an artist living in Ludlow, Kentucky\") links instagram.com/baileyelderberry",
+  },
+};
+/** Venue facts missing from the research, from the venue's own page. */
+const QA_VENUE_FIX = {
+  "mercantile-immersive": { address: "120 E 4th St", city: "Cincinnati", state: "OH", zip: "45202", url: "https://mercantileimmersive.com/", why: "the venue's contact page gives \"120 E 4th St, Cincinnati, OH 45202\" (https://mercantileimmersive.com/contact/); BLINK names the venue without an address" },
+};
+/** The guide's "Findlay Market" neighborhood is the market and its blocks (places.json findlay-market-district: "Findlay Market, at
+ *  1801 Race Street … The surrounding blocks (Elder, Race and Elm streets)"). Records named for the market within 250 m of the market
+ *  house belong to it, not to Over-the-Rhine at large (the venue and its merchants were split from BLINK's Findlay Market zone). */
+const QA_FINDLAY = { hood: "findlay-market-district", at: { lat: 39.115645, lng: -84.518353 }, m: 250 };
+const qa = (msg) => note("qa", msg);
+/* ---- integration pass (2026-09-24): research asides that reached the page as if they were the organizers' words ---- */
+/** Ticket notes that are the researcher's notes, not the organizers' text: kept in `notes` (never rendered). Every other
+ *  ticket's notes are the organizer's own wording and become `details` (the "Details" column on program pages). */
+const QA_TICKET_RESEARCH_NOTES = {
+  "Guided BLINK walk with Urban Hikers": "a summary of two pages (Urban Hikers and BLINK Walking Tours), not one source's words",
+  "LAZ Parking reserved spaces": "a note about the capture (\"not captured\"), not the operator's text",
+  "NO GRID: A Creative Conversation Series (Wed Oct 7) — free RSVP": "Eventbrite sale dates and organizer as noted by the researcher",
+};
+/** FAQ group labels that carry a research aside in parentheses: the source's own heading. */
+const QA_FAQ_TOPIC = {
+  "About StartupCincy FAQ (startupcincy.com)": "About StartupCincy FAQ",
+  "Startup Fellows Program FAQ (Cintrifuse; the Student Pitch Competition prize is a Builder Fellows spot)": "Startup Fellows Program FAQ",
+};
+/** Venue names with a typo in one source that another source by the same organizer spells correctly. */
+const QA_VENUE_NAME = {
+  "daap-galleries-reed-gallery": ["DAAP Galleries: Reed Gallery", "FotoFocus's venue announcement (fotofocus.org, 2026-06-16) writes \"DAAP Galleries: Reed Gallery\"; the double colon comes from its map widget"],
+};
+
 /* ================================================================ VENUES (pass 1: merge) ================================================================ */
 const venueSlices = [
   ["scw-info", R.scwInfoVenues], ["scw-agenda", R.scwAgendaVenues], ["caw", R.cawVenues], ["blink-art", R.blinkArtVenues], ["also", R.alsoVenues], ["stay-move", R.smVenues],
@@ -240,6 +328,7 @@ for (const [k, parts] of venueParts) if (parts.length > 1) {
 
 /* ================================================================ PEOPLE (pass 1: index every research person) ================================================================ */
 const personRemap = new Map(PERSON_MERGES.map(([keep, drop]) => [drop, keep]));
+for (const [from, f] of Object.entries(QA_PERSON_FIX)) personRemap.set(from, f.id);
 const pid = (id) => (id ? personRemap.get(id) || id : null);
 
 /* ================================================================ ORGS ================================================================ */
@@ -377,7 +466,10 @@ for (const e of R.blinkEvents) {
 // --- Cincinnati Art Week (draft schedule page + NO GRID on Eventbrite)
 for (const e of R.cawEvents) {
   const ev = evBase(e, "caw");
-  if (!ev.venue_id && ev.room && /^Location #\d+$/.test(ev.room)) { ev.location_text = ev.room; ev.room = null; }
+  if (!ev.venue_id && ev.room && /^Location #\d+$/.test(ev.room)) {
+    ev.location_text = QA_LOCATION_LABEL(ev.room); ev.room = null;
+    qa(`event ${ev.id}: location "${e.room}" → "${ev.location_text}" (Eventbrite's agenda names the stop only "${e.room}"; the three spaces are named on Instagram without saying which is which)`);
+  }
   pushEvent(ev);
 }
 
@@ -387,8 +479,14 @@ for (const e of R.alsoEvents) {
   const raw = e;
   let date = e.date;
   const ev = evBase({ ...e, date: date || null }, "also");
-  if (!date && e.end_date) {
+  if (!date && e.end_date && QA_OPENING[e.id]) {
+    const [open, why, src] = QA_OPENING[e.id];
+    ev.date = open;
+    ev.notes = [ev.notes, `Opening date ${open}: ${why} (${src}).`].filter(Boolean).join(" ");
+    qa(`event ${e.id}: opening date ${open} (was the research capture date ${CAPTURE_DATE}, which the pages printed as the start of the run): ${why}`);
+  } else if (!date && e.end_date) {
     // "On view through Oct 4" / "Now–October 8": the page showed it on view on the capture date; the opening date is not published
+    note("gap", `event ${e.id}: no published opening date; the capture date ${CAPTURE_DATE} stands in and pages will print it as the start of the run`);
     ev.date = CAPTURE_DATE;
     ev.notes = [ev.notes, `Opening date not published; date is the research capture date (${CAPTURE_DATE}), when the page listed it as on view.`].filter(Boolean).join(" ");
     note("fix", `event ${e.id}: no opening date ("${e.time_text}") → date ${CAPTURE_DATE} (capture date, on view then), end ${e.end_date}`);
@@ -422,6 +520,23 @@ for (const e of R.alsoEvents) {
   }
 }
 for (const id of FEATURED) { const e = events.find((x) => x.id === id); if (e) e.featured = true; else note("gap", `featured event ${id} not found in this run`); }
+// QA audit: published per-day schedules and field clarifications
+for (const [id, fx] of Object.entries(QA_OCCURRENCES)) {
+  const e = events.find((x) => x.id === id);
+  if (!e) { note("gap", `QA occurrences: event ${id} not found in this run`); continue; }
+  const before = e.occurrences ? `${e.occurrences.length} occurrences` : `${e.date}–${e.end_date || e.date} ${e.start || "?"}–${e.end || "?"} every day`;
+  e.occurrences = fx.occ().filter((o) => inWindow(o.date));
+  if (fx.end_date) e.end_date = fx.end_date;
+  e.start = e.occurrences[0].start; e.end = e.occurrences[0].end;
+  e.notes = [e.notes, `Occurrences (QA audit 2026-09-24): ${fx.why}.`].filter(Boolean).join(" ");
+  qa(`event ${id}: ${before} → ${e.occurrences.length} dated occurrences inside the window: ${fx.why}`);
+}
+for (const [id, fx] of Object.entries(QA_EVENT_FIX)) {
+  const e = events.find((x) => x.id === id);
+  if (!e) { note("gap", `QA event fix: event ${id} not found in this run`); continue; }
+  if (fx.tags) e.tags = uniq([...e.tags, ...fx.tags]);
+  qa(`event ${id}: tags + ${(fx.tags || []).join(", ")}: ${fx.why}`);
+}
 for (const e of events) for (const p of e.people) { if (!peopleRefs.has(p)) peopleRefs.set(p, new Set()); peopleRefs.get(p).add(e.id); }
 
 /* ================================================================ WORKS ================================================================ */
@@ -472,17 +587,22 @@ const evOverlapsWeek = (ev) => (ev.occurrences ? ev.occurrences.some((o) => over
 const peopleOut = new Map();             // kept id → record
 const personSlices = new Map();
 function addPerson(sl, p) {
+  if (QA_PERSON_DROP[`${sl}:${p.id}`]) { qa(`person ${sl}:${p.id} ("${p.name}") dropped: ${QA_PERSON_DROP[`${sl}:${p.id}`]}`); return; }
   const id = pid(p.id);
   const links = {};
   for (const k of ["website", "instagram", "linkedin", "x", "facebook", "tiktok", "youtube", "threads", "bluesky"]) { const u = https(p.links?.[k]); if (u) links[k] = u; }
   const rec = peopleOut.get(id);
   const headshot = p.headshot_is_group ? null : https(p.headshot_url);
   if (p.headshot_is_group) note("fix", `person ${id}: headshot is a group photo → null`);
+  const bioSrc = txt(p.bio) ? https(p.bio_source_url) : null;   // where the bio was published when that is not the record's source page
   if (!rec) {
+    const fx = QA_PERSON_FIX[p.id];
+    if (fx) qa(`person ${sl}:${p.id} → **${fx.id}**, name "${p.name}" → "${fx.name}": ${fx.why}`);
     peopleOut.set(id, {
-      id, name: txt(p.name), sort_name: null, roles: uniq((p.roles || []).filter((r) => PERSON_ROLES.includes(r))), programs: uniq((p.programs || []).filter((x) => PROGRAM_IDS.includes(x))),
-      title: id in TITLE_FIX ? TITLE_FIX[id] : txt(p.title), org: txt(p.org), org_id: null, bio: txt(p.bio, `people#${id}.bio`), headshot_url: headshot, location: txt(p.location), pronouns: null,
-      links, also_sources: [], source_url: https(p.source_url), notes: txt(p.notes),
+      id, name: fx ? fx.name : txt(p.name), sort_name: null, roles: uniq((p.roles || []).filter((r) => PERSON_ROLES.includes(r))), programs: uniq((p.programs || []).filter((x) => PROGRAM_IDS.includes(x))),
+      title: fx ? fx.title : id in TITLE_FIX ? TITLE_FIX[id] : txt(p.title), org: txt(p.org), org_id: null, bio: txt(p.bio, `people#${id}.bio`), headshot_url: headshot, location: fx?.location ?? txt(p.location), pronouns: null,
+      links: { ...links, ...(fx?.links || {}) }, also_sources: uniq([bioSrc, ...(fx?.also || [])].filter((u) => u && u !== https(p.source_url))), source_url: https(p.source_url),
+      notes: txt([p.notes, fx ? `QA audit 2026-09-24: ${fx.why}.` : null, bioSrc ? `Bio from ${bioSrc}.` : null].filter(Boolean).join(" ")),
     });
     personSlices.set(id, [`${sl}:${p.id}`]);
     return;
@@ -496,9 +616,11 @@ function addPerson(sl, p) {
   rec.roles = uniq([...rec.roles, ...(p.roles || []).filter((r) => PERSON_ROLES.includes(r))]);
   rec.programs = uniq([...rec.programs, ...(p.programs || []).filter((x) => PROGRAM_IDS.includes(x))]);
   if (!(id in TITLE_FIX)) rec.title ??= txt(p.title);
+  const bioFromHere = !rec.bio && !!txt(p.bio);
   rec.org ??= txt(p.org); rec.bio ??= txt(p.bio); rec.headshot_url ??= headshot; rec.location ??= txt(p.location);
   for (const [k, u] of Object.entries(links)) rec.links[k] ??= u;
   const s = https(p.source_url); if (s && s !== rec.source_url) rec.also_sources = uniq([...rec.also_sources, s]);
+  if (bioSrc && bioFromHere && bioSrc !== rec.source_url) rec.also_sources = uniq([...rec.also_sources, bioSrc]);
 }
 // SCW speakers, CAW team + artists, BLINK leadership: every record is kept
 for (const p of R.scwAgendaPeople) addPerson("scw-agenda", p);
@@ -582,6 +704,21 @@ for (const [k, parts] of venueParts) {
     fp.lat = round6(num(pl.lat)); fp.lng = round6(num(pl.lng));
     note("geo", `venue ${fp.id}: no published point; pinned at TQL Stadium (${fp.lat}, ${fp.lng}), which the footprint surrounds (BLINK FAQ; research/blink-info place blink-ready-set-blink-footprint)${tql ? "" : ""}`);
   }
+}
+for (const [id, fx] of Object.entries(QA_VENUE_FIX)) {
+  const v = venues.find((x) => x.id === id);
+  if (!v) { note("gap", `QA venue fix: venue ${id} not found in this run`); continue; }
+  for (const k of ["address", "city", "state", "zip", "url"]) if (fx[k] && !v[k]) v[k] = fx[k];
+  v.notes = txt([v.notes, `Address (QA audit 2026-09-24): ${fx.why}.`].filter(Boolean).join(" "));
+  qa(`venue ${id}: address "${fx.address}, ${fx.city}, ${fx.state} ${fx.zip}" added: ${fx.why}`);
+}
+for (const [id, [name, why]] of Object.entries(QA_VENUE_NAME)) {
+  const v = venues.find((x) => x.id === id);
+  if (!v) { note("gap", `QA venue name: venue ${id} not found in this run`); continue; }
+  if (v.name === name) continue;
+  qa(`venue ${id}: name "${v.name}" → "${name}": ${why}`);
+  v.aliases = uniq([...(v.aliases || []), v.name]);
+  v.name = name;
 }
 // geocode venues that have a street address but no coordinates (house/building-level hits only)
 for (const v of venues) {
@@ -746,15 +883,30 @@ for (const p of places) {
   const { hood, suburb } = hoodFromOsm(reverse(p.lat, p.lng));
   p.hood = hood || (suburb && extraHoodIds.get(suburb)) || null;
 }
+// QA audit: the Findlay Market neighborhood holds the market and its merchants (QA_FINDLAY)
+if (places.some((p) => p.id === QA_FINDLAY.hood && p.kind === "neighborhood")) {
+  const moved = [];
+  for (const [f, arr] of [["venue", venues], ["place", places], ["stay", stays]]) for (const r of arr) {
+    if (r.kind === "neighborhood" || r.lat === null || r.hood === QA_FINDLAY.hood) continue;
+    if (!/findlay market/i.test(r.name) && !/^findlay-/.test(r.id)) continue;
+    if (haversine(QA_FINDLAY.at, r) > QA_FINDLAY.m) continue;
+    moved.push(`${f} ${r.id} (${r.hood || "none"})`);
+    r.hood = QA_FINDLAY.hood;
+    if (f === "venue") r.neighborhood = null;   // the hood is authoritative; the research's "Over-the-Rhine" would contradict it
+  }
+  if (moved.length) qa(`hood → ${QA_FINDLAY.hood} for ${moved.length} records named for Findlay Market within ${QA_FINDLAY.m} m of the market house (the neighborhood the guide defines by the market): ${moved.join(", ")}`);
+}
 
 /* ================================================================ FAQS ================================================================ */
 const faqs = [];
 const faqIds = new Set();
+const faqTopicLogged = new Set();
 function addFaq(program, f, topic) {
   if (/carried over from BLINK 2024|unconfirmed for 2026/i.test(f.notes || "")) { note("drop", `faq ${program}: "${f.q}": ${f.notes}`); return; }
   let id = `${program}-${toId(f.q, 60)}`;
   for (let n = 2; faqIds.has(id); n++) id = `${program}-${toId(f.q, 56)}-${n}`;
   faqIds.add(id);
+  if (topic && QA_FAQ_TOPIC[topic]) { if (!faqTopicLogged.has(topic)) { faqTopicLogged.add(topic); qa(`FAQ topic "${topic}" → "${QA_FAQ_TOPIC[topic]}" (the parenthesis was a research aside)`); } topic = QA_FAQ_TOPIC[topic]; }
   faqs.push({ id, program, topic: txt(topic), q: txt(f.q), a: txt(f.a, `faqs#${id}.a`), source_url: https(f.source_url), notes: txt(f.notes) });
 }
 for (const f of R.cawFaqs) addFaq("caw", f, null);
@@ -773,7 +925,11 @@ const hist = (arr) => (arr || []).filter((h) => h && Number.isInteger(h.year) &&
   return { year: h.year, fact: out, source_url: https(h.source_url) };
 });
 for (const p of [R.scwProgram, R.blinkProgram, R.cawProgram, ...R.alsoPrograms].filter(Boolean)) for (const h of p.history || []) if (h.verified === false) note("drop", `program ${p.id} history ${h.year}: unverified (${h.note || "no note"})`);
-const tickets = (arr) => (arr || []).filter((t) => t && t.name).map((t) => ({ name: txt(t.name), price: t.price === null || t.price === undefined ? null : txt(String(t.price)), url: https(t.url), notes: txt(t.notes) }));
+const tickets = (arr) => (arr || []).filter((t) => t && t.name).map((t) => {
+  const name = txt(t.name), research = QA_TICKET_RESEARCH_NOTES[name];
+  if (research && t.notes) qa(`ticket "${name}": notes kept as research notes, not shown (${research})`);
+  return { name, price: t.price === null || t.price === undefined ? null : txt(String(t.price)), url: https(t.url), details: research ? null : txt(t.notes), notes: research ? txt(t.notes) : null };
+});
 const themes = (arr) => (arr || []).filter((t) => t.date && t.theme).map((t) => ({ date: t.date, theme: txt(t.theme), highlights: (t.highlights || []).map((x) => txt(x)).filter(Boolean) }));
 const logo = (l) => (l && https(l.url) && /\.(svg|png|jpe?g|webp)(\?|$)/i.test(l.url) ? { url: https(l.url), format: ["svg", "png", "jpg", "webp"].includes(l.format) ? l.format : null, on: ["light", "dark"].includes(l.on) ? l.on : null } : null);
 const brand = (b) => (b ? { colors: (b.colors || []).map(String), fonts: (b.fonts || []).map((f) => txt(f)).filter(Boolean) } : null);
@@ -959,7 +1115,7 @@ function readme() {
     "node scripts/merge-research.mjs --check         # validate without writing",
     "CW_OUT=.cache/out-c node build.mjs              # private build (never a plain build while agents work)",
     "```", "",
-    `Research input: \`$CW_RESEARCH\` (default \`${RESEARCH}\`), one folder per slice. Geocoding cache:`,
+    "Research input: `$CW_RESEARCH` (default `.cache/research/`, a local copy that is not in the repo), one folder per slice. Geocoding cache:",
     "`.cache/geocode.json` (OpenStreetMap Nominatim, ≤ 1 request/second, User-Agent `cincy-week-build`).", "",
     "## Counts", "", `| file | ${PROGRAM_IDS.join(" | ")} | total |`, `|---|${PROGRAM_IDS.map(() => "---:").join("|")}|---:|`,
     row("events", C.events, eventsOut.length), row("works", C.works, worksOut.length), row("people (by program)", C.people, peopleList.length),
@@ -1003,6 +1159,12 @@ function readme() {
     `- Merged person ids: ${PERSON_MERGES.map(([k, d]) => `\`${d}\` → \`${k}\``).join(", ")}. An images.json entry under the old id is no longer used.`,
     "");
   const sec = (title, arr) => { L.push(`## ${title}`, ""); if (!arr.length) L.push("None.", ""); else { for (const x of arr) L.push(`- ${x}`); L.push(""); } };
+  L.push("## QA audit (2026-09-24)", "",
+    "A data-accuracy audit re-checked records against the live sources (every StartupCincy Week session time, every BLINK and Art Week",
+    "event, 31 FotoFocus and 25 other events, 25 people plus all 242 headshots, BLINK work points, 87 venue addresses, all 120 logos, both",
+    "room blocks, facts and news). These corrections come from its named tables in the script (`QA_*`), each with its evidence:", "");
+  for (const x of LOG.qa) L.push(`- ${x}`);
+  L.push("", "Also fixed outside data/: `site/js/lib/time.js` `fmtDateRange` names both years for runs of a year or more (\"Aug 28–13\" was printed for Aug 28, 2026–Aug 13, 2027), and page copy that claimed \"every\" session or called all stays hotels. The full check list is in `.cache/qa-data.md` (not committed).", "");
   sec("Merges and deduplication", LOG.merge);
   sec("Dropped on purpose", LOG.drop);
   sec("Corrections and normalizations", LOG.fix);
@@ -1012,7 +1174,7 @@ function readme() {
     `StartupCincy Week: the agenda publishes no room or venue for most sessions ("${LOCATION_UNLISTED}"); only ${eventsOut.filter((e) => e.program === "scw" && e.venue_id).length} SCW events have a venue from their own text or an official host page. Speaker roles (moderator vs panelist) are not published, so SCW events carry no people_roles.`,
     `BLINK: Ready. Set. BLINK! performers and the Asianati Night Market's Thursday performances are not announced; ${worksOut.filter((w) => w.program === "blink" && !w.description).length} of ${worksOut.filter((w) => w.program === "blink").length} works have no description and ${worksOut.filter((w) => w.program === "blink" && !w.image_url).length} no image yet; ${worksOut.filter((w) => w.program === "blink" && /description_is_artist_bio/.test(w.notes || "")).length} works publish the artist's biography as their description (flagged in notes).`,
     "FotoFocus: most exhibition hours are venue hours, not listed per exhibition (events are all-day, \"hours not listed\"). Venues in Dayton and Columbus are listed but fall outside the map region.",
-    "research/*/REPORT.md files were not present in the research folder when this ran; provenance above comes from the JSON records and their notes.",
+    "Each research slice documents its capture and verification in research/<slice>/REPORT-extract.md (and REPORT-verify.md where a verification pass ran); provenance above also comes from the JSON records and their notes.",
     ...LOG.gap,
   ]);
   sec("Research inputs read", LOG.input);

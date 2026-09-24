@@ -1,0 +1,478 @@
+[
+  {
+    "id": "caw-opp-musicians-buskers-and-performances",
+    "program": "caw",
+    "title": "MUSICIANS, BUSKERS, & PERFORMANCES",
+    "status": "OPEN",
+    "card_class": [
+      "open"
+    ],
+    "when_where": "OCT. 3-10 · OVER-THe-RHINE",
+    "description": "We're looking for musicians and performers to bring a little extra energy to the streets during Friday of Cincinnati Art Week",
+    "compensation": "PAID OPPORTUNITY",
+    "how_to_apply": null,
+    "cta": "I'M INTERESTED →",
+    "apply_url": "mailto:team@cincinnatiartweek.com?subject=CAW%20Buskers",
+    "deadline": null,
+    "source_url": "https://cincinnatiartweek.com/opportunities",
+    "notes": "Card text targets \"Friday of Cincinnati Art Week\" (Oct 9) although the meta line says Oct. 3-10. The mailto link on the site is malformed (\"mailto:mailto:\"); corrected here.",
+    "page_intro": "PAID OPPORTUNITIES ARTISTS MAKE ART WEEK. Help bring Cincinnati Art Week to life. New opportunities will be added as they become available. Stay tuned to social media for announcements.",
+    "page_visibility": "The /opportunities page is linked from the nav (\"Artist Opps\") but is flagged display:false in Cargo (reachable by URL)."
+  },
+  {
+    "id": "caw-opp-gallery-hosts",
+    "program": "caw",
+    "title": "GALLERY HOSTS",
+    "status": "OPEN",
+    "card_class": [
+      "open"
+    ],
+    "when_where": "OCT. 3–10 · OVER-THE-RHINE",
+    "description": "Welcome visitors into Cincinnati Art Week’s temporary galleries, learn about participating artists and help people discover what’s happening throughout the week.",
+    "compensation": "$17/HOUR APPROX. 25–35 HOURS PAID ORIENTATION",
+    "how_to_apply": null,
+    "cta": "APPLY →",
+    "apply_url": "https://form.typeform.com/to/Pfl8Y3jI",
+    "deadline": null,
+    "source_url": "https://cincinnatiartweek.com/opportunities",
+    "form": {
+      "title": "Gallery Host Application",
+      "intro": "Welcome to the Gallery Host Application!\n\nRole: Gallery Host Application\nDates: October 3–10, 2026 · Over-the-Rhine, Cincinnati\nPay: $17/hour · Approx. 25–35 hours · Paid orientation\n\nDescription:\n\nGallery Hosts are the welcoming face of Cincinnati Art Week’s temporary galleries throughout Over-the-Rhine. Hosts will greet visitors, learn about the artists and exhibitions in their assigned space, answer basic questions, support art sales, and help guests navigate and discover what’s happening across Cincinnati Art Week.\n\nWe’re looking for friendly, reliable and curious people who enjoy connecting with others and can help create a warm, welcoming experience. _Experience in arts, events, hospitality or customer service is a plus, but no arts experience is required._",
+      "fields": [
+        {
+          "q": "Full name",
+          "type": "short_text"
+        },
+        {
+          "q": "Email address",
+          "type": "email"
+        },
+        {
+          "q": "Phone number",
+          "type": "phone_number"
+        },
+        {
+          "q": "Tell us a little about yourself.",
+          "type": "short_text",
+          "help": "A few sentences is great!"
+        },
+        {
+          "q": "What interests you about being a Gallery Host for Cincinnati Art Week?",
+          "type": "short_text"
+        },
+        {
+          "q": "Do you have any experience in hospitality, events, retail, galleries, museums, or other public-facing work?",
+          "type": "long_text"
+        },
+        {
+          "q": "Which days are you available during Art Week? Select all that apply.",
+          "type": "multiple_choice",
+          "choices": [
+            "October 3 (4-7PM)",
+            "October 4 (12-6PM)",
+            "October 5 (4-7PM)",
+            "October 6 (4-7PM)",
+            "October 7 (12-4PM / 4-7PM)",
+            "October 8 (12-4PM / 4-7PM)",
+            "October 9 (12-4PM / 4-7PM)",
+            "October 10 (12-4PM / 4-7PM)"
+          ]
+        },
+        {
+          "q": "Can you attend a paid orientation on September 27 or 29th before Cincinnati Art Week?",
+          "type": "yes_no"
+        },
+        {
+          "q": "Anything else we should know?",
+          "type": "long_text"
+        }
+      ],
+      "url": "https://form.typeform.com/to/Pfl8Y3jI"
+    },
+    "notes": "Paid orientation dates from the Typeform: \"September 27 or 29th\" (before Art Week).",
+    "page_intro": "PAID OPPORTUNITIES ARTISTS MAKE ART WEEK. Help bring Cincinnati Art Week to life. New opportunities will be added as they become available. Stay tuned to social media for announcements.",
+    "page_visibility": "The /opportunities page is linked from the nav (\"Artist Opps\") but is flagged display:false in Cargo (reachable by URL)."
+  },
+  {
+    "id": "caw-opp-street-team-installation-support-ambassadors",
+    "program": "caw",
+    "title": "STREET TEAM + INSTALLATION SUPPORT+ AMBASSADORS",
+    "status": "OPEN",
+    "card_class": [
+      "open"
+    ],
+    "when_where": "Now - OCT. 10 · OVER-THE-RHINE",
+    "description": "Help Art Week hit the streets. Distribute posters & materials pre-event and during Art Week help guide visitors toward the galleries, Hub, Art Market and Opening Day activities.",
+    "compensation": "VOLUNTEER OPPORTUNITIES",
+    "how_to_apply": null,
+    "cta": "RAISE YOUR HAND →",
+    "apply_url": "https://form.typeform.com/to/QEEeFOXO",
+    "deadline": null,
+    "source_url": "https://cincinnatiartweek.com/opportunities",
+    "form": {
+      "title": "Volunteer Form",
+      "intro": "Cincinnati Art Week Volunteer Interest Form\n\nCincinnati Art Week is happening October 3–10, 2026, in Over-the-Rhine. We’d love your support distributing posters, helping welcome visitors, assisting with fun events and creative programming, and lending a hand wherever you can ahead of and throughout the week. Let us know a bit about you below!",
+      "fields": [
+        {
+          "q": "What’s your full name?",
+          "type": "short_text"
+        },
+        {
+          "q": "What’s your email address?",
+          "type": "email"
+        },
+        {
+          "q": "What’s the best phone number to reach you?",
+          "type": "phone_number"
+        },
+        {
+          "q": "How would you like to help?",
+          "type": "multiple_choice",
+          "choices": [
+            "Street team / getting the word out",
+            "Welcome + visitor support",
+            "Events + programming",
+            "Art-making activities / Make It Day",
+            "Setup + installation",
+            "Wherever you need me!"
+          ]
+        },
+        {
+          "q": "When are you generally available?",
+          "type": "multiple_choice",
+          "choices": [
+            "Before Art Week",
+            "Opening weekend",
+            "Weekdays",
+            "Evenings",
+            "Closing weekend"
+          ]
+        },
+        {
+          "q": "Anything else you’d like us to know?",
+          "type": "long_text",
+          "help": "Share any extra thoughts or details (optional)."
+        }
+      ],
+      "url": "https://form.typeform.com/to/QEEeFOXO"
+    },
+    "page_intro": "PAID OPPORTUNITIES ARTISTS MAKE ART WEEK. Help bring Cincinnati Art Week to life. New opportunities will be added as they become available. Stay tuned to social media for announcements.",
+    "page_visibility": "The /opportunities page is linked from the nav (\"Artist Opps\") but is flagged display:false in Cargo (reachable by URL)."
+  },
+  {
+    "id": "caw-opp-chalk-art-wayfinding",
+    "program": "caw",
+    "title": "CHALK ART WAYFINDING",
+    "status": "OPEN",
+    "card_class": [
+      "open"
+    ],
+    "when_where": "ONE-DAY CREATIVE PROJECT",
+    "description": "Help bring the Cincinnati Art Week bird to the streets of OTR through temporary chalk artwork.",
+    "compensation": "PAID OPPORTUNITY",
+    "how_to_apply": null,
+    "cta": "EMAIL US →",
+    "apply_url": "mailto:team@cincinnatiartweek.com?subject=CAW%20Chalk%20Wayfinding",
+    "deadline": null,
+    "source_url": "https://cincinnatiartweek.com/opportunities",
+    "page_intro": "PAID OPPORTUNITIES ARTISTS MAKE ART WEEK. Help bring Cincinnati Art Week to life. New opportunities will be added as they become available. Stay tuned to social media for announcements.",
+    "page_visibility": "The /opportunities page is linked from the nav (\"Artist Opps\") but is flagged display:false in Cargo (reachable by URL)."
+  },
+  {
+    "id": "caw-opp-documentation-storytelling",
+    "program": "caw",
+    "title": "DOCUMENTATION + STORYTELLING",
+    "status": "OPEN",
+    "card_class": [
+      "ongoing"
+    ],
+    "when_where": "Now - OCT. 10 · SELECT ASSIGNMENTS",
+    "description": "Photographer, filmmaker, writer or social storyteller? We’ll have a handful of paid assignments documenting the people, artwork, street life and unexpected moments of Art Week.",
+    "compensation": "We’ll have a handful of paid assignments",
+    "how_to_apply": "Send us a quick introduction + a link to your work. We’ll reach out directly with any project opportunities.",
+    "cta": "EXPRESS INTEREST →",
+    "apply_url": "mailto:team@cincinnatiartweek.com?subject=CAW%20Documentation%20%2B%20Storytelling",
+    "deadline": null,
+    "source_url": "https://cincinnatiartweek.com/opportunities",
+    "notes": "Compensation quoted from the card description (the card has no separate pay line); rates not published.",
+    "page_intro": "PAID OPPORTUNITIES ARTISTS MAKE ART WEEK. Help bring Cincinnati Art Week to life. New opportunities will be added as they become available. Stay tuned to social media for announcements.",
+    "page_visibility": "The /opportunities page is linked from the nav (\"Artist Opps\") but is flagged display:false in Cargo (reachable by URL)."
+  },
+  {
+    "id": "caw-opp-make-it-facilitators",
+    "program": "caw",
+    "title": "MAKE IT FACILITATORS",
+    "status": "OPEN",
+    "card_class": [
+      "open"
+    ],
+    "when_where": "OCT. 4 · HANDS-ON SUNDAY",
+    "description": "We’re looking for six-eight artists and makers to lead art-making workshop and hand’s on creative experiences during our community day.",
+    "compensation": null,
+    "how_to_apply": "Send us a quick introduction + a quick proposal/description of your workshop or hand’s on experience.",
+    "cta": "SEND US A NOTE →",
+    "apply_url": "mailto:team@cincinnatiartweek.com?subject=MakeItFacilitators",
+    "deadline": null,
+    "source_url": "https://cincinnatiartweek.com/opportunities",
+    "page_intro": "PAID OPPORTUNITIES ARTISTS MAKE ART WEEK. Help bring Cincinnati Art Week to life. New opportunities will be added as they become available. Stay tuned to social media for announcements.",
+    "page_visibility": "The /opportunities page is linked from the nav (\"Artist Opps\") but is flagged display:false in Cargo (reachable by URL)."
+  },
+  {
+    "id": "caw-opp-share-an-idea-artist-submission",
+    "program": "caw",
+    "title": "Create — storefront activation, exhibition or collaboration (\"CAW Artist Submission\")",
+    "status": null,
+    "card_class": [],
+    "when_where": "Oct 3–10 · Over-the-Rhine",
+    "description": "Have a storefront activation, exhibition, or collaboration in mind? Community Note: While we're not commissioning original projects this year, we're excited to connect artists with spaces and help amplify creative activity that aligns with Cincinnati Art Week.",
+    "compensation": "Unpaid — \"Project funds are not currently available.\" / \"Cincinnati Art Week does not offer grants or financial support at this time.\"",
+    "how_to_apply": "Typeform submission",
+    "cta": "We'd love to hear it.",
+    "apply_url": "https://form.typeform.com/to/al5J4SzB",
+    "deadline": null,
+    "eligibility": "To be listed as an \"Art Stop\", the project must be located in Over-the-Rhine and open during CAW hours: 12-8p, Oct 3-10th (per form). Participation is subject to curation.",
+    "form": {
+      "title": "CAW Artist Submission",
+      "intro": "Hello! Thanks for reaching out to Cincinnati Art Week.\n\nHave an idea? Want to share an art happening or experience you're already planning? Has Cincinnati Art Week inspired an idea you'd want to activate? We'd love to connect!\n\nPLEASE READ\n\nThis year Cincinnati Art Week will take place in the neighborhood of Over-the-Rhine from October 3-10. We are activating storefronts, showcasing independent artists, and hosting programming & creative gatherings.\n\nCincinnati Art Week believes it's merrier with more and good ideas like company.\n\nIn this spirit, we want to facilitate as much artistic activity, highlight as many local and emerging artists, and create a welcoming atmosphere. Project funds are not currently available. We would love to get to know you, explore ideas, matchmake where possible, provide visibility if helpful, and generally see how we can support making great ideas possible.",
+      "fields": [
+        {
+          "group": "Welcome to Cincinnati Art Week",
+          "description": "Let's get acquainted..."
+        },
+        {
+          "q": "First name",
+          "type": "short_text"
+        },
+        {
+          "q": "Last name",
+          "type": "short_text"
+        },
+        {
+          "q": "Phone number",
+          "type": "phone_number"
+        },
+        {
+          "q": "Email",
+          "type": "email"
+        },
+        {
+          "q": "We'd love to hear your ideas for Cincinnati Art Week ...",
+          "type": "multiple_choice",
+          "choices": [
+            "I have an art happening or experience I am planning Oct 3-10th that I’d like to submit to be a part of Cincinnati Art Week.",
+            "I have a formulated concept proposal I’d like to share as a part of CAW.",
+            "I have an idea, something I’d like to see, a dream collaboration, or something I think someone else should make happen."
+          ]
+        },
+        {
+          "group": "I have an art happening or experience I am planning Oct 3-10th that I’d like to submit to be a part of Cincinnati Art Week.",
+          "description": "We'd love to hear about it!"
+        },
+        {
+          "q": "Project Title:",
+          "type": "long_text"
+        },
+        {
+          "q": "What type of art experience are you proposing for Cincinnati Art Week?",
+          "type": "dropdown",
+          "choices": [
+            "Exhibition",
+            "Installation",
+            "Performance",
+            "Pop-up",
+            "Workshop / Talk",
+            "Event / Opening",
+            "Other"
+          ]
+        },
+        {
+          "q": "Description of What You’re Presenting",
+          "type": "long_text",
+          "help": "Tell us what visitors will experience. (No jargon please -- we’re looking for how you imagine people interacting in your work. Why will they want to come? How will they feel? What opportunities will be created for connecting with others?)"
+        },
+        {
+          "q": "Instagram handle or profile link",
+          "type": "website"
+        },
+        {
+          "q": "If you have a website, please list below:",
+          "type": "website"
+        },
+        {
+          "group": "I have a formulated concept proposal I’d like to share as a part of CAW.",
+          "description": "This could be an old project proposal you've never executed but are still excited about or something you've been wanting to try."
+        },
+        {
+          "q": "Project Title:",
+          "type": "long_text"
+        },
+        {
+          "q": "What type of art experience are you proposing for Cincinnati Art Week?",
+          "type": "dropdown",
+          "choices": [
+            "Exhibition",
+            "Installation",
+            "Performance",
+            "Pop-up",
+            "Workshop / Talk",
+            "Event / Opening",
+            "Other"
+          ]
+        },
+        {
+          "q": "Description of What You’re Presenting",
+          "type": "long_text",
+          "help": "Tell us what visitors will experience. (No jargon please -- we’re looking for how you imagine people interacting in your work. Why will they want to come? How will they feel? What opportunities will be created for connecting with others?)"
+        },
+        {
+          "q": "If you have a website, please list below:",
+          "type": "website"
+        },
+        {
+          "q": "Instagram handle or profile link",
+          "type": "website"
+        },
+        {
+          "q": "Have you done this project before? If yes, when and where?",
+          "type": "short_text"
+        },
+        {
+          "q": "I have an idea, something I’d like to see, a dream collaboration, or something I think someone else should make happen.",
+          "type": "long_text",
+          "help": "Share what you're thinking about..."
+        },
+        {
+          "group": "Project dates and times",
+          "description": "List all dates and hours you will be open to the public during Cincinnati Art Week. For consideration in being listed as an \"Art Stop\" for CAW your project must be located in Over-the-Rhine and open during CAW hours: 12-8p, Oct 3-10th."
+        },
+        {
+          "q": "Please list your project start date / project end date.\n\nWhat hours will your project be open to the public?",
+          "type": "short_text"
+        },
+        {
+          "q": "Is this free to attend?",
+          "type": "multiple_choice",
+          "choices": [
+            "Yes",
+            "No",
+            "Pay-what-you-can",
+            "Donation-based"
+          ]
+        },
+        {
+          "group": "ARTISTS & COLLABORATORS",
+          "description": "Who's on your team?"
+        },
+        {
+          "q": "Please list all primary artists involved in your project.",
+          "type": "long_text"
+        },
+        {
+          "q": "Are you collaborating with any other Cincinnati artists, organizations, or partners?",
+          "type": "yes_no"
+        },
+        {
+          "q": "If yes, please share the names and roles of your local collaborators.",
+          "type": "long_text"
+        },
+        {
+          "q": "Do you need help being paired with a local artist or other creative to complete your project?",
+          "type": "yes_no"
+        },
+        {
+          "group": "CULTURAL RELEVANCE",
+          "description": null
+        },
+        {
+          "q": "How does your project connect to place, self, this moment in time?",
+          "type": "long_text"
+        },
+        {
+          "q": "Why do you want to be part of Cincinnati Art Week?",
+          "type": "long_text"
+        },
+        {
+          "q": "How would you describe the audience you hope to reach?",
+          "type": "long_text"
+        },
+        {
+          "group": "LOGISTICS & ALIGNMENT",
+          "description": null
+        },
+        {
+          "q": "Are you interested in being part of a neighborhood “route” or cluster?",
+          "type": "multiple_choice",
+          "choices": [
+            "Yes",
+            "No",
+            "Open to it"
+          ]
+        },
+        {
+          "q": "Would you be open to collaboration (e.g., pairing with another artist or space)?",
+          "type": "multiple_choice",
+          "choices": [
+            "Yes",
+            "No",
+            "Maybe"
+          ]
+        },
+        {
+          "q": "Anything else you’d like us to know?",
+          "type": "long_text"
+        },
+        {
+          "q": "I confirm and understand the following:",
+          "type": "checkbox",
+          "choices": [
+            "Understood"
+          ],
+          "help": "I understand that participation is subject to curation and alignment with Cincinnati Art Week goals.\n\nI confirm that this project will be open to the public during its listed hours.\n\nI understand that Cincinnati Art Week does not offer grants or financial support at this time. Projects will be self-funded or funded by other means."
+        }
+      ],
+      "url": "https://form.typeform.com/to/al5J4SzB"
+    },
+    "source_url": "https://cincinnatiartweek.com/support-us",
+    "page_intro": "PAID OPPORTUNITIES ARTISTS MAKE ART WEEK. Help bring Cincinnati Art Week to life. New opportunities will be added as they become available. Stay tuned to social media for announcements.",
+    "page_visibility": null
+  },
+  {
+    "id": "caw-opp-mailing-list",
+    "program": "caw",
+    "title": "Get early access (mailing list)",
+    "status": null,
+    "card_class": [],
+    "when_where": null,
+    "description": "Be the first to know about exhibitions, artist announcements, and new programming.",
+    "compensation": null,
+    "how_to_apply": null,
+    "cta": "Learn more",
+    "apply_url": "https://form.typeform.com/to/I4fAh7Cr",
+    "deadline": null,
+    "form": {
+      "title": "Mailing List",
+      "intro": "Join the Cincinnati Art Week Mailing List\n\nSign up to receive updates and announcements for Cincinnati Art Week. Stay informed about upcoming events and news.",
+      "fields": [
+        {
+          "q": "What is your email address?",
+          "type": "email",
+          "help": "We'll use this to send you updates about Cincinnati Art Week."
+        },
+        {
+          "q": "What is your first name?",
+          "type": "short_text",
+          "help": "Let us know how we should address you."
+        },
+        {
+          "q": "Do you agree to receive email updates about Cincinnati Art Week events, announcements, and news?",
+          "type": "legal",
+          "help": "By checking this box, you consent to receive email communications from Cincinnati Art Week."
+        }
+      ],
+      "url": "https://form.typeform.com/to/I4fAh7Cr"
+    },
+    "source_url": "https://cincinnatiartweek.com/",
+    "page_intro": "PAID OPPORTUNITIES ARTISTS MAKE ART WEEK. Help bring Cincinnati Art Week to life. New opportunities will be added as they become available. Stay tuned to social media for announcements.",
+    "page_visibility": null
+  }
+]

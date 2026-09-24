@@ -5,13 +5,15 @@
    pinch, double-click/tap, + − fit buttons, arrow keys / + − 0 when the map has focus), 44px clustering
    with a program-share ring, the edge chip for what lies outside the view, "Near me" (never stored).
 
-   mountMap(el, { pins, fit, focus, onSelect, onHover, wheel, title, nearMe }) → { update(pins), select(id, opts),
+   mountMap(el, { pins, fit, focus, onSelect, onList, onClear, onHover, wheel, title, nearMe }) → { update(pins), select(id, opts),
      highlight(id), fit(), home(), locate(), destroy(), el }
      el      an empty container (a .map-box is built in it) or a .map-box the build rendered (map.html)
      pins    [{ id, kind: "venue"|"work"|"stay"|"stop"|"food", lat, lng, prog, prog2?, n?, label, live?, meta?, href?, h? }]
      fit     true: open on the pins; else the home frame (data/map.json bbox.home)
      focus   a pin id to open on, zoomed in and selected
      onSelect(id, pin, { keyboard })   called on a pin; without it a small card in the map shows the pin
+     onList(ids, { keyboard })         called on a cluster that zooming cannot split; without it the card lists them
+     onClear()                         called when the selection is cleared (Esc, the card's close button)
    init(app): map.html (layers, program and day filters, side panel / bottom sheet, list sync, ?layers ?p ?day
    ?focus), venues.html (List/Map, ?view=map, pins follow the directory filters) and stay.html (hotels).
    Nothing here is the only path to anything: every pin is also a list item in the page's HTML.
@@ -27,7 +29,7 @@ const $ = (s, el = document) => el.querySelector(s);
 const $$ = (s, el = document) => Array.from(el.querySelectorAll(s));
 const I = (n, cls = "") => `<svg class="i${cls ? " " + cls : ""}" aria-hidden="true"><use href="#i-${n}"/></svg>`;
 const still = () => matchMedia("(prefers-reduced-motion: reduce)").matches;
-const MAX_S = 4.2;           // px per basemap unit at the closest zoom (≈ 0.75 px per meter)
+const MAX_S = 6;             // px per basemap unit at the closest zoom (≈ 1 px per meter)
 const Z1 = 0.36;             // px per unit that counts as zoom level 1 for label minZoom (a phone showing the whole map)
 const KIND_ORDER = { venue: 0, work: 1, stay: 2, stop: 3, food: 4 };
 const KIND_WORD = { venue: ["venue", "venues"], work: ["artwork", "artworks"], stay: ["place to stay", "places to stay"], stop: ["transit stop", "transit stops"], food: ["place to eat or drink", "places to eat or drink"] };
@@ -57,7 +59,7 @@ function loadSvg() {
 export function mountMap(el, opts = {}) {
   let box = el.classList && el.classList.contains("map-box") ? el : el.querySelector(".map-box");
   if (!box) {
-    el.innerHTML = `<div class="map-box"><div class="map-bar"><p class="label">${esc(opts.title || "Map")}</p>${opts.nearMe === false ? "" : `<button class="btn btn-secondary btn-sm" type="button" data-near-me>${I("locate")}Near me</button>`}</div><div class="map-view" data-map-view></div><div class="map-legend"><span><i class="lg-cluster"></i>Several places: tap to zoom</span><span><i class="lg-tram"></i>Connector streetcar</span><a class="map-attrib" href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">© OpenStreetMap contributors<span class="sr-only"> (opens in a new tab)</span></a></div></div>`;
+    el.innerHTML = `<div class="map-box"><div class="map-bar"><p class="label">${esc(opts.title || "Map")}</p>${opts.nearMe === false ? "" : `<button class="btn btn-secondary btn-sm" type="button" data-near-me>${I("locate")}Near me</button>`}</div><div class="map-view" data-map-view></div><div class="map-legend" data-own-legend><span data-lk="venue" hidden><i class="lg-station"></i>Venue, numbered as in the list</span><span data-lk="work" hidden><i class="lg-work"></i>Artwork</span><span data-lk="stay" hidden><i class="lg-stay"></i>Place to stay</span><span><i class="lg-cluster"></i>Several places: tap to zoom</span><span><i class="lg-tram"></i>Connector streetcar</span><a class="map-attrib" href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">© OpenStreetMap contributors<span class="sr-only"> (opens in a new tab)</span></a></div></div>`;
     box = el.querySelector(".map-box");
   }
   const view = $(".map-view", box);
@@ -165,6 +167,8 @@ export function mountMap(el, opts = {}) {
       .sort((a, b) => (KIND_ORDER[a.kind] ?? 9) - (KIND_ORDER[b.kind] ?? 9) || (a.n || 999) - (b.n || 999));
     S.byId = new Map(S.pins.map((p) => [p.id, p]));
     for (const p of S.pins) { p.el = pinEl(p, S.els.get(p.id)); S.els.set(p.id, p.el); }
+    const kinds = new Set(S.pins.map((p) => p.kind));
+    for (const l of $$("[data-own-legend] [data-lk]", box)) l.hidden = !kinds.has(l.dataset.lk);
     if (S.sel && !S.byId.has(S.sel)) { S.sel = null; if (card) card.hidden = true; }
     if (S.vw < 10 || S.vh < 10) return;                 // not laid out yet (hidden): the ResizeObserver calls back
     if (S.init) {
@@ -214,6 +218,9 @@ export function mountMap(el, opts = {}) {
     const z = v.s / Z1, shown = [];
     // pins win: a label slides up or down to clear them (area names), or stays hidden (streets)
     const boxes = S.placed.map((p) => { const x = sx(p.x), y = sy(p.y), r = p.cluster ? 20 : 16; return [x - r, y - r, x + r, y + r]; });
+    // QA: the controls drawn over the map count as obstacles too, so no label hides under the zoom buttons or the edge chip
+    const vr = view.getBoundingClientRect();
+    for (const c of view.querySelectorAll(".map-zoom, .map-edge:not([hidden])")) { const b = c.getBoundingClientRect(); if (b.width) boxes.push([b.left - vr.left - 4, b.top - vr.top - 4, b.right - vr.left + 4, b.bottom - vr.top + 4]); }
     const hit = (r) => boxes.some((b) => r[0] < b[2] && r[2] > b[0] && r[1] < b[3] && r[3] > b[1]);
     labelsEl.textContent = "";
     for (const l of S.labels) {
@@ -275,7 +282,12 @@ export function mountMap(el, opts = {}) {
     for (const p of placed) { p.el.style.left = `${sx(p.x)}px`; p.el.style.top = `${sy(p.y)}px`; if (p.el.parentNode !== pinsEl) pinsEl.appendChild(p.el); }
     if (S.you) pinsEl.appendChild(S.you.el);
     S.placed = placed;
-    if (had && !had.isConnected) view.focus({ preventScroll: true });
+    if (S.focusAfter) {
+      // after a keyboard zoom into a cluster, focus goes to its first place (or the smaller cluster holding it)
+      const id = S.focusAfter, p = S.byId.get(id);
+      const target = p && p.el.isConnected ? p.el : (placed.find((c) => c.cluster && c.el._members.some((m) => m.id === id)) || {}).el;
+      if (target) { S.focusAfter = null; target.focus({ preventScroll: true }); }
+    } else if (had && !had.isConnected) view.focus({ preventScroll: true });
     paintHi();
   }
   const canSplit = (ms) => { const b = unitsBox(ms); return S.v.s < MAX_S - 1e-6 && Math.max(b[2] - b[0], b[3] - b[1]) * MAX_S > 30; };
@@ -316,7 +328,7 @@ export function mountMap(el, opts = {}) {
       animateFrom(t);
     } else render(true);
     paintHi();
-    if (opts.onSelect && !fromApi) opts.onSelect(p.id, p, { keyboard });
+    if (opts.onSelect && !fromApi) { card.hidden = true; opts.onSelect(p.id, p, { keyboard }); }
     else if (!opts.onSelect) showCard(p, keyboard);
   }
   function showCard(p, focus = false) {
@@ -325,7 +337,7 @@ export function mountMap(el, opts = {}) {
     card.hidden = false;
     if (focus) $("h3", card).focus();
   }
-  function clearSel() { S.sel = null; if (card) card.hidden = true; paintHi(); if (opts.onSelect) opts.onSelect(null, null, {}); }
+  function clearSel() { S.sel = null; if (card) card.hidden = true; paintHi(); if (opts.onClear) opts.onClear(); }
 
   /* ---------- "Near me": asked for, used once, never stored ---------- */
   function locate() {
@@ -355,8 +367,8 @@ export function mountMap(el, opts = {}) {
       const kb = e.detail === 0;
       if (pb.classList.contains("pin-cluster")) {
         const ms = pb._members;
-        if (canSplit(ms)) fitTo(ms);
-        else if (opts.onSelect) opts.onSelect(null, null, { list: ms.map((m) => m.id), keyboard: kb });
+        if (canSplit(ms)) { if (kb) S.focusAfter = ms[0].id; fitTo(ms); }
+        else if (opts.onList) opts.onList(ms.map((m) => m.id), { keyboard: kb });
         else { card.innerHTML = `<button class="map-card-x" type="button" aria-label="Close">${I("x")}</button><p class="label faint">${ms.length} places here</p><ul class="map-card-list">${ms.map((m) => `<li><button type="button" data-pick="${esc(m.id)}">${m.n ? `<b>${esc(m.n)}</b> ` : ""}${esc(m.label)}</button></li>`).join("")}</ul>`; card.hidden = false; if (kb) $("[data-pick]", card).focus(); }
         return;
       }
@@ -394,11 +406,13 @@ export function mountMap(el, opts = {}) {
       const r = view.getBoundingClientRect();
       zoomAt(Math.exp(-Math.max(-60, Math.min(60, e.deltaY)) * 0.006), e.clientX - r.left, e.clientY - r.top);
     }, { passive: false });
-    on(view, "dblclick", (e) => { if (e.target.closest("button")) return; const r = view.getBoundingClientRect(); zoomAt(2, e.clientX - r.left, e.clientY - r.top, true); });
     // drag and pinch (pointer events; the map claims the gesture: touch-action none)
     const ptrs = new Map();
-    let moved = false, start = null, pinch = null, lastTap = 0, lastTapXY = null;
+    let moved = false, start = null, pinch = null, lastTap = 0, lastTapXY = null, lastType = "mouse";
+    // double-click zooms with a mouse; touch has its own double-tap below (some browsers also send dblclick)
+    on(view, "dblclick", (e) => { if (lastType === "touch" || e.target.closest("button")) return; const r = view.getBoundingClientRect(); zoomAt(2, e.clientX - r.left, e.clientY - r.top, true); });
     on(view, "pointerdown", (e) => {
+      lastType = e.pointerType;
       if (e.target.closest(".map-zoom, .map-edge, .map-card, .map-hint")) return;
       ptrs.set(e.pointerId, { x: e.clientX, y: e.clientY });
       if (ptrs.size === 1) { moved = false; start = { x: e.clientX, y: e.clientY, v: { ...S.v } }; }
@@ -482,7 +496,9 @@ function mapPage(app) {
 
   const map = mountMap(box, {
     pins: [], focus: st.focus, wheel: "always", title: "Map of Over-the-Rhine, downtown, The Banks and the Kentucky riverfront",
-    onSelect: (id, pin, o) => (id ? select(id, o) : o && o.list ? showMany(o.list, o) : closePanel(false)),
+    onSelect: (id, pin, o) => select(id, o),
+    onList: (ids, o) => showMany(ids, o),
+    onClear: () => closePanel(false),
     onHover: (id) => { for (const x of items) x.el.classList.toggle("is-hi", x.id === id); },
   });
 
@@ -582,7 +598,7 @@ ${x.meta ? `<p class="muted map-panel-meta">${esc(x.meta)}</p>` : ""}${extra}
     const total = new Set(inst.map((i) => i.e.id)).size;
     box.innerHTML = pick.length
       ? `<h3 class="map-panel-h">${esc(head)}</h3><ol class="tonight map-panel-events">${pick.slice(0, 6).map(row).join("")}</ol>${total > Math.min(6, pick.length) ? `<p class="map-panel-more"><a href="${esc(x.href)}">All ${total} events at this venue${I("arrow-r")}</a></p>` : ""}`
-      : `<p class="faint">${inst.length ? `Nothing listed here ${dayWanted ? `on ${esc(fmtDay(dayWanted))}` : "from now on"}.` : "No events listed here."} <a href="${esc(x.href)}">Venue page</a></p>`;
+      : `<p class="faint">${inst.length ? (dayWanted ? `Nothing listed here on ${esc(fmtDay(dayWanted))}.` : "Nothing more is listed here.") : "No events are listed here."}</p>`;
     app.status.update(now, box);
   }
 

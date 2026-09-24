@@ -1,0 +1,950 @@
+[
+ {
+  "id": "redbike-2802",
+  "name": "Main & Orchard",
+  "address": "1424 Main St.",
+  "lat": 39.11194,
+  "lng": -84.51219,
+  "nearest_hub": {
+   "hub": "caw-art-market-hq-1417-main",
+   "straight_line_m": 38
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-2805",
+  "name": "Findlay Market",
+  "address": "1723 Pleasant St",
+  "lat": 39.11455,
+  "lng": -84.519,
+  "nearest_hub": {
+   "hub": "findlay-market",
+   "straight_line_m": 91
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-3248",
+  "name": "Newport on the Levee East",
+  "address": "129 East 3rd St",
+  "lat": 39.09484,
+  "lng": -84.49515,
+  "nearest_hub": {
+   "hub": "newport-on-the-levee",
+   "straight_line_m": 91
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-7214",
+  "name": "Smale Riverfront Park East",
+  "address": "W Merhing Way",
+  "lat": 39.09594,
+  "lng": -84.5083,
+  "nearest_hub": {
+   "hub": "smale-riverfront-park",
+   "straight_line_m": 92
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-3249",
+  "name": "Newport on the Levee West",
+  "address": "55 East 3rd St",
+  "lat": 39.09417,
+  "lng": -84.49637,
+  "nearest_hub": {
+   "hub": "newport-on-the-levee",
+   "straight_line_m": 102
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-2786",
+  "name": "Fountain Square",
+  "address": "82 E. 5th St.",
+  "lat": 39.10139,
+  "lng": -84.51164,
+  "nearest_hub": {
+   "hub": "fountain-square",
+   "straight_line_m": 111
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-3244",
+  "name": "Roebling Point",
+  "address": "306 Greenup St",
+  "lat": 39.08866,
+  "lng": -84.50796,
+  "nearest_hub": {
+   "hub": "covington-riverfront-roebling-point",
+   "straight_line_m": 125
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-3495",
+  "name": "Smale Riverfront Park",
+  "address": "5 W Mehring Way",
+  "lat": 39.09571,
+  "lng": -84.51102,
+  "nearest_hub": {
+   "hub": "smale-riverfront-park",
+   "straight_line_m": 146
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-2801",
+  "name": "12th & Vine",
+  "address": "1208 Vine St.",
+  "lat": 39.1086,
+  "lng": -84.51472,
+  "nearest_hub": {
+   "hub": "union-hall",
+   "straight_line_m": 163
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-2790",
+  "name": "Freedom Center",
+  "address": "97 E. Freedom Way",
+  "lat": 39.09722,
+  "lng": -84.51056,
+  "nearest_hub": {
+   "hub": "smale-riverfront-park",
+   "straight_line_m": 196
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-7767",
+  "name": "Ziegler Park North",
+  "address": "301 E 14th St.",
+  "lat": 39.11141,
+  "lng": -84.51041,
+  "nearest_hub": {
+   "hub": "caw-art-market-hq-1417-main",
+   "straight_line_m": 197
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-2803",
+  "name": "15th & Vine",
+  "address": "1420 Vine St.",
+  "lat": 39.11169,
+  "lng": -84.5155,
+  "nearest_hub": {
+   "hub": "union-hall",
+   "straight_line_m": 199
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-3040",
+  "name": "4th & Vine",
+  "address": "2 W 4th Street",
+  "lat": 39.09996,
+  "lng": -84.51295,
+  "nearest_hub": {
+   "hub": "fountain-square",
+   "straight_line_m": 204
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-3245",
+  "name": "Rivercenter & NKY Convention Center",
+  "address": "2 E Rivercenter Blvd",
+  "lat": 39.08969,
+  "lng": -84.51161,
+  "nearest_hub": {
+   "hub": "covington-riverfront-roebling-point",
+   "straight_line_m": 222
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-2804",
+  "name": "Washington Park",
+  "address": "1384 Elm St.",
+  "lat": 39.10998,
+  "lng": -84.51833,
+  "nearest_hub": {
+   "hub": "union-hall",
+   "straight_line_m": 236
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-2788",
+  "name": "Aronoff Center",
+  "address": "653 Walnut St.",
+  "lat": 39.10385,
+  "lng": -84.51187,
+  "nearest_hub": {
+   "hub": "fountain-square",
+   "straight_line_m": 243
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-3503",
+  "name": "Elm & Henry",
+  "address": "1952 Elm Street",
+  "lat": 39.11733,
+  "lng": -84.5204,
+  "nearest_hub": {
+   "hub": "findlay-market",
+   "straight_line_m": 250
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-7257",
+  "name": "Ziegler Park South",
+  "address": "220 E 13th St.",
+  "lat": 39.11016,
+  "lng": -84.51034,
+  "nearest_hub": {
+   "hub": "caw-art-market-hq-1417-main",
+   "straight_line_m": 272
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-7316",
+  "name": "7th & Race",
+  "address": "151 W 7th St.",
+  "lat": 39.10338,
+  "lng": -84.51533,
+  "nearest_hub": {
+   "hub": "fountain-square",
+   "straight_line_m": 280
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-2789",
+  "name": "Ball Park",
+  "address": "122 E. 2nd St.",
+  "lat": 39.09849,
+  "lng": -84.50932,
+  "nearest_hub": {
+   "hub": "smale-riverfront-park",
+   "straight_line_m": 306
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-7332",
+  "name": "Grant Park",
+  "address": "73 E McMicken Ave.",
+  "lat": 39.11447,
+  "lng": -84.51448,
+  "nearest_hub": {
+   "hub": "caw-art-market-hq-1417-main",
+   "straight_line_m": 333
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-3502",
+  "name": "GE at The Banks",
+  "address": "25 W 2nd Street",
+  "lat": 39.09783,
+  "lng": -84.51271,
+  "nearest_hub": {
+   "hub": "smale-riverfront-park",
+   "straight_line_m": 373
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-3041",
+  "name": "Prospect Hill",
+  "address": "1609 Cumber St.",
+  "lat": 39.11247,
+  "lng": -84.50821,
+  "nearest_hub": {
+   "hub": "caw-art-market-hq-1417-main",
+   "straight_line_m": 387
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-3498",
+  "name": "YMCA",
+  "address": "215 W Central Parkway,",
+  "lat": 39.10679,
+  "lng": -84.51796,
+  "nearest_hub": {
+   "hub": "union-hall",
+   "straight_line_m": 402
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-3043",
+  "name": "Pendleton",
+  "address": "1249 Broadway St.",
+  "lat": 39.10994,
+  "lng": -84.50856,
+  "nearest_hub": {
+   "hub": "caw-art-market-hq-1417-main",
+   "straight_line_m": 410
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-2795",
+  "name": "Public Library",
+  "address": "902 Vine St",
+  "lat": 39.10543,
+  "lng": -84.51398,
+  "nearest_hub": {
+   "hub": "fountain-square",
+   "straight_line_m": 417
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-9004",
+  "name": "Convention Center",
+  "address": "230 W 5th St.",
+  "lat": 39.10062,
+  "lng": -84.51746,
+  "nearest_hub": {
+   "hub": "fountain-square",
+   "straight_line_m": 422
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-2800",
+  "name": "Main & Central Parkway",
+  "address": "192 E. Central Parkway",
+  "lat": 39.10777,
+  "lng": -84.51144,
+  "nearest_hub": {
+   "hub": "union-hall",
+   "straight_line_m": 429
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-2796",
+  "name": "Walnut & Court",
+  "address": "1 E. Court St",
+  "lat": 39.10642,
+  "lng": -84.51243,
+  "nearest_hub": {
+   "hub": "union-hall",
+   "straight_line_m": 473
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-2793",
+  "name": "Casino",
+  "address": "362 Reading Rd.",
+  "lat": 39.1085,
+  "lng": -84.50849,
+  "nearest_hub": {
+   "hub": "caw-art-market-hq-1417-main",
+   "straight_line_m": 515
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-3243",
+  "name": "Gateway College & Library",
+  "address": "535 Scott Blvd",
+  "lat": 39.08473,
+  "lng": -84.5087,
+  "nearest_hub": {
+   "hub": "covington-riverfront-roebling-point",
+   "straight_line_m": 518
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-3251",
+  "name": "East Row Historic District",
+  "address": "317 East 6th St",
+  "lat": 39.09325,
+  "lng": -84.49064,
+  "nearest_hub": {
+   "hub": "newport-on-the-levee",
+   "straight_line_m": 518
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-2794",
+  "name": "3rd & Plum",
+  "address": "102 W. 3rd St.",
+  "lat": 39.09789,
+  "lng": -84.51721,
+  "nearest_hub": {
+   "hub": "fountain-square",
+   "straight_line_m": 577
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-7223",
+  "name": "6th & Central Ave - Red Bike HQ",
+  "address": "600 Central Avenue",
+  "lat": 39.10173,
+  "lng": -84.51967,
+  "nearest_hub": {
+   "hub": "fountain-square",
+   "straight_line_m": 592
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-2799",
+  "name": "8th & Broadway",
+  "address": "356 E. 8th St.",
+  "lat": 39.1052,
+  "lng": -84.50746,
+  "nearest_hub": {
+   "hub": "fountain-square",
+   "straight_line_m": 597
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-2787",
+  "name": "City Hall",
+  "address": "801 Plum St",
+  "lat": 39.10435,
+  "lng": -84.51894,
+  "nearest_hub": {
+   "hub": "fountain-square",
+   "straight_line_m": 600
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-3250",
+  "name": "Monmouth",
+  "address": "707 Monmouth St",
+  "lat": 39.09008,
+  "lng": -84.49187,
+  "nearest_hub": {
+   "hub": "newport-on-the-levee",
+   "straight_line_m": 667
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-2798",
+  "name": "P & G",
+  "address": "550 Broadway St.",
+  "lat": 39.10252,
+  "lng": -84.5048,
+  "nearest_hub": {
+   "hub": "fountain-square",
+   "straight_line_m": 696
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-3242",
+  "name": "Duveneck Square",
+  "address": "31 W 7th St",
+  "lat": 39.08306,
+  "lng": -84.51151,
+  "nearest_hub": {
+   "hub": "covington-riverfront-roebling-point",
+   "straight_line_m": 733
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-2791",
+  "name": "Sawyer Point",
+  "address": "704 Ohio River Scenic Byway",
+  "lat": 39.10113,
+  "lng": -84.49994,
+  "nearest_hub": {
+   "hub": "newport-on-the-levee",
+   "straight_line_m": 749
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-3241",
+  "name": "CityLink Center",
+  "address": "453 Bank Street,",
+  "lat": 39.11904,
+  "lng": -84.52666,
+  "nearest_hub": {
+   "hub": "findlay-market",
+   "straight_line_m": 778
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-3042",
+  "name": "Ezzard Charles",
+  "address": "600 Ezzard Charles Dr.",
+  "lat": 39.10918,
+  "lng": -84.52477,
+  "nearest_hub": {
+   "hub": "union-hall",
+   "straight_line_m": 796
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-3247",
+  "name": "West 3rd & Bakewell",
+  "address": "W 3rd St",
+  "lat": 39.08752,
+  "lng": -84.51871,
+  "nearest_hub": {
+   "hub": "covington-riverfront-roebling-point",
+   "straight_line_m": 857
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-7247",
+  "name": "Messer at W. Court",
+  "address": "609 W Court Street",
+  "lat": 39.10535,
+  "lng": -84.52438,
+  "nearest_hub": {
+   "hub": "union-hall",
+   "straight_line_m": 911
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-3246",
+  "name": "MainStrasse",
+  "address": "529 Main St",
+  "lat": 39.08441,
+  "lng": -84.51759,
+  "nearest_hub": {
+   "hub": "covington-riverfront-roebling-point",
+   "straight_line_m": 919
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-4473",
+  "name": "Campbell County Public Library",
+  "address": "901 E 6th St",
+  "lat": 39.09634,
+  "lng": -84.48494,
+  "nearest_hub": {
+   "hub": "newport-on-the-levee",
+   "straight_line_m": 979
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-4474",
+  "name": "Newport City Hall",
+  "address": "968 Monmouth St",
+  "lat": 39.08768,
+  "lng": -84.48947,
+  "nearest_hub": {
+   "hub": "newport-on-the-levee",
+   "straight_line_m": 1004
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-3252",
+  "name": "Port Bellevue",
+  "address": "401 Riverboat Row",
+  "lat": 39.10216,
+  "lng": -84.48891,
+  "nearest_hub": {
+   "hub": "newport-on-the-levee",
+   "straight_line_m": 1007
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-7295",
+  "name": "Shelterhouse",
+  "address": "411 Gest St.",
+  "lat": 39.09896,
+  "lng": -84.52623,
+  "nearest_hub": {
+   "hub": "fountain-square",
+   "straight_line_m": 1200
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-3496",
+  "name": "Theodore M. Berry International Friendship Park",
+  "address": "1117 Riverside Drive",
+  "lat": 39.10599,
+  "lng": -84.4931,
+  "nearest_hub": {
+   "hub": "newport-on-the-levee",
+   "straight_line_m": 1243
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-2807",
+  "name": "McMillan & W Clifton",
+  "address": "166 W McMillan St",
+  "lat": 39.12778,
+  "lng": -84.51861,
+  "nearest_hub": {
+   "hub": "findlay-market",
+   "straight_line_m": 1381
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-7569",
+  "name": "Gilbert & Eden Park",
+  "address": "2001 Gilbert Avenue",
+  "lat": 39.11722,
+  "lng": -84.49741,
+  "nearest_hub": {
+   "hub": "caw-art-market-hq-1417-main",
+   "straight_line_m": 1442
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-2806",
+  "name": "Calhoun & Dennis",
+  "address": "123 Calhoun St.",
+  "lat": 39.12824,
+  "lng": -84.51388,
+  "nearest_hub": {
+   "hub": "findlay-market",
+   "straight_line_m": 1498
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-3237",
+  "name": "Eden Park",
+  "address": "2109 Eden Park Dr",
+  "lat": 39.1149,
+  "lng": -84.49332,
+  "nearest_hub": {
+   "hub": "caw-art-market-hq-1417-main",
+   "straight_line_m": 1699
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-2808",
+  "name": "Short Vine & Corry",
+  "address": "2600 Vine St.",
+  "lat": 39.12924,
+  "lng": -84.50948,
+  "nearest_hub": {
+   "hub": "findlay-market",
+   "straight_line_m": 1747
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-2810",
+  "name": "Clifton at Stratford Heights",
+  "address": "2664 Clifton Ave",
+  "lat": 39.13134,
+  "lng": -84.52042,
+  "nearest_hub": {
+   "hub": "findlay-market",
+   "straight_line_m": 1781
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-3501",
+  "name": "Fairfield & Ward",
+  "address": "200 Ward Avenue",
+  "lat": 39.10783,
+  "lng": -84.48128,
+  "nearest_hub": {
+   "hub": "newport-on-the-levee",
+   "straight_line_m": 1914
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-7234",
+  "name": "Short Vine & Daniels",
+  "address": "4 W. Daniels St.",
+  "lat": 39.13177,
+  "lng": -84.50944,
+  "nearest_hub": {
+   "hub": "findlay-market",
+   "straight_line_m": 2001
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-7572",
+  "name": "McMillan & Concord",
+  "address": "739 E McMillan Street",
+  "lat": 39.12599,
+  "lng": -84.49317,
+  "nearest_hub": {
+   "hub": "caw-art-market-hq-1417-main",
+   "straight_line_m": 2300
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-2817",
+  "name": "Kingsgate",
+  "address": "126 Goodman Dr.",
+  "lat": 39.13726,
+  "lng": -84.5075,
+  "nearest_hub": {
+   "hub": "findlay-market",
+   "straight_line_m": 2628
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-3236",
+  "name": "UC Health",
+  "address": "399 Goodman St",
+  "lat": 39.13655,
+  "lng": -84.50105,
+  "nearest_hub": {
+   "hub": "findlay-market",
+   "straight_line_m": 2818
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-7573",
+  "name": "McMillan & Victory Parkway",
+  "address": "1126 E McMillan Street",
+  "lat": 39.12571,
+  "lng": -84.48465,
+  "nearest_hub": {
+   "hub": "caw-art-market-hq-1417-main",
+   "straight_line_m": 2863
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-7240",
+  "name": "Zoo",
+  "address": "3400 Vine St.",
+  "lat": 39.14125,
+  "lng": -84.50953,
+  "nearest_hub": {
+   "hub": "findlay-market",
+   "straight_line_m": 2991
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-3240",
+  "name": "Clifton Library & Burnet Woods",
+  "address": "3402 Brookline Ave,",
+  "lat": 39.1423,
+  "lng": -84.51537,
+  "nearest_hub": {
+   "hub": "findlay-market",
+   "straight_line_m": 3011
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-8935",
+  "name": "Monument Park",
+  "address": "701 6th St.",
+  "lat": 39.11397,
+  "lng": -84.47067,
+  "nearest_hub": {
+   "hub": "newport-on-the-levee",
+   "straight_line_m": 3043
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-2814",
+  "name": "Howell & Clifton",
+  "address": "321 Howell Ave",
+  "lat": 39.14274,
+  "lng": -84.52042,
+  "nearest_hub": {
+   "hub": "findlay-market",
+   "straight_line_m": 3046
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-7242",
+  "name": "Lower Price Hill",
+  "address": "2154 Hatmaker St.",
+  "lat": 39.10445,
+  "lng": -84.55338,
+  "nearest_hub": {
+   "hub": "findlay-market",
+   "straight_line_m": 3207
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-8966",
+  "name": "Cleveland Park",
+  "address": "940 Cleveland Ave.",
+  "lat": 39.14159,
+  "lng": -84.48869,
+  "nearest_hub": {
+   "hub": "caw-art-market-hq-1417-main",
+   "straight_line_m": 3898
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-8951",
+  "name": "Avondale Town Center",
+  "address": "3529 Reading Rd",
+  "lat": 39.14536,
+  "lng": -84.49183,
+  "nearest_hub": {
+   "hub": "findlay-market",
+   "straight_line_m": 4075
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-7315",
+  "name": "Cincy State",
+  "address": "897 Ludlow Ave",
+  "lat": 39.15075,
+  "lng": -84.53414,
+  "nearest_hub": {
+   "hub": "findlay-market",
+   "straight_line_m": 4146
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-7663",
+  "name": "Montgomery & Woodburn",
+  "address": "3204 Woodburn Ave.",
+  "lat": 39.13755,
+  "lng": -84.47536,
+  "nearest_hub": {
+   "hub": "caw-art-market-hq-1417-main",
+   "straight_line_m": 4301
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-7658",
+  "name": "Owl's Nest Park",
+  "address": "1984 Madison Road",
+  "lat": 39.13466,
+  "lng": -84.46417,
+  "nearest_hub": {
+   "hub": "caw-art-market-hq-1417-main",
+   "straight_line_m": 4889
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-8940",
+  "name": "Northside Transit Center",
+  "address": "4030 Hamilton Ave.",
+  "lat": 39.15927,
+  "lng": -84.53868,
+  "nearest_hub": {
+   "hub": "findlay-market",
+   "straight_line_m": 5169
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-8938",
+  "name": "Vandalia Point",
+  "address": "4095 Hamilton Ave.",
+  "lat": 39.16001,
+  "lng": -84.53965,
+  "nearest_hub": {
+   "hub": "findlay-market",
+   "straight_line_m": 5275
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-8963",
+  "name": "Wasson Way @ Xavier University",
+  "address": "3701 Montgomery Rd.",
+  "lat": 39.14689,
+  "lng": -84.46749,
+  "nearest_hub": {
+   "hub": "caw-art-market-hq-1417-main",
+   "straight_line_m": 5508
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-8939",
+  "name": "Pullan & Langland",
+  "address": "1538 Pullan Ave.",
+  "lat": 39.16577,
+  "lng": -84.53806,
+  "nearest_hub": {
+   "hub": "findlay-market",
+   "straight_line_m": 5841
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-8941",
+  "name": "Chase & Kirby",
+  "address": "4203 Kirby Ave",
+  "lat": 39.1644,
+  "lng": -84.54731,
+  "nearest_hub": {
+   "hub": "findlay-market",
+   "straight_line_m": 5975
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-4663",
+  "name": "Lunken Airport Trail",
+  "address": "676 Wilmer Ave",
+  "lat": 39.11487,
+  "lng": -84.41667,
+  "nearest_hub": {
+   "hub": "newport-on-the-levee",
+   "straight_line_m": 7204
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ },
+ {
+  "id": "redbike-8952",
+  "name": "Wasson Way @ Paxton",
+  "address": "3001 Wasson Rd",
+  "lat": 39.14445,
+  "lng": -84.43263,
+  "nearest_hub": {
+   "hub": "newport-on-the-levee",
+   "straight_line_m": 7758
+  },
+  "source_url": "https://gbfs.bcycle.com/bcycle_cincyredbike/station_information.json"
+ }
+]

@@ -1,0 +1,1584 @@
+[
+ {
+  "id": "21c-museum-hotel-cincinnati",
+  "name": "21c Museum Hotel Cincinnati",
+  "address": "609 Walnut St",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45202",
+  "neighborhood": null,
+  "lat": 39.10311,
+  "lng": -84.51194,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "venue",
+  "url": "https://www.21cmuseumhotels.com/cincinnati/museum/",
+  "notes": "Phone: (513) 578-6600 | Hours: Everyday 24/7 | Admission: Free to the Public",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/this-we-believe/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "alice-f-and-harris-k-weston-art-gallery",
+  "name": "Alice F. and Harris K. Weston Art Gallery",
+  "address": "650 Walnut St",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45202",
+  "neighborhood": null,
+  "lat": 39.1035828,
+  "lng": -84.5112602,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "gallery",
+  "url": "https://www.cincinnatiarts.org/weston-art-gallery",
+  "notes": "Phone: (513) 977-4165 | Hours: Tue–Sat 10am–5:30pm, Sun Noon–5pm | Admission: Free to the Public",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/george-rush-assisted-living/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "andrew-j-brady-music-center",
+  "name": "The Andrew J Brady Music Center",
+  "address": "25 Race Street",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45202",
+  "neighborhood": "The Banks / Downtown riverfront",
+  "lat": 39.0953702,
+  "lng": -84.5136698,
+  "programs": [
+   "also"
+  ],
+  "kind": "venue",
+  "url": "https://bradymusiccenter.com/",
+  "notes": "Address and phone from the event pages' schema.org JSON-LD (PostalAddress; telephone 5132325882).",
+  "source_url": "https://bradymusiccenter.com/events/2026/10/robin-trower",
+  "geo_source": "Nominatim (OpenStreetMap) query: 25 Race Street, Cincinnati, OH 45202 -> The Andrew J Brady Music Center, 25, Race Street, The Banks, Central Business District, Cincinnati, Hamilton County, Ohio, 45202, United States"
+ },
+ {
+  "id": "aronoff-center",
+  "name": "Aronoff Center for the Arts",
+  "address": "650 Walnut St",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45202",
+  "neighborhood": "Downtown",
+  "lat": 39.10361,
+  "lng": -84.5112558,
+  "programs": [
+   "also"
+  ],
+  "kind": "venue",
+  "url": "https://www.cincinnatiarts.org/aronoff-center",
+  "notes": null,
+  "source_url": "https://www.cincinnatiarts.org/events",
+  "geo_source": "Nominatim (OpenStreetMap) query: Aronoff Center, 650 Walnut Street, Cincinnati -> Aronoff Center for the Arts, 650, Walnut Street, Main Street Historic District, Central Business District, Cincinnati, Hamilton County, Ohio, 45202, United States"
+ },
+ {
+  "id": "art-academy-of-cincinnati-chidlaw-gallery",
+  "name": "Art Academy of Cincinnati: Chidlaw Gallery",
+  "address": "1212 Jackson Street",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45202",
+  "neighborhood": null,
+  "lat": 39.10893,
+  "lng": -84.51387,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "gallery",
+  "url": "https://www.artacademy.edu/",
+  "notes": "Phone: (513) 562-6262 | Hours: Everyday 9am–9pm | Admission: Free to the Public",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/depth-of-field/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "art-academy-of-cincinnati-mcclure-gallery",
+  "name": "Art Academy of Cincinnati: McClure Gallery",
+  "address": "1212 Jackson Street",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45202",
+  "neighborhood": null,
+  "lat": 39.10893,
+  "lng": -84.51387,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "gallery",
+  "url": "https://www.artacademy.edu",
+  "notes": "Phone: (513) 562-6262 | Hours: Everyday 9am–9pm | Admission: Free to the Public",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/noel-bassam-mohammad-maghathe-over-everything/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "art-academy-of-cincinnati-pearlman-gallery",
+  "name": "Art Academy of Cincinnati: Pearlman Gallery",
+  "address": "1212 Jackson St",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45202",
+  "neighborhood": null,
+  "lat": 39.1091018,
+  "lng": -84.5139034,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "gallery",
+  "url": "https://www.artacademy.edu",
+  "notes": "Phone: (513) 562-6262 | Hours: Everyday 9am–9pm | Admission: Free to the Public",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/untwined-interwoven/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "art-academy-of-cincinnati-site1212",
+  "name": "Art Academy of Cincinnati: SITE1212",
+  "address": "1212 Jackson St",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45202",
+  "neighborhood": null,
+  "lat": 39.10858,
+  "lng": -84.51378,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "venue",
+  "url": "http://www.artacademy.edu",
+  "notes": "Phone: (513) 562-6262 | Hours: Everyday 9am–9pm | Admission: Free to the Public",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/accra-shepp-bearing-witness/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "art-beyond-boundaries-gallery",
+  "name": "Art Beyond Boundaries Gallery",
+  "address": "1410 Main St",
+  "city": "Cincinnati",
+  "state": null,
+  "zip": "45202",
+  "neighborhood": null,
+  "lat": 39.111562,
+  "lng": -84.512062,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "gallery",
+  "url": "https://artbeyondboundaries.com",
+  "notes": "Phone: (513) 421-8726 | Hours: Mon–Fri 9am–1pm | Admission: Free to the Public",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/art-of-the-chase/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "artsconnect",
+  "name": "ArtsConnect",
+  "address": "9158 Winton Rd, Building A",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45231",
+  "neighborhood": null,
+  "lat": 39.231951,
+  "lng": -84.506974,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "venue",
+  "url": "https://www.theartsconnect.us",
+  "notes": "Phone: (513) 522-2108 | Hours: Mon–Thur 9am–8pm, Fri 9am–6pm, Sat 9am–3pm | Admission: Free to the Public",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/romain-mayambi-100-years-from-here/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "artworks-1001-colors",
+  "name": "ArtWorks/1001 Colors",
+  "address": "Charles H. Lindner Family Tennis Pavilion, 815 E Pete Rose Way",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45202",
+  "neighborhood": null,
+  "lat": 39.102883,
+  "lng": -84.496668,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "venue",
+  "url": "https://www.artworkscincinnati.org",
+  "notes": "Phone: (513) 333-0388 | Hours: Everyday 24/7 | Admission: Free to the Public",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/athletes-in-unconventional-spaces/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "artworks-1001colors-gallery",
+  "name": "ArtWorks/1001Colors Gallery",
+  "address": "2429 Gilbert Ave",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45206",
+  "neighborhood": null,
+  "lat": 39.12518,
+  "lng": -84.49102,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "gallery",
+  "url": "https://www.artworkscincinnati.org",
+  "notes": "Phone: (513) 333-0388 | Hours: Wed–Fri Noon–5pm | Admission: Free to the Public",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/sense-of-tomorrow/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "basketshop",
+  "name": "BasketShop",
+  "address": "3105 Harrison Ave",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45211",
+  "neighborhood": null,
+  "lat": 39.15079,
+  "lng": -84.60062,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "gallery",
+  "url": "https://basketshopgallery.com",
+  "notes": "Phone: (469) 774-5656 | Hours: Thur & Fri 1–4pm, Sat & Sun 1–6pm | Admission: Free to the Public",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/marzena-abrahamik-girlplay/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "behringer-crawford-museum",
+  "name": "Behringer-Crawford Museum",
+  "address": "1600 Montague Rd, Devou Park",
+  "city": "Covington",
+  "state": "KY",
+  "zip": "41011",
+  "neighborhood": null,
+  "lat": 39.07983,
+  "lng": -84.53765,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "venue",
+  "url": "https://bcmuseum.org",
+  "notes": "Phone: (859) 491-4003 | Hours: Tue–Sat 10am–5pm, Sun 1–5pm | Admission: Free to Pass Holders in October, venue members, and children 2 and under. General admission: $12 adults; $10 seniors; $5 children 3–17",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/j-miles-wolf-red-river-gorge-a-50-year-journey/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "century-design-workshop",
+  "name": "Century Design Workshop",
+  "address": "2449 Gilbert Ave",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45206",
+  "neighborhood": null,
+  "lat": 39.12554,
+  "lng": -84.49086,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "gallery",
+  "url": "https://www.centurydesignworkshop.com",
+  "notes": "Phone: (513) 376-6183 | Hours: Mon–Fri 10am–5pm, Sat & Sun 11am–5pm | Admission: Free to the Public",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/ron-tisue-operation-deep-freeze-iv-antarctica-1958-59/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "cincinnati-art-club",
+  "name": "Cincinnati Art Club",
+  "address": "1021 Parkside Pl",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45202",
+  "neighborhood": null,
+  "lat": 39.110162,
+  "lng": -84.493644,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "venue",
+  "url": "https://cincinnatiartclub.org",
+  "notes": "Phone: (513) 241-4591 | Hours: Thur & Fri 4–7pm, Sat & Sun 1–5pm | Admission: Free to the Public",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/contemporary-tintype-portraits-and-altered-historic-images/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "cincinnati-art-museum",
+  "name": "Cincinnati Art Museum",
+  "address": "953 Eden Park Dr",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45202",
+  "neighborhood": null,
+  "lat": 39.1139763,
+  "lng": -84.496859,
+  "programs": [
+   "fotofocus",
+   "also"
+  ],
+  "kind": "venue",
+  "url": "http://www.cincinnatiartmuseum.org",
+  "notes": "Phone: (513) 721-2787 | Hours: Tue & Wed 11am–5pm, Thur 11am–8pm, Fri–Sun 11am–5pm | Admission: Free to the Public",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/nancy-rexroth-secrets-of-my-power/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "cincinnati-museum-center",
+  "name": "Cincinnati Museum Center",
+  "address": "1301 Western Ave",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45203",
+  "neighborhood": null,
+  "lat": 39.109938,
+  "lng": -84.537246,
+  "programs": [
+   "fotofocus",
+   "also"
+  ],
+  "kind": "venue",
+  "url": "https://www.cincymuseum.org",
+  "notes": "Phone: (513) 287-7000 | Hours: Everyday 10am–5pm | Admission: Free to Pass Holders in October, venue members, and children 2 and under. General admission: $24.50 adults; $17.50 seniors and children 3–12",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/equal-to-any-in-the-city-ball-thomas-photographs-1840s-1870s/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "cincinnati-playhouse-in-the-park",
+  "name": "Cincinnati Playhouse in the Park",
+  "address": "962 Mt Adams Cir",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45202",
+  "neighborhood": "Mount Adams (Eden Park)",
+  "lat": 39.1114963,
+  "lng": -84.4976724,
+  "programs": [
+   "also"
+  ],
+  "kind": "venue",
+  "url": "https://www.cincyplay.com/",
+  "notes": null,
+  "source_url": "https://www.cincyplay.com/",
+  "geo_source": "Nominatim (OpenStreetMap) query: Cincinnati Playhouse in the Park, Cincinnati -> Cincinnati Playhouse in the Park, 362, Mount Adams Circle, Walnut Hills, Cincinnati, Hamilton County, Ohio, 45202, United States"
+ },
+ {
+  "id": "cincinnati-shakespeare-company",
+  "name": "Cincinnati Shakespeare Company (Otto M. Budig Theater)",
+  "address": "1195 Elm St",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45202",
+  "neighborhood": "Over-the-Rhine",
+  "lat": 39.1075592,
+  "lng": -84.5183111,
+  "programs": [
+   "also"
+  ],
+  "kind": "venue",
+  "url": "https://cincyshakes.com/",
+  "notes": "Address from the cincyshakes.com site footer (\"The Otto M. Budig Theater, 1195 Elm Street, Cincinnati, OH 45202\").",
+  "source_url": "https://cincyshakes.com/",
+  "geo_source": "Nominatim (OpenStreetMap) query: Otto M. Budig Theater, 1195 Elm Street, Cincinnati -> Otto M. Budig Theater, 1195, Elm Street, Over-the-Rhine, Cincinnati, Hamilton County, Ohio, 45202, United States"
+ },
+ {
+  "id": "cincinnati-zoo",
+  "name": "Cincinnati Zoo & Botanical Garden",
+  "address": "3400 Vine St",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45220",
+  "neighborhood": "Avondale",
+  "lat": 39.1447474,
+  "lng": -84.5082916,
+  "programs": [
+   "also"
+  ],
+  "kind": "venue",
+  "url": "https://cincinnatizoo.org/",
+  "notes": null,
+  "source_url": "https://cincinnatizoo.org/events/",
+  "geo_source": "Nominatim (OpenStreetMap) query: Cincinnati Zoo and Botanical Garden, Cincinnati -> Cincinnati Zoo and Botanical Garden, Louis Avenue, Pill Hill, University Heights, Corryville, Cincinnati, Hamilton County, Ohio, 45267, United States"
+ },
+ {
+  "id": "clifton-cultural-arts-center",
+  "name": "Clifton Cultural Arts Center",
+  "address": "3412 Clifton Ave",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45220",
+  "neighborhood": null,
+  "lat": 39.14421,
+  "lng": -84.51871,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "venue",
+  "url": "https://cliftonculturalarts.org",
+  "notes": "Phone: (513) 497-2860 | Hours: Mon–Thur 9am–8pm, Fri 9am–4pm, Sat 10am–Noon | Admission: Free to the Public",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/the-long-lives-we-carry/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "columbus-college-of-art-design-beeler-gallery",
+  "name": "Columbus College of Art & Design: Beeler Gallery",
+  "address": "60 Cleveland Ave",
+  "city": "Columbus",
+  "state": "OH",
+  "zip": "43215",
+  "neighborhood": null,
+  "lat": 39.96484,
+  "lng": -82.99005,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "gallery",
+  "url": "https://www.beelergallery.org",
+  "notes": "Phone: (614) 222-3270 | Hours: Wed–Sat 11am–6pm | Admission: Free to the Public",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/haunting/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "columbus-museum-of-art",
+  "name": "Columbus Museum of Art",
+  "address": "480 E Broad Street",
+  "city": "Columbus",
+  "state": "OH",
+  "zip": "43215",
+  "neighborhood": null,
+  "lat": 39.9643600924,
+  "lng": -82.9878590328,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "venue",
+  "url": "https://www.columbusmuseum.org/",
+  "notes": "Phone: (614) 221-6801 | Hours: Tue & Wed 10am–5pm, Thur 10am–10pm, Fri–Sun 10am–5pm | Admission: Free to Pass Holders in October, venue members, and children 3 and under. General admission: $20 adults; $18 seniors; $16 students and children 4–17",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/queer-constellations-photographs-from-the-aronowitz-family-collection/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "contemporary-arts-center",
+  "name": "Contemporary Arts Center",
+  "address": "44 E Sixth St",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45202",
+  "neighborhood": null,
+  "lat": 39.1028528,
+  "lng": -84.5121008,
+  "programs": [
+   "fotofocus",
+   "also"
+  ],
+  "kind": "venue",
+  "url": "http://www.contemporaryartscenter.org",
+  "notes": "Phone: (513) 345-8400 | Hours: Thur & Fri 10am–7pm, Sat & Sun 10am–4pm | Admission: Free for Pass Holders in October, venue members, children 18 and under, and SNAP/EBT recipients. General admission: $12",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/in-the-interest-of-time/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "daap-galleries-reed-gallery",
+  "name": "DAAP Galleries:: Reed Gallery",
+  "address": "DAAP Aronoff Building, RM 5275, 2624 Clifton Ave",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45221",
+  "neighborhood": null,
+  "lat": 39.134342,
+  "lng": -84.518535,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "gallery",
+  "url": "https://www.daap.uc.edu/exhibitions-collections/galleries.html",
+  "notes": "Phone: (513) 556-2839 | Hours: Sun–Thur 10am–5pm | Admission: Free to the Public",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/long-exposure-recent-work-by-alumni/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "daap-library",
+  "name": "DAAP Library",
+  "address": "DAAP Aronoff Building, RM 5480, 2624 Clifton Ave",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45221",
+  "neighborhood": null,
+  "lat": 39.134438,
+  "lng": -84.519344,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "venue",
+  "url": "https://libraries.uc.edu/libraries/daap.html",
+  "notes": "Phone: (513) 556-1335 | Hours: Mon–Thur 8am–8pm, Fri 8am–5pm, Sat & Sun 1–5pm | Admission: Free to the Public",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/dare-to-stare-19th-century-circus-and-sideshow-portraits/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "dayton-art-institute",
+  "name": "Dayton Art Institute",
+  "address": "456 Belmonte Park North",
+  "city": "Dayton",
+  "state": "OH",
+  "zip": "45405",
+  "neighborhood": null,
+  "lat": 39.76557,
+  "lng": -84.2018,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "venue",
+  "url": "https://www.daytonartinstitute.org/",
+  "notes": "Phone: (937) 223-4278 | Hours: Wed, Fri & Sat 11am–5pm, Thur 11am–8pm, Sun Noon–5pm | Admission: Free to Pass Holders in October, venue members, and children 6 and under. General admission: $15 adults; $10 seniors and active military; $5 college students and children 7–17",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/getting-technical-alternative-photographic-processes/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "delhi-event-center",
+  "name": "Delhi Event Center",
+  "address": "5031 Delhi Rd",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45238",
+  "neighborhood": null,
+  "lat": 39.093293,
+  "lng": -84.610942,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "venue",
+  "url": "https://www.delhieventcenter.com/arts",
+  "notes": "Phone: (513) 279-3011 | Hours: Mon–Fri 11am–5pm, Sat 1–3pm, Sun by appt | Admission: Free to the Public",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/wayfarers/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "edward-a-dixon-gallery",
+  "name": "Edward A. Dixon Gallery",
+  "address": "222 N Saint Clair St",
+  "city": "Dayton",
+  "state": "OH",
+  "zip": "45402",
+  "neighborhood": null,
+  "lat": 39.7636,
+  "lng": -84.18905,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "gallery",
+  "url": "https://shop.eadgallery.com",
+  "notes": "Phone: (937) 985-2115 | Hours: Thur Noon–5pm, Fri 3–8pm, Sat & Sun Noon–5pm | Admission: Free to the Public",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/picturing-tomorrow-speculative-futures-in-lens-based-art/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "eisele-gallery",
+  "name": "Eisele Gallery",
+  "address": "2838 Observatory Ave",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45208",
+  "neighborhood": null,
+  "lat": 39.13736,
+  "lng": -84.43718,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "gallery",
+  "url": "https://www.eiselegallery.com/",
+  "notes": "Phone: (513) 791-7717 | Hours: Tue–Fri 10am–5pm, Sat 10am–4pm | Admission: Free to the Public",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/waiting-to-be-seen/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "emery-theatre",
+  "name": "Emery Theatre",
+  "address": "1112 Walnut Street",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45202",
+  "neighborhood": "Over-the-Rhine",
+  "lat": 39.1081538,
+  "lng": -84.512836,
+  "programs": [
+   "also"
+  ],
+  "kind": "venue",
+  "url": "https://thechildrenstheatre.com/",
+  "notes": "The show page names the venue (\"Emery Theater\") but prints no address; address/coordinates from OpenStreetMap (Nominatim).",
+  "source_url": "https://thechildrenstheatre.com/shows/disney-cameron-mackintoshs-mary-poppins-jr/",
+  "geo_source": "Nominatim (OpenStreetMap) query: Emery Theatre, Cincinnati -> Emery Theatre, 1112, Walnut Street, Over-the-Rhine, Cincinnati, Hamilton County, Ohio, 45202, United States"
+ },
+ {
+  "id": "evendale-cultural-arts-center",
+  "name": "Evendale Cultural Arts Center",
+  "address": "10428 Reading Rd",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45241",
+  "neighborhood": null,
+  "lat": 39.25455,
+  "lng": -84.42168,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "venue",
+  "url": "https://www.evendaleohio.org/cultural-arts-center",
+  "notes": "Phone: (513) 563-1350 | Hours: Everyday 7am–8pm | Admission: Free to the Public",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/reflections-through-time/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "findlay-market",
+  "name": "Findlay Market",
+  "address": "1801 Race St",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45202",
+  "neighborhood": "Over-the-Rhine",
+  "lat": 39.1156452,
+  "lng": -84.5183532,
+  "programs": [
+   "also"
+  ],
+  "kind": "venue",
+  "url": "https://www.findlaymarket.org/",
+  "notes": null,
+  "source_url": "https://www.findlaymarket.org/events",
+  "geo_source": "Nominatim (OpenStreetMap) query: Findlay Market, 1801 Race Street, Cincinnati -> Findlay Market–Race, Race Street, Findlay Market, Over-the-Rhine, Cincinnati, Hamilton County, Ohio, 45210, United States"
+ },
+ {
+  "id": "fitton-center-for-creative-arts",
+  "name": "Fitton Center for Creative Arts",
+  "address": "101 S Monument Ave",
+  "city": "Hamilton",
+  "state": "OH",
+  "zip": "45011",
+  "neighborhood": null,
+  "lat": 39.3996793,
+  "lng": -84.5655796,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "venue",
+  "url": "http://www.fittoncenter.org",
+  "notes": "Phone: (513) 863-8873 | Hours: Mon–Thur 10am–7pm, Fri 10am–5pm | Admission: Free to the Public",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/milestones-finding-our-way/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "fotofocus-center",
+  "name": "FotoFocus Center",
+  "address": "228 E Liberty St",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45202",
+  "neighborhood": null,
+  "lat": 39.11258,
+  "lng": -84.5112,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "venue",
+  "url": "https://www.fotofocus.org/exhibition",
+  "notes": "Phone: (513) 400-4027 | Hours: Thur & Fri 11am–6pm, Sat 11am–5pm | Admission: Free to the Public",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/trevor-paglen-the-most-merciful-thing-in-the-world/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "heart-of-northside",
+  "name": "Heart of Northside",
+  "address": "4222 Hamilton Ave",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45223",
+  "neighborhood": "Northside",
+  "lat": 39.163841,
+  "lng": -84.540102,
+  "programs": [
+   "also"
+  ],
+  "kind": "venue",
+  "url": "https://www.heartofnorthside.org/",
+  "notes": "Address from the venue contact page (\"4222 Hamilton Ave., Cincinnati, Ohio\"). The venue calendar lists \"Oct 10, 8:00 pm - 10:00 pm, Indigenous Peoples Day Convergence, Gymatorium\".",
+  "source_url": "https://www.heartofnorthside.org/contact/",
+  "geo_source": "Nominatim (OpenStreetMap) query: 4222 Hamilton Avenue, Cincinnati, OH -> 4222, Hamilton Avenue, Northside Business District, Northside, Cincinnati, Hamilton County, Ohio, 45223, United States"
+ },
+ {
+  "id": "here-and-now",
+  "name": "Here and Now",
+  "address": "846 Monroe St",
+  "city": "Newport",
+  "state": "KY",
+  "zip": "41071",
+  "neighborhood": null,
+  "lat": 39.0908,
+  "lng": -84.48598,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "gallery",
+  "url": "https://hereandnow.art/",
+  "notes": "Phone: (717) 708-0024 | Hours: Fri–Mon 10am–6pm | Admission: Free to the Public",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/rhys-watkins-a-life-worth-living/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "heritage-bank-center",
+  "name": "Heritage Bank Center",
+  "address": "100 Broadway",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45202",
+  "neighborhood": "The Banks / Downtown",
+  "lat": 39.0979262,
+  "lng": -84.5044458,
+  "programs": [
+   "also"
+  ],
+  "kind": "venue",
+  "url": "https://www.heritagebankcenter.com/",
+  "notes": null,
+  "source_url": "https://www.heritagebankcenter.com/events",
+  "geo_source": "Nominatim (OpenStreetMap) query: Heritage Bank Center, Cincinnati -> Heritage Bank Center, Ohio River Trail, Lytle Park Historic District, Central Business District, Cincinnati, Hamilton County, Ohio, 45202, United States"
+ },
+ {
+  "id": "hyde-park-square",
+  "name": "Hyde Park Square",
+  "address": "Erie Ave & Edwards Rd",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45208",
+  "neighborhood": "Hyde Park",
+  "lat": 39.1396186,
+  "lng": -84.4425106,
+  "programs": [
+   "also"
+  ],
+  "kind": "street",
+  "url": "https://www.hydeparksquare.org/",
+  "notes": null,
+  "source_url": "https://www.hydeparksquare.org/event/hyde-park-square-art-show",
+  "geo_source": "Nominatim (OpenStreetMap) query: Hyde Park Square, Cincinnati -> Hyde Park Square, 2700, Hyde Park, Cincinnati, Hamilton County, Ohio, 45208, United States"
+ },
+ {
+  "id": "iris-bookcafe-and-gallery",
+  "name": "Iris BookCafé and Gallery",
+  "address": "1331 Main St",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45202",
+  "neighborhood": null,
+  "lat": 39.11074,
+  "lng": -84.51233,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "gallery",
+  "url": "https://www.irisbookcafeotr.com/",
+  "notes": "Phone: (513) 381-2665 | Hours: Wed–Mon 9am–5pm | Admission: Free to the Public",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/miro-svolik-moj-zivot-cloveka-my-life-as-a-human-being/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "kennedy-heights-arts-center",
+  "name": "Kennedy Heights Arts Center",
+  "address": "6546 Montgomery Rd",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45213",
+  "neighborhood": null,
+  "lat": 39.18775,
+  "lng": -84.41498,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "venue",
+  "url": "https://kennedyarts.org/",
+  "notes": "Phone: (513) 631-4278 | Hours: Tue–Fri 10am–5pm, Sat 11am–4pm | Admission: Free to the Public",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/cultural-ties/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "khac-lindner-annex",
+  "name": "Kennedy Heights Arts Center – Lindner Annex (Lindner Gallery)",
+  "address": "6620 Montgomery Rd",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45213",
+  "neighborhood": "Kennedy Heights",
+  "lat": 39.1894022,
+  "lng": -84.4116073,
+  "programs": [
+   "also"
+  ],
+  "kind": "venue",
+  "url": "https://kennedyarts.org/",
+  "notes": null,
+  "source_url": "https://kennedyarts.org/exhibitions/",
+  "geo_source": "Nominatim (OpenStreetMap) query: 6620 Montgomery Road, Cincinnati, OH -> 6620, Montgomery Road, Kennedy Heights, Cincinnati, Hamilton County, Ohio, 45213, United States"
+ },
+ {
+  "id": "lloyd-library-museum",
+  "name": "Lloyd Library & Museum",
+  "address": "917 Plum St",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45202",
+  "neighborhood": null,
+  "lat": 39.10537,
+  "lng": -84.51918,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "venue",
+  "url": "https://www.lloydlibrary.org",
+  "notes": "Phone: (513) 721-3707 | Hours: Mon–Fri 9am–4pm, Third Sat 9am–4pm | Admission: Free to the Public",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/kent-krugh-beyond-the-gate/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "manifest-drawing-center",
+  "name": "Manifest Drawing Center",
+  "address": "3464 Central Pkwy",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45223",
+  "neighborhood": null,
+  "lat": 39.14718,
+  "lng": -84.53708,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "venue",
+  "url": "https://manifestvisualarts.org/studio/",
+  "notes": "Phone: (513) 861-3638 | Hours: Tue & Thur 6–9pm, Wed 4–8pm, Fri 1:30–4pm, Sat 11am–3pm | Admission: Free to the Public",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/the-places-we-keep-holding-place-holding-time/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "manifest-gallery",
+  "name": "Manifest Gallery",
+  "address": "2727 Woodburn Ave",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45206",
+  "neighborhood": null,
+  "lat": 39.128658,
+  "lng": -84.477593,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "gallery",
+  "url": "https://www.manifestgallery.org/",
+  "notes": "Phone: (513) 861-3638 | Hours: Tue–Fri Noon–7pm, Sat Noon–5pm | Admission: Free to the Public",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/the-sweep-of-time-beyond-the-horizon/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "memorial-hall",
+  "name": "Memorial Hall",
+  "address": "1225 Elm St",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45202",
+  "neighborhood": null,
+  "lat": 39.1085874,
+  "lng": -84.5184914,
+  "programs": [
+   "fotofocus",
+   "also"
+  ],
+  "kind": "venue",
+  "url": "https://www.memorialhallotr.com",
+  "notes": "Phone: (513) 977-8838",
+  "source_url": "https://www.fotofocus.org/event/artist-talks-and-keynote-lecture/",
+  "geo_source": "FotoFocus iCal export GEO field for https://www.fotofocus.org/event/artist-talks-and-keynote-lecture/"
+ },
+ {
+  "id": "miami-university-center-for-community-engagement",
+  "name": "Miami University Center for Community Engagement (MUCCE)",
+  "address": "1300 Vine St",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45202",
+  "neighborhood": "Over-the-Rhine",
+  "lat": 39.1096275,
+  "lng": -84.5149357,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "venue",
+  "url": null,
+  "notes": "Projection-mapping site named in the FotoFocus event description (\"will take place during BLINK at the Miami University Center for Community Engagement, 1300 Vine St, Cincinnati, OH\") and on the Unfolding Stories exhibition page (\"Location: Miami University Center for Community Engagement (MUCCE), Cincinnati, OH\").",
+  "source_url": "https://www.fotofocus.org/event/unfolding-stories-projection-mapping-2/",
+  "geo_source": "Nominatim (OpenStreetMap) query: 1300 Vine Street, Cincinnati, OH -> 1300, Vine Street, Vine Street Business District, Over-the-Rhine, Cincinnati, Hamilton County, Ohio, 45202, United States"
+ },
+ {
+  "id": "miami-university-hiestand-galleries",
+  "name": "Miami University: Hiestand Galleries",
+  "address": "111 Hiestand Hall, 401 Maple Ave",
+  "city": "Oxford",
+  "state": "OH",
+  "zip": "45056",
+  "neighborhood": null,
+  "lat": 39.50551,
+  "lng": -84.7325,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "gallery",
+  "url": "https://sites.miamioh.edu/unfoldingstories/",
+  "notes": "Phone: (513) 529-1883 | Hours: Mon–Fri 9am–4:30pm | Admission: Free to the Public",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/unfolding-stories-2026-stories-from-the-rccam-collection/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "motr-pub",
+  "name": "MOTR Pub",
+  "address": "1345 Main St",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45202",
+  "neighborhood": null,
+  "lat": 39.11113,
+  "lng": -84.51236,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "venue",
+  "url": "https://www.motrpub.com",
+  "notes": "Phone: (513) 381-6687 | Hours: Mon–Wed 6pm–2am, Thur & Fri 5pm–2am, Sat & Sun Noon–2am | Admission: Free to the Public",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/paul-natkin-king-in-chicago/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "mount-st-joseph-university-studio-san-giuseppe-art-gallery",
+  "name": "Mount St. Joseph University: Studio San Giuseppe Art Gallery",
+  "address": "5701 Delhi Rd",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45233",
+  "neighborhood": null,
+  "lat": 39.09487367,
+  "lng": -84.6399603859,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "gallery",
+  "url": "https://www.msj.edu/about/facilities/studio-san-giuseppe-art-gallery.html",
+  "notes": "Phone: (513) 244-4313 | Hours: Mon–Fri 10am–5pm, Sat & Sun 1–5pm | Admission: Free to the Public",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/afterimage-portraiture-as-memory/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "music-hall",
+  "name": "Cincinnati Music Hall",
+  "address": "1241 Elm St",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45202",
+  "neighborhood": "Over-the-Rhine",
+  "lat": 39.1093865,
+  "lng": -84.5191887,
+  "programs": [
+   "also"
+  ],
+  "kind": "venue",
+  "url": "https://www.cincinnatiarts.org/music-hall",
+  "notes": null,
+  "source_url": "https://www.cincinnatisymphony.org/your-visit/music-hall/",
+  "geo_source": "Nominatim (OpenStreetMap) query: 1241 Elm Street, Cincinnati, OH -> Music Hall, 1241, Elm Street, Over-the-Rhine Historic District, Over-the-Rhine, Cincinnati, Hamilton County, Ohio, 45210, United States"
+ },
+ {
+  "id": "national-underground-railroad-freedom-center",
+  "name": "National Underground Railroad Freedom Center",
+  "address": "50 E Freedom Way",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45202",
+  "neighborhood": null,
+  "lat": 39.09754,
+  "lng": -84.51123,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "venue",
+  "url": "https://freedomcenter.org",
+  "notes": "Phone: (513) 333-7500 | Hours: Wed–Sun 10am–5pm | Admission: Free to Pass Holders in October, venue members, and children 2 and under. General admission: $19.50 adults; $17.50 seniors; $16.50 children 3–17.",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/witness-to-the-journey-matt-herron-and-the-mississippi-delta1965/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "northern-kentucky-university-school-of-the-arts-galleries",
+  "name": "Northern Kentucky University School of the Arts Galleries",
+  "address": "Fine Arts Center, 1 Louie B. Nunn Dr",
+  "city": "Highland Heights",
+  "state": "KY",
+  "zip": "41076",
+  "neighborhood": null,
+  "lat": 39.0312879,
+  "lng": -84.4636872,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "gallery",
+  "url": "https://www.nku.edu/academics/sota/art/galleries.html",
+  "notes": "Phone: (859) 572-5148 | Hours: Mon–Fri 9am–7pm, Sat Oct 3 & 10 Noon–5pm | Admission: Free to the Public",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/culture-crops-ohios-secret-gardens-and-hidden-food-histories/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "over-the-rhine-museum",
+  "name": "Over-the-Rhine Museum",
+  "address": "3 W McMicken Ave",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45202",
+  "neighborhood": null,
+  "lat": 39.1169,
+  "lng": -84.51748,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "venue",
+  "url": "https://www.otrmuseum.org/",
+  "notes": "Phone: (513) 813-7309 | Hours: Everyday 24/7 | Admission: Free to the Public",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/second-look-danny-ransohoffs-cityscapes-through-new-eyes/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "oxford-community-arts-center",
+  "name": "Oxford Community Arts Center",
+  "address": "10 S College Ave",
+  "city": "Oxford",
+  "state": "OH",
+  "zip": "45056",
+  "neighborhood": null,
+  "lat": 39.50994,
+  "lng": -84.74603,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "venue",
+  "url": "https://oxarts.org",
+  "notes": "Phone: (513) 524-8506 | Hours: Mon–Thur 10am–8pm, Fri 10am–5pm, Sat 10am–2pm | Admission: Free to the Public",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/jon-yamashiro-wwii-japanese-incarceration-camp-photographs/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "paycor-stadium",
+  "name": "Paycor Stadium",
+  "address": "1 Elm Street",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45202",
+  "neighborhood": "The Banks / Downtown riverfront",
+  "lat": 39.0954645,
+  "lng": -84.5160488,
+  "programs": [
+   "also"
+  ],
+  "kind": "venue",
+  "url": "https://www.bengals.com/stadium/",
+  "notes": "Bengals pages name the stadium but the captured pages print no street address; address/coordinates from OpenStreetMap (Nominatim).",
+  "source_url": "https://www.bengals.com/schedule/",
+  "geo_source": "Nominatim (OpenStreetMap) query: Paycor Stadium, Cincinnati -> Paycor Stadium, 1, Elm Street, The Banks, Central Business District, Cincinnati, Hamilton County, Ohio, 45202, United States"
+ },
+ {
+  "id": "pyramid-hill-sculpture-park-museum",
+  "name": "Pyramid Hill Sculpture Park & Museum",
+  "address": "1763 Hamilton Cleves Rd",
+  "city": "Hamilton",
+  "state": "OH",
+  "zip": "45013",
+  "neighborhood": null,
+  "lat": 39.3730201205,
+  "lng": -84.5811586205,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "venue",
+  "url": "https://www.pyramidhill.org/",
+  "notes": "Phone: (513) 868-8336 | Hours: Wed–Mon Noon–5pm | Admission: Free to Pass Holders in October, venue members, and children 5 and under. General admission: $10 adults; $5 children 6–12",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/alexander-liberman-the-artist-in-his-studio/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "queen-bee-start-reading-pendleton",
+  "name": "Queen Bee Half Marathon start (Reading Rd./Pendleton St.)",
+  "address": "Reading Rd & Pendleton St",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45202",
+  "neighborhood": "Pendleton / Over-the-Rhine",
+  "lat": 39.1087015,
+  "lng": -84.5090996,
+  "programs": [
+   "also"
+  ],
+  "kind": "street",
+  "url": "https://flyingpigmarathon.com/queen-bee-half-marathon-weekend/",
+  "notes": null,
+  "source_url": "https://flyingpigmarathon.com/queen-bee-half-marathon-weekend/event/queen-bee-half-marathon",
+  "geo_source": "Nominatim (OpenStreetMap) query: Reading Road & Pendleton Street, Cincinnati -> Brewdog Cincinnati, 316, Reading Road, Pendleton, Cincinnati, Hamilton County, Ohio, 45202, United States"
+ },
+ {
+  "id": "rosewood-arts-center",
+  "name": "Rosewood Arts Center",
+  "address": "2655 Olson Dr",
+  "city": "Kettering",
+  "state": "OH",
+  "zip": "45420",
+  "neighborhood": null,
+  "lat": 39.69531,
+  "lng": -84.11717,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "venue",
+  "url": "https://www.playkettering.org/gallery",
+  "notes": "Phone: (937) 296-0294 | Hours: Mon–Thur 10am–9pm, Fri 10am–5pm, Sat 10am–3pm | Admission: Free to the Public",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/amanda-bradley-notations-from-home/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "roy-g-biv-gallery",
+  "name": "ROY G BIV Gallery",
+  "address": "435 W Rich St",
+  "city": "Columbus",
+  "state": "OH",
+  "zip": "43215",
+  "neighborhood": null,
+  "lat": 39.956008,
+  "lng": -83.01116,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "gallery",
+  "url": "https://www.roygbivgallery.com/",
+  "notes": "Phone: (614) 297-7694 | Hours: Fri–Sun Noon–6pm | Admission: Free to the Public",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/franklinton-across-time-the-floodplain-imagination/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "shot-tower-gallery",
+  "name": "Shot Tower Gallery",
+  "address": "546 Jack Gibbs Blvd",
+  "city": "Columbus",
+  "state": "OH",
+  "zip": "43215",
+  "neighborhood": null,
+  "lat": 39.9745566,
+  "lng": -82.9875766,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "gallery",
+  "url": "https://forthayeshs.ccsoh.us/our-school/shot-tower-gallery",
+  "notes": "Phone: (614) 365-6681 | Hours: Mon–Fri 8am–3pm | Admission: Free to the Public",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/one-shot/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "sinclair-community-college-art-galleries",
+  "name": "Sinclair Community College Art Galleries",
+  "address": "Building 13, 4th Floor, Corner of W Fifth St and S Perry St",
+  "city": "Dayton",
+  "state": "OH",
+  "zip": "45402",
+  "neighborhood": null,
+  "lat": 39.7558272005,
+  "lng": -84.1960314772,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "gallery",
+  "url": "https://www.sinclair.edu/artgalleries",
+  "notes": "Phone: (937) 512-2253 | Hours: Mon–Fri 8am–6pm, Sat 9am–Noon | Admission: Free to the Public",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/emily-wiethorn-the-death-of-you-and-me/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "stivers-school-for-the-arts-fifth-street-gallery",
+  "name": "Stivers School for the Arts: Fifth Street Gallery",
+  "address": "1313 E Fifth St",
+  "city": "Dayton",
+  "state": "OH",
+  "zip": "45402",
+  "neighborhood": null,
+  "lat": 39.7591025,
+  "lng": -84.1753431,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "gallery",
+  "url": "https://dps.k12.oh.us/stivers-school-for-the-arts/",
+  "notes": "Phone: (937) 542-7448 | Hours: Mon–Fri 9am–3pm | Admission: Free to the Public",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/considering-the-cultivated-heather-f-wetzel/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "studio-kroner",
+  "name": "Studio Kroner",
+  "address": "130 W Court St",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45202",
+  "neighborhood": null,
+  "lat": 39.10623,
+  "lng": -84.51701,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "gallery",
+  "url": "https://www.studiokroner.com/event/erika-nj-allen",
+  "notes": "Phone: (513) 428-9830 | Hours: Thur & Fri Noon–5pm, Sat Noon–3pm | Admission: Free to the Public",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/erika-nj-allen-beneath-all-distance/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "swell-art-cafe",
+  "name": "Swell Art Cafe",
+  "address": "2936 Colerain Ave",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45225",
+  "neighborhood": null,
+  "lat": 39.135825,
+  "lng": -84.536666,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "gallery",
+  "url": "https://www.swellartcafe.com",
+  "notes": "Phone: (513) 653-6331 | Hours: Tue, Wed, Fri & Sat 11am–9pm, Thur 8am–9pm, Sun 10:30am–2:30pm | Admission: Free to the Public",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/forgetting-is-everywhere/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "taft-museum-of-art",
+  "name": "Taft Museum of Art",
+  "address": "316 Pike St",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45202",
+  "neighborhood": null,
+  "lat": 39.10208,
+  "lng": -84.50281,
+  "programs": [
+   "fotofocus",
+   "also"
+  ],
+  "kind": "venue",
+  "url": "https://www.taftmuseum.org/",
+  "notes": "Phone: (513) 241-0343 | Hours: Wed–Mon 10am–5pm | Admission: Free to Pass Holders in October, venue members, military, and children 17 and under. General admission: $15 adults; $12 seniors. Free Sundays and Mondays",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/edie-mckee-harper-modernist-at-play/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "taft-theatre",
+  "name": "Taft Theatre",
+  "address": "317 E Fifth St",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45202",
+  "neighborhood": "Downtown",
+  "lat": 39.1018609,
+  "lng": -84.507743,
+  "programs": [
+   "also"
+  ],
+  "kind": "venue",
+  "url": "https://tafttheatre.org/",
+  "notes": null,
+  "source_url": "https://tafttheatre.org/events",
+  "geo_source": "Nominatim (OpenStreetMap) query: 317 East 5th Street, Cincinnati, OH -> 317, East 5th Street, Lytle Park Historic District, Central Business District, Cincinnati, Hamilton County, Ohio, 45202, United States"
+ },
+ {
+  "id": "the-annex-gallery",
+  "name": "The Annex Gallery",
+  "address": "1310 Pendleton St, The Annex Building",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45202",
+  "neighborhood": null,
+  "lat": 39.11109,
+  "lng": -84.50681,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "gallery",
+  "url": "https://annexgallery.org",
+  "notes": "Phone: (513) 407-7077 | Hours: Wed–Sat 11:30am–4pm | Admission: Free to the Public",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/juan-si-gonzalez-i-t-i-n-e-r-a-t-i-o-n-s/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "the-banks-freedom-way",
+  "name": "The Banks (Freedom Way between Race St and Joe Nuxhall Way)",
+  "address": "Freedom Way between Race St and Joe Nuxhall Way",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45202",
+  "neighborhood": "The Banks",
+  "lat": 39.0969895,
+  "lng": -84.5115928,
+  "programs": [
+   "also"
+  ],
+  "kind": "street",
+  "url": "https://thebankscincy.com/",
+  "notes": null,
+  "source_url": "https://thebankscincy.com/event/bengals-pregame-at-the-banks-2/",
+  "geo_source": "Nominatim (OpenStreetMap) query: Freedom Way, Cincinnati, OH -> East Freedom Way, The Banks, Central Business District, Cincinnati, Hamilton County, Ohio, 45202, United States"
+ },
+ {
+  "id": "the-carnegie",
+  "name": "The Carnegie",
+  "address": "1028 Scott St",
+  "city": "Covington",
+  "state": "KY",
+  "zip": "41011",
+  "neighborhood": null,
+  "lat": 39.0802202,
+  "lng": -84.5068551,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "venue",
+  "url": "https://thecarnegie.com",
+  "notes": "Phone: (859) 957-1940 | Hours: Thur–Sat Noon–5pm | Admission: Free to the Public",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/natural-fictions/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "the-contemporary-dayton",
+  "name": "The Contemporary Dayton",
+  "address": "25 W Fourth St",
+  "city": "Dayton",
+  "state": "OH",
+  "zip": "45402",
+  "neighborhood": null,
+  "lat": 39.75819,
+  "lng": -84.19235,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "venue",
+  "url": "https://codayton.org/",
+  "notes": "Phone: (937) 224-3822 | Hours: Wed–Sat 11am–6pm | Admission: Free to the Public",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/ella-kraimer-appearances/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "the-dayton-society-of-artists",
+  "name": "The Dayton Society of Artists",
+  "address": "48 High St",
+  "city": "Dayton",
+  "state": "OH",
+  "zip": "45403",
+  "neighborhood": null,
+  "lat": 39.7572532,
+  "lng": -84.1739493,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "venue",
+  "url": "https://www.daytondsa.org/",
+  "notes": "Phone: (937) 228-4532 | Hours: Fri 4–8pm, Sat Noon–5pm | Admission: Free to the Public",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/luminous-flow-time-made-visible/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "the-lodge-ky",
+  "name": "The Lodge KY",
+  "address": "231 Sixth Ave",
+  "city": "Dayton",
+  "state": "KY",
+  "zip": "41074",
+  "neighborhood": null,
+  "lat": 39.11098,
+  "lng": -84.47751,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "gallery",
+  "url": "https://www.thelodgeky.com",
+  "notes": "Phone: (513) 476-9115 | Hours: Thur–Sat 5–7pm | Admission: Free to the Public",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/return-to-the-mother/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "the-well",
+  "name": "The Well",
+  "address": "2454 Gilbert Ave",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45206",
+  "neighborhood": null,
+  "lat": 39.12565,
+  "lng": -84.4902,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "venue",
+  "url": "https://thewell.world",
+  "notes": "Phone: (513) 581-1964 | Hours: Mon–Fri 10am–4pm, Sat & Sun by appt | Admission: Free to the Public",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/true-body-project-time-is-a-circle/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "university-of-dayton-index-gallery",
+  "name": "University of Dayton: Index Gallery",
+  "address": "31 S Main St",
+  "city": "Dayton",
+  "state": "OH",
+  "zip": "45402",
+  "neighborhood": null,
+  "lat": 39.758539,
+  "lng": -84.192227,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "gallery",
+  "url": "https://udayton.edu/artssciences/academics/artanddesign/gallery/index.php",
+  "notes": "Phone: (937) 829-8016 | Hours: Mon–Thur 8am–6:30pm, Fri 8am–5pm | Admission: Free to the Public",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/peter-happel-christian-work-life-balance/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "university-of-dayton-roger-glass-center-for-the-arts-gallery",
+  "name": "University of Dayton: Roger Glass Center for the Arts Gallery",
+  "address": "29 E Creative Way",
+  "city": "Dayton",
+  "state": "OH",
+  "zip": "45409",
+  "neighborhood": null,
+  "lat": 39.7402227708,
+  "lng": -84.1858245047,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "gallery",
+  "url": "https://udayton.edu/campus/glass-center/index.php",
+  "notes": "Phone: (937) 229-5000 | Hours: Mon–Fri 10am–8pm | Admission: Free to the Public",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/darshan/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "visionaries-and-voices",
+  "name": "Visionaries and Voices",
+  "address": "3841 Spring Grove Ave",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45223",
+  "neighborhood": null,
+  "lat": 39.15669,
+  "lng": -84.54104,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "venue",
+  "url": "https://www.visionariesandvoices.com/",
+  "notes": "Phone: (513) 861-4333 | Hours: Mon–Fri 9am–4pm | Admission: Free to the Public",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/picture-perfect/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "wash-park-art-gallery",
+  "name": "Wash Park Art Gallery",
+  "address": "1215 Elm St",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45202",
+  "neighborhood": null,
+  "lat": 39.10829,
+  "lng": -84.51836,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "gallery",
+  "url": "https://washparkart.com",
+  "notes": "Phone: (513) 291-3626 | Hours: Thur–Sat 4–7pm, Sun–Wed by appt | Admission: Free to the Public",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/corson-hirschfeld-afterlife/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "wave-pool",
+  "name": "Wave Pool",
+  "address": "2940 Colerain Ave",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45225",
+  "neighborhood": null,
+  "lat": 39.1360411,
+  "lng": -84.5367579,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "venue",
+  "url": "https://www.wavepoolgallery.org/",
+  "notes": "Phone: (513) 257-0842 | Hours: Wed–Sat Noon–4pm | Admission: Free to the Public",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/forgetting-is-everywhere-2/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "wexner-center-for-the-arts",
+  "name": "Wexner Center for the Arts",
+  "address": "1871 N High St",
+  "city": "Columbus",
+  "state": "OH",
+  "zip": "43210",
+  "neighborhood": null,
+  "lat": 40.000469,
+  "lng": -83.009387,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "venue",
+  "url": "https://wexarts.org/",
+  "notes": "Phone: (614) 292-3535 | Hours: Tue & Wed 9am–6pm, Thur 9am–9pm, Fri & Sat 10am–6pm | Admission: Exhibition: Free to the Public. Film: One screening free for Pass Holders. General admission: $12 adults; $8 venue members; $9 seniors; $6 students",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/sammy-baloji-in-borrowed-tongues-on-extraction-architecture-and-ornament/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "woodward-theater",
+  "name": "Woodward Theater",
+  "address": "1404 Main St",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45202",
+  "neighborhood": null,
+  "lat": 39.11128,
+  "lng": -84.51201,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "venue",
+  "url": "https://www.woodwardtheater.com/",
+  "notes": "Phone: (513) 345-7981 | Hours: Everyday 9am–11pm | Admission: Free to the Public",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/reverse-shot/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ },
+ {
+  "id": "wright-state-university-the-robert-and-elaine-stein-galleries",
+  "name": "Wright State University: The Robert and Elaine Stein Galleries",
+  "address": "160 Creative Arts Center, 3640 Colonel Glen Hwy",
+  "city": "Dayton",
+  "state": "OH",
+  "zip": "45435",
+  "neighborhood": null,
+  "lat": 39.781926,
+  "lng": -84.060762,
+  "programs": [
+   "fotofocus"
+  ],
+  "kind": "gallery",
+  "url": "https://liberal-arts.wright.edu/art-galleries",
+  "notes": "Phone: (937) 775-2973 | Hours: Tue–Sat 11am–4pm | Admission: Free to the Public",
+  "source_url": "https://www.fotofocus.org/fotofocus-exhibition/elizabeth-mead-incidentals-objectsthings-sculpturephotographs/",
+  "geo_source": "FotoFocus 2026 Biennial map page (var locations JSON), https://www.fotofocus.org/biennial/2026/map"
+ }
+]

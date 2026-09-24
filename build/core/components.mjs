@@ -44,7 +44,9 @@ ${lede ? `<p class="lede">${esc(lede)}</p>` : ""}${dek ? `<p class="dek">${esc(d
 export function facts(root, rows, { label = "At a glance" } = {}) {
   const r = rows.filter(([, v]) => v !== null && v !== undefined && v !== "");
   if (!r.length) return "";
-  return `<dl class="facts" aria-label="${attr(label)}">${r.map(([k, v]) => `<div class="fact"><dt>${esc(k)}</dt><dd>${v}</dd></div>`).join("")}</dl>`;
+  // a long value (a list of organizers) gets a double-width tile, so one tall cell does not leave its row empty
+  const wide = (v) => String(v).replace(/<[^>]*>/g, "").length > 110;
+  return `<dl class="facts" aria-label="${attr(label)}">${r.map(([k, v]) => `<div class="fact${wide(v) ? " fact-wide" : ""}"><dt>${esc(k)}</dt><dd>${v}</dd></div>`).join("")}</dl>`;
 }
 
 /** A section under an Oxford rule: { id, title, kicker, num, icon, more: { href, label }, body, anchor, root }
@@ -87,8 +89,9 @@ export function starButton(id, title, { kind = "e", cls = "" } = {}) {
 export const badge = (kind, text) => `<span class="badge${kind ? " badge-" + kind : ""}">${esc(text)}</span>`;
 
 /** Empty state: a dashed sheet with a halftone glyph, a title, one line of help and an action (HTML). */
-export function emptyState({ title, body = "", action = "", glyph = "search", prog = null, attrs = "" }) {
-  return `<div class="empty-state"${prog ? ` data-prog="${prog}"` : ""}${attrs ? " " + attrs : ""}><span class="halftone" aria-hidden="true">${icon(glyph)}</span><h3>${esc(title)}</h3>${body ? `<p>${esc(body)}</p>` : ""}${action}</div>`;
+export function emptyState({ title, body = "", action = "", glyph = "search", prog = null, attrs = "", level = 3 }) {
+  // `level` (QA, additive): the heading level that follows the page's outline (2 when it sits right under the h1)
+  return `<div class="empty-state"${prog ? ` data-prog="${prog}"` : ""}${attrs ? " " + attrs : ""}><span class="halftone" aria-hidden="true">${icon(glyph)}</span><h${level}>${esc(title)}</h${level}>${body ? `<p>${esc(body)}</p>` : ""}${action}</div>`;
 }
 
 /** Filter toolbar (JS-only controls; hidden without JS). spec = { search: { label, placeholder }, selects: [{ name, label, options: [[v, l]] }], views: [{ v, label, icon, pressed }] } */

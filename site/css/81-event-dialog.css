@@ -39,3 +39,4 @@
   .evd-actions .btn-river { flex-basis: 100%; }
 }
 .evd-credits { font-size: var(--fs-sm); line-height: 1.5; max-width: var(--measure); }
+.evd-when .nw { white-space: nowrap; }   /* QA: "4:00 PM ET" stays on one line */

@@ -534,22 +534,22 @@
     "id": "mercantile-immersive",
     "name": "The Mercantile Immersive",
     "aliases": [],
-    "address": null,
+    "address": "120 E 4th St",
     "city": "Cincinnati",
     "state": "OH",
-    "zip": null,
+    "zip": "45202",
     "neighborhood": null,
-    "hood": null,
-    "lat": null,
-    "lng": null,
+    "hood": "downtown-cbd",
+    "lat": 39.101001,
+    "lng": -84.51065,
     "programs": [
       "blink"
     ],
     "kind": "venue",
-    "url": null,
+    "url": "https://mercantileimmersive.com/",
     "accessibility": null,
     "source_url": "https://www.blinkcincinnati.com/plan-your-blink-visit/blink-around-town",
-    "notes": "Harper Alive venue (listed on BLINK Around Town). BLINK does not give an address."
+    "notes": "Harper Alive venue (listed on BLINK Around Town). BLINK does not give an address. Address (QA audit 2026-09-24): the venue's contact page gives \"120 E 4th St, Cincinnati, OH 45202\" (https://mercantileimmersive.com/contact/); BLINK names the venue without an address."
   },
   {
     "id": "21c-museum-hotel-cincinnati",
@@ -1078,8 +1078,10 @@
   },
   {
     "id": "daap-galleries-reed-gallery",
-    "name": "DAAP Galleries:: Reed Gallery",
-    "aliases": [],
+    "name": "DAAP Galleries: Reed Gallery",
+    "aliases": [
+      "DAAP Galleries:: Reed Gallery"
+    ],
     "address": "DAAP Aronoff Building, RM 5275, 2624 Clifton Ave",
     "city": "Cincinnati",
     "state": "OH",
@@ -1252,8 +1254,8 @@
     "city": "Cincinnati",
     "state": "OH",
     "zip": "45202",
-    "neighborhood": "Over-the-Rhine",
-    "hood": "over-the-rhine",
+    "neighborhood": null,
+    "hood": "findlay-market-district",
     "lat": 39.115645,
     "lng": -84.518353,
     "programs": [

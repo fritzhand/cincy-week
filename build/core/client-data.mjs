@@ -9,13 +9,16 @@
      programs: { id: { n: name, s: short } },
      venues:   { id: { n, a: address|null, h: hood|null, ll: [lat,lng]|null, st: stall|null } },
      people:   { id: { n, t: "Title, Org"|null, i: image path|null } },
-     events:   [{ id, x: share code, p, t, k: kind, kg, d: description|null, v: venue_id|null, r: room|null,
+     events:   [{ id, x: share code, p, t, k: kind, kg, v: venue_id|null, r: room|null,
                   lt: location_text|null, pp: [person ids], pr: { id: role }, c: cost|null, f: is_free (1|0|null),
                   u: registration_url|null, src, st: status, fe: featured (1|0),
                   tg: [tags], tr: [tracks], tt: time_text|null, ht: hours_text|null, wk: [work ids],
                   cr: [[role, [names]]] (credits: names without a person record; added by C),
                   i: [[day, s, e, flags]] }] }   flags: 1 endUnknown · 2 timeUnknown · 4 allDay · 8 ongoing · 16 lateNight
                   (i lists every festival-day instance inside dataWindow, sorted by s; day = festival day)
+   event-text.json = { v, d: { eventId: description } }   the verbatim descriptions, split out of events.json
+                  (integration pass, 2026-09-24) so the idle prefetch stays small; the event dialog and the
+                  .ics exports load it on first use and set ev.d from it (events without a description are absent)
    works.json = { v, works: [{ id, x, p, t, a: [person ids], at: artist_text|null, m: medium, c: category|null,
                   z: zone|null, v: venue_id|null, lt: location_text|null, ll: [lat,lng]|null, ht: hours_text|null,
                   sp: sponsor|null, d: description|null, i: image path|null, src }],
@@ -32,7 +35,7 @@ export function clientData(db, images) {
   const people = Object.fromEntries(db.people.map((p) => [p.id, { n: p.name, t: nz([p.title, p.org].filter(Boolean).join(", ")), i: images.path("p", p.id) }]));
   const flags = (x) => (x.endUnknown ? 1 : 0) | (x.timeUnknown ? 2 : 0) | (x.allDay ? 4 : 0) | (x.ongoing ? 8 : 0) | (x.lateNight ? 16 : 0);
   const events = db.events.map((e) => ({
-    id: e.id, x: db.code(e.id), p: e.program, t: e.title, k: e.kind, kg: e.kg, d: nz(e.description), v: nz(e.venue_id), r: nz(e.room),
+    id: e.id, x: db.code(e.id), p: e.program, t: e.title, k: e.kind, kg: e.kg, v: nz(e.venue_id), r: nz(e.room),
     lt: nz(e.location_text), pp: e.people || [], pr: e.people_roles || {}, c: nz(e.cost), f: e.is_free === true ? 1 : e.is_free === false ? 0 : null,
     u: nz(e.registration_url), src: e.source_url, st: e.status || "scheduled", fe: e.featured ? 1 : 0,
     tg: e.tags || [], tr: e.tracks || [], tt: nz(e.time_text), ht: nz(e.hours_text), wk: e.work_ids || [],
@@ -47,6 +50,7 @@ export function clientData(db, images) {
   const wp = new Set(db.works.flatMap((w) => w.artists || []));
   return {
     "assets/data/events.json": { v: 1, tz: db.config.timezone, week: db.config.week, phase: db.phaseInstants, programs, venues, people, events },
+    "assets/data/event-text.json": { v: 1, d: Object.fromEntries(db.events.filter((e) => e.description).map((e) => [e.id, e.description])) },
     "assets/data/works.json": { v: 1, works, people: Object.fromEntries([...wp].map((id) => [id, { n: db.byId.person.get(id)?.name || id }])) },
   };
 }

@@ -9,6 +9,7 @@
 
 /* ---------- the filter bar: search, chip groups (one scrolling row each on phones), A–Z, status ---------- */
 .dir-tools { display: grid; gap: var(--sp-2); margin-bottom: var(--sp-3); }
+.dir-tools > .view-toggle { justify-self: start; }   /* QA: a grid item stretched the Grid/Map toggle across the page */
 .dir-search { max-width: 520px; }
 .dir-group { display: grid; grid-template-columns: 76px minmax(0, 1fr); align-items: center; gap: var(--sp-2); min-width: 0; }
 .dir-glabel { color: var(--text-muted); }
@@ -101,6 +102,14 @@
 .wall-head .cap { margin-left: auto; color: var(--text-faint); }
 @media (max-width: 559px) { .wall-head .cap { display: none; } }
 .tier { margin: var(--sp-4) 0 var(--sp-2); color: var(--text-muted); }
+/* QA: a program's tiers flow as a row; a tier of one or two logos (.n1, .n2) takes only their width, so a wall of
+   many one-sponsor tiers fills the row instead of running down the left edge. Plates keep one size. */
+.wall-group { display: flex; flex-wrap: wrap; align-items: flex-end; column-gap: var(--sp-4); }
+.wall-group > * { flex: 1 1 100%; min-width: 0; }
+.wall-group > .wall-tier.n1 { flex: 0 1 164px; }
+.wall-group > .wall-tier.n2 { flex: 0 1 336px; }
+.wall-tier.n1 .plates, .wall-tier.n2 .plates { grid-template-columns: repeat(auto-fill, minmax(min(100%, 150px), 1fr)); }
+@media (max-width: 559px) { .wall-group > .wall-tier.n1 { flex-basis: calc(50% - var(--sp-2)); } .wall-group > .wall-tier.n2 { flex-basis: 100%; } .wall-tier.n2 .plates { grid-template-columns: 1fr 1fr; } }
 .wall-marks .plates { margin-top: var(--sp-3); }
 .plates { display: grid; gap: var(--sp-2); grid-template-columns: repeat(auto-fill, minmax(min(46%, 150px), 1fr)); }
 .plates.lg { grid-template-columns: repeat(auto-fill, minmax(min(46%, 220px), 1fr)); }

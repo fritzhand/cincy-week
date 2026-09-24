@@ -1,0 +1,250 @@
+[
+ {
+  "id": "blink-legacy-vendor-01-boba-cha",
+  "kind": "food",
+  "name": "Boba Cha",
+  "location_listed": "Asianati Night Market",
+  "source_url": "https://www.blinkcincinnati.com/experience/restaurants",
+  "notes": "From the undated /experience/restaurants page, which is not linked from the 2026 site navigation (legacy page, likely BLINK 2024). Not a confirmed 2026 vendor."
+ },
+ {
+  "id": "blink-legacy-vendor-02-bridges-nepali-cuisine",
+  "kind": "food",
+  "name": "Bridges Nepali Cuisine",
+  "location_listed": "Asianati Night Market",
+  "source_url": "https://www.blinkcincinnati.com/experience/restaurants",
+  "notes": "From the undated /experience/restaurants page, which is not linked from the 2026 site navigation (legacy page, likely BLINK 2024). Not a confirmed 2026 vendor."
+ },
+ {
+  "id": "blink-legacy-vendor-03-chinos-street-food",
+  "kind": "food",
+  "name": "Chino's Street Food",
+  "location_listed": "Asianati Night Market",
+  "source_url": "https://www.blinkcincinnati.com/experience/restaurants",
+  "notes": "From the undated /experience/restaurants page, which is not linked from the 2026 site navigation (legacy page, likely BLINK 2024). Not a confirmed 2026 vendor."
+ },
+ {
+  "id": "blink-legacy-vendor-04-hawkers-alley",
+  "kind": "food",
+  "name": "Hawkers Alley",
+  "location_listed": "Asianati Night Market",
+  "source_url": "https://www.blinkcincinnati.com/experience/restaurants",
+  "notes": "From the undated /experience/restaurants page, which is not linked from the 2026 site navigation (legacy page, likely BLINK 2024). Not a confirmed 2026 vendor."
+ },
+ {
+  "id": "blink-legacy-vendor-05-pho-lang-thang",
+  "kind": "food",
+  "name": "Pho Lang Thang",
+  "location_listed": "Asianati Night Market",
+  "source_url": "https://www.blinkcincinnati.com/experience/restaurants",
+  "notes": "From the undated /experience/restaurants page, which is not linked from the 2026 site navigation (legacy page, likely BLINK 2024). Not a confirmed 2026 vendor."
+ },
+ {
+  "id": "blink-legacy-vendor-06-queens-bakery",
+  "kind": "food",
+  "name": "Queens Bakery",
+  "location_listed": "Asianati Night Market",
+  "source_url": "https://www.blinkcincinnati.com/experience/restaurants",
+  "notes": "From the undated /experience/restaurants page, which is not linked from the 2026 site navigation (legacy page, likely BLINK 2024). Not a confirmed 2026 vendor."
+ },
+ {
+  "id": "blink-legacy-vendor-07-stone-bowl-restaurant",
+  "kind": "food",
+  "name": "Stone Bowl Restaurant",
+  "location_listed": "Asianati Night Market",
+  "source_url": "https://www.blinkcincinnati.com/experience/restaurants",
+  "notes": "From the undated /experience/restaurants page, which is not linked from the 2026 site navigation (legacy page, likely BLINK 2024). Not a confirmed 2026 vendor."
+ },
+ {
+  "id": "blink-legacy-vendor-08-tea-n-bowl",
+  "kind": "food",
+  "name": "Tea N Bowl",
+  "location_listed": "Asianati Night Market",
+  "source_url": "https://www.blinkcincinnati.com/experience/restaurants",
+  "notes": "From the undated /experience/restaurants page, which is not linked from the 2026 site navigation (legacy page, likely BLINK 2024). Not a confirmed 2026 vendor."
+ },
+ {
+  "id": "blink-legacy-vendor-09-thai-express",
+  "kind": "food",
+  "name": "Thai Express",
+  "location_listed": "Asianati Night Market",
+  "source_url": "https://www.blinkcincinnati.com/experience/restaurants",
+  "notes": "From the undated /experience/restaurants page, which is not linked from the 2026 site navigation (legacy page, likely BLINK 2024). Not a confirmed 2026 vendor."
+ },
+ {
+  "id": "blink-legacy-vendor-10-tikka-xpress",
+  "kind": "food",
+  "name": "Tikka Xpress",
+  "location_listed": "Asianati Night Market",
+  "source_url": "https://www.blinkcincinnati.com/experience/restaurants",
+  "notes": "From the undated /experience/restaurants page, which is not linked from the 2026 site navigation (legacy page, likely BLINK 2024). Not a confirmed 2026 vendor."
+ },
+ {
+  "id": "blink-legacy-vendor-11-fatboy-q",
+  "kind": "food",
+  "name": "Fatboy Q",
+  "location_listed": "The Banks",
+  "source_url": "https://www.blinkcincinnati.com/experience/restaurants",
+  "notes": "From the undated /experience/restaurants page, which is not linked from the 2026 site navigation (legacy page, likely BLINK 2024). Not a confirmed 2026 vendor."
+ },
+ {
+  "id": "blink-legacy-vendor-12-city-belle-fried-pies",
+  "kind": "food",
+  "name": "City Belle Fried Pies",
+  "location_listed": "The Banks",
+  "source_url": "https://www.blinkcincinnati.com/experience/restaurants",
+  "notes": "From the undated /experience/restaurants page, which is not linked from the 2026 site navigation (legacy page, likely BLINK 2024). Not a confirmed 2026 vendor."
+ },
+ {
+  "id": "blink-legacy-vendor-13-mama-afrique",
+  "kind": "food",
+  "name": "Mama Afrique",
+  "location_listed": "The Banks",
+  "source_url": "https://www.blinkcincinnati.com/experience/restaurants",
+  "notes": "From the undated /experience/restaurants page, which is not linked from the 2026 site navigation (legacy page, likely BLINK 2024). Not a confirmed 2026 vendor."
+ },
+ {
+  "id": "blink-legacy-vendor-14-buffalos-best",
+  "kind": "food",
+  "name": "Buffalo's Best",
+  "location_listed": "The Banks",
+  "source_url": "https://www.blinkcincinnati.com/experience/restaurants",
+  "notes": "From the undated /experience/restaurants page, which is not linked from the 2026 site navigation (legacy page, likely BLINK 2024). Not a confirmed 2026 vendor."
+ },
+ {
+  "id": "blink-legacy-vendor-15-off-the-hook",
+  "kind": "food",
+  "name": "Off The Hook",
+  "location_listed": "The Banks",
+  "source_url": "https://www.blinkcincinnati.com/experience/restaurants",
+  "notes": "From the undated /experience/restaurants page, which is not linked from the 2026 site navigation (legacy page, likely BLINK 2024). Not a confirmed 2026 vendor."
+ },
+ {
+  "id": "blink-legacy-vendor-16-adenas-beefstroll",
+  "kind": "food",
+  "name": "Adena's Beefstroll",
+  "location_listed": "The Banks",
+  "source_url": "https://www.blinkcincinnati.com/experience/restaurants",
+  "notes": "From the undated /experience/restaurants page, which is not linked from the 2026 site navigation (legacy page, likely BLINK 2024). Not a confirmed 2026 vendor."
+ },
+ {
+  "id": "blink-legacy-vendor-17-skyline",
+  "kind": "food",
+  "name": "Skyline",
+  "location_listed": "The Banks",
+  "source_url": "https://www.blinkcincinnati.com/experience/restaurants",
+  "notes": "From the undated /experience/restaurants page, which is not linked from the 2026 site navigation (legacy page, likely BLINK 2024). Not a confirmed 2026 vendor."
+ },
+ {
+  "id": "blink-legacy-vendor-18-graeters",
+  "kind": "food",
+  "name": "Graeters",
+  "location_listed": "The Banks",
+  "source_url": "https://www.blinkcincinnati.com/experience/restaurants",
+  "notes": "From the undated /experience/restaurants page, which is not linked from the 2026 site navigation (legacy page, likely BLINK 2024). Not a confirmed 2026 vendor."
+ },
+ {
+  "id": "blink-legacy-vendor-19-banks-bar-1",
+  "kind": "food",
+  "name": "Banks Bar 1",
+  "location_listed": "The Banks",
+  "source_url": "https://www.blinkcincinnati.com/experience/restaurants",
+  "notes": "From the undated /experience/restaurants page, which is not linked from the 2026 site navigation (legacy page, likely BLINK 2024). Not a confirmed 2026 vendor."
+ },
+ {
+  "id": "blink-legacy-vendor-20-banks-bar-2",
+  "kind": "food",
+  "name": "Banks Bar 2",
+  "location_listed": "The Banks",
+  "source_url": "https://www.blinkcincinnati.com/experience/restaurants",
+  "notes": "From the undated /experience/restaurants page, which is not linked from the 2026 site navigation (legacy page, likely BLINK 2024). Not a confirmed 2026 vendor."
+ },
+ {
+  "id": "blink-legacy-vendor-21-sea-cuisine",
+  "kind": "food",
+  "name": "Sea Cuisine",
+  "location_listed": "Asianati Night Market",
+  "source_url": "https://www.blinkcincinnati.com/experience/restaurants",
+  "notes": "From the undated /experience/restaurants page, which is not linked from the 2026 site navigation (legacy page, likely BLINK 2024). Not a confirmed 2026 vendor."
+ },
+ {
+  "id": "blink-legacy-vendor-22-dine-in-hawaiian",
+  "kind": "food",
+  "name": "Dine-In Hawaiian",
+  "location_listed": "Asianati Night Market",
+  "source_url": "https://www.blinkcincinnati.com/experience/restaurants",
+  "notes": "From the undated /experience/restaurants page, which is not linked from the 2026 site navigation (legacy page, likely BLINK 2024). Not a confirmed 2026 vendor."
+ },
+ {
+  "id": "blink-legacy-vendor-23-khaao-macha",
+  "kind": "food",
+  "name": "Khaao Macha",
+  "location_listed": "Asianati Night Market",
+  "source_url": "https://www.blinkcincinnati.com/experience/restaurants",
+  "notes": "From the undated /experience/restaurants page, which is not linked from the 2026 site navigation (legacy page, likely BLINK 2024). Not a confirmed 2026 vendor."
+ },
+ {
+  "id": "blink-legacy-vendor-24-covington-bar-1",
+  "kind": "food",
+  "name": "Covington Bar 1",
+  "location_listed": "Covington",
+  "source_url": "https://www.blinkcincinnati.com/experience/restaurants",
+  "notes": "From the undated /experience/restaurants page, which is not linked from the 2026 site navigation (legacy page, likely BLINK 2024). Not a confirmed 2026 vendor."
+ },
+ {
+  "id": "blink-legacy-vendor-25-covington-bar-2",
+  "kind": "food",
+  "name": "Covington Bar 2",
+  "location_listed": "Covington",
+  "source_url": "https://www.blinkcincinnati.com/experience/restaurants",
+  "notes": "From the undated /experience/restaurants page, which is not linked from the 2026 site navigation (legacy page, likely BLINK 2024). Not a confirmed 2026 vendor."
+ },
+ {
+  "id": "blink-legacy-vendor-26-forking-pierogi",
+  "kind": "food",
+  "name": "Forking Pierogi",
+  "location_listed": "Liberty St & Pleasant St",
+  "source_url": "https://www.blinkcincinnati.com/experience/restaurants",
+  "notes": "From the undated /experience/restaurants page, which is not linked from the 2026 site navigation (legacy page, likely BLINK 2024). Not a confirmed 2026 vendor."
+ },
+ {
+  "id": "blink-legacy-vendor-27-skate-park-bar",
+  "kind": "food",
+  "name": "Skate Park Bar",
+  "location_listed": "Liberty St & Pleasant St",
+  "source_url": "https://www.blinkcincinnati.com/experience/restaurants",
+  "notes": "From the undated /experience/restaurants page, which is not linked from the 2026 site navigation (legacy page, likely BLINK 2024). Not a confirmed 2026 vendor."
+ },
+ {
+  "id": "blink-legacy-vendor-28-ccs-empanadas",
+  "kind": "food",
+  "name": "CC's Empanadas",
+  "location_listed": "Liberty St & Pleasant St",
+  "source_url": "https://www.blinkcincinnati.com/experience/restaurants",
+  "notes": "From the undated /experience/restaurants page, which is not linked from the 2026 site navigation (legacy page, likely BLINK 2024). Not a confirmed 2026 vendor."
+ },
+ {
+  "id": "blink-legacy-vendor-29-twisted-greek",
+  "kind": "food",
+  "name": "Twisted Greek",
+  "location_listed": "Liberty St & Pleasant St",
+  "source_url": "https://www.blinkcincinnati.com/experience/restaurants",
+  "notes": "From the undated /experience/restaurants page, which is not linked from the 2026 site navigation (legacy page, likely BLINK 2024). Not a confirmed 2026 vendor."
+ },
+ {
+  "id": "blink-legacy-vendor-30-skyline",
+  "kind": "food",
+  "name": "Skyline",
+  "location_listed": "Liberty St & Pleasant St",
+  "source_url": "https://www.blinkcincinnati.com/experience/restaurants",
+  "notes": "From the undated /experience/restaurants page, which is not linked from the 2026 site navigation (legacy page, likely BLINK 2024). Not a confirmed 2026 vendor."
+ },
+ {
+  "id": "blink-legacy-vendor-31-larosas",
+  "kind": "food",
+  "name": "Larosa's",
+  "location_listed": "The Banks",
+  "source_url": "https://www.blinkcincinnati.com/experience/restaurants",
+  "notes": "From the undated /experience/restaurants page, which is not linked from the 2026 site navigation (legacy page, likely BLINK 2024). Not a confirmed 2026 vendor."
+ }
+]

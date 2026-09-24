@@ -1,0 +1,82 @@
+[
+  {
+    "id": "caw-mz-icar-experiential-piece",
+    "program": "caw",
+    "title": "Experiential art piece by Mz. Icar (title not announced)",
+    "artists": [
+      "mz-icar"
+    ],
+    "medium": "other",
+    "medium_text": "experiential art piece",
+    "zone": "Over-the-Rhine",
+    "venue_id": null,
+    "location_text": null,
+    "lat": null,
+    "lng": null,
+    "description": "You might find an experiential art piece by Mz. Icar, an installation exploring identity by local architect Chas Wiederhold, or Prints and Plants, a pop-up with local artist Gee Horton.",
+    "image_url": null,
+    "sponsor": null,
+    "source_url": "https://www.cincinnatimagazine.com/article/cincinnati-art-week/",
+    "notes": "Venue/storefront not yet published."
+  },
+  {
+    "id": "caw-chas-wiederhold-identity-installation",
+    "program": "caw",
+    "title": "Installation exploring identity by Chas Wiederhold (title not announced)",
+    "artists": [
+      "chas-wiederhold"
+    ],
+    "medium": "other",
+    "medium_text": "installation exploring identity",
+    "zone": "Over-the-Rhine",
+    "venue_id": null,
+    "location_text": null,
+    "lat": null,
+    "lng": null,
+    "description": "You might find an experiential art piece by Mz. Icar, an installation exploring identity by local architect Chas Wiederhold, or Prints and Plants, a pop-up with local artist Gee Horton.",
+    "image_url": null,
+    "sponsor": null,
+    "source_url": "https://www.cincinnatimagazine.com/article/cincinnati-art-week/",
+    "notes": "Venue/storefront not yet published."
+  },
+  {
+    "id": "caw-prints-and-plants-gee-horton",
+    "program": "caw",
+    "title": "Prints and Plants",
+    "artists": [
+      "gee-horton"
+    ],
+    "medium": "other",
+    "medium_text": "pop-up",
+    "zone": "Over-the-Rhine",
+    "venue_id": null,
+    "location_text": null,
+    "lat": null,
+    "lng": null,
+    "description": "You might find an experiential art piece by Mz. Icar, an installation exploring identity by local architect Chas Wiederhold, or Prints and Plants, a pop-up with local artist Gee Horton.",
+    "image_url": null,
+    "sponsor": null,
+    "source_url": "https://www.cincinnatimagazine.com/article/cincinnati-art-week/",
+    "notes": "A pop-up (per Cincinnati Magazine). Venue/storefront not yet published."
+  },
+  {
+    "id": "caw-art-city-beer",
+    "program": "caw",
+    "title": "Art City (Cincinnati Art Week edition Japanese-style rice lager)",
+    "artists": [
+      "bailey-elderberry"
+    ],
+    "medium": "other",
+    "medium_text": "beer can label artwork (special-edition lager)",
+    "zone": "Walnut Hills",
+    "venue_id": "esoteric-brewing",
+    "location_text": "Esoteric Brewing Co., 918 E McMillan St",
+    "lat": 39.1260609,
+    "lng": -84.4897364,
+    "description": "Meet ART CITY 🌀🍺. A special Cincinnati Art Week edition of @esotericbeer Japanese-style Rice Lager, featuring artwork by @baileyelderberry. Clean, crisp, and made for gallery hopping. Want to carry Art City? Hit us up.",
+    "image_url": null,
+    "sponsor": "Esoteric Brewing Co.",
+    "source_url": "https://www.instagram.com/p/Ddj-F4WtU0i/",
+    "notes": "Cincinnati Magazine: \"This Japanese-Style Rice Lager was made in collaboration with CAW for an evening of gallery-hopping.\" Can label art is by @baileyelderberry."
+  }
+]

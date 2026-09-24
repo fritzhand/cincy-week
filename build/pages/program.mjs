@@ -14,7 +14,8 @@
    ============================================================ */
 import { PROGRAM_PAGES } from "../nav.mjs";
 import { ROLE_LABEL } from "../core/schema.mjs";
-import { project } from "../../site/js/lib/geo.js";
+import { project, cluster } from "../../site/js/lib/geo.js";
+import { roomText } from "../../site/js/lib/text.js";
 import { newsCard, latestNews } from "./news.mjs";
 
 const UNLISTED = "Location not listed";
@@ -31,7 +32,7 @@ export function pages(ctx) {
 
   /* ---------- pieces ---------- */
   const whereText = (ev) => {
-    if (ev.venue) return `${esc(ev.venue.name)}${ev.room && !ev.room.includes(ev.venue.name) && !ev.venue.name.includes(ev.room) ? ` · ${esc(ev.room)}` : ""}`;
+    if (ev.venue) return `${esc(ev.venue.name)}${roomText(ev.venue.name, ev.room) ? ` · ${esc(roomText(ev.venue.name, ev.room))}` : ""}`;
     if (ev.location_text && ev.location_text !== UNLISTED) return esc(ev.location_text);
     return `<span class="unk">${UNLISTED}</span>`;
   };
@@ -65,7 +66,15 @@ export function pages(ctx) {
     w = Math.min(w, meta.W); hh = Math.min(hh, meta.H);
     const cx = (x0 + x1) / 2, cy = (y0 + y1) / 2;
     x0 = Math.min(Math.max(0, cx - w / 2), meta.W - w); y0 = Math.min(Math.max(0, cy - hh / 2), meta.H - hh);
-    const pins = pts.map(([v, x, y]) => `<span class="pin pin-venue" data-prog="${prog}" style="left: ${(((x - x0) / w) * 100).toFixed(2)}%; top: ${(((y - y0) / hh) * 100).toFixed(2)}%"><span>${v.stall}</span></span>`).join("");
+    // QA: pins closer than a pin's width at a phone's width (≈360px) merge into a numbered cluster disc (filled ink, as on
+    // the interactive map), and every pin stays inside the frame; the venue list beside the map names them all
+    const RW = 360, upx = w / RW, R = 38;   // R = the cluster disc's width
+    const groups = cluster(pts.map(([v, x, y]) => ({ v, x: (x - x0) / upx, y: (y - y0) / upx })), R);
+    const pos = (gx, gy) => `left: clamp(17px, ${((gx / RW) * 100).toFixed(2)}%, calc(100% - 17px)); top: clamp(17px, ${((gy / (hh / upx)) * 100).toFixed(2)}%, calc(100% - 17px))`;
+    const share = { caw: "a", scw: "s", blink: "b", fotofocus: "f", also: "f" }[prog] || "o";
+    const pins = groups.map((g) => (g.members.length === 1
+      ? `<span class="pin pin-venue" data-prog="${prog}" style="${pos(g.x, g.y)}"><span>${g.members[0].v.stall}</span></span>`
+      : `<span class="pin pin-cluster" style="${pos(g.x, g.y)}; --${share}: ${g.members.length}"><span>${g.members.length}</span></span>`)).join("");
     return `<div class="mini-map prog-map" role="img" aria-label="${attr(label)}"><svg viewBox="${x0.toFixed(1)} ${y0.toFixed(1)} ${w.toFixed(1)} ${hh.toFixed(1)}" aria-hidden="true" focusable="false"><use href="${root}assets/map/basemap.svg#bm"/></svg>${pins}</div>`;
   }
 
@@ -112,7 +121,7 @@ export function pages(ctx) {
     const secs = [];
     const add = (id, label, fn) => { toc.push([id, label]); secs.push(fn); };
 
-    if ((p.tickets || []).length > 1) add("tickets", "Tickets and passes", (root) => c.section({ id: "tickets", title: "Tickets and passes", anchor: true, body: `<div class="table-wrap"><table class="data prog-tickets"><thead><tr><th scope="col">Ticket or pass</th><th scope="col">Price</th><th scope="col">Details</th></tr></thead><tbody>${p.tickets.map((t) => `<tr><th scope="row" data-label="Ticket">${t.url ? h.extLink(t.url, esc(t.name)) : esc(t.name)}</th><td data-label="Price" class="tnum">${t.price ? esc(t.price) : '<span class="unk">Price not listed</span>'}</td><td data-label="Details">${t.notes ? esc(t.notes) : ""}</td></tr>`).join("")}</tbody></table></div>${c.sourceLine(p.tickets.map((t) => t.url))}` }));
+    if ((p.tickets || []).length > 1) add("tickets", "Tickets and passes", (root) => c.section({ id: "tickets", title: "Tickets and passes", anchor: true, body: `<div class="table-wrap"><table class="data prog-tickets"><thead><tr><th scope="col">Ticket or pass</th><th scope="col">Price</th><th scope="col">Details</th></tr></thead><tbody>${p.tickets.map((t) => `<tr><th scope="row" data-label="Ticket">${t.url ? h.extLink(t.url, esc(t.name)) : esc(t.name)}</th><td data-label="Price" class="tnum">${t.price ? esc(t.price) : '<span class="unk">Price not listed</span>'}</td><td data-label="Details">${t.details ? esc(t.details) : ""}</td></tr>`).join("")}</tbody></table></div>${c.sourceLine(p.tickets.map((t) => t.url))}` }));
 
     const themes = progs.flatMap((x) => (x.daily_themes || []).map((t) => ({ ...t, prog: x.id }))).filter((t) => t.date && t.theme);
     if (themes.length) add("days", "Day by day", () => c.section({ id: "days", title: "Day by day", anchor: true, body: `<ol class="themes">${h.sortBy(themes, (t) => t.date).map((t) => `<li><time datetime="${t.date}">${esc(h.fmtDate(t.date))}<small>${esc(h.fmtDay(t.date).split(",")[0])}</small></time><div><b>${esc(t.theme)}</b>${t.highlights?.length ? `<p>${esc(t.highlights.join(" · "))}</p>` : ""}</div></li>`).join("")}</ol>${c.sourceLine([p.source_url], { note: "Themes as the organizers publish them." })}` }));
@@ -127,7 +136,16 @@ export function pages(ctx) {
       const byDay = h.groupBy(h.sortBy(inst, (x) => (x.timeUnknown || x.allDay ? 1 : 0), (x) => x.s), (x) => x.day);
       const days = [...byDay.keys()].sort();
       const runsHtml = runs.length ? `<h3 class="sub-h">${esc(runs.every((e) => e.kind === "exhibition") ? `Exhibitions · ${runs.length}` : `Runs over several days · ${runs.length}`)}</h3><ol class="tonight prog-rows is-runs">${runs.map((e) => runRow(root, e)).join("")}</ol>` : "";
-      const daysHtml = days.map((d) => `<h3 class="sub-h" id="${id}-d-${d}">${esc(h.fmtDay(d))} · ${esc(h.plural(byDay.get(d).length, "event"))}</h3><ol class="tonight prog-rows">${byDay.get(d).map((x) => row(root, x)).join("")}</ol>`).join("\n");
+      // QA: a long program (StartupCincy's 120 sessions, FotoFocus's 188) folds each day into a <details> (works without
+      // JS; features/progdays.js opens today's day during the week), so the page is an index of days, not 13,000px of rows
+      const fold = inst.length > 40;
+      const daysHtml = days.map((d) => {
+        const head = `${esc(h.fmtDay(d))} · ${esc(h.plural(byDay.get(d).length, "event"))}`;
+        const list = `<ol class="tonight prog-rows">${byDay.get(d).map((x) => row(root, x)).join("")}</ol>`;
+        return fold
+          ? `<details class="prog-day" id="${id}-d-${d}" data-day="${d}"><summary><h3 class="sub-h">${head}</h3>${icon("chev-d")}</summary>${list}</details>`
+          : `<h3 class="sub-h" id="${id}-d-${d}">${head}</h3>${list}`;
+      }).join("\n");
       return { html: daysHtml + runsHtml, n: evs.length };
     };
     add("schedule", "Schedule", (root) => {
@@ -164,13 +182,16 @@ export function pages(ctx) {
       const inArea = (v) => { if (!meta) return false; const [x, y] = project(v.lat, v.lng, meta); return x >= 0 && y >= 0 && x <= meta.W && y <= meta.H; };
       const noPoint = venues.filter((v) => v.lat == null);
       const outside = venues.filter((v) => v.lat != null && !inArea(v));
-      const outCities = [...new Set(outside.map((v) => v.city).filter(Boolean))];
+      // QA: "outside this map's area (in … Cincinnati …)" read as a contradiction: the home city's outer neighborhoods are named as such
+      const cities0 = [...new Set(outside.map((v) => v.city).filter(Boolean))];
+      const outCities = cities0.includes("Cincinnati") ? ["other Cincinnati neighborhoods", ...cities0.filter((x) => x !== "Cincinnati")] : cities0;
       const map = progMap(root, venues, pid, `Map of ${c.progName(pid)} venues in the guide, numbered as in the list`);
       const notes = [
         outside.length ? `${h.plural(outside.length, "venue")} ${outside.length === 1 ? "lies" : "lie"} outside this map's area${outCities.length ? ` (in ${h.listJoin(outCities.slice(0, 5))}${outCities.length > 5 ? " and more" : ""})` : ""}.` : "",
         noPoint.length ? `${h.plural(noPoint.length, "venue")} ${noPoint.length === 1 ? "has" : "have"} no published address, so ${noPoint.length === 1 ? "it is" : "they are"} not on the map.` : "",
       ].filter(Boolean).join(" ");
-      const note = notes ? `<p class="prog-map-note">${esc(notes)}</p>` : "";
+      const hasCluster = /pin-cluster/.test(map);
+      const note = `<p class="prog-map-note">${esc([hasCluster ? "A filled disc counts venues too close together to number; the list names each." : "", notes].filter(Boolean).join(" "))}${map ? ` <a href="${root}map.html?p=${pid}">Open them on the full map</a>` : ""}</p>`;
       return c.section({ id: "venues", title: "Venues", kicker: h.plural(venues.length, "venue"), anchor: true, more: { href: `venues.html?p=${pid}`, label: "All venues" }, root, body: `<div class="prog-venues">${map ? `<div class="prog-map-col">${map}${note}</div>` : ""}<ol class="venues">${venues.slice(0, MAX_VENUES).map((v) => cards.venueCard(root, v)).join("")}</ol></div>${venues.length > MAX_VENUES ? `<p class="prog-more"><a href="${root}venues.html?p=${pid}">${esc(`All ${venues.length} venues`)}${icon("arrow-r")}</a></p>` : ""}` });
     });
 
@@ -206,7 +227,7 @@ export function pages(ctx) {
     const about = paras.slice(0, 4).join("\n\n");
 
     return {
-      path: `${pp.slug}.html`, nav: pp.slug, title: pp.label, toc, features: [], og: `og-${pid}.png`,
+      path: `${pp.slug}.html`, nav: pp.slug, title: pp.label, toc, features: ["progdays"], og: `og-${pid}.png`,
       description: h.truncate(`${pp.label}, ${h.fmtDateRange(p.dates.start, p.dates.end)}, ${p.dates.start.slice(0, 4)}: schedule, people, venues, tickets and sponsors, from the organizers' own pages.`, 158),
       jsonld: seo.programLd(config, p, { url, venue: hub }),
       body: (root) => `${c.pageHead({

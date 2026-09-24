@@ -1,0 +1,1578 @@
+[
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/images/Blink_26_ArtswaveLockup_RGB.svg",
+  "format": "svg",
+  "notes": "Site header/footer lockup \"BLINK 2026 + illuminated by artswave\" (coral #f4475d panel, white wordmark, black eye, teal #00c8aa ArtsWave tab). The SVG wraps an embedded 706x465 PNG, so it is not a true vector.",
+  "source_url": "https://www.blinkcincinnati.com/"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://cincinnatichamber.com/wp-content/uploads/2026/06/Blink_26_ArtswaveLockup_PMS-scaled.jpg",
+  "format": "jpg",
+  "notes": "Same 2026 lockup, PMS version, 2560x1687 (largest original found). og:image of the Chamber's June 9, 2026 release.",
+  "source_url": "https://cincinnatichamber.com/blog/blink-a-festival-of-light-art-announces-exhibiting-artists-for-blink-2026-biennial/"
+ },
+ {
+  "program": "blink",
+  "kind": "favicon",
+  "url": "https://blinkcincinnati.b-cdn.net/images/favicon.png?v=2",
+  "format": "png",
+  "notes": "BLINK eye mark, white eye on black with coral corner, 100x100",
+  "source_url": "https://www.blinkcincinnati.com/"
+ },
+ {
+  "program": "blink",
+  "kind": "key-art",
+  "url": "https://www.blinkcincinnati.com/images/share.jpg",
+  "format": "jpg",
+  "notes": "Social share image (og:image): \"BLINK\" wordmark on lime (#cdff00) over a night photo, \"2026 October 8-11\", 1200x630",
+  "source_url": "https://www.blinkcincinnati.com/"
+ },
+ {
+  "program": "blink",
+  "kind": "key-art",
+  "url": "https://blinkcincinnati.b-cdn.net/images/blink_26_footer.png",
+  "format": "png",
+  "notes": "Footer collage: Cincinnati skyline cut-outs with coral, yellow, blue and teal color blocks, 1600x1001",
+  "source_url": "https://www.blinkcincinnati.com/"
+ },
+ {
+  "program": "blink",
+  "kind": "pattern",
+  "url": "https://blinkcincinnati.b-cdn.net/images/blink_tl_blue.svg",
+  "format": "svg",
+  "notes": "Corner color-block shape used in the menu overlay (blue #175ae2); viewBox 499x344 or 499x283.",
+  "source_url": "https://www.blinkcincinnati.com/"
+ },
+ {
+  "program": "blink",
+  "kind": "pattern",
+  "url": "https://blinkcincinnati.b-cdn.net/images/blink_tr_red.svg",
+  "format": "svg",
+  "notes": "Corner color-block shape used in the menu overlay (red); viewBox 499x344 or 499x283.",
+  "source_url": "https://www.blinkcincinnati.com/"
+ },
+ {
+  "program": "blink",
+  "kind": "pattern",
+  "url": "https://blinkcincinnati.b-cdn.net/images/blink_ml_yellow.svg",
+  "format": "svg",
+  "notes": "Corner color-block shape used in the menu overlay (yellow #FFD933); viewBox 499x344 or 499x283.",
+  "source_url": "https://www.blinkcincinnati.com/"
+ },
+ {
+  "program": "blink",
+  "kind": "pattern",
+  "url": "https://blinkcincinnati.b-cdn.net/images/blink_mr_yellow.svg",
+  "format": "svg",
+  "notes": "Corner color-block shape used in the menu overlay (yellow #FFD933); viewBox 499x344 or 499x283.",
+  "source_url": "https://www.blinkcincinnati.com/"
+ },
+ {
+  "program": "blink",
+  "kind": "pattern",
+  "url": "https://blinkcincinnati.b-cdn.net/images/blink_bl_red.svg",
+  "format": "svg",
+  "notes": "Corner color-block shape used in the menu overlay (red); viewBox 499x344 or 499x283.",
+  "source_url": "https://www.blinkcincinnati.com/"
+ },
+ {
+  "program": "blink",
+  "kind": "pattern",
+  "url": "https://blinkcincinnati.b-cdn.net/images/blink_br_blue.svg",
+  "format": "svg",
+  "notes": "Corner color-block shape used in the menu overlay (blue); viewBox 499x344 or 499x283.",
+  "source_url": "https://www.blinkcincinnati.com/"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://blinkcincinnati.b-cdn.net/images/blink-bridge.jpg",
+  "format": "jpg",
+  "notes": "Homepage hero poster image (Roebling bridge at BLINK), 1600x900",
+  "source_url": "https://www.blinkcincinnati.com/"
+ },
+ {
+  "program": "blink",
+  "kind": "video",
+  "url": "https://vz-146c0b62-218.b-cdn.net/27bcf97a-8cfa-415a-94ee-09c6c25c14f3/play_720p.mp4",
+  "format": "mp4",
+  "notes": "Homepage hero video (Bunny Stream); 480p variant: play_480p.mp4. Hotlink-protected: returns 403 without a www.blinkcincinnati.com Referer header (206 with it).",
+  "source_url": "https://www.blinkcincinnati.com/"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://blinkcincinnati.b-cdn.net/files/home/cta/what-is-blink3.png",
+  "format": "png",
+  "notes": "\"What is Blink?\" homepage image, 1200x991",
+  "source_url": "https://www.blinkcincinnati.com/"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://blinkcincinnati.b-cdn.net/files/home/bar/blink2024goodluckgodspeedbykyleeliebersole.jpg",
+  "format": "jpg",
+  "notes": "Homepage CTA bar image: The Art (Good Luck & Godspeed by Kyle Eli Ebersole, 2024)",
+  "source_url": "https://www.blinkcincinnati.com/"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://blinkcincinnati.b-cdn.net/files/home/bar/thecity.jpg",
+  "format": "jpg",
+  "notes": "Homepage CTA bar image: The City",
+  "source_url": "https://www.blinkcincinnati.com/"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://blinkcincinnati.b-cdn.net/files/home/bar/thespectacle.jpg",
+  "format": "jpg",
+  "notes": "Homepage CTA bar image: Experience",
+  "source_url": "https://www.blinkcincinnati.com/"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://blinkcincinnati.b-cdn.net/files/home/bar/2024-10-18blink-day-2nc-brown0077.jpg",
+  "format": "jpg",
+  "notes": "Homepage CTA bar image: Discover (2024 photo)",
+  "source_url": "https://www.blinkcincinnati.com/"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/blink2024cityscapecourtesyofthecincinnatiregionalchamber.jpg",
+  "format": "jpg",
+  "notes": "BLINK 2024 cityscape, courtesy of the Cincinnati Regional Chamber (Plan Your Visit header)",
+  "source_url": "https://www.blinkcincinnati.com/plan-your-blink-visit/overview"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/blink2024paralunabychristopherschardtphotobyzakkauth1.jpg",
+  "format": "jpg",
+  "notes": "Paraluna by Christopher Schardt (BLINK 2024), photo by Zakk Auth (Ready. Set. BLINK! page)",
+  "source_url": "https://www.blinkcincinnati.com/blink-event-guide/ready-set-blink"
+ },
+ {
+  "program": "blink",
+  "kind": "key-art",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/cawfullpartnerlite.jpg",
+  "format": "jpg",
+  "notes": "Cincinnati Art Week partner graphic on BLINK Around Town",
+  "source_url": "https://www.blinkcincinnati.com/plan-your-blink-visit/blink-around-town"
+ },
+ {
+  "program": "blink",
+  "kind": "key-art",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/lessthinkmoreblink.jpg",
+  "format": "jpg",
+  "notes": "\"Less Think. More BLINK\" transit campaign graphic (Metro)",
+  "source_url": "https://www.blinkcincinnati.com/resources/park-and-ride"
+ },
+ {
+  "program": "blink",
+  "kind": "key-art",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/blink-2026-social-parking-map.jpg",
+  "format": "jpg",
+  "notes": "BLINK 2026 TANK Park & Ride / parking social graphic",
+  "source_url": "https://www.blinkcincinnati.com/resources/park-and-ride"
+ },
+ {
+  "program": "blink",
+  "kind": "key-art",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/redbikegraphic.jpg",
+  "format": "jpg",
+  "notes": "Red Bike BLINK graphic",
+  "source_url": "https://www.blinkcincinnati.com/resources/park-and-ride"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/first-financial-bank-logo.jpg",
+  "format": "jpg",
+  "notes": "First Financial Bank logo on the Turn the Lights On contest page",
+  "source_url": "https://www.blinkcincinnati.com/turn-the-lights-on-coloring-contest"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/circle-logo75-blackbackground2.jpg",
+  "format": "jpg",
+  "notes": "Urban Hikers logo (Walking Tours page)",
+  "source_url": "https://www.blinkcincinnati.com/resources/walking-tours"
+ },
+ {
+  "program": "blink",
+  "kind": "key-art",
+  "url": "https://go.cincinnatichamber.com/Blink_2026_coloringcontest",
+  "format": null,
+  "notes": "Turn the Lights On coloring sheet download (artwork by Rob Warnick, intotheroblivion.com)",
+  "source_url": "https://www.blinkcincinnati.com/turn-the-lights-on-coloring-contest"
+ },
+ {
+  "program": "blink",
+  "kind": "key-art",
+  "url": "https://www.blinkcincinnati.com/files/assets/blinkmap2026zones2.pdf",
+  "format": "pdf",
+  "notes": "2026 zone map (PDF), linked on Maps & Guides",
+  "source_url": "https://www.blinkcincinnati.com/blink-event-guide/maps-guides"
+ },
+ {
+  "program": "blink",
+  "kind": "key-art",
+  "url": "https://www.blinkcincinnati.com/files/assets/blinkaccessiblemapsvertical101124rgb.pdf",
+  "format": "pdf",
+  "notes": "2024 accessibility document still linked from the Accessibility page",
+  "source_url": "https://www.blinkcincinnati.com/resources/accessibility"
+ },
+ {
+  "program": "blink",
+  "kind": "key-art",
+  "url": "https://www.blinkcincinnati.com/files/assets/blink2024access-faq.pdf",
+  "format": "pdf",
+  "notes": "2024 accessibility document still linked from the Accessibility page",
+  "source_url": "https://www.blinkcincinnati.com/resources/accessibility"
+ },
+ {
+  "program": "blink",
+  "kind": "key-art",
+  "url": "https://www.blinkcincinnati.com/files/assets/b24signs.pdf",
+  "format": "pdf",
+  "notes": "2024 accessibility document still linked from the Accessibility page",
+  "source_url": "https://www.blinkcincinnati.com/resources/accessibility"
+ },
+ {
+  "program": "blink",
+  "kind": "key-art",
+  "url": "https://cincinnatichamber.com/wp-content/uploads/2025/07/2024_Report_BLINKImpact_FINAL.pdf",
+  "format": "pdf",
+  "notes": "BLINK 2024 Impact Report (28 pages, 38.9 MB) with full-page festival photography",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/impact-report"
+ },
+ {
+  "program": "blink",
+  "kind": "key-art",
+  "url": "https://www.blinkcincinnati.com/files/assets/blinkeconomicimpactreport2022spreads.pdf",
+  "format": "pdf",
+  "notes": "BLINK 2022 Economic Impact Report (11 spreads, 7.7 MB)",
+  "source_url": "https://www.blinkcincinnati.com/newsroom/2023/02/28/blink-delivers-126m-direct-economic-impact-for-the-region"
+ },
+ {
+  "program": "blink",
+  "kind": "video",
+  "url": "https://www.youtube.com/watch?v=xXd9SZx4FSw",
+  "format": "youtube",
+  "notes": "\"BLINK 2024 Recap: Cincinnati’s Art & Light Festival Highlights\" (Cincinnati Regional Chamber); thumbnail https://i.ytimg.com/vi/xXd9SZx4FSw/hqdefault.jpg",
+  "source_url": "https://www.blinkcincinnati.com/about-blink"
+ },
+ {
+  "program": "blink",
+  "kind": "video",
+  "url": "https://www.youtube.com/watch?v=RRfF69YRYvg",
+  "format": "youtube",
+  "notes": "\"BLINK Cincinnati and NKY 2022\" (Visit Cincy); thumbnail https://i.ytimg.com/vi/RRfF69YRYvg/hqdefault.jpg",
+  "source_url": "https://www.blinkcincinnati.com/about-blink"
+ },
+ {
+  "program": "blink",
+  "kind": "video",
+  "url": "https://www.youtube.com/watch?v=2wIlKOKUd88",
+  "format": "youtube",
+  "notes": "\"BLINK Illuminated by ArtsWave 2019 Event Sizzle Reel\" (BLINK Cincinnati); thumbnail https://i.ytimg.com/vi/2wIlKOKUd88/hqdefault.jpg",
+  "source_url": "https://www.blinkcincinnati.com/about-blink"
+ },
+ {
+  "program": "blink",
+  "kind": "video",
+  "url": "https://www.youtube.com/watch?v=w7syaq76gYA",
+  "format": "youtube",
+  "notes": "\"BLINK Highlights 2017\" (BLINK Cincinnati); thumbnail https://i.ytimg.com/vi/w7syaq76gYA/hqdefault.jpg",
+  "source_url": "https://www.blinkcincinnati.com/about-blink"
+ },
+ {
+  "program": "blink",
+  "kind": "video",
+  "url": "https://www.youtube.com/watch?v=S7gh1QWNO2I",
+  "format": "youtube",
+  "notes": "\"BLINK Cincinnati\" (The Art Show - ThinkTV and CET); thumbnail https://i.ytimg.com/vi/S7gh1QWNO2I/hqdefault.jpg",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/press-room"
+ },
+ {
+  "program": "blink",
+  "kind": "video",
+  "url": "https://www.youtube.com/watch?v=ZYm5-GcgKLM",
+  "format": "youtube",
+  "notes": "\"BLINK CINCINNATI 2022 - Full Recap\" (One Hat Two Cat Creative); thumbnail https://i.ytimg.com/vi/ZYm5-GcgKLM/hqdefault.jpg",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/press-room"
+ },
+ {
+  "program": "blink",
+  "kind": "font",
+  "url": "https://use.typekit.net/idd3sfp.css",
+  "format": "css",
+  "notes": "Adobe Fonts kit: korolev and korolev-condensed (headings korolev-condensed 900 uppercase). Licensed; do not self-host.",
+  "source_url": "https://www.blinkcincinnati.com/css/site.css"
+ },
+ {
+  "program": "blink",
+  "kind": "font",
+  "url": "https://www.blinkcincinnati.com/fonts/ratioblack-webfont.woff2",
+  "format": "woff2",
+  "notes": "Ratio (self-hosted by BLINK: black/bold/medium/regular). Licensed; reference only.",
+  "source_url": "https://www.blinkcincinnati.com/css/site.css"
+ },
+ {
+  "program": "blink",
+  "kind": "pattern",
+  "url": "https://blinkcincinnati.b-cdn.net/images/2024/pink-scalloped-eyeball.png",
+  "format": "png",
+  "notes": "Decorative graphic referenced in site.css (556x556)",
+  "source_url": "https://www.blinkcincinnati.com/css/site.css"
+ },
+ {
+  "program": "blink",
+  "kind": "pattern",
+  "url": "https://blinkcincinnati.b-cdn.net/images/2024/green-scalloped-eyeball.png",
+  "format": "png",
+  "notes": "Decorative graphic referenced in site.css (556x556)",
+  "source_url": "https://www.blinkcincinnati.com/css/site.css"
+ },
+ {
+  "program": "blink",
+  "kind": "pattern",
+  "url": "https://blinkcincinnati.b-cdn.net/images/eyes/green.svg",
+  "format": "svg",
+  "notes": "Decorative graphic referenced in site.css",
+  "source_url": "https://www.blinkcincinnati.com/css/site.css"
+ },
+ {
+  "program": "blink",
+  "kind": "pattern",
+  "url": "https://blinkcincinnati.b-cdn.net/images/starburst.png",
+  "format": "png",
+  "notes": "Decorative graphic referenced in site.css (4652x4360)",
+  "source_url": "https://www.blinkcincinnati.com/css/site.css"
+ },
+ {
+  "program": "blink",
+  "kind": "pattern",
+  "url": "https://blinkcincinnati.b-cdn.net/images/footer-bg-2023.jpg",
+  "format": "jpg",
+  "notes": "Decorative graphic referenced in site.css (2000x3000)",
+  "source_url": "https://www.blinkcincinnati.com/css/site.css"
+ },
+ {
+  "program": "blink",
+  "kind": "pattern",
+  "url": "https://blinkcincinnati.b-cdn.net/images/2024/navbar-bg.svg",
+  "format": "svg",
+  "notes": "Decorative graphic referenced in site.css",
+  "source_url": "https://www.blinkcincinnati.com/css/site.css"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/arts-wave2.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: ArtsWave (Illuminated by)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/city-of-cincinnati.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: City of Cincinnati (Aurora Sponsors)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/meetnkylogo.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: meetNKY (Aurora Sponsors)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/hailefoundation.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: Carol Ann and Ralph V. Haile, Jr. Foundation (Philanthropic Founding Partner)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/pg.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: P&G (Zone Sponsors)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/fifththirdlogo.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: Fifth Third (Zone Sponsors)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/ham-co-commissioners3.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: Hamilton County Board of County Commissioners (Zone Sponsors)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/westernsouthernlogo.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: Western & Southern Financial Group (Zone Sponsors)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/the-johnson-foundation.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: The Johnson Foundation (Market Walls Mural Sponsor)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/kroger2.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: Kroger (Radiance Sponsors)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/duke-energy.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: Duke Energy (Glow Sponsors)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/schmidlapplogo.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: Jacob G. Schmidlapp Trusts (Fifth Third Bank, Trustee) (Glow Sponsors)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/greatercincinnatifoundation.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: Greater Cincinnati Foundation (Luminary Sponsors)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/cvglogo.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: CVG Airport (Luminary Sponsors)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/americanfinancialgrouplogo.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: American Financial Group, Inc. (Luminary Sponsors)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/visit-cincy.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: Visit Cincy (Luminary Sponsors)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/lutherfoundationlogo.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: H.B., E.W. & F.R. Luther Foundation (Luminary Sponsors)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/merus2.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: Merus (Luminary Sponsors)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/scripps2.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: Scripps (Beacon Sponsors)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/bobcoughlin.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: The Bob & Jeanne Coughlin Foundation (Beacon Sponsors)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/corporexlogo.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: Corporex (Beacon Sponsors)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/altafiber2.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: altafiber (Beacon Sponsors)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/skyline3.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: Skyline Chili (Beacon Sponsors)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/ikealogo.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: IKEA (Beacon Sponsors)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/towne-properties.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: Towne Properties (Beacon Sponsors)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/cincinnati-parks-foundation2.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: Cincinnati Parks Foundation (Beacon Sponsors)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/millstonefundlogo.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: Millstone Fund (Beacon Sponsors)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/louisetaftsemplefoundation.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: The Louise Taft Semple Foundation (Beacon Sponsors)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/nationalendowment.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: National Endowment for the Arts (Beacon Sponsors)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/harrytwilks.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: The Harry T. Wilks Family Foundation (Twilight Sponsors)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/richterphillips.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: Richter & Phillips (Twilight Sponsors)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/fischerhomeslogo.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: Fischer Homes (Twilight Sponsors)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/the-unnewehr-foundation.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: The Unnewehr Foundation (Twilight Sponsors)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/the-edelweiss-foundation.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: The Edelweiss Foundation (Twilight Sponsors)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/urbansiteslogo.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: Urban Sites (Twilight Sponsors)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/cintas.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: Cintas (Twilight Sponsors)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/ohioartscouncil2.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: Ohio Arts Council (Twilight Sponsors)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/america250logo.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: America 250 Ohio (Twilight Sponsors)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/huntingtonbank.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: Huntington Bank (Twilight Sponsors)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/ge-aerospace.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: GE Aerospace (Twilight Sponsors)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/bartlett.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: Bartlett Wealth Management (Spark Sponsors)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/pepsilogo.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: Pepsi (Spark Sponsors)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/metrologo.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: Metro (Spark Sponsors)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/turner-construction.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: Turner Construction Company (Spark Sponsors)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/the-enquirer.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: The Enquirer / Cincinnati.com (Spark Sponsors)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/great-parks.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: Great Parks (Spark Sponsors)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/christhospitallogo.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: The Christ Hospital Health Network (Spark Sponsors)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/oswald.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: Oswald (Spark Sponsors)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/dmggrouplogo.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: DMG (Divisions Maintenance Group) (Spark Sponsors)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/first-national-bank.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: First Financial Bank (Turn the Lights On Contest Sponsor)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/delta.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: Delta (Official Airline)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/monster-energy.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: Monster Energy (Official Energy Partner)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/garage-beer2.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: Garage Beer (Official Beer)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/panasonic-mevixlogo.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: MEVIX (Panasonic Projector & Display Americas) (Official Projection Technology Partner)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/disguise.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: Disguise (Technology Partners)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/lightact.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: LightAct (Technology Partners)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/pixera.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: Pixera (Technology Partners)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/vurvey.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: Vurvey (Official AI Partner)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/godutch12.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: godutch (Official Design Partner)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/uclogo2.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: University of Cincinnati (Supported By)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/dbllawlogo.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: DBL Law (Supported By)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/d-crane-rentallogo.jpg",
+  "format": "jpg",
+  "notes": "Partner/sponsor logo: D-Crane Rental (Supported By)",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://blinkcincinnati.b-cdn.net/images/partners/agar.png",
+  "format": "png",
+  "notes": "Partner/sponsor logo: AGAR (Footer: Executive Partners)",
+  "source_url": "https://www.blinkcincinnati.com/"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://blinkcincinnati.b-cdn.net/images/partners/regional-chamber_tm.png",
+  "format": "png",
+  "notes": "Partner/sponsor logo: Cincinnati Regional Chamber (Footer: Executive Partners)",
+  "source_url": "https://www.blinkcincinnati.com/"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://blinkcincinnati.b-cdn.net/images/partners/1001colors-logo.png",
+  "format": "png",
+  "notes": "Partner/sponsor logo: 1001 Colors (Footer: Additional Founding Partners)",
+  "source_url": "https://www.blinkcincinnati.com/"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://blinkcincinnati.b-cdn.net/images/partners/BB-Logo-Stacked-White-82x46-SVG.svg",
+  "format": "svg",
+  "notes": "Partner/sponsor logo: Brave Berlin (Footer: Additional Founding Partners)",
+  "source_url": "https://www.blinkcincinnati.com/"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://blinkcincinnati.b-cdn.net/images/partners/ish.png",
+  "format": "png",
+  "notes": "Partner/sponsor logo: ish (Footer: Parade Partner)",
+  "source_url": "https://www.blinkcincinnati.com/"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://blinkcincinnati.b-cdn.net/images/partners/carol-ann-ralph-v-haile-jr-foundation.png",
+  "format": "png",
+  "notes": "Partner logo: Carol Ann and Ralph V. Haile, Jr. Foundation (site footer, \"Executive Partners\"), white on transparent, 362x160",
+  "source_url": "https://www.blinkcincinnati.com/"
+ },
+ {
+  "program": "blink",
+  "kind": "key-art",
+  "url": "https://blinkcincinnati.b-cdn.net/files/headers/header/blink26illustrationrgb-02.jpg",
+  "format": "jpg",
+  "notes": "2026 key art: Cincinnati riverfront skyline with the Roebling Suspension Bridge, grayscale photo with buildings recolored in the 2026 palette plus flat color blocks, on black. About page header, 1599x547",
+  "source_url": "https://www.blinkcincinnati.com/about-blink"
+ },
+ {
+  "program": "blink",
+  "kind": "key-art",
+  "url": "https://blinkcincinnati.b-cdn.net/files/headers/header/blink26illustrationadded-scenesrgbfindlaymarket.jpg",
+  "format": "jpg",
+  "notes": "2026 key art scene: Findlay Market recolored in the 2026 palette with a yellow walkway. Plan Your Visit header, 1599x1036",
+  "source_url": "https://www.blinkcincinnati.com/plan-your-blink-visit"
+ },
+ {
+  "program": "blink",
+  "kind": "key-art",
+  "url": "https://blinkcincinnati.b-cdn.net/files/headers/header/blink26illustrationadded-scenesrgbmusichall.jpg",
+  "format": "jpg",
+  "notes": "2026 key art scene: Music Hall facade recolored in the 2026 palette (yellow, cyan, coral, teal). Event Guide header, 1599x1036",
+  "source_url": "https://www.blinkcincinnati.com/blink-event-guide"
+ },
+ {
+  "program": "blink",
+  "kind": "key-art",
+  "url": "https://blinkcincinnati.b-cdn.net/files/headers/header/blink26illustrationadded-scenesrgbcovington.jpg",
+  "format": "jpg",
+  "notes": "2026 key art scene: riverfront with the Roebling Suspension Bridge recolored in the 2026 palette. Resources header, 1599x1036",
+  "source_url": "https://www.blinkcincinnati.com/blink-resources"
+ },
+ {
+  "program": "blink",
+  "kind": "key-art",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/blinkmap2026zones2.jpg",
+  "format": "jpg",
+  "notes": "2026 zone map (image version of blinkmap2026zones2.pdf): Findlay Market, OTR, Fountain, The Banks and Covington zones plus \"BLINK at Lytle Park\"; zone colors in program.json brand.zone_colors, 1156x3078",
+  "source_url": "https://www.blinkcincinnati.com/blink-event-guide/maps-guides"
+ },
+ {
+  "program": "blink",
+  "kind": "key-art",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/covington-navicon.jpg",
+  "format": "jpg",
+  "notes": "2026 zone tile: Covington Zone (Plan Your Visit), 1030x848",
+  "source_url": "https://www.blinkcincinnati.com/plan-your-blink-visit"
+ },
+ {
+  "program": "blink",
+  "kind": "key-art",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/riverfront-navicon.jpg",
+  "format": "jpg",
+  "notes": "2026 zone tile: The Banks / Riverfront Zone (Plan Your Visit), 1030x848",
+  "source_url": "https://www.blinkcincinnati.com/plan-your-blink-visit"
+ },
+ {
+  "program": "blink",
+  "kind": "key-art",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/otr-navicon.jpg",
+  "format": "jpg",
+  "notes": "2026 zone tile: Over-the-Rhine Zone (Plan Your Visit), 1030x848",
+  "source_url": "https://www.blinkcincinnati.com/plan-your-blink-visit"
+ },
+ {
+  "program": "blink",
+  "kind": "key-art",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/findlay-navicon.jpg",
+  "format": "jpg",
+  "notes": "2026 zone tile: Findlay Market Zone (Plan Your Visit), 1030x848",
+  "source_url": "https://www.blinkcincinnati.com/plan-your-blink-visit"
+ },
+ {
+  "program": "blink",
+  "kind": "key-art",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/fountain-navicon.jpg",
+  "format": "jpg",
+  "notes": "2026 zone tile: Fountain District Zone (Plan Your Visit), 1030x848",
+  "source_url": "https://www.blinkcincinnati.com/plan-your-blink-visit"
+ },
+ {
+  "program": "blink",
+  "kind": "key-art",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/blink-resources-maps.jpg",
+  "format": "jpg",
+  "notes": "2026 resource banner with a one-eyed BLINK mascot character (Resources page: Maps), 2288x858",
+  "source_url": "https://www.blinkcincinnati.com/blink-resources"
+ },
+ {
+  "program": "blink",
+  "kind": "key-art",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/blink-resources-installations3.jpg",
+  "format": "jpg",
+  "notes": "2026 resource banner with a one-eyed BLINK mascot character (Resources page: Installations), 2288x858",
+  "source_url": "https://www.blinkcincinnati.com/blink-resources"
+ },
+ {
+  "program": "blink",
+  "kind": "key-art",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/blink-resources-accessibility2.jpg",
+  "format": "jpg",
+  "notes": "2026 resource banner with a one-eyed BLINK mascot character (Resources page: Accessibility), 1798x674",
+  "source_url": "https://www.blinkcincinnati.com/blink-resources"
+ },
+ {
+  "program": "blink",
+  "kind": "key-art",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/blink-resources-parking2.jpg",
+  "format": "jpg",
+  "notes": "2026 resource banner with a one-eyed BLINK mascot character (Resources page: Parking), 1798x674",
+  "source_url": "https://www.blinkcincinnati.com/blink-resources"
+ },
+ {
+  "program": "blink",
+  "kind": "key-art",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/blink-resources-road-closure.jpg",
+  "format": "jpg",
+  "notes": "2026 resource banner with a one-eyed BLINK mascot character (Resources page: Road Closures), 1798x674",
+  "source_url": "https://www.blinkcincinnati.com/blink-resources"
+ },
+ {
+  "program": "blink",
+  "kind": "key-art",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/blink-resources-transit.jpg",
+  "format": "jpg",
+  "notes": "2026 resource banner with a one-eyed BLINK mascot character (Resources page: Transit), 1798x674",
+  "source_url": "https://www.blinkcincinnati.com/blink-resources"
+ },
+ {
+  "program": "blink",
+  "kind": "key-art",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/2026blink-coloring-page-d208071-1.jpg",
+  "format": "jpg",
+  "notes": "2026 \"Turn the Lights On\" coloring sheet art by Rob Warnick (intotheroblivion.com), with the BLINK 2026 + ArtsWave lockup, 2016x1512",
+  "source_url": "https://www.blinkcincinnati.com/turn-the-lights-on-coloring-contest"
+ },
+ {
+  "program": "blink",
+  "kind": "key-art",
+  "url": "https://blinkcincinnati.b-cdn.net/files/headers/header/2026blink-coloring-page-d208071-1-blackwblue.png",
+  "format": "png",
+  "notes": "Coloring-contest art by Rob Warnick rendered blue on black (contest page header), 1599x1084",
+  "source_url": "https://www.blinkcincinnati.com/turn-the-lights-on-coloring-contest"
+ },
+ {
+  "program": "blink",
+  "kind": "key-art",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/butlercountytransit-image.jpg",
+  "format": "jpg",
+  "notes": "BCRTA CincyLink to BLINK graphic (bus, color-block skyline, BLINK tag), 1156x808",
+  "source_url": "https://www.blinkcincinnati.com/resources/park-and-ride"
+ },
+ {
+  "program": "blink",
+  "kind": "logo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/transitapp.jpg",
+  "format": "jpg",
+  "notes": "Transit app icon graphic (Park and Ride page), 844x878",
+  "source_url": "https://www.blinkcincinnati.com/resources/park-and-ride"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/kickoffblockparty-shorter.jpg",
+  "format": "jpg",
+  "notes": "Event Guide tile \"Opening Ceremony\": tilted photo in a cyan frame (2026 tile style), 734x570",
+  "source_url": "https://www.blinkcincinnati.com/blink-event-guide"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/lightinstallations-shorter.jpg",
+  "format": "jpg",
+  "notes": "Event Guide tile \"Light Installations\": tilted photo in a coral frame (2026 tile style), 734x570",
+  "source_url": "https://www.blinkcincinnati.com/blink-event-guide"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/projections-shorter.jpg",
+  "format": "jpg",
+  "notes": "Event Guide tile \"Projections\" (2026 tile style), 734x570",
+  "source_url": "https://www.blinkcincinnati.com/blink-event-guide"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/murals-shorter.jpg",
+  "format": "jpg",
+  "notes": "Event Guide tile \"Murals\" (2026 tile style), 734x570",
+  "source_url": "https://www.blinkcincinnati.com/blink-event-guide"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/run-the-night-shorterv2.jpg",
+  "format": "jpg",
+  "notes": "Event Guide tile \"Run The Night\" (2026 tile style), 526x408",
+  "source_url": "https://www.blinkcincinnati.com/blink-event-guide"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/nightmarket-shorter.jpg",
+  "format": "jpg",
+  "notes": "Event Guide tile \"Asianati Night Market\" (2026 tile style), 734x570",
+  "source_url": "https://www.blinkcincinnati.com/blink-event-guide"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/mysticeyedroneshow-shorterv2.jpg",
+  "format": "jpg",
+  "notes": "Event Guide tile \"Drone Show\" (2026 tile style), 526x408",
+  "source_url": "https://www.blinkcincinnati.com/blink-event-guide"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://blinkcincinnati.b-cdn.net/files/headers/header/tqlblink.jpg",
+  "format": "jpg",
+  "notes": "TQL Stadium lit up at night, aerial (Ready. Set. BLINK! header), 1599x1142",
+  "source_url": "https://www.blinkcincinnati.com/blink-event-guide/ready-set-blink"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://blinkcincinnati.b-cdn.net/files/headers/header/droneshow.png",
+  "format": "png",
+  "notes": "Drone show forming the BLINK eye (Drone Show page header), 1600x900",
+  "source_url": "https://www.blinkcincinnati.com/blink-event-guide/mystic-eye-drone-show"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://blinkcincinnati.b-cdn.net/files/headers/header/blink2024asianatinightmarketoncourtstreet1.jpg",
+  "format": "jpg",
+  "notes": "Asianati Night Market on Court Street, BLINK 2024 (Asianati page header), 1599x1065",
+  "source_url": "https://www.blinkcincinnati.com/blink-event-guide/asianati-night-market"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://blinkcincinnati.b-cdn.net/files/headers/header/impactreportcoverforwebsite2.jpg",
+  "format": "jpg",
+  "notes": "Impact Report page header photo, 1599x1087",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/impact-report"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://blinkcincinnati.b-cdn.net/files/headers/header/blink2022photoheader.jpg",
+  "format": "jpg",
+  "notes": "BLINK 2022 photo (Press Room and Get Involved header), 1598x735",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/press-room"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://blinkcincinnati.b-cdn.net/files/headers/header/blink-character.jpg",
+  "format": "jpg",
+  "notes": "Costumed character in the crowd (Sponsors page header), 1600x1067",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://blinkcincinnati.b-cdn.net/files/headers/header/confetti.jpg",
+  "format": "jpg",
+  "notes": "Confetti photo (Contact page header), 1600x1067",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/contact"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://blinkcincinnati.b-cdn.net/files/headers/header/dji202410181915160074d.jpg",
+  "format": "jpg",
+  "notes": "Aerial dusk photo of Cincinnati; drone file name dated Oct. 18, 2024 (BLINK Around Town header), 1600x1200",
+  "source_url": "https://www.blinkcincinnati.com/plan-your-blink-visit/blink-around-town"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://blinkcincinnati.b-cdn.net/files/headers/header/dsc068313.jpg",
+  "format": "jpg",
+  "notes": "Light installation photo (Walking Tours header), 1598x899",
+  "source_url": "https://www.blinkcincinnati.com/resources/walking-tours"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://blinkcincinnati.b-cdn.net/files/headers/header/in-transit.jpeg",
+  "format": "jpeg",
+  "notes": "Light installation crowd photo (Maps & Guides header), 1599x1076",
+  "source_url": "https://www.blinkcincinnati.com/blink-event-guide/maps-guides"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://blinkcincinnati.b-cdn.net/files/headers/header/lasers.jpg",
+  "format": "jpg",
+  "notes": "Laser installation photo (FAQs header), 1600x2001",
+  "source_url": "https://www.blinkcincinnati.com/faqs"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://blinkcincinnati.b-cdn.net/files/headers/header/parade10172024-mxhxfrank-2215.jpg",
+  "format": "jpg",
+  "notes": "BLINK volunteer at the Oct. 17, 2024 parade (Volunteer page header), 1599x1066",
+  "source_url": "https://www.blinkcincinnati.com/get-involved/volunteer"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://blinkcincinnati.b-cdn.net/files/headers/header/blink-street-mural.jpg",
+  "format": "jpg",
+  "notes": "Street and mural photo (Parking page header), 1599x1013",
+  "source_url": "https://www.blinkcincinnati.com/resources/parking"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/blink2024-81.jpg",
+  "format": "jpg",
+  "notes": "BLINK 2024 drone show photo (Drone Show page), 734x494",
+  "source_url": "https://www.blinkcincinnati.com/blink-event-guide/mystic-eye-drone-show"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/blink2024-42.jpg",
+  "format": "jpg",
+  "notes": "BLINK 2024 drone show photo (Drone Show page), 734x494",
+  "source_url": "https://www.blinkcincinnati.com/blink-event-guide/mystic-eye-drone-show"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/blink2024-332.jpg",
+  "format": "jpg",
+  "notes": "BLINK 2024 photo (Drone Show page), 734x494",
+  "source_url": "https://www.blinkcincinnati.com/blink-event-guide/mystic-eye-drone-show"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/blink2024-27.jpg",
+  "format": "jpg",
+  "notes": "BLINK 2024 photo (Get Involved page), 866x576",
+  "source_url": "https://www.blinkcincinnati.com/get-involved"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/blink2024-572.jpg",
+  "format": "jpg",
+  "notes": "BLINK 2024 photo (Get Involved page), 866x576",
+  "source_url": "https://www.blinkcincinnati.com/get-involved"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/wolfdog.jpg",
+  "format": "jpg",
+  "notes": "Mural by Wolfdog, aerial (Get Involved / Call to Artists page), 866x576",
+  "source_url": "https://www.blinkcincinnati.com/get-involved"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/covcraft-027.jpg",
+  "format": "jpg",
+  "notes": "Fall Cov Craft market photo (BLINK Around Town), 658x438",
+  "source_url": "https://www.blinkcincinnati.com/plan-your-blink-visit/blink-around-town"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/c7925242-70d7-4f04-95b3-4511035ae9a4.jpgresponsive-1600.png",
+  "format": "png",
+  "notes": "Harper Alive at The Mercantile Immersive image (BLINK Around Town), 658x328",
+  "source_url": "https://www.blinkcincinnati.com/plan-your-blink-visit/blink-around-town"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/blinkmerch-1.jpg",
+  "format": "jpg",
+  "notes": "Shop BLINK merchandise photo, 1292x1614",
+  "source_url": "https://www.blinkcincinnati.com/shop-blink"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/blinkmerch-1.jpg.jpg",
+  "format": "jpg",
+  "notes": "Shop BLINK merchandise photo, 1292x1614",
+  "source_url": "https://www.blinkcincinnati.com/shop-blink"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/blinkmerch-2.jpg",
+  "format": "jpg",
+  "notes": "Shop BLINK merchandise photo, 1292x1614",
+  "source_url": "https://www.blinkcincinnati.com/shop-blink"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/blinkmerch-31.jpg",
+  "format": "jpg",
+  "notes": "Shop BLINK merchandise photo, 1292x1614",
+  "source_url": "https://www.blinkcincinnati.com/shop-blink"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/blinkmerch-42.jpg",
+  "format": "jpg",
+  "notes": "Shop BLINK merchandise photo, 734x916",
+  "source_url": "https://www.blinkcincinnati.com/shop-blink"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/blinkmerch-51.jpg",
+  "format": "jpg",
+  "notes": "Shop BLINK merchandise photo, 1292x1614",
+  "source_url": "https://www.blinkcincinnati.com/shop-blink"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/blinkmerch-6.jpg",
+  "format": "jpg",
+  "notes": "Shop BLINK merchandise photo, 734x916",
+  "source_url": "https://www.blinkcincinnati.com/shop-blink"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/blinkmerch-7.jpg",
+  "format": "jpg",
+  "notes": "Shop BLINK merchandise photo, 734x916",
+  "source_url": "https://www.blinkcincinnati.com/shop-blink"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/blinkmerch-9.jpg",
+  "format": "jpg",
+  "notes": "Shop BLINK merchandise photo, 734x916",
+  "source_url": "https://www.blinkcincinnati.com/shop-blink"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://m.psecn.photoshelter.com/img-get2/I0000jwxTklUbSUM/fit=1440x1440",
+  "format": "jpg",
+  "notes": "Press Room photo gallery (PhotoShelter \"Website Assets\", cincinnatichamber.photoshelter.com, gallery G0000srcAODWaevU): Blink2019MKFPhoto-90_Mackenzie Frank.jpg; original 7990x5327, public preview up to 1440 px; credit in file name: Mackenzie Frank; the file names date the photos to BLINK 2019 (10-10-19 = Oct. 10, 2019). Gallery page: https://cincinnatichamber.photoshelter.com/gallery/-/G0000srcAODWaevU",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/press-room"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://m.psecn.photoshelter.com/img-get2/I0000vYZojdYEkN0/fit=1440x1440",
+  "format": "jpg",
+  "notes": "Press Room photo gallery (PhotoShelter \"Website Assets\", cincinnatichamber.photoshelter.com, gallery G0000srcAODWaevU): Blink2019MKFPhoto-58_Mackenzie Frank.jpg; original 7951x5301, public preview up to 1440 px; credit in file name: Mackenzie Frank; the file names date the photos to BLINK 2019 (10-10-19 = Oct. 10, 2019). Gallery page: https://cincinnatichamber.photoshelter.com/gallery/-/G0000srcAODWaevU",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/press-room"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://m.psecn.photoshelter.com/img-get2/I0000B_3L0CC.jSs/fit=1440x1440",
+  "format": "jpg",
+  "notes": "Press Room photo gallery (PhotoShelter \"Website Assets\", cincinnatichamber.photoshelter.com, gallery G0000srcAODWaevU): Blink2019MKFPhoto-59_Mackenzie Frank.jpg; original 8146x5431, public preview up to 1440 px; credit in file name: Mackenzie Frank; the file names date the photos to BLINK 2019 (10-10-19 = Oct. 10, 2019). Gallery page: https://cincinnatichamber.photoshelter.com/gallery/-/G0000srcAODWaevU",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/press-room"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://m.psecn.photoshelter.com/img-get2/I0000k_VZGZgNlzk/fit=1440x1440",
+  "format": "jpg",
+  "notes": "Press Room photo gallery (PhotoShelter \"Website Assets\", cincinnatichamber.photoshelter.com, gallery G0000srcAODWaevU): Blink2019MKFPhoto-68_Mackenzie Frank.jpg; original 8093x5422, public preview up to 1440 px; credit in file name: Mackenzie Frank; the file names date the photos to BLINK 2019 (10-10-19 = Oct. 10, 2019). Gallery page: https://cincinnatichamber.photoshelter.com/gallery/-/G0000srcAODWaevU",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/press-room"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://m.psecn.photoshelter.com/img-get2/I0000wTxIB_ChViM/fit=1440x1440",
+  "format": "jpg",
+  "notes": "Press Room photo gallery (PhotoShelter \"Website Assets\", cincinnatichamber.photoshelter.com, gallery G0000srcAODWaevU): Blink2019MKFPhoto-49_Mackenzie Frank.jpg; original 8173x5449, public preview up to 1440 px; credit in file name: Mackenzie Frank; the file names date the photos to BLINK 2019 (10-10-19 = Oct. 10, 2019). Gallery page: https://cincinnatichamber.photoshelter.com/gallery/-/G0000srcAODWaevU",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/press-room"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://m.psecn.photoshelter.com/img-get2/I0000wm5pc7sFLZk/fit=1440x1440",
+  "format": "jpg",
+  "notes": "Press Room photo gallery (PhotoShelter \"Website Assets\", cincinnatichamber.photoshelter.com, gallery G0000srcAODWaevU): Blink2019MKFPhoto-67_Mackenzie Frank.jpg; original 5224x7836, public preview up to 1440 px; credit in file name: Mackenzie Frank; the file names date the photos to BLINK 2019 (10-10-19 = Oct. 10, 2019). Gallery page: https://cincinnatichamber.photoshelter.com/gallery/-/G0000srcAODWaevU",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/press-room"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://m.psecn.photoshelter.com/img-get2/I00005A4nf438CFc/fit=1440x1440",
+  "format": "jpg",
+  "notes": "Press Room photo gallery (PhotoShelter \"Website Assets\", cincinnatichamber.photoshelter.com, gallery G0000srcAODWaevU): Blink2019MKFPhoto-94_Mackenzie Frank.jpg; original 7874x5249, public preview up to 1440 px; credit in file name: Mackenzie Frank; the file names date the photos to BLINK 2019 (10-10-19 = Oct. 10, 2019). Gallery page: https://cincinnatichamber.photoshelter.com/gallery/-/G0000srcAODWaevU",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/press-room"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://m.psecn.photoshelter.com/img-get2/I0000kPCuopVoRe4/fit=1440x1440",
+  "format": "jpg",
+  "notes": "Press Room photo gallery (PhotoShelter \"Website Assets\", cincinnatichamber.photoshelter.com, gallery G0000srcAODWaevU): Blink2019MKFPhoto-91_Mackenzie Frank.jpg; original 8256x5504, public preview up to 1440 px; credit in file name: Mackenzie Frank; the file names date the photos to BLINK 2019 (10-10-19 = Oct. 10, 2019). Gallery page: https://cincinnatichamber.photoshelter.com/gallery/-/G0000srcAODWaevU",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/press-room"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://m.psecn.photoshelter.com/img-get2/I0000W4flEKCw8bI/fit=1440x1440",
+  "format": "jpg",
+  "notes": "Press Room photo gallery (PhotoShelter \"Website Assets\", cincinnatichamber.photoshelter.com, gallery G0000srcAODWaevU): Blink2019MKFPhoto-114_Mackenzie Frank.jpg; original 5145x7717, public preview up to 1440 px; credit in file name: Mackenzie Frank; the file names date the photos to BLINK 2019 (10-10-19 = Oct. 10, 2019). Gallery page: https://cincinnatichamber.photoshelter.com/gallery/-/G0000srcAODWaevU",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/press-room"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://m.psecn.photoshelter.com/img-get2/I0000O49_QAyxtAc/fit=1440x1440",
+  "format": "jpg",
+  "notes": "Press Room photo gallery (PhotoShelter \"Website Assets\", cincinnatichamber.photoshelter.com, gallery G0000srcAODWaevU): Blink2019MKFPhoto-96_Mackenzie Frank.jpg; original 8216x5477, public preview up to 1440 px; credit in file name: Mackenzie Frank; the file names date the photos to BLINK 2019 (10-10-19 = Oct. 10, 2019). Gallery page: https://cincinnatichamber.photoshelter.com/gallery/-/G0000srcAODWaevU",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/press-room"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://m.psecn.photoshelter.com/img-get2/I0000Wv0xxQ3BMw4/fit=1440x1440",
+  "format": "jpg",
+  "notes": "Press Room photo gallery (PhotoShelter \"Website Assets\", cincinnatichamber.photoshelter.com, gallery G0000srcAODWaevU): Blink-Nick-10-10-19_0119_Rooted Media House.jpg; original 5504x8256, public preview up to 1440 px; credit in file name: Rooted Media House; the file names date the photos to BLINK 2019 (10-10-19 = Oct. 10, 2019). Gallery page: https://cincinnatichamber.photoshelter.com/gallery/-/G0000srcAODWaevU",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/press-room"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://m.psecn.photoshelter.com/img-get2/I0000y74lHJdakmg/fit=1440x1440",
+  "format": "jpg",
+  "notes": "Press Room photo gallery (PhotoShelter \"Website Assets\", cincinnatichamber.photoshelter.com, gallery G0000srcAODWaevU): Blink-Nick-10-10-19_0124_Rooted Media House.jpg; original 8051x5367, public preview up to 1440 px; credit in file name: Rooted Media House; the file names date the photos to BLINK 2019 (10-10-19 = Oct. 10, 2019). Gallery page: https://cincinnatichamber.photoshelter.com/gallery/-/G0000srcAODWaevU",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/press-room"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://m.psecn.photoshelter.com/img-get2/I0000ZlsDyfybLbU/fit=1440x1440",
+  "format": "jpg",
+  "notes": "Press Room photo gallery (PhotoShelter \"Website Assets\", cincinnatichamber.photoshelter.com, gallery G0000srcAODWaevU): Blink-Nick-10-10-19_0118_Rooted Media House.jpg; original 8125x5417, public preview up to 1440 px; credit in file name: Rooted Media House; the file names date the photos to BLINK 2019 (10-10-19 = Oct. 10, 2019). Gallery page: https://cincinnatichamber.photoshelter.com/gallery/-/G0000srcAODWaevU",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/press-room"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://m.psecn.photoshelter.com/img-get2/I0000sU3QHghQYLw/fit=1440x1440",
+  "format": "jpg",
+  "notes": "Press Room photo gallery (PhotoShelter \"Website Assets\", cincinnatichamber.photoshelter.com, gallery G0000srcAODWaevU): Blink-Nick-10-10-19_0154_Rooted Media House.jpg; original 4024x6048, public preview up to 1440 px; credit in file name: Rooted Media House; the file names date the photos to BLINK 2019 (10-10-19 = Oct. 10, 2019). Gallery page: https://cincinnatichamber.photoshelter.com/gallery/-/G0000srcAODWaevU",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/press-room"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://m.psecn.photoshelter.com/img-get2/I0000u.4anCFj_FE/fit=1440x1440",
+  "format": "jpg",
+  "notes": "Press Room photo gallery (PhotoShelter \"Website Assets\", cincinnatichamber.photoshelter.com, gallery G0000srcAODWaevU): Blink-Nick-10-10-19_0125_Rooted Media House.jpg; original 8256x5504, public preview up to 1440 px; credit in file name: Rooted Media House; the file names date the photos to BLINK 2019 (10-10-19 = Oct. 10, 2019). Gallery page: https://cincinnatichamber.photoshelter.com/gallery/-/G0000srcAODWaevU",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/press-room"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://m.psecn.photoshelter.com/img-get2/I0000_yh6zrioVQc/fit=1440x1440",
+  "format": "jpg",
+  "notes": "Press Room photo gallery (PhotoShelter \"Website Assets\", cincinnatichamber.photoshelter.com, gallery G0000srcAODWaevU): Blink-Nick-10-10-19_0139_Rooted Media House.jpg; original 5504x8256, public preview up to 1440 px; credit in file name: Rooted Media House; the file names date the photos to BLINK 2019 (10-10-19 = Oct. 10, 2019). Gallery page: https://cincinnatichamber.photoshelter.com/gallery/-/G0000srcAODWaevU",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/press-room"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://m.psecn.photoshelter.com/img-get2/I0000JqvB9QzJZuU/fit=1440x1440",
+  "format": "jpg",
+  "notes": "Press Room photo gallery (PhotoShelter \"Website Assets\", cincinnatichamber.photoshelter.com, gallery G0000srcAODWaevU): Blink-Nick-10-10-19_0141_Rooted Media House.jpg; original 5504x8256, public preview up to 1440 px; credit in file name: Rooted Media House; the file names date the photos to BLINK 2019 (10-10-19 = Oct. 10, 2019). Gallery page: https://cincinnatichamber.photoshelter.com/gallery/-/G0000srcAODWaevU",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/press-room"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://m.psecn.photoshelter.com/img-get2/I0000CwZjswPdH4I/fit=1440x1440",
+  "format": "jpg",
+  "notes": "Press Room photo gallery (PhotoShelter \"Website Assets\", cincinnatichamber.photoshelter.com, gallery G0000srcAODWaevU): Blink-Nick-10-10-19_0173_Rooted Media House.jpg; original 8256x5504, public preview up to 1440 px; credit in file name: Rooted Media House; the file names date the photos to BLINK 2019 (10-10-19 = Oct. 10, 2019). Gallery page: https://cincinnatichamber.photoshelter.com/gallery/-/G0000srcAODWaevU",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/press-room"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://m.psecn.photoshelter.com/img-get2/I00009oio_IVYCSU/fit=1440x1440",
+  "format": "jpg",
+  "notes": "Press Room photo gallery (PhotoShelter \"Website Assets\", cincinnatichamber.photoshelter.com, gallery G0000srcAODWaevU): Blink-Nick-10-10-19_0156_Rooted Media House.jpg; original 8002x5335, public preview up to 1440 px; credit in file name: Rooted Media House; the file names date the photos to BLINK 2019 (10-10-19 = Oct. 10, 2019). Gallery page: https://cincinnatichamber.photoshelter.com/gallery/-/G0000srcAODWaevU",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/press-room"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://m.psecn.photoshelter.com/img-get2/I0000kSlOkV8syGk/fit=1440x1440",
+  "format": "jpg",
+  "notes": "Press Room photo gallery (PhotoShelter \"Website Assets\", cincinnatichamber.photoshelter.com, gallery G0000srcAODWaevU): Blink-Nick-10-10-19_0174_Rooted Media House.jpg; original 8186x5457, public preview up to 1440 px; credit in file name: Rooted Media House; the file names date the photos to BLINK 2019 (10-10-19 = Oct. 10, 2019). Gallery page: https://cincinnatichamber.photoshelter.com/gallery/-/G0000srcAODWaevU",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/press-room"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://m.psecn.photoshelter.com/img-get2/I0000h6E7X0TfHls/fit=1440x1440",
+  "format": "jpg",
+  "notes": "Press Room photo gallery (PhotoShelter \"Website Assets\", cincinnatichamber.photoshelter.com, gallery G0000srcAODWaevU): Blink-Tyler-10-10-19_0011_Rooted Media House.jpg; original 3648x5472, public preview up to 1440 px; credit in file name: Rooted Media House; the file names date the photos to BLINK 2019 (10-10-19 = Oct. 10, 2019). Gallery page: https://cincinnatichamber.photoshelter.com/gallery/-/G0000srcAODWaevU",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/press-room"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://m.psecn.photoshelter.com/img-get2/I0000J085_wUCftY/fit=1440x1440",
+  "format": "jpg",
+  "notes": "Press Room photo gallery (PhotoShelter \"Website Assets\", cincinnatichamber.photoshelter.com, gallery G0000srcAODWaevU): Blink-Tyler-10-10-19_0012_Rooted Media House.jpg; original 5472x3648, public preview up to 1440 px; credit in file name: Rooted Media House; the file names date the photos to BLINK 2019 (10-10-19 = Oct. 10, 2019). Gallery page: https://cincinnatichamber.photoshelter.com/gallery/-/G0000srcAODWaevU",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/press-room"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://m.psecn.photoshelter.com/img-get2/I0000QdkeVOaFQeA/fit=1440x1440",
+  "format": "jpg",
+  "notes": "Press Room photo gallery (PhotoShelter \"Website Assets\", cincinnatichamber.photoshelter.com, gallery G0000srcAODWaevU): Blink-Tyler-10-10-19_0023_Rooted Media House.jpg; original 5472x3648, public preview up to 1440 px; credit in file name: Rooted Media House; the file names date the photos to BLINK 2019 (10-10-19 = Oct. 10, 2019). Gallery page: https://cincinnatichamber.photoshelter.com/gallery/-/G0000srcAODWaevU",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/press-room"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://m.psecn.photoshelter.com/img-get2/I00004Thf_8WwthY/fit=1440x1440",
+  "format": "jpg",
+  "notes": "Press Room photo gallery (PhotoShelter \"Website Assets\", cincinnatichamber.photoshelter.com, gallery G0000srcAODWaevU): Blink-Tyler-10-10-19_0024_Rooted Media House.jpg; original 5472x3648, public preview up to 1440 px; credit in file name: Rooted Media House; the file names date the photos to BLINK 2019 (10-10-19 = Oct. 10, 2019). Gallery page: https://cincinnatichamber.photoshelter.com/gallery/-/G0000srcAODWaevU",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/press-room"
+ },
+ {
+  "program": "blink",
+  "kind": "photo",
+  "url": "https://m.psecn.photoshelter.com/img-get2/I0000fwAapfeSXWk/fit=1440x1440",
+  "format": "jpg",
+  "notes": "Press Room photo gallery (PhotoShelter \"Website Assets\", cincinnatichamber.photoshelter.com, gallery G0000srcAODWaevU): Blink-Tyler-10-10-19_0026_Rooted Media House.jpg; original 3648x5472, public preview up to 1440 px; credit in file name: Rooted Media House; the file names date the photos to BLINK 2019 (10-10-19 = Oct. 10, 2019). Gallery page: https://cincinnatichamber.photoshelter.com/gallery/-/G0000srcAODWaevU",
+  "source_url": "https://www.blinkcincinnati.com/about-blink/press-room"
+ }
+]

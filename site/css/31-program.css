@@ -25,6 +25,7 @@
 .prog-rows.is-runs time small { letter-spacing: 0; font-size: var(--fs-xs); color: var(--text-muted); }
 .prog-rows .pr-st:empty { display: none; }
 .prog-rows .pr-st { font-weight: var(--wght-strong); color: var(--text); white-space: nowrap; }
+.prog-rows .pr-st::before { content: "· "; font-weight: var(--wght-body); color: var(--text-muted); }   /* QA: the state word never runs into the place */
 .prog-rows li[data-status="live"] .pr-st { color: var(--live-ink); }
 .prog-rows li[data-status="live"] { box-shadow: inset 3px 0 0 var(--live); }
 .prog-rows li[data-status="live"] > a { padding-left: 6px; }
@@ -55,3 +56,14 @@
 .prog-src-note { margin: var(--sp-3) 0; font-size: var(--fs-sm); color: var(--text-muted); }
 .faq-list { border-top: var(--rule-mid) solid var(--rule-ink); }
 @media (max-width: 699px) { .prog-tickets th a { display: inline-flex; align-items: center; min-height: var(--tap); } }
+
+/* QA: a long program's days fold (details.prog-day): the summary is the day heading, a 44px row with a chevron */
+.prog-day > summary { display: flex; align-items: center; justify-content: space-between; gap: var(--sp-2); min-height: var(--tap); cursor: pointer; list-style: none; border-bottom: 1px solid var(--border); }
+.prog-day > summary::-webkit-details-marker { display: none; }
+.prog-day > summary .sub-h { margin: 0; padding: 0; border: 0; }
+.prog-day > summary .i { width: 18px; height: 18px; color: var(--text-muted); transition: transform var(--speed) var(--ease); }
+.prog-day[open] > summary .i { transform: rotate(180deg); }
+.prog-day > summary:hover .sub-h { color: var(--text); }
+.prog-day[open] > summary { border-bottom: 0; }
+.prog-day[open] > .tonight { margin-bottom: var(--sp-4); }
+.prog-day + .sub-h { margin-top: var(--sp-6); }

@@ -1,0 +1,117 @@
+[
+  {
+    "name": "Startup Founder or Employee - General Admission",
+    "description": "I founded or work for a venture-backable or high-growth potential startup. Includes: 4 days of programming, happy hours, and showcases.",
+    "price": "$50.00",
+    "available_until": "10 October, 2026 23:59 PM (America/New_York)",
+    "package_id": "773236",
+    "add_ons": [
+      {
+        "text": "Cintrifuse Annual Meeting | Oct 6 at 8:30-10:30am",
+        "name": "Cintrifuse Annual Meeting",
+        "description": null,
+        "price": "$0.00",
+        "event_id": "scw-cintrifuse-annual-meeting"
+      }
+    ],
+    "url": "https://startupcincyweek.com/en/registration-form",
+    "source_url": "https://startupcincyweek.com/en/registration-form"
+  },
+  {
+    "name": "Venture Capital Investor - Investor Admission",
+    "description": "For individual or institutional venture capital investors. Includes: 4 days of programming, happy hours, and showcases.",
+    "price": "$300.00",
+    "available_until": "10 October, 2026 23:59 PM (America/New_York)",
+    "package_id": "773237",
+    "add_ons": [
+      {
+        "text": "Cintrifuse Annual Meeting | Oct 6 at 8:30-10:30am",
+        "name": "Cintrifuse Annual Meeting",
+        "description": null,
+        "price": "$0.00",
+        "event_id": "scw-cintrifuse-annual-meeting"
+      },
+      {
+        "text": "Liquidity Event (Investor Happy Hour) | Oct 6 at 5:00pm",
+        "name": "Liquidity Event (Investor Happy Hour)",
+        "description": null,
+        "price": "$0.00",
+        "event_id": null
+      }
+    ],
+    "url": "https://startupcincyweek.com/en/registration-form",
+    "source_url": "https://startupcincyweek.com/en/registration-form"
+  },
+  {
+    "name": "Corporate Partner - Corporate Admission",
+    "description": "I am a representative of an established organization seeking to connect with startups, explore collaboration opportunities, and stay informed on emerging technologies. Includes: 4 days of programming, happy hours, and showcases",
+    "price": "$250.00",
+    "available_until": "10 October, 2026 23:59 PM (America/New_York)",
+    "package_id": "773238",
+    "add_ons": [
+      {
+        "text": "Cintrifuse Annual Meeting | Oct 6 at 8:30-10:30am",
+        "name": "Cintrifuse Annual Meeting",
+        "description": null,
+        "price": "$0.00",
+        "event_id": "scw-cintrifuse-annual-meeting"
+      }
+    ],
+    "url": "https://startupcincyweek.com/en/registration-form",
+    "source_url": "https://startupcincyweek.com/en/registration-form"
+  },
+  {
+    "name": "Entrepreneur or Small Business Owner - General Admission",
+    "description": "I am a business owner, solopreneur, or employee focused on generating revenue, steady and long-term growth, and maintaining ownership. Includes: 4 days of programming, happy hours, and showcases.",
+    "price": "$50.00",
+    "available_until": "10 October, 2026 23:59 PM (America/New_York)",
+    "package_id": "773239",
+    "add_ons": [
+      {
+        "text": "Cintrifuse Annual Meeting | Oct 6 at 8:30-10:30am",
+        "name": "Cintrifuse Annual Meeting",
+        "description": null,
+        "price": "$0.00",
+        "event_id": "scw-cintrifuse-annual-meeting"
+      }
+    ],
+    "url": "https://startupcincyweek.com/en/registration-form",
+    "source_url": "https://startupcincyweek.com/en/registration-form"
+  },
+  {
+    "name": "General Ecosystem - General Admission",
+    "description": "I work, volunteer, or mentor within the ecosystem, providing resources, programming, or mentorship to founders and business owners. Includes: 4 days of programming, happy hours, and showcases.",
+    "price": "$50.00",
+    "available_until": "10 October, 2026 23:59 PM (America/New_York)",
+    "package_id": "773240",
+    "add_ons": [
+      {
+        "text": "Cintrifuse Annual Meeting | Oct 6 at 8:30-10:30am",
+        "name": "Cintrifuse Annual Meeting",
+        "description": null,
+        "price": "$0.00",
+        "event_id": "scw-cintrifuse-annual-meeting"
+      }
+    ],
+    "url": "https://startupcincyweek.com/en/registration-form",
+    "source_url": "https://startupcincyweek.com/en/registration-form"
+  },
+  {
+    "name": "Student Admission - General Admission",
+    "description": "This ticket is exclusively for current students interested in innovation, entrepreneurship, and startups. Included access to the Student Summit on Thursday, October 8",
+    "price": "$0.00",
+    "available_until": "10 October, 2026 23:59 PM (America/New_York)",
+    "package_id": "773241",
+    "add_ons": [
+      {
+        "text": "Cintrifuse Annual Meeting | Oct 6 at 8:30-10:30am",
+        "name": "Cintrifuse Annual Meeting",
+        "description": null,
+        "price": "$0.00",
+        "event_id": "scw-cintrifuse-annual-meeting"
+      }
+    ],
+    "url": "https://startupcincyweek.com/en/registration-form",
+    "source_url": "https://startupcincyweek.com/en/registration-form"
+  }
+]

@@ -85,7 +85,8 @@ export function makeShell(site) {
       return `<a class="nav-link" href="${root}${it.slug}.html"${cur(it.slug)}>${icon(it.icon)}<span>${esc(it.label)}</span>${n}</a>`;
     };
     const progItem = (pi) => {
-      const two = `${bullet(pi.prog)}<span class="nav-2">${esc(pi.name)}${pi.sub ? `<span class="nav-sub">${esc(pi.sub)}</span>` : ""}</span>`;
+      // each " · " segment stays whole, so a narrow rail wraps between segments ("7–11 PM"), never inside one
+      const two = `${bullet(pi.prog)}<span class="nav-2">${esc(pi.name)}${pi.sub ? `<span class="nav-sub">${pi.sub.split(" · ").map((x) => `<span>${esc(x)}</span>`).join(" · ")}</span>` : ""}</span>`;
       if (pi.subLinks) {
         const open = active === pi.slug ? " open" : "";
         const subs = pi.subLinks.map((s) => {

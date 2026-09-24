@@ -1,0 +1,274 @@
+[
+  {
+    "program": "blink",
+    "kind": "logo",
+    "url": "https://blinkcincinnati.b-cdn.net/files/locations/zones/blink26naviconsrgbotr2.svg",
+    "format": "svg",
+    "notes": "Zone icon for \"Over the Rhine\" (zone color #ff30b0); used as the zone marker on the BLINK map.",
+    "source_url": "https://www.blinkcincinnati.com/map"
+  },
+  {
+    "program": "blink",
+    "kind": "logo",
+    "url": "https://blinkcincinnati.b-cdn.net/files/locations/zones/blink26naviconsrgbotr.svg",
+    "format": "svg",
+    "notes": "Zone icon for \"Over the Rhine\" (zone color #ff30b0); used as the zone marker on the BLINK map.",
+    "source_url": "https://www.blinkcincinnati.com/map"
+  },
+  {
+    "program": "blink",
+    "kind": "logo",
+    "url": "https://blinkcincinnati.b-cdn.net/files/locations/zones/blink26naviconsrgbfindlaymkt2.svg",
+    "format": "svg",
+    "notes": "Zone icon for \"Findlay Market\" (zone color #ff6f23); used as the zone marker on the BLINK map.",
+    "source_url": "https://www.blinkcincinnati.com/map"
+  },
+  {
+    "program": "blink",
+    "kind": "logo",
+    "url": "https://blinkcincinnati.b-cdn.net/files/locations/zones/blink26naviconsrgbfindlaymkt.svg",
+    "format": "svg",
+    "notes": "Zone icon for \"Findlay Market\" (zone color #ff6f23); used as the zone marker on the BLINK map.",
+    "source_url": "https://www.blinkcincinnati.com/map"
+  },
+  {
+    "program": "blink",
+    "kind": "logo",
+    "url": "https://blinkcincinnati.b-cdn.net/files/locations/zones/blink26naviconsrgbfountaindistrict2.svg",
+    "format": "svg",
+    "notes": "Zone icon for \"Fountain District\" (zone color #4BBBDB); used as the zone marker on the BLINK map.",
+    "source_url": "https://www.blinkcincinnati.com/map"
+  },
+  {
+    "program": "blink",
+    "kind": "logo",
+    "url": "https://blinkcincinnati.b-cdn.net/files/locations/zones/blink26naviconsrgbfountaindistrict.svg",
+    "format": "svg",
+    "notes": "Zone icon for \"Fountain District\" (zone color #4BBBDB); used as the zone marker on the BLINK map.",
+    "source_url": "https://www.blinkcincinnati.com/map"
+  },
+  {
+    "program": "blink",
+    "kind": "logo",
+    "url": "https://blinkcincinnati.b-cdn.net/files/locations/zones/blink26naviconsrgbriverfront2.svg",
+    "format": "svg",
+    "notes": "Zone icon for \"The Banks\" (zone color #00fa36); used as the zone marker on the BLINK map.",
+    "source_url": "https://www.blinkcincinnati.com/map"
+  },
+  {
+    "program": "blink",
+    "kind": "logo",
+    "url": "https://blinkcincinnati.b-cdn.net/files/locations/zones/blink26naviconsrgbriverfront.svg",
+    "format": "svg",
+    "notes": "Zone icon for \"The Banks\" (zone color #00fa36); used as the zone marker on the BLINK map.",
+    "source_url": "https://www.blinkcincinnati.com/map"
+  },
+  {
+    "program": "blink",
+    "kind": "logo",
+    "url": "https://blinkcincinnati.b-cdn.net/files/locations/zones/blink26naviconsrgbcvg2.svg",
+    "format": "svg",
+    "notes": "Zone icon for \"Covington\" (zone color #ee49f9); used as the zone marker on the BLINK map.",
+    "source_url": "https://www.blinkcincinnati.com/map"
+  },
+  {
+    "program": "blink",
+    "kind": "logo",
+    "url": "https://blinkcincinnati.b-cdn.net/files/locations/zones/blink26naviconsrgbcvg.svg",
+    "format": "svg",
+    "notes": "Zone icon for \"Covington\" (zone color #ee49f9); used as the zone marker on the BLINK map.",
+    "source_url": "https://www.blinkcincinnati.com/map"
+  },
+  {
+    "program": "blink",
+    "kind": "logo",
+    "url": "https://blinkcincinnati.b-cdn.net/files/locations/zones/lytle-zone2.svg",
+    "format": "svg",
+    "notes": "Zone icon for \"BLINK at Lytle Park\" (zone color #4BBBDB); used as the zone marker on the BLINK map. Zone inactive in site data.",
+    "source_url": "https://www.blinkcincinnati.com/map"
+  },
+  {
+    "program": "blink",
+    "kind": "logo",
+    "url": "https://blinkcincinnati.b-cdn.net/images/icons/map/projections.svg",
+    "format": "svg",
+    "notes": "BLINK map legend and pin icon for category \"Projections\".",
+    "source_url": "https://www.blinkcincinnati.com/map"
+  },
+  {
+    "program": "blink",
+    "kind": "logo",
+    "url": "https://blinkcincinnati.b-cdn.net/images/icons/map/murals.svg",
+    "format": "svg",
+    "notes": "BLINK map legend and pin icon for category \"Murals\".",
+    "source_url": "https://www.blinkcincinnati.com/map"
+  },
+  {
+    "program": "blink",
+    "kind": "logo",
+    "url": "https://blinkcincinnati.b-cdn.net/images/icons/map/light-installations.svg",
+    "format": "svg",
+    "notes": "BLINK map legend and pin icon for category \"Light Installations\".",
+    "source_url": "https://www.blinkcincinnati.com/map"
+  },
+  {
+    "program": "blink",
+    "kind": "logo",
+    "url": "https://blinkcincinnati.b-cdn.net/images/icons/map/restrooms.svg",
+    "format": "svg",
+    "notes": "BLINK map legend and pin icon for category \"Restrooms\".",
+    "source_url": "https://www.blinkcincinnati.com/map"
+  },
+  {
+    "program": "blink",
+    "kind": "logo",
+    "url": "https://blinkcincinnati.b-cdn.net/images/icons/map/rest-here.svg",
+    "format": "svg",
+    "notes": "BLINK map legend and pin icon for category \"Oasis Stations\".",
+    "source_url": "https://www.blinkcincinnati.com/map"
+  },
+  {
+    "program": "blink",
+    "kind": "logo",
+    "url": "https://www.blinkcincinnati.com/images/Blink_26_ArtswaveLockup_RGB.svg",
+    "format": "svg",
+    "notes": "BLINK 2026 + ArtsWave lockup used as the site header logo (alt \"BLINK | ArtsWave\").",
+    "source_url": "https://www.blinkcincinnati.com/"
+  },
+  {
+    "program": "blink",
+    "kind": "key-art",
+    "url": "https://www.blinkcincinnati.com/files/assets/blinkmap2026zones2.pdf",
+    "format": "pdf",
+    "notes": "BLINK 2026 zone map (one page).",
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/maps-guides"
+  },
+  {
+    "program": "blink",
+    "kind": "key-art",
+    "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/blinkmap2026zones2.jpg",
+    "format": "jpg",
+    "notes": "BLINK 2026 zone map, image version (1156x3078).",
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide/maps-guides"
+  },
+  {
+    "program": "blink",
+    "kind": "key-art",
+    "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/covington-navicon.jpg",
+    "format": "jpg",
+    "notes": "Zone tile image (\"covington\") on Plan Your Visit.",
+    "source_url": "https://www.blinkcincinnati.com/plan-your-blink-visit/overview"
+  },
+  {
+    "program": "blink",
+    "kind": "key-art",
+    "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/riverfront-navicon.jpg",
+    "format": "jpg",
+    "notes": "Zone tile image (\"riverfront\") on Plan Your Visit.",
+    "source_url": "https://www.blinkcincinnati.com/plan-your-blink-visit/overview"
+  },
+  {
+    "program": "blink",
+    "kind": "key-art",
+    "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/otr-navicon.jpg",
+    "format": "jpg",
+    "notes": "Zone tile image (\"otr\") on Plan Your Visit.",
+    "source_url": "https://www.blinkcincinnati.com/plan-your-blink-visit/overview"
+  },
+  {
+    "program": "blink",
+    "kind": "key-art",
+    "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/findlay-navicon.jpg",
+    "format": "jpg",
+    "notes": "Zone tile image (\"findlay\") on Plan Your Visit.",
+    "source_url": "https://www.blinkcincinnati.com/plan-your-blink-visit/overview"
+  },
+  {
+    "program": "blink",
+    "kind": "key-art",
+    "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/fountain-navicon.jpg",
+    "format": "jpg",
+    "notes": "Zone tile image (\"fountain\") on Plan Your Visit.",
+    "source_url": "https://www.blinkcincinnati.com/plan-your-blink-visit/overview"
+  },
+  {
+    "program": "blink",
+    "kind": "photo",
+    "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/lightinstallations-shorter.jpg",
+    "format": "jpg",
+    "notes": "Event Guide tile: Light Installations.",
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide"
+  },
+  {
+    "program": "blink",
+    "kind": "photo",
+    "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/projections-shorter.jpg",
+    "format": "jpg",
+    "notes": "Event Guide tile: Projections.",
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide"
+  },
+  {
+    "program": "blink",
+    "kind": "photo",
+    "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/murals-shorter.jpg",
+    "format": "jpg",
+    "notes": "Event Guide tile: Murals.",
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide"
+  },
+  {
+    "program": "blink",
+    "kind": "photo",
+    "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/kickoffblockparty-shorter.jpg",
+    "format": "jpg",
+    "notes": "Event Guide tile: Opening Ceremony.",
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide"
+  },
+  {
+    "program": "blink",
+    "kind": "photo",
+    "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/run-the-night-shorterv2.jpg",
+    "format": "jpg",
+    "notes": "Event Guide tile: Run The Night.",
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide"
+  },
+  {
+    "program": "blink",
+    "kind": "photo",
+    "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/nightmarket-shorter.jpg",
+    "format": "jpg",
+    "notes": "Event Guide tile: Asianati Night Market.",
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide"
+  },
+  {
+    "program": "blink",
+    "kind": "photo",
+    "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/mysticeyedroneshow-shorterv2.jpg",
+    "format": "jpg",
+    "notes": "Event Guide tile: Drone Show.",
+    "source_url": "https://www.blinkcincinnati.com/blink-event-guide"
+  },
+  {
+    "program": "blink",
+    "kind": "key-art",
+    "url": "https://blinkcincinnati.b-cdn.net/files/headers/header/2026blink-coloring-page-d208071-1-blackwblue.png",
+    "format": "png",
+    "notes": "Turn the Lights On Coloring Contest header art (2026 coloring page, black with blue); coloring sheet credited to artist Rob Warnick.",
+    "source_url": "https://www.blinkcincinnati.com/turn-the-lights-on-coloring-contest"
+  },
+  {
+    "program": "blink",
+    "kind": "logo",
+    "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/first-financial-bank-logo.jpg",
+    "format": "jpg",
+    "notes": "First Financial Bank logo shown as presenter of the Turn the Lights On Coloring Contest.",
+    "source_url": "https://www.blinkcincinnati.com/turn-the-lights-on-coloring-contest"
+  },
+  {
+    "program": "blink",
+    "kind": "key-art",
+    "url": "https://www.blinkcincinnati.com/files/pages/scale/crop/2026blink-coloring-page-d208071-1.jpg",
+    "format": "jpg",
+    "notes": "Turn the Lights On coloring sheet image (\"2026blink coloring page d208071 1\").",
+    "source_url": "https://www.blinkcincinnati.com/turn-the-lights-on-coloring-contest"
+  }
+]

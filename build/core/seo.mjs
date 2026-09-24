@@ -52,11 +52,11 @@ export const robots = (siteBase) => `User-agent: *\nAllow: /\nSitemap: ${siteBas
 export function notFoundPage() {
   return {
     path: "404.html", slug: "404", nav: "", title: "Page not found", noindex: true, crumbs: [], pagenav: null,
-    description: "That page isn't in the guide. Search it, or go to The Week.",
+    description: "That page isn’t in the guide. Search it, or go to The Week.",
     body: (root) => `<div class="nf">
 <p class="kicker label"><span>404 · Page not found</span></p>
 <div class="nf-line" aria-hidden="true"><b></b><i></i><b></b><i class="gap"></i><b class="missing"></b><i class="gap"></i><b></b><i></i></div>
-<h1>This stop isn't on the line.</h1>
+<h1>This stop isn’t on the line.</h1>
 <p class="lede">The page may have moved, or the link has a typo. Search the guide, or pick up the line from The Week.</p>
 <div class="btn-row spaced"><button class="btn btn-primary" type="button" data-search-open>${icon("search")}Search the guide</button><a class="btn btn-secondary" href="${root}schedule.html">${icon("calendar")}The Week</a><a class="btn btn-secondary" href="${root}index.html">${icon("home")}Overview</a></div>
 </div>`,

@@ -82,6 +82,7 @@ hr { border: 0; border-top: 1px solid var(--border); margin: var(--sp-5) 0; }
 .i-fill { fill: currentColor; stroke: none; }
 /* unknowns are printed as unknowns: faint roman with a dashed-circle mark, never a guess, never italic Public Sans */
 .unk { color: var(--text-faint); display: inline-flex; align-items: baseline; gap: 5px; }
+p.unk, div.unk { display: flex; }   /* QA: a paragraph of unknown stays a block (two in a row never share a line) */
 .unk::before {
   content: ""; width: 9px; height: 9px; flex: none; align-self: center;
   border: 1.5px dashed currentColor; border-radius: 50%;
