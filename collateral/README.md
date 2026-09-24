@@ -33,7 +33,8 @@ A card that fails any check is written as `<id>.failed.png` (gitignored) and the
   40 px top and bottom; on Stories, clear of the top 250 px and bottom 340 px.
 - A box that overflows or leaves the card, or two blocks that overlap.
 - A sentence it reads from the site that can't be found any more (the site changed).
-- A Thursday Story event that is missing, moved off Oct 8 or tagged `draft-schedule`.
+- A Thursday Story event that is missing or moved off Oct 8, a Story without all three programs, or a
+  `draft-schedule` item other than Art Week's *Exhibitions + Art Market*.
 
 ## Where the words come from
 
@@ -53,7 +54,7 @@ the built page it describes:
 | The OpenStreetMap credit | the site footer |
 | Program names, dates, day ranges | `data/programs.json` and the nav's program labels |
 | Counts (events, people, works, venues, sponsors, places to stay) | `data/*.json` record counts |
-| Thursday's timeline (Story 2) | four published events in `data/events.json`, by id |
+| Thursday's timeline (Story 2) | five events in `data/events.json`, by id. Art Week's *Exhibitions + Art Market* (12:00–7:00 PM) comes from the organizer's own schedule page, which is unlisted and says plans change; the site shows it with a draft label. The other four are published |
 | The address, the repo, the byline | `site.config.json` |
 
 Written by hand, and nothing else: the folio labels (*The week*, *The programs*, *How it is made*,

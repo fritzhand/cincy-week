@@ -246,12 +246,16 @@ const thu = "2026-10-08";
 const onThu = (id) => events.filter((e) => e.program === id && e.date <= thu && (e.end_date || e.date) >= thu).length;
 const byId = new Map(events.map((e) => [e.id, e]));
 const timeOf = (e) => `${(e.tags || []).includes("approximate-time") ? "About " : ""}${fmtTime(e.start)}`;
-/* Thursday's published (not draft-schedule) anchors, one per program where one exists */
-const THU = ["scw-student-pitch-competition", "blink-2026-10-08-ready-set-blink-opening-ceremony", "blink-2026-10-08-flip-the-switch", "blink-2026-10-08-drone-show-2030"].map((id) => {
+/* Thursday, one anchor per program so all three show. Art Week's only Thursday times are on its own
+   unlisted schedule page (tagged draft-schedule, "plans change"); the site shows them with that label,
+   and this Story uses that one item by name. Everything else must be published, not draft. */
+const THU_DRAFT_OK = new Set(["caw-10-08-exhibitions-art-market"]);
+const THU = ["caw-10-08-exhibitions-art-market", "scw-student-pitch-competition", "blink-2026-10-08-ready-set-blink-opening-ceremony", "blink-2026-10-08-flip-the-switch", "blink-2026-10-08-drone-show-2030"].map((id) => {
   const e = byId.get(id);
-  if (!e || e.date !== thu || (e.tags || []).includes("draft-schedule")) { console.error(`✗ Thursday story: ${id} is missing, moved or draft`); process.exit(1); }
+  if (!e || e.date !== thu || ((e.tags || []).includes("draft-schedule") && !THU_DRAFT_OK.has(id))) { console.error(`✗ Thursday story: ${id} is missing, moved or draft`); process.exit(1); }
   return e;
 });
+if (["caw", "scw", "blink"].some((p) => !THU.some((e) => e.program === p))) { console.error("✗ Thursday story: all three programs must appear"); process.exit(1); }
 const STORIES = {
   "story-01-week": {
     alt: `Cincy Week, ${WEEK}. ${config.siteTagline}. ${LANES.map((id) => `${label(id)}, ${fmtDateRange(P.get(id).dates.start, P.get(id).dates.end)}`).join("; ")}. ${URL_SHORT}.`,

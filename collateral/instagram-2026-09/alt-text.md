@@ -32,7 +32,7 @@ Cincy Week, Oct 3–11, 2026. Art Week, StartupCincy Week and BLINK in one guide
 
 ## story-02-thursday.png
 
-Thursday, October 8. Three festivals share one week, and on Thursday all three run at once. That day: Student Pitch Competition, 2:15 PM; Ready. Set. BLINK! Opening Ceremony, 4:00 PM; Flip the Switch: official start of BLINK 2026, About 7:00 PM; BLINK "First Sight" Drone Show, 8:30 PM. fritzhand.github.io/cincy-week.
+Thursday, October 8. Three festivals share one week, and on Thursday all three run at once. That day: Exhibitions + Art Market, 12:00 PM; Student Pitch Competition, 2:15 PM; Ready. Set. BLINK! Opening Ceremony, 4:00 PM; Flip the Switch: official start of BLINK 2026, About 7:00 PM; BLINK "First Sight" Drone Show, 8:30 PM. fritzhand.github.io/cincy-week.
 
 ## story-03-link.png
 
