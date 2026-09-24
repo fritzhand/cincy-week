@@ -20,7 +20,7 @@ export function pages(ctx) {
 
   /* ---------- groups: neighborhoods by how much happens there, then the rest of the area, then other cities ---------- */
   const hoodGroups = sortBy([...db.venuesByHood].filter(([k]) => k), ([, vs]) => -vs.reduce((n, v) => n + v.events.length + 1, 0), ([k]) => place(k)?.name || k)
-    .map(([k, vs]) => ({ id: `hood-${k}`, title: place(k)?.name || k, hood: k, venues: vs }));
+    .map(([k, vs]) => ({ id: `hood-${k}`, title: place(k) ? (place(k).name.includes("(") ? place(k).short_name || place(k).name : place(k).name) : k, hood: k, venues: vs }));
   const noHood = db.venuesByHood.get("") || [];
   const local = noHood.filter((v) => v.lat == null || inRegion(v));
   const away = noHood.filter((v) => v.lat != null && !inRegion(v));

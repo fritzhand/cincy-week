@@ -50,11 +50,32 @@ export function makeVenueCards(ctx) {
   const walkLabel = (m) => `${m < 950 ? `${Math.round(m / 10) * 10} m` : `${(m / 1000).toFixed(1)} km`} · about ${Math.max(1, Math.round((m * 1.3) / 80))} min walk`;
   const nearbyOf = (lat, lng, meters = 500) => db.nearby(lat, lng, meters).map((x) => ({ ...x, min: Math.max(1, Math.round((x.d * 1.3) / 80)) }));
 
+  /** Up to three basemap labels (parks, streets, neighborhoods, the river) inside a crop, clear of the pin and of
+   *  each other, so a mini-map says where it is. Positions in percent of the crop. */
+  const LABELS = (db.map && db.map.labels) || [];
+  const LABEL_PRI = { park: 0, street: 1, hood: 2, water: 3, bridge: 4 };
+  function cropLabels(vb, px, py) {
+    const [x0, y0, w, h] = vb, out = [];
+    const cands = LABELS.filter((l) => LABEL_PRI[l.kind] != null).map((l) => {
+      const x = ((l.lng - meta.bbox.w) * meta.k * meta.sx - x0) / w * 100, y = ((meta.bbox.n - l.lat) * meta.sx - y0) / h * 100;
+      const half = ((l.text.length * (l.kind === "hood" ? 8.4 : 6.6)) / 2 / 320) * 100 * Math.abs(Math.cos(((l.angle || 0) * Math.PI) / 180)) + 4;
+      return { l, x, y, half };
+    }).filter((c) => c.x - c.half > 2 && c.x + c.half < 98 && c.y > 8 && c.y < 92 && Math.hypot(c.x - px, (c.y - py) * 0.75) > 16)
+      .sort((a, b) => LABEL_PRI[a.l.kind] - LABEL_PRI[b.l.kind]);
+    for (const c of cands) {
+      if (out.length >= 3) break;
+      if (out.some((o) => Math.abs(o.y - c.y) < 12 && Math.abs(o.x - c.x) < o.half + c.half)) continue;
+      if (out.some((o) => o.l.text === c.l.text)) continue;
+      out.push(c);
+    }
+    return out.map((c) => `<span class="map-label ${c.l.kind}" style="left: ${c.x.toFixed(1)}%; top: ${c.y.toFixed(1)}%${c.l.angle ? `; --a: ${c.l.angle}deg` : ""}">${esc(c.l.text)}</span>`).join("");
+  }
+
   function miniMap(root, lat, lng, { prog = "also", n = "", label = "", halfWidthM = 350 } = {}) {
     if (lat == null || lng == null) return `<p class="unk mini-map-none">Not on the map: the address is not listed</p>`;
     const cr = meta && crop(lat, lng, meta, { halfWidthM });
     if (!cr) return `<p class="unk mini-map-none">Outside the map area</p>`;
-    return `<div class="mini-map"${label ? ` role="img" aria-label="${attr(label)}"` : ""}><svg viewBox="${cr.vb.join(" ")}" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false"><use href="${root}assets/map/basemap.svg#bm"/></svg><span class="pin pin-venue" data-prog="${attr(prog)}" style="left: ${cr.px}%; top: ${cr.py}%"><span>${esc(n)}</span></span></div>`;
+    return `<div class="mini-map"${label ? ` role="img" aria-label="${attr(label)}"` : ""}><svg viewBox="${cr.vb.join(" ")}" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false"><use href="${root}assets/map/basemap.svg#bm"/></svg><span class="mini-labels" aria-hidden="true">${cropLabels(cr.vb, cr.px, cr.py)}</span><span class="pin pin-venue" data-prog="${attr(prog)}" style="left: ${cr.px}%; top: ${cr.py}%"><span>${esc(n)}</span></span></div>`;
   }
 
   /** A static area map: a crop of the basemap that fits every point (at least `minHalfM` meters each side of
