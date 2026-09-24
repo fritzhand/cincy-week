@@ -24,8 +24,12 @@ A 32-second, silent walkthrough of Cincy Week on a phone, made by
 | 28.8–32 | The phone leaves; the nameplate, the address, the four programs, the independence line | none |
 
 Everything on the phone is the real site from `docs/`, running live. The browser's clock is set to
-Thursday, Oct 8, 2026, 7:30 PM Eastern (BLINK's opening night), so the site shows its during-the-week
-states; the phone's status bar reads 7:30 to match. Captions are the site's own words (the tagline, the
+Thursday, Oct 8, 2026, 7:30 PM Eastern (BLINK's opening night) and advanced one frame at a time, so the
+site shows its during-the-week states and its toasts and timers move with the video; the phone's status
+bar reads 7:30 to match. The site runs with reduced motion and the video adds the movement: a new page
+pushes in from the right, and the event details, the search panel and the map's pin card rise from the
+bottom. The map's own zoom animation runs on the video's clock. Taps are real clicks on the real
+elements, except the links that change page, which show the tap and then the next page. Captions are the site's own words (the tagline, the
 week line's heading, the schedule lede, the map kicker, the search placeholder, the My Plan lede) and
 one count from `data/`; *What's on now, and what's next.* is the only hand-written line. My Plan starts
 with three published Thursday events (Student Pitch Competition, the Ready. Set. BLINK! Opening

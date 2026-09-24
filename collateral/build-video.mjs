@@ -158,7 +158,7 @@ window.render = (s) => {
   const inP = out((s.t - 1.0) / 0.9), exP = ease((s.t - 28.8) / 0.9);
   const y = (1 - inP) * 380 + exP * 900; ph.style.transform = "translateY(" + y + "px) scale(" + k + ")"; ph.style.opacity = String(Math.min(1, inP * 1.4) * (1 - exP));
   // slots
-  for (const [name, o] of Object.entries(s.slots)) { const f = $("f-" + name); f.style.opacity = o.op; f.style.transform = "translateX(" + o.x + "px)"; f.style.zIndex = o.z; }
+  for (const [name, o] of Object.entries(s.slots)) { const f = $("f-" + name); f.style.opacity = o.op; f.style.transform = "translateX(" + o.x + "px)"; f.style.zIndex = o.z; f.style.filter = o.dim ? "brightness(" + (1 - o.dim) + ")" : "none"; f.style.boxShadow = o.x > 0.5 ? "-10px 0 24px rgba(0,0,0,.18)" : "none"; }
   // captions
   const set = (el, c, a, dy) => { el.querySelector(".k").textContent = c ? c.k : ""; el.querySelector(".t").textContent = c ? c.t : ""; el.style.opacity = a; el.style.transform = "translateY(" + dy + "px)"; };
   set($("capA"), s.cap.cur, s.cap.a, (1 - s.cap.a) * 14); set($("capB"), s.cap.prev, s.cap.pa, 0);
@@ -200,6 +200,7 @@ async function renderCut(cut) {
   await load("home", "/index.html?theme=light");
   await load("sched", "/schedule.html?day=2026-10-08&theme=light");
   await load("map", "/map.html?theme=light");
+  await F("map").evaluate(() => { const mm = window.matchMedia.bind(window); window.matchMedia = (q) => mm(/prefers-reduced-motion:\s*reduce/.test(q) ? "(max-width: 0px)" : q); });
   await load("venue", "/venues/findlay-market.html?theme=light");
   // positions measured on the real pages
   const docY = (name, sel) => F(name).evaluate((s) => { const e = document.querySelector(s); if (!e) return null; return e.getBoundingClientRect().top + scrollY; }, sel);
@@ -217,7 +218,7 @@ async function renderCut(cut) {
   const clickIn = (name, sel) => F(name).evaluate((s) => { const e = document.querySelector(s); if (!e) throw new Error("no " + s); e.click(); }, sel);
 
   /* state */
-  const slots = Object.fromEntries(SLOTS.map((s) => [s, { op: 0, x: 0, z: 0 }]));
+  const slots = Object.fromEntries(SLOTS.map((s) => [s, { op: 0, x: 0, z: 0, dim: 0 }]));
   slots.home.op = 1; slots.home.z = 1;
   let tap = null; let z = 1;
   const scrolls = []; // { name, from, to, t0, t1, el?, x? }
@@ -240,7 +241,7 @@ async function renderCut(cut) {
   tapAt(8.55, "sched", 'button.chip[data-v="blink"]', () => clickIn("sched", 'button.chip[data-v="blink"]'));
   at(9.0, async () => { const y = await docY("sched", "#e-blink-2026-10-08-drone-show-2030"); scrolls.push({ name: "sched", t0: 9.1, t1: 10.3, to: y - 250, from: null }); });
   tapAt(10.9, "sched", "#e-blink-2026-10-08-drone-show-2030 [data-open-event]", () => clickIn("sched", "#e-blink-2026-10-08-drone-show-2030 [data-open-event]"));
-  slides.push({ name: "sched", sel: "#event-dialog .modal-panel", t0: 10.95, dur: 0.38 });
+  slides.push({ name: "sched", sel: "#event-dialog .modal-panel", t0: 10.9, dur: 0.38 });
   // 4. in the dialog: scroll to "Add to My Plan", tap it, close
   at(11.5, async () => { scrolls.push({ name: "sched", t0: 11.8, t1: 12.6, to: 300, from: null, el: "#event-dialog .modal-body" }); });
   at(12.9, async () => { const sel = await F("sched").evaluate(() => { const b = [...document.querySelectorAll("#event-dialog button")].find((x) => /My Plan/.test(x.textContent)); if (!b) return null; b.setAttribute("data-video-star", "1"); return "[data-video-star]"; }); if (!sel) throw new Error("no Add to My Plan button"); const p = await stageBox("sched", sel); tap = { ...p, t0: 12.9 }; await clickIn("sched", sel); });
@@ -259,6 +260,8 @@ async function renderCut(cut) {
   });
   // 6. search from the dock, type, open the venue
   tapAt(19.6, "map", "nav.dock button[data-search-open]", () => clickIn("map", "nav.dock button[data-search-open]"));
+  slides.push({ name: "map", sel: ".search-modal .modal-panel", t0: 19.6, dur: 0.34 });
+  slides.push({ name: "map", sel: ".map-card", t0: 17.9, dur: 0.3 });
   const word = "Findlay Market";
   for (let i = 1; i <= word.length; i++) at(20.25 + i * 0.1, () => F("map").evaluate((v) => { const el = document.querySelector("[data-search-input]"); el.value = v; el.dispatchEvent(new Event("input", { bubbles: true })); }, word.slice(0, i)));
   at(22.4, async () => {
@@ -294,10 +297,11 @@ async function renderCut(cut) {
       if (p >= 1) sl.done = true;
     }
     for (const sw of swaps) {
-      const p = ease((t - sw.t0) / 0.38);
-      if (t < sw.t0) continue;
-      slots[sw.to].z = sw.z; slots[sw.to].op = Math.min(1, p * 1.3); slots[sw.to].x = (1 - p) * 60;
-      if (p >= 1) { slots[sw.from].op = 0; }
+      if (t < sw.t0 || sw.done) continue;
+      const q = Math.min(1, (t - sw.t0) / 0.42), p = 1 - Math.pow(1 - q, 3);
+      slots[sw.to].z = sw.z; slots[sw.to].op = 1; slots[sw.to].x = (1 - p) * 390; slots[sw.to].dim = 0;
+      slots[sw.from].x = -p * 110; slots[sw.from].dim = 0.14 * p;
+      if (q >= 1) { Object.assign(slots[sw.from], { op: 0, x: 0, dim: 0 }); sw.done = true; }
     }
     const capIdx = CAPTIONS.reduce((acc, c, j) => (c[0] <= t ? j : acc), -1);
     const cur = capIdx >= 0 ? CAPTIONS[capIdx] : null, prev = capIdx > 0 ? CAPTIONS[capIdx - 1] : null;
