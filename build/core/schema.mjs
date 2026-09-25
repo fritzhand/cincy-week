@@ -83,6 +83,8 @@ export const SPECS = {
     logo: obj({ url: url(), format: en(["svg", "png", "jpg", "webp"]), on: en(["light", "dark"]) }),
     brand: obj({ colors: list({ t: "str" }), fonts: list(text()) }),
     maps: list(obj({ label: text(R), url: url(R), as_of: { t: "date" } })),   // the organizers' own published maps (BLINK's folding map)
+    // who takes part, as the organizers list them (Brand Fusion's confirmed brands); names verbatim, note = their sentence
+    participants: list(obj({ label: text(R), names: list(text(), R), note: text(), as_of: { t: "date" }, source_url: url(R) })),
     source_url: url(R),
   },
   events: {
@@ -125,7 +127,8 @@ export const SPECS = {
   },
   stays: {
     id: id(R), name: text(R), kind: en(STAY_KINDS), address: text(), hood: id(), lat: { t: "num" }, lng: { t: "num" }, url: url(),
-    room_block: obj({ program: en(PROGRAM_IDS, R), group_code: text(), rate: text(), dates: text(), deadline: text(), booking_url: url(), status: text() }),
+    // label: the program's own word when it is not a published block ("recommended hotel"); source_url: where the block is published
+    room_block: obj({ program: en(PROGRAM_IDS, R), label: text(), group_code: text(), rate: text(), dates: text(), deadline: text(), booking_url: url(), status: text(), source_url: url() }),
     booking_portal: obj({ program: en(PROGRAM_IDS, R), url: url(R), label: text() }),   // C: listed on a program's hotel portal (not a room block)
     source_url: url(R),
   },

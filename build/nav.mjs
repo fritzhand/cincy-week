@@ -13,7 +13,9 @@
 import { KIND_GROUP, EVENT_KINDS, PERSON_ROLES, MEDIUMS } from "./core/schema.mjs";
 import { BUCKETS } from "./core/time.mjs";
 
-/** Program pages, in sidebar order. `programs` = which program ids the page covers. */
+/** Program pages, in sidebar order. `programs` = which program ids the page covers. `festival: false` = a program that
+ *  is not one of the week's festivals (Brand Fusion, a two-day matchmaking event): it has a lane on the week line but
+ *  never counts toward the interchange or the home headline's "N festivals". */
 export const PROGRAM_PAGES = [
   { slug: "art-week", programs: ["caw"], label: "Cincinnati Art Week" },
   { slug: "startupcincy-week", programs: ["scw"], label: "StartupCincy Week" },
@@ -25,6 +27,7 @@ export const PROGRAM_PAGES = [
       { label: "Live entertainment", href: "schedule.html?p=blink&k=performance" },
     ],
   },
+  { slug: "brand-fusion", programs: ["brandfusion"], label: "Brand Fusion", festival: false },
   { slug: "fotofocus", programs: ["fotofocus", "also"], label: "FotoFocus & more" },
 ];
 

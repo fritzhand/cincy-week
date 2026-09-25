@@ -119,8 +119,10 @@ test("people: FotoFocus / also-only people meet the page policy", { skip }, () =
 
 test("stays: room blocks first; portals are BLINK's; news newest first with unique URLs", { skip }, () => {
   const stays = D("stays");
-  const firstPlain = stays.findIndex((s) => !s.room_block);
-  assert.ok(stays.slice(firstPlain).every((s) => !s.room_block), "room blocks come first");
+  // published blocks come first in the file; a labeled entry (Brand Fusion's "recommended hotel") stays where it was
+  const isBlock = (s) => s.room_block && !s.room_block.label;
+  const firstPlain = stays.findIndex((s) => !isBlock(s));
+  assert.ok(stays.slice(firstPlain).every((s) => !isBlock(s)), "room blocks come first");
   for (const s of stays) if (s.booking_portal) assert.equal(s.booking_portal.program, "blink");
   const news = D("news");
   assert.equal(new Set(news.map((n) => n.url)).size, news.length, "news URLs are unique");

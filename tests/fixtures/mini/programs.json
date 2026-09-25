@@ -405,6 +405,79 @@
     "source_url": "https://www.fotofocus.org/biennial/2026/"
   },
   {
+    "id": "brandfusion",
+    "slug": "brand-fusion",
+    "name": "Brand Fusion",
+    "short_name": null,
+    "tagline": "Where Fortune 500 and Emerging Brands Meet Game-Changing Startups",
+    "edition": "Powered by Markup AI",
+    "dates": {
+      "start": "2026-10-06",
+      "end": "2026-10-07"
+    },
+    "description": "Brand Fusion is a curated matchmaking event that connects Fortune 500 and Emerging brand leaders with innovative startups through structured 15-minute meetings.",
+    "organizers": [
+      {
+        "name": "Blue North",
+        "url": "https://bluenorthky.com/",
+        "org_id": null,
+        "role": "Co-host"
+      }
+    ],
+    "url": "https://brandfusioncincy.com/",
+    "hub_venue_id": null,
+    "tickets": [
+      {
+        "name": "Join for 2026",
+        "price": null,
+        "url": null,
+        "details": "Reach out to participate in this year's event",
+        "notes": null
+      },
+      {
+        "name": "Nominate Startups",
+        "price": null,
+        "url": "https://brandfusioncincy.com/submit-nominations",
+        "details": "Nominate a startup to be matched with brand challenges at Brand Fusion.",
+        "notes": null
+      }
+    ],
+    "daily_themes": [
+      {
+        "date": "2026-10-06",
+        "theme": "Welcome Dinner",
+        "highlights": []
+      },
+      {
+        "date": "2026-10-07",
+        "theme": "Matchmaking Sessions",
+        "highlights": []
+      }
+    ],
+    "hours": null,
+    "hashtags": [],
+    "contact": {
+      "email": "dave@bluenorthky.com",
+      "phone": null
+    },
+    "history": [],
+    "stats": [],
+    "participants": [
+      {
+        "label": "Participating brands",
+        "names": [
+          "ADM",
+          "Kroger",
+          "P&G - Old Spice"
+        ],
+        "note": "These brands are confirmed for Brand Fusion 2026.",
+        "as_of": "2026-09-25",
+        "source_url": "https://brandfusioncincy.com/submit-nominations"
+      }
+    ],
+    "source_url": "https://brandfusioncincy.com/"
+  },
+  {
     "id": "also",
     "slug": null,
     "name": "More happenings",

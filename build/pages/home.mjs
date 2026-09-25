@@ -26,15 +26,15 @@ export const HOME_FACTS = [
   "caw-stat-spaces-in-one-walkable-footprint-cincinnatiartweek",
 ];
 const WORDS = ["No", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"];
-const FEST = ["caw", "scw", "blink", "fotofocus", "also"];
+const FEST = ["caw", "scw", "blink", "fotofocus", "also", "brandfusion"];
 
 /** The lanes of the week line: one per program page, in sidebar order (A, S, B, F). */
 export function weekLanes(ctx) {
   const { db, c } = ctx;
-  return PROGRAM_PAGES.map((pp) => db.byId.program.get(pp.programs[0])).filter((p) => p && p.dates?.start && p.dates?.end).map((p) => {
+  return PROGRAM_PAGES.map((pp) => [pp, db.byId.program.get(pp.programs[0])]).filter(([, p]) => p && p.dates?.start && p.dates?.end).map(([pp, p]) => {
     const nightlyEv = (db.eventsByProgram.get(p.id) || []).find((e) => e.end_date && e.start && e.start >= "17:00");
     return {
-      id: p.id, name: c.progName(p.id), short: c.progName(p.id, true), start: p.dates.start, end: p.dates.end,
+      id: p.id, name: c.progName(p.id), short: c.progName(p.id, true), start: p.dates.start, end: p.dates.end, festival: pp.festival !== false,
       nightly: !!nightlyEv, hours: nightlyEv ? [nightlyEv.start, nightlyEv.end] : null,
       themes: Object.fromEntries((p.daily_themes || []).filter((t) => t.date && t.theme).map((t) => [t.date, t.theme])),
     };
@@ -47,8 +47,9 @@ export function pages(ctx) {
   const P = db.byId.program;
   const week = db.week, W0 = config.week.start, W1 = config.week.end;
   const lanes = weekLanes(ctx);
-  const ix = interchangeDays(lanes, week, W0, W1);
-  const solid = lanes.filter((l) => !(l.start < W0 && l.end > W1));
+  // the interchange and "N festivals" count the festivals only (not Brand Fusion's two days)
+  const ix = interchangeDays(lanes.filter((l) => l.festival), week, W0, W1);
+  const solid = lanes.filter((l) => l.festival && !(l.start < W0 && l.end > W1));
   const shown = (e) => e.live;
   // the day's count, as The Week's day tabs count it: live sessions, not the multi-day runs
   const ongoingIds = new Set(db.events.filter((e) => e.instances.length && e.instances.every((x) => x.ongoing)).map((e) => e.id));
@@ -74,7 +75,8 @@ ${news.map((n) => h.extLink(n.url, `${(n.programs || [])[0] ? bullet(n.programs[
   const days = week.map((d) => {
     const isX = ix.includes(d);
     const f = featuredOn(d);
-    const parts = daySummary({ date: d, lanes, weekStart: W0, weekEnd: W1, interchange: isX, featured: f ? f.ev.title : null, count: dayCount(d) });
+    // the summary tells the festivals' news (Brand Fusion's two days keep their lane but not the headline)
+    const parts = daySummary({ date: d, lanes: lanes.filter((l) => l.festival), weekStart: W0, weekEnd: W1, interchange: isX, featured: f ? f.ev.title : null, count: dayCount(d) });
     const sum = parts.map((p) => (p.b ? `<b>${esc(p.t)}</b>` : esc(p.t))).join(" · ");
     const laneHtml = lanes.map((l) => {
       const run = laneRun(l, d, W0, W1);
@@ -163,7 +165,9 @@ ${news.length ? `<div class="nn-group"><p class="nn-label label">Latest news</p>
     const quote = sentence ? `“${h.truncate(sentence, 190)}”` : "";
     const people = new Set(pp.programs.flatMap((id) => db.people.filter((x) => x.programs.includes(id)).map((x) => x.id)));
     const works = db.works.filter((w) => pp.programs.includes(w.program)).length;
-    const inGuide = [h.plural(evs.length, "event"), works ? h.plural(works, "work") : "", h.plural(people.size, "person", "people"), h.plural(venueIds.size, "venue")].filter(Boolean).join(" · ");
+    // counts that are zero are left out (Brand Fusion lists no people); a participants list counts as its own label
+    const takePart = pp.programs.flatMap((id) => db.byId.program.get(id)?.participants || []).map((g) => `${g.names.length} ${g.label.toLowerCase()}`);
+    const inGuide = [h.plural(evs.length, "event"), works ? h.plural(works, "work") : "", people.size ? h.plural(people.size, "person", "people") : "", ...takePart, h.plural(venueIds.size, "venue")].filter(Boolean).join(" · ");
     const org = (p.organizers || []).map((o) => o.name).filter(Boolean);
     return `<article class="prog-card" data-prog="${p.id}">
 <p class="pk label tnum">${bullet(p.id, "lg")}<span>${esc(h.fmtDateRange(p.dates.start, p.dates.end))}${where ? ` · <span class="nw">${esc(where)}</span>` : ""}</span></p>

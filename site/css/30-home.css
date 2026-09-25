@@ -218,7 +218,7 @@
 }
 
 /* ---------- program cards ("section fronts") ---------- */
-.prog-cards { display: grid; gap: var(--sp-4); grid-template-columns: repeat(auto-fill, minmax(min(100%, 250px), 1fr)); }
+.prog-cards { display: grid; gap: var(--sp-4); grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); }   /* five programs: 3 + 2 on a desktop */
 .prog-card { position: relative; display: flex; flex-direction: column; padding: var(--sp-4) var(--sp-4) var(--sp-3); background: var(--surface); border: 1px solid var(--border); border-top: var(--rule-heavy) solid var(--ink-fill); }
 .prog-card:has(.stretched:hover) { border-color: var(--border-strong); border-top-color: var(--ink-fill); }
 [data-prog="fotofocus"].prog-card { border-top-color: var(--ink-edge); }

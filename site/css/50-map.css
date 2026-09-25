@@ -58,6 +58,7 @@ button.pin-venue:hover > span { background: var(--primary); color: var(--primary
 .pin-work { --pshape: var(--shape-diamond); }
 .pin-work[data-prog="caw"] { --pshape: var(--shape-square); }
 .pin-work[data-prog="scw"] { --pshape: var(--shape-circle); }
+.pin-work[data-prog="brandfusion"] { --pshape: var(--shape-octagon); }
 .pin-work[data-prog="fotofocus"], .pin-work[data-prog="also"] { --pshape: var(--shape-hexagon); }
 .pin-work > span { position: relative; width: 20px; height: 20px; background: var(--map-pin-bg); clip-path: var(--pshape); }
 .pin-work > span::after { content: ""; position: absolute; inset: 3px; background: var(--ink-fill); clip-path: var(--pshape); }
@@ -84,11 +85,11 @@ button.pin-facility:hover > span, .pin-facility[aria-pressed="true"] > span { ba
   content: ""; position: absolute; inset: 4px; border-radius: 50%; border: 3px solid var(--live);
   animation: cw-pulse var(--pulse) var(--ease-out) infinite; pointer-events: none;
 }
-.pin-cluster > span {                                /* count on a ring split by program share (--a --s --b --f, --o = no program) */
-  --tot: calc(var(--a, 0) + var(--s, 0) + var(--b, 0) + var(--f, 0) + var(--o, 0));
-  --pa: calc(var(--a, 0) / var(--tot) * 100%); --ps: calc(var(--pa) + var(--s, 0) / var(--tot) * 100%); --pb: calc(var(--ps) + var(--b, 0) / var(--tot) * 100%); --pf: calc(var(--pb) + var(--f, 0) / var(--tot) * 100%);
+.pin-cluster > span {                                /* count on a ring split by program share (--a --s --b --x --f, --o = no program; x = Brand Fusion) */
+  --tot: calc(var(--a, 0) + var(--s, 0) + var(--b, 0) + var(--x, 0) + var(--f, 0) + var(--o, 0));
+  --pa: calc(var(--a, 0) / var(--tot) * 100%); --ps: calc(var(--pa) + var(--s, 0) / var(--tot) * 100%); --pb: calc(var(--ps) + var(--b, 0) / var(--tot) * 100%); --px: calc(var(--pb) + var(--x, 0) / var(--tot) * 100%); --pf: calc(var(--px) + var(--f, 0) / var(--tot) * 100%);
   display: grid; place-items: center; width: 38px; height: 38px; border-radius: 50%; border: 5px solid transparent; color: var(--primary-contrast);
-  --ring: conic-gradient(var(--prog-caw) 0 var(--pa), var(--prog-scw) 0 var(--ps), var(--prog-blink) 0 var(--pb), var(--prog-fotofocus-edge) 0 var(--pf), var(--border-strong) 0 100%);
+  --ring: conic-gradient(var(--prog-caw) 0 var(--pa), var(--prog-scw) 0 var(--ps), var(--prog-blink) 0 var(--pb), var(--prog-brandfusion) 0 var(--px), var(--prog-fotofocus-edge) 0 var(--pf), var(--border-strong) 0 100%);
   background: linear-gradient(var(--primary), var(--primary)) padding-box, var(--ring) border-box;
   font-size: var(--fs-label); font-weight: 750; font-variant-numeric: tabular-nums; box-shadow: var(--shadow-1);
 }

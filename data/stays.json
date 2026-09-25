@@ -608,14 +608,24 @@
     "lat": 39.083713,
     "lng": -84.509713,
     "url": "https://hotelcovington.com/",
-    "room_block": null,
+    "room_block": {
+      "program": "brandfusion",
+      "label": "recommended hotel",
+      "group_code": null,
+      "rate": null,
+      "dates": null,
+      "deadline": null,
+      "booking_url": "https://res.windsurfercrs.com/ibe/details.aspx?propertyid=14389&rate=BLUEN&lang=en-us&nights=1",
+      "status": "Booking link published on the organizers' Know Before You Go page (checked Sep 25, 2026)",
+      "source_url": "https://brandfusioncincy.com/know-before-you-go"
+    },
     "booking_portal": {
       "program": "blink",
       "url": "https://reservations.visitcincy.com/hotel/single/24882/53294?Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfAdults%5D=1&Search%5BroomOccupancies%5D%5B0%5D%5BnumberOfChildren%5D=0&Search%5BhotelRegion%5D=m2440&Search%5BlocationSearch%5D=Cincinnati,%20Ohio",
       "label": "Visit Cincy BLINK 2026 hotel booking portal"
     },
     "source_url": "https://www.visitcincy.com/listing/hotel-covington/5771/",
-    "notes": "Also listed on the Visit Cincy \"Blink 2026\" hotel booking portal linked from BLINK's Plan Your Visit page (as \"Hotel Covington Cincinnati Riverfront\"; portal shows no group code or discounted rate). Nominatim and Visit Cincy coordinates differ by 3419 m; checked by hand and kept Nominatim. Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order."
+    "notes": "Also listed on the Visit Cincy \"Blink 2026\" hotel booking portal linked from BLINK's Plan Your Visit page (as \"Hotel Covington Cincinnati Riverfront\"; portal shows no group code or discounted rate). Nominatim and Visit Cincy coordinates differ by 3419 m; checked by hand and kept Nominatim. Listed on the Visit Cincy \"Blink 2026\" hotel booking portal (aRes Travel), linked from BLINK's Plan Your Visit page as \"Hotel Bookings\". The portal shows no rates until dates are entered and publishes no group code or booking deadline, so this is a booking portal, not a confirmed discounted room block. Portal order = \"Featured Picks\" order. Brand Fusion's \"Recommended Hotel\" (Know Before You Go, 2026-09-25): \"Walkable to the Welcome Dinner at SparkHaus and about five minutes from TQL Stadium. Use our booking link below to reserve a room.\" The link carries the rate code BLUEN; no rate, dates or deadline are published, so the guide calls it a recommended hotel, not a room block."
   },
   {
     "id": "north-by-hotel-covington",

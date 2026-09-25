@@ -1,0 +1,374 @@
+{
+  "read": "2026-09-25",
+  "pages": [
+    "https://brandfusioncincy.com/",
+    "https://brandfusioncincy.com/know-before-you-go",
+    "https://brandfusioncincy.com/submit-challenges",
+    "https://brandfusioncincy.com/submit-nominations"
+  ],
+  "robots_disallowed_not_read": [
+    "/api/",
+    "/dashboard",
+    "/brands",
+    "/challenges",
+    "/nominations",
+    "/schedule",
+    "/operations",
+    "/attendees"
+  ],
+  "about": [
+    "Brand Fusion is a curated matchmaking event that connects Fortune 500 and Emerging brand leaders with innovative startups through structured 15-minute meetings. Since 2012, we've brought together the brightest minds in brand innovation and startup technology to forge partnerships that drive real business results.",
+    "Brands submit their toughest business challenges. Venture capitalists and accelerators nominate their most relevant startups. Our team personally curates each pairing, drawing on deep knowledge of both sides to create a full day of high-impact meetings."
+  ],
+  "tagline": "Where Fortune 500 and Emerging Brands Meet Game-Changing Startups",
+  "for_brands": "Submit your business challenges and meet pre-vetted startups hand-picked to solve them. Discover cutting-edge technology, explore partnerships, and stay ahead of the innovation curve — all in one day.",
+  "for_startups": "Get face-to-face with decision-makers from the world's biggest brands. Each 15-minute meeting is a chance to demo your solution, build relationships, and close deals with companies that can transform your growth trajectory.",
+  "stats": [
+    {
+      "label": "Years of Innovation",
+      "value": "10+",
+      "source_url": "https://brandfusioncincy.com/"
+    },
+    {
+      "label": "Meetings Held",
+      "value": "3,754+",
+      "source_url": "https://brandfusioncincy.com/"
+    },
+    {
+      "label": "Brands Participated",
+      "value": "301+",
+      "source_url": "https://brandfusioncincy.com/"
+    },
+    {
+      "label": "Startups Showcased",
+      "value": "494+",
+      "source_url": "https://brandfusioncincy.com/"
+    }
+  ],
+  "agenda": [
+    {
+      "date": "2026-10-06",
+      "start": "17:00",
+      "end": null,
+      "title": "Welcome Drinks",
+      "kind": "networking",
+      "venue_id": "sparkhaus",
+      "room": null,
+      "sponsor_org_id": "big-happy"
+    },
+    {
+      "date": "2026-10-06",
+      "start": "18:00",
+      "end": null,
+      "title": "Dinner",
+      "kind": "networking",
+      "venue_id": "sparkhaus",
+      "room": null,
+      "sponsor_org_id": "air"
+    },
+    {
+      "date": "2026-10-06",
+      "start": "18:00",
+      "end": null,
+      "title": "Bourbon Tasting",
+      "kind": "networking",
+      "venue_id": "sparkhaus",
+      "room": null,
+      "sponsor_org_id": "gumloop"
+    },
+    {
+      "date": "2026-10-06",
+      "start": "19:00",
+      "end": null,
+      "title": "Desserts",
+      "kind": "networking",
+      "venue_id": "sparkhaus",
+      "room": null,
+      "sponsor_org_id": "outward-intelligence"
+    },
+    {
+      "date": "2026-10-07",
+      "start": "07:30",
+      "end": null,
+      "title": "Registration Begins",
+      "kind": "other",
+      "venue_id": "tql-stadium",
+      "room": null,
+      "sponsor_org_id": "limy-ai"
+    },
+    {
+      "date": "2026-10-07",
+      "start": "07:30",
+      "end": null,
+      "title": "Breakfast in Tunnel Club",
+      "kind": "networking",
+      "venue_id": "tql-stadium",
+      "room": "Tunnel Club",
+      "sponsor_org_id": "glimpse"
+    },
+    {
+      "date": "2026-10-07",
+      "start": "08:15",
+      "end": null,
+      "title": "Welcome & Kickoff in Tunnel Club",
+      "kind": "other",
+      "venue_id": "tql-stadium",
+      "room": "Tunnel Club",
+      "sponsor_org_id": "markup-ai"
+    },
+    {
+      "date": "2026-10-07",
+      "start": "08:40",
+      "end": "12:45",
+      "title": "Brand & Startup Meetings in Suites",
+      "kind": "networking",
+      "venue_id": "tql-stadium",
+      "room": "Suites",
+      "sponsor_org_id": null
+    },
+    {
+      "date": "2026-10-07",
+      "start": "08:40",
+      "end": "12:45",
+      "title": "Startup Lounge",
+      "kind": "networking",
+      "venue_id": "tql-stadium",
+      "room": null,
+      "sponsor_org_id": "fidelity-private-shares"
+    },
+    {
+      "date": "2026-10-07",
+      "start": "10:35",
+      "end": "10:50",
+      "title": "Snack Break",
+      "kind": "other",
+      "venue_id": "tql-stadium",
+      "room": null,
+      "sponsor_org_id": "kana"
+    },
+    {
+      "date": "2026-10-07",
+      "start": "12:45",
+      "end": "14:00",
+      "title": "Closing Lunch in Tunnel Club",
+      "kind": "networking",
+      "venue_id": "tql-stadium",
+      "room": "Tunnel Club",
+      "sponsor_org_id": "brand-innovators"
+    }
+  ],
+  "sponsors": [
+    {
+      "org_id": "markup-ai",
+      "name": "Markup AI",
+      "tier": "Brand Fusion Powered By Sponsor",
+      "logo": "920eb9e7-abf7-4f13-91ab-51f052d6b8b6/logo_full_color.png"
+    },
+    {
+      "org_id": "air",
+      "name": "Air",
+      "tier": "Welcome Dinner Title Sponsor",
+      "logo": "cf4999ec-4d27-4c0c-9d3b-e25500eb58d2/logo_full_color.png"
+    },
+    {
+      "org_id": "fidelity-private-shares",
+      "name": "Fidelity Private Shares",
+      "tier": "Startup Lounge Sponsor",
+      "logo": "b76da676-1c6e-4c40-b5c1-c5483a010ca3/logo_full_color.png"
+    },
+    {
+      "org_id": "glimpse",
+      "name": "Glimpse",
+      "tier": "Breakfast Title Sponsor",
+      "logo": "b0eeeef9-8e06-4dfd-be0a-2d791317f1fc/logo_full_color.png"
+    },
+    {
+      "org_id": "brand-innovators",
+      "name": "Brand Innovators",
+      "tier": "Luncheon Title Sponsor",
+      "logo": "d0a1df60-4e6c-4b81-bf1a-1e466b86fac9/logo_full_color.jpg"
+    },
+    {
+      "org_id": "limy-ai",
+      "name": "Limy AI",
+      "tier": "Gift Bag Sponsor · Lanyard Sponsor",
+      "logo": "b53ab481-25e2-4d02-bac7-8b917cf73fa5/logo_full_color.png"
+    },
+    {
+      "org_id": "big-happy",
+      "name": "Big Happy",
+      "tier": "Welcome Dinner Drinks Sponsor",
+      "logo": "434e7ada-31e0-46bb-af58-abb8e6d4cd06/logo_full_color.png"
+    },
+    {
+      "org_id": "outward-intelligence",
+      "name": "Outward Intelligence",
+      "tier": "Welcome Dinner Dessert Sponsor",
+      "logo": "458c995a-324a-4029-a89d-5d36474df584/logo_full_color.png"
+    },
+    {
+      "org_id": "gumloop",
+      "name": "Gumloop",
+      "tier": "Welcome Bourbon Tasting",
+      "logo": "efb9f7ed-d018-49f1-a9da-fce4bb4db918/logo_full_color.jpg"
+    },
+    {
+      "org_id": "kana",
+      "name": "Kana",
+      "tier": "Snack & Refreshments Sponsor",
+      "logo": "777863bf-ccae-40a8-a77d-7fc09b35b8e0/logo_full_color.png"
+    },
+    {
+      "org_id": "trellis",
+      "name": "Trellis",
+      "tier": "Coffee Sponsors",
+      "logo": "7916de6d-e388-455d-88c2-18b7838f38be/logo_full_color.svg"
+    }
+  ],
+  "co_hosts": [
+    "Blue North",
+    "Stepstone",
+    "Cintrifuse Capital"
+  ],
+  "faqs": [
+    {
+      "topic": "Event Overview",
+      "q": "What is Brand Fusion?",
+      "a": "Brand Fusion is a curated matchmaking event that connects Fortune 500 and Emerging brand leaders with innovative startups through structured 15-minute meetings. Our team personally curates each pairing, drawing on deep knowledge of both sides to create a full day of high-impact meetings."
+    },
+    {
+      "topic": "Event Overview",
+      "q": "When is Brand Fusion 2026 Powered by Markup AI?",
+      "a": "Brand Fusion 2026 Powered by Markup AI takes place over two days: a Welcome Dinner on Tuesday, October 6, and a full Matchmaking Day on Wednesday, October 7, 2026."
+    },
+    {
+      "topic": "Event Overview",
+      "q": "Who should attend?",
+      "a": "Brand Fusion is designed for brand-side marketing and innovation leaders, startup founders and executives, and venture capitalists / accelerator partners who nominate startups."
+    },
+    {
+      "topic": "Venues & Locations",
+      "q": "Where is the Welcome Dinner (Day 1)?",
+      "a": "The Welcome Dinner is held at SparkHaus, 727 Madison Ave, Covington, KY. It's walkable from Hotel Covington."
+    },
+    {
+      "topic": "Venues & Locations",
+      "q": "Where is Matchmaking Day (Day 2)?",
+      "a": "Matchmaking Day takes place at TQL Stadium, 1508 John St, Cincinnati, OH. Brand-startup meetings are held in the stadium's private suites, with meals and kickoff in the Tunnel Club."
+    },
+    {
+      "topic": "Venues & Locations",
+      "q": "How far apart are the venues?",
+      "a": "SparkHaus and TQL Stadium are both within a short drive of Hotel Covington. SparkHaus is walkable from the hotel. TQL Stadium is approximately a 5-minute drive across the river."
+    },
+    {
+      "topic": "Schedule & Format",
+      "q": "What happens at the Welcome Dinner?",
+      "a": "The Welcome Dinner on Tuesday evening is an opportunity to meet fellow attendees in a relaxed setting. It includes cocktails starting at 5 PM, dinner at 6 PM, a bourbon tasting, and desserts at 7 PM."
+    },
+    {
+      "topic": "Schedule & Format",
+      "q": "How does Matchmaking Day work?",
+      "a": "You'll receive a personalized meeting schedule before the event. On Wednesday, you'll have back-to-back 15-minute meetings in private suites at TQL Stadium from 8:40 AM to 12:45 PM, with a snack break mid-morning. The day starts with breakfast and a kickoff at 7:30 AM and ends with a closing lunch."
+    },
+    {
+      "topic": "Schedule & Format",
+      "q": "How long are the meetings?",
+      "a": "Each brand-startup meeting is 15 minutes. Brands stay in their assigned suite while startups rotate between suites throughout the day."
+    },
+    {
+      "topic": "Schedule & Format",
+      "q": "Will I know my schedule in advance?",
+      "a": "Yes. Your personalized meeting schedule will be shared before the event so you can prepare for each meeting."
+    },
+    {
+      "topic": "Travel & Accommodations",
+      "q": "What is the recommended hotel?",
+      "a": "Hotel Covington, 638 Madison Avenue, Covington, KY 41011. Walkable to the Welcome Dinner at SparkHaus and about five minutes from TQL Stadium. Use our booking link below to reserve a room."
+    },
+    {
+      "topic": "Travel & Accommodations",
+      "q": "What airport should I fly into?",
+      "a": "Cincinnati/Northern Kentucky International Airport (CVG) is approximately 15 minutes from Hotel Covington and the event venues."
+    },
+    {
+      "topic": "Travel & Accommodations",
+      "q": "Is parking available?",
+      "a": "Parking information for both SparkHaus and TQL Stadium will be shared closer to the event. Both venues have nearby parking options."
+    },
+    {
+      "topic": "What to Expect",
+      "q": "What should I wear?",
+      "a": "Business casual is the recommended dress code for both the Welcome Dinner and Matchmaking Day. Comfortable shoes are recommended as you'll be moving between suites."
+    },
+    {
+      "topic": "What to Expect",
+      "q": "Should I bring materials or a presentation?",
+      "a": "Startups: We recommend a brief pitch or demo that fits within the 15-minute meeting window. Keep it conversational rather than a formal presentation. Brands: Come prepared to discuss your challenges and what solutions you're looking for."
+    },
+    {
+      "topic": "What to Expect",
+      "q": "Will meals be provided?",
+      "a": "Yes. The Welcome Dinner on Day 1 and breakfast plus a closing lunch on Day 2 are all included."
+    },
+    {
+      "topic": "What to Expect",
+      "q": "Is there Wi-Fi at the venues?",
+      "a": "Yes, Wi-Fi is available at both venues. Details will be provided on-site."
+    },
+    {
+      "topic": "Contact & Support",
+      "q": "Who do I contact with questions?",
+      "a": "Reach out to the Brand Fusion team at dave@bluenorthky.com for any questions about the event, logistics, or your schedule."
+    },
+    {
+      "topic": "Contact & Support",
+      "q": "What if I need to cancel or change my attendance?",
+      "a": "Please contact us as soon as possible at dave@bluenorthky.com so we can adjust the meeting schedule accordingly."
+    }
+  ],
+  "participating_brands": {
+    "note": "These brands are confirmed for Brand Fusion 2026. Their challenges are listed below — nominate the startups that fit them best.",
+    "names": [
+      "84.51°/PearlRock",
+      "ADM",
+      "Atlas World Group",
+      "Brown Forman - Emerging",
+      "Brown Forman - RTD",
+      "Brown Forman - Woodford",
+      "Burlington",
+      "Carbone",
+      "Cincinnati Financial",
+      "CVG",
+      "Elanco",
+      "Eli Lilly",
+      "FC Cincinnati",
+      "Ferguson",
+      "Fidelity",
+      "Fifth Third Bank",
+      "Fischer Homes",
+      "Ford",
+      "Glow Brands",
+      "Gopuff",
+      "Gorilla Glue",
+      "Graeters",
+      "Great American",
+      "Indiana Pacers",
+      "Kimberly Clark",
+      "Kroger",
+      "Marriott",
+      "Mastercard",
+      "Moonbrew",
+      "New Riff Distilling",
+      "NVA - National Veterinary Associates",
+      "P&G - Old Spice",
+      "P&G - PHC",
+      "P&G - Tide Services",
+      "Scotts Miracle-Gro",
+      "St Elizabeth",
+      "The Farmer's Dog",
+      "VOSS Water",
+      "Wondercide"
+    ]
+  }
+}

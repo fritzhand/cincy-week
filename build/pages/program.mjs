@@ -11,6 +11,8 @@
      schedule" deep link), people by role, works, venues (a static map of the program's stall
      numbers + venue rows), sponsors by tier, the program's FAQs, news and sources. JSON-LD Festival.
    Honest gaps: a program whose schedule comes from a draft page (tag draft-schedule) says so.
+   A program that sells no tickets (no prices: Brand Fusion) gets "How to take part" instead of "Tickets and passes", and
+   programs[].participants (the organizers' list of who takes part) becomes a names section.
    ============================================================ */
 import { PROGRAM_PAGES } from "../nav.mjs";
 import { ROLE_LABEL, FACILITY_KINDS, FACILITY_LABEL, FACILITY_ICON } from "../core/schema.mjs";
@@ -71,7 +73,7 @@ export function pages(ctx) {
     const RW = 360, upx = w / RW, R = 38;   // R = the cluster disc's width
     const groups = cluster(pts.map(([v, x, y]) => ({ v, x: (x - x0) / upx, y: (y - y0) / upx })), R);
     const pos = (gx, gy) => `left: clamp(17px, ${((gx / RW) * 100).toFixed(2)}%, calc(100% - 17px)); top: clamp(17px, ${((gy / (hh / upx)) * 100).toFixed(2)}%, calc(100% - 17px))`;
-    const share = { caw: "a", scw: "s", blink: "b", fotofocus: "f", also: "f" }[prog] || "o";
+    const share = { caw: "a", scw: "s", blink: "b", brandfusion: "x", fotofocus: "f", also: "f" }[prog] || "o";
     const pins = groups.map((g) => (g.members.length === 1
       ? `<span class="pin pin-venue" data-prog="${prog}" style="${pos(g.x, g.y)}"><span>${g.members[0].v.stall}</span></span>`
       : `<span class="pin pin-cluster" style="${pos(g.x, g.y)}; --${share}: ${g.members.length}"><span>${g.members.length}</span></span>`)).join("");
@@ -107,11 +109,13 @@ export function pages(ctx) {
     /* ---------- facts ---------- */
     const social = SOCIAL.map(([k, l]) => (p.social?.[k] ? h.extLink(p.social[k], esc(l)) : "")).filter(Boolean).join(" · ");
     const firstTicket = (p.tickets || [])[0];
+    // a program that sells no tickets (Brand Fusion: brands submit challenges, investors nominate startups) lists its ways in
+    const noPrices = (p.tickets || []).length > 0 && p.tickets.every((t) => !t.price);
     const factRows = (root) => [
       ["Dates", esc(`${dateLine}, ${p.dates.start.slice(0, 4)}`)],
       ["Hours", p.hours ? esc(p.hours) : nightly ? esc(`Nightly, ${h.fmtRange(nightly.start, nightly.end)}`) : null],
       ["Where", hub ? `<a href="${root}venues/${attr(hub.id)}.html">${esc(hub.name)}</a>${hub.address && !hub.name.includes(hub.address.split(",")[0]) ? `, ${esc(hub.address)}` : ""}` : venues.length ? `<a href="${root}venues.html?p=${pid}">${esc(h.plural(venues.length, "venue"))}</a>` : null],
-      ["Admission", firstTicket ? `${esc(firstTicket.price || "Price not listed")}${firstTicket.name ? ` <span class="faint">(${esc(firstTicket.name)})</span>` : ""}${p.tickets.length > 1 ? ` · <a href="#tickets">${esc(h.plural(p.tickets.length, "ticket or pass", "tickets and passes"))}</a>` : ""}` : null],
+      ["Admission", noPrices ? `No public tickets listed · <a href="#tickets">${esc(h.plural(p.tickets.length, "way to take part", "ways to take part"))}</a>` : firstTicket ? `${esc(firstTicket.price || "Price not listed")}${firstTicket.name ? ` <span class="faint">(${esc(firstTicket.name)})</span>` : ""}${p.tickets.length > 1 ? ` · <a href="#tickets">${esc(h.plural(p.tickets.length, "ticket or pass", "tickets and passes"))}</a>` : ""}` : null],
       ["Organizers", (p.organizers || []).length ? p.organizers.map((o) => `${o.url ? h.extLink(o.url, esc(o.name)) : esc(o.name)}${o.role ? ` <span class="faint">(${esc(o.role)})</span>` : ""}`).join("; ") : null],
       ["Hashtags", (p.hashtags || []).length ? esc(p.hashtags.join(" ")) : null],
       ["Social", social || null],
@@ -125,7 +129,8 @@ export function pages(ctx) {
     const secs = [];
     const add = (id, label, fn) => { toc.push([id, label]); secs.push(fn); };
 
-    if ((p.tickets || []).length > 1) add("tickets", "Tickets and passes", (root) => c.section({ id: "tickets", title: "Tickets and passes", anchor: true, body: `<div class="table-wrap"><table class="data prog-tickets"><thead><tr><th scope="col">Ticket or pass</th><th scope="col">Price</th><th scope="col">Details</th></tr></thead><tbody>${p.tickets.map((t) => `<tr><th scope="row" data-label="Ticket">${t.url ? h.extLink(t.url, esc(t.name)) : esc(t.name)}</th><td data-label="Price" class="tnum">${t.price ? esc(t.price) : '<span class="unk">Price not listed</span>'}</td><td data-label="Details">${t.details ? esc(t.details) : ""}</td></tr>`).join("")}</tbody></table></div>${c.sourceLine(p.tickets.map((t) => t.url))}` }));
+    if (noPrices) add("tickets", "How to take part", (root) => c.section({ id: "tickets", title: "How to take part", anchor: true, body: `<div class="table-wrap"><table class="data prog-tickets"><thead><tr><th scope="col">How</th><th scope="col">Details</th></tr></thead><tbody>${p.tickets.map((t) => `<tr><th scope="row" data-label="How">${t.url ? h.extLink(t.url, esc(t.name)) : esc(t.name)}</th><td data-label="Details">${t.details ? esc(t.details) : ""}</td></tr>`).join("")}</tbody></table></div>${p.contact?.email ? `<p class="prog-more">Questions go to <a href="mailto:${attr(p.contact.email)}">${esc(p.contact.email)}</a>, the address the organizers give.</p>` : ""}${c.sourceLine([...new Set([p.source_url, ...p.tickets.map((t) => t.url)].filter(Boolean))], { note: "In the organizers' words." })}` }));
+    else if ((p.tickets || []).length > 1) add("tickets", "Tickets and passes", (root) => c.section({ id: "tickets", title: "Tickets and passes", anchor: true, body: `<div class="table-wrap"><table class="data prog-tickets"><thead><tr><th scope="col">Ticket or pass</th><th scope="col">Price</th><th scope="col">Details</th></tr></thead><tbody>${p.tickets.map((t) => `<tr><th scope="row" data-label="Ticket">${t.url ? h.extLink(t.url, esc(t.name)) : esc(t.name)}</th><td data-label="Price" class="tnum">${t.price ? esc(t.price) : '<span class="unk">Price not listed</span>'}</td><td data-label="Details">${t.details ? esc(t.details) : ""}</td></tr>`).join("")}</tbody></table></div>${c.sourceLine(p.tickets.map((t) => t.url))}` }));
 
     const themes = progs.flatMap((x) => (x.daily_themes || []).map((t) => ({ ...t, prog: x.id }))).filter((t) => t.date && t.theme);
     if (themes.length) add("days", "Day by day", () => c.section({ id: "days", title: "Day by day", anchor: true, body: `<ol class="themes">${h.sortBy(themes, (t) => t.date).map((t) => `<li><time datetime="${t.date}">${esc(h.fmtDate(t.date))}<small>${esc(h.fmtDay(t.date).split(",")[0])}</small></time><div><b>${esc(t.theme)}</b>${t.highlights?.length ? `<p>${esc(t.highlights.join(" · "))}</p>` : ""}</div></li>`).join("")}</ol>${c.sourceLine([p.source_url], { note: "Themes as the organizers publish them." })}` }));
@@ -159,6 +164,12 @@ export function pages(ctx) {
         : c.emptyState({ title: "No events listed yet", body: "Events appear here as the organizers publish them.", glyph: "calendar", prog: pid });
       return c.section({ id: "schedule", title: "Schedule", kicker: `${h.plural(events.length, "event")} · times in Eastern Time`, anchor: true, more: { href: `schedule.html?p=${q}`, label: "Full schedule" }, root, body: `${draftNote}${body}` });
     });
+
+    // who takes part, as the organizers list them (Brand Fusion's confirmed brands): names only, verbatim, with the date read
+    for (const [i, g] of (p.participants || []).entries()) {
+      const pid2 = `participants${i ? `-${i + 1}` : ""}`;
+      add(pid2, g.label, () => c.section({ id: pid2, title: g.label, kicker: `${g.names.length}${g.as_of ? ` · as listed ${h.fmtDate(g.as_of)}` : ""}`, anchor: true, body: `${g.note ? `<p class="prog-map-lede">“${esc(g.note)}”</p>` : ""}<ul class="prog-names">${g.names.map((n) => `<li>${esc(n)}</li>`).join("")}</ul>${c.sourceLine([g.source_url])}` }));
+    }
 
     if (people.length) add("people", "People", (root) => {
       const roleCount = new Map();
@@ -257,6 +268,7 @@ ${facHtml ? `<h3 class="prog-sub">Facilities on the map</h3><div class="prog-fac
     for (const x of people) note(x.source_url);
     for (const w of works) note(w.source_url);
     for (const f of faqs) note(f.source_url);
+    for (const g of p.participants || []) note(g.source_url);
     for (const o of orgs) note(o.org.source_url);
     const sources = [...srcHosts].sort((a, b) => b[1].n - a[1].n);
 
@@ -292,6 +304,7 @@ export function search(ctx) {
   const { db, h } = ctx;
   return PROGRAM_PAGES.map((pp) => {
     const p = db.byId.program.get(pp.programs[0]);
-    return p ? { k: "pr", id: pp.slug, t: pp.label, s: h.fmtDateRange(p.dates.start, p.dates.end), u: `${pp.slug}.html`, p: p.id, g: [p.name, p.short_name, p.tagline].filter(Boolean).join(" ") } : null;
+    // participants' names are searchable ("Kroger" finds Brand Fusion)
+    return p ? { k: "pr", id: pp.slug, t: pp.label, s: h.fmtDateRange(p.dates.start, p.dates.end), u: `${pp.slug}.html`, p: p.id, g: [p.name, p.short_name, p.tagline, ...(p.participants || []).flatMap((g) => g.names)].filter(Boolean).join(" ") } : null;
   }).filter(Boolean);
 }

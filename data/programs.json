@@ -1475,5 +1475,170 @@
     "brand": null,
     "source_url": "https://artswave.org/what-is-artswave/the-artswave-app/",
     "notes": "Umbrella for other verifiable happenings in Cincinnati/Northern Kentucky during Oct 3-11, 2026 (plus the Oct 2-4 Cincy Bookstore Crawl, which overlaps it) (museum exhibitions and programs, performing arts, Findlay Market, festivals, pro sports). Each event carries its own source_url; only items whose official page states a 2026 date (or an unambiguous current-season date) are included. See REPORT.md for what was checked and found to have nothing in the window."
+  },
+  {
+    "id": "brandfusion",
+    "slug": "brand-fusion",
+    "name": "Brand Fusion",
+    "short_name": null,
+    "tagline": "Where Fortune 500 and Emerging Brands Meet Game-Changing Startups",
+    "edition": "Powered by Markup AI",
+    "dates": {
+      "start": "2026-10-06",
+      "end": "2026-10-07"
+    },
+    "description": "Brand Fusion is a curated matchmaking event that connects Fortune 500 and Emerging brand leaders with innovative startups through structured 15-minute meetings. Since 2012, we've brought together the brightest minds in brand innovation and startup technology to forge partnerships that drive real business results.\n\nBrands submit their toughest business challenges. Venture capitalists and accelerators nominate their most relevant startups. Our team personally curates each pairing, drawing on deep knowledge of both sides to create a full day of high-impact meetings.",
+    "organizers": [
+      {
+        "name": "Blue North",
+        "url": "https://bluenorthky.com/",
+        "org_id": "blue-north",
+        "role": "Co-host"
+      },
+      {
+        "name": "Stepstone",
+        "url": null,
+        "org_id": "stepstone",
+        "role": "Co-host"
+      },
+      {
+        "name": "Cintrifuse Capital",
+        "url": null,
+        "org_id": "cintrifuse-capital",
+        "role": "Co-host"
+      }
+    ],
+    "url": "https://brandfusioncincy.com/",
+    "hub_venue_id": null,
+    "tickets": [
+      {
+        "name": "Join for 2026",
+        "price": null,
+        "url": null,
+        "details": "Reach out to participate in this year's event",
+        "notes": "The button is a mailto: link to dave@bluenorthky.com (shown on the page as the contact address)."
+      },
+      {
+        "name": "Submit Brand Challenges",
+        "price": null,
+        "url": "https://brandfusioncincy.com/submit-challenges",
+        "details": "Submit your business challenges and meet pre-vetted startups hand-picked to solve them. Discover cutting-edge technology, explore partnerships, and stay ahead of the innovation curve — all in one day.",
+        "notes": "Details = the home page's For Brands paragraph; the portal asks for 3-5 challenges."
+      },
+      {
+        "name": "Nominate Startups",
+        "price": null,
+        "url": "https://brandfusioncincy.com/submit-nominations",
+        "details": "Nominate a startup to be matched with brand challenges at Brand Fusion.",
+        "notes": "From the nomination portal. The home page's For Startups paragraph: Get face-to-face with decision-makers from the world's biggest brands. Each 15-minute meeting is a chance to demo your solution, build relationships, and close deals with companies that can transform your growth trajectory."
+      }
+    ],
+    "daily_themes": [
+      {
+        "date": "2026-10-06",
+        "theme": "Welcome Dinner",
+        "highlights": [
+          "SparkHaus · 727 Madison Ave, Covington KY"
+        ]
+      },
+      {
+        "date": "2026-10-07",
+        "theme": "Matchmaking Sessions",
+        "highlights": [
+          "TQL Stadium · 1508 John St, Cincinnati OH"
+        ]
+      }
+    ],
+    "hours": null,
+    "hashtags": [],
+    "contact": {
+      "email": "dave@bluenorthky.com",
+      "phone": null
+    },
+    "history": [
+      {
+        "year": 2012,
+        "fact": "“Since 2012, we've brought together the brightest minds in brand innovation and startup technology to forge partnerships that drive real business results.”",
+        "source_url": "https://brandfusioncincy.com/"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Years of Innovation",
+        "value": "10+",
+        "source_url": "https://brandfusioncincy.com/"
+      },
+      {
+        "label": "Meetings Held",
+        "value": "3,754+",
+        "source_url": "https://brandfusioncincy.com/"
+      },
+      {
+        "label": "Brands Participated",
+        "value": "301+",
+        "source_url": "https://brandfusioncincy.com/"
+      },
+      {
+        "label": "Startups Showcased",
+        "value": "494+",
+        "source_url": "https://brandfusioncincy.com/"
+      }
+    ],
+    "logo": {
+      "url": "https://brandfusioncincy.com/images/logos/Logo_FullColor.png",
+      "format": "png",
+      "on": "light"
+    },
+    "participants": [
+      {
+        "label": "Participating brands",
+        "names": [
+          "84.51°/PearlRock",
+          "ADM",
+          "Atlas World Group",
+          "Brown Forman - Emerging",
+          "Brown Forman - RTD",
+          "Brown Forman - Woodford",
+          "Burlington",
+          "Carbone",
+          "Cincinnati Financial",
+          "CVG",
+          "Elanco",
+          "Eli Lilly",
+          "FC Cincinnati",
+          "Ferguson",
+          "Fidelity",
+          "Fifth Third Bank",
+          "Fischer Homes",
+          "Ford",
+          "Glow Brands",
+          "Gopuff",
+          "Gorilla Glue",
+          "Graeters",
+          "Great American",
+          "Indiana Pacers",
+          "Kimberly Clark",
+          "Kroger",
+          "Marriott",
+          "Mastercard",
+          "Moonbrew",
+          "New Riff Distilling",
+          "NVA - National Veterinary Associates",
+          "P&G - Old Spice",
+          "P&G - PHC",
+          "P&G - Tide Services",
+          "Scotts Miracle-Gro",
+          "St Elizabeth",
+          "The Farmer's Dog",
+          "VOSS Water",
+          "Wondercide"
+        ],
+        "note": "These brands are confirmed for Brand Fusion 2026.",
+        "as_of": "2026-09-25",
+        "source_url": "https://brandfusioncincy.com/submit-nominations"
+      }
+    ],
+    "source_url": "https://brandfusioncincy.com/",
+    "notes": "Added 2026-09-25 from brandfusioncincy.com (home, /know-before-you-go, /submit-challenges, /submit-nominations; robots.txt disallows /brands /challenges /schedule /attendees, which were not read). Not part of StartupCincy Week: its agenda page does not list Brand Fusion (checked 2026-09-25). The full name on the site is \"Brand Fusion 2026 Powered by Markup AI\". Day themes are the home page's \"Day 1: Welcome Dinner\" / \"Day 2: Matchmaking Sessions\"; highlights are the agenda's venue lines."
   }
 ]

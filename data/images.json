@@ -17,6 +17,15 @@
     "tone": "dark",
     "w": 160
   },
+  "o/air": {
+    "bg": "#adadad",
+    "file": "img/o/air.webp",
+    "h": 132,
+    "source_url": "https://brandfusioncincy.com/",
+    "src": "https://zkhtmexeqwpojoxhfeie.supabase.co/storage/v1/object/public/sponsor-logos/cf4999ec-4d27-4c0c-9d3b-e25500eb58d2/logo_full_color.png",
+    "tone": "light",
+    "w": 320
+  },
   "o/alloy-growth-lab": {
     "bg": "#d4d4d4",
     "file": "img/o/alloy-growth-lab.webp",
@@ -71,6 +80,15 @@
     "tone": "dark",
     "w": 320
   },
+  "o/big-happy": {
+    "bg": "#bfbbcb",
+    "file": "img/o/big-happy.webp",
+    "h": 84,
+    "source_url": "https://brandfusioncincy.com/",
+    "src": "https://zkhtmexeqwpojoxhfeie.supabase.co/storage/v1/object/public/sponsor-logos/434e7ada-31e0-46bb-af58-abb8e6d4cd06/logo_full_color.png",
+    "tone": "light",
+    "w": 320
+  },
   "o/blue-north": {
     "bg": "#7f9bb0",
     "file": "img/o/blue-north.webp",
@@ -88,6 +106,15 @@
     "src": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840230692026-sucw-sponsor-logos-book-street-png1784023069.png",
     "tone": "light",
     "w": 160
+  },
+  "o/brand-innovators": {
+    "bg": "#e4d0c1",
+    "file": "img/o/brand-innovators.webp",
+    "h": 160,
+    "source_url": "https://brandfusioncincy.com/",
+    "src": "https://zkhtmexeqwpojoxhfeie.supabase.co/storage/v1/object/public/sponsor-logos/d0a1df60-4e6c-4b81-bf1a-1e466b86fac9/logo_full_color.jpg",
+    "tone": "light",
+    "w": 261
   },
   "o/brave-berlin": {
     "file": "img/o/brave-berlin.svg",
@@ -166,6 +193,15 @@
     "h": 74,
     "source_url": "https://startupcincyweek.com/en/partners-page",
     "src": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840219992026-sucw-sponsor-logos-achievers-png1784021999.png",
+    "tone": "light",
+    "w": 320
+  },
+  "o/cintrifuse-capital": {
+    "bg": "#b4d0c4",
+    "file": "img/o/cintrifuse-capital.webp",
+    "h": 104,
+    "source_url": "https://brandfusioncincy.com/",
+    "src": "https://brandfusioncincy.com/images/logos/CintrifuseCapital.png",
     "tone": "light",
     "w": 320
   },
@@ -286,6 +322,15 @@
     "tone": "light",
     "w": 320
   },
+  "o/fidelity-private-shares": {
+    "bg": "#acc8a7",
+    "file": "img/o/fidelity-private-shares.webp",
+    "h": 112,
+    "source_url": "https://brandfusioncincy.com/",
+    "src": "https://zkhtmexeqwpojoxhfeie.supabase.co/storage/v1/object/public/sponsor-logos/b76da676-1c6e-4c40-b5c1-c5483a010ca3/logo_full_color.png",
+    "tone": "light",
+    "w": 320
+  },
   "o/fifth-third": {
     "bg": "#ccd7e4",
     "file": "img/o/fifth-third.webp",
@@ -348,6 +393,15 @@
     "tone": "light",
     "w": 320
   },
+  "o/glimpse": {
+    "bg": "#b9bac0",
+    "file": "img/o/glimpse.webp",
+    "h": 65,
+    "source_url": "https://brandfusioncincy.com/",
+    "src": "https://zkhtmexeqwpojoxhfeie.supabase.co/storage/v1/object/public/sponsor-logos/b0eeeef9-8e06-4dfd-be0a-2d791317f1fc/logo_full_color.png",
+    "tone": "light",
+    "w": 320
+  },
   "o/godutch": {
     "bg": "#5c5c5c",
     "file": "img/o/godutch.webp",
@@ -374,6 +428,15 @@
     "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/greatercincinnatifoundation.jpg",
     "tone": "dark",
     "w": 260
+  },
+  "o/gumloop": {
+    "bg": "#b1b3b5",
+    "file": "img/o/gumloop.webp",
+    "h": 72,
+    "source_url": "https://brandfusioncincy.com/",
+    "src": "https://zkhtmexeqwpojoxhfeie.supabase.co/storage/v1/object/public/sponsor-logos/efb9f7ed-d018-49f1-a9da-fce4bb4db918/logo_full_color.jpg",
+    "tone": "light",
+    "w": 320
   },
   "o/h-b-e-w-and-f-r-luther-foundation": {
     "bg": "#707070",
@@ -482,6 +545,15 @@
     "tone": "light",
     "w": 320
   },
+  "o/kana": {
+    "bg": "#b0abac",
+    "file": "img/o/kana.webp",
+    "h": 90,
+    "source_url": "https://brandfusioncincy.com/",
+    "src": "https://zkhtmexeqwpojoxhfeie.supabase.co/storage/v1/object/public/sponsor-logos/777863bf-ccae-40a8-a77d-7fc09b35b8e0/logo_full_color.png",
+    "tone": "light",
+    "w": 320
+  },
   "o/kernel": {
     "bg": "#505456",
     "file": "img/o/kernel.webp",
@@ -553,12 +625,30 @@
     "tone": "light",
     "w": 320
   },
+  "o/limy-ai": {
+    "bg": "#b1b1b1",
+    "file": "img/o/limy-ai.webp",
+    "h": 77,
+    "source_url": "https://brandfusioncincy.com/",
+    "src": "https://zkhtmexeqwpojoxhfeie.supabase.co/storage/v1/object/public/sponsor-logos/b53ab481-25e2-4d02-bac7-8b917cf73fa5/logo_full_color.png",
+    "tone": "light",
+    "w": 320
+  },
   "o/luther-foundation": {
     "bg": "#b6b6b6",
     "file": "img/o/luther-foundation.webp",
     "h": 68,
     "source_url": "https://www.fotofocus.org/biennial/2026/about#sponsors",
     "src": "https://www.fotofocus.org/wp-content/uploads/2026/05/Luther-Foundation.jpg",
+    "tone": "light",
+    "w": 320
+  },
+  "o/markup-ai": {
+    "bg": "#fcd2d1",
+    "file": "img/o/markup-ai.webp",
+    "h": 66,
+    "source_url": "https://brandfusioncincy.com/",
+    "src": "https://zkhtmexeqwpojoxhfeie.supabase.co/storage/v1/object/public/sponsor-logos/920eb9e7-abf7-4f13-91ab-51f052d6b8b6/logo_full_color.png",
     "tone": "light",
     "w": 320
   },
@@ -697,6 +787,15 @@
     "tone": "dark",
     "w": 320
   },
+  "o/outward-intelligence": {
+    "bg": "#d5d8dc",
+    "file": "img/o/outward-intelligence.webp",
+    "h": 94,
+    "source_url": "https://brandfusioncincy.com/",
+    "src": "https://zkhtmexeqwpojoxhfeie.supabase.co/storage/v1/object/public/sponsor-logos/458c995a-324a-4029-a89d-5d36474df584/logo_full_color.png",
+    "tone": "light",
+    "w": 320
+  },
   "o/paycor": {
     "bg": "#e0dfe0",
     "file": "img/o/paycor.webp",
@@ -758,6 +857,15 @@
     "src": "https://www.blinkcincinnati.com/images/Blink_26_ArtswaveLockup_RGB.svg",
     "tone": "light",
     "w": 241
+  },
+  "o/prog-brandfusion": {
+    "bg": "#fde3e2",
+    "file": "img/o/prog-brandfusion.webp",
+    "h": 157,
+    "source_url": "https://brandfusioncincy.com/",
+    "src": "https://brandfusioncincy.com/images/logos/Logo_FullColor.png",
+    "tone": "light",
+    "w": 320
   },
   "o/prog-caw": {
     "file": "img/o/prog-caw.svg",
@@ -863,6 +971,15 @@
     "h": 53,
     "source_url": "https://startupcincy.com/about-startupcincy/",
     "src": "https://startupcincy.com/wp-content/uploads/2024/11/StartupCincy-Logo-_-Full-Color-1.png",
+    "tone": "light",
+    "w": 320
+  },
+  "o/stepstone": {
+    "bg": "#dadddb",
+    "file": "img/o/stepstone.webp",
+    "h": 51,
+    "source_url": "https://brandfusioncincy.com/",
+    "src": "https://brandfusioncincy.com/images/logos/StepstoneLogo.jpg",
     "tone": "light",
     "w": 320
   },
@@ -990,6 +1107,14 @@
     "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors",
     "src": "https://www.blinkcincinnati.com/files/pages/scale/crop/towne-properties.jpg",
     "tone": "dark",
+    "w": 320
+  },
+  "o/trellis": {
+    "file": "img/o/trellis.svg",
+    "h": 96,
+    "source_url": "https://brandfusioncincy.com/",
+    "src": "https://zkhtmexeqwpojoxhfeie.supabase.co/storage/v1/object/public/sponsor-logos/7916de6d-e388-455d-88c2-18b7838f38be/logo_full_color.svg",
+    "tone": "light",
     "w": 320
   },
   "o/turner-construction-company": {

@@ -63,23 +63,25 @@ export const ICONS = {
   link: '<path d="M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.7 1.7"/><path d="M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7l1.7-1.7"/>',
 };
 
-/** The five program ids (a closed set) and their bullet geometry: letter + shape (DESIGN.md §3.2). */
-export const PROGRAM_IDS = ["caw", "scw", "blink", "fotofocus", "also"];
+/** The six program ids (a closed set) and their bullet geometry: letter + shape (DESIGN.md §3.2). */
+export const PROGRAM_IDS = ["caw", "scw", "blink", "brandfusion", "fotofocus", "also"];
 const SHAPES = {
   square: '<rect x="1.25" y="1.25" width="21.5" height="21.5" rx="2" style="fill:var(--prog-P);stroke:var(--prog-P-edge);stroke-width:1.5"/>',
   circle: '<circle cx="12" cy="12" r="10.75" style="fill:var(--prog-P);stroke:var(--prog-P-edge);stroke-width:1.5"/>',
   diamond: '<path d="M12 .6 23.4 12 12 23.4.6 12z" style="fill:var(--prog-P);stroke:var(--prog-P-edge);stroke-width:1.5;stroke-linejoin:round"/>',
   hexagon: '<path d="M6.2 1.6h11.6L23.3 12l-5.5 10.4H6.2L.7 12z" style="fill:var(--prog-P);stroke:var(--prog-P-edge);stroke-width:1.6;stroke-linejoin:round"/>',
+  octagon: '<path d="M7.1 1h9.8L23 7.1v9.8L16.9 23H7.1L1 16.9V7.1z" style="fill:var(--prog-P);stroke:var(--prog-P-edge);stroke-width:1.5;stroke-linejoin:round"/>',
 };
 export const BULLETS = {
   caw: { shape: "square", letter: "A" },
   scw: { shape: "circle", letter: "S" },
   blink: { shape: "diamond", letter: "B" },
+  brandfusion: { shape: "octagon", letter: "BF", tight: true },   // B and F are taken: the only two-letter bullet
   fotofocus: { shape: "hexagon", letter: "F" },
   also: { shape: "hexagon", letter: "&amp;", italic: true },
 };
-const bulletSymbol = (id, { shape, letter, italic }) =>
-  `<symbol id="b-${id}" viewBox="0 0 24 24">${SHAPES[shape].replace(/P/g, id)}<text x="12" y="${italic ? 16.6 : 16.3}" text-anchor="middle" style="fill:var(--prog-${id}-on);font-family:${italic ? "var(--font-display)" : "var(--font-body)"};font-size:${italic ? 14 : 12}px;font-weight:${italic ? 600 : 760};font-style:${italic ? "italic" : "normal"}">${letter}</text></symbol>`;
+const bulletSymbol = (id, { shape, letter, italic, tight }) =>
+  `<symbol id="b-${id}" viewBox="0 0 24 24">${SHAPES[shape].replace(/P/g, id)}<text x="12" y="${italic ? 16.6 : 16.3}" text-anchor="middle" style="fill:var(--prog-${id}-on);font-family:${italic ? "var(--font-display)" : "var(--font-body)"};font-size:${italic ? 14 : 12}px;font-weight:${italic ? 600 : 760};font-style:${italic ? "italic" : "normal"}${tight ? ";letter-spacing:-0.04em" : ""}">${letter}</text></symbol>`;
 
 const PARTS = JSON.parse(readFileSync(join(ROOT, "site", "img", "brand", "parts.json"), "utf8"));
 export const WORDMARK_VIEWBOX = PARTS.wordmark.viewBox;

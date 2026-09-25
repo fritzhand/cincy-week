@@ -200,11 +200,18 @@
         "relationship": "sponsor",
         "tier": "Partner Sponsor",
         "tier_rank": 3
+      },
+      {
+        "program": "brandfusion",
+        "relationship": "organizer",
+        "tier": "Co-Hosted By",
+        "tier_rank": 1
       }
     ],
     "logo_url": "https://vepimg.b8cdn.com/uploads/vjfnew//content/files/17840228232026-sucw-sponsor-logos-blue-north-png1784022823.png",
     "url": "https://bluenorthky.com/",
-    "source_url": "https://startupcincyweek.com/en/partners-page"
+    "source_url": "https://startupcincyweek.com/en/partners-page",
+    "notes": "Brand Fusion co-host (brandfusioncincy.com \"Co-Hosted By\", 2026-09-25): \"Northern Kentucky's Innovation Hub, connecting entrepreneurs and startups with the resources to grow.\""
   },
   {
     "id": "book-plus-street",
@@ -2419,5 +2426,213 @@
     "logo_url": "https://www.blinkcincinnati.com/files/pages/scale/crop/westernsouthernlogo.jpg",
     "url": null,
     "source_url": "https://www.blinkcincinnati.com/about-blink/sponsors"
+  },
+  {
+    "id": "markup-ai",
+    "name": "Markup AI",
+    "roles": [
+      {
+        "program": "brandfusion",
+        "relationship": "sponsor",
+        "tier": "Brand Fusion Powered By Sponsor",
+        "tier_rank": 2
+      }
+    ],
+    "logo_url": "https://zkhtmexeqwpojoxhfeie.supabase.co/storage/v1/object/public/sponsor-logos/920eb9e7-abf7-4f13-91ab-51f052d6b8b6/logo_full_color.png",
+    "url": null,
+    "source_url": "https://brandfusioncincy.com/",
+    "notes": "Brand Fusion 2026 sponsor as listed under \"Our Sponsors\" (2026-09-25); tier_rank keeps the order of that list; the site links no sponsor website."
+  },
+  {
+    "id": "air",
+    "name": "Air",
+    "roles": [
+      {
+        "program": "brandfusion",
+        "relationship": "sponsor",
+        "tier": "Welcome Dinner Title Sponsor",
+        "tier_rank": 3
+      }
+    ],
+    "logo_url": "https://zkhtmexeqwpojoxhfeie.supabase.co/storage/v1/object/public/sponsor-logos/cf4999ec-4d27-4c0c-9d3b-e25500eb58d2/logo_full_color.png",
+    "url": null,
+    "source_url": "https://brandfusioncincy.com/",
+    "notes": "Brand Fusion 2026 sponsor as listed under \"Our Sponsors\" (2026-09-25); tier_rank keeps the order of that list; the site links no sponsor website."
+  },
+  {
+    "id": "fidelity-private-shares",
+    "name": "Fidelity Private Shares",
+    "roles": [
+      {
+        "program": "brandfusion",
+        "relationship": "sponsor",
+        "tier": "Startup Lounge Sponsor",
+        "tier_rank": 4
+      }
+    ],
+    "logo_url": "https://zkhtmexeqwpojoxhfeie.supabase.co/storage/v1/object/public/sponsor-logos/b76da676-1c6e-4c40-b5c1-c5483a010ca3/logo_full_color.png",
+    "url": null,
+    "source_url": "https://brandfusioncincy.com/",
+    "notes": "Brand Fusion 2026 sponsor as listed under \"Our Sponsors\" (2026-09-25); tier_rank keeps the order of that list; the site links no sponsor website."
+  },
+  {
+    "id": "glimpse",
+    "name": "Glimpse",
+    "roles": [
+      {
+        "program": "brandfusion",
+        "relationship": "sponsor",
+        "tier": "Breakfast Title Sponsor",
+        "tier_rank": 5
+      }
+    ],
+    "logo_url": "https://zkhtmexeqwpojoxhfeie.supabase.co/storage/v1/object/public/sponsor-logos/b0eeeef9-8e06-4dfd-be0a-2d791317f1fc/logo_full_color.png",
+    "url": null,
+    "source_url": "https://brandfusioncincy.com/",
+    "notes": "Brand Fusion 2026 sponsor as listed under \"Our Sponsors\" (2026-09-25); tier_rank keeps the order of that list; the site links no sponsor website."
+  },
+  {
+    "id": "brand-innovators",
+    "name": "Brand Innovators",
+    "roles": [
+      {
+        "program": "brandfusion",
+        "relationship": "sponsor",
+        "tier": "Luncheon Title Sponsor",
+        "tier_rank": 6
+      }
+    ],
+    "logo_url": "https://zkhtmexeqwpojoxhfeie.supabase.co/storage/v1/object/public/sponsor-logos/d0a1df60-4e6c-4b81-bf1a-1e466b86fac9/logo_full_color.jpg",
+    "url": null,
+    "source_url": "https://brandfusioncincy.com/",
+    "notes": "Brand Fusion 2026 sponsor as listed under \"Our Sponsors\" (2026-09-25); tier_rank keeps the order of that list; the site links no sponsor website."
+  },
+  {
+    "id": "limy-ai",
+    "name": "Limy AI",
+    "roles": [
+      {
+        "program": "brandfusion",
+        "relationship": "sponsor",
+        "tier": "Gift Bag Sponsor · Lanyard Sponsor",
+        "tier_rank": 7
+      }
+    ],
+    "logo_url": "https://zkhtmexeqwpojoxhfeie.supabase.co/storage/v1/object/public/sponsor-logos/b53ab481-25e2-4d02-bac7-8b917cf73fa5/logo_full_color.png",
+    "url": null,
+    "source_url": "https://brandfusioncincy.com/",
+    "notes": "Brand Fusion 2026 sponsor as listed under \"Our Sponsors\" (2026-09-25); tier_rank keeps the order of that list; the site links no sponsor website."
+  },
+  {
+    "id": "big-happy",
+    "name": "Big Happy",
+    "roles": [
+      {
+        "program": "brandfusion",
+        "relationship": "sponsor",
+        "tier": "Welcome Dinner Drinks Sponsor",
+        "tier_rank": 8
+      }
+    ],
+    "logo_url": "https://zkhtmexeqwpojoxhfeie.supabase.co/storage/v1/object/public/sponsor-logos/434e7ada-31e0-46bb-af58-abb8e6d4cd06/logo_full_color.png",
+    "url": null,
+    "source_url": "https://brandfusioncincy.com/",
+    "notes": "Brand Fusion 2026 sponsor as listed under \"Our Sponsors\" (2026-09-25); tier_rank keeps the order of that list; the site links no sponsor website."
+  },
+  {
+    "id": "outward-intelligence",
+    "name": "Outward Intelligence",
+    "roles": [
+      {
+        "program": "brandfusion",
+        "relationship": "sponsor",
+        "tier": "Welcome Dinner Dessert Sponsor",
+        "tier_rank": 9
+      }
+    ],
+    "logo_url": "https://zkhtmexeqwpojoxhfeie.supabase.co/storage/v1/object/public/sponsor-logos/458c995a-324a-4029-a89d-5d36474df584/logo_full_color.png",
+    "url": null,
+    "source_url": "https://brandfusioncincy.com/",
+    "notes": "Brand Fusion 2026 sponsor as listed under \"Our Sponsors\" (2026-09-25); tier_rank keeps the order of that list; the site links no sponsor website."
+  },
+  {
+    "id": "gumloop",
+    "name": "Gumloop",
+    "roles": [
+      {
+        "program": "brandfusion",
+        "relationship": "sponsor",
+        "tier": "Welcome Bourbon Tasting",
+        "tier_rank": 10
+      }
+    ],
+    "logo_url": "https://zkhtmexeqwpojoxhfeie.supabase.co/storage/v1/object/public/sponsor-logos/efb9f7ed-d018-49f1-a9da-fce4bb4db918/logo_full_color.jpg",
+    "url": null,
+    "source_url": "https://brandfusioncincy.com/",
+    "notes": "Brand Fusion 2026 sponsor as listed under \"Our Sponsors\" (2026-09-25); tier_rank keeps the order of that list; the site links no sponsor website."
+  },
+  {
+    "id": "kana",
+    "name": "Kana",
+    "roles": [
+      {
+        "program": "brandfusion",
+        "relationship": "sponsor",
+        "tier": "Snack & Refreshments Sponsor",
+        "tier_rank": 11
+      }
+    ],
+    "logo_url": "https://zkhtmexeqwpojoxhfeie.supabase.co/storage/v1/object/public/sponsor-logos/777863bf-ccae-40a8-a77d-7fc09b35b8e0/logo_full_color.png",
+    "url": null,
+    "source_url": "https://brandfusioncincy.com/",
+    "notes": "Brand Fusion 2026 sponsor as listed under \"Our Sponsors\" (2026-09-25); tier_rank keeps the order of that list; the site links no sponsor website."
+  },
+  {
+    "id": "trellis",
+    "name": "Trellis",
+    "roles": [
+      {
+        "program": "brandfusion",
+        "relationship": "sponsor",
+        "tier": "Coffee Sponsors",
+        "tier_rank": 12
+      }
+    ],
+    "logo_url": "https://zkhtmexeqwpojoxhfeie.supabase.co/storage/v1/object/public/sponsor-logos/7916de6d-e388-455d-88c2-18b7838f38be/logo_full_color.svg",
+    "url": null,
+    "source_url": "https://brandfusioncincy.com/",
+    "notes": "Brand Fusion 2026 sponsor as listed under \"Our Sponsors\" (2026-09-25); tier_rank keeps the order of that list; the site links no sponsor website."
+  },
+  {
+    "id": "stepstone",
+    "name": "Stepstone",
+    "roles": [
+      {
+        "program": "brandfusion",
+        "relationship": "organizer",
+        "tier": "Co-Hosted By",
+        "tier_rank": 1
+      }
+    ],
+    "logo_url": "https://brandfusioncincy.com/images/logos/StepstoneLogo.jpg",
+    "url": null,
+    "source_url": "https://brandfusioncincy.com/",
+    "notes": "Brand Fusion co-host (\"Co-Hosted By\"): \"Venture and growth equity firm investing in technology-driven businesses.\" Also first under \"Our Sponsors\" as \"Partner / Co-Host\" (one role kept, 2026-09-25)."
+  },
+  {
+    "id": "cintrifuse-capital",
+    "name": "Cintrifuse Capital",
+    "roles": [
+      {
+        "program": "brandfusion",
+        "relationship": "organizer",
+        "tier": "Co-Hosted By",
+        "tier_rank": 1
+      }
+    ],
+    "logo_url": "https://brandfusioncincy.com/images/logos/CintrifuseCapital.png",
+    "url": null,
+    "source_url": "https://brandfusioncincy.com/",
+    "notes": "Brand Fusion co-host (\"Co-Hosted By\"): \"Cincinnati's startup ecosystem catalyst connecting corporations with emerging technology.\" The footer reads \"Co-hosted by Blue North · Stepstone · Cintrifuse\". Kept apart from the org cintrifuse (StartupCincy Week's organizer) because the logo and name differ (2026-09-25)."
   }
 ]

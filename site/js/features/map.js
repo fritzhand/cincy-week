@@ -35,7 +35,7 @@ const Z1 = 0.36;             // px per unit that counts as zoom level 1 for labe
 const KIND_ORDER = { venue: 0, work: 1, facility: 2, stay: 3, stop: 4, food: 5 };
 const KIND_WORD = { venue: ["venue", "venues"], work: ["artwork", "artworks"], facility: ["BLINK facility", "BLINK facilities"], stay: ["place to stay", "places to stay"], stop: ["transit stop", "transit stops"], food: ["place to eat or drink", "places to eat or drink"] };
 const LABEL_RANK = { hood: 0, water: 1, state: 2, park: 3, bridge: 4, street: 5 };
-const PROG_KEY = { caw: "a", scw: "s", blink: "b", fotofocus: "f", also: "f" };
+const PROG_KEY = { caw: "a", scw: "s", blink: "b", brandfusion: "x", fotofocus: "f", also: "f" };
 const cwApp = () => window.cw || null;
 const toast = (t) => { const a = cwApp(); if (a && a.toast) a.toast(t, { ms: 4000 }); };
 const directions = (lat, lng) => ({ apple: `https://maps.apple.com/?daddr=${lat},${lng}&dirflg=w`, google: `https://www.google.com/maps/dir/?api=1&destination=${lat},${lng}&travelmode=walking` });
@@ -263,7 +263,7 @@ export function mountMap(el, opts = {}) {
     for (const g of groups) {
       if (g.members.length === 1) { const p = g.members[0].p; keep.add(p.el); placed.push(p); continue; }
       const ms = g.members.map((m) => m.p);
-      const cnt = { a: 0, s: 0, b: 0, f: 0, o: 0 };
+      const cnt = { a: 0, s: 0, b: 0, x: 0, f: 0, o: 0 };
       for (const m of ms) cnt[PROG_KEY[m.prog] || "o"]++;
       const el = document.createElement("button");
       el.type = "button";

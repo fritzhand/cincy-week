@@ -13,7 +13,7 @@ import { nyParts, daysBetween, fmtRange, fmtTime, fmtDay, MIN, HOUR } from "./ti
 import { festivalToday as festivalDay } from "./agenda.js";
 
 export const FL = { END_UNKNOWN: 1, TIME_UNKNOWN: 2, ALL_DAY: 4, ONGOING: 8, LATE: 16 };
-const FEST = ["caw", "scw", "blink", "fotofocus", "also"];
+const FEST = ["caw", "scw", "blink", "fotofocus", "also", "brandfusion"];
 
 /** Flatten events.json into items, one per festival-day instance (cancelled events left out). */
 export function items(data) {

@@ -90,18 +90,20 @@ p.unk, div.unk { display: flex; }   /* QA: a paragraph of unknown stays a block 
 
 /* ---------- program scope: one rule per program sets five local inks ----------
    Components read ONLY --ink-fill / --ink-text / --ink-on / --ink-tint / --ink-edge.
-   A fifth program is one rule here plus its tokens and bullet symbol.
+   A new program is one rule here plus its tokens and bullet symbol (Brand Fusion was the sixth).
    article.ev[data-p] (the engine's filter attribute) is also a scope. */
 :root { --ink-fill: var(--rule-ink); --ink-text: var(--text); --ink-on: var(--primary-contrast); --ink-tint: var(--surface-alt); --ink-edge: var(--rule-ink); }
 [data-prog="caw"], .ev[data-p="caw"] { --ink-fill: var(--prog-caw); --ink-text: var(--prog-caw-ink); --ink-on: var(--prog-caw-on); --ink-tint: var(--prog-caw-tint); --ink-edge: var(--prog-caw-edge); }
 [data-prog="scw"], .ev[data-p="scw"] { --ink-fill: var(--prog-scw); --ink-text: var(--prog-scw-ink); --ink-on: var(--prog-scw-on); --ink-tint: var(--prog-scw-tint); --ink-edge: var(--prog-scw-edge); }
 [data-prog="blink"], .ev[data-p="blink"] { --ink-fill: var(--prog-blink); --ink-text: var(--prog-blink-ink); --ink-on: var(--prog-blink-on); --ink-tint: var(--prog-blink-tint); --ink-edge: var(--prog-blink-edge); }
+[data-prog="brandfusion"], .ev[data-p="brandfusion"] { --ink-fill: var(--prog-brandfusion); --ink-text: var(--prog-brandfusion-ink); --ink-on: var(--prog-brandfusion-on); --ink-tint: var(--prog-brandfusion-tint); --ink-edge: var(--prog-brandfusion-edge); }
 [data-prog="fotofocus"], .ev[data-p="fotofocus"] { --ink-fill: var(--prog-fotofocus); --ink-text: var(--prog-fotofocus-ink); --ink-on: var(--prog-fotofocus-on); --ink-tint: var(--prog-fotofocus-tint); --ink-edge: var(--prog-fotofocus-edge); }
 [data-prog="also"], .ev[data-p="also"] { --ink-fill: var(--prog-also); --ink-text: var(--prog-also-ink); --ink-on: var(--prog-also-on); --ink-tint: var(--prog-also-tint); --ink-edge: var(--prog-also-edge); }
 /* a second program on the same entity (person, venue): split rings and a second bullet */
 [data-prog2="caw"] { --ink-fill-2: var(--prog-caw); }
 [data-prog2="scw"] { --ink-fill-2: var(--prog-scw); }
 [data-prog2="blink"] { --ink-fill-2: var(--prog-blink); }
+[data-prog2="brandfusion"] { --ink-fill-2: var(--prog-brandfusion); }
 [data-prog2="fotofocus"], [data-prog2="also"] { --ink-fill-2: var(--prog-fotofocus-edge); }
 
 /* program bullet: letter + shape + ink, an inline SVG from the sprite (<use href="#b-caw">).
@@ -119,6 +121,7 @@ p.unk, div.unk { display: flex; }   /* QA: a paragraph of unknown stays a block 
 .prog-dot { display: inline-block; width: 12px; height: 12px; flex: none; background: var(--ink-fill); clip-path: var(--shape-square); }
 [data-prog="scw"] .prog-dot, .prog-dot[data-prog="scw"] { clip-path: var(--shape-circle); }
 [data-prog="blink"] .prog-dot, .prog-dot[data-prog="blink"] { clip-path: var(--shape-diamond); width: 14px; height: 14px; }
+[data-prog="brandfusion"] .prog-dot, .prog-dot[data-prog="brandfusion"] { clip-path: var(--shape-octagon); }
 [data-prog="fotofocus"] .prog-dot, .prog-dot[data-prog="fotofocus"],
 [data-prog="also"] .prog-dot, .prog-dot[data-prog="also"] { clip-path: var(--shape-hexagon); background: var(--ink-edge); }
 /* plate underline: program names set in display type are underlined in their ink (never a full color field) */

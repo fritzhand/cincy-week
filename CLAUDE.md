@@ -4,7 +4,8 @@
 
 **Cincy Week** (https://fritzhand.github.io/cincy-week/) is an independent, source-linked guide to the first
 week of October 2026 in Cincinnati: **Cincinnati Art Week** (Oct 3–10), **StartupCincy Week** (Oct 5–8),
-**BLINK** (Oct 8–11), the **FotoFocus Biennial** (Sep 30–Nov 1) and other verified happenings. It is a
+**BLINK** (Oct 8–11), the **FotoFocus Biennial** (Sep 30–Nov 1), **Brand Fusion** (Oct 6–7, a brand–startup
+matchmaking event; added Sep 25) and other verified happenings. It is a
 zero-dependency static site: `data/*.json` → `node build.mjs` → `docs/` (GitHub Pages).
 
 The shell and UX come from `fritzhand/startup-india-guide` (SIG: grouped icon sidebar, rail, drawer, ⌘K,
@@ -12,7 +13,7 @@ TOC, footer), hardened with `fritzhand/quickstart` (QS: fail-before-write, crawl
 search). The visual system is **"Interchange"**: a city paper's special section routed like a transit map
 (each program is a line, each day a station, Thursday Oct 8 the interchange). Owner: Jeremy Fritzhand.
 
-**Status (Sep 24, 2026): built, audited and integrated.** Seven agents built it in parallel lanes (A engine, B design,
+**Status (Sep 25, 2026): built, audited and integrated; Brand Fusion added as a sixth line on Sep 25.** Seven agents built it in parallel lanes (A engine, B design,
 C data, D schedule, E map, F directory, G home and programs), then two QA passes (data accuracy, UX) and an
 integration pass. From here the site is in **maintenance mode**: one maintainer at a time owns the whole tree, and
 most work is correcting or adding records in `data/*.json`. Start with "Maintaining the site during the week" below.
@@ -86,7 +87,7 @@ Append a record to `data/events.json` (order does not matter; the build sorts):
   "tags": [], "source_url": "https://www.blinkcincinnati.com/…"
 }
 ```
-- `id`: lowercase, hyphens, **starts with its program** (`caw- scw- blink- fotofocus- also-`), unique across
+- `id`: lowercase, hyphens, **starts with its program** (`caw- scw- blink- brandfusion- fotofocus- also-`), unique across
   `events.json` and `works.json`. `kind` is one of `keynote panel workshop fireside networking party pitch exhibition
   installation performance talk tour market screening other`.
 - People without a person record go in `credits: [{ "role": "Artists", "names": ["…"] }]` (plain text, searchable).
@@ -150,6 +151,17 @@ change; every decision is logged and written into the records' `notes` between `
 - `places` kind `facility` with `facility` (`oasis-station restroom merch-shop hospitality-zone hike-departure drone-viewing`),
   `program`, `zone`, `map_no`: listed on getting-around.html#blink-facilities, on the BLINK page and in map.html's Facilities layer.
 - `programs[].maps` lists the organizers' own maps (the BLINK page's "Official map" fact and source line).
+
+### Brand Fusion (added Sep 25)
+
+Brand Fusion (https://brandfusioncincy.com/, Oct 6–7) is not part of StartupCincy Week (its agenda does not list it) and is
+not a festival: it has its own line (`brandfusion`, olive, octagon "BF") and page (brand-fusion.html), a lane on the week line
+that never counts toward the interchange, and it ranks after the festivals in "At this hour". It sells no tickets: brands
+submit challenges and investors nominate startups, so its page shows "How to take part" (a program whose `tickets` have no
+`price`) instead of "Tickets and passes". The 11 agenda items are events (sponsor in `credits` and `org_ids`); the 39
+confirmed brands are `programs[].participants` (names verbatim, with `as_of`); Hotel Covington's `room_block` has
+`label: "recommended hotel"` (a booking link, not a published block). Only the public pages were read (robots.txt disallows
+/brands /challenges /schedule /attendees); what was read, verbatim, is in `research/brand-fusion/brand-fusion-2026.json`.
 
 ### News
 
@@ -375,8 +387,15 @@ Shapes: engine spec §4.3, enforced field by field in `build/core/schema.mjs` (u
 the allowed ones; `notes` is allowed everywhere and never rendered). Highlights:
 - ids `^[a-z0-9][a-z0-9-]*$`, unique per file; **event and work ids start with their program** (`scw-…`,
   `blink-…`) and are unique across both files (shared URL space).
-- Program ids are a closed set: `caw scw blink fotofocus also`. `programs[].slug` must be a
+- Program ids are a closed set: `caw scw blink brandfusion fotofocus also`. `programs[].slug` must be a
   `PROGRAM_PAGES` slug (`also` has `slug: null`: it lives on the FotoFocus & more page).
+- A new program (Brand Fusion was the sixth, Sep 25) is: its id in `PROGRAM_IDS` and a bullet in `BULLETS`
+  (`build/core/icons.mjs`), its label in `PROGRAM_LABELS` (`components.mjs`), its page in `PROGRAM_PAGES` (`nav.mjs`; a
+  program that is not one of the week's festivals gets `festival: false`, so its lane never counts toward the interchange
+  or the home headline's "N festivals"), five inks in each of the three color blocks of `tokens.css`, one scope rule in
+  `00-base.css` (plus its `.prog-dot` shape), the lists in `schedule.mjs` (`TICKS`, `BAND_PROG`), `home.mjs` and
+  `athour.js` (`FEST`), the map's share key (`PROG_KEY` in `map.js`, the `program.mjs` share map, the cluster ring in
+  `50-map.css`), `site/og-<id>.png` (`scripts/og.mjs`) and a record in `tests/fixtures/mini/programs.json`.
 - Dates `YYYY-MM-DD` inside `dataWindow` (a multi-day item must overlap it); times `HH:MM`, New York wall
   clock; `end < start` only for after-midnight ends ≤ 06:00; `all_day` has no times; a missing `start` means
   hours not listed. `is_free` is explicit (true/false/null) — never inferred from `cost`.

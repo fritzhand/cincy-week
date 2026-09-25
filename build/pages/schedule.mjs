@@ -21,7 +21,7 @@
 import { KIND_GROUP, KIND_GROUP_LABEL, KIND_LABEL } from "../core/schema.mjs";
 import { BUCKETS, dowShort, fmtDayLong, fmtDay, fmtDateRange, fmtTime, isoLocal, nyParts } from "../core/time.mjs";
 
-const TICKS = ["caw", "scw", "blink", "fotofocus"];
+const TICKS = ["caw", "scw", "blink", "brandfusion", "fotofocus"];
 const MON = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 const BAND_TOP = 5; // rows shown before "Show n more" in the band (features/schedule.js uses the same number)
 
@@ -37,7 +37,7 @@ export function pages(ctx) {
   const timed = db.instances.filter((x) => shown(x.ev) && !ongoingIds.has(x.id));
   // band order (the first rows of each day's band): listed hours first (BLINK nights, tours, markets), then
   // one-day items, then featured, then the festivals before the long museum runs, shorter runs first
-  const BAND_PROG = ["caw", "scw", "blink", "also", "fotofocus"];
+  const BAND_PROG = ["caw", "scw", "blink", "brandfusion", "also", "fotofocus"];
   const bandKey = (e) => [e.instances[0].timeUnknown || e.instances[0].allDay ? 1 : 0, e.instances.length > 1 ? 1 : 0, e.featured ? 0 : 1, BAND_PROG.indexOf(e.program), e.instances.length];
   ongoing.sort((a, b) => { const ka = bandKey(a), kb = bandKey(b); for (let i = 0; i < ka.length; i++) if (ka[i] !== kb[i]) return ka[i] - kb[i]; return a.title.localeCompare(b.title); });
   const days = [...new Set([...db.days.map((d) => d.date), ...timed.map((x) => x.day)])].sort();

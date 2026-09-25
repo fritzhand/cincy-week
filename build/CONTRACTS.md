@@ -575,3 +575,26 @@ Additive changes to A-owned files made by domain agents (smallest possible, noth
     map.html gets the Facilities layer (`li.map-li[data-kind="facility"][data-layer="facilities"][data-ic][data-fl]`,
     `data-mn` on numbered works and facilities, `.pin-facility`, `.mk-facility`, `.lg-facility` in `50-map.css`); venue pages
     list nearby BLINK facilities. `mountMap` pins accept `kind: "facility"`, `ic` (glyph) and `mn` (read out in the label).
+- **2026-09-25 · maintenance (Brand Fusion, a sixth program)** additive only; nothing renamed or removed; `npm test` green
+  (new: `tests/home.test.mjs` "Brand Fusion: a lane on the week line…"). Source: https://brandfusioncincy.com/ (home,
+  /know-before-you-go, /submit-challenges, /submit-nominations), recorded in `research/brand-fusion/brand-fusion-2026.json`.
+  - `build/core/icons.mjs`: `PROGRAM_IDS` gains `brandfusion` (after `blink`); `BULLETS.brandfusion` = octagon, letters "BF"
+    (the only two-letter bullet; `tight` sets its letter-spacing); `SHAPES.octagon`.
+  - `site/css/tokens.css`: `--shape-octagon`, `--prog-brandfusion-{letter,shape}` and the five inks in the light, dark and
+    prefers-dark blocks (olive; ink on paper ≥ 6:1, white on fill 5.4:1). `00-base.css`: the scope rule, `data-prog2`,
+    `.prog-dot` octagon. `50-map.css`: `.pin-work` octagon; the cluster ring takes `--x` (Brand Fusion's share) between
+    BLINK and FotoFocus (`PROG_KEY` in `map.js` and the `program.mjs` share map: `brandfusion: "x"`).
+  - `build/nav.mjs`: `PROGRAM_PAGES` entry `brand-fusion` (after BLINK) with `festival: false`: a program page may say it
+    is not one of the week's festivals. `home.mjs` `weekLanes()` lanes carry `festival`; the interchange, the "N festivals"
+    headline and the day summaries count festival lanes only (every lane is still drawn).
+  - `build/core/schema.mjs`: `programs.participants: [{ label, names[], note, as_of, source_url }]` (who takes part, as the
+    organizers list them); `stays.room_block.label` (the program's own word when it is not a published block, e.g.
+    "recommended hotel") and `stays.room_block.source_url`.
+  - Program pages: when no ticket has a `price`, "How to take part" (`#tickets`, columns How / Details, the contact email)
+    replaces "Tickets and passes" and the Admission fact reads "No public tickets listed · N ways to take part";
+    `participants` become a `#participants` section (`ul.prog-names`, styled in `31-program.css`) and their names join the
+    program's search keywords. Home program cards leave out zero counts and add "N participating brands";
+    `.prog-cards` columns are at least 300px (five cards: 3 + 2).
+  - stay.html: a labeled `room_block` reads "<Program> <label>", its button "Book with the organizers' link", with the
+    block's own source; the section is "Program room blocks and hotels" when one is labeled. `schedule.mjs` `TICKS` and
+    `BAND_PROG`, `home.mjs` and `athour.js` `FEST` list `brandfusion` (ranked after the festivals).

@@ -91,18 +91,20 @@ p.unk, div.unk { display: flex; }   /* QA: a paragraph of unknown stays a block 
 
 /* ---------- program scope: one rule per program sets five local inks ----------
    Components read ONLY --ink-fill / --ink-text / --ink-on / --ink-tint / --ink-edge.
-   A fifth program is one rule here plus its tokens and bullet symbol.
+   A new program is one rule here plus its tokens and bullet symbol (Brand Fusion was the sixth).
    article.ev[data-p] (the engine's filter attribute) is also a scope. */
 :root { --ink-fill: var(--rule-ink); --ink-text: var(--text); --ink-on: var(--primary-contrast); --ink-tint: var(--surface-alt); --ink-edge: var(--rule-ink); }
 [data-prog="caw"], .ev[data-p="caw"] { --ink-fill: var(--prog-caw); --ink-text: var(--prog-caw-ink); --ink-on: var(--prog-caw-on); --ink-tint: var(--prog-caw-tint); --ink-edge: var(--prog-caw-edge); }
 [data-prog="scw"], .ev[data-p="scw"] { --ink-fill: var(--prog-scw); --ink-text: var(--prog-scw-ink); --ink-on: var(--prog-scw-on); --ink-tint: var(--prog-scw-tint); --ink-edge: var(--prog-scw-edge); }
 [data-prog="blink"], .ev[data-p="blink"] { --ink-fill: var(--prog-blink); --ink-text: var(--prog-blink-ink); --ink-on: var(--prog-blink-on); --ink-tint: var(--prog-blink-tint); --ink-edge: var(--prog-blink-edge); }
+[data-prog="brandfusion"], .ev[data-p="brandfusion"] { --ink-fill: var(--prog-brandfusion); --ink-text: var(--prog-brandfusion-ink); --ink-on: var(--prog-brandfusion-on); --ink-tint: var(--prog-brandfusion-tint); --ink-edge: var(--prog-brandfusion-edge); }
 [data-prog="fotofocus"], .ev[data-p="fotofocus"] { --ink-fill: var(--prog-fotofocus); --ink-text: var(--prog-fotofocus-ink); --ink-on: var(--prog-fotofocus-on); --ink-tint: var(--prog-fotofocus-tint); --ink-edge: var(--prog-fotofocus-edge); }
 [data-prog="also"], .ev[data-p="also"] { --ink-fill: var(--prog-also); --ink-text: var(--prog-also-ink); --ink-on: var(--prog-also-on); --ink-tint: var(--prog-also-tint); --ink-edge: var(--prog-also-edge); }
 /* a second program on the same entity (person, venue): split rings and a second bullet */
 [data-prog2="caw"] { --ink-fill-2: var(--prog-caw); }
 [data-prog2="scw"] { --ink-fill-2: var(--prog-scw); }
 [data-prog2="blink"] { --ink-fill-2: var(--prog-blink); }
+[data-prog2="brandfusion"] { --ink-fill-2: var(--prog-brandfusion); }
 [data-prog2="fotofocus"], [data-prog2="also"] { --ink-fill-2: var(--prog-fotofocus-edge); }
 
 /* program bullet: letter + shape + ink, an inline SVG from the sprite (<use href="#b-caw">).
@@ -120,6 +122,7 @@ p.unk, div.unk { display: flex; }   /* QA: a paragraph of unknown stays a block 
 .prog-dot { display: inline-block; width: 12px; height: 12px; flex: none; background: var(--ink-fill); clip-path: var(--shape-square); }
 [data-prog="scw"] .prog-dot, .prog-dot[data-prog="scw"] { clip-path: var(--shape-circle); }
 [data-prog="blink"] .prog-dot, .prog-dot[data-prog="blink"] { clip-path: var(--shape-diamond); width: 14px; height: 14px; }
+[data-prog="brandfusion"] .prog-dot, .prog-dot[data-prog="brandfusion"] { clip-path: var(--shape-octagon); }
 [data-prog="fotofocus"] .prog-dot, .prog-dot[data-prog="fotofocus"],
 [data-prog="also"] .prog-dot, .prog-dot[data-prog="also"] { clip-path: var(--shape-hexagon); background: var(--ink-edge); }
 /* plate underline: program names set in display type are underlined in their ink (never a full color field) */
@@ -894,7 +897,7 @@ table.data tbody tr:hover td { background: var(--surface-alt); }
 }
 
 /* ---------- program cards ("section fronts") ---------- */
-.prog-cards { display: grid; gap: var(--sp-4); grid-template-columns: repeat(auto-fill, minmax(min(100%, 250px), 1fr)); }
+.prog-cards { display: grid; gap: var(--sp-4); grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); }   /* five programs: 3 + 2 on a desktop */
 .prog-card { position: relative; display: flex; flex-direction: column; padding: var(--sp-4) var(--sp-4) var(--sp-3); background: var(--surface); border: 1px solid var(--border); border-top: var(--rule-heavy) solid var(--ink-fill); }
 .prog-card:has(.stretched:hover) { border-color: var(--border-strong); border-top-color: var(--ink-fill); }
 [data-prog="fotofocus"].prog-card { border-top-color: var(--ink-edge); }
@@ -1048,6 +1051,10 @@ a.stat:hover .l { text-decoration: underline; }
 .prog-fac-l { list-style: none; padding: 0; margin: 0; font-size: var(--fs-sm); }
 .prog-fac-l li { display: flex; flex-wrap: wrap; align-items: center; gap: 0 8px; min-height: var(--tap); border-bottom: 1px solid var(--border); }
 .prog-fac-l a { display: inline-flex; align-items: center; min-height: var(--tap); }
+
+/* participants (programs[].participants: Brand Fusion's confirmed brands): names in newspaper columns */
+.prog-names { columns: 3 12em; column-gap: var(--col-gap); list-style: none; padding: 0; margin: var(--sp-3) 0 0; }
+.prog-names li { break-inside: avoid; padding: 7px 0; border-top: 1px solid var(--border); font-size: var(--fs-sm); line-height: 1.3; }
 /* ---- 40-schedule.css ---- */
 /* ======================================================================
    site/css/40-schedule.css · OWNER: Agent D (schedule & plan)
@@ -1403,6 +1410,7 @@ button.pin-venue:hover > span { background: var(--primary); color: var(--primary
 .pin-work { --pshape: var(--shape-diamond); }
 .pin-work[data-prog="caw"] { --pshape: var(--shape-square); }
 .pin-work[data-prog="scw"] { --pshape: var(--shape-circle); }
+.pin-work[data-prog="brandfusion"] { --pshape: var(--shape-octagon); }
 .pin-work[data-prog="fotofocus"], .pin-work[data-prog="also"] { --pshape: var(--shape-hexagon); }
 .pin-work > span { position: relative; width: 20px; height: 20px; background: var(--map-pin-bg); clip-path: var(--pshape); }
 .pin-work > span::after { content: ""; position: absolute; inset: 3px; background: var(--ink-fill); clip-path: var(--pshape); }
@@ -1429,11 +1437,11 @@ button.pin-facility:hover > span, .pin-facility[aria-pressed="true"] > span { ba
   content: ""; position: absolute; inset: 4px; border-radius: 50%; border: 3px solid var(--live);
   animation: cw-pulse var(--pulse) var(--ease-out) infinite; pointer-events: none;
 }
-.pin-cluster > span {                                /* count on a ring split by program share (--a --s --b --f, --o = no program) */
-  --tot: calc(var(--a, 0) + var(--s, 0) + var(--b, 0) + var(--f, 0) + var(--o, 0));
-  --pa: calc(var(--a, 0) / var(--tot) * 100%); --ps: calc(var(--pa) + var(--s, 0) / var(--tot) * 100%); --pb: calc(var(--ps) + var(--b, 0) / var(--tot) * 100%); --pf: calc(var(--pb) + var(--f, 0) / var(--tot) * 100%);
+.pin-cluster > span {                                /* count on a ring split by program share (--a --s --b --x --f, --o = no program; x = Brand Fusion) */
+  --tot: calc(var(--a, 0) + var(--s, 0) + var(--b, 0) + var(--x, 0) + var(--f, 0) + var(--o, 0));
+  --pa: calc(var(--a, 0) / var(--tot) * 100%); --ps: calc(var(--pa) + var(--s, 0) / var(--tot) * 100%); --pb: calc(var(--ps) + var(--b, 0) / var(--tot) * 100%); --px: calc(var(--pb) + var(--x, 0) / var(--tot) * 100%); --pf: calc(var(--px) + var(--f, 0) / var(--tot) * 100%);
   display: grid; place-items: center; width: 38px; height: 38px; border-radius: 50%; border: 5px solid transparent; color: var(--primary-contrast);
-  --ring: conic-gradient(var(--prog-caw) 0 var(--pa), var(--prog-scw) 0 var(--ps), var(--prog-blink) 0 var(--pb), var(--prog-fotofocus-edge) 0 var(--pf), var(--border-strong) 0 100%);
+  --ring: conic-gradient(var(--prog-caw) 0 var(--pa), var(--prog-scw) 0 var(--ps), var(--prog-blink) 0 var(--pb), var(--prog-brandfusion) 0 var(--px), var(--prog-fotofocus-edge) 0 var(--pf), var(--border-strong) 0 100%);
   background: linear-gradient(var(--primary), var(--primary)) padding-box, var(--ring) border-box;
   font-size: var(--fs-label); font-weight: 750; font-variant-numeric: tabular-nums; box-shadow: var(--shadow-1);
 }

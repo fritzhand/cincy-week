@@ -16,6 +16,11 @@ What `scripts/merge-research.mjs` merged into `data/`. Kept for provenance, not 
 Paths inside the reports point at the research session's scratch folders and the raw page captures (about 640 MB),
 which were not kept.
 
+`brand-fusion/` was added on Sep 25, 2026: `brand-fusion-2026.json`, what was read from https://brandfusioncincy.com/ (home,
+/know-before-you-go, /submit-challenges, /submit-nominations; robots.txt disallows the logged-in areas, which were not read),
+verbatim: the about text, agenda, sponsors and co-hosts, FAQ and the 39 confirmed brands. It was applied to `data/` once, by
+hand-maintenance rules (see `data/README.md`, "Brand Fusion").
+
 `blink-map/` was added after the snapshot (Sep 24, 2026): `blink-map-2026.json`, BLINK's official 2026 folding map (the PDF at
 https://www.blinkcincinnati.com/files/assets/2026blinkfoldingmapmap.pdf; the file itself stays in `.cache/blink-map/`) extracted
 by `scripts/extract-blink-map.py`: the 92 numbered entries as printed, their pins with georeferenced coordinates and an

@@ -3,7 +3,7 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import { copyRepo, build, read, editData, cleanup, fx } from "./helpers.mjs";
 
-let dir, home, blink, caw, ff, news, faq, about;
+let dir, home, blink, caw, ff, bf, news, faq, about;
 test("setup: the fixture builds", () => {
   dir = copyRepo();
   const r = build(dir);
@@ -12,13 +12,14 @@ test("setup: the fixture builds", () => {
   blink = read(dir, "docs/blink.html");
   caw = read(dir, "docs/art-week.html");
   ff = read(dir, "docs/fotofocus.html");
+  bf = read(dir, "docs/brand-fusion.html");
   news = read(dir, "docs/news.html");
   faq = read(dir, "docs/faq.html");
   about = read(dir, "docs/about.html");
 });
 test.after(() => dir && cleanup(dir));
 
-test("home: the week line is one list of nine day links with lanes in A S B F order and Thursday as the interchange", () => {
+test("home: the week line is one list of nine day links with lanes in A S B BF F order and Thursday as the interchange", () => {
   const days = [...home.matchAll(/<li class="wk-day( is-interchange)?" data-date="([^"]+)">\s*<a class="wk-link" href="schedule\.html\?day=\2">([\s\S]*?)<\/a>\s*<span class="wk-lanes" aria-hidden="true">([\s\S]*?)<\/span>(?:<span class="wk-x)?/g)];
   assert.equal(days.length, 9);
   assert.deepEqual(days.map((d) => d[2]), ["2026-10-03", "2026-10-04", "2026-10-05", "2026-10-06", "2026-10-07", "2026-10-08", "2026-10-09", "2026-10-10", "2026-10-11"]);
@@ -26,9 +27,9 @@ test("home: the week line is one list of nine day links with lanes in A S B F or
   const thu = days.find((d) => d[2] === "2026-10-08");
   assert.match(thu[3], /<span class="sr-only">, Thursday, October 8<span data-wk-today hidden> \(today\)<\/span>: Cincinnati Art Week, StartupCincy Week \(last day\), BLINK \(opening night\), FotoFocus Biennial\. Interchange day<\/span>/);
   assert.match(thu[3], /<b>Interchange: all three run<\/b> · <b>BLINK opens<\/b>/, "the phone summary is computed");
-  assert.deepEqual([...thu[4].matchAll(/<i data-prog="(\w+)"(?: data-run="(\w+)")?>/g)].map((m) => `${m[1]}:${m[2] || ""}`), ["caw:mid", "scw:end", "blink:start", "fotofocus:thru"]);
+  assert.deepEqual([...thu[4].matchAll(/<i data-prog="(\w+)"(?: data-run="(\w+)")?>/g)].map((m) => `${m[1]}:${m[2] || ""}`), ["caw:mid", "scw:end", "blink:start", "brandfusion:", "fotofocus:thru"]);
   const sat = home.match(/<li class="wk-day" data-date="2026-10-03">[\s\S]*?<\/li>/)[0];
-  assert.match(sat, /<i data-prog="caw" data-run="start"><\/i><i data-prog="scw"><\/i><i data-prog="blink"><\/i><i data-prog="fotofocus" data-run="thru"><span class="wk-off l">‹ Sep 30<\/span><\/i>/, "an absent program keeps its lane; FotoFocus runs off the edge");
+  assert.match(sat, /<i data-prog="caw" data-run="start"><\/i><i data-prog="scw"><\/i><i data-prog="blink"><\/i><i data-prog="brandfusion"><\/i><i data-prog="fotofocus" data-run="thru"><span class="wk-off l">‹ Sep 30<\/span><\/i>/, "an absent program keeps its lane; FotoFocus runs off the edge");
   assert.match(home, /<b class="wk-today" hidden>Today · <\/b>/, "today is marked by the client, never guessed by the build");
   assert.match(home, /<ul class="wk-key" aria-label="Programs, in lane order">/);
 });
@@ -39,7 +40,7 @@ test("home: phase blocks, the ticker, program cards, sourced fact tiles, highlig
   assert.match(home, /<div class="nn-group"><p class="nn-label label">First up<\/p><div data-first-up><a class="nn-item" href="schedule\.html\?e=/, "First up is in the HTML without JS");
   assert.match(home, /<div class="countdown" data-countdown hidden>/, "the countdown needs the clock: hidden until the client fills it");
   assert.match(home, /<div class="ticker">[\s\S]*?<a class="ticker-item" href="https:\/\/www\.cincinnati\.com\/[^"]+" target="_blank" rel="noopener">/);
-  assert.equal((home.match(/<article class="prog-card" data-prog="/g) || []).length, 4);
+  assert.equal((home.match(/<article class="prog-card" data-prog="/g) || []).length, 5);
   assert.match(home, /<article class="prog-card" data-prog="scw">[\s\S]*?<span class="nw">Union Hall, OTR<\/span>/);
   assert.match(home, /<article class="prog-card" data-prog="blink">[\s\S]*?<span class="nw">7:00–11:00 PM<\/span>/);
   assert.doesNotMatch(home, /class="stats stats-facts"/, "only the curated fact ids become tiles (the fixture has none)");
@@ -85,6 +86,25 @@ test("program pages: a draft schedule says so, only when the data says so; curat
     const h2 = read(d2, "docs/index.html");
     assert.match(h2, /<div class="stat" data-prog="blink"><span class="n">92<\/span><span class="lp">[\s\S]*?BLINK<\/span><span class="l">Artists \(2026\)<\/span><p class="src">Source: <a href="https:\/\/www\.blinkcincinnati\.com\//, "a fact tile cites its source");
   } finally { cleanup(d2); }
+});
+
+test("Brand Fusion: a lane on the week line that never counts as a festival; ways to take part; participants", () => {
+  // its lane runs Oct 6-7, yet the headline and the interchange still count the three festivals
+  const tue = home.match(/<li class="wk-day" data-date="2026-10-06">[\s\S]*?<\/li>/)[0];
+  assert.match(tue, /<i data-prog="brandfusion" data-run="start"><\/i>/);
+  assert.doesNotMatch(tue, /Brand Fusion opens/, "the phone summary tells the festivals' news");
+  assert.match(home, /<h1>Three festivals share one week, and on Thursday all three run at once\.<\/h1>/);
+  assert.match(home, /<article class="prog-card" data-prog="brandfusion">[\s\S]*?3 participating brands/);
+  assert.doesNotMatch(home.match(/<article class="prog-card" data-prog="brandfusion">[\s\S]*?<\/article>/)[0], /0 people/, "a zero count is left out");
+  // no prices: "How to take part" instead of tickets, and the admission fact says so
+  assert.match(bf, /<h2 id="tickets-h">How to take part </);
+  assert.doesNotMatch(bf, /Tickets and passes/);
+  assert.match(bf, /No public tickets listed · <a href="#tickets">2 ways to take part<\/a>/);
+  assert.match(bf, /<a href="mailto:dave@bluenorthky\.com">dave@bluenorthky\.com<\/a>, the address the organizers give/);
+  // participants: the organizers' sentence, quoted, and every name
+  assert.match(bf, /<ul class="prog-names"><li>ADM<\/li><li>Kroger<\/li><li>P&amp;G - Old Spice<\/li><\/ul>/);
+  assert.match(bf, /“These brands are confirmed for Brand Fusion 2026\.”/);
+  assert.match(bf, /<svg class="bullet lg" aria-hidden="true" focusable="false"><use href="#b-brandfusion"\/><\/svg>/);
 });
 
 test("news, FAQ and about pages", () => {

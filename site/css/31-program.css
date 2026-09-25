@@ -83,3 +83,7 @@
 .prog-fac-l { list-style: none; padding: 0; margin: 0; font-size: var(--fs-sm); }
 .prog-fac-l li { display: flex; flex-wrap: wrap; align-items: center; gap: 0 8px; min-height: var(--tap); border-bottom: 1px solid var(--border); }
 .prog-fac-l a { display: inline-flex; align-items: center; min-height: var(--tap); }
+
+/* participants (programs[].participants: Brand Fusion's confirmed brands): names in newspaper columns */
+.prog-names { columns: 3 12em; column-gap: var(--col-gap); list-style: none; padding: 0; margin: var(--sp-3) 0 0; }
+.prog-names li { break-inside: avoid; padding: 7px 0; border-top: 1px solid var(--border); font-size: var(--fs-sm); line-height: 1.3; }

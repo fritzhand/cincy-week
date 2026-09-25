@@ -14,6 +14,7 @@ export const PROGRAM_LABELS = {
   caw: { name: "Cincinnati Art Week", short: "Art Week" },
   scw: { name: "StartupCincy Week", short: "StartupCincy" },
   blink: { name: "BLINK", short: "BLINK" },
+  brandfusion: { name: "Brand Fusion", short: "Brand Fusion" },
   fotofocus: { name: "FotoFocus Biennial", short: "FotoFocus" },
   also: { name: "More happenings", short: "More" },
 };

@@ -824,5 +824,157 @@
     "q": "How do I use my Biennial Pass?",
     "a": "Once you have the pass downloaded to your mobile wallet or saved in your photos, you can explore our venue map and exhibitions page to plan your Biennial adventure. Your Pass will only be scanned upon entry during the Opening Program events. For access to Biennial exhibitions throughout October, simply show your Pass to staff when you visit the venue. Remember, your Pass is valid September 30th–October 31st.",
     "source_url": "https://www.fotofocus.org/biennial/2026/biennialpass"
+  },
+  {
+    "id": "brandfusion-what-is-brand-fusion",
+    "program": "brandfusion",
+    "topic": "Event Overview",
+    "q": "What is Brand Fusion?",
+    "a": "Brand Fusion is a curated matchmaking event that connects Fortune 500 and Emerging brand leaders with innovative startups through structured 15-minute meetings. Our team personally curates each pairing, drawing on deep knowledge of both sides to create a full day of high-impact meetings.",
+    "source_url": "https://brandfusioncincy.com/know-before-you-go"
+  },
+  {
+    "id": "brandfusion-when-is-brand-fusion-2026-powered-by-markup-ai",
+    "program": "brandfusion",
+    "topic": "Event Overview",
+    "q": "When is Brand Fusion 2026 Powered by Markup AI?",
+    "a": "Brand Fusion 2026 Powered by Markup AI takes place over two days: a Welcome Dinner on Tuesday, October 6, and a full Matchmaking Day on Wednesday, October 7, 2026.",
+    "source_url": "https://brandfusioncincy.com/know-before-you-go"
+  },
+  {
+    "id": "brandfusion-who-should-attend",
+    "program": "brandfusion",
+    "topic": "Event Overview",
+    "q": "Who should attend?",
+    "a": "Brand Fusion is designed for brand-side marketing and innovation leaders, startup founders and executives, and venture capitalists / accelerator partners who nominate startups.",
+    "source_url": "https://brandfusioncincy.com/know-before-you-go"
+  },
+  {
+    "id": "brandfusion-where-is-the-welcome-dinner-day-1",
+    "program": "brandfusion",
+    "topic": "Venues & Locations",
+    "q": "Where is the Welcome Dinner (Day 1)?",
+    "a": "The Welcome Dinner is held at SparkHaus, 727 Madison Ave, Covington, KY. It's walkable from Hotel Covington.",
+    "source_url": "https://brandfusioncincy.com/know-before-you-go"
+  },
+  {
+    "id": "brandfusion-where-is-matchmaking-day-day-2",
+    "program": "brandfusion",
+    "topic": "Venues & Locations",
+    "q": "Where is Matchmaking Day (Day 2)?",
+    "a": "Matchmaking Day takes place at TQL Stadium, 1508 John St, Cincinnati, OH. Brand-startup meetings are held in the stadium's private suites, with meals and kickoff in the Tunnel Club.",
+    "source_url": "https://brandfusioncincy.com/know-before-you-go"
+  },
+  {
+    "id": "brandfusion-how-far-apart-are-the-venues",
+    "program": "brandfusion",
+    "topic": "Venues & Locations",
+    "q": "How far apart are the venues?",
+    "a": "SparkHaus and TQL Stadium are both within a short drive of Hotel Covington. SparkHaus is walkable from the hotel. TQL Stadium is approximately a 5-minute drive across the river.",
+    "source_url": "https://brandfusioncincy.com/know-before-you-go"
+  },
+  {
+    "id": "brandfusion-what-happens-at-the-welcome-dinner",
+    "program": "brandfusion",
+    "topic": "Schedule & Format",
+    "q": "What happens at the Welcome Dinner?",
+    "a": "The Welcome Dinner on Tuesday evening is an opportunity to meet fellow attendees in a relaxed setting. It includes cocktails starting at 5 PM, dinner at 6 PM, a bourbon tasting, and desserts at 7 PM.",
+    "source_url": "https://brandfusioncincy.com/know-before-you-go"
+  },
+  {
+    "id": "brandfusion-how-does-matchmaking-day-work",
+    "program": "brandfusion",
+    "topic": "Schedule & Format",
+    "q": "How does Matchmaking Day work?",
+    "a": "You'll receive a personalized meeting schedule before the event. On Wednesday, you'll have back-to-back 15-minute meetings in private suites at TQL Stadium from 8:40 AM to 12:45 PM, with a snack break mid-morning. The day starts with breakfast and a kickoff at 7:30 AM and ends with a closing lunch.",
+    "source_url": "https://brandfusioncincy.com/know-before-you-go"
+  },
+  {
+    "id": "brandfusion-how-long-are-the-meetings",
+    "program": "brandfusion",
+    "topic": "Schedule & Format",
+    "q": "How long are the meetings?",
+    "a": "Each brand-startup meeting is 15 minutes. Brands stay in their assigned suite while startups rotate between suites throughout the day.",
+    "source_url": "https://brandfusioncincy.com/know-before-you-go"
+  },
+  {
+    "id": "brandfusion-will-i-know-my-schedule-in-advance",
+    "program": "brandfusion",
+    "topic": "Schedule & Format",
+    "q": "Will I know my schedule in advance?",
+    "a": "Yes. Your personalized meeting schedule will be shared before the event so you can prepare for each meeting.",
+    "source_url": "https://brandfusioncincy.com/know-before-you-go"
+  },
+  {
+    "id": "brandfusion-what-is-the-recommended-hotel",
+    "program": "brandfusion",
+    "topic": "Travel & Accommodations",
+    "q": "What is the recommended hotel?",
+    "a": "Hotel Covington, 638 Madison Avenue, Covington, KY 41011. Walkable to the Welcome Dinner at SparkHaus and about five minutes from TQL Stadium. Use our booking link below to reserve a room.",
+    "source_url": "https://brandfusioncincy.com/know-before-you-go"
+  },
+  {
+    "id": "brandfusion-what-airport-should-i-fly-into",
+    "program": "brandfusion",
+    "topic": "Travel & Accommodations",
+    "q": "What airport should I fly into?",
+    "a": "Cincinnati/Northern Kentucky International Airport (CVG) is approximately 15 minutes from Hotel Covington and the event venues.",
+    "source_url": "https://brandfusioncincy.com/know-before-you-go"
+  },
+  {
+    "id": "brandfusion-is-parking-available",
+    "program": "brandfusion",
+    "topic": "Travel & Accommodations",
+    "q": "Is parking available?",
+    "a": "Parking information for both SparkHaus and TQL Stadium will be shared closer to the event. Both venues have nearby parking options.",
+    "source_url": "https://brandfusioncincy.com/know-before-you-go"
+  },
+  {
+    "id": "brandfusion-what-should-i-wear",
+    "program": "brandfusion",
+    "topic": "What to Expect",
+    "q": "What should I wear?",
+    "a": "Business casual is the recommended dress code for both the Welcome Dinner and Matchmaking Day. Comfortable shoes are recommended as you'll be moving between suites.",
+    "source_url": "https://brandfusioncincy.com/know-before-you-go"
+  },
+  {
+    "id": "brandfusion-should-i-bring-materials-or-a-presentation",
+    "program": "brandfusion",
+    "topic": "What to Expect",
+    "q": "Should I bring materials or a presentation?",
+    "a": "Startups: We recommend a brief pitch or demo that fits within the 15-minute meeting window. Keep it conversational rather than a formal presentation. Brands: Come prepared to discuss your challenges and what solutions you're looking for.",
+    "source_url": "https://brandfusioncincy.com/know-before-you-go"
+  },
+  {
+    "id": "brandfusion-will-meals-be-provided",
+    "program": "brandfusion",
+    "topic": "What to Expect",
+    "q": "Will meals be provided?",
+    "a": "Yes. The Welcome Dinner on Day 1 and breakfast plus a closing lunch on Day 2 are all included.",
+    "source_url": "https://brandfusioncincy.com/know-before-you-go"
+  },
+  {
+    "id": "brandfusion-is-there-wi-fi-at-the-venues",
+    "program": "brandfusion",
+    "topic": "What to Expect",
+    "q": "Is there Wi-Fi at the venues?",
+    "a": "Yes, Wi-Fi is available at both venues. Details will be provided on-site.",
+    "source_url": "https://brandfusioncincy.com/know-before-you-go"
+  },
+  {
+    "id": "brandfusion-who-do-i-contact-with-questions",
+    "program": "brandfusion",
+    "topic": "Contact & Support",
+    "q": "Who do I contact with questions?",
+    "a": "Reach out to the Brand Fusion team at dave@bluenorthky.com for any questions about the event, logistics, or your schedule.",
+    "source_url": "https://brandfusioncincy.com/know-before-you-go"
+  },
+  {
+    "id": "brandfusion-what-if-i-need-to-cancel-or-change-my-attendance",
+    "program": "brandfusion",
+    "topic": "Contact & Support",
+    "q": "What if I need to cancel or change my attendance?",
+    "a": "Please contact us as soon as possible at dave@bluenorthky.com so we can adjust the meeting schedule accordingly.",
+    "source_url": "https://brandfusioncincy.com/know-before-you-go"
   }
 ]

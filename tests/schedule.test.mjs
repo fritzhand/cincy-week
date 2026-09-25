@@ -33,7 +33,7 @@ test("every event appears once, as a card, with the contract attributes", () => 
   assert.match(kick, /<details class="ev-more"><summary>Details<\/summary>/, "the no-JS body");
 });
 
-test("day strip: a tab per day plus All, four ticks in order, names that say the day, count and programs", () => {
+test("day strip: a tab per day plus All, five ticks in order, names that say the day, count and programs", () => {
   const tabs = [...sched.matchAll(/<a class="daytab[^"]*" id="dt-([^"]+)" href="#[^"]+" data-day="[^"]+"[^>]*aria-label="([^"]+)"[^>]*>([\s\S]*?)<\/a>/g)];
   assert.ok(tabs.length >= 10, `${tabs.length} tabs`);
   assert.equal(tabs[tabs.length - 1][1], "all");
@@ -41,7 +41,7 @@ test("day strip: a tab per day plus All, four ticks in order, names that say the
   assert.match(thu[2], /^Thursday, October 8, \d+ events?\. Cincinnati Art Week, StartupCincy Week \(last day\), BLINK \(opening night\), FotoFocus Biennial$/);
   assert.equal((thu[3].match(/<i data-prog="(caw|scw|blink|fotofocus)"><\/i>/g) || []).join(""), '<i data-prog="caw"></i><i data-prog="scw"></i><i data-prog="blink"></i><i data-prog="fotofocus"></i>');
   const sat = tabs.find((t) => t[1] === "2026-10-03");
-  assert.match(sat[3], /<i data-prog="caw"><\/i><i><\/i><i><\/i><i data-prog="fotofocus"><\/i>/, "an absent program keeps its place");
+  assert.match(sat[3], /<i data-prog="caw"><\/i><i><\/i><i><\/i><i><\/i><i data-prog="fotofocus"><\/i>/, "an absent program keeps its place");
   // without JS the tabs are links to the day sections
   for (const t of tabs.slice(0, -1)) assert.ok(sched.includes(`id="d-${t[1]}"`), `section d-${t[1]}`);
   assert.match(sched, /<p class="tick-legend"/);

@@ -101,7 +101,8 @@ export function pages(ctx) {
     const b = s.room_block;
     const closed = /^closed/i.test(b.status || "");
     const rows = [["Group code", b.group_code], ["Rate", b.rate], ["Dates", fmtDates(b.dates)], ["Book by", fmtISO(b.deadline)]];
-    return `<div class="block" data-prog="${attr(b.program)}"><p class="bh label">${h.bullet(b.program)}${esc(c.progName(b.program))} room block</p><dl>${rows.map(([k, v]) => `<dt>${esc(k)}</dt><dd>${v ? esc(v) : '<span class="unk">not published</span>'}</dd>`).join("")}${b.status ? `<dt>Status</dt><dd>${closed ? c.badge("warn", "Closed") : ""} <span class="st-status">${esc(closed ? b.status.replace(/^closed:\s*/i, "") : b.status)}</span></dd>` : ""}</dl>${b.booking_url ? `<p class="bk">${h.extLink(b.booking_url, `${closed ? "Booking link as published" : "Book the room block"}${h.icon("ext")}`, `btn ${closed ? "btn-secondary" : "btn-primary"} btn-sm`)}</p>` : ""}</div>`;
+    // b.label: what the program calls it when it is not a published block (Brand Fusion's "recommended hotel" and booking link)
+    return `<div class="block" data-prog="${attr(b.program)}"><p class="bh label">${h.bullet(b.program)}${esc(c.progName(b.program))} ${esc(b.label || "room block")}</p><dl>${rows.map(([k, v]) => `<dt>${esc(k)}</dt><dd>${v ? esc(v) : '<span class="unk">not published</span>'}</dd>`).join("")}${b.status ? `<dt>Status</dt><dd>${closed ? c.badge("warn", "Closed") : ""} <span class="st-status">${esc(closed ? b.status.replace(/^closed:\s*/i, "") : b.status)}</span></dd>` : ""}</dl>${b.booking_url ? `<p class="bk">${h.extLink(b.booking_url, `${closed ? "Booking link as published" : b.label ? "Book with the organizers' link" : "Book the room block"}${h.icon("ext")}`, `btn ${closed ? "btn-secondary" : "btn-primary"} btn-sm`)}</p>` : ""}${b.source_url && b.source_url !== s.source_url ? srcHost(b.source_url) : ""}</div>`;
   };
   const stayCard = (root, s) => {
     const addr = [s.address, s.hood && !(s.address || "").includes(hoodShort(s.hood)) ? hoodShort(s.hood) : ""].filter(Boolean).join(" · ");
@@ -123,7 +124,7 @@ ${srcHost(s.source_url)}</article>`;
     toc: [["st-blocks", "Room blocks"], ...orderedGroups.map((g) => [g.id, g.title])],
     body: (root) => `${c.pageHead({ num: 4, kicker: `Visit · ${h.plural(db.stays.length, "place", "places")} to stay`, title: "Where to stay", lede: "Program room blocks come first, exactly as published. Then hotels and rentals by neighborhood, with estimated walking times to the week's hubs." })}
 ${c.callout("tip", `<p>Walking times are estimates: the straight-line distance × 1.3, at 80 m a minute. Chips show minutes to ${esc(h.listJoin(hubLine))}; beyond a 45-minute walk they show the distance instead.</p>`, { flag: "How to read the cards" })}
-<section class="section" id="st-blocks" aria-labelledby="st-blocks-h"><div class="sec-head oxford"><p class="sec-kicker label">${c.secNum(4)}Room blocks</p><h2 id="st-blocks-h">Program room blocks</h2></div>
+<section class="section" id="st-blocks" aria-labelledby="st-blocks-h"><div class="sec-head oxford"><p class="sec-kicker label">${c.secNum(4)}Room blocks</p><h2 id="st-blocks-h">${blocks.some((s) => s.room_block.label) ? "Program room blocks and hotels" : "Program room blocks"}</h2></div>
 ${blocks.length ? `<div class="stays">${blocks.map((s) => stayCard(root, s)).join("")}</div>` : `<p class="unk">No program has published a room block.</p>`}
 <p class="faint st-note">Cincinnati Art Week and BLINK list no room block.${(() => { const bp = db.stays.find((s) => s.booking_portal)?.booking_portal; return bp ? ` BLINK links a hotel booking portal at ${esc(h.hostOf(bp.url))} instead. It shows no group code or discounted rate; hotels on it are marked below.` : ""; })()}</p>
 </section>
@@ -231,7 +232,7 @@ ${stations.length ? `<h3 class="sub-h">Stations, in loop order</h3><ol class="ga
 <div class="hood-cols">
 ${col("Key venues", keyV, (v) => `<li><a href="${root}venues/${attr(v.id)}.html">${v.stall ? `<span class="stall s" aria-hidden="true">${v.stall}</span>` : `<span class="stall s is-off" aria-hidden="true">–</span>`}<span><b>${esc(v.name)}</b><span class="faint">${esc(v.events.filter((e) => e.live).length ? h.plural(v.events.filter((e) => e.live).length, "event") : v.address || "")}</span></span></a></li>`)}
 ${col("Food and drink", fd.slice(0, 8), (f) => `<li><a href="${root}eat-drink.html#${attr(f.id)}"><span><b>${esc(f.name)}</b><span class="faint">${esc(f.kind === "drink" ? "Drink" : "Food")}</span></span></a></li>`)}
-${col("Places to stay", st.slice(0, 6), (s) => `<li><a href="${root}stay.html#${attr(s.id)}"><span><b>${esc(s.name)}</b>${s.room_block ? `<span class="faint">${esc(c.progName(s.room_block.program))} room block</span>` : ""}</span></a></li>`)}
+${col("Places to stay", st.slice(0, 6), (s) => `<li><a href="${root}stay.html#${attr(s.id)}"><span><b>${esc(s.name)}</b>${s.room_block ? `<span class="faint">${esc(c.progName(s.room_block.program))} ${esc(s.room_block.label || "room block")}</span>` : ""}</span></a></li>`)}
 </div>
 ${lm.length ? `<h3 class="sub-h">Landmarks</h3><div class="gps">${lm.map((x) => placeCard(root, x)).join("")}</div>` : ""}
 ${c.sourceLine([p.source_url])}</section>`;
@@ -277,10 +278,10 @@ ${dirEmpty(c, { title: "Nothing matches", glyph: "utensils" })}
 }
 
 export function search(ctx) {
-  const { db } = ctx;
+  const { db, c } = ctx;
   const label = { neighborhood: "Neighborhood", landmark: "Landmark", food: "Food", drink: "Drink", transit: "Getting around", parking: "Parking", bike: "Bikes", rideshare: "Rides", airport: "Airport", accessibility: "Accessibility", tip: "Tip" };
   return [
-    ...db.stays.map((s) => ({ k: "st", id: s.id, t: s.name, s: [s.room_block ? "Room block" : "Hotel", s.address].filter(Boolean).join(" · "), u: `stay.html#${s.id}`, p: s.room_block?.program })),
+    ...db.stays.map((s) => ({ k: "st", id: s.id, t: s.name, s: [s.room_block ? (s.room_block.label ? `${c.progName(s.room_block.program)} ${s.room_block.label}` : "Room block") : "Hotel", s.address].filter(Boolean).join(" · "), u: `stay.html#${s.id}`, p: s.room_block?.program })),
     ...db.places.map((p) => ({ k: "pl", id: p.id, t: p.name, s: p.kind === "facility" ? [FACILITY_LABEL[p.facility], p.map_no != null ? `map No. ${p.map_no}` : "", p.zone].filter(Boolean).join(" · ") : label[p.kind] || p.kind, u: `${PAGE_OF_KIND[p.kind] || "getting-around"}.html#${p.id}`, ...(p.kind === "facility" ? { p: p.program || undefined, ...(p.facility === "restroom" || p.facility === "oasis-station" ? { g: "restroom bathroom toilet" } : {}) } : {}) })),
   ];
 }

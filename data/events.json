@@ -15500,5 +15500,458 @@
     "image_url": "https://www.fotofocus.org/wp-content/uploads/2026/05/Taft_McKee-Harper_1_01_Untitled_1945-50s_gelatin_silver_print_Harper_collection.jpg",
     "source_url": "https://www.fotofocus.org/fotofocus-exhibition/edie-mckee-harper-modernist-at-play/",
     "notes": "Exhibition dates do not overlap Oct 3-11, 2026 (listed for completeness of the Biennial). Venue hours: Wed–Mon 10am–5pm"
+  },
+  {
+    "id": "brandfusion-2026-10-06-welcome-drinks",
+    "program": "brandfusion",
+    "title": "Welcome Drinks",
+    "kind": "networking",
+    "date": "2026-10-06",
+    "end_date": null,
+    "start": "17:00",
+    "end": null,
+    "time_text": "5:00 PM",
+    "all_day": false,
+    "hours_text": null,
+    "occurrences": null,
+    "venue_id": "sparkhaus",
+    "room": null,
+    "location_text": null,
+    "description": "The Welcome Dinner on Tuesday evening is an opportunity to meet fellow attendees in a relaxed setting. It includes cocktails starting at 5 PM, dinner at 6 PM, a bourbon tasting, and desserts at 7 PM.",
+    "tracks": [],
+    "tags": [],
+    "people": [],
+    "people_roles": {},
+    "credits": [
+      {
+        "role": "Sponsored by",
+        "names": [
+          "Big Happy"
+        ]
+      }
+    ],
+    "work_ids": [],
+    "org_ids": [
+      "big-happy"
+    ],
+    "cost": null,
+    "is_free": null,
+    "registration_url": null,
+    "status": "scheduled",
+    "featured": false,
+    "image_url": null,
+    "source_url": "https://brandfusioncincy.com/",
+    "notes": "Brand Fusion's Event Agenda (brandfusioncincy.com, read 2026-09-25): Day 1, 5:00 PM, sponsored by Big Happy. The agenda lists no end time. Description from the Know Before You Go page. Brand Fusion publishes no tickets: brands submit challenges and investors nominate startups."
+  },
+  {
+    "id": "brandfusion-2026-10-06-dinner",
+    "program": "brandfusion",
+    "title": "Dinner",
+    "kind": "networking",
+    "date": "2026-10-06",
+    "end_date": null,
+    "start": "18:00",
+    "end": null,
+    "time_text": "6:00 PM",
+    "all_day": false,
+    "hours_text": null,
+    "occurrences": null,
+    "venue_id": "sparkhaus",
+    "room": null,
+    "location_text": null,
+    "description": "The Welcome Dinner on Tuesday evening is an opportunity to meet fellow attendees in a relaxed setting. It includes cocktails starting at 5 PM, dinner at 6 PM, a bourbon tasting, and desserts at 7 PM.",
+    "tracks": [],
+    "tags": [],
+    "people": [],
+    "people_roles": {},
+    "credits": [
+      {
+        "role": "Sponsored by",
+        "names": [
+          "Air"
+        ]
+      }
+    ],
+    "work_ids": [],
+    "org_ids": [
+      "air"
+    ],
+    "cost": null,
+    "is_free": null,
+    "registration_url": null,
+    "status": "scheduled",
+    "featured": false,
+    "image_url": null,
+    "source_url": "https://brandfusioncincy.com/",
+    "notes": "Brand Fusion's Event Agenda (brandfusioncincy.com, read 2026-09-25): Day 1, 6:00 PM, sponsored by Air. The agenda lists no end time. Description from the Know Before You Go page. Brand Fusion publishes no tickets: brands submit challenges and investors nominate startups."
+  },
+  {
+    "id": "brandfusion-2026-10-06-bourbon-tasting",
+    "program": "brandfusion",
+    "title": "Bourbon Tasting",
+    "kind": "networking",
+    "date": "2026-10-06",
+    "end_date": null,
+    "start": "18:00",
+    "end": null,
+    "time_text": "6:00 PM",
+    "all_day": false,
+    "hours_text": null,
+    "occurrences": null,
+    "venue_id": "sparkhaus",
+    "room": null,
+    "location_text": null,
+    "description": "The Welcome Dinner on Tuesday evening is an opportunity to meet fellow attendees in a relaxed setting. It includes cocktails starting at 5 PM, dinner at 6 PM, a bourbon tasting, and desserts at 7 PM.",
+    "tracks": [],
+    "tags": [],
+    "people": [],
+    "people_roles": {},
+    "credits": [
+      {
+        "role": "Sponsored by",
+        "names": [
+          "Gumloop"
+        ]
+      }
+    ],
+    "work_ids": [],
+    "org_ids": [
+      "gumloop"
+    ],
+    "cost": null,
+    "is_free": null,
+    "registration_url": null,
+    "status": "scheduled",
+    "featured": false,
+    "image_url": null,
+    "source_url": "https://brandfusioncincy.com/",
+    "notes": "Brand Fusion's Event Agenda (brandfusioncincy.com, read 2026-09-25): Day 1, 6:00 PM, sponsored by Gumloop. The agenda lists no end time. Description from the Know Before You Go page. Brand Fusion publishes no tickets: brands submit challenges and investors nominate startups."
+  },
+  {
+    "id": "brandfusion-2026-10-06-desserts",
+    "program": "brandfusion",
+    "title": "Desserts",
+    "kind": "networking",
+    "date": "2026-10-06",
+    "end_date": null,
+    "start": "19:00",
+    "end": null,
+    "time_text": "7:00 PM",
+    "all_day": false,
+    "hours_text": null,
+    "occurrences": null,
+    "venue_id": "sparkhaus",
+    "room": null,
+    "location_text": null,
+    "description": "The Welcome Dinner on Tuesday evening is an opportunity to meet fellow attendees in a relaxed setting. It includes cocktails starting at 5 PM, dinner at 6 PM, a bourbon tasting, and desserts at 7 PM.",
+    "tracks": [],
+    "tags": [],
+    "people": [],
+    "people_roles": {},
+    "credits": [
+      {
+        "role": "Sponsored by",
+        "names": [
+          "Outward Intelligence"
+        ]
+      }
+    ],
+    "work_ids": [],
+    "org_ids": [
+      "outward-intelligence"
+    ],
+    "cost": null,
+    "is_free": null,
+    "registration_url": null,
+    "status": "scheduled",
+    "featured": false,
+    "image_url": null,
+    "source_url": "https://brandfusioncincy.com/",
+    "notes": "Brand Fusion's Event Agenda (brandfusioncincy.com, read 2026-09-25): Day 1, 7:00 PM, sponsored by Outward Intelligence. The agenda lists no end time. Description from the Know Before You Go page. Brand Fusion publishes no tickets: brands submit challenges and investors nominate startups."
+  },
+  {
+    "id": "brandfusion-2026-10-07-registration-begins",
+    "program": "brandfusion",
+    "title": "Registration Begins",
+    "kind": "other",
+    "date": "2026-10-07",
+    "end_date": null,
+    "start": "07:30",
+    "end": null,
+    "time_text": "7:30 AM",
+    "all_day": false,
+    "hours_text": null,
+    "occurrences": null,
+    "venue_id": "tql-stadium",
+    "room": null,
+    "location_text": null,
+    "description": null,
+    "tracks": [],
+    "tags": [],
+    "people": [],
+    "people_roles": {},
+    "credits": [
+      {
+        "role": "Sponsored by",
+        "names": [
+          "Limy AI"
+        ]
+      }
+    ],
+    "work_ids": [],
+    "org_ids": [
+      "limy-ai"
+    ],
+    "cost": null,
+    "is_free": null,
+    "registration_url": null,
+    "status": "scheduled",
+    "featured": false,
+    "image_url": null,
+    "source_url": "https://brandfusioncincy.com/",
+    "notes": "Brand Fusion's Event Agenda (brandfusioncincy.com, read 2026-09-25): Day 2, 7:30 AM, sponsored by Limy AI. The agenda lists no end time. Brand Fusion publishes no tickets: brands submit challenges and investors nominate startups."
+  },
+  {
+    "id": "brandfusion-2026-10-07-breakfast-in-tunnel-club",
+    "program": "brandfusion",
+    "title": "Breakfast in Tunnel Club",
+    "kind": "networking",
+    "date": "2026-10-07",
+    "end_date": null,
+    "start": "07:30",
+    "end": null,
+    "time_text": "7:30 AM",
+    "all_day": false,
+    "hours_text": null,
+    "occurrences": null,
+    "venue_id": "tql-stadium",
+    "room": "Tunnel Club",
+    "location_text": null,
+    "description": "Matchmaking Day takes place at TQL Stadium, 1508 John St, Cincinnati, OH. Brand-startup meetings are held in the stadium's private suites, with meals and kickoff in the Tunnel Club.",
+    "tracks": [],
+    "tags": [],
+    "people": [],
+    "people_roles": {},
+    "credits": [
+      {
+        "role": "Sponsored by",
+        "names": [
+          "Glimpse"
+        ]
+      }
+    ],
+    "work_ids": [],
+    "org_ids": [
+      "glimpse"
+    ],
+    "cost": null,
+    "is_free": null,
+    "registration_url": null,
+    "status": "scheduled",
+    "featured": false,
+    "image_url": null,
+    "source_url": "https://brandfusioncincy.com/",
+    "notes": "Brand Fusion's Event Agenda (brandfusioncincy.com, read 2026-09-25): Day 2, 7:30 AM, sponsored by Glimpse. The agenda lists no end time. Description from the Know Before You Go page. Brand Fusion publishes no tickets: brands submit challenges and investors nominate startups."
+  },
+  {
+    "id": "brandfusion-2026-10-07-welcome-kickoff-in-tunnel-club",
+    "program": "brandfusion",
+    "title": "Welcome & Kickoff in Tunnel Club",
+    "kind": "other",
+    "date": "2026-10-07",
+    "end_date": null,
+    "start": "08:15",
+    "end": null,
+    "time_text": "8:15 AM",
+    "all_day": false,
+    "hours_text": null,
+    "occurrences": null,
+    "venue_id": "tql-stadium",
+    "room": "Tunnel Club",
+    "location_text": null,
+    "description": "Matchmaking Day takes place at TQL Stadium, 1508 John St, Cincinnati, OH. Brand-startup meetings are held in the stadium's private suites, with meals and kickoff in the Tunnel Club.",
+    "tracks": [],
+    "tags": [],
+    "people": [],
+    "people_roles": {},
+    "credits": [
+      {
+        "role": "Sponsored by",
+        "names": [
+          "Markup AI"
+        ]
+      }
+    ],
+    "work_ids": [],
+    "org_ids": [
+      "markup-ai"
+    ],
+    "cost": null,
+    "is_free": null,
+    "registration_url": null,
+    "status": "scheduled",
+    "featured": false,
+    "image_url": null,
+    "source_url": "https://brandfusioncincy.com/",
+    "notes": "Brand Fusion's Event Agenda (brandfusioncincy.com, read 2026-09-25): Day 2, 8:15 AM, sponsored by Markup AI. The agenda lists no end time. Description from the Know Before You Go page. Brand Fusion publishes no tickets: brands submit challenges and investors nominate startups."
+  },
+  {
+    "id": "brandfusion-2026-10-07-brand-startup-meetings-in-suites",
+    "program": "brandfusion",
+    "title": "Brand & Startup Meetings in Suites",
+    "kind": "networking",
+    "date": "2026-10-07",
+    "end_date": null,
+    "start": "08:40",
+    "end": "12:45",
+    "time_text": "8:40 AM – 12:45 PM",
+    "all_day": false,
+    "hours_text": null,
+    "occurrences": null,
+    "venue_id": "tql-stadium",
+    "room": "Suites",
+    "location_text": null,
+    "description": "You'll receive a personalized meeting schedule before the event. On Wednesday, you'll have back-to-back 15-minute meetings in private suites at TQL Stadium from 8:40 AM to 12:45 PM, with a snack break mid-morning. The day starts with breakfast and a kickoff at 7:30 AM and ends with a closing lunch.\n\nEach brand-startup meeting is 15 minutes. Brands stay in their assigned suite while startups rotate between suites throughout the day.",
+    "tracks": [],
+    "tags": [],
+    "people": [],
+    "people_roles": {},
+    "credits": [],
+    "work_ids": [],
+    "org_ids": [],
+    "cost": null,
+    "is_free": null,
+    "registration_url": null,
+    "status": "scheduled",
+    "featured": false,
+    "image_url": null,
+    "source_url": "https://brandfusioncincy.com/",
+    "notes": "Brand Fusion's Event Agenda (brandfusioncincy.com, read 2026-09-25): Day 2, 8:40 AM–12:45 PM. Description from the Know Before You Go page. Brand Fusion publishes no tickets: brands submit challenges and investors nominate startups."
+  },
+  {
+    "id": "brandfusion-2026-10-07-startup-lounge",
+    "program": "brandfusion",
+    "title": "Startup Lounge",
+    "kind": "networking",
+    "date": "2026-10-07",
+    "end_date": null,
+    "start": "08:40",
+    "end": "12:45",
+    "time_text": "8:40 AM – 12:45 PM",
+    "all_day": false,
+    "hours_text": null,
+    "occurrences": null,
+    "venue_id": "tql-stadium",
+    "room": null,
+    "location_text": null,
+    "description": null,
+    "tracks": [],
+    "tags": [],
+    "people": [],
+    "people_roles": {},
+    "credits": [
+      {
+        "role": "Sponsored by",
+        "names": [
+          "Fidelity Private Shares"
+        ]
+      }
+    ],
+    "work_ids": [],
+    "org_ids": [
+      "fidelity-private-shares"
+    ],
+    "cost": null,
+    "is_free": null,
+    "registration_url": null,
+    "status": "scheduled",
+    "featured": false,
+    "image_url": null,
+    "source_url": "https://brandfusioncincy.com/",
+    "notes": "Brand Fusion's Event Agenda (brandfusioncincy.com, read 2026-09-25): Day 2, 8:40 AM–12:45 PM, sponsored by Fidelity Private Shares. Brand Fusion publishes no tickets: brands submit challenges and investors nominate startups."
+  },
+  {
+    "id": "brandfusion-2026-10-07-snack-break",
+    "program": "brandfusion",
+    "title": "Snack Break",
+    "kind": "other",
+    "date": "2026-10-07",
+    "end_date": null,
+    "start": "10:35",
+    "end": "10:50",
+    "time_text": "10:35 AM – 10:50 AM",
+    "all_day": false,
+    "hours_text": null,
+    "occurrences": null,
+    "venue_id": "tql-stadium",
+    "room": null,
+    "location_text": null,
+    "description": null,
+    "tracks": [],
+    "tags": [],
+    "people": [],
+    "people_roles": {},
+    "credits": [
+      {
+        "role": "Sponsored by",
+        "names": [
+          "Kana"
+        ]
+      }
+    ],
+    "work_ids": [],
+    "org_ids": [
+      "kana"
+    ],
+    "cost": null,
+    "is_free": null,
+    "registration_url": null,
+    "status": "scheduled",
+    "featured": false,
+    "image_url": null,
+    "source_url": "https://brandfusioncincy.com/",
+    "notes": "Brand Fusion's Event Agenda (brandfusioncincy.com, read 2026-09-25): Day 2, 10:35 AM–10:50 AM, sponsored by Kana. Brand Fusion publishes no tickets: brands submit challenges and investors nominate startups."
+  },
+  {
+    "id": "brandfusion-2026-10-07-closing-lunch-in-tunnel-club",
+    "program": "brandfusion",
+    "title": "Closing Lunch in Tunnel Club",
+    "kind": "networking",
+    "date": "2026-10-07",
+    "end_date": null,
+    "start": "12:45",
+    "end": "14:00",
+    "time_text": "12:45 PM – 2:00 PM",
+    "all_day": false,
+    "hours_text": null,
+    "occurrences": null,
+    "venue_id": "tql-stadium",
+    "room": "Tunnel Club",
+    "location_text": null,
+    "description": "Matchmaking Day takes place at TQL Stadium, 1508 John St, Cincinnati, OH. Brand-startup meetings are held in the stadium's private suites, with meals and kickoff in the Tunnel Club.",
+    "tracks": [],
+    "tags": [],
+    "people": [],
+    "people_roles": {},
+    "credits": [
+      {
+        "role": "Sponsored by",
+        "names": [
+          "Brand Innovators"
+        ]
+      }
+    ],
+    "work_ids": [],
+    "org_ids": [
+      "brand-innovators"
+    ],
+    "cost": null,
+    "is_free": null,
+    "registration_url": null,
+    "status": "scheduled",
+    "featured": false,
+    "image_url": null,
+    "source_url": "https://brandfusioncincy.com/",
+    "notes": "Brand Fusion's Event Agenda (brandfusioncincy.com, read 2026-09-25): Day 2, 12:45 PM–2:00 PM, sponsored by Brand Innovators. Description from the Know Before You Go page. Brand Fusion publishes no tickets: brands submit challenges and investors nominate startups."
   }
 ]

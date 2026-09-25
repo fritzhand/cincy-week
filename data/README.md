@@ -368,3 +368,21 @@ after it). Every edited record says what and why in `notes`, between `BLINK offi
 - events: the drone shows (Thu 8:30 PM; Fri, Sat, Sun 8 and 10 PM) and the opening ceremony (Thu 4–9 PM) match the map;
   none added.
 - programs: BLINK's `maps` lists the PDF.
+
+## Brand Fusion (2026-09-25, hand maintenance after the merge)
+
+Added from https://brandfusioncincy.com/ as read on Sep 25, 2026 (recorded verbatim in
+`research/brand-fusion/brand-fusion-2026.json`); re-running the merge drops these records. Brand Fusion is not on
+StartupCincy Week's agenda page, so it is its own program (`brandfusion`), not `scw`.
+- programs: `brandfusion` (Oct 6–7; tagline, about text, stats, history and day themes verbatim; `tickets` are the three ways
+  to take part, with no price; `participants` = the 39 brands the nomination portal lists as confirmed).
+- events: the 11 agenda items (Day 1 at SparkHaus, Day 2 at TQL Stadium), times as published, `end: null` where the agenda
+  gives none; descriptions are the Know Before You Go answers about that part of the day; sponsors in `credits` and `org_ids`.
+- venues: `sparkhaus` (appended; address as Brand Fusion gives it, ZIP and coordinates from OpenStreetMap). `tql-stadium`
+  keeps its record; its notes add Brand Fusion's address for it (1508 John St).
+- orgs: 11 sponsors (tier = the label under "Our Sponsors", `tier_rank` in that order), co-hosts Stepstone and Cintrifuse
+  Capital (new) and Blue North (a role added); no sponsor website is linked by the site, so `url` is null.
+- faqs: the 19 Know Before You Go questions, topic = the page's heading.
+- stays: `hotel-covington` gains `room_block` with `label: "recommended hotel"` (the booking link; no rate, dates or deadline
+  are published).
+

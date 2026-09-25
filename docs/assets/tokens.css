@@ -132,9 +132,11 @@
   --shape-circle: circle(50% at 50% 50%);
   --shape-diamond: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
   --shape-hexagon: polygon(25% 3%, 75% 3%, 100% 50%, 75% 97%, 25% 97%, 0 50%);
+  --shape-octagon: polygon(29% 0, 71% 0, 100% 29%, 100% 71%, 71% 100%, 29% 100%, 0 71%, 0 29%);
   --prog-caw-letter: "A";       --prog-caw-shape: var(--shape-square);
   --prog-scw-letter: "S";       --prog-scw-shape: var(--shape-circle);
   --prog-blink-letter: "B";     --prog-blink-shape: var(--shape-diamond);
+  --prog-brandfusion-letter: "BF"; --prog-brandfusion-shape: var(--shape-octagon);
   --prog-fotofocus-letter: "F"; --prog-fotofocus-shape: var(--shape-hexagon);
   --prog-also-letter: "&";      --prog-also-shape: var(--shape-hexagon);
 
@@ -228,6 +230,12 @@
   --prog-blink-on: #ffffff;
   --prog-blink-tint: #e6e9f8;
   --prog-blink-edge: #2747c6;
+  /* Brand Fusion (added Sep 25): olive, clear of the other four lines, river green and the warning amber */
+  --prog-brandfusion: #66700a;
+  --prog-brandfusion-ink: #545c06;
+  --prog-brandfusion-on: #ffffff;
+  --prog-brandfusion-tint: #ecedcf;
+  --prog-brandfusion-edge: #66700a;
   --prog-fotofocus: #c6cacd;
   --prog-fotofocus-ink: #50575e;
   --prog-fotofocus-on: #1c1a17;
@@ -332,6 +340,11 @@
   --prog-blink-on: #1f1d19;
   --prog-blink-tint: #212a4a;
   --prog-blink-edge: #86a4fc;
+  --prog-brandfusion: #b7c24a;
+  --prog-brandfusion-ink: #c3cd63;
+  --prog-brandfusion-on: #1f1d19;
+  --prog-brandfusion-tint: #2e3117;
+  --prog-brandfusion-edge: #b7c24a;
   --prog-fotofocus: #e1e4e6;
   --prog-fotofocus-ink: #d5d9dc;
   --prog-fotofocus-on: #1f1d19;
@@ -441,6 +454,11 @@
     --prog-blink-on: #1f1d19;
     --prog-blink-tint: #212a4a;
     --prog-blink-edge: #86a4fc;
+    --prog-brandfusion: #b7c24a;
+    --prog-brandfusion-ink: #c3cd63;
+    --prog-brandfusion-on: #1f1d19;
+    --prog-brandfusion-tint: #2e3117;
+    --prog-brandfusion-edge: #b7c24a;
     --prog-fotofocus: #e1e4e6;
     --prog-fotofocus-ink: #d5d9dc;
     --prog-fotofocus-on: #1f1d19;

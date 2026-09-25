@@ -4,7 +4,7 @@
 
 **Cincinnati's first week of October 2026 in one guide: Art Week, StartupCincy Week, BLINK and the FotoFocus Biennial, every entry linked to its source.**
 
-An independent visitor's guide to Cincinnati Art Week (Oct 3–10), StartupCincy Week (Oct 5–8), BLINK (Oct 8–11), the FotoFocus Biennial (Sep 30–Nov 1) and other happenings that week. It covers 364 events, 373 people, 79 artworks and 108 venues, plus where to stay and how to get around. During the week it shows what is on now.
+An independent visitor's guide to Cincinnati Art Week (Oct 3–10), StartupCincy Week (Oct 5–8), BLINK (Oct 8–11), the FotoFocus Biennial (Sep 30–Nov 1), Brand Fusion (Oct 6–7) and other happenings that week. It covers 375 events, 373 people, 92 artworks, installations and attractions, and 109 venues, plus where to stay and how to get around. During the week it shows what is on now.
 
 [**Live site**](https://fritzhand.github.io/cincy-week/) · [**The Week**](https://fritzhand.github.io/cincy-week/schedule.html) · [**Thursday, Oct 8**](https://fritzhand.github.io/cincy-week/schedule.html?day=2026-10-08) · [**Map**](https://fritzhand.github.io/cincy-week/map.html) · [**BLINK art**](https://fritzhand.github.io/cincy-week/art.html?p=blink) · [**People**](https://fritzhand.github.io/cincy-week/people.html) · [**Where to stay**](https://fritzhand.github.io/cincy-week/stay.html)
 
