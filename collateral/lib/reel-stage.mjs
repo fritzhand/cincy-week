@@ -1,7 +1,7 @@
 /* ============================================================
    collateral/lib/reel-stage.mjs — the machinery under collateral/build-reel.mjs.
 
-   A 1080×1920 stage (540×960 css px at device scale 2) served next to docs/, rendered frame by
+   A 1080×1920 stage (in output pixels) served next to docs/, rendered frame by
    frame by Playwright on a frozen clock: every frame is a pure function of its time, and the
    site's own clock (installed in the browser) advances one frame per frame, so the real site in
    the phone shows its during-the-week states and moves with the video.
@@ -19,7 +19,8 @@ import fs from "node:fs";
 import path from "node:path";
 import { execFileSync } from "node:child_process";
 
-export const FPS = 30, W = 1080, H = 1920, CSS_W = 540, CSS_H = 960, DPR = W / CSS_W;
+// the stage is laid out in output pixels (1080×1920 css px at device scale 1): a plan's coordinates apply as written
+export const FPS = 30, W = 1080, H = 1920, CSS_W = 1080, CSS_H = 1920, DPR = W / CSS_W;
 export const SAFE = { x0: 64 / DPR, x1: 940 / DPR, y0: 250 / DPR, y1: 1480 / DPR };
 
 export const FFMPEG = process.env.FFMPEG || (() => { try { return execFileSync("python3", ["-c", "import imageio_ffmpeg as f;print(f.get_ffmpeg_exe())"]).toString().trim(); } catch { return "ffmpeg"; } })();
@@ -82,8 +83,10 @@ export const TAP_HTML = `<div class="tap" id="tap"><div class="ring"></div><div 
 export const TAP_JS = `window.drawTap=(tp)=>{const el=document.getElementById("tap");if(!tp){el.style.display="none";return;}const p=tp.p;el.style.display="block";el.style.left=tp.x+"px";el.style.top=tp.y+"px";const dot=el.querySelector(".dot"),ring=el.querySelector(".ring");const press=p<.35?out(p/.35):1,fade=p<.55?1:1-(p-.55)/.45;dot.style.opacity=String(fade);dot.style.transform="scale("+(1.15-.2*press)+")";const r=20+46*out(Math.max(0,(p-.2)/.8));ring.style.width=ring.style.height=2*r+"px";ring.style.left=ring.style.top=-r+"px";ring.style.opacity=String(Math.max(0,.9-p)*(p>.2?1:0));};`;
 
 /* ---------- the per-frame audits (run in the page) ---------- */
-// settled = fully opaque (every ancestor's opacity multiplied) and in the same place, at the same size, as on the previous frame
-export const AUDIT_JS = `window.__prev=new Map();window.audit=()=>{const S=${JSON.stringify(SAFE)};const out=[],seen=new Map();for(const el of document.querySelectorAll("[data-read]")){let e=el,op=1,hidden=false;while(e&&e.nodeType===1){const cs=getComputedStyle(e);if(cs.display==="none"||cs.visibility==="hidden"){hidden=true;break;}op*=parseFloat(cs.opacity);e=e.parentElement;}if(hidden||op<.02)continue;const r=el.getBoundingClientRect();const id=el.dataset.id||el.textContent.trim().slice(0,48);const key=[r.left,r.top,r.width,r.height].map((v)=>Math.round(v*4)/4).join(",");const still=window.__prev.get(id)===key;seen.set(id,key);const inSafe=r.left>=S.x0-.5&&r.right<=S.x1+.5&&r.top>=S.y0-.5&&r.bottom<=S.y1+.5;const cs=getComputedStyle(el);out.push({id,words:+el.dataset.read,settled:op>.985&&still,zone:el.dataset.zone||"",safe:inSafe,box:[Math.round(r.left*2),Math.round(r.top*2),Math.round(r.right*2),Math.round(r.bottom*2)],px:Math.round(parseFloat(cs.fontSize)*2)});}window.__prev=seen;return out;};`;
+// settled = fully opaque (every ancestor's opacity multiplied), in the same place and size as on the previous frame, and not
+// marked data-busy="1" (itself or an ancestor: a count still running, words still being set). Boxes are the text's own
+// extent (the union of its text nodes' line boxes), not its container's, so a centred line in a full-width box is measured as set.
+export const AUDIT_JS = `window.__prev=new Map();window.audit=()=>{const S=${JSON.stringify(SAFE)};const out=[],seen=new Map();for(const el of document.querySelectorAll("[data-read]")){let e=el,op=1,hidden=false,busy=false;while(e&&e.nodeType===1){const cs=getComputedStyle(e);if(cs.display==="none"||cs.visibility==="hidden"){hidden=true;break;}op*=parseFloat(cs.opacity);if(e.dataset&&e.dataset.busy==="1")busy=true;e=e.parentElement;}if(hidden||op<.02)continue;let x0=1e9,y0=1e9,x1=-1e9,y1=-1e9;const tw=document.createTreeWalker(el,NodeFilter.SHOW_TEXT);const rg=document.createRange();for(let n=tw.nextNode();n;n=tw.nextNode()){if(!n.textContent.trim())continue;rg.selectNodeContents(n);for(const q of rg.getClientRects()){if(q.width<.5)continue;x0=Math.min(x0,q.left);y0=Math.min(y0,q.top);x1=Math.max(x1,q.right);y1=Math.max(y1,q.bottom);}}const r={left:x0,top:y0,right:x1,bottom:y1,width:x1-x0,height:y1-y0};const id=el.dataset.id||el.textContent.trim().slice(0,48);const key=[r.left,r.top,r.width,r.height].map((v)=>Math.round(v*4)/4).join(",");const still=window.__prev.get(id)===key;seen.set(id,key);const inSafe=r.left>=S.x0-.5&&r.right<=S.x1+.5&&r.top>=S.y0-.5&&r.bottom<=S.y1+.5;const cs=getComputedStyle(el);out.push({id,words:+el.dataset.read,settled:op>.985&&still&&!busy,zone:el.dataset.zone||"",safe:inSafe,box:[Math.round(r.left*${DPR}),Math.round(r.top*${DPR}),Math.round(r.right*${DPR}),Math.round(r.bottom*${DPR})],px:Math.round(parseFloat(cs.fontSize)*${DPR})});}window.__prev=seen;return out;};`;
 
 /** Reading-time and safe-zone report from the per-frame audit samples. */
 export function auditReport(samples, fps = FPS) {

@@ -22,13 +22,19 @@ export function rng(seed = 1) {
 
 /* ---------- filters (RBJ biquads, per-sample settable) ---------- */
 export class Biquad {
-  constructor(type = "lp", f = 1000, q = 0.707) { this.type = type; this.x1 = this.x2 = this.y1 = this.y2 = 0; this.set(f, q); }
+  constructor(type = "lp", f = 1000, q = 0.707, db = 0) { this.type = type; this.db = db; this.x1 = this.x2 = this.y1 = this.y2 = 0; this.set(f, q); }
   set(f, q = this.q) {
     this.f = f; this.q = q;
     const w = (TAU * Math.min(f, SR * 0.45)) / SR, c = Math.cos(w), s = Math.sin(w), al = s / (2 * q);
     let b0, b1, b2, a0, a1, a2;
     if (this.type === "lp") { b0 = (1 - c) / 2; b1 = 1 - c; b2 = (1 - c) / 2; }
     else if (this.type === "hp") { b0 = (1 + c) / 2; b1 = -(1 + c); b2 = (1 + c) / 2; }
+    else if (this.type === "hs") {                            // high shelf (RBJ, S = 1), gain in dB from this.db
+      const A = Math.pow(10, (this.db || 0) / 40), sa = 2 * Math.sqrt(A) * (s / 2) * Math.SQRT2;
+      b0 = A * ((A + 1) + (A - 1) * c + sa); b1 = -2 * A * ((A - 1) + (A + 1) * c); b2 = A * ((A + 1) + (A - 1) * c - sa);
+      a0 = (A + 1) - (A - 1) * c + sa; a1 = 2 * ((A - 1) - (A + 1) * c); a2 = (A + 1) - (A - 1) * c - sa;
+      this.b0 = b0 / a0; this.b1 = b1 / a0; this.b2 = b2 / a0; this.a1 = a1 / a0; this.a2 = a2 / a0; return;
+    }
     else { b0 = al; b1 = 0; b2 = -al; }                       // "bp": constant 0 dB peak gain
     a0 = 1 + al; a1 = -2 * c; a2 = 1 - al;
     this.b0 = b0 / a0; this.b1 = b1 / a0; this.b2 = b2 / a0; this.a1 = a1 / a0; this.a2 = a2 / a0;
@@ -63,7 +69,7 @@ export const I = {
   },
   clap({ vel = 1, seed = 3 } = {}) {
     const n = Math.round(SR * 0.5), o = new Float32Array(n), R = rng(seed);
-    const bp = new Biquad("bp", 1250, 0.9), hp = new Biquad("hp", 650, 0.7);
+    const bp = new Biquad("bp", 1700, 0.8), hp = new Biquad("hp", 700, 0.7);
     for (let i = 0; i < n; i++) {
       const t = i / SR;
       let e = 0; for (const k of [0, 0.011, 0.022]) if (t >= k) e = Math.max(e, expDecay(t - k, 0.007));
@@ -75,7 +81,7 @@ export const I = {
   hat({ vel = 1, open = false, seed = 11 } = {}) {
     const len = open ? 0.36 : 0.07, n = Math.round(SR * len), o = new Float32Array(n), R = rng(seed);
     const hp = new Biquad("hp", 7200, 0.8), lp = new Biquad("lp", 12500, 0.6);   // dark hats: nothing spiky
-    for (let i = 0; i < n; i++) { const t = i / SR; o[i] = lp.run(hp.run(R())) * expDecay(t, open ? 0.09 : 0.016) * 0.55 * vel; }
+    for (let i = 0; i < n; i++) { const t = i / SR; o[i] = lp.run(hp.run(R())) * expDecay(t, open ? 0.1 : 0.03) * 0.8 * vel; }
     return o;
   },
   shaker({ vel = 1, seed = 19 } = {}) {
@@ -101,17 +107,18 @@ export const I = {
       pm += (TAU * f) / SR; pt += (TAU * f * 7.02) / SR;
       const idx = (0.35 + 1.9 * expDecay(t, 0.22)) * bright;
       pc += (TAU * f) / SR;
-      const v = Math.sin(pc + idx * Math.sin(pm)) + 0.06 * Math.sin(pt) * expDecay(t, 0.05);
+      const v = Math.sin(pc + idx * Math.sin(pm)) + 0.14 * bright * Math.sin(pt) * expDecay(t, 0.07);
       o[i] = v * adsr(t, { a: 0.003, d: 1.1, s: 0.12, hold: dur, r: 0.35 }) * 0.32 * vel;
     }
     return o;
   },
   /** warm pad: three detuned saws, low-passed, slow attack */
-  pad({ midi, dur, vel = 1, cutoff = 1300 }) {
+  pad({ midi, dur, vel = 1, cutoff = 1300, cutoffTo = null, sweep = 1 }) {
     const f = mtof(midi), n = Math.round(SR * (dur + 1.2)), o = new Float32Array(n);
     const oscs = [sawOsc(f * 0.9965, 0.1), sawOsc(f, 0.43), sawOsc(f * 1.0035, 0.77)], lp = new Biquad("lp", cutoff, 0.6);
     for (let i = 0; i < n; i++) {
       const t = i / SR, e = adsr(t, { a: 0.35, d: 2.5, s: 0.8, hold: dur, r: 1.0 });
+      if (cutoffTo && i % 64 === 0) lp.set(cutoff * Math.pow(cutoffTo / cutoff, Math.min(1, t / sweep)), 0.6);   // the low-pass opening
       o[i] = lp.run((oscs[0]() + oscs[1]() + oscs[2]()) / 3) * e * 0.22 * vel;
     }
     return o;
@@ -129,7 +136,7 @@ export const I = {
   pluck({ midi, dur = 0.25, vel = 1 }) {
     const f = mtof(midi), n = Math.round(SR * (dur + 0.6)), o = new Float32Array(n), saw = sawOsc(f), lp = new Biquad("lp", 2400, 0.8); let ph = 0;
     for (let i = 0; i < n; i++) {
-      const t = i / SR; ph += (TAU * f) / SR; lp.set(700 + 3200 * expDecay(t, 0.06), 0.8);
+      const t = i / SR; ph += (TAU * f) / SR; lp.set(1100 + 5200 * expDecay(t, 0.07), 0.8);
       o[i] = (lp.run(saw()) * 0.55 + Math.sin(ph) * 0.45) * adsr(t, { a: 0.002, d: 0.22, s: 0.15, hold: dur, r: 0.25 }) * 0.3 * vel;
     }
     return o;
@@ -231,9 +238,10 @@ export function mix(score) {
     }
   }
   const [wl, wr] = reverb(sendL, sendR, score.room || {});
-  // master: add the room, then a 30 Hz high-pass (phones can't play below it and it only eats headroom)
+  // master: add the room, then a 30 Hz high-pass (phones can't play below it and it only eats headroom) and an optional high shelf
   const mhL = new Biquad("hp", 30, 0.7), mhR = new Biquad("hp", 30, 0.7);
-  for (let i = 0; i < N; i++) { outL[i] = mhL.run(outL[i] + wl[i]); outR[i] = mhR.run(outR[i] + wr[i]); }
+  const shelf = score.presence ?? 0, hsL = new Biquad("hs", score.presenceHz || 3000, 0.7, shelf), hsR = new Biquad("hs", score.presenceHz || 3000, 0.7, shelf);   // presence
+  for (let i = 0; i < N; i++) { outL[i] = hsL.run(mhL.run(outL[i] + wl[i])); outR[i] = hsR.run(mhR.run(outR[i] + wr[i])); }
   // bus compressor (feed-forward, RMS, 2:1 over -16 dBFS) and a soft ceiling
   let env = 0; const att = Math.exp(-1 / (0.012 * SR)), rel = Math.exp(-1 / (0.15 * SR)), thr = Math.pow(10, -16 / 20);
   for (let i = 0; i < N; i++) {

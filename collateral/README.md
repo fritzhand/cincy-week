@@ -8,6 +8,7 @@ site by [`build-cards.mjs`](./build-cards.mjs). Post copy and card order are in 
 | [`linkedin-2026-09/`](./linkedin-2026-09/) | Eight 1080×1350 cards and `cincy-week-carousel.pdf` (the same eight as a document post) | [`CAPTION.md`](./linkedin-2026-09/CAPTION.md) |
 | [`instagram-2026-09/`](./instagram-2026-09/) | Six 1080×1350 carousel cards and three 1080×1920 Stories | [`caption.md`](./instagram-2026-09/caption.md) |
 | [`video-2026-09/`](./video-2026-09/) | A 32-second walkthrough on a phone: `cincy-week-walkthrough-9x16.mp4` (Reels, Stories, LinkedIn) and `-4x5.mp4` (feed posts), with poster frames | [`README.md`](./video-2026-09/README.md) |
+| [`reel-2026-09/`](./reel-2026-09/) | *The Interchange*, a 22-second Reel made the [/brag](https://github.com/latent-spaces/brag) way, with an original score: `cincy-week-reel-9x16.mp4` and `cover-9x16.jpg` | [`share-copy.txt`](./reel-2026-09/share-copy.txt), [`README.md`](./reel-2026-09/README.md) |
 
 Each folder has an `alt-text.md` written by the build, one entry per image.
 
