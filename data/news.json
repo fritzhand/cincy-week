@@ -18,6 +18,78 @@
     "date_source": "google-news-pubdate"
   },
   {
+    "id": "the-cincinnati-enquirer-2026-10-02-blink-cancels-booth-for-group-tied-to-kroger-protests",
+    "title": "Blink cancels booth for group tied to Kroger protests",
+    "source": "The Cincinnati Enquirer",
+    "sourceTier": null,
+    "date": "2026-10-02",
+    "url": "https://www.cincinnati.com/story/news/2026/10/02/blink-cancels-booth-for-group-tied-to-kroger-protests/92057096007/",
+    "programs": [
+      "blink"
+    ],
+    "summary": null,
+    "tags": [],
+    "gnId": "CBMitgFBVV95cUxOVzE5YUJDYzBaaE5rYW5WdHhaTWhMV1gtMlp4NWJYSGRMT18yMGtQTXlyTXE1RjdHakcxa1VQblFtdGFaOEJrWHhYQUlrZS1rS3F1OFI4WlJuVDBEREJYT3YxZWY5UEtSODhITEJIcHg2bzh1bkVhV3QwdUQzaUU4eHRPanJKLXQ2ckp4NGI4ekVXWHRBN2g2aDFWaUFIbXJZbE55RE9sN05jTHk3a1JYZG5UYS1rZw",
+    "image_url": null,
+    "author": null,
+    "kind": "news",
+    "date_source": "google-news-pubdate"
+  },
+  {
+    "id": "wcpo-9-2026-10-02-cincy-alert-launches-ahead-of-blink",
+    "title": "Cincy Alert launches ahead of BLINK",
+    "source": "WCPO 9",
+    "sourceTier": null,
+    "date": "2026-10-02",
+    "url": "https://www.wcpo.com/news/local-news/cincy-alert-launches-ahead-of-blink",
+    "programs": [
+      "blink"
+    ],
+    "summary": null,
+    "tags": [],
+    "gnId": "CBMifEFVX3lxTE04SThheWpfc1pEWHdsR2UzT2EteEZKZVUxUE0wa1lmeXFsUHZucjk2UHhpeHFINmdCd2VDMy0wVVlKdU51dHJvUTZyZ0dadEEtNzBsTVhzNGZXRkFjYWE4M1lLYVA4T3RrX3VKd01ZN2JtSDRCQTNud01yU2E",
+    "image_url": null,
+    "author": null,
+    "kind": "news",
+    "date_source": "google-news-pubdate"
+  },
+  {
+    "id": "wlwt-2026-10-02-immersive-experience-to-bring-charley-edie-harper-s-work-to",
+    "title": "Immersive experience to bring Charley & Edie Harper's work to life during BLINK",
+    "source": "WLWT",
+    "sourceTier": null,
+    "date": "2026-10-02",
+    "url": "https://www.wlwt.com/article/immersive-experience-charley-edie-harper-blink/73998666",
+    "programs": [
+      "blink"
+    ],
+    "summary": null,
+    "tags": [],
+    "gnId": "CBMijAFBVV95cUxNb2JYUUpqQWJhWXN2RkVFRXRyY3ExcnBCcWthTS1OREFmd0FjSE5SZGQydk1ubXFIYXQyNktYcy1rVlFoeFdPdDlJc0VKNVBBNVZQcXRkNXpVT1Y4RkpUSHUwWXl0Ykk5aHZXVFZsX2dBcElnVkpJSW5DUnZfTkRBZWFOeEtpM2FhSm4xTw",
+    "image_url": null,
+    "author": null,
+    "kind": "news",
+    "date_source": "google-news-pubdate"
+  },
+  {
+    "id": "fox19-now-wxix-2026-10-02-officials-urge-blink-attendees-to-sign-up-for-cincyalert-ahe",
+    "title": "Officials urge BLINK attendees to sign up for CincyAlert ahead of festival",
+    "source": "FOX19 NOW (WXIX)",
+    "sourceTier": null,
+    "date": "2026-10-02",
+    "url": "https://www.fox19.com/2026/10/02/officials-urge-blink-attendees-sign-up-cincyalert-ahead-festival/",
+    "programs": [
+      "blink"
+    ],
+    "summary": null,
+    "tags": [],
+    "gnId": "CBMinwFBVV95cUxPQXJVZVlmVm9YUWJqdEFnV3Q5NG9NRE85UHplc1ZkZGJwMWxpbVN4OUdSRThmYkdSX3pDdFIzcXBiX2ZuXzZ3RHFLN2l1cXU2dEdHMG1GeDRRb191NlUxVDlKRGtCOUQ5di15YXBXczNudUUtNXBuSldxQVBiSFFSSlhDU0I0RXYxMGlOVzBXTGU1c1pfVnNBaTZULWFGWDDSAbMBQVVfeXFMTlhJV3NZbUpUTjVfbDZNSzNxc1dqOFFTYV83UEZOQS02Z2trRjhmTUU3RG40YldjWXF2aUJKVXU0RExCSHdDQS1GY1lfcUFkdW5LSjVVcGlDblpMR0tWckJCQm9oMThobFU0S0FPMFdzbU1fMmt2bmZnXzVXZTNGRmtDUDdQLTNxa2ZPaU4zYzlVQXU0YXZrMWRSVFFDUU5LWkdhQ1BzdGVlVEtvQ29HSjFrZXM",
+    "image_url": null,
+    "author": null,
+    "kind": "news",
+    "date_source": "google-news-pubdate"
+  },
+  {
     "id": "cincinnati-citybeat-2026-10-02-what-s-new-and-notable-at-this-year-s-blink",
     "title": "What’s new and notable at this year’s BLINK",
     "source": "Cincinnati CityBeat",
@@ -85,6 +157,24 @@
     "summary": null,
     "tags": [],
     "gnId": "CBMimAFBVV95cUxPeUhvZTN5SG4xQUdQd0J1TnNPN0VFaXNwejRZNFdlcU41WWxvNVZhNFdIeWszcDR2NXFTT01VU3A0RWRvM18yeEctVVVJR3dmYjNkTTZvLXB6cV92WWkxYV9uSHZxQ0IyN2lSaGVGaGtaSUs0QVJ1NXlOQmNma3JzLXFwMGxZbVAzTkhIQ1FuVzN0THA1U1RCeg",
+    "image_url": null,
+    "author": null,
+    "kind": "news",
+    "date_source": "google-news-pubdate"
+  },
+  {
+    "id": "wlwt-2026-10-01-blink-announces-headline-band-for-festival-s-opening-night-c",
+    "title": "BLINK announces headline band for festival's opening night celebration",
+    "source": "WLWT",
+    "sourceTier": null,
+    "date": "2026-10-01",
+    "url": "https://www.wlwt.com/article/blink-festival-headliner-lovelytheband-opening-night/73983973",
+    "programs": [
+      "blink"
+    ],
+    "summary": null,
+    "tags": [],
+    "gnId": "CBMilAFBVV95cUxNR1g0NHZNTzRFSS1hVkVTemRBamtaMmtCdWRwazJRLWtxOC1OaUtMMjU0cnZxSjhaaVlXYktRa05UcHVOZ3ZDd1lEMVZwSV9vaUlzV1N0RnUzeVF0UFNsenJ2UVNhZWRGTGlfVzMyU1RURjRGUVR4M0ZPYk81b3ZSR3lvVTVRcUxta3BZNVNsR2RwX0VP",
     "image_url": null,
     "author": null,
     "kind": "news",
