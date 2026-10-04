@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://fritzhand.github.io/cincy-week/sitemap.xml
