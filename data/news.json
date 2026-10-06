@@ -54,6 +54,42 @@
     "date_source": "google-news-pubdate"
   },
   {
+    "id": "cincinnati-magazine-2026-10-06-get-ready-to-blink-with-leslie-mooney",
+    "title": "Get Ready to BLINK With Leslie Mooney",
+    "source": "Cincinnati Magazine",
+    "sourceTier": null,
+    "date": "2026-10-06",
+    "url": "https://www.cincinnatimagazine.com/article/get-ready-to-blink-with-leslie-mooney/",
+    "programs": [
+      "blink"
+    ],
+    "summary": null,
+    "tags": [],
+    "gnId": "CBMiiAFBVV95cUxPX3VjN2VaQnM1b2lPcGE0dGhIdkVfNHRXNTJqdll4Tk9MOFIzYUdPTjV1aHpvdXlPSHJNOUhpN2xYR05SLTlURGZNdkpiY2NCdEM1MERYZ1ZvYW5qeVJTeF9ZQ25WeklJUGxqczBmMWVHMVpGNHNPdWJod25JNWZTd1BqS0c0N2tO",
+    "image_url": null,
+    "author": null,
+    "kind": "news",
+    "date_source": "google-news-pubdate"
+  },
+  {
+    "id": "link-nky-2026-10-06-your-guide-to-blink-attractions-special-events-street-closur",
+    "title": "Your guide to BLINK: attractions, special events street closures and more",
+    "source": "LINK nky",
+    "sourceTier": null,
+    "date": "2026-10-06",
+    "url": "https://linknky.com/culture/2026/10/06/your-guide-to-blink-2026/",
+    "programs": [
+      "blink"
+    ],
+    "summary": null,
+    "tags": [],
+    "gnId": "CBMickFVX3lxTE43RmFVaXphNDBIUTBzT09GVFJGME5wRldDMzFVSHVDbVVXczAtN1JQYWYzLWY1WU95LUx5bVYwaHJ3NGJSRTBxb0Z5VG1yT21Bdk1pOFNqMmdpRXE3Z3VHTE5YVE1VZFFfTi1oRjNhMTlJZw",
+    "image_url": null,
+    "author": null,
+    "kind": "news",
+    "date_source": "google-news-pubdate"
+  },
+  {
     "id": "wcpo-9-2026-10-05-beyond-the-bridge-nku-students-unveil-tank-bus-installation",
     "title": "'Beyond the Bridge': NKU students unveil TANK bus installation for BLINK 2026",
     "source": "WCPO 9",
