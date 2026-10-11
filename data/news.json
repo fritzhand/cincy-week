@@ -18,6 +18,42 @@
     "date_source": "google-news-pubdate"
   },
   {
+    "id": "the-cincinnati-enquirer-2026-10-10-blink-plans-saturday-adjustments-as-rain-arrives-in-cin",
+    "title": "Blink plans Saturday adjustments as rain arrives in Cincinnati",
+    "source": "The Cincinnati Enquirer",
+    "sourceTier": null,
+    "date": "2026-10-10",
+    "url": "https://www.cincinnati.com/story/weather/2026/10/10/will-rain-affect-blink-cincinnati-isaias-remnants-reach-downtown/92193764007/",
+    "programs": [
+      "blink"
+    ],
+    "summary": null,
+    "tags": [],
+    "gnId": "CBMiyAFBVV95cUxQZndyOVNDTEEyV0dUUlFwLUVVbXMtZ0twSHY3ZEN4aWZJRTExRi1pTTRNdFVkdS02aEUwRjVNZEFkV2IzNFpSeXpsMkpjTlJiRUx2Rk9OSXRNZERmZ2RwTDlQT05va0xZWU95MThJMEdVWktRSU5EQkZRVnI4NzR0TlFzQmMtdVZnUU9Ubl95eVprbWJreVJWOC1OaUJrZVR6Mk54UnF6b3V1MW1hX3l2LWx0aXdrM3NqV2JTd19hd3FQZlhLNU1XQg",
+    "image_url": null,
+    "author": null,
+    "kind": "news",
+    "date_source": "google-news-pubdate"
+  },
+  {
+    "id": "wcpo-9-2026-10-10-update-lights-go-on-rain-or-shine-for-blink-experiences-as-t",
+    "title": "UPDATE: Lights go on, rain or shine, for BLINK experiences, as the majority to remain open",
+    "source": "WCPO 9",
+    "sourceTier": null,
+    "date": "2026-10-10",
+    "url": "https://www.wcpo.com/news/local-news/hundreds-pack-cincinnati-and-northern-kentucky-for-blink-night-two-with-drone-shows-painting-the-ohio-river-sky",
+    "programs": [
+      "blink"
+    ],
+    "summary": null,
+    "tags": [],
+    "gnId": "CBMi4gFBVV95cUxNN2RHUWd5NEs0cVVTODVjMXVkcVcybFlheGN5YThHNGxpdktlaWU2R0VwSS1zTlVyQU44N3llZXNHbkVrdk1vSmtJOUhCaGlwQU9jMkt0WFNjdWRZMmItVVJWbkRDQXdnQlZHYVlSZEdvMGJYYlZZVEFlV2g0SUN3d0FSZDdWTU9uaEJnMENRMTFfelBYWVM4V2hJNnlTYy11V2Z1dHZycWl5TVY2bGxoZ3VvQW5mdG11N2FsV3V4VTNUQXpyU1ZfcERLalVmaGJkbVFpRHI4YVhkcjVDems1SlVn",
+    "image_url": null,
+    "author": null,
+    "kind": "news",
+    "date_source": "google-news-pubdate"
+  },
+  {
     "id": "spectrum-news-1-2026-10-09-blink-lights-up-part-of-ohio-with-work-from-over-90-artists",
     "title": "'BLINK' lights up part of Ohio with work from over 90 artists",
     "source": "Spectrum News 1",
